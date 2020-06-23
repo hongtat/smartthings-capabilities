@@ -1,0 +1,29 @@
+{
+    "id": "gasDetector",
+    "version": 1,
+    "status": "proposed",
+    "name": "Gas Detector",
+    "attributes": {
+        "gas": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "clear",
+                            "detected",
+                            "tested"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": []
+}

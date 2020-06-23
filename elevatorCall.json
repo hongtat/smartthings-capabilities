@@ -1,0 +1,33 @@
+{
+    "id": "elevatorCall",
+    "version": 1,
+    "status": "proposed",
+    "name": "Elevator Call",
+    "attributes": {
+        "callStatus": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "called",
+                            "standby",
+                            "unknown"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "call": {
+            "arguments": []
+        }
+    }
+}

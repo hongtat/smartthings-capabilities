@@ -1,0 +1,21 @@
+{
+    "id": "speechSynthesis",
+    "version": 1,
+    "status": "proposed",
+    "name": "Speech Synthesis",
+    "attributes": [],
+    "commands": {
+        "speak": {
+            "arguments": [
+                {
+                    "name": "phrase",
+                    "optional": false,
+                    "schema": {
+                        "type": "string",
+                        "maxLength": 1000
+                    }
+                }
+            ]
+        }
+    }
+}

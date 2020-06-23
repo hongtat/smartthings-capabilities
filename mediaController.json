@@ -1,0 +1,56 @@
+{
+    "id": "mediaController",
+    "version": 1,
+    "status": "proposed",
+    "name": "Media Controller",
+    "attributes": {
+        "activities": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "JsonObject",
+                        "type": "object"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "currentActivity": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "String",
+                        "type": "string",
+                        "maxLength": 255
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "startActivity": {
+            "arguments": [
+                {
+                    "name": "activityId",
+                    "optional": false,
+                    "schema": {
+                        "title": "String",
+                        "type": "string",
+                        "maxLength": 255
+                    }
+                }
+            ]
+        }
+    }
+}

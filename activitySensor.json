@@ -1,0 +1,33 @@
+{
+    "id": "activitySensor",
+    "version": 1,
+    "status": "proposed",
+    "name": "Activity Sensor",
+    "attributes": {
+        "activity": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "ActivityType",
+                        "type": "string",
+                        "enum": [
+                            "noActivity",
+                            "falling",
+                            "lying",
+                            "sitting",
+                            "standing",
+                            "eating"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": []
+}

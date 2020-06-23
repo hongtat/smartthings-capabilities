@@ -1,0 +1,112 @@
+{
+    "id": "tV",
+    "version": 1,
+    "status": "live",
+    "name": "TV",
+    "attributes": {
+        "channel": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "PositiveInteger",
+                        "type": "integer",
+                        "minimum": 0
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
+        "movieMode": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "String",
+                        "type": "string",
+                        "maxLength": 255
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
+        "picture": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "String",
+                        "type": "string",
+                        "maxLength": 255
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
+        "power": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "String",
+                        "type": "string",
+                        "maxLength": 255
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
+        "sound": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "String",
+                        "type": "string",
+                        "maxLength": 255
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
+        "volume": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "PositiveInteger",
+                        "type": "integer",
+                        "minimum": 0
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "channelDown": {
+            "arguments": []
+        },
+        "channelUp": {
+            "arguments": []
+        },
+        "volumeDown": {
+            "arguments": []
+        },
+        "volumeUp": {
+            "arguments": []
+        }
+    }
+}

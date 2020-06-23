@@ -1,0 +1,109 @@
+{
+    "id": "mediaPlayback",
+    "version": 1,
+    "status": "proposed",
+    "name": "Media Playback",
+    "attributes": {
+        "playbackStatus": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "paused",
+                            "playing",
+                            "stopped",
+                            "fast forwarding",
+                            "rewinding"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "setter": "setPlaybackStatus",
+            "enumCommands": [
+                {
+                    "command": "play",
+                    "value": "playing"
+                },
+                {
+                    "command": "pause",
+                    "value": "paused"
+                },
+                {
+                    "command": "stop",
+                    "value": "stopped"
+                },
+                {
+                    "command": "fastForward",
+                    "value": "fast forwarding"
+                },
+                {
+                    "command": "rewind",
+                    "value": "rewinding"
+                }
+            ]
+        },
+        "supportedPlaybackCommands": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "title": "MediaPlaybackCommands",
+                            "type": "string",
+                            "enum": [
+                                "pause",
+                                "play",
+                                "stop",
+                                "fastForward",
+                                "rewind"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setPlaybackStatus": {
+            "arguments": [
+                {
+                    "name": "status",
+                    "optional": false,
+                    "schema": {
+                        "type": "string",
+                        "enum": [
+                            "paused",
+                            "playing",
+                            "stopped",
+                            "fast forwarding",
+                            "rewinding"
+                        ]
+                    }
+                }
+            ]
+        },
+        "play": {
+            "arguments": []
+        },
+        "pause": {
+            "arguments": []
+        },
+        "stop": {
+            "arguments": []
+        },
+        "fastForward": {
+            "arguments": []
+        },
+        "rewind": {
+            "arguments": []
+        }
+    }
+}

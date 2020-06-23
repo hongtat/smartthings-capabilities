@@ -1,0 +1,30 @@
+{
+    "id": "temperatureAlarm",
+    "version": 1,
+    "status": "live",
+    "name": "Temperature Alarm",
+    "attributes": {
+        "temperatureAlarm": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "cleared",
+                            "freeze",
+                            "heat",
+                            "rateOfRise"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": []
+}

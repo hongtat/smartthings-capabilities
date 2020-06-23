@@ -1,0 +1,73 @@
+{
+    "id": "windowShade",
+    "version": 1,
+    "status": "live",
+    "name": "Window Shade",
+    "attributes": {
+        "windowShade": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "OpenableState",
+                        "type": "string",
+                        "enum": [
+                            "closed",
+                            "closing",
+                            "open",
+                            "opening",
+                            "partially open",
+                            "unknown"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": [
+                {
+                    "command": "close",
+                    "value": "closed"
+                },
+                {
+                    "command": "open",
+                    "value": "open"
+                }
+            ]
+        },
+        "supportedWindowShadeCommands": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "enum": [
+                                "open",
+                                "close",
+                                "pause"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "close": {
+            "arguments": []
+        },
+        "open": {
+            "arguments": []
+        },
+        "pause": {
+            "arguments": []
+        }
+    }
+}

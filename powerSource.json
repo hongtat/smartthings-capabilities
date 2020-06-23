@@ -1,0 +1,30 @@
+{
+    "id": "powerSource",
+    "version": 1,
+    "status": "live",
+    "name": "Power Source",
+    "attributes": {
+        "powerSource": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "battery",
+                            "dc",
+                            "mains",
+                            "unknown"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": []
+}

@@ -1,0 +1,96 @@
+{
+    "id": "soundDetection",
+    "version": 1,
+    "status": "proposed",
+    "name": "Sound Detection",
+    "attributes": {
+        "soundDetectionState": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "EnableState",
+                        "type": "string",
+                        "enum": [
+                            "enabled",
+                            "disabled"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": [
+                {
+                    "command": "enableSoundDetection",
+                    "value": "enabled"
+                },
+                {
+                    "command": "disableSoundDetection",
+                    "value": "disabled"
+                }
+            ]
+        },
+        "soundDetected": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "DetectedSoundType",
+                        "type": "string",
+                        "enum": [
+                            "noSound",
+                            "babyCrying",
+                            "glassBreaking",
+                            "fireAlarm",
+                            "dogBarking",
+                            "catMeowing"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "supportedSoundTypes": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "title": "DetectedSoundType",
+                            "type": "string",
+                            "enum": [
+                                "noSound",
+                                "babyCrying",
+                                "glassBreaking",
+                                "fireAlarm",
+                                "dogBarking",
+                                "catMeowing"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "enableSoundDetection": {
+            "arguments": []
+        },
+        "disableSoundDetection": {
+            "arguments": []
+        }
+    }
+}

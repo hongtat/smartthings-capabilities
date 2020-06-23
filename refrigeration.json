@@ -1,0 +1,109 @@
+{
+    "id": "refrigeration",
+    "version": 1,
+    "status": "live",
+    "name": "Refrigeration",
+    "attributes": {
+        "rapidCooling": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "off",
+                            "on"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "setter": "setRapidCooling",
+            "enumCommands": []
+        },
+        "rapidFreezing": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "off",
+                            "on"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "setter": "setRapidFreezing",
+            "enumCommands": []
+        },
+        "defrost": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "off",
+                            "on"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "setter": "setDefrost",
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setRapidCooling": {
+            "arguments": [
+                {
+                    "name": "rapidCooling",
+                    "optional": false,
+                    "schema": {
+                        "type": "string",
+                        "enum": [
+                            "off",
+                            "on"
+                        ]
+                    }
+                }
+            ]
+        },
+        "setRapidFreezing": {
+            "arguments": [
+                {
+                    "name": "rapidCooling",
+                    "optional": false,
+                    "schema": {
+                        "type": "string",
+                        "enum": [
+                            "off",
+                            "on"
+                        ]
+                    }
+                }
+            ]
+        },
+        "setDefrost": {
+            "arguments": [
+                {
+                    "name": "rapidCooling",
+                    "optional": false,
+                    "schema": {
+                        "type": "string",
+                        "enum": [
+                            "off",
+                            "on"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

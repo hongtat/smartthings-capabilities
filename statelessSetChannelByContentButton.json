@@ -1,0 +1,20 @@
+{
+    "id": "statelessSetChannelByContentButton",
+    "version": 1,
+    "status": "proposed",
+    "name": "Stateless Set Channel By Content Button",
+    "attributes": [],
+    "commands": {
+        "setChannelByContent": {
+            "arguments": [
+                {
+                    "name": "contentName",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                }
+            ]
+        }
+    }
+}

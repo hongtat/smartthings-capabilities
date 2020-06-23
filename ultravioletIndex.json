@@ -1,0 +1,26 @@
+{
+    "id": "ultravioletIndex",
+    "version": 1,
+    "status": "live",
+    "name": "Ultraviolet Index",
+    "attributes": {
+        "ultravioletIndex": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "number",
+                        "minimum": 0,
+                        "maximum": 255
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": []
+}

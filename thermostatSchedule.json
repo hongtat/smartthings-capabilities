@@ -1,0 +1,37 @@
+{
+    "id": "thermostatSchedule",
+    "version": 1,
+    "status": "deprecated",
+    "name": "Thermostat Schedule",
+    "attributes": {
+        "schedule": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "JsonObject",
+                        "type": "object"
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "setter": "setSchedule",
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setSchedule": {
+            "arguments": [
+                {
+                    "name": "schedule",
+                    "optional": false,
+                    "schema": {
+                        "title": "JsonObject",
+                        "type": "object"
+                    }
+                }
+            ]
+        }
+    }
+}

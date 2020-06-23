@@ -1,0 +1,32 @@
+{
+    "id": "videoStream",
+    "version": 1,
+    "status": "live",
+    "name": "Video Stream",
+    "attributes": {
+        "stream": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "JsonObject",
+                        "type": "object"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "startStream": {
+            "arguments": []
+        },
+        "stopStream": {
+            "arguments": []
+        }
+    }
+}

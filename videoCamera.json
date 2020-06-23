@@ -1,0 +1,111 @@
+{
+    "id": "videoCamera",
+    "version": 1,
+    "status": "live",
+    "name": "Video Camera",
+    "attributes": {
+        "camera": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "off",
+                            "on",
+                            "restarting",
+                            "unavailable"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": [
+                {
+                    "command": "on",
+                    "value": "on"
+                },
+                {
+                    "command": "off",
+                    "value": "off"
+                }
+            ]
+        },
+        "mute": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "MuteState",
+                        "type": "string",
+                        "enum": [
+                            "muted",
+                            "unmuted"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": [
+                {
+                    "command": "mute",
+                    "value": "muted"
+                },
+                {
+                    "command": "unmute",
+                    "value": "unmuted"
+                }
+            ]
+        },
+        "settings": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "JsonObject",
+                        "type": "object"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "statusMessage": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "String",
+                        "type": "string",
+                        "maxLength": 255
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "flip": {
+            "arguments": []
+        },
+        "mute": {
+            "arguments": []
+        },
+        "off": {
+            "arguments": []
+        },
+        "on": {
+            "arguments": []
+        },
+        "unmute": {
+            "arguments": []
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "id": "beacon",
+    "version": 1,
+    "status": "deprecated",
+    "name": "Beacon",
+    "attributes": {
+        "presence": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "PresenceState",
+                        "type": "string",
+                        "enum": [
+                            "present",
+                            "not present"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": []
+}

@@ -1,0 +1,281 @@
+{
+    "id": "lockCodes",
+    "version": 1,
+    "status": "proposed",
+    "name": "Lock Codes",
+    "attributes": {
+        "codeChanged": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "String",
+                        "type": "string",
+                        "maxLength": 255
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
+        "codeReport": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "JsonObject",
+                        "type": "object"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "lockCodes": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "String",
+                        "type": "string",
+                        "maxLength": 255
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
+        "scanCodes": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "String",
+                        "type": "string",
+                        "maxLength": 255
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
+        "codeLength": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "PositiveInteger",
+                        "type": "integer",
+                        "minimum": 0
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "setter": "setCodeLength",
+            "enumCommands": []
+        },
+        "maxCodes": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "PositiveInteger",
+                        "type": "integer",
+                        "minimum": 0
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
+        "maxCodeLength": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "PositiveInteger",
+                        "type": "integer",
+                        "minimum": 0
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
+        "minCodeLength": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "PositiveInteger",
+                        "type": "integer",
+                        "minimum": 0
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
+        "lock": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "LockState",
+                        "type": "string",
+                        "enum": [
+                            "locked",
+                            "unknown",
+                            "unlocked",
+                            "unlocked with timeout"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": [
+                {
+                    "command": "lock",
+                    "value": "locked"
+                },
+                {
+                    "command": "unlock",
+                    "value": "unlocked"
+                },
+                {
+                    "command": "unlockWithTimeout",
+                    "value": "unlocked with timeout"
+                }
+            ]
+        }
+    },
+    "commands": {
+        "updateCodes": {
+            "arguments": [
+                {
+                    "name": "codes",
+                    "optional": false,
+                    "schema": {
+                        "title": "JsonObject",
+                        "type": "object"
+                    }
+                }
+            ]
+        },
+        "deleteCode": {
+            "arguments": [
+                {
+                    "name": "codeSlot",
+                    "optional": false,
+                    "schema": {
+                        "title": "PositiveInteger",
+                        "type": "integer",
+                        "minimum": 0
+                    }
+                }
+            ]
+        },
+        "lock": {
+            "arguments": []
+        },
+        "reloadAllCodes": {
+            "arguments": []
+        },
+        "requestCode": {
+            "arguments": [
+                {
+                    "name": "codeSlot",
+                    "optional": false,
+                    "schema": {
+                        "title": "PositiveInteger",
+                        "type": "integer",
+                        "minimum": 0
+                    }
+                }
+            ]
+        },
+        "setCode": {
+            "arguments": [
+                {
+                    "name": "codeSlot",
+                    "optional": false,
+                    "schema": {
+                        "title": "PositiveInteger",
+                        "type": "integer",
+                        "minimum": 0
+                    }
+                },
+                {
+                    "name": "codePIN",
+                    "optional": false,
+                    "schema": {
+                        "title": "String",
+                        "type": "string",
+                        "maxLength": 255
+                    }
+                },
+                {
+                    "name": "codeName",
+                    "optional": false,
+                    "schema": {
+                        "title": "String",
+                        "type": "string",
+                        "maxLength": 255
+                    }
+                }
+            ]
+        },
+        "unlock": {
+            "arguments": []
+        },
+        "unlockWithTimeout": {
+            "arguments": []
+        },
+        "setCodeLength": {
+            "arguments": [
+                {
+                    "name": "length",
+                    "optional": false,
+                    "schema": {
+                        "title": "PositiveInteger",
+                        "type": "integer",
+                        "minimum": 0
+                    }
+                }
+            ]
+        },
+        "nameSlot": {
+            "arguments": [
+                {
+                    "name": "codeSlot",
+                    "optional": false,
+                    "schema": {
+                        "title": "PositiveInteger",
+                        "type": "integer",
+                        "minimum": 0
+                    }
+                },
+                {
+                    "name": "codeName",
+                    "optional": false,
+                    "schema": {
+                        "title": "String",
+                        "type": "string",
+                        "maxLength": 255
+                    }
+                }
+            ]
+        }
+    }
+}

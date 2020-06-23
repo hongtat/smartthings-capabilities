@@ -1,0 +1,52 @@
+{
+    "id": "thermostatCoolingSetpoint",
+    "version": 1,
+    "status": "live",
+    "name": "Thermostat Cooling Setpoint",
+    "attributes": {
+        "coolingSetpoint": {
+            "schema": {
+                "title": "Temperature",
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "TemperatureValue",
+                        "type": "number",
+                        "minimum": -460,
+                        "maximum": 10000
+                    },
+                    "unit": {
+                        "type": "string",
+                        "enum": [
+                            "F",
+                            "C"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value",
+                    "unit"
+                ]
+            },
+            "setter": "setCoolingSetpoint",
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setCoolingSetpoint": {
+            "arguments": [
+                {
+                    "name": "setpoint",
+                    "optional": false,
+                    "schema": {
+                        "title": "TemperatureValue",
+                        "type": "number",
+                        "minimum": -460,
+                        "maximum": 10000
+                    }
+                }
+            ]
+        }
+    }
+}

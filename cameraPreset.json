@@ -1,0 +1,129 @@
+{
+    "id": "cameraPreset",
+    "version": 1,
+    "status": "proposed",
+    "name": "Camera Preset",
+    "attributes": {
+        "presets": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "title": "Camera Preset",
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                                "name": {
+                                    "type": "string"
+                                },
+                                "id": {
+                                    "type": "string"
+                                },
+                                "data": {
+                                    "title": "JsonObject",
+                                    "type": "object"
+                                }
+                            },
+                            "required": [
+                                "name",
+                                "id",
+                                "data"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "execute": {
+            "arguments": [
+                {
+                    "name": "id",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                }
+            ]
+        },
+        "create": {
+            "arguments": [
+                {
+                    "name": "name",
+                    "optional": false,
+                    "schema": {
+                        "title": "String",
+                        "type": "string",
+                        "maxLength": 255
+                    }
+                },
+                {
+                    "name": "id",
+                    "optional": true,
+                    "schema": {
+                        "title": "String",
+                        "type": "string",
+                        "maxLength": 255
+                    }
+                },
+                {
+                    "name": "data",
+                    "optional": true,
+                    "schema": {
+                        "title": "JsonObject",
+                        "type": "object"
+                    }
+                }
+            ]
+        },
+        "delete": {
+            "arguments": [
+                {
+                    "name": "id",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                }
+            ]
+        },
+        "update": {
+            "arguments": [
+                {
+                    "name": "id",
+                    "optional": false,
+                    "schema": {
+                        "title": "String",
+                        "type": "string",
+                        "maxLength": 255
+                    }
+                },
+                {
+                    "name": "name",
+                    "optional": true,
+                    "schema": {
+                        "title": "String",
+                        "type": "string",
+                        "maxLength": 255
+                    }
+                },
+                {
+                    "name": "data",
+                    "optional": true,
+                    "schema": {
+                        "title": "JsonObject",
+                        "type": "object"
+                    }
+                }
+            ]
+        }
+    }
+}

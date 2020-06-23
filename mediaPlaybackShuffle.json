@@ -1,0 +1,45 @@
+{
+    "id": "mediaPlaybackShuffle",
+    "version": 1,
+    "status": "proposed",
+    "name": "Media Playback Shuffle",
+    "attributes": {
+        "playbackShuffle": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "disabled",
+                            "enabled"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setPlaybackShuffle",
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setPlaybackShuffle": {
+            "arguments": [
+                {
+                    "name": "shuffle",
+                    "optional": false,
+                    "schema": {
+                        "type": "string",
+                        "enum": [
+                            "disabled",
+                            "enabled"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

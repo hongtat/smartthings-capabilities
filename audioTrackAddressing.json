@@ -1,0 +1,21 @@
+{
+    "id": "audioTrackAddressing",
+    "version": 1,
+    "status": "proposed",
+    "name": "Audio Track Addressing",
+    "attributes": [],
+    "commands": {
+        "setAudioTrack": {
+            "arguments": [
+                {
+                    "name": "trackToSet",
+                    "optional": false,
+                    "schema": {
+                        "title": "AudioTrackAddress",
+                        "type": "object"
+                    }
+                }
+            ]
+        }
+    }
+}

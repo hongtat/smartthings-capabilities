@@ -1,0 +1,62 @@
+{
+    "id": "audioMute",
+    "version": 1,
+    "status": "live",
+    "name": "Audio Mute",
+    "attributes": {
+        "mute": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "MuteState",
+                        "type": "string",
+                        "enum": [
+                            "muted",
+                            "unmuted"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setMute",
+            "enumCommands": [
+                {
+                    "command": "mute",
+                    "value": "muted"
+                },
+                {
+                    "command": "unmute",
+                    "value": "unmuted"
+                }
+            ]
+        }
+    },
+    "commands": {
+        "setMute": {
+            "arguments": [
+                {
+                    "name": "state",
+                    "optional": false,
+                    "schema": {
+                        "title": "MuteState",
+                        "type": "string",
+                        "enum": [
+                            "muted",
+                            "unmuted"
+                        ]
+                    }
+                }
+            ]
+        },
+        "mute": {
+            "arguments": []
+        },
+        "unmute": {
+            "arguments": []
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "id": "bridge",
+    "version": 1,
+    "status": "deprecated",
+    "name": "Bridge",
+    "attributes": [],
+    "commands": []
+}

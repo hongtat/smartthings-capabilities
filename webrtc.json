@@ -1,0 +1,91 @@
+{
+    "id": "webrtc",
+    "version": 1,
+    "status": "proposed",
+    "name": "webrtc",
+    "attributes": {
+        "sdpAnswer": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                            "id": {
+                                "type": "string"
+                            },
+                            "sdp": {
+                                "type": "string"
+                            },
+                            "turn_url": {
+                                "type": "string"
+                            },
+                            "turn_user": {
+                                "type": "string"
+                            },
+                            "turn_pwd": {
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "id",
+                            "sdp"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "talkback": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "boolean"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "sdpOffer": {
+            "arguments": [
+                {
+                    "name": "id",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                },
+                {
+                    "name": "sdp",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                }
+            ]
+        },
+        "end": {
+            "arguments": [
+                {
+                    "name": "id",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                }
+            ]
+        }
+    }
+}

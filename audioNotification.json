@@ -1,0 +1,75 @@
+{
+    "id": "audioNotification",
+    "version": 1,
+    "status": "live",
+    "name": "Audio Notification",
+    "attributes": [],
+    "commands": {
+        "playTrack": {
+            "arguments": [
+                {
+                    "name": "uri",
+                    "optional": false,
+                    "schema": {
+                        "title": "URI",
+                        "type": "string",
+                        "format": "uri"
+                    }
+                },
+                {
+                    "name": "level",
+                    "optional": true,
+                    "schema": {
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 100
+                    }
+                }
+            ]
+        },
+        "playTrackAndResume": {
+            "arguments": [
+                {
+                    "name": "uri",
+                    "optional": false,
+                    "schema": {
+                        "title": "URI",
+                        "type": "string",
+                        "format": "uri"
+                    }
+                },
+                {
+                    "name": "level",
+                    "optional": true,
+                    "schema": {
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 100
+                    }
+                }
+            ]
+        },
+        "playTrackAndRestore": {
+            "arguments": [
+                {
+                    "name": "uri",
+                    "optional": false,
+                    "schema": {
+                        "title": "URI",
+                        "type": "string",
+                        "format": "uri"
+                    }
+                },
+                {
+                    "name": "level",
+                    "optional": true,
+                    "schema": {
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 100
+                    }
+                }
+            ]
+        }
+    }
+}

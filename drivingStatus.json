@@ -1,0 +1,28 @@
+{
+    "id": "drivingStatus",
+    "version": 1,
+    "status": "proposed",
+    "name": "Driving Status",
+    "attributes": {
+        "drivingStatus": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "driving",
+                            "notDriving"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": []
+}

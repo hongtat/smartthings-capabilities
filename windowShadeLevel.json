@@ -1,0 +1,66 @@
+{
+    "id": "windowShadeLevel",
+    "version": 1,
+    "status": "proposed",
+    "name": "Window Shade Level",
+    "attributes": {
+        "shadeLevel": {
+            "schema": {
+                "title": "IntegerPercent",
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 100
+                    },
+                    "unit": {
+                        "type": "string",
+                        "enum": [
+                            "%"
+                        ],
+                        "default": "%"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setShadeLevel",
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setShadeLevel": {
+            "arguments": [
+                {
+                    "name": "shadeLevel",
+                    "optional": false,
+                    "schema": {
+                        "title": "IntegerPercent",
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                            "value": {
+                                "type": "integer",
+                                "minimum": 0,
+                                "maximum": 100
+                            },
+                            "unit": {
+                                "type": "string",
+                                "enum": [
+                                    "%"
+                                ],
+                                "default": "%"
+                            }
+                        },
+                        "required": [
+                            "value"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "id": "notification",
+    "version": 1,
+    "status": "live",
+    "name": "Notification",
+    "attributes": [],
+    "commands": {
+        "deviceNotification": {
+            "arguments": [
+                {
+                    "name": "notification",
+                    "optional": false,
+                    "schema": {
+                        "title": "String",
+                        "type": "string",
+                        "maxLength": 255
+                    }
+                }
+            ]
+        }
+    }
+}

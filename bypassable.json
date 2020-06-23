@@ -1,0 +1,30 @@
+{
+    "id": "bypassable",
+    "version": 1,
+    "status": "live",
+    "name": "Bypassable",
+    "attributes": {
+        "bypassStatus": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "BypassState",
+                        "type": "string",
+                        "enum": [
+                            "ready",
+                            "notReady",
+                            "bypassed"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": []
+}

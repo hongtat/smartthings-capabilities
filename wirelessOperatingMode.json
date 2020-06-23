@@ -1,0 +1,45 @@
+{
+    "id": "wirelessOperatingMode",
+    "version": 1,
+    "status": "proposed",
+    "name": "Wireless Operating Mode",
+    "attributes": {
+        "wirelessOperatingMode": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "whenNeeded",
+                            "alwaysOn"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setWirelessOperatingMode",
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setWirelessOperatingMode": {
+            "arguments": [
+                {
+                    "name": "wirelessOperatingMode",
+                    "optional": false,
+                    "schema": {
+                        "type": "string",
+                        "enum": [
+                            "whenNeeded",
+                            "alwaysOn"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

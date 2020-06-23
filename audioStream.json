@@ -1,0 +1,31 @@
+{
+    "id": "audioStream",
+    "version": 1,
+    "status": "live",
+    "name": "Audio Stream",
+    "attributes": {
+        "uri": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "URI",
+                        "type": "string",
+                        "format": "uri"
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "startAudio": {
+            "arguments": []
+        },
+        "stopAudio": {
+            "arguments": []
+        }
+    }
+}

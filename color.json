@@ -1,0 +1,76 @@
+{
+    "id": "color",
+    "version": 1,
+    "status": "proposed",
+    "name": "Color",
+    "attributes": {
+        "colorValue": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                            "hue": {
+                                "type": "number",
+                                "minimum": 0,
+                                "maximum": 360
+                            },
+                            "saturation": {
+                                "type": "number",
+                                "minimum": 0,
+                                "maximum": 100
+                            }
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setColorValue",
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setColorValue": {
+            "arguments": [
+                {
+                    "name": "colorValue",
+                    "optional": false,
+                    "schema": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                            "hue": {
+                                "type": "number",
+                                "minimum": 0,
+                                "maximum": 360
+                            },
+                            "saturation": {
+                                "type": "number",
+                                "minimum": 0,
+                                "maximum": 100
+                            }
+                        },
+                        "required": [
+                            "hue",
+                            "saturation"
+                        ]
+                    }
+                },
+                {
+                    "name": "switchLevel",
+                    "optional": true,
+                    "schema": {
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 100
+                    }
+                }
+            ]
+        }
+    }
+}

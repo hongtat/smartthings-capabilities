@@ -1,0 +1,45 @@
+{
+    "id": "statelessPowerButton",
+    "version": 1,
+    "status": "live",
+    "name": "Stateless Power Button",
+    "attributes": {
+        "availablePowerButtons": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "enum": [
+                                "powerOn",
+                                "powerOff"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setButton": {
+            "arguments": [
+                {
+                    "name": "button",
+                    "optional": false,
+                    "schema": {
+                        "type": "string",
+                        "enum": [
+                            "powerOn",
+                            "powerOff"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

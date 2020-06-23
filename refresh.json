@@ -1,0 +1,12 @@
+{
+    "id": "refresh",
+    "version": 1,
+    "status": "live",
+    "name": "Refresh",
+    "attributes": [],
+    "commands": {
+        "refresh": {
+            "arguments": []
+        }
+    }
+}

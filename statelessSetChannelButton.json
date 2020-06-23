@@ -1,0 +1,20 @@
+{
+    "id": "statelessSetChannelButton",
+    "version": 1,
+    "status": "proposed",
+    "name": "Stateless Set Channel Button",
+    "attributes": [],
+    "commands": {
+        "setChannel": {
+            "arguments": [
+                {
+                    "name": "channel",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                }
+            ]
+        }
+    }
+}

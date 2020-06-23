@@ -1,0 +1,33 @@
+{
+    "id": "energyMeter",
+    "version": 1,
+    "status": "live",
+    "name": "Energy Meter",
+    "attributes": {
+        "energy": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "number"
+                    },
+                    "unit": {
+                        "type": "string",
+                        "enum": [
+                            "Wh",
+                            "kWh",
+                            "mWh"
+                        ],
+                        "default": "kWh"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": []
+}

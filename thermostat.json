@@ -1,0 +1,651 @@
+{
+    "id": "thermostat",
+    "version": 1,
+    "status": "deprecated",
+    "name": "Thermostat",
+    "attributes": {
+        "coolingSetpoint": {
+            "schema": {
+                "title": "Temperature",
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "TemperatureValue",
+                        "type": "number",
+                        "minimum": -460,
+                        "maximum": 10000
+                    },
+                    "unit": {
+                        "type": "string",
+                        "enum": [
+                            "F",
+                            "C"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value",
+                    "unit"
+                ]
+            },
+            "setter": "setCoolingSetpoint",
+            "enumCommands": []
+        },
+        "coolingSetpointRange": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": [
+                            {
+                                "title": "TemperatureValue",
+                                "type": "number",
+                                "minimum": -460,
+                                "maximum": 10000
+                            },
+                            {
+                                "title": "TemperatureValue",
+                                "type": "number",
+                                "minimum": -460,
+                                "maximum": 10000
+                            }
+                        ],
+                        "minItems": 2,
+                        "maxItems": 2
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "heatingSetpoint": {
+            "schema": {
+                "title": "Temperature",
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "TemperatureValue",
+                        "type": "number",
+                        "minimum": -460,
+                        "maximum": 10000
+                    },
+                    "unit": {
+                        "type": "string",
+                        "enum": [
+                            "F",
+                            "C"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value",
+                    "unit"
+                ]
+            },
+            "setter": "setHeatingSetpoint",
+            "enumCommands": []
+        },
+        "heatingSetpointRange": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": [
+                            {
+                                "title": "TemperatureValue",
+                                "type": "number",
+                                "minimum": -460,
+                                "maximum": 10000
+                            },
+                            {
+                                "title": "TemperatureValue",
+                                "type": "number",
+                                "minimum": -460,
+                                "maximum": 10000
+                            }
+                        ],
+                        "minItems": 2,
+                        "maxItems": 2
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "schedule": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "JsonObject",
+                        "type": "object"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setSchedule",
+            "enumCommands": []
+        },
+        "temperature": {
+            "schema": {
+                "title": "Temperature",
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "TemperatureValue",
+                        "type": "number",
+                        "minimum": -460,
+                        "maximum": 10000
+                    },
+                    "unit": {
+                        "type": "string",
+                        "enum": [
+                            "F",
+                            "C"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value",
+                    "unit"
+                ]
+            },
+            "enumCommands": []
+        },
+        "thermostatFanMode": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "ThermostatFanMode",
+                        "type": "string",
+                        "enum": [
+                            "auto",
+                            "circulate",
+                            "followschedule",
+                            "on"
+                        ]
+                    },
+                    "data": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "required": [],
+                        "properties": {
+                            "supportedThermostatFanModes": {
+                                "type": "array",
+                                "items": {
+                                    "title": "ThermostatFanMode",
+                                    "type": "string",
+                                    "enum": [
+                                        "auto",
+                                        "circulate",
+                                        "followschedule",
+                                        "on"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setThermostatFanMode",
+            "enumCommands": [
+                {
+                    "command": "fanAuto",
+                    "value": "auto"
+                },
+                {
+                    "command": "fanCirculate",
+                    "value": "circulate"
+                },
+                {
+                    "command": "fanOn",
+                    "value": "on"
+                }
+            ]
+        },
+        "supportedThermostatFanModes": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "title": "ThermostatFanMode",
+                            "type": "string",
+                            "enum": [
+                                "auto",
+                                "circulate",
+                                "followschedule",
+                                "on"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
+        "thermostatMode": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "ThermostatMode",
+                        "type": "string",
+                        "enum": [
+                            "asleep",
+                            "auto",
+                            "autowitheco",
+                            "autowithreset",
+                            "autochangeover",
+                            "autochangeoveractive",
+                            "autocool",
+                            "autoheat",
+                            "auxheatonly",
+                            "auxiliaryemergencyheat",
+                            "away",
+                            "cool",
+                            "custom",
+                            "dayoff",
+                            "dryair",
+                            "eco",
+                            "emergency heat",
+                            "emergencyheat",
+                            "emergencyheatactive",
+                            "energysavecool",
+                            "energysaveheat",
+                            "fanonly",
+                            "frostguard",
+                            "furnace",
+                            "heat",
+                            "heatingoff",
+                            "home",
+                            "in",
+                            "manual",
+                            "moistair",
+                            "off",
+                            "out",
+                            "resume",
+                            "rush hour",
+                            "rushhour",
+                            "schedule",
+                            "southernaway"
+                        ]
+                    },
+                    "data": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "required": [],
+                        "properties": {
+                            "supportedThermostatModes": {
+                                "type": "array",
+                                "items": {
+                                    "title": "ThermostatMode",
+                                    "type": "string",
+                                    "enum": [
+                                        "asleep",
+                                        "auto",
+                                        "autowitheco",
+                                        "autowithreset",
+                                        "autochangeover",
+                                        "autochangeoveractive",
+                                        "autocool",
+                                        "autoheat",
+                                        "auxheatonly",
+                                        "auxiliaryemergencyheat",
+                                        "away",
+                                        "cool",
+                                        "custom",
+                                        "dayoff",
+                                        "dryair",
+                                        "eco",
+                                        "emergency heat",
+                                        "emergencyheat",
+                                        "emergencyheatactive",
+                                        "energysavecool",
+                                        "energysaveheat",
+                                        "fanonly",
+                                        "frostguard",
+                                        "furnace",
+                                        "heat",
+                                        "heatingoff",
+                                        "home",
+                                        "in",
+                                        "manual",
+                                        "moistair",
+                                        "off",
+                                        "out",
+                                        "resume",
+                                        "rush hour",
+                                        "rushhour",
+                                        "schedule",
+                                        "southernaway"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setThermostatMode",
+            "enumCommands": [
+                {
+                    "command": "auto",
+                    "value": "auto"
+                },
+                {
+                    "command": "cool",
+                    "value": "cool"
+                },
+                {
+                    "command": "emergencyHeat",
+                    "value": "emergency heat"
+                },
+                {
+                    "command": "heat",
+                    "value": "heat"
+                },
+                {
+                    "command": "off",
+                    "value": "off"
+                }
+            ]
+        },
+        "supportedThermostatModes": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "title": "ThermostatMode",
+                            "type": "string",
+                            "enum": [
+                                "asleep",
+                                "auto",
+                                "autowitheco",
+                                "autowithreset",
+                                "autochangeover",
+                                "autochangeoveractive",
+                                "autocool",
+                                "autoheat",
+                                "auxheatonly",
+                                "auxiliaryemergencyheat",
+                                "away",
+                                "cool",
+                                "custom",
+                                "dayoff",
+                                "dryair",
+                                "eco",
+                                "emergency heat",
+                                "emergencyheat",
+                                "emergencyheatactive",
+                                "energysavecool",
+                                "energysaveheat",
+                                "fanonly",
+                                "frostguard",
+                                "furnace",
+                                "heat",
+                                "heatingoff",
+                                "home",
+                                "in",
+                                "manual",
+                                "moistair",
+                                "off",
+                                "out",
+                                "resume",
+                                "rush hour",
+                                "rushhour",
+                                "schedule",
+                                "southernaway"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
+        "thermostatOperatingState": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "ThermostatOperatingState",
+                        "type": "string",
+                        "enum": [
+                            "cooling",
+                            "fan only",
+                            "heating",
+                            "idle",
+                            "pending cool",
+                            "pending heat",
+                            "vent economizer"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "thermostatSetpoint": {
+            "schema": {
+                "title": "Temperature",
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "TemperatureValue",
+                        "type": "number",
+                        "minimum": -460,
+                        "maximum": 10000
+                    },
+                    "unit": {
+                        "type": "string",
+                        "enum": [
+                            "F",
+                            "C"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value",
+                    "unit"
+                ]
+            },
+            "enumCommands": []
+        },
+        "thermostatSetpointRange": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": [
+                            {
+                                "title": "TemperatureValue",
+                                "type": "number",
+                                "minimum": -460,
+                                "maximum": 10000
+                            },
+                            {
+                                "title": "TemperatureValue",
+                                "type": "number",
+                                "minimum": -460,
+                                "maximum": 10000
+                            }
+                        ],
+                        "minItems": 2,
+                        "maxItems": 2
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "auto": {
+            "arguments": []
+        },
+        "cool": {
+            "arguments": []
+        },
+        "emergencyHeat": {
+            "arguments": []
+        },
+        "fanAuto": {
+            "arguments": []
+        },
+        "fanCirculate": {
+            "arguments": []
+        },
+        "fanOn": {
+            "arguments": []
+        },
+        "heat": {
+            "arguments": []
+        },
+        "off": {
+            "arguments": []
+        },
+        "setCoolingSetpoint": {
+            "arguments": [
+                {
+                    "name": "setpoint",
+                    "optional": false,
+                    "schema": {
+                        "title": "TemperatureValue",
+                        "type": "number",
+                        "minimum": -460,
+                        "maximum": 10000
+                    }
+                }
+            ]
+        },
+        "setHeatingSetpoint": {
+            "arguments": [
+                {
+                    "name": "setpoint",
+                    "optional": false,
+                    "schema": {
+                        "title": "TemperatureValue",
+                        "type": "number",
+                        "minimum": -460,
+                        "maximum": 10000
+                    }
+                }
+            ]
+        },
+        "setSchedule": {
+            "arguments": [
+                {
+                    "name": "schedule",
+                    "optional": false,
+                    "schema": {
+                        "title": "JsonObject",
+                        "type": "object"
+                    }
+                }
+            ]
+        },
+        "setThermostatFanMode": {
+            "arguments": [
+                {
+                    "name": "fanmode",
+                    "optional": false,
+                    "schema": {
+                        "title": "ThermostatFanMode",
+                        "type": "string",
+                        "enum": [
+                            "auto",
+                            "circulate",
+                            "followschedule",
+                            "on"
+                        ]
+                    }
+                }
+            ]
+        },
+        "setThermostatMode": {
+            "arguments": [
+                {
+                    "name": "mode",
+                    "optional": false,
+                    "schema": {
+                        "title": "ThermostatMode",
+                        "type": "string",
+                        "enum": [
+                            "asleep",
+                            "auto",
+                            "autowitheco",
+                            "autowithreset",
+                            "autochangeover",
+                            "autochangeoveractive",
+                            "autocool",
+                            "autoheat",
+                            "auxheatonly",
+                            "auxiliaryemergencyheat",
+                            "away",
+                            "cool",
+                            "custom",
+                            "dayoff",
+                            "dryair",
+                            "eco",
+                            "emergency heat",
+                            "emergencyheat",
+                            "emergencyheatactive",
+                            "energysavecool",
+                            "energysaveheat",
+                            "fanonly",
+                            "frostguard",
+                            "furnace",
+                            "heat",
+                            "heatingoff",
+                            "home",
+                            "in",
+                            "manual",
+                            "moistair",
+                            "off",
+                            "out",
+                            "resume",
+                            "rush hour",
+                            "rushhour",
+                            "schedule",
+                            "southernaway"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

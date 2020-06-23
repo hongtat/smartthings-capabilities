@@ -1,0 +1,29 @@
+{
+    "id": "contactSensor",
+    "version": 1,
+    "status": "live",
+    "name": "Contact Sensor",
+    "attributes": {
+        "contact": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "ContactState",
+                        "type": "string",
+                        "enum": [
+                            "closed",
+                            "open"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": []
+}

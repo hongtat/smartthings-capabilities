@@ -1,0 +1,60 @@
+{
+    "id": "fanOscillationMode",
+    "version": 1,
+    "status": "proposed",
+    "name": "Fan Oscillation Mode",
+    "attributes": {
+        "fanOscillationMode": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "FanOscillationMode",
+                        "type": "string",
+                        "enum": [
+                            "fixed",
+                            "vertical",
+                            "horizontal",
+                            "all",
+                            "indirect",
+                            "direct",
+                            "fixedCenter",
+                            "fixedLeft",
+                            "fixedRight",
+                            "far"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setFanOscillationMode": {
+            "arguments": [
+                {
+                    "name": "fanOscillationMode",
+                    "optional": false,
+                    "schema": {
+                        "title": "FanOscillationMode",
+                        "type": "string",
+                        "enum": [
+                            "fixed",
+                            "vertical",
+                            "horizontal",
+                            "all",
+                            "indirect",
+                            "direct",
+                            "fixedCenter",
+                            "fixedLeft",
+                            "fixedRight",
+                            "far"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

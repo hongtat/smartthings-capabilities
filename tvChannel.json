@@ -1,0 +1,74 @@
+{
+    "id": "tvChannel",
+    "version": 1,
+    "status": "proposed",
+    "name": "Tv Channel",
+    "attributes": {
+        "tvChannel": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "String",
+                        "type": "string",
+                        "maxLength": 255
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "setter": "setTvChannel",
+            "enumCommands": []
+        },
+        "tvChannelName": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "String",
+                        "type": "string",
+                        "maxLength": 255
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "setter": "setTvChannelName",
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setTvChannel": {
+            "arguments": [
+                {
+                    "name": "tvChannel",
+                    "optional": false,
+                    "schema": {
+                        "title": "String",
+                        "type": "string",
+                        "maxLength": 255
+                    }
+                }
+            ]
+        },
+        "channelUp": {
+            "arguments": []
+        },
+        "channelDown": {
+            "arguments": []
+        },
+        "setTvChannelName": {
+            "arguments": [
+                {
+                    "name": "tvChannelName",
+                    "optional": true,
+                    "schema": {
+                        "title": "String",
+                        "type": "string",
+                        "maxLength": 255
+                    }
+                }
+            ]
+        }
+    }
+}

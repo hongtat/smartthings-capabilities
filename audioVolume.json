@@ -1,0 +1,55 @@
+{
+    "id": "audioVolume",
+    "version": 1,
+    "status": "live",
+    "name": "Audio Volume",
+    "attributes": {
+        "volume": {
+            "schema": {
+                "title": "IntegerPercent",
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 100
+                    },
+                    "unit": {
+                        "type": "string",
+                        "enum": [
+                            "%"
+                        ],
+                        "default": "%"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setVolume",
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setVolume": {
+            "arguments": [
+                {
+                    "name": "volume",
+                    "optional": false,
+                    "schema": {
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 100
+                    }
+                }
+            ]
+        },
+        "volumeUp": {
+            "arguments": []
+        },
+        "volumeDown": {
+            "arguments": []
+        }
+    }
+}

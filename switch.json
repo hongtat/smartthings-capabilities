@@ -1,0 +1,45 @@
+{
+    "id": "switch",
+    "version": 1,
+    "status": "live",
+    "name": "Switch",
+    "attributes": {
+        "switch": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "SwitchState",
+                        "type": "string",
+                        "enum": [
+                            "on",
+                            "off"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": [
+                {
+                    "command": "on",
+                    "value": "on"
+                },
+                {
+                    "command": "off",
+                    "value": "off"
+                }
+            ]
+        }
+    },
+    "commands": {
+        "off": {
+            "arguments": []
+        },
+        "on": {
+            "arguments": []
+        }
+    }
+}

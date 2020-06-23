@@ -1,0 +1,57 @@
+{
+    "id": "airConditionerMode",
+    "version": 1,
+    "status": "proposed",
+    "name": "Air Conditioner Mode",
+    "attributes": {
+        "airConditionerMode": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "String",
+                        "type": "string",
+                        "maxLength": 255
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setAirConditionerMode",
+            "enumCommands": []
+        },
+        "supportedAcModes": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setAirConditionerMode": {
+            "arguments": [
+                {
+                    "name": "mode",
+                    "optional": false,
+                    "schema": {
+                        "title": "String",
+                        "type": "string",
+                        "maxLength": 255
+                    }
+                }
+            ]
+        }
+    }
+}

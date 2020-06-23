@@ -1,0 +1,8 @@
+{
+    "id": "actuator",
+    "version": 1,
+    "status": "deprecated",
+    "name": "Actuator",
+    "attributes": [],
+    "commands": []
+}

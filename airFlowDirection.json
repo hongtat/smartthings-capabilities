@@ -1,0 +1,48 @@
+{
+    "id": "airFlowDirection",
+    "version": 1,
+    "status": "dead",
+    "name": "Air Flow Direction",
+    "attributes": {
+        "airFlowDirection": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "AirFlowDirection",
+                        "type": "string",
+                        "enum": [
+                            "fixed",
+                            "vertical",
+                            "horizontal",
+                            "all"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setAirFlowDirection": {
+            "arguments": [
+                {
+                    "name": "airFlowDirection",
+                    "optional": false,
+                    "schema": {
+                        "title": "AirFlowDirection",
+                        "type": "string",
+                        "enum": [
+                            "fixed",
+                            "vertical",
+                            "horizontal",
+                            "all"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

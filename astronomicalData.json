@@ -1,0 +1,92 @@
+{
+    "id": "astronomicalData",
+    "version": 1,
+    "status": "dead",
+    "name": "Astronomical Data",
+    "attributes": {
+        "sunrise": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "true"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "sendEvent(sunrise)",
+            "enumCommands": []
+        },
+        "sunset": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "true"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "sendEvent(sunset)",
+            "enumCommands": []
+        },
+        "sunriseTime": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "String",
+                        "type": "string",
+                        "maxLength": 255
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "setter": "sendEvent(sunriseTime)",
+            "enumCommands": []
+        },
+        "sunsetTime": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "String",
+                        "type": "string",
+                        "maxLength": 255
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "setter": "sendEvent(sunsetTime)",
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "sendEvent(sunrise)": {
+            "arguments": []
+        },
+        "sendEvent(sunset)": {
+            "arguments": []
+        },
+        "sendEvent(sunriseTime)": {
+            "arguments": []
+        },
+        "sendEvent(sunsetTime)": {
+            "arguments": []
+        }
+    }
+}

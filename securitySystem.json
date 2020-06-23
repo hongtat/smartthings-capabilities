@@ -1,0 +1,85 @@
+{
+    "id": "securitySystem",
+    "version": 1,
+    "status": "live",
+    "name": "Security System",
+    "attributes": {
+        "securitySystemStatus": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "armedAway",
+                            "armedStay",
+                            "disarmed"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": [
+                {
+                    "command": "armStay",
+                    "value": "armedStay"
+                },
+                {
+                    "command": "armAway",
+                    "value": "armedAway"
+                },
+                {
+                    "command": "disarm",
+                    "value": "disarmed"
+                }
+            ]
+        },
+        "alarm": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "String",
+                        "type": "string",
+                        "maxLength": 255
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "armStay": {
+            "arguments": [
+                {
+                    "name": "bypassAll",
+                    "optional": false,
+                    "schema": {
+                        "type": "boolean"
+                    }
+                }
+            ]
+        },
+        "armAway": {
+            "arguments": [
+                {
+                    "name": "bypassAll",
+                    "optional": false,
+                    "schema": {
+                        "type": "boolean"
+                    }
+                }
+            ]
+        },
+        "disarm": {
+            "arguments": []
+        }
+    }
+}

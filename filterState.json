@@ -1,0 +1,26 @@
+{
+    "id": "filterState",
+    "version": 1,
+    "status": "live",
+    "name": "Filter State",
+    "attributes": {
+        "filterLifeRemaining": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "PositiveInteger",
+                        "type": "integer",
+                        "minimum": 0
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": []
+}

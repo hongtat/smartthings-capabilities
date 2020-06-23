@@ -1,0 +1,57 @@
+{
+    "id": "activityLightingMode",
+    "version": 1,
+    "status": "proposed",
+    "name": "Activity Lighting Mode",
+    "attributes": {
+        "lightingMode": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "reading",
+                            "writing",
+                            "computer",
+                            "night",
+                            "sleepPreparation",
+                            "day",
+                            "cozy",
+                            "soft"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setLightingMode",
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setLightingMode": {
+            "arguments": [
+                {
+                    "name": "lightingMode",
+                    "optional": false,
+                    "schema": {
+                        "type": "string",
+                        "enum": [
+                            "reading",
+                            "writing",
+                            "computer",
+                            "night",
+                            "sleepPreparation",
+                            "day",
+                            "cozy",
+                            "soft"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

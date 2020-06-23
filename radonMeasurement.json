@@ -1,0 +1,32 @@
+{
+    "id": "radonMeasurement",
+    "version": 1,
+    "status": "proposed",
+    "name": "Radon Measurement",
+    "attributes": {
+        "radonLevel": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "number"
+                    },
+                    "unit": {
+                        "type": "string",
+                        "enum": [
+                            "pCi\/L"
+                        ],
+                        "default": "pCi\/L"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value",
+                    "unit"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": []
+}

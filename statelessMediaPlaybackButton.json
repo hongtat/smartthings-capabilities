@@ -1,0 +1,53 @@
+{
+    "id": "statelessMediaPlaybackButton",
+    "version": 1,
+    "status": "proposed",
+    "name": "Stateless Media Playback Button",
+    "attributes": {
+        "availableMediaPlaybackButtons": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "title": "MediaPlaybackCommands",
+                            "type": "string",
+                            "enum": [
+                                "pause",
+                                "play",
+                                "stop",
+                                "fastForward",
+                                "rewind"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setButton": {
+            "arguments": [
+                {
+                    "name": "button",
+                    "optional": false,
+                    "schema": {
+                        "title": "MediaPlaybackCommands",
+                        "type": "string",
+                        "enum": [
+                            "pause",
+                            "play",
+                            "stop",
+                            "fastForward",
+                            "rewind"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

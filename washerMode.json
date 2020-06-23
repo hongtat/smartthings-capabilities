@@ -1,0 +1,51 @@
+{
+    "id": "washerMode",
+    "version": 1,
+    "status": "proposed",
+    "name": "Washer Mode",
+    "attributes": {
+        "washerMode": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "WasherMode",
+                        "type": "string",
+                        "enum": [
+                            "regular",
+                            "heavy",
+                            "rinse",
+                            "spinDry"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setWasherMode",
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setWasherMode": {
+            "arguments": [
+                {
+                    "name": "mode",
+                    "optional": false,
+                    "schema": {
+                        "title": "WasherMode",
+                        "type": "string",
+                        "enum": [
+                            "regular",
+                            "heavy",
+                            "rinse",
+                            "spinDry"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

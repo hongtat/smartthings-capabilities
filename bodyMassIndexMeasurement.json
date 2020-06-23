@@ -1,0 +1,31 @@
+{
+    "id": "bodyMassIndexMeasurement",
+    "version": 1,
+    "status": "proposed",
+    "name": "Body Mass Index Measurement",
+    "attributes": {
+        "bmiMeasurement": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "number"
+                    },
+                    "unit": {
+                        "type": "string",
+                        "enum": [
+                            "kg\/m^2"
+                        ],
+                        "default": "kg\/m^2"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": []
+}

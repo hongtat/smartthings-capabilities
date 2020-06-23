@@ -1,0 +1,12 @@
+{
+    "id": "polling",
+    "version": 1,
+    "status": "deprecated",
+    "name": "Polling",
+    "attributes": [],
+    "commands": {
+        "poll": {
+            "arguments": []
+        }
+    }
+}

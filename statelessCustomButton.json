@@ -1,0 +1,37 @@
+{
+    "id": "statelessCustomButton",
+    "version": 1,
+    "status": "live",
+    "name": "Stateless Custom Button",
+    "attributes": {
+        "availableCustomButtons": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setButton": {
+            "arguments": [
+                {
+                    "name": "button",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "id": "windowShadePreset",
+    "version": 1,
+    "status": "live",
+    "name": "Window Shade Preset",
+    "attributes": [],
+    "commands": {
+        "presetPosition": {
+            "arguments": []
+        }
+    }
+}

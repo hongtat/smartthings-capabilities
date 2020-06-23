@@ -1,0 +1,161 @@
+{
+    "id": "mediaGroup",
+    "version": 1,
+    "status": "proposed",
+    "name": "Media Group",
+    "attributes": {
+        "groupRole": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "primary",
+                            "auxilary",
+                            "ungrouped"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "groupPrimaryDeviceId": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "String",
+                        "type": "string",
+                        "maxLength": 255
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "groupId": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "String",
+                        "type": "string",
+                        "maxLength": 255
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "groupVolume": {
+            "schema": {
+                "title": "IntegerPercent",
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 100
+                    },
+                    "unit": {
+                        "type": "string",
+                        "enum": [
+                            "%"
+                        ],
+                        "default": "%"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setGroupVolume",
+            "enumCommands": []
+        },
+        "groupMute": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "MuteState",
+                        "type": "string",
+                        "enum": [
+                            "muted",
+                            "unmuted"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setGroupMute",
+            "enumCommands": [
+                {
+                    "command": "muteGroup",
+                    "value": "muted"
+                },
+                {
+                    "command": "unmuteGroup",
+                    "value": "unmuted"
+                }
+            ]
+        }
+    },
+    "commands": {
+        "setGroupVolume": {
+            "arguments": [
+                {
+                    "name": "groupVolume",
+                    "optional": false,
+                    "schema": {
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 100
+                    }
+                }
+            ]
+        },
+        "groupVolumeUp": {
+            "arguments": []
+        },
+        "groupVolumeDown": {
+            "arguments": []
+        },
+        "setGroupMute": {
+            "arguments": [
+                {
+                    "name": "state",
+                    "optional": false,
+                    "schema": {
+                        "title": "MuteState",
+                        "type": "string",
+                        "enum": [
+                            "muted",
+                            "unmuted"
+                        ]
+                    }
+                }
+            ]
+        },
+        "muteGroup": {
+            "arguments": []
+        },
+        "unmuteGroup": {
+            "arguments": []
+        }
+    }
+}

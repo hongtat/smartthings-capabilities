@@ -1,0 +1,8 @@
+{
+    "id": "sensor",
+    "version": 1,
+    "status": "deprecated",
+    "name": "Sensor",
+    "attributes": [],
+    "commands": []
+}

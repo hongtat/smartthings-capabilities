@@ -1,0 +1,47 @@
+{
+    "id": "robotCleanerTurboMode",
+    "version": 1,
+    "status": "proposed",
+    "name": "Robot Cleaner Turbo Mode",
+    "attributes": {
+        "robotCleanerTurboMode": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "on",
+                            "off",
+                            "silence"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setRobotCleanerTurboMode",
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setRobotCleanerTurboMode": {
+            "arguments": [
+                {
+                    "name": "mode",
+                    "optional": false,
+                    "schema": {
+                        "type": "string",
+                        "enum": [
+                            "on",
+                            "off",
+                            "silence"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

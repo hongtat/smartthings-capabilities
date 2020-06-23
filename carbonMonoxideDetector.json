@@ -1,0 +1,30 @@
+{
+    "id": "carbonMonoxideDetector",
+    "version": 1,
+    "status": "live",
+    "name": "Carbon Monoxide Detector",
+    "attributes": {
+        "carbonMonoxide": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "CarbonMonoxideState",
+                        "type": "string",
+                        "enum": [
+                            "clear",
+                            "detected",
+                            "tested"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": []
+}

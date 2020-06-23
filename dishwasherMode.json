@@ -1,0 +1,51 @@
+{
+    "id": "dishwasherMode",
+    "version": 1,
+    "status": "proposed",
+    "name": "Dishwasher Mode",
+    "attributes": {
+        "dishwasherMode": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "DishwasherMode",
+                        "type": "string",
+                        "enum": [
+                            "auto",
+                            "quick",
+                            "rinse",
+                            "dry"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setDishwasherMode",
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setDishwasherMode": {
+            "arguments": [
+                {
+                    "name": "mode",
+                    "optional": false,
+                    "schema": {
+                        "title": "DishwasherMode",
+                        "type": "string",
+                        "enum": [
+                            "auto",
+                            "quick",
+                            "rinse",
+                            "dry"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
