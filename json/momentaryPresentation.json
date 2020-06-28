@@ -1,0 +1,43 @@
+{
+    "dashboard": {
+        "states": [],
+        "actions": [
+            {
+                "displayType": "pushButton",
+                "pushButton": {
+                    "command": "push"
+                }
+            }
+        ],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_MOMENTARY",
+            "displayType": "pushButton",
+            "pushButton": {
+                "command": "push"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [],
+        "actions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_MOMENTARY",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "push",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_PRESSED",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "id": "momentary",
+    "version": 1
+}

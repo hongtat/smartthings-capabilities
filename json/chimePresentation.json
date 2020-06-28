@@ -1,0 +1,113 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{chime.value}}",
+                "alternatives": [
+                    {
+                        "key": "off",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_OFF",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "chime",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_CHIME",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "displayType": "toggleSwitch",
+                "toggleSwitch": {
+                    "command": {
+                        "on": "chime",
+                        "off": "off"
+                    },
+                    "state": {
+                        "value": "chime.value",
+                        "on": "chime",
+                        "off": "off"
+                    }
+                }
+            }
+        ],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_CHIME",
+            "displayType": "toggleSwitch",
+            "toggleSwitch": {
+                "command": {
+                    "on": "chime",
+                    "off": "off"
+                },
+                "state": {
+                    "value": "chime.value",
+                    "on": "chime",
+                    "off": "off",
+                    "label": "{{chime.value}}",
+                    "alternatives": [
+                        {
+                            "key": "off",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_OFF",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "chime",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_CHIME",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_CHIME",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "off",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_OFF",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "chime",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_CHIME",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "chime.value"
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_CHIME",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "off",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_OFF",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "chime",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_CHIME",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "id": "chime",
+    "version": 1
+}

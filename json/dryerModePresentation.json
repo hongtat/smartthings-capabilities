@@ -1,0 +1,84 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{dryerMode.value}}",
+                "alternatives": [
+                    {
+                        "key": "regular",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_MEDIUM_M_DRYER_MODE",
+                        "type": "active"
+                    },
+                    {
+                        "key": "lowHeat",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_LOW_M_DRYER_MODE",
+                        "type": "active"
+                    },
+                    {
+                        "key": "highHeat",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_HIGH_M_DRYER_MODE",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_MODE",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "regular",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_MEDIUM_M_DRYER_MODE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "lowHeat",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_LOW_M_DRYER_MODE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "highHeat",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_HIGH_M_DRYER_MODE",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "dryerMode.value"
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_MODE",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "regular",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_MEDIUM_M_DRYER_MODE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "lowHeat",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_LOW_M_DRYER_MODE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "highHeat",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_HIGH_M_DRYER_MODE",
+                            "type": "active"
+                        }
+                    ],
+                    "command": "setDryerMode"
+                }
+            }
+        ]
+    },
+    "id": "dryerMode",
+    "version": 1
+}

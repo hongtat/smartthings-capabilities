@@ -1,0 +1,20 @@
+{
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_IMAGE_CAPTURE",
+            "displayType": "state",
+            "state": {
+                "label": "{{image.value}}"
+            }
+        },
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_IMAGE_CAPTURE",
+            "displayType": "state",
+            "state": {
+                "label": "{{captureTime.value}}"
+            }
+        }
+    ],
+    "id": "imageCapture",
+    "version": 1
+}

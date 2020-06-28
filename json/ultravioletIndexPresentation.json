@@ -1,0 +1,33 @@
+{
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_UV_INDEX",
+            "displayType": "slider",
+            "slider": {
+                "range": [
+                    0,
+                    255
+                ],
+                "value": "ultravioletIndex.value"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_UV_INDEX",
+                "displayType": "numberField",
+                "numberField": {
+                    "value": "ultravioletIndex.value",
+                    "range": [
+                        0,
+                        255
+                    ]
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "ultravioletIndex",
+    "version": 1
+}

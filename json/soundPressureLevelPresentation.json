@@ -1,0 +1,42 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{soundPressureLevel.value}}{{soundPressureLevel.unit}}"
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_NOISE_LEVEL",
+            "displayType": "slider",
+            "slider": {
+                "range": [
+                    0,
+                    194
+                ],
+                "value": "soundPressureLevel.value"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_NOISE_LEVEL",
+                "displayType": "numberField",
+                "numberField": {
+                    "value": "soundPressureLevel.value",
+                    "range": [
+                        0,
+                        194
+                    ]
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "soundPressureLevel",
+    "version": 1
+}

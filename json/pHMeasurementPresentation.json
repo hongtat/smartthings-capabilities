@@ -1,0 +1,42 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{pH.value}} {{pH.unit}}"
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_ACIDITY",
+            "displayType": "slider",
+            "slider": {
+                "range": [
+                    0,
+                    14
+                ],
+                "value": "pH.value"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_ACIDITY",
+                "displayType": "numberField",
+                "numberField": {
+                    "value": "pH.value",
+                    "range": [
+                        0,
+                        14
+                    ]
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "pHMeasurement",
+    "version": 1
+}

@@ -1,0 +1,42 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{bodyWeightMeasurement.value}} {{bodyWeightMeasurement.unit}}"
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_WEIGHT",
+            "displayType": "slider",
+            "slider": {
+                "range": [
+                    0,
+                    200
+                ],
+                "value": "bodyWeightMeasurement.value"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_WEIGHT",
+                "displayType": "numberField",
+                "numberField": {
+                    "value": "bodyWeightMeasurement.value",
+                    "range": [
+                        0,
+                        200
+                    ]
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "bodyWeightMeasurement",
+    "version": 1
+}

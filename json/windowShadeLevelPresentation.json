@@ -1,0 +1,55 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{shadeLevel.value}}"
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_SHADE_LEVEL",
+            "displayType": "slider",
+            "slider": {
+                "range": [
+                    0,
+                    100
+                ],
+                "command": "setShadeLevel",
+                "value": "shadeLevel.value"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_SHADE_LEVEL",
+                "displayType": "slider",
+                "slider": {
+                    "range": [
+                        0,
+                        100
+                    ],
+                    "value": "shadeLevel.value"
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_SHADE_LEVEL",
+                "displayType": "slider",
+                "slider": {
+                    "range": [
+                        0,
+                        100
+                    ],
+                    "command": "setShadeLevel"
+                }
+            }
+        ]
+    },
+    "id": "windowShadeLevel",
+    "version": 1
+}

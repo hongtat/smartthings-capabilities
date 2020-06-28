@@ -1,0 +1,61 @@
+{
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_CURTAIN",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "name": "setButton",
+                    "alternatives": [
+                        {
+                            "key": "open",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BUTTON_OPEN_12",
+                            "type": "active"
+                        },
+                        {
+                            "key": "close",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BUTTON_CLOSE_12",
+                            "type": "active"
+                        },
+                        {
+                            "key": "pause",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BUTTON_PAUSE_12",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [],
+        "actions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_CURTAIN",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "open",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BUTTON_OPEN_12",
+                            "type": "active"
+                        },
+                        {
+                            "key": "close",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BUTTON_CLOSE_12",
+                            "type": "active"
+                        },
+                        {
+                            "key": "pause",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BUTTON_PAUSE_12",
+                            "type": "active"
+                        }
+                    ],
+                    "command": "setButton"
+                }
+            }
+        ]
+    },
+    "id": "statelessCurtainPowerButton",
+    "version": 1
+}

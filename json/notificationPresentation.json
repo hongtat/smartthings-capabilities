@@ -1,0 +1,25 @@
+{
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_TEXT_DISPLAY",
+            "displayType": "textField",
+            "textField": {
+                "command": "deviceNotification"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [],
+        "actions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_TEXT_DISPLAY",
+                "displayType": "textField",
+                "textField": {
+                    "command": "deviceNotification"
+                }
+            }
+        ]
+    },
+    "id": "notification",
+    "version": 1
+}

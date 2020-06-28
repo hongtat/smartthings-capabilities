@@ -1,0 +1,51 @@
+{
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_POWER",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "name": "setButton",
+                    "alternatives": [
+                        {
+                            "key": "powerOn",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ON_T_SAMSUNG_CONNECT",
+                            "type": "active"
+                        },
+                        {
+                            "key": "powerOff",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OFF_T_SAMSUNG_CONNECT",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [],
+        "actions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_POWER",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "powerOn",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ON_T_SAMSUNG_CONNECT",
+                            "type": "active"
+                        },
+                        {
+                            "key": "powerOff",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OFF_T_SAMSUNG_CONNECT",
+                            "type": "active"
+                        }
+                    ],
+                    "command": "setButton"
+                }
+            }
+        ]
+    },
+    "id": "statelessPowerButton",
+    "version": 1
+}

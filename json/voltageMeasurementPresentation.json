@@ -1,0 +1,36 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{voltage.value}}{{voltage.unit}}"
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_VOLTAGE",
+            "displayType": "state",
+            "state": {
+                "label": "{{voltage.value}}",
+                "unit": "voltage.unit"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_VOLTAGE",
+                "displayType": "numberField",
+                "numberField": {
+                    "value": "voltage.value",
+                    "unit": "voltage.unit"
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "voltageMeasurement",
+    "version": 1
+}

@@ -1,0 +1,42 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{bmiMeasurement.value}} {{bmiMeasurement.unit}}"
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_BMI",
+            "displayType": "slider",
+            "slider": {
+                "range": [
+                    0,
+                    100
+                ],
+                "value": "bmiMeasurement.value"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_BMI",
+                "displayType": "numberField",
+                "numberField": {
+                    "value": "bmiMeasurement.value",
+                    "range": [
+                        0,
+                        100
+                    ]
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "bodyMassIndexMeasurement",
+    "version": 1
+}

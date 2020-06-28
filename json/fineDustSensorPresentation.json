@@ -1,0 +1,26 @@
+{
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_PM_25_M_AIR_QUALITY",
+            "displayType": "state",
+            "state": {
+                "label": "{{fineDustLevel.value}}",
+                "unit": "dustLevel.unit"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_PM_25_M_AIR_QUALITY",
+                "displayType": "numberField",
+                "numberField": {
+                    "value": "fineDustLevel.value"
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "fineDustSensor",
+    "version": 1
+}

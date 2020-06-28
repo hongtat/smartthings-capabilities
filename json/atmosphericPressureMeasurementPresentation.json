@@ -1,0 +1,42 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{atmosphericPressure.value}} {{atmosphericPressure.unit}}"
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_ATMOSPHERIC_PRESSURE",
+            "displayType": "slider",
+            "slider": {
+                "range": [
+                    0,
+                    110
+                ],
+                "value": "atmosphericPressure.value"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_ATMOSPHERIC_PRESSURE",
+                "displayType": "numberField",
+                "numberField": {
+                    "value": "atmosphericPressure.value",
+                    "range": [
+                        0,
+                        110
+                    ]
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "atmosphericPressureMeasurement",
+    "version": 1
+}

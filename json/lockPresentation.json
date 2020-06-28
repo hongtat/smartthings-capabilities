@@ -1,0 +1,143 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{lock.value}}",
+                "alternatives": [
+                    {
+                        "key": "locked",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_LOCKED",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "unlocked",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_UNLOCKED",
+                        "type": "active"
+                    },
+                    {
+                        "key": "unknown",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_UNKNOWN",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "unlocked with timeout",
+                        "value": "___PO_CODE_LOCK_UNLOCKED_WITH_TIMEOUT",
+                        "type": "inactive"
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "displayType": "toggleSwitch",
+                "toggleSwitch": {
+                    "command": {
+                        "on": "lock",
+                        "off": "unlock"
+                    },
+                    "state": {
+                        "value": "lock.value",
+                        "on": "locked",
+                        "off": "unlocked"
+                    }
+                }
+            }
+        ],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_LOCK_STATE",
+            "displayType": "toggleSwitch",
+            "toggleSwitch": {
+                "command": {
+                    "on": "lock",
+                    "off": "unlock"
+                },
+                "state": {
+                    "value": "lock.value",
+                    "on": "locked",
+                    "off": "unlocked",
+                    "label": "{{lock.value}}",
+                    "alternatives": [
+                        {
+                            "key": "locked",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_LOCKED",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "unlocked",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_UNLOCKED",
+                            "type": "active"
+                        },
+                        {
+                            "key": "unknown",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_UNKNOWN",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "unlocked with timeout",
+                            "value": "___PO_CODE_LOCK_UNLOCKED_WITH_TIMEOUT",
+                            "type": "inactive"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_LOCK_STATE",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "locked",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_LOCKED",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "unlocked",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_UNLOCKED",
+                            "type": "active"
+                        },
+                        {
+                            "key": "unknown",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_UNKNOWN",
+                            "type": "active"
+                        },
+                        {
+                            "key": "unlocked with timeout",
+                            "value": "___PO_CODE_LOCK_UNLOCKED_WITH_TIMEOUT",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "lock.value"
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_LOCK_STATE",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "lock",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_LOCKED",
+                            "type": "active"
+                        },
+                        {
+                            "key": "unlock",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_UNLOCKED",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "id": "lock",
+    "version": 1
+}

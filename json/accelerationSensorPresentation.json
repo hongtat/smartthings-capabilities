@@ -1,0 +1,70 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{acceleration.value}}",
+                "alternatives": [
+                    {
+                        "key": "active",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_VIBRATION_DETECTED",
+                        "type": "active"
+                    },
+                    {
+                        "key": "inactive",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_NO_VIBRATION",
+                        "type": "inactive"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_VIBRATION_SENSOR",
+            "displayType": "state",
+            "state": {
+                "label": "{{acceleration.value}}",
+                "alternatives": [
+                    {
+                        "key": "active",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_VIBRATION_DETECTED",
+                        "type": "active"
+                    },
+                    {
+                        "key": "inactive",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_NO_VIBRATION",
+                        "type": "inactive"
+                    }
+                ]
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_VIBRATION_SENSOR",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "active",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_VIBRATION_DETECTED",
+                            "type": "active"
+                        },
+                        {
+                            "key": "inactive",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_NO_VIBRATION",
+                            "type": "inactive"
+                        }
+                    ],
+                    "value": "acceleration.value"
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "accelerationSensor",
+    "version": 1
+}

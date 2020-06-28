@@ -1,0 +1,25 @@
+{
+    "dashboard": {
+        "states": [],
+        "actions": [
+            {
+                "displayType": "pushButton",
+                "pushButton": {
+                    "command": "beep"
+                }
+            }
+        ],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_FIND_SENSOR",
+            "displayType": "pushButton",
+            "pushButton": {
+                "command": "beep"
+            }
+        }
+    ],
+    "id": "tone",
+    "version": 1
+}

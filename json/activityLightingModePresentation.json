@@ -1,0 +1,147 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{lightingMode.value}}",
+                "alternatives": [
+                    {
+                        "key": "reading",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_READING_M_STATUS",
+                        "type": "active",
+                        "description": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BODY_4000K_NATURAL_LIGHT_FOR_COMFORTABLE_READING"
+                    },
+                    {
+                        "key": "writing",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_WRITING_M_STATUS",
+                        "type": "active",
+                        "description": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BODY_5000K_WHITE_LIGHT_THAT_MAKES_IT_EASY_TO_FOCUS_ON_YOUR_WORK"
+                    },
+                    {
+                        "key": "computer",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BUTTON_COMPUTER_M_LAMP_MODE_25",
+                        "type": "active",
+                        "description": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BODY_BACKLIGHT_ONLY_TO_HELP_YOU_IMMERSE_YOURSELF_IN_MOVIES_AND_GAMES"
+                    },
+                    {
+                        "key": "day",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_HEADER_DAYLIGHT",
+                        "type": "active",
+                        "description": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BODY_ENERGIZING_LIGHT_THATS_SIMILAR_TO_SUNLIGHT"
+                    },
+                    {
+                        "key": "night",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_NIGHT_M_STATUS",
+                        "type": "active",
+                        "description": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_DIM_THE_LIGHT_TO_HELP_YOU_RELAX_KOR"
+                    },
+                    {
+                        "key": "sleepPreparation",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BUTTON2_SLEEP",
+                        "type": "active",
+                        "description": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BODY_GET_A_BREATHING_GUIDE_TO_HELP_YOU_RELAX_AND_FALL_ASLEEP_MSG"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_LIGHT_MODE",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "reading",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_READING_M_STATUS",
+                            "type": "active",
+                            "description": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BODY_4000K_NATURAL_LIGHT_FOR_COMFORTABLE_READING"
+                        },
+                        {
+                            "key": "writing",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_WRITING_M_STATUS",
+                            "type": "active",
+                            "description": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BODY_5000K_WHITE_LIGHT_THAT_MAKES_IT_EASY_TO_FOCUS_ON_YOUR_WORK"
+                        },
+                        {
+                            "key": "computer",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BUTTON_COMPUTER_M_LAMP_MODE_25",
+                            "type": "active",
+                            "description": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BODY_BACKLIGHT_ONLY_TO_HELP_YOU_IMMERSE_YOURSELF_IN_MOVIES_AND_GAMES"
+                        },
+                        {
+                            "key": "day",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_HEADER_DAYLIGHT",
+                            "type": "active",
+                            "description": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BODY_ENERGIZING_LIGHT_THATS_SIMILAR_TO_SUNLIGHT"
+                        },
+                        {
+                            "key": "night",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_NIGHT_M_STATUS",
+                            "type": "active",
+                            "description": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_DIM_THE_LIGHT_TO_HELP_YOU_RELAX_KOR"
+                        },
+                        {
+                            "key": "sleepPreparation",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BUTTON2_SLEEP",
+                            "type": "active",
+                            "description": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BODY_GET_A_BREATHING_GUIDE_TO_HELP_YOU_RELAX_AND_FALL_ASLEEP_MSG"
+                        }
+                    ],
+                    "value": "lightingMode.value"
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_LIGHT_MODE",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "reading",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_READING_M_STATUS",
+                            "type": "active",
+                            "description": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BODY_4000K_NATURAL_LIGHT_FOR_COMFORTABLE_READING"
+                        },
+                        {
+                            "key": "writing",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_WRITING_M_STATUS",
+                            "type": "active",
+                            "description": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BODY_5000K_WHITE_LIGHT_THAT_MAKES_IT_EASY_TO_FOCUS_ON_YOUR_WORK"
+                        },
+                        {
+                            "key": "computer",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BUTTON_COMPUTER_M_LAMP_MODE_25",
+                            "type": "active",
+                            "description": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BODY_BACKLIGHT_ONLY_TO_HELP_YOU_IMMERSE_YOURSELF_IN_MOVIES_AND_GAMES"
+                        },
+                        {
+                            "key": "day",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_HEADER_DAYLIGHT",
+                            "type": "active",
+                            "description": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BODY_ENERGIZING_LIGHT_THATS_SIMILAR_TO_SUNLIGHT"
+                        },
+                        {
+                            "key": "night",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_NIGHT_M_STATUS",
+                            "type": "active",
+                            "description": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_DIM_THE_LIGHT_TO_HELP_YOU_RELAX_KOR"
+                        },
+                        {
+                            "key": "sleepPreparation",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BUTTON2_SLEEP",
+                            "type": "active",
+                            "description": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BODY_GET_A_BREATHING_GUIDE_TO_HELP_YOU_RELAX_AND_FALL_ASLEEP_MSG"
+                        }
+                    ],
+                    "command": "setLightingMode"
+                }
+            }
+        ]
+    },
+    "id": "activityLightingMode",
+    "version": 1
+}

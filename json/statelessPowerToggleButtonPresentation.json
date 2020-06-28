@@ -1,0 +1,46 @@
+{
+    "dashboard": {
+        "states": [],
+        "actions": [
+            {
+                "displayType": "pushButton",
+                "pushButton": {
+                    "command": "setButton",
+                    "argument": "powerToggle"
+                }
+            }
+        ],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_POWER",
+            "displayType": "pushButton",
+            "pushButton": {
+                "command": "setButton",
+                "argument": "powerToggle"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [],
+        "actions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_POWER",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "powerToggle",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_SWITCH_POWER_STATE",
+                            "type": "active"
+                        }
+                    ],
+                    "command": "setButton"
+                }
+            }
+        ]
+    },
+    "id": "statelessPowerToggleButton",
+    "version": 1
+}

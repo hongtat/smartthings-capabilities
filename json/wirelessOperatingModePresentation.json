@@ -1,0 +1,69 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{wirelessOperatingMode.value}}",
+                "alternatives": [
+                    {
+                        "key": "alwaysOn",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ALWAYS_ON",
+                        "type": "active"
+                    },
+                    {
+                        "key": "whenNeeded",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_WHEN_NEEDED",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_WIRELESS_OPERATING_MODE",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "alwaysOn",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ALWAYS_ON",
+                            "type": "active"
+                        },
+                        {
+                            "key": "whenNeeded",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_WHEN_NEEDED",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "wirelessOperatingMode.value"
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_WIRELESS_OPERATING_MODE",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "alwaysOn",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ALWAYS_ON",
+                            "type": "active"
+                        },
+                        {
+                            "key": "whenNeeded",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_WHEN_NEEDED",
+                            "type": "active"
+                        }
+                    ],
+                    "command": "setWirelessOperatingMode"
+                }
+            }
+        ]
+    },
+    "id": "wirelessOperatingMode",
+    "version": 1
+}

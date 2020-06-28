@@ -1,0 +1,18 @@
+{
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_PHEADER_SET_TEMPERATURE",
+            "displayType": "slider",
+            "slider": {
+                "range": [
+                    0,
+                    40
+                ],
+                "unit": "thermostatSetpoint.unit",
+                "value": "thermostatSetpoint.value"
+            }
+        }
+    ],
+    "id": "thermostatSetpoint",
+    "version": 1
+}

@@ -1,0 +1,59 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{colorMode.value}}",
+                "alternatives": [
+                    {
+                        "key": "color",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_COLOR",
+                        "type": "active"
+                    },
+                    {
+                        "key": "colorTemperature",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_COLOR_TEMPERATURE",
+                        "type": "active"
+                    },
+                    {
+                        "key": "other",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_OTHER",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_COLOR_MODE",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "color",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_COLOR",
+                            "type": "active"
+                        },
+                        {
+                            "key": "colorTemperature",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_COLOR_TEMPERATURE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "other",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_OTHER",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "colorMode.value"
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "colorMode",
+    "version": 1
+}

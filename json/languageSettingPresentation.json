@@ -1,0 +1,14 @@
+{
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_LANGUAGE",
+            "displayType": "textField",
+            "textField": {
+                "command": "setLanguage",
+                "value": "language.value"
+            }
+        }
+    ],
+    "id": "languageSetting",
+    "version": 1
+}

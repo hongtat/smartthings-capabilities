@@ -1,0 +1,18 @@
+{
+    "detailView": [
+        {
+            "label": "___PO_CODE_REFRIGERATIONSETPOINT_REFRIGERATION_TEMPERATURE",
+            "displayType": "slider",
+            "slider": {
+                "range": [
+                    0,
+                    40
+                ],
+                "command": "setRefrigerationSetpoint",
+                "value": "refrigerationSetpoint.value"
+            }
+        }
+    ],
+    "id": "refrigerationSetpoint",
+    "version": 1
+}

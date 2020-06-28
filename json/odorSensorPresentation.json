@@ -1,0 +1,13 @@
+{
+    "detailView": [
+        {
+            "label": "___PO_CODE_ODORSENSOR_STATE",
+            "displayType": "state",
+            "state": {
+                "label": "{{odorLevel.value}}"
+            }
+        }
+    ],
+    "id": "odorSensor",
+    "version": 1
+}

@@ -1,0 +1,159 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{fanOscillationMode.value}}",
+                "alternatives": [
+                    {
+                        "key": "fixed",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_FIXED_M_NOT_MOVING",
+                        "type": "active"
+                    },
+                    {
+                        "key": "vertical",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BUTTON_VERTICAL_M_FAN_OSCILLATION_10",
+                        "type": "active"
+                    },
+                    {
+                        "key": "horizontal",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BUTTON_HORIZONTAL_M_FAN_OSCILLATION_10",
+                        "type": "active"
+                    },
+                    {
+                        "key": "all",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BUTTON_ALL_M_FAN_OSCILLATION_10",
+                        "type": "active"
+                    },
+                    {
+                        "key": "indirect",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BUTTON_INDIRECT_M_FAN_20",
+                        "type": "active"
+                    },
+                    {
+                        "key": "direct",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BUTTON_DIRECT_M_FAN_20",
+                        "type": "active"
+                    },
+                    {
+                        "key": "fixedCenter",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BUTTON_CENTER_M_FAN_20",
+                        "type": "active"
+                    },
+                    {
+                        "key": "fixedLeft",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BUTTON_LEFT_M_FAN_20",
+                        "type": "active"
+                    },
+                    {
+                        "key": "fixedRight",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BUTTON_RIGHT_M_FAN_20",
+                        "type": "active"
+                    },
+                    {
+                        "key": "far",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BUTTON_LONG_M_FAN_20",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_FAN_OSCILLATION",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "fixed",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_FIXED_M_NOT_MOVING",
+                            "type": "active"
+                        },
+                        {
+                            "key": "vertcal",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BUTTON_VERTICAL_M_FAN_OSCILLATION_10",
+                            "type": "active"
+                        },
+                        {
+                            "key": "horizontal",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BUTTON_HORIZONTAL_M_FAN_OSCILLATION_10",
+                            "type": "active"
+                        },
+                        {
+                            "key": "all",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BUTTON_ALL_M_FAN_OSCILLATION_10",
+                            "type": "active"
+                        },
+                        {
+                            "key": "indirect",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BUTTON_INDIRECT_M_FAN_20",
+                            "type": "active"
+                        },
+                        {
+                            "key": "direct",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BUTTON_DIRECT_M_FAN_20",
+                            "type": "active"
+                        },
+                        {
+                            "key": "fixedCenter",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BUTTON_CENTER_M_FAN_20",
+                            "type": "active"
+                        },
+                        {
+                            "key": "fixedLeft",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BUTTON_LEFT_M_FAN_20",
+                            "type": "active"
+                        },
+                        {
+                            "key": "fixedRight",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BUTTON_RIGHT_M_FAN_20",
+                            "type": "active"
+                        },
+                        {
+                            "key": "far",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BUTTON_LONG_M_FAN_20",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "fanOscillationMode.value"
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_FAN_OSCILLATION",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "fixed",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_FIXED_M_NOT_MOVING",
+                            "type": "active"
+                        },
+                        {
+                            "key": "vertcal",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BUTTON_VERTICAL_M_FAN_OSCILLATION_10",
+                            "type": "active"
+                        },
+                        {
+                            "key": "horizontal",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BUTTON_HORIZONTAL_M_FAN_OSCILLATION_10",
+                            "type": "active"
+                        },
+                        {
+                            "key": "all",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BUTTON_ALL_M_FAN_OSCILLATION_10",
+                            "type": "active"
+                        }
+                    ],
+                    "command": "setFanOscillationMode"
+                }
+            }
+        ]
+    },
+    "id": "fanOscillationMode",
+    "version": 1
+}

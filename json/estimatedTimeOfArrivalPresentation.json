@@ -1,0 +1,22 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{eta.value}}"
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_ETA",
+            "displayType": "state",
+            "state": {
+                "label": "{{eta.value}}"
+            }
+        }
+    ],
+    "id": "estimatedTimeOfArrival",
+    "version": 1
+}

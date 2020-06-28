@@ -1,0 +1,13 @@
+{
+    "detailView": [
+        {
+            "label": "___PO_CODE_VIDEOSTREAM",
+            "displayType": "state",
+            "state": {
+                "label": "{{stream.value}}"
+            }
+        }
+    ],
+    "id": "videoStream",
+    "version": 1
+}

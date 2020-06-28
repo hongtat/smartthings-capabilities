@@ -1,0 +1,83 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{securitySystemStatus.value}}",
+                "alternatives": [
+                    {
+                        "key": "armedAway",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ARMED_HAWAY",
+                        "type": "active"
+                    },
+                    {
+                        "key": "armedStay",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ARMED_HSTAY",
+                        "type": "active"
+                    },
+                    {
+                        "key": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_DISARMED",
+                        "value": "Disarmed",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_SECURITY_MODE",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "armedAway",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ARMED_HAWAY",
+                            "type": "active"
+                        },
+                        {
+                            "key": "armedStay",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ARMED_HSTAY",
+                            "type": "active"
+                        },
+                        {
+                            "key": "disarmed",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_DISARMED",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "securitySystemStatus.value"
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_SECURITY_MODE",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "armedAway",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ARMED_HAWAY",
+                            "type": "active"
+                        },
+                        {
+                            "key": "armedStay",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ARMED_HSTAY",
+                            "type": "active"
+                        },
+                        {
+                            "key": "disarmed",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_DISARMED",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "id": "securitySystem",
+    "version": 1
+}

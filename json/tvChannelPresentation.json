@@ -1,0 +1,22 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{tvChannel.value}}"
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "label": "___PO_CODE_TVCHANNELCONTROL",
+            "displayType": "textField",
+            "textField": {
+                "command": "setTvChannel"
+            }
+        }
+    ],
+    "id": "tvChannel",
+    "version": 1
+}

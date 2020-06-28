@@ -1,0 +1,69 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{playbackShuffle.value}}",
+                "alternatives": [
+                    {
+                        "key": "enabled",
+                        "value": "___PO_CODE_SMARTTHINGS_IDS_VC_BODY_ENABLE",
+                        "type": "active"
+                    },
+                    {
+                        "key": "disabled",
+                        "value": "___PO_CODE_SMARTTHINGS_IDS_VC_BODY_DISABLE",
+                        "type": "inactive"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_IDS_MP_BODY_SHUFFLE",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "enabled",
+                            "value": "___PO_CODE_SMARTTHINGS_IDS_VC_BODY_ENABLE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "disabled",
+                            "value": "___PO_CODE_SMARTTHINGS_IDS_VC_BODY_DISABLE",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "playbackShuffle.value"
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_IDS_MP_BODY_SHUFFLE",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "enabled",
+                            "value": "___PO_CODE_SMARTTHINGS_IDS_VC_BODY_ENABLE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "disabled",
+                            "value": "___PO_CODE_SMARTTHINGS_IDS_VC_BODY_DISABLE",
+                            "type": "active"
+                        }
+                    ],
+                    "command": "setPlaybackShuffle"
+                }
+            }
+        ]
+    },
+    "id": "mediaPlaybackShuffle",
+    "version": 1
+}

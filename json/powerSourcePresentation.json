@@ -1,0 +1,66 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{powerSource.value}}",
+                "alternatives": [
+                    {
+                        "key": "battery",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_BATTERY",
+                        "type": "active"
+                    },
+                    {
+                        "key": "dc",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_DC_POWER_SUPPLY",
+                        "type": "active"
+                    },
+                    {
+                        "key": "mains",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_AC_POWER_SUPPLY",
+                        "type": "active"
+                    },
+                    {
+                        "key": "unknown",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_UNKNOWN",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_POWER_SOURCE",
+            "displayType": "state",
+            "state": {
+                "label": "{{powerSource.value}}",
+                "alternatives": [
+                    {
+                        "key": "battery",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_BATTERY",
+                        "type": "active"
+                    },
+                    {
+                        "key": "dc",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_DC_POWER_SUPPLY",
+                        "type": "active"
+                    },
+                    {
+                        "key": "mains",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_AC_POWER_SUPPLY",
+                        "type": "active"
+                    },
+                    {
+                        "key": "unknown",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_UNKNOWN",
+                        "type": "active"
+                    }
+                ]
+            }
+        }
+    ],
+    "id": "powerSource",
+    "version": 1
+}

@@ -1,0 +1,99 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{washerMode.value}}",
+                "alternatives": [
+                    {
+                        "key": "regular",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_REGULAR_M_WASHER_MODE",
+                        "type": "active"
+                    },
+                    {
+                        "key": "heavy",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_HEAVY_M_WASHER_MODE",
+                        "type": "active"
+                    },
+                    {
+                        "key": "rinse",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_RINSE_M_WASHER_MODE",
+                        "type": "active"
+                    },
+                    {
+                        "key": "spinDry",
+                        "value": "___PO_CODE_WASHERMODE_SPINDRY",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_MODE",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "regular",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_REGULAR_M_WASHER_MODE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "heavy",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_HEAVY_M_WASHER_MODE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "rinse",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_RINSE_M_WASHER_MODE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "spinDry",
+                            "value": "___PO_CODE_WASHERMODE_SPINDRY",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "washerMode.value"
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_MODE",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "regular",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_REGULAR_M_WASHER_MODE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "heavy",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_HEAVY_M_WASHER_MODE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "rinse",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_RINSE_M_WASHER_MODE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "spinDry",
+                            "value": "___PO_CODE_WASHERMODE_SPINDRY",
+                            "type": "active"
+                        }
+                    ],
+                    "command": "setWasherMode"
+                }
+            }
+        ]
+    },
+    "id": "washerMode",
+    "version": 1
+}

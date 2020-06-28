@@ -1,0 +1,80 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{gas.value}}",
+                "alternatives": [
+                    {
+                        "key": "clear",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_CLEAR_M_SMOKE_DETECTOR_STATUS",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "detected",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_GAS_DETECTED_M_STATUS",
+                        "type": "active"
+                    },
+                    {
+                        "key": "tested",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_TESTED",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_GAS_DETECTOR",
+            "displayType": "state",
+            "state": {
+                "label": "{{gas.value}}",
+                "alternatives": [
+                    {
+                        "key": "clear",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_CLEAR_M_SMOKE_DETECTOR_STATUS",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "detected",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_GAS_DETECTED_M_STATUS",
+                        "type": "active"
+                    },
+                    {
+                        "key": "tested",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_TESTED",
+                        "type": "active"
+                    }
+                ]
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_GAS_DETECTOR",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "clear",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_CLEAR_M_SMOKE_DETECTOR_STATUS",
+                            "type": "active"
+                        },
+                        {
+                            "key": "detected",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_GAS_DETECTED_M_STATUS",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "gas.value"
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "gasDetector",
+    "version": 1
+}

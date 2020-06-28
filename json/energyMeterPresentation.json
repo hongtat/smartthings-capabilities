@@ -1,0 +1,34 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{energy.value}}{{energy.unit}}"
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_ENERGY_METER",
+            "displayType": "state",
+            "state": {
+                "label": "{{energy.value}}"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_ENERGY_METER",
+                "displayType": "numberField",
+                "numberField": {
+                    "value": "energy.value"
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "energyMeter",
+    "version": 1
+}

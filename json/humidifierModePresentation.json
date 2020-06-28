@@ -1,0 +1,99 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{humidifierMode.value}}",
+                "alternatives": [
+                    {
+                        "key": "auto",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_AUTO_M_HUMIDITY",
+                        "type": "active"
+                    },
+                    {
+                        "key": "low",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_LOW_M_HUMIDITY",
+                        "type": "active"
+                    },
+                    {
+                        "key": "medium",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_MEDIUM_M_HUMIDITY",
+                        "type": "active"
+                    },
+                    {
+                        "key": "high",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_HIGH_M_HUMIDITY",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_HUMIDIFIER_MODE",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "auto",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_AUTO_M_HUMIDITY",
+                            "type": "active"
+                        },
+                        {
+                            "key": "low",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_LOW_M_HUMIDITY",
+                            "type": "active"
+                        },
+                        {
+                            "key": "medium",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_MEDIUM_M_HUMIDITY",
+                            "type": "active"
+                        },
+                        {
+                            "key": "high",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_HIGH_M_HUMIDITY",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "humidifierMode.value"
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_HUMIDIFIER_MODE",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "auto",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_AUTO_M_HUMIDITY",
+                            "type": "active"
+                        },
+                        {
+                            "key": "low",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_LOW_M_HUMIDITY",
+                            "type": "active"
+                        },
+                        {
+                            "key": "medium",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_MEDIUM_M_HUMIDITY",
+                            "type": "active"
+                        },
+                        {
+                            "key": "high",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_HIGH_M_HUMIDITY",
+                            "type": "active"
+                        }
+                    ],
+                    "command": "setHumidifierMode"
+                }
+            }
+        ]
+    },
+    "id": "humidifierMode",
+    "version": 1
+}

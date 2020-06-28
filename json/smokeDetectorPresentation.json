@@ -1,0 +1,80 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{smoke.value}}",
+                "alternatives": [
+                    {
+                        "key": "clear",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_CARBON_MONOXIDE_DETECTED",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "detected",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_SMOKE_AND_CARBON_MONOXIDE_DETECTED",
+                        "type": "active"
+                    },
+                    {
+                        "key": "tested",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_TESTED",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_SMOKE_DETECTOR",
+            "displayType": "state",
+            "state": {
+                "label": "{{smoke.value}}",
+                "alternatives": [
+                    {
+                        "key": "clear",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_CLEAR_M_SMOKE_DETECTOR_STATUS",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "detected",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_DETECTED",
+                        "type": "active"
+                    },
+                    {
+                        "key": "tested",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_TESTED",
+                        "type": "active"
+                    }
+                ]
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_SMOKE_DETECTOR",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "clear",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_CLEAR_M_SMOKE_DETECTOR_STATUS",
+                            "type": "active"
+                        },
+                        {
+                            "key": "detected",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_DETECTED",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "smoke.value"
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "smokeDetector",
+    "version": 1
+}

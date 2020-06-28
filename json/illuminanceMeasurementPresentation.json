@@ -1,0 +1,42 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{illuminance.value}}{{illuminance.unit}}"
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_ILLUMINANCE",
+            "displayType": "slider",
+            "slider": {
+                "range": [
+                    0,
+                    100000
+                ],
+                "value": "illuminance.value"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_ILLUMINANCE",
+                "displayType": "numberField",
+                "numberField": {
+                    "value": "illuminance.value",
+                    "range": [
+                        0,
+                        100000
+                    ]
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "illuminanceMeasurement",
+    "version": 1
+}

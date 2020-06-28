@@ -1,0 +1,100 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{soundDetected.value}}",
+                "alternatives": [
+                    {
+                        "key": "babyCrying",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BODY_BABY_CRYING",
+                        "type": "active"
+                    },
+                    {
+                        "key": "glassBreaking",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BODY_BREAKING_GLASS",
+                        "type": "active"
+                    },
+                    {
+                        "key": "fireAlarm",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BODY_FIRE_ALARM",
+                        "type": "active"
+                    },
+                    {
+                        "key": "noSound",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_NONE",
+                        "type": "inactive"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SACP_HEADER_SOUND_DETECTION",
+            "displayType": "state",
+            "state": {
+                "label": "{{soundDetected.value}}",
+                "alternatives": [
+                    {
+                        "key": "babyCrying",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BODY_BABY_CRYING",
+                        "type": "active"
+                    },
+                    {
+                        "key": "glassBreaking",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BODY_BREAKING_GLASS",
+                        "type": "active"
+                    },
+                    {
+                        "key": "fireAlarm",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BODY_FIRE_ALARM",
+                        "type": "active"
+                    },
+                    {
+                        "key": "noSound",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_NONE",
+                        "type": "inactive"
+                    }
+                ]
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SACP_HEADER_SOUND_DETECTION",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "babyCrying",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BODY_BABY_CRYING",
+                            "type": "active"
+                        },
+                        {
+                            "key": "glassBreaking",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BODY_BREAKING_GLASS",
+                            "type": "active"
+                        },
+                        {
+                            "key": "fireAlarm",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BODY_FIRE_ALARM",
+                            "type": "active"
+                        },
+                        {
+                            "key": "noSound",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_NONE",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "soundDetected.value"
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "soundDetection",
+    "version": 1
+}

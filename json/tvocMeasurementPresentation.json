@@ -1,0 +1,44 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{tvocLevel.value}}{{tvocLevel.unit}}"
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_TVOC_CHN",
+            "displayType": "slider",
+            "slider": {
+                "range": [
+                    0,
+                    1000000
+                ],
+                "unit": "tvocLevel.unit",
+                "value": "tvocLevel.value"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_TVOC_CHN",
+                "displayType": "numberField",
+                "numberField": {
+                    "value": "tvocLevel.value",
+                    "unit": "tvocLevel.unit",
+                    "range": [
+                        0,
+                        1000000
+                    ]
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "tvocMeasurement",
+    "version": 1
+}

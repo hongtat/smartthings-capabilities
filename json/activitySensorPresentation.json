@@ -1,0 +1,130 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{activity.value}}",
+                "alternatives": [
+                    {
+                        "key": "noActivity",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_NPBODY_NO_ACTIVITY",
+                        "type": "active"
+                    },
+                    {
+                        "key": "falling",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_FALLING",
+                        "type": "active"
+                    },
+                    {
+                        "key": "lying",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_LYING",
+                        "type": "active"
+                    },
+                    {
+                        "key": "sitting",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_SITTING",
+                        "type": "active"
+                    },
+                    {
+                        "key": "standing",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_STANDING",
+                        "type": "active"
+                    },
+                    {
+                        "key": "eating",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_EATING",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_ACTIVITY_SENSOR",
+            "displayType": "state",
+            "state": {
+                "label": "{{activity.value}}",
+                "alternatives": [
+                    {
+                        "key": "noActivity",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_NPBODY_NO_ACTIVITY",
+                        "type": "active"
+                    },
+                    {
+                        "key": "falling",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_FALLING",
+                        "type": "active"
+                    },
+                    {
+                        "key": "lying",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_LYING",
+                        "type": "active"
+                    },
+                    {
+                        "key": "sitting",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_SITTING",
+                        "type": "active"
+                    },
+                    {
+                        "key": "standing",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_STANDING",
+                        "type": "active"
+                    },
+                    {
+                        "key": "eating",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_EATING",
+                        "type": "active"
+                    }
+                ]
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_ACTIVITY_SENSOR",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "noActivity",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_NPBODY_NO_ACTIVITY",
+                            "type": "active"
+                        },
+                        {
+                            "key": "falling",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_FALLING",
+                            "type": "active"
+                        },
+                        {
+                            "key": "lying",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_LYING",
+                            "type": "active"
+                        },
+                        {
+                            "key": "sitting",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_SITTING",
+                            "type": "active"
+                        },
+                        {
+                            "key": "standing",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_STANDING",
+                            "type": "active"
+                        },
+                        {
+                            "key": "eating",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_EATING",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "activity.value"
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "activitySensor",
+    "version": 1
+}

@@ -1,0 +1,100 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{temperatureAlarm.value}}",
+                "alternatives": [
+                    {
+                        "key": "cleared",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_NORMAL",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "heat",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OVERHEATING_M_STATUS",
+                        "type": "active"
+                    },
+                    {
+                        "key": "freeze",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_FREEZING_M_STATUS",
+                        "type": "active"
+                    },
+                    {
+                        "key": "rateOfRise",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_RAPIDLY_RISING",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_TEMPERATURE_ALERT",
+            "displayType": "state",
+            "state": {
+                "label": "{{temperatureAlarm.value}}",
+                "alternatives": [
+                    {
+                        "key": "cleared",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_NORMAL",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "heat",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OVERHEATING_M_STATUS",
+                        "type": "active"
+                    },
+                    {
+                        "key": "freeze",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_FREEZING_M_STATUS",
+                        "type": "active"
+                    },
+                    {
+                        "key": "rateOfRise",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_RAPIDLY_RISING",
+                        "type": "active"
+                    }
+                ]
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_TEMPERATURE_ALERT",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "cleared",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_NORMAL",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "heat",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OVERHEATING_M_STATUS",
+                            "type": "active"
+                        },
+                        {
+                            "key": "freeze",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_FREEZING_M_STATUS",
+                            "type": "active"
+                        },
+                        {
+                            "key": "rateOfRise",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_RAPIDLY_RISING",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "temperatureAlarm.value"
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "temperatureAlarm",
+    "version": 1
+}

@@ -1,0 +1,70 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{sound.value}}",
+                "alternatives": [
+                    {
+                        "key": "detected",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_SOUND_DETECTED",
+                        "type": "active"
+                    },
+                    {
+                        "key": "not detected",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_NO_SOUND",
+                        "type": "inactive"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_SOUND_SENSOR",
+            "displayType": "state",
+            "state": {
+                "label": "{{sound.value}}",
+                "alternatives": [
+                    {
+                        "key": "detected",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_SOUND_DETECTED",
+                        "type": "active"
+                    },
+                    {
+                        "key": "not detected",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_NO_SOUND",
+                        "type": "inactive"
+                    }
+                ]
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_SOUND_SENSOR",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "detected",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_SOUND_DETECTED",
+                            "type": "active"
+                        },
+                        {
+                            "key": "not detected",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_NO_SOUND",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "sound.value"
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "soundSensor",
+    "version": 1
+}

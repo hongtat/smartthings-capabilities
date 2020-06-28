@@ -1,0 +1,51 @@
+{
+    "detailView": [
+        {
+            "label": "__PO_CODE_STATELESSSTEMPERATUREBUTTON_TEMPERATURE",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "name": "setButton",
+                    "alternatives": [
+                        {
+                            "key": "temperatureUp",
+                            "value": "Increase Temperature",
+                            "type": "active"
+                        },
+                        {
+                            "key": "temperatureDown",
+                            "value": "Decrease Temperature",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [],
+        "actions": [
+            {
+                "label": "__PO_CODE_STATELESSSTEMPERATUREBUTTON_TEMPERATURE",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "temperatureUp",
+                            "value": "Increase Temperature",
+                            "type": "active"
+                        },
+                        {
+                            "key": "temperatureDown",
+                            "value": "Decrease Temperature",
+                            "type": "active"
+                        }
+                    ],
+                    "command": "setButton"
+                }
+            }
+        ]
+    },
+    "id": "statelessTemperatureButton",
+    "version": 1
+}

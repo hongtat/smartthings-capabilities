@@ -1,0 +1,70 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{occupancy.value}}",
+                "alternatives": [
+                    {
+                        "key": "unoccupied",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_AWAY",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "occupied",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_INSIDE",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_OCCUPANCY",
+            "displayType": "state",
+            "state": {
+                "label": "{{occupancy.value}}",
+                "alternatives": [
+                    {
+                        "key": "unoccupied",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_AWAY",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "occupied",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_INSIDE",
+                        "type": "active"
+                    }
+                ]
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_OCCUPANCY",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "unoccupied",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_AWAY",
+                            "type": "active"
+                        },
+                        {
+                            "key": "occupied",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_INSIDE",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "occupancy.value"
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "occupancySensor",
+    "version": 1
+}

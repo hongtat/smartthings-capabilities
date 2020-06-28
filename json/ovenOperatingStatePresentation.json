@@ -1,0 +1,96 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{ovenJobState.value}}",
+                "alternatives": [
+                    {
+                        "key": "cleaning",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_CLEANING_M_OVEN_STATUS",
+                        "type": "active"
+                    },
+                    {
+                        "key": "cooking",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_COOKING_M_OVEN_STATUS",
+                        "type": "active"
+                    },
+                    {
+                        "key": "cooling",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_COOLING_DOWN_M_OVEN_STATUS",
+                        "type": "active"
+                    },
+                    {
+                        "key": "draining",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_DRAINING_M_OVEN_STATUS",
+                        "type": "active"
+                    },
+                    {
+                        "key": "preheat",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_PREHEATING_M_OVEN_STATUS",
+                        "type": "active"
+                    },
+                    {
+                        "key": "ready",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_READY_M_OVEN_STATUS",
+                        "type": "active"
+                    },
+                    {
+                        "key": "rinsing",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_RINSING_M_OVEN_STATUS",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_OVEN_M_OVEN_STATUS",
+            "displayType": "state",
+            "state": {
+                "label": "{{ovenJobState.value}}",
+                "alternatives": [
+                    {
+                        "key": "cleaning",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_CLEANING_M_OVEN_STATUS",
+                        "type": "active"
+                    },
+                    {
+                        "key": "cooking",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_COOKING_M_OVEN_STATUS",
+                        "type": "active"
+                    },
+                    {
+                        "key": "cooling",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_COOLING_DOWN_M_OVEN_STATUS",
+                        "type": "active"
+                    },
+                    {
+                        "key": "draining",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_DRAINING_M_OVEN_STATUS",
+                        "type": "active"
+                    },
+                    {
+                        "key": "preheat",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_PREHEATING_M_OVEN_STATUS",
+                        "type": "active"
+                    },
+                    {
+                        "key": "ready",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_READY_M_OVEN_STATUS",
+                        "type": "active"
+                    },
+                    {
+                        "key": "rinsing",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_RINSING_M_OVEN_STATUS",
+                        "type": "active"
+                    }
+                ]
+            }
+        }
+    ],
+    "id": "ovenOperatingState",
+    "version": 1
+}

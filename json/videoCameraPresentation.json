@@ -1,0 +1,70 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{camera.value}}",
+                "alternatives": [
+                    {
+                        "key": "on",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_ON",
+                        "type": "active"
+                    },
+                    {
+                        "key": "off",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_OFF",
+                        "type": "inactive"
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "displayType": "toggleSwitch",
+                "toggleSwitch": {
+                    "command": {
+                        "on": "on",
+                        "off": "off"
+                    },
+                    "state": {
+                        "value": "camera.value",
+                        "on": "on",
+                        "off": "off"
+                    }
+                }
+            }
+        ],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_POWER",
+            "displayType": "toggleSwitch",
+            "toggleSwitch": {
+                "command": {
+                    "on": "on",
+                    "off": "off"
+                },
+                "state": {
+                    "value": "camera.value",
+                    "on": "on",
+                    "off": "off",
+                    "label": "{{camera.value}}",
+                    "alternatives": [
+                        {
+                            "key": "on",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ON_T_SAMSUNG_CONNECT",
+                            "type": "active"
+                        },
+                        {
+                            "key": "off",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OFF_T_SAMSUNG_CONNECT",
+                            "type": "inactive"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "id": "videoCamera",
+    "version": 1
+}

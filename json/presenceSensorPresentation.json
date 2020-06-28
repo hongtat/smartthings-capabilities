@@ -1,0 +1,70 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{presence.value}}",
+                "alternatives": [
+                    {
+                        "key": "not present",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_NOT_PRESENT_M_STATUS",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "present",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_PRESENT_M_PRESENCE_STATUS",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BUTTON_PRESENCE_SENSOR_18",
+            "displayType": "state",
+            "state": {
+                "label": "{{presence.value}}",
+                "alternatives": [
+                    {
+                        "key": "not present",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_NOT_PRESENT_M_STATUS",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "present",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_PRESENT_M_PRESENCE_STATUS",
+                        "type": "active"
+                    }
+                ]
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BUTTON_PRESENCE_SENSOR_18",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "not present",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_NOT_PRESENT_M_STATUS",
+                            "type": "active"
+                        },
+                        {
+                            "key": "present",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_PRESENT_M_PRESENCE_STATUS",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "presence.value"
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "presenceSensor",
+    "version": 1
+}

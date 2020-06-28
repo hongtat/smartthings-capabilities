@@ -1,0 +1,42 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{airQuality.value}} {{airQuality.unit}}"
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_AIR_QUALITY",
+            "displayType": "slider",
+            "slider": {
+                "range": [
+                    0,
+                    100
+                ],
+                "value": "airQuality.value"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_AIR_QUALITY",
+                "displayType": "numberField",
+                "numberField": {
+                    "value": "airQuality.value",
+                    "range": [
+                        0,
+                        100
+                    ]
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "airQualitySensor",
+    "version": 1
+}

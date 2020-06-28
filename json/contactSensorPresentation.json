@@ -1,0 +1,70 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{contact.value}}",
+                "alternatives": [
+                    {
+                        "key": "closed",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_CLOSED",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "open",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OPEN",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_CONTACT_SENSOR",
+            "displayType": "state",
+            "state": {
+                "label": "{{contact.value}}",
+                "alternatives": [
+                    {
+                        "key": "closed",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_CLOSED",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "open",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OPEN",
+                        "type": "active"
+                    }
+                ]
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_CONTACT_SENSOR",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "closed",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_CLOSED",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "open",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OPEN",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "contact.value"
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "contactSensor",
+    "version": 1
+}

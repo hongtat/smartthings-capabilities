@@ -1,0 +1,84 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{robotCleanerTurboMode.value}}",
+                "alternatives": [
+                    {
+                        "key": "on",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ON_T_SAMSUNG_CONNECT",
+                        "type": "active"
+                    },
+                    {
+                        "key": "off",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OFF_T_SAMSUNG_CONNECT",
+                        "type": "active"
+                    },
+                    {
+                        "key": "silence",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_QUIET_M_ROBOT_CLEANER_MODE",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TURBO_M_ROBOT_CLEANER_MODE",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "on",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ON_T_SAMSUNG_CONNECT",
+                            "type": "active"
+                        },
+                        {
+                            "key": "off",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OFF_T_SAMSUNG_CONNECT",
+                            "type": "active"
+                        },
+                        {
+                            "key": "silence",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_QUIET_M_ROBOT_CLEANER_MODE",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "robotCleanerTurboMode.value"
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TURBO_M_ROBOT_CLEANER_MODE",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "on",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ON_T_SAMSUNG_CONNECT",
+                            "type": "active"
+                        },
+                        {
+                            "key": "off",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OFF_T_SAMSUNG_CONNECT",
+                            "type": "active"
+                        },
+                        {
+                            "key": "silence",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_QUIET_M_ROBOT_CLEANER_MODE",
+                            "type": "active"
+                        }
+                    ],
+                    "command": "setRobotCleanerTurboMode"
+                }
+            }
+        ]
+    },
+    "id": "robotCleanerTurboMode",
+    "version": 1
+}

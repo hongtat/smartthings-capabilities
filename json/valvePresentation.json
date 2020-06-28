@@ -1,0 +1,113 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{valve.value}}",
+                "alternatives": [
+                    {
+                        "key": "open",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OPEN",
+                        "type": "active"
+                    },
+                    {
+                        "key": "closed",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_CLOSED",
+                        "type": "inactive"
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "displayType": "toggleSwitch",
+                "toggleSwitch": {
+                    "command": {
+                        "on": "open",
+                        "off": "close"
+                    },
+                    "state": {
+                        "value": "valve.value",
+                        "on": "open",
+                        "off": "closed"
+                    }
+                }
+            }
+        ],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BUTTON_VALVE_18",
+            "displayType": "toggleSwitch",
+            "toggleSwitch": {
+                "command": {
+                    "on": "open",
+                    "off": "close"
+                },
+                "state": {
+                    "value": "valve.value",
+                    "on": "open",
+                    "off": "closed",
+                    "label": "{{valve.value}}",
+                    "alternatives": [
+                        {
+                            "key": "open",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OPEN",
+                            "type": "active"
+                        },
+                        {
+                            "key": "closed",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_CLOSED",
+                            "type": "inactive"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BUTTON_VALVE_18",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "open",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OPEN",
+                            "type": "active"
+                        },
+                        {
+                            "key": "closed",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_CLOSED",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "valve.value"
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BUTTON_VALVE_18",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "open",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OPEN",
+                            "type": "active"
+                        },
+                        {
+                            "key": "close",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_CLOSED",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "id": "valve",
+    "version": 1
+}

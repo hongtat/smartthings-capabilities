@@ -1,0 +1,42 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{formaldehydeLevel.value}}{{formaldehydeLevel.unit}}"
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_FORMALDEHYDE_CHN",
+            "displayType": "slider",
+            "slider": {
+                "range": [
+                    0,
+                    1000000
+                ],
+                "value": "formaldehydeLevel.value"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_FORMALDEHYDE_CHN",
+                "displayType": "numberField",
+                "numberField": {
+                    "value": "formaldehydeLevel.value",
+                    "range": [
+                        0,
+                        1000000
+                    ]
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "formaldehydeMeasurement",
+    "version": 1
+}

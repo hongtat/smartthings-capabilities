@@ -1,0 +1,51 @@
+{
+    "detailView": [
+        {
+            "label": "Fanspeed Button",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "name": "setButton",
+                    "alternatives": [
+                        {
+                            "key": "fanspeedUp",
+                            "value": "Increase Fanspeed",
+                            "type": "active"
+                        },
+                        {
+                            "key": "fanspeedDown",
+                            "value": "Decrease Fanspeed",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [],
+        "actions": [
+            {
+                "label": "Fanspeed Button",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "fanspeedUp",
+                            "value": "Increase Fanspeed",
+                            "type": "active"
+                        },
+                        {
+                            "key": "fanspeedDown",
+                            "value": "Decrease Fanspeed",
+                            "type": "active"
+                        }
+                    ],
+                    "command": "setButton"
+                }
+            }
+        ]
+    },
+    "id": "statelessFanspeedButton",
+    "version": 1
+}

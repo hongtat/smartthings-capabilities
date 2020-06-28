@@ -1,0 +1,31 @@
+{
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_IDS_MEMO_OPT_RECORD",
+            "displayType": "pushButton",
+            "pushButton": {
+                "command": "capture"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [],
+        "actions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_IDS_MEMO_OPT_RECORD",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "capture",
+                            "value": "___PO_CODE_SMARTTHINGS_IDS_MEMO_OPT_RECORD",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "id": "videoCapture",
+    "version": 1
+}

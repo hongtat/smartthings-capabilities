@@ -1,0 +1,130 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{playbackStatus.value}}",
+                "alternatives": [
+                    {
+                        "key": "play",
+                        "value": "___PO_CODE_SMARTTHINGS_IDS_MUSIC_BODY_PLAYING",
+                        "type": "active"
+                    },
+                    {
+                        "key": "stop",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_STOPPED",
+                        "type": "active"
+                    },
+                    {
+                        "key": "pause",
+                        "value": "___PO_CODE_SMARTTHINGS_IDS_FM_SBODY_PAUSED",
+                        "type": "active"
+                    },
+                    {
+                        "key": "fast forward",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_FAST_FORWARD",
+                        "type": "active"
+                    },
+                    {
+                        "key": "rewind",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_REWIND",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "displayType": "playPause",
+                "playPause": {
+                    "command": {
+                        "play": "play",
+                        "pause": "pause"
+                    },
+                    "state": {
+                        "value": "playbackStatus.value",
+                        "play": "playing",
+                        "pause": "paused"
+                    }
+                }
+            }
+        ],
+        "basicPlus": []
+    },
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_MEDIA_PLAYBACK",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "play",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_PLAY",
+                            "type": "active"
+                        },
+                        {
+                            "key": "stop",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_STOP",
+                            "type": "active"
+                        },
+                        {
+                            "key": "pause",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_PAUSE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "fast forward",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_FAST_FORWARD",
+                            "type": "active"
+                        },
+                        {
+                            "key": "rewind",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_REWIND",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "playbackStatus.value"
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_MEDIA_PLAYBACK",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "play",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_PLAY",
+                            "type": "active"
+                        },
+                        {
+                            "key": "stop",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_STOP",
+                            "type": "active"
+                        },
+                        {
+                            "key": "pause",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_PAUSE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "fast forward",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_FAST_FORWARD",
+                            "type": "active"
+                        },
+                        {
+                            "key": "rewind",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_REWIND",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedPlaybackCommands.value",
+                    "command": "setPlaybackStatus"
+                }
+            }
+        ]
+    },
+    "id": "mediaPlayback",
+    "version": 1
+}

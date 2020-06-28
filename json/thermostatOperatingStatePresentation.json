@@ -1,0 +1,145 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{thermostatOperatingState.value}}",
+                "alternatives": [
+                    {
+                        "key": "cooling",
+                        "value": "___PO_CODE_THERMOSTATOPERATINGSTATE_COOLING",
+                        "type": "active"
+                    },
+                    {
+                        "key": "fan only",
+                        "value": "___PO_CODE_THERMOSTATOPERATINGSTATE_FAN_ONLY",
+                        "type": "active"
+                    },
+                    {
+                        "key": "heating",
+                        "value": "___PO_CODE_THERMOSTATOPERATINGSTATE_HEATING",
+                        "type": "active"
+                    },
+                    {
+                        "key": "idle",
+                        "value": "___PO_CODE_THERMOSTATOPERATINGSTATE_IDLE",
+                        "type": "active"
+                    },
+                    {
+                        "key": "pending cool",
+                        "value": "___PO_CODE_THERMOSTATOPERATINGSTATE_PENDING_COOL",
+                        "type": "active"
+                    },
+                    {
+                        "key": "pending heat",
+                        "value": "___PO_CODE_THERMOSTATOPERATINGSTATE_PENDING_HEAT",
+                        "type": "active"
+                    },
+                    {
+                        "key": "vent economizer",
+                        "value": "___PO_CODE_THERMOSTATOPERATINGSTATE_VENT_ECONOMIZER",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_STATE",
+            "displayType": "state",
+            "state": {
+                "label": "{{thermostatOperatingState.value}}",
+                "alternatives": [
+                    {
+                        "key": "cooling",
+                        "value": "___PO_CODE_THERMOSTATOPERATINGSTATE_COOLING",
+                        "type": "active"
+                    },
+                    {
+                        "key": "fan only",
+                        "value": "___PO_CODE_THERMOSTATOPERATINGSTATE_FAN_ONLY",
+                        "type": "active"
+                    },
+                    {
+                        "key": "heating",
+                        "value": "___PO_CODE_THERMOSTATOPERATINGSTATE_HEATING",
+                        "type": "active"
+                    },
+                    {
+                        "key": "idle",
+                        "value": "___PO_CODE_THERMOSTATOPERATINGSTATE_IDLE",
+                        "type": "active"
+                    },
+                    {
+                        "key": "pending cool",
+                        "value": "___PO_CODE_THERMOSTATOPERATINGSTATE_PENDING_COOL",
+                        "type": "active"
+                    },
+                    {
+                        "key": "pending heat",
+                        "value": "___PO_CODE_THERMOSTATOPERATINGSTATE_PENDING_HEAT",
+                        "type": "active"
+                    },
+                    {
+                        "key": "vent economizer",
+                        "value": "___PO_CODE_THERMOSTATOPERATINGSTATE_VENT_ECONOMIZER",
+                        "type": "active"
+                    }
+                ]
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_STATE",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "cooling",
+                            "value": "___PO_CODE_THERMOSTATOPERATINGSTATE_COOLING",
+                            "type": "active"
+                        },
+                        {
+                            "key": "fan only",
+                            "value": "___PO_CODE_THERMOSTATOPERATINGSTATE_FAN_ONLY",
+                            "type": "active"
+                        },
+                        {
+                            "key": "heating",
+                            "value": "___PO_CODE_THERMOSTATOPERATINGSTATE_HEATING",
+                            "type": "active"
+                        },
+                        {
+                            "key": "idle",
+                            "value": "___PO_CODE_THERMOSTATOPERATINGSTATE_IDLE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "pending cool",
+                            "value": "___PO_CODE_THERMOSTATOPERATINGSTATE_PENDING_COOL",
+                            "type": "active"
+                        },
+                        {
+                            "key": "pending heat",
+                            "value": "___PO_CODE_THERMOSTATOPERATINGSTATE_PENDING_HEAT",
+                            "type": "active"
+                        },
+                        {
+                            "key": "vent economizer",
+                            "value": "___PO_CODE_THERMOSTATOPERATINGSTATE_VENT_ECONOMIZER",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "thermostatOperatingState.value"
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "thermostatOperatingState",
+    "version": 1
+}

@@ -1,0 +1,38 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{colorTemperature.value}} {{colorTemperature.unit}}"
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_COLOR_TEMPERATURE",
+            "displayType": "slider",
+            "slider": {
+                "range": [
+                    0,
+                    100
+                ],
+                "value": "colorTemperature.value"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_COLOR_TEMPERATURE",
+                "displayType": "numberField",
+                "numberField": {
+                    "value": "colorTemperature.value"
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "colorTemperature",
+    "version": 1
+}

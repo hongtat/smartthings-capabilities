@@ -1,0 +1,99 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{rapidCooling.value}}",
+                "alternatives": [
+                    {
+                        "key": "on",
+                        "value": "___PO_CODE_RAPIDCOOLING_ON",
+                        "type": "active"
+                    },
+                    {
+                        "key": "off",
+                        "value": "___PO_CODE_RAPIDCOOLING_OFF",
+                        "type": "inactive"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_POWER_COOL_M_REFRIGERATOR",
+            "displayType": "switch",
+            "switch": {
+                "command": {
+                    "name": "setRapidCooling",
+                    "on": "on",
+                    "off": "off"
+                },
+                "state": {
+                    "value": "rapidCooling.value",
+                    "on": "on",
+                    "off": "off",
+                    "alternatives": [
+                        {
+                            "key": "on",
+                            "value": "___PO_CODE_RAPIDCOOLING_ON",
+                            "type": "active"
+                        },
+                        {
+                            "key": "off",
+                            "value": "___PO_CODE_RAPIDCOOLING_OFF",
+                            "type": "inactive"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_POWER_COOL_M_REFRIGERATOR",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "on",
+                            "value": "___PO_CODE_RAPIDCOOLING_ON",
+                            "type": "active"
+                        },
+                        {
+                            "key": "off",
+                            "value": "___PO_CODE_RAPIDCOOLING_OFF",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "rapidCooling.value"
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_POWER_COOL_M_REFRIGERATOR",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "on",
+                            "value": "___PO_CODE_RAPIDCOOLING_ON",
+                            "type": "active"
+                        },
+                        {
+                            "key": "off",
+                            "value": "___PO_CODE_RAPIDCOOLING_OFF",
+                            "type": "active"
+                        }
+                    ],
+                    "command": "setRapidCooling"
+                }
+            }
+        ]
+    },
+    "id": "rapidCooling",
+    "version": 1
+}

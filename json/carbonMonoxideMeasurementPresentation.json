@@ -1,0 +1,42 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{carbonMonoxideLevel.value}} {{carbonMonoxideLevel.unit}}"
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_CARBON_MONOXIDE_CONCENTRATION",
+            "displayType": "slider",
+            "slider": {
+                "range": [
+                    0,
+                    1000000
+                ],
+                "value": "carbonMonoxideLevel.value"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_CARBON_MONOXIDE_CONCENTRATION",
+                "displayType": "numberField",
+                "numberField": {
+                    "value": "carbonMonoxideLevel.value",
+                    "range": [
+                        0,
+                        1000000
+                    ]
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "carbonMonoxideMeasurement",
+    "version": 1
+}

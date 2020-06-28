@@ -1,0 +1,56 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "lqi:{{lqi.value}},rssi:{{rssi.value}}"
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_SIGNAL_STRENGTH",
+            "displayType": "state",
+            "state": {
+                "label": "{{lqi.value}}"
+            }
+        },
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_SIGNAL_STRENGTH",
+            "displayType": "state",
+            "state": {
+                "label": "{{rssi.value}}"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_SIGNAL_STRENGTH",
+                "displayType": "numberField",
+                "numberField": {
+                    "value": "lqi.value",
+                    "range": [
+                        0,
+                        255
+                    ]
+                }
+            },
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_SIGNAL_STRENGTH",
+                "displayType": "numberField",
+                "numberField": {
+                    "value": "rssi.value",
+                    "range": [
+                        -200,
+                        0
+                    ]
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "signalStrength",
+    "version": 1
+}

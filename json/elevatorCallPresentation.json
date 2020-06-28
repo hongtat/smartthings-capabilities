@@ -1,0 +1,92 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{callStatus.value}}",
+                "alternatives": [
+                    {
+                        "key": "called",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BODY_CALLED_M_STATUS",
+                        "type": "active"
+                    },
+                    {
+                        "key": "standby",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BODY_NOT_CALLED_M_STATUS",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "unknown",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BODY_UNKNOWN_M_STATUS",
+                        "type": "inactive"
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "displayType": "pushButton",
+                "pushButton": {
+                    "command": "call"
+                }
+            }
+        ],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SACP_HEADER_ELEVATOR_STATUS",
+            "displayType": "state",
+            "state": {
+                "label": "{{callStatus.value}}",
+                "alternatives": [
+                    {
+                        "key": "called",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BODY_CALLED_M_STATUS",
+                        "type": "active"
+                    },
+                    {
+                        "key": "standby",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BODY_NOT_CALLED_M_STATUS",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "unknown",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BODY_UNKNOWN_M_STATUS",
+                        "type": "inactive"
+                    }
+                ]
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SACP_HEADER_ELEVATOR_STATUS",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "called",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BODY_CALLED_M_STATUS",
+                            "type": "active"
+                        },
+                        {
+                            "key": "standby",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BODY_NOT_CALLED_M_STATUS",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "unknown",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BODY_UNKNOWN_M_STATUS",
+                            "type": "inactive"
+                        }
+                    ],
+                    "value": "callStatus.value"
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "elevatorCall",
+    "version": 1
+}

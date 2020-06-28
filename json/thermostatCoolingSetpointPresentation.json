@@ -1,0 +1,61 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{coolingSetpoint.value}} {{coolingSetpoint.unit}}",
+                "alternatives": [
+                    {
+                        "key": "C",
+                        "value": "\u00b0C",
+                        "type": "active"
+                    },
+                    {
+                        "key": "K",
+                        "value": "\u00b0K",
+                        "type": "active"
+                    },
+                    {
+                        "key": "F",
+                        "value": "\u00b0F",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_COOLING_TEMPERATURE",
+            "displayType": "slider",
+            "slider": {
+                "range": [
+                    0,
+                    40
+                ],
+                "unit": "coolingSetpoint.unit",
+                "command": "setCoolingSetpoint",
+                "value": "coolingSetpoint.value"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [],
+        "actions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_COOLING_TEMPERATURE",
+                "displayType": "numberField",
+                "numberField": {
+                    "command": "setCoolingSetpoint",
+                    "range": [
+                        0,
+                        40
+                    ]
+                }
+            }
+        ]
+    },
+    "id": "thermostatCoolingSetpoint",
+    "version": 1
+}

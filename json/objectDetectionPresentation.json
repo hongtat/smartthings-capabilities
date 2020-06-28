@@ -1,0 +1,67 @@
+{
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_OBJECT_SENSOR",
+            "displayType": "state",
+            "state": {
+                "label": "{{detected.value.value}}",
+                "alternatives": [
+                    {
+                        "key": "human",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_PERSON",
+                        "type": "active"
+                    },
+                    {
+                        "key": "pet",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_ANIMAL",
+                        "type": "active"
+                    },
+                    {
+                        "key": "parcel",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_PACKAGE",
+                        "type": "active"
+                    },
+                    {
+                        "key": "none",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_NONE",
+                        "type": "active"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_OBJECT_SENSOR",
+            "displayType": "state",
+            "state": {
+                "label": "{{detected.value.qty}}"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_OBJECT_SENSOR",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "human",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_PERSON_DETECTED",
+                            "type": "active"
+                        },
+                        {
+                            "key": "human_0",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_NO_PERSON",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedValues.value",
+                    "value": "detected.value.value"
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "objectDetection",
+    "version": 1
+}

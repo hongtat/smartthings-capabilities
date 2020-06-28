@@ -1,0 +1,70 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{sleeping.value}}",
+                "alternatives": [
+                    {
+                        "key": "sleeping",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_SLEEPING_M_STATUS",
+                        "type": "active"
+                    },
+                    {
+                        "key": "not sleeping",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_NOT_SLEEPING_M_STATUS",
+                        "type": "inactive"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_SLEEP_SENSOR",
+            "displayType": "state",
+            "state": {
+                "label": "{{sleeping.value}}",
+                "alternatives": [
+                    {
+                        "key": "sleeping",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_SLEEPING_M_STATUS",
+                        "type": "active"
+                    },
+                    {
+                        "key": "not sleeping",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_NOT_SLEEPING_M_STATUS",
+                        "type": "inactive"
+                    }
+                ]
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_SLEEP_SENSOR",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "sleeping",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_SLEEPING_M_STATUS",
+                            "type": "active"
+                        },
+                        {
+                            "key": "not sleeping",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_NOT_SLEEPING_M_STATUS",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "sleeping.value"
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "sleepSensor",
+    "version": 1
+}

@@ -1,0 +1,42 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{carbonDioxide.value}} {{carbonDioxide.unit}}"
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_CARBON_DIOXIDE_CONCENTRATION",
+            "displayType": "slider",
+            "slider": {
+                "range": [
+                    0,
+                    1000000
+                ],
+                "value": "carbonDioxide.value"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_CARBON_DIOXIDE_CONCENTRATION",
+                "displayType": "numberField",
+                "numberField": {
+                    "value": "carbonDioxide.value",
+                    "range": [
+                        0,
+                        1000000
+                    ]
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "carbonDioxideMeasurement",
+    "version": 1
+}

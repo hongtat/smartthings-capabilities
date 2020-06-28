@@ -1,0 +1,70 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{tamper.value}}",
+                "alternatives": [
+                    {
+                        "key": "detected",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_TAMPERED_M_STATUS",
+                        "type": "active"
+                    },
+                    {
+                        "key": "clear",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_NOT_TAMPERED_M_STATUS",
+                        "type": "inactive"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_TAMPER_ALERT",
+            "displayType": "state",
+            "state": {
+                "label": "{{tamper.value}}",
+                "alternatives": [
+                    {
+                        "key": "detected",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_TAMPERED_M_STATUS",
+                        "type": "active"
+                    },
+                    {
+                        "key": "clear",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_NOT_TAMPERED_M_STATUS",
+                        "type": "inactive"
+                    }
+                ]
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_TAMPER_ALERT",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "detected",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_TAMPERED_M_STATUS",
+                            "type": "active"
+                        },
+                        {
+                            "key": "clear",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_NOT_TAMPERED_M_STATUS",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "tamper.value"
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "tamperAlert",
+    "version": 1
+}

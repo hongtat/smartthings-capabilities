@@ -1,0 +1,46 @@
+{
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_DIMMER",
+            "displayType": "slider",
+            "slider": {
+                "range": [
+                    0,
+                    100
+                ],
+                "command": "setLevel",
+                "value": "level.value"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_DIMMER",
+                "displayType": "slider",
+                "slider": {
+                    "range": [
+                        0,
+                        100
+                    ],
+                    "value": "level.value"
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_DIMMER",
+                "displayType": "slider",
+                "slider": {
+                    "range": [
+                        0,
+                        100
+                    ],
+                    "command": "setLevel"
+                }
+            }
+        ]
+    },
+    "id": "switchLevel",
+    "version": 1
+}

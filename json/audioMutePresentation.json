@@ -1,0 +1,113 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{mute.value}}",
+                "alternatives": [
+                    {
+                        "key": "true",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ON_T_SAMSUNG_CONNECT",
+                        "type": "active"
+                    },
+                    {
+                        "key": "false",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OFF_T_SAMSUNG_CONNECT",
+                        "type": "inactive"
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "displayType": "switch",
+                "switch": {
+                    "command": {
+                        "on": "mute",
+                        "off": "unmute"
+                    },
+                    "state": {
+                        "value": "mute.value",
+                        "on": "muted",
+                        "off": "unmuted"
+                    }
+                }
+            }
+        ],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_AUDIO_MUTE",
+            "displayType": "toggleSwitch",
+            "toggleSwitch": {
+                "command": {
+                    "on": "mute",
+                    "off": "unmute"
+                },
+                "state": {
+                    "value": "mute.value",
+                    "on": "muted",
+                    "off": "unmuted",
+                    "label": "{{mute.value}}",
+                    "alternatives": [
+                        {
+                            "key": "muted",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_MUTE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "false",
+                            "value": "___PO_CODE_SMARTTHINGS_IDS_VPL_OPT_UNMUTE",
+                            "type": "inactive"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_AUDIO_MUTE",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "muted",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_MUTE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "unmuted",
+                            "value": "___PO_CODE_SMARTTHINGS_IDS_VPL_OPT_UNMUTE",
+                            "type": "inactive"
+                        }
+                    ],
+                    "value": "mute.value"
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_AUDIO_MUTE",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "mute",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_MUTE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "unmute",
+                            "value": "___PO_CODE_SMARTTHINGS_IDS_VPL_OPT_UNMUTE",
+                            "type": "inactive"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "id": "audioMute",
+    "version": 1
+}

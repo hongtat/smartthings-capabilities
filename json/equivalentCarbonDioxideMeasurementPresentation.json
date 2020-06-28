@@ -1,0 +1,42 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{equivalentCarbonDioxideMeasurement.value}}{{equivalentCarbonDioxideMeasurement.unit}}"
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_ECO2_CHN",
+            "displayType": "slider",
+            "slider": {
+                "range": [
+                    0,
+                    1000000
+                ],
+                "value": "equivalentCarbonDioxideMeasurement.value"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_ECO2_CHN",
+                "displayType": "numberField",
+                "numberField": {
+                    "value": "equivalentCarbonDioxideMeasurement.value",
+                    "range": [
+                        0,
+                        1000000
+                    ]
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "equivalentCarbonDioxideMeasurement",
+    "version": 1
+}

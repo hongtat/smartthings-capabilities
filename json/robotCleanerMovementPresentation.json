@@ -1,0 +1,189 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{robotCleanerMovement.value}}",
+                "alternatives": [
+                    {
+                        "key": "homing",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BODY_RETURNING_TO_DOCK_M_STATUS",
+                        "type": "active"
+                    },
+                    {
+                        "key": "idle",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_STANDBY_M_ROBOT_CLEANER_STATUS",
+                        "type": "active"
+                    },
+                    {
+                        "key": "charging",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_CHARGING_M_ROBOT_CLEANER_STATUS",
+                        "type": "active"
+                    },
+                    {
+                        "key": "alarm",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BODY_ERROR",
+                        "type": "active"
+                    },
+                    {
+                        "key": "powerOff",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OFF_T_SAMSUNG_CONNECT",
+                        "type": "active"
+                    },
+                    {
+                        "key": "reserve",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_SCHEDULED_M_ROBOT_CLEANER_STATUS",
+                        "type": "active"
+                    },
+                    {
+                        "key": "point",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_POINT_CLEANING_M_ROBOT_CLEANER_STATUS",
+                        "type": "active"
+                    },
+                    {
+                        "key": "after",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BODY_CHARGING_BEFORE_CLEANING",
+                        "type": "active"
+                    },
+                    {
+                        "key": "cleaning",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_CLEANING_M_ROBOT_CLEANER_STATUS",
+                        "type": "active"
+                    },
+                    {
+                        "key": "pause",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_PAUSE",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_MODE",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "homing",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BODY_RETURNING_TO_DOCK_M_STATUS",
+                            "type": "active"
+                        },
+                        {
+                            "key": "idle",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_STANDBY_M_ROBOT_CLEANER_STATUS",
+                            "type": "active"
+                        },
+                        {
+                            "key": "charging",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_CHARGING_M_ROBOT_CLEANER_STATUS",
+                            "type": "active"
+                        },
+                        {
+                            "key": "alarm",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BODY_ERROR",
+                            "type": "active"
+                        },
+                        {
+                            "key": "powerOff",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OFF_T_SAMSUNG_CONNECT",
+                            "type": "active"
+                        },
+                        {
+                            "key": "reserve",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_SCHEDULED_M_ROBOT_CLEANER_STATUS",
+                            "type": "active"
+                        },
+                        {
+                            "key": "point",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_POINT_CLEANING_M_ROBOT_CLEANER_STATUS",
+                            "type": "active"
+                        },
+                        {
+                            "key": "after",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BODY_CHARGING_BEFORE_CLEANING",
+                            "type": "active"
+                        },
+                        {
+                            "key": "cleaning",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_CLEANING_M_ROBOT_CLEANER_STATUS",
+                            "type": "active"
+                        },
+                        {
+                            "key": "pause",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_PAUSE",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "robotCleanerMovement.value"
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_MODE",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "homing",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BODY_RETURNING_TO_DOCK_M_STATUS",
+                            "type": "active"
+                        },
+                        {
+                            "key": "idle",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_STANDBY_M_ROBOT_CLEANER_STATUS",
+                            "type": "active"
+                        },
+                        {
+                            "key": "charging",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_CHARGING_M_ROBOT_CLEANER_STATUS",
+                            "type": "active"
+                        },
+                        {
+                            "key": "alarm",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BODY_ERROR",
+                            "type": "active"
+                        },
+                        {
+                            "key": "powerOff",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OFF_T_SAMSUNG_CONNECT",
+                            "type": "active"
+                        },
+                        {
+                            "key": "reserve",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_SCHEDULED_M_ROBOT_CLEANER_STATUS",
+                            "type": "active"
+                        },
+                        {
+                            "key": "point",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_POINT_CLEANING_M_ROBOT_CLEANER_STATUS",
+                            "type": "active"
+                        },
+                        {
+                            "key": "after",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BODY_CHARGING_BEFORE_CLEANING",
+                            "type": "active"
+                        },
+                        {
+                            "key": "cleaning",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_CLEANING_M_ROBOT_CLEANER_STATUS",
+                            "type": "active"
+                        },
+                        {
+                            "key": "pause",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_PAUSE",
+                            "type": "active"
+                        }
+                    ],
+                    "command": "setRobotCleanerMovement"
+                }
+            }
+        ]
+    },
+    "id": "robotCleanerMovement",
+    "version": 1
+}

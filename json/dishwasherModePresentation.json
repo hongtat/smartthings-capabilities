@@ -1,0 +1,99 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{dishwasherMode.value}}",
+                "alternatives": [
+                    {
+                        "key": "auto",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_AUTO",
+                        "type": "active"
+                    },
+                    {
+                        "key": "quick",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_QUICK_M_WASHER_MODE",
+                        "type": "active"
+                    },
+                    {
+                        "key": "rinse",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_RINSE_M_WASHER_STATUS",
+                        "type": "active"
+                    },
+                    {
+                        "key": "dry",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_DRY",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_MODE",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "auto",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_AUTO",
+                            "type": "active"
+                        },
+                        {
+                            "key": "quick",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_QUICK_M_WASHER_MODE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "rinse",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_RINSE_M_WASHER_STATUS",
+                            "type": "active"
+                        },
+                        {
+                            "key": "dry",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_DRY",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "dishwasherMode.value"
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_MODE",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "auto",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_AUTO",
+                            "type": "active"
+                        },
+                        {
+                            "key": "quick",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_QUICK_M_WASHER_MODE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "rinse",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_RINSE_M_WASHER_STATUS",
+                            "type": "active"
+                        },
+                        {
+                            "key": "dry",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_DRY",
+                            "type": "active"
+                        }
+                    ],
+                    "command": "setDishwasherMode"
+                }
+            }
+        ]
+    },
+    "id": "dishwasherMode",
+    "version": 1
+}
