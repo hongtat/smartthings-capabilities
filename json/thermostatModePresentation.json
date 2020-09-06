@@ -1,15 +1,15 @@
 {
-    "automation": {
-        "conditions": [],
-        "actions": [
-            {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_MODE",
-                "displayType": "list",
-                "list": {
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_MODE",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "name": "setThermostatMode",
                     "alternatives": [
                         {
                             "key": "asleep",
-                            "value": "___PO_CODE_THERMOSTAT_THERMOSTAT_MODE_ASLEEP",
+                            "value": "Asleep",
                             "type": "active"
                         },
                         {
@@ -19,47 +19,47 @@
                         },
                         {
                             "key": "autowitheco",
-                            "value": "___PO_CODE_THERMOSTAT_THERMOSTAT_MODE_AUTO_WITH_ECO",
+                            "value": "Auto with Eco",
                             "type": "active"
                         },
                         {
                             "key": "autowithreset",
-                            "value": "___PO_CODE_THERMOSTAT_THERMOSTAT_MODE_AUTO_WITH_RESET",
+                            "value": "Auto With Reset",
                             "type": "active"
                         },
                         {
                             "key": "autochangeover",
-                            "value": "___PO_CODE_THERMOSTAT_THERMOSTAT_MODE_AUTO_CHANGE_OVER",
+                            "value": "Auto Changeover",
                             "type": "active"
                         },
                         {
                             "key": "autochangeoveractive",
-                            "value": "___PO_CODE_THERMOSTAT_THERMOSTAT_MODE_AUTO_CHANGE_OVER_ACTIVE",
+                            "value": "Auto Changeover Active",
                             "type": "active"
                         },
                         {
                             "key": "autocool",
-                            "value": "___PO_CODE_THERMOSTAT_THERMOSTAT_MODE_AUTO_COOL",
+                            "value": "Auto Cool",
                             "type": "active"
                         },
                         {
                             "key": "autoheat",
-                            "value": "___PO_CODE_THERMOSTAT_THERMOSTAT_MODE_AUTO_HEAT",
+                            "value": "Auto Heat",
                             "type": "active"
                         },
                         {
                             "key": "auxheatonly",
-                            "value": "___PO_CODE_THERMOSTAT_THERMOSTAT_MODE_AUX_HEAT_ONLY",
+                            "value": "Auxillary Heat Only",
                             "type": "active"
                         },
                         {
                             "key": "auxiliaryemergencyheat",
-                            "value": "___PO_CODE_THERMOSTAT_THERMOSTAT_MODE_AUXILIARY_EMERGENCY_HEAT",
+                            "value": "Auxillary Emergency Heat",
                             "type": "active"
                         },
                         {
                             "key": "away",
-                            "value": "___PO_CODE_THERMOSTAT_THERMOSTAT_MODE_AWAY",
+                            "value": "Away",
                             "type": "active"
                         },
                         {
@@ -69,17 +69,17 @@
                         },
                         {
                             "key": "custom",
-                            "value": "___PO_CODE_THERMOSTAT_THERMOSTAT_MODE_CUSTOM",
+                            "value": "Custom",
                             "type": "active"
                         },
                         {
                             "key": "dayoff",
-                            "value": "___PO_CODE_THERMOSTAT_THERMOSTAT_MODE_DAT_OFF",
+                            "value": "Day Off",
                             "type": "active"
                         },
                         {
                             "key": "dryair",
-                            "value": "___PO_CODE_THERMOSTAT_THERMOSTAT_MODE_DRY_AIR",
+                            "value": "Dry air",
                             "type": "active"
                         },
                         {
@@ -99,32 +99,32 @@
                         },
                         {
                             "key": "emergencyheatactive",
-                            "value": "___PO_CODE_THERMOSTAT_THERMOSTAT_MODE_EMERGENCY_HEAT_ACTIVE",
+                            "value": "Emergency Heat Active",
                             "type": "active"
                         },
                         {
                             "key": "energysavecool",
-                            "value": "___PO_CODE_THERMOSTAT_THERMOSTAT_MODE_ENERGY_SAVE_COOL",
+                            "value": "Energy Save Cool",
                             "type": "active"
                         },
                         {
                             "key": "energysaveheat",
-                            "value": "___PO_CODE_THERMOSTAT_THERMOSTAT_MODE_ENERGY_SAVE_HEAT",
+                            "value": "Energy Save Heat",
                             "type": "active"
                         },
                         {
                             "key": "fanonly",
-                            "value": "___PO_CODE_THERMOSTAT_THERMOSTAT_MODE_FAN_ONLY",
+                            "value": "Fan only",
                             "type": "active"
                         },
                         {
                             "key": "frostguard",
-                            "value": "___PO_CODE_THERMOSTAT_THERMOSTAT_MODE_FROST_GUARD",
+                            "value": "Frost Guard",
                             "type": "active"
                         },
                         {
                             "key": "furnace",
-                            "value": "___PO_CODE_THERMOSTAT_THERMOSTAT_MODE_FURNACE",
+                            "value": "Furnace",
                             "type": "active"
                         },
                         {
@@ -134,27 +134,27 @@
                         },
                         {
                             "key": "heatingoff",
-                            "value": "___PO_CODE_THERMOSTAT_THERMOSTAT_MODE_HEATING_OFF",
+                            "value": "Heating Off",
                             "type": "active"
                         },
                         {
                             "key": "home",
-                            "value": "___PO_CODE_THERMOSTAT_THERMOSTAT_MODE_HOME",
+                            "value": "Home",
                             "type": "active"
                         },
                         {
                             "key": "in",
-                            "value": "___PO_CODE_THERMOSTAT_THERMOSTAT_MODE_IN",
+                            "value": "In",
                             "type": "active"
                         },
                         {
                             "key": "manual",
-                            "value": "___PO_CODE_THERMOSTAT_THERMOSTAT_MODE_MANUAL",
+                            "value": "Manual",
                             "type": "active"
                         },
                         {
                             "key": "moistair",
-                            "value": "___PO_CODE_THERMOSTAT_THERMOSTAT_MODE_MOISTAIR",
+                            "value": "Moistair",
                             "type": "active"
                         },
                         {
@@ -164,12 +164,12 @@
                         },
                         {
                             "key": "out",
-                            "value": "___PO_CODE_THERMOSTAT_THERMOSTAT_OUT",
+                            "value": "Out",
                             "type": "active"
                         },
                         {
                             "key": "resume",
-                            "value": "___PO_CODE_THERMOSTAT_THERMOSTAT_MODE_RESUME",
+                            "value": "Resume",
                             "type": "active"
                         },
                         {
@@ -184,12 +184,401 @@
                         },
                         {
                             "key": "schedule",
-                            "value": "___PO_CODE_THERMOSTAT_THERMOSTAT_MODE_SCHEDULE",
+                            "value": "Schedule",
                             "type": "active"
                         },
                         {
                             "key": "southernaway",
-                            "value": "___PO_CODE_THERMOSTAT_THERMOSTAT_MODE_SOUTHERN_AWAY",
+                            "value": "Southern Away",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedThermostatModes.value"
+                },
+                "state": {
+                    "value": "thermostatMode.value",
+                    "alternatives": [
+                        {
+                            "key": "asleep",
+                            "value": "Asleep",
+                            "type": "active"
+                        },
+                        {
+                            "key": "auto",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_AUTO",
+                            "type": "active"
+                        },
+                        {
+                            "key": "autowitheco",
+                            "value": "Auto with Eco",
+                            "type": "active"
+                        },
+                        {
+                            "key": "autowithreset",
+                            "value": "Auto With Reset",
+                            "type": "active"
+                        },
+                        {
+                            "key": "autochangeover",
+                            "value": "Auto Changeover",
+                            "type": "active"
+                        },
+                        {
+                            "key": "autochangeoveractive",
+                            "value": "Auto Changeover Active",
+                            "type": "active"
+                        },
+                        {
+                            "key": "autocool",
+                            "value": "Auto Cool",
+                            "type": "active"
+                        },
+                        {
+                            "key": "autoheat",
+                            "value": "Auto Heat",
+                            "type": "active"
+                        },
+                        {
+                            "key": "auxheatonly",
+                            "value": "Auxillary Heat Only",
+                            "type": "active"
+                        },
+                        {
+                            "key": "auxiliaryemergencyheat",
+                            "value": "Auxillary Emergency Heat",
+                            "type": "active"
+                        },
+                        {
+                            "key": "away",
+                            "value": "Away",
+                            "type": "active"
+                        },
+                        {
+                            "key": "cool",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_COOL_ABB",
+                            "type": "active"
+                        },
+                        {
+                            "key": "custom",
+                            "value": "Custom",
+                            "type": "active"
+                        },
+                        {
+                            "key": "dayoff",
+                            "value": "Day Off",
+                            "type": "active"
+                        },
+                        {
+                            "key": "dryair",
+                            "value": "Dry air",
+                            "type": "active"
+                        },
+                        {
+                            "key": "eco",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_ECO",
+                            "type": "active"
+                        },
+                        {
+                            "key": "emergency heat",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_EMERGENCY_ABB",
+                            "type": "active"
+                        },
+                        {
+                            "key": "emergencyheat",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_EMERGENCY_ABB",
+                            "type": "active"
+                        },
+                        {
+                            "key": "emergencyheatactive",
+                            "value": "Emergency Heat Active",
+                            "type": "active"
+                        },
+                        {
+                            "key": "energysavecool",
+                            "value": "Energy Save Cool",
+                            "type": "active"
+                        },
+                        {
+                            "key": "energysaveheat",
+                            "value": "Energy Save Heat",
+                            "type": "active"
+                        },
+                        {
+                            "key": "fanonly",
+                            "value": "Fan only",
+                            "type": "active"
+                        },
+                        {
+                            "key": "frostguard",
+                            "value": "Frost Guard",
+                            "type": "active"
+                        },
+                        {
+                            "key": "furnace",
+                            "value": "Furnace",
+                            "type": "active"
+                        },
+                        {
+                            "key": "heat",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_HEAT_ABB",
+                            "type": "active"
+                        },
+                        {
+                            "key": "heatingoff",
+                            "value": "Heating Off",
+                            "type": "active"
+                        },
+                        {
+                            "key": "home",
+                            "value": "Home",
+                            "type": "active"
+                        },
+                        {
+                            "key": "in",
+                            "value": "In",
+                            "type": "active"
+                        },
+                        {
+                            "key": "manual",
+                            "value": "Manual",
+                            "type": "active"
+                        },
+                        {
+                            "key": "moistair",
+                            "value": "Moistair",
+                            "type": "active"
+                        },
+                        {
+                            "key": "off",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_OFF",
+                            "type": "active"
+                        },
+                        {
+                            "key": "out",
+                            "value": "Out",
+                            "type": "active"
+                        },
+                        {
+                            "key": "resume",
+                            "value": "Resume",
+                            "type": "active"
+                        },
+                        {
+                            "key": "rush hour",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_RUSH_HOUR",
+                            "type": "active"
+                        },
+                        {
+                            "key": "rushhour",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_RUSH_HOUR",
+                            "type": "active"
+                        },
+                        {
+                            "key": "schedule",
+                            "value": "Schedule",
+                            "type": "active"
+                        },
+                        {
+                            "key": "southernaway",
+                            "value": "Southern Away",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [],
+        "actions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_MODE",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "asleep",
+                            "value": "Asleep",
+                            "type": "active"
+                        },
+                        {
+                            "key": "auto",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_AUTO",
+                            "type": "active"
+                        },
+                        {
+                            "key": "autowitheco",
+                            "value": "Auto with Eco",
+                            "type": "active"
+                        },
+                        {
+                            "key": "autowithreset",
+                            "value": "Auto With Reset",
+                            "type": "active"
+                        },
+                        {
+                            "key": "autochangeover",
+                            "value": "Auto Changeover",
+                            "type": "active"
+                        },
+                        {
+                            "key": "autochangeoveractive",
+                            "value": "Auto Changeover Active",
+                            "type": "active"
+                        },
+                        {
+                            "key": "autocool",
+                            "value": "Auto Cool",
+                            "type": "active"
+                        },
+                        {
+                            "key": "autoheat",
+                            "value": "Auto Heat",
+                            "type": "active"
+                        },
+                        {
+                            "key": "auxheatonly",
+                            "value": "Auxillary Heat Only",
+                            "type": "active"
+                        },
+                        {
+                            "key": "auxiliaryemergencyheat",
+                            "value": "Auxillary Emergency Heat",
+                            "type": "active"
+                        },
+                        {
+                            "key": "away",
+                            "value": "Away",
+                            "type": "active"
+                        },
+                        {
+                            "key": "cool",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_COOL_ABB",
+                            "type": "active"
+                        },
+                        {
+                            "key": "custom",
+                            "value": "Custom",
+                            "type": "active"
+                        },
+                        {
+                            "key": "dayoff",
+                            "value": "Day Off",
+                            "type": "active"
+                        },
+                        {
+                            "key": "dryair",
+                            "value": "Dry air",
+                            "type": "active"
+                        },
+                        {
+                            "key": "eco",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_ECO",
+                            "type": "active"
+                        },
+                        {
+                            "key": "emergency heat",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_EMERGENCY_ABB",
+                            "type": "active"
+                        },
+                        {
+                            "key": "emergencyheat",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_EMERGENCY_ABB",
+                            "type": "active"
+                        },
+                        {
+                            "key": "emergencyheatactive",
+                            "value": "Emergency Heat Active",
+                            "type": "active"
+                        },
+                        {
+                            "key": "energysavecool",
+                            "value": "Energy Save Cool",
+                            "type": "active"
+                        },
+                        {
+                            "key": "energysaveheat",
+                            "value": "Energy Save Heat",
+                            "type": "active"
+                        },
+                        {
+                            "key": "fanonly",
+                            "value": "Fan only",
+                            "type": "active"
+                        },
+                        {
+                            "key": "frostguard",
+                            "value": "Frost Guard",
+                            "type": "active"
+                        },
+                        {
+                            "key": "furnace",
+                            "value": "Furnace",
+                            "type": "active"
+                        },
+                        {
+                            "key": "heat",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_HEAT_ABB",
+                            "type": "active"
+                        },
+                        {
+                            "key": "heatingoff",
+                            "value": "Heating Off",
+                            "type": "active"
+                        },
+                        {
+                            "key": "home",
+                            "value": "Home",
+                            "type": "active"
+                        },
+                        {
+                            "key": "in",
+                            "value": "In",
+                            "type": "active"
+                        },
+                        {
+                            "key": "manual",
+                            "value": "Manual",
+                            "type": "active"
+                        },
+                        {
+                            "key": "moistair",
+                            "value": "Moistair",
+                            "type": "active"
+                        },
+                        {
+                            "key": "off",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_OFF",
+                            "type": "active"
+                        },
+                        {
+                            "key": "out",
+                            "value": "Out",
+                            "type": "active"
+                        },
+                        {
+                            "key": "resume",
+                            "value": "Resume",
+                            "type": "active"
+                        },
+                        {
+                            "key": "rush hour",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_RUSH_HOUR",
+                            "type": "active"
+                        },
+                        {
+                            "key": "rushhour",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_RUSH_HOUR",
+                            "type": "active"
+                        },
+                        {
+                            "key": "schedule",
+                            "value": "Schedule",
+                            "type": "active"
+                        },
+                        {
+                            "key": "southernaway",
+                            "value": "Southern Away",
                             "type": "active"
                         }
                     ],

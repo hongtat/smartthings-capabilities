@@ -2,7 +2,7 @@
     "dashboard": {
         "states": [
             {
-                "label": "{{coolingSetpoint.value}} {{coolingSetpoint.unit}}",
+                "label": "{{heatingSetpoint.value}} {{heatingSetpoint.unit}}",
                 "alternatives": [
                     {
                         "key": "C",
@@ -27,27 +27,27 @@
     },
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_COOLING_TEMPERATURE",
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_HEATING_TEMPERATURE",
             "displayType": "slider",
             "slider": {
                 "range": [
                     0,
                     40
                 ],
-                "unit": "coolingSetpoint.unit",
-                "command": "setCoolingSetpoint",
-                "value": "coolingSetpoint.value"
+                "unit": "heatingSetpoint.unit",
+                "command": "setHeatingSetpoint",
+                "value": "heatingSetpoint.value"
             }
         }
     ],
     "automation": {
         "conditions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_COOLING_TEMPERATURE",
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_HEATING_TEMPERATURE",
                 "displayType": "numberField",
                 "numberField": {
-                    "value": "coolingSetpoint.value",
-                    "unit": "coolingSetpoint.unit",
+                    "value": "heatingSetpoint.value",
+                    "unit": "heatingSetpoint.unit",
                     "range": [
                         0,
                         40
@@ -57,10 +57,10 @@
         ],
         "actions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_COOLING_TEMPERATURE",
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_HEATING_TEMPERATURE",
                 "displayType": "numberField",
                 "numberField": {
-                    "command": "setCoolingSetpoint",
+                    "command": "setHeatingSetpoint",
                     "range": [
                         0,
                         40
@@ -69,6 +69,6 @@
             }
         ]
     },
-    "id": "thermostatCoolingSetpoint",
+    "id": "thermostatHeatingSetpoint",
     "version": 1
 }

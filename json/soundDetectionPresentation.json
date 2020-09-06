@@ -5,6 +5,11 @@
                 "label": "{{soundDetected.value}}",
                 "alternatives": [
                     {
+                        "key": "noSound",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_NONE",
+                        "type": "inactive"
+                    },
+                    {
                         "key": "babyCrying",
                         "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BODY_BABY_CRYING",
                         "type": "active"
@@ -20,9 +25,14 @@
                         "type": "active"
                     },
                     {
-                        "key": "noSound",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_NONE",
-                        "type": "inactive"
+                        "key": "dogBarking",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_SBODY_DOG_BARK_DETECTED",
+                        "type": "active"
+                    },
+                    {
+                        "key": "catMeowing",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_SBODY_CAT_MEOW_DETECTED",
+                        "type": "active"
                     }
                 ]
             }
@@ -38,6 +48,11 @@
                 "label": "{{soundDetected.value}}",
                 "alternatives": [
                     {
+                        "key": "noSound",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_NONE",
+                        "type": "inactive"
+                    },
+                    {
                         "key": "babyCrying",
                         "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BODY_BABY_CRYING",
                         "type": "active"
@@ -53,9 +68,14 @@
                         "type": "active"
                     },
                     {
-                        "key": "noSound",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_NONE",
-                        "type": "inactive"
+                        "key": "dogBarking",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_SBODY_DOG_BARK_DETECTED",
+                        "type": "active"
+                    },
+                    {
+                        "key": "catMeowing",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_SBODY_CAT_MEOW_DETECTED",
+                        "type": "active"
                     }
                 ]
             }
@@ -68,6 +88,11 @@
                 "displayType": "list",
                 "list": {
                     "alternatives": [
+                        {
+                            "key": "noSound",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_NONE",
+                            "type": "inactive"
+                        },
                         {
                             "key": "babyCrying",
                             "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_BODY_BABY_CRYING",
@@ -84,8 +109,13 @@
                             "type": "active"
                         },
                         {
-                            "key": "noSound",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_NONE",
+                            "key": "dogBarking",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_SBODY_DOG_BARK_DETECTED",
+                            "type": "active"
+                        },
+                        {
+                            "key": "catMeowing",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_SBODY_CAT_MEOW_DETECTED",
                             "type": "active"
                         }
                     ],

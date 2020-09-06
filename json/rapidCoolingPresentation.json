@@ -6,12 +6,12 @@
                 "alternatives": [
                     {
                         "key": "on",
-                        "value": "___PO_CODE_RAPIDCOOLING_ON",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ON_T_SAMSUNG_CONNECT",
                         "type": "active"
                     },
                     {
                         "key": "off",
-                        "value": "___PO_CODE_RAPIDCOOLING_OFF",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OFF_T_SAMSUNG_CONNECT",
                         "type": "inactive"
                     }
                 ]
@@ -37,12 +37,12 @@
                     "alternatives": [
                         {
                             "key": "on",
-                            "value": "___PO_CODE_RAPIDCOOLING_ON",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ON_T_SAMSUNG_CONNECT",
                             "type": "active"
                         },
                         {
                             "key": "off",
-                            "value": "___PO_CODE_RAPIDCOOLING_OFF",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OFF_T_SAMSUNG_CONNECT",
                             "type": "inactive"
                         }
                     ]
@@ -59,12 +59,12 @@
                     "alternatives": [
                         {
                             "key": "on",
-                            "value": "___PO_CODE_RAPIDCOOLING_ON",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ON_T_SAMSUNG_CONNECT",
                             "type": "active"
                         },
                         {
                             "key": "off",
-                            "value": "___PO_CODE_RAPIDCOOLING_OFF",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OFF_T_SAMSUNG_CONNECT",
                             "type": "active"
                         }
                     ],
@@ -80,12 +80,12 @@
                     "alternatives": [
                         {
                             "key": "on",
-                            "value": "___PO_CODE_RAPIDCOOLING_ON",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ON_T_SAMSUNG_CONNECT",
                             "type": "active"
                         },
                         {
                             "key": "off",
-                            "value": "___PO_CODE_RAPIDCOOLING_OFF",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OFF_T_SAMSUNG_CONNECT",
                             "type": "active"
                         }
                     ],

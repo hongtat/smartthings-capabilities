@@ -1,0 +1,13 @@
+{
+    "detailView": [
+        {
+            "label": "Speech Synthesis",
+            "displayType": "textField",
+            "textField": {
+                "command": "speak"
+            }
+        }
+    ],
+    "id": "speechSynthesis",
+    "version": 1
+}

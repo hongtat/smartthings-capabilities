@@ -38,6 +38,21 @@
                 ]
             },
             "enumCommands": []
+        },
+        "encrypted": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "boolean"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
         }
     },
     "commands": {

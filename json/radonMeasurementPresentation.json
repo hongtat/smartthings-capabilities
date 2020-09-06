@@ -2,7 +2,7 @@
     "dashboard": {
         "states": [
             {
-                "label": "{{energy.value}}{{energy.unit}}"
+                "label": "{{radonLevel.value}} {{radonLevel.unit}}"
             }
         ],
         "actions": [],
@@ -10,30 +10,33 @@
     },
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_ENERGY_METER",
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SACP_HEADER_RADON",
             "displayType": "slider",
             "slider": {
                 "range": [
-                    0,
-                    999.9
+                    0.2,
+                    99.9
                 ],
-                "unit": "energy.unit",
-                "value": "energy.value"
+                "value": "radonLevel.value"
             }
         }
     ],
     "automation": {
         "conditions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_ENERGY_METER",
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SACP_HEADER_RADON",
                 "displayType": "numberField",
                 "numberField": {
-                    "value": "energy.value"
+                    "value": "radonLevel.value",
+                    "range": [
+                        0.2,
+                        99.9
+                    ]
                 }
             }
         ],
         "actions": []
     },
-    "id": "energyMeter",
+    "id": "radonMeasurement",
     "version": 1
 }

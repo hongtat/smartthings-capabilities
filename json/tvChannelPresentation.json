@@ -10,7 +10,7 @@
     },
     "detailView": [
         {
-            "label": "___PO_CODE_TVCHANNELCONTROL",
+            "label": "TV Channel",
             "displayType": "textField",
             "textField": {
                 "command": "setTvChannel"

@@ -5,12 +5,12 @@
                 "label": "{{mute.value}}",
                 "alternatives": [
                     {
-                        "key": "true",
+                        "key": "muted",
                         "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ON_T_SAMSUNG_CONNECT",
                         "type": "active"
                     },
                     {
-                        "key": "false",
+                        "key": "unmuted",
                         "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OFF_T_SAMSUNG_CONNECT",
                         "type": "inactive"
                     }
@@ -52,12 +52,12 @@
                     "alternatives": [
                         {
                             "key": "muted",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_MUTE",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ON_T_SAMSUNG_CONNECT",
                             "type": "active"
                         },
                         {
-                            "key": "false",
-                            "value": "___PO_CODE_SMARTTHINGS_IDS_VPL_OPT_UNMUTE",
+                            "key": "unmuted",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OFF_T_SAMSUNG_CONNECT",
                             "type": "inactive"
                         }
                     ]
@@ -74,12 +74,12 @@
                     "alternatives": [
                         {
                             "key": "muted",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_MUTE",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ON_T_SAMSUNG_CONNECT",
                             "type": "active"
                         },
                         {
                             "key": "unmuted",
-                            "value": "___PO_CODE_SMARTTHINGS_IDS_VPL_OPT_UNMUTE",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OFF_T_SAMSUNG_CONNECT",
                             "type": "inactive"
                         }
                     ],
@@ -95,12 +95,12 @@
                     "alternatives": [
                         {
                             "key": "mute",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_MUTE",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ON_T_SAMSUNG_CONNECT",
                             "type": "active"
                         },
                         {
                             "key": "unmute",
-                            "value": "___PO_CODE_SMARTTHINGS_IDS_VPL_OPT_UNMUTE",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OFF_T_SAMSUNG_CONNECT",
                             "type": "inactive"
                         }
                     ]

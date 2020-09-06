@@ -21,7 +21,7 @@
                     },
                     {
                         "key": "spinDry",
-                        "value": "___PO_CODE_WASHERMODE_SPINDRY",
+                        "value": "Spin Dry",
                         "type": "active"
                     }
                 ]
@@ -30,6 +30,64 @@
         "actions": [],
         "basicPlus": []
     },
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_MODE",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "name": "setWasherMode",
+                    "alternatives": [
+                        {
+                            "key": "regular",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_REGULAR_M_WASHER_MODE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "heavy",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_HEAVY_M_WASHER_MODE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "rinse",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_RINSE_M_WASHER_MODE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "spinDry",
+                            "value": "Spin Dry",
+                            "type": "active"
+                        }
+                    ]
+                },
+                "state": {
+                    "value": "washerMode.value",
+                    "alternatives": [
+                        {
+                            "key": "regular",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_REGULAR_M_WASHER_MODE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "heavy",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_HEAVY_M_WASHER_MODE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "rinse",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_RINSE_M_WASHER_MODE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "spinDry",
+                            "value": "Spin Dry",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
     "automation": {
         "conditions": [
             {
@@ -54,7 +112,7 @@
                         },
                         {
                             "key": "spinDry",
-                            "value": "___PO_CODE_WASHERMODE_SPINDRY",
+                            "value": "Spin Dry",
                             "type": "active"
                         }
                     ],
@@ -85,7 +143,7 @@
                         },
                         {
                             "key": "spinDry",
-                            "value": "___PO_CODE_WASHERMODE_SPINDRY",
+                            "value": "Spin Dry",
                             "type": "active"
                         }
                     ],

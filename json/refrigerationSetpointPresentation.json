@@ -1,7 +1,7 @@
 {
     "detailView": [
         {
-            "label": "___PO_CODE_REFRIGERATIONSETPOINT_REFRIGERATION_TEMPERATURE",
+            "label": "Refrigeration Temperature",
             "displayType": "slider",
             "slider": {
                 "range": [
@@ -13,6 +13,22 @@
             }
         }
     ],
+    "automation": {
+        "conditions": [],
+        "actions": [
+            {
+                "label": "Refrigeration Temperature",
+                "displayType": "numberField",
+                "numberField": {
+                    "command": "setRefrigerationSetpoint",
+                    "range": [
+                        0,
+                        40
+                    ]
+                }
+            }
+        ]
+    },
     "id": "refrigerationSetpoint",
     "version": 1
 }

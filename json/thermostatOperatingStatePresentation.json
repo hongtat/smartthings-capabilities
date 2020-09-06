@@ -6,37 +6,37 @@
                 "alternatives": [
                     {
                         "key": "cooling",
-                        "value": "___PO_CODE_THERMOSTATOPERATINGSTATE_COOLING",
+                        "value": "Cooling",
                         "type": "active"
                     },
                     {
                         "key": "fan only",
-                        "value": "___PO_CODE_THERMOSTATOPERATINGSTATE_FAN_ONLY",
+                        "value": "Fan Only",
                         "type": "active"
                     },
                     {
                         "key": "heating",
-                        "value": "___PO_CODE_THERMOSTATOPERATINGSTATE_HEATING",
+                        "value": "Heating",
                         "type": "active"
                     },
                     {
                         "key": "idle",
-                        "value": "___PO_CODE_THERMOSTATOPERATINGSTATE_IDLE",
+                        "value": "Idle",
                         "type": "active"
                     },
                     {
                         "key": "pending cool",
-                        "value": "___PO_CODE_THERMOSTATOPERATINGSTATE_PENDING_COOL",
+                        "value": "Pending Cool",
                         "type": "active"
                     },
                     {
                         "key": "pending heat",
-                        "value": "___PO_CODE_THERMOSTATOPERATINGSTATE_PENDING_HEAT",
+                        "value": "Pending Heat",
                         "type": "active"
                     },
                     {
                         "key": "vent economizer",
-                        "value": "___PO_CODE_THERMOSTATOPERATINGSTATE_VENT_ECONOMIZER",
+                        "value": "Vent Economizer",
                         "type": "active"
                     }
                 ]
@@ -54,37 +54,37 @@
                 "alternatives": [
                     {
                         "key": "cooling",
-                        "value": "___PO_CODE_THERMOSTATOPERATINGSTATE_COOLING",
+                        "value": "Cooling",
                         "type": "active"
                     },
                     {
                         "key": "fan only",
-                        "value": "___PO_CODE_THERMOSTATOPERATINGSTATE_FAN_ONLY",
+                        "value": "Fan Only",
                         "type": "active"
                     },
                     {
                         "key": "heating",
-                        "value": "___PO_CODE_THERMOSTATOPERATINGSTATE_HEATING",
+                        "value": "Heating",
                         "type": "active"
                     },
                     {
                         "key": "idle",
-                        "value": "___PO_CODE_THERMOSTATOPERATINGSTATE_IDLE",
+                        "value": "Idle",
                         "type": "active"
                     },
                     {
                         "key": "pending cool",
-                        "value": "___PO_CODE_THERMOSTATOPERATINGSTATE_PENDING_COOL",
+                        "value": "Pending Cool",
                         "type": "active"
                     },
                     {
                         "key": "pending heat",
-                        "value": "___PO_CODE_THERMOSTATOPERATINGSTATE_PENDING_HEAT",
+                        "value": "Pending Heat",
                         "type": "active"
                     },
                     {
                         "key": "vent economizer",
-                        "value": "___PO_CODE_THERMOSTATOPERATINGSTATE_VENT_ECONOMIZER",
+                        "value": "Vent Economizer",
                         "type": "active"
                     }
                 ]
@@ -100,37 +100,37 @@
                     "alternatives": [
                         {
                             "key": "cooling",
-                            "value": "___PO_CODE_THERMOSTATOPERATINGSTATE_COOLING",
+                            "value": "Cooling",
                             "type": "active"
                         },
                         {
                             "key": "fan only",
-                            "value": "___PO_CODE_THERMOSTATOPERATINGSTATE_FAN_ONLY",
+                            "value": "Fan Only",
                             "type": "active"
                         },
                         {
                             "key": "heating",
-                            "value": "___PO_CODE_THERMOSTATOPERATINGSTATE_HEATING",
+                            "value": "Heating",
                             "type": "active"
                         },
                         {
                             "key": "idle",
-                            "value": "___PO_CODE_THERMOSTATOPERATINGSTATE_IDLE",
+                            "value": "Idle",
                             "type": "active"
                         },
                         {
                             "key": "pending cool",
-                            "value": "___PO_CODE_THERMOSTATOPERATINGSTATE_PENDING_COOL",
+                            "value": "Pending Cool",
                             "type": "active"
                         },
                         {
                             "key": "pending heat",
-                            "value": "___PO_CODE_THERMOSTATOPERATINGSTATE_PENDING_HEAT",
+                            "value": "Pending Heat",
                             "type": "active"
                         },
                         {
                             "key": "vent economizer",
-                            "value": "___PO_CODE_THERMOSTATOPERATINGSTATE_VENT_ECONOMIZER",
+                            "value": "Vent Economizer",
                             "type": "active"
                         }
                     ],

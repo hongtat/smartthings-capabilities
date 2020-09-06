@@ -5,14 +5,14 @@
                 "label": "{{contact.value}}",
                 "alternatives": [
                     {
-                        "key": "closed",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_CLOSED",
-                        "type": "inactive"
-                    },
-                    {
                         "key": "open",
                         "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OPEN",
                         "type": "active"
+                    },
+                    {
+                        "key": "closed",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_CLOSED",
+                        "type": "inactive"
                     }
                 ]
             }
@@ -28,14 +28,14 @@
                 "label": "{{contact.value}}",
                 "alternatives": [
                     {
-                        "key": "closed",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_CLOSED",
-                        "type": "inactive"
-                    },
-                    {
                         "key": "open",
                         "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OPEN",
                         "type": "active"
+                    },
+                    {
+                        "key": "closed",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_CLOSED",
+                        "type": "inactive"
                     }
                 ]
             }
@@ -49,14 +49,14 @@
                 "list": {
                     "alternatives": [
                         {
-                            "key": "closed",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_CLOSED",
-                            "type": "inactive"
-                        },
-                        {
                             "key": "open",
                             "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OPEN",
                             "type": "active"
+                        },
+                        {
+                            "key": "closed",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_CLOSED",
+                            "type": "inactive"
                         }
                     ],
                     "value": "contact.value"

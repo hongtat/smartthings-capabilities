@@ -1,7 +1,7 @@
 {
     "detailView": [
         {
-            "label": "___PO_CODE_VIDEOSTREAM",
+            "label": "Video Stream",
             "displayType": "state",
             "state": {
                 "label": "{{stream.value}}"

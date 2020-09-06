@@ -1,0 +1,48 @@
+{
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_NOW_PLAYING",
+            "displayType": "state",
+            "state": {
+                "label": "{{audioTrackData.value.title}}"
+            }
+        },
+        {
+            "label": "Audio Track Data",
+            "displayType": "state",
+            "state": {
+                "label": "{{audioTrackData.value.artist}}"
+            }
+        },
+        {
+            "label": "Audio Track Data",
+            "displayType": "state",
+            "state": {
+                "label": "{{audioTrackData.value.album}}"
+            }
+        },
+        {
+            "label": "Audio Track Data",
+            "displayType": "state",
+            "state": {
+                "label": "{{audioTrackData.value.albumArtUrl}}"
+            }
+        },
+        {
+            "label": "Audio Track Data",
+            "displayType": "state",
+            "state": {
+                "label": "{{totalTime.value}}"
+            }
+        },
+        {
+            "label": "Audio Track Data",
+            "displayType": "state",
+            "state": {
+                "label": "{{elapsedTime.value}}"
+            }
+        }
+    ],
+    "id": "audioTrackData",
+    "version": 1
+}

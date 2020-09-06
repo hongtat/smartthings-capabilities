@@ -2,9 +2,14 @@
     "detailView": [
         {
             "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_POWER_METER",
-            "displayType": "state",
-            "state": {
-                "label": "{{power.value}}"
+            "displayType": "slider",
+            "slider": {
+                "range": [
+                    0,
+                    999.9
+                ],
+                "unit": "power.unit",
+                "value": "power.value"
             }
         }
     ],

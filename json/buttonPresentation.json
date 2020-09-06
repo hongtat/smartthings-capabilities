@@ -125,6 +125,132 @@
         "actions": [],
         "basicPlus": []
     },
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_VOLUME_T_SAMSUNG_CONNECT",
+            "displayType": "state",
+            "state": {
+                "label": "{{button.value}}",
+                "alternatives": [
+                    {
+                        "key": "pushed",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_PRESSED",
+                        "type": "active"
+                    },
+                    {
+                        "key": "double",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_DOUBLE_PRESSED",
+                        "type": "active"
+                    },
+                    {
+                        "key": "held",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_HELD",
+                        "type": "active"
+                    },
+                    {
+                        "key": "Ready",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_STANDBY",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "pushed_2x",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_PRESSED_2_TIMES_M_BUTTON_STATUS",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "pushed_3x",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_PRESSED_3_TIMES_M_BUTTON_STATUS",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "pushed_4x",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_PRESSED_4_TIMES_M_BUTTON_STATUS",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "pushed_5x",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_PRESSED_5_TIMES_M_BUTTON_STATUS",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "pushed_6x",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_PRESSED_6_TIMES_M_BUTTON_STATUS",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "down",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TOGGLED_DOWN_M_BUTTON_STATUS",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "down_2x",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TOGGLED_DOWN_2_TIMES_M_BUTTON_STATUS",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "down_3x",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TOGGLED_DOWN_3_TIMES_M_BUTTON_STATUS",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "down_4x",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TOGGLED_DOWN_4_TIMES_M_BUTTON_STATUS",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "down_5x",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TOGGLED_DOWN_5_TIMES_M_BUTTON_STATUS",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "down_6x",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TOGGLED_DOWN_6_TIMES_M_BUTTON_STATUS",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "down_hold",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_HELD_DOWN_M_BUTTON_STATUS",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "up",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TOGGLED_UP_M_BUTTON_STATUS",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "up_2x",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TOGGLED_UP_2_TIMES_M_BUTTON_STATUS",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "up_3x",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TOGGLED_UP_3_TIMES_M_BUTTON_STATUS",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "up_4x",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TOGGLED_UP_4_TIMES_M_BUTTON_STATUS",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "up_5x",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TOGGLED_UP_5_TIMES_M_BUTTON_STATUS",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "up_6x",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TOGGLED_UP_6_TIMES_M_BUTTON_STATUS",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "up_hold",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_HELD_UP_M_BUTTON_STATUS",
+                        "type": "inactive"
+                    }
+                ]
+            }
+        }
+    ],
     "automation": {
         "conditions": [
             {
@@ -249,7 +375,8 @@
                         }
                     ],
                     "value": "button.value"
-                }
+                },
+                "emphasis": true
             }
         ],
         "actions": []

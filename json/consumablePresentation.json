@@ -1,0 +1,182 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{consumableStatus.value}}",
+                "alternatives": [
+                    {
+                        "key": "good",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_GOOD",
+                        "type": "active"
+                    },
+                    {
+                        "key": "maintenance_required",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_MAINTENANCE_REQUIRED",
+                        "type": "active"
+                    },
+                    {
+                        "key": "missing",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_MISSING",
+                        "type": "active"
+                    },
+                    {
+                        "key": "order",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ORDER",
+                        "type": "active"
+                    },
+                    {
+                        "key": "replace",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_REPLACE",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_CONSUMABLE_ITEM",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "name": "setConsumableStatus",
+                    "alternatives": [
+                        {
+                            "key": "good",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_GOOD",
+                            "type": "active"
+                        },
+                        {
+                            "key": "maintenance_required",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_MAINTENANCE_REQUIRED",
+                            "type": "active"
+                        },
+                        {
+                            "key": "missing",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_MISSING",
+                            "type": "active"
+                        },
+                        {
+                            "key": "order",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ORDER",
+                            "type": "active"
+                        },
+                        {
+                            "key": "replace",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_REPLACE",
+                            "type": "active"
+                        }
+                    ]
+                },
+                "state": {
+                    "value": "consumableStatus.value",
+                    "alternatives": [
+                        {
+                            "key": "good",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_GOOD",
+                            "type": "active"
+                        },
+                        {
+                            "key": "maintenance_required",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_MAINTENANCE_REQUIRED",
+                            "type": "active"
+                        },
+                        {
+                            "key": "missing",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_MISSING",
+                            "type": "active"
+                        },
+                        {
+                            "key": "order",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ORDER",
+                            "type": "active"
+                        },
+                        {
+                            "key": "replace",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_REPLACE",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_CONSUMABLE_ITEM",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "good",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_GOOD",
+                            "type": "active"
+                        },
+                        {
+                            "key": "maintenance_required",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_MAINTENANCE_REQUIRED",
+                            "type": "active"
+                        },
+                        {
+                            "key": "missing",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_MISSING",
+                            "type": "active"
+                        },
+                        {
+                            "key": "order",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ORDER",
+                            "type": "active"
+                        },
+                        {
+                            "key": "replace",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_REPLACE",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "consumableStatus.value"
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_CONSUMABLE_ITEM",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "good",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_GOOD",
+                            "type": "active"
+                        },
+                        {
+                            "key": "maintenance_required",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_MAINTENANCE_REQUIRED",
+                            "type": "active"
+                        },
+                        {
+                            "key": "missing",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_MISSING",
+                            "type": "active"
+                        },
+                        {
+                            "key": "order",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ORDER",
+                            "type": "active"
+                        },
+                        {
+                            "key": "replace",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_REPLACE",
+                            "type": "active"
+                        }
+                    ],
+                    "command": "setConsumableStatus"
+                }
+            }
+        ]
+    },
+    "id": "consumable",
+    "version": 1
+}

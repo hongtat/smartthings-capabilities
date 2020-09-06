@@ -1,4 +1,113 @@
 {
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_MODE",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "name": "setAirConditionerMode",
+                    "alternatives": [
+                        {
+                            "key": "cool",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_COOL_ABB",
+                            "type": "active"
+                        },
+                        {
+                            "key": "fanOnly",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_PURIFY_M_AIR_CONDITIONER_MODE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "dry",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_DRY_M_AIR_CONDITIONER",
+                            "type": "active"
+                        },
+                        {
+                            "key": "heat",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_HEAT_ABB",
+                            "type": "active"
+                        },
+                        {
+                            "key": "coolClean",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_COOL_PURIFY_M_AIR_CONDITIONER_MODE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "dryClean",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_DRY_PURIFY_M_AIR_CONDITIONER_MODE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "heatClean",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_HEAT_PURIFY_M_AIR_CONDITIONER_MODE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "auto",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_AUTO",
+                            "type": "active"
+                        },
+                        {
+                            "key": "notSupported",
+                            "value": "Not Supported",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedAcModes.value"
+                },
+                "state": {
+                    "value": "airConditionerMode.value",
+                    "alternatives": [
+                        {
+                            "key": "cool",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_COOL_ABB",
+                            "type": "active"
+                        },
+                        {
+                            "key": "fanOnly",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_PURIFY_M_AIR_CONDITIONER_MODE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "dry",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_DRY_M_AIR_CONDITIONER",
+                            "type": "active"
+                        },
+                        {
+                            "key": "heat",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_HEAT_ABB",
+                            "type": "active"
+                        },
+                        {
+                            "key": "coolClean",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_COOL_PURIFY_M_AIR_CONDITIONER_MODE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "dryClean",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_DRY_PURIFY_M_AIR_CONDITIONER_MODE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "heatClean",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_HEAT_PURIFY_M_AIR_CONDITIONER_MODE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "auto",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_AUTO",
+                            "type": "active"
+                        },
+                        {
+                            "key": "notSupported",
+                            "value": "Not Supported",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
     "automation": {
         "conditions": [
             {
@@ -48,7 +157,7 @@
                         },
                         {
                             "key": "notSupported",
-                            "value": "___PO_CODE_AIRCONDITIONERMODE_NOTSUPPORTED",
+                            "value": "Not Supported",
                             "type": "active"
                         }
                     ],
@@ -104,7 +213,7 @@
                         },
                         {
                             "key": "notSupported",
-                            "value": "___PO_CODE_AIRCONDITIONERMODE_NOTSUPPORTED",
+                            "value": "Not Supported",
                             "type": "active"
                         }
                     ],

@@ -26,7 +26,7 @@
                     },
                     {
                         "key": "preDrain",
-                        "value": "___PO_CODE_DISHWASHEROPERATIONALSTATE_PREDRAIN",
+                        "value": "Pre Drain",
                         "type": "active"
                     },
                     {
@@ -94,7 +94,7 @@
                     },
                     {
                         "key": "preDrain",
-                        "value": "___PO_CODE_DISHWASHEROPERATIONALSTATE_PREDRAIN",
+                        "value": "Pre Drain",
                         "type": "active"
                     },
                     {

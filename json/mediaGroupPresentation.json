@@ -1,0 +1,147 @@
+{
+    "detailView": [
+        {
+            "label": "Media group",
+            "displayType": "state",
+            "state": {
+                "label": "{{groupRole.value}}"
+            }
+        },
+        {
+            "label": "Media group",
+            "displayType": "state",
+            "state": {
+                "label": "{{groupPrimaryDeviceId.value}}"
+            }
+        },
+        {
+            "label": "Media group",
+            "displayType": "state",
+            "state": {
+                "label": "{{groupId.value}}"
+            }
+        },
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_GROUP_VOLUME",
+            "displayType": "slider",
+            "slider": {
+                "range": [
+                    0,
+                    100
+                ],
+                "unit": "groupVolume.unit",
+                "command": "setGroupVolume",
+                "value": "groupVolume.value"
+            }
+        },
+        {
+            "label": "Media group",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "alternatives": [
+                        {
+                            "key": "nextTrack",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_NEXT",
+                            "type": "active"
+                        },
+                        {
+                            "key": "previousTrack",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_PREVIOUS",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "label": "Media group",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "alternatives": [
+                        {
+                            "key": "groupVolumeUp",
+                            "value": "Increase",
+                            "type": "active"
+                        },
+                        {
+                            "key": "groupVolumeDown",
+                            "value": "Decrease",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_GROUP_VOLUME",
+                "displayType": "slider",
+                "slider": {
+                    "range": [
+                        0,
+                        100
+                    ],
+                    "unit": "groupVolume.unit",
+                    "value": "groupVolume.value"
+                }
+            },
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SACP_OPT_MUTE_GROUP",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "muted",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ON_T_SAMSUNG_CONNECT",
+                            "type": "active"
+                        },
+                        {
+                            "key": "unmuted",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OFF_T_SAMSUNG_CONNECT",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "groupMute.value"
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_GROUP_VOLUME",
+                "displayType": "slider",
+                "slider": {
+                    "range": [
+                        0,
+                        100
+                    ],
+                    "unit": "groupVolume.unit",
+                    "command": "setGroupVolume"
+                }
+            },
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SACP_OPT_MUTE_GROUP",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "muteGroup",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ON_T_SAMSUNG_CONNECT",
+                            "type": "active"
+                        },
+                        {
+                            "key": "unmuteGroup",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OFF_T_SAMSUNG_CONNECT",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "id": "mediaGroup",
+    "version": 1
+}

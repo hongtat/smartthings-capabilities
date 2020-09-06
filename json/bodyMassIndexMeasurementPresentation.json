@@ -11,13 +11,10 @@
     "detailView": [
         {
             "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_BMI",
-            "displayType": "slider",
-            "slider": {
-                "range": [
-                    0,
-                    100
-                ],
-                "value": "bmiMeasurement.value"
+            "displayType": "state",
+            "state": {
+                "label": "{{bmiMeasurement.value}}",
+                "unit": "bmiMeasurement.unit"
             }
         }
     ],

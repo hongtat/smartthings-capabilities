@@ -21,7 +21,7 @@
                     },
                     {
                         "key": "unlocked with timeout",
-                        "value": "___PO_CODE_LOCK_UNLOCKED_WITH_TIMEOUT",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TEMPORARILY_UNLOCKED_M_STATUS",
                         "type": "inactive"
                     }
                 ]
@@ -77,7 +77,7 @@
                         },
                         {
                             "key": "unlocked with timeout",
-                            "value": "___PO_CODE_LOCK_UNLOCKED_WITH_TIMEOUT",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TEMPORARILY_UNLOCKED_M_STATUS",
                             "type": "inactive"
                         }
                     ]
@@ -109,7 +109,7 @@
                         },
                         {
                             "key": "unlocked with timeout",
-                            "value": "___PO_CODE_LOCK_UNLOCKED_WITH_TIMEOUT",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TEMPORARILY_UNLOCKED_M_STATUS",
                             "type": "active"
                         }
                     ],

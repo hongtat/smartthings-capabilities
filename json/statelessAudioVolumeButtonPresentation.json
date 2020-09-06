@@ -9,12 +9,12 @@
                     "alternatives": [
                         {
                             "key": "volumeUp",
-                            "value": "___PO_CODE_AUDIOVOLUME_INCREASE",
+                            "value": "Volume Up",
                             "type": "active"
                         },
                         {
                             "key": "volumeDown",
-                            "value": "___PO_CODE_AUDIOVOLUME_DECREASE",
+                            "value": "Volume Down",
                             "type": "active"
                         }
                     ]
@@ -32,12 +32,12 @@
                     "alternatives": [
                         {
                             "key": "volumeUp",
-                            "value": "___PO_CODE_AUDIOVOLUME_INCREASE",
+                            "value": "Volume Up",
                             "type": "active"
                         },
                         {
                             "key": "volumeDown",
-                            "value": "___PO_CODE_AUDIOVOLUME_DECREASE",
+                            "value": "Volume Down",
                             "type": "active"
                         }
                     ],

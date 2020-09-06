@@ -67,6 +67,11 @@
                             "key": "detected",
                             "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_DETECTED",
                             "type": "active"
+                        },
+                        {
+                            "key": "tested",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_TESTED",
+                            "type": "active"
                         }
                     ],
                     "value": "smoke.value"

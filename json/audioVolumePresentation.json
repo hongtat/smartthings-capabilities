@@ -1,0 +1,56 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{volume.value}}{{volume.unit}}"
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_VOLUME_T_SAMSUNG_CONNECT",
+            "displayType": "slider",
+            "slider": {
+                "range": [
+                    0,
+                    100
+                ],
+                "step": 1,
+                "command": "setVolume",
+                "value": "volume.value"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_VOLUME_T_SAMSUNG_CONNECT",
+                "displayType": "slider",
+                "slider": {
+                    "range": [
+                        0,
+                        100
+                    ],
+                    "value": "volume.value"
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_VOLUME_T_SAMSUNG_CONNECT",
+                "displayType": "slider",
+                "slider": {
+                    "range": [
+                        0,
+                        100
+                    ],
+                    "command": "setVolume"
+                }
+            }
+        ]
+    },
+    "id": "audioVolume",
+    "version": 1
+}

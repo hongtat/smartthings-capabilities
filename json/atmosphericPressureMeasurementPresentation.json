@@ -11,13 +11,10 @@
     "detailView": [
         {
             "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_ATMOSPHERIC_PRESSURE",
-            "displayType": "slider",
-            "slider": {
-                "range": [
-                    0,
-                    110
-                ],
-                "value": "atmosphericPressure.value"
+            "displayType": "state",
+            "state": {
+                "label": "{{atmosphericPressure.value}}",
+                "unit": "atmosphericPressure.unit"
             }
         }
     ],

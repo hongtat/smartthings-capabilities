@@ -38,8 +38,8 @@
     "detailView": [
         {
             "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_CHIME",
-            "displayType": "toggleSwitch",
-            "toggleSwitch": {
+            "displayType": "switch",
+            "switch": {
                 "command": {
                     "on": "chime",
                     "off": "off"

@@ -1,0 +1,29 @@
+{
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_PLAY_A_FAVORITE",
+            "displayType": "state",
+            "state": {
+                "label": "{{presets.value}}"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [],
+        "actions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_PLAY_A_FAVORITE",
+                "displayType": "textField",
+                "textField": {
+                    "command": "playPreset",
+                    "range": [
+                        0,
+                        255
+                    ]
+                }
+            }
+        ]
+    },
+    "id": "mediaPresets",
+    "version": 1
+}

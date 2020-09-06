@@ -73,7 +73,8 @@
                             "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_TESTED",
                             "type": "inactive"
                         }
-                    ]
+                    ],
+                    "value": "carbonMonoxide.value"
                 }
             }
         ],
