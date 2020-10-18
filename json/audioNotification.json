@@ -5,28 +5,6 @@
     "name": "Audio Notification",
     "attributes": [],
     "commands": {
-        "playTrack": {
-            "arguments": [
-                {
-                    "name": "uri",
-                    "optional": false,
-                    "schema": {
-                        "title": "URI",
-                        "type": "string",
-                        "format": "uri"
-                    }
-                },
-                {
-                    "name": "level",
-                    "optional": true,
-                    "schema": {
-                        "type": "integer",
-                        "minimum": 0,
-                        "maximum": 100
-                    }
-                }
-            ]
-        },
         "playTrackAndResume": {
             "arguments": [
                 {
@@ -40,7 +18,7 @@
                 },
                 {
                     "name": "level",
-                    "optional": true,
+                    "optional": false,
                     "schema": {
                         "type": "integer",
                         "minimum": 0,
@@ -62,7 +40,29 @@
                 },
                 {
                     "name": "level",
-                    "optional": true,
+                    "optional": false,
+                    "schema": {
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 100
+                    }
+                }
+            ]
+        },
+        "playTrack": {
+            "arguments": [
+                {
+                    "name": "uri",
+                    "optional": false,
+                    "schema": {
+                        "title": "URI",
+                        "type": "string",
+                        "format": "uri"
+                    }
+                },
+                {
+                    "name": "level",
+                    "optional": false,
                     "schema": {
                         "type": "integer",
                         "minimum": 0,

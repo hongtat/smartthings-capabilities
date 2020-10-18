@@ -20,6 +20,44 @@
         "actions": [],
         "basicPlus": []
     },
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_IDS_MP_BODY_SHUFFLE",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "name": "setPlaybackShuffle",
+                    "alternatives": [
+                        {
+                            "key": "enabled",
+                            "value": "___PO_CODE_SMARTTHINGS_IDS_VC_BODY_ENABLE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "disabled",
+                            "value": "___PO_CODE_SMARTTHINGS_IDS_VC_BODY_DISABLE",
+                            "type": "inactive"
+                        }
+                    ]
+                },
+                "state": {
+                    "value": "playbackShuffle.value",
+                    "alternatives": [
+                        {
+                            "key": "enabled",
+                            "value": "___PO_CODE_SMARTTHINGS_IDS_VC_BODY_ENABLE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "disabled",
+                            "value": "___PO_CODE_SMARTTHINGS_IDS_VC_BODY_DISABLE",
+                            "type": "inactive"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
     "automation": {
         "conditions": [
             {
@@ -35,7 +73,7 @@
                         {
                             "key": "disabled",
                             "value": "___PO_CODE_SMARTTHINGS_IDS_VC_BODY_DISABLE",
-                            "type": "active"
+                            "type": "inactive"
                         }
                     ],
                     "value": "playbackShuffle.value"
@@ -56,7 +94,7 @@
                         {
                             "key": "disabled",
                             "value": "___PO_CODE_SMARTTHINGS_IDS_VC_BODY_DISABLE",
-                            "type": "active"
+                            "type": "inactive"
                         }
                     ],
                     "command": "setPlaybackShuffle"

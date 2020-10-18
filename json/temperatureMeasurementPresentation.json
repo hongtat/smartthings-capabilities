@@ -35,7 +35,8 @@
                     50
                 ],
                 "unit": "temperature.unit",
-                "value": "temperature.value"
+                "value": "temperature.value",
+                "valueType": "number"
             }
         }
     ],
@@ -46,6 +47,7 @@
                 "displayType": "numberField",
                 "numberField": {
                     "value": "temperature.value",
+                    "valueType": "number",
                     "unit": "temperature.unit",
                     "range": [
                         -20,

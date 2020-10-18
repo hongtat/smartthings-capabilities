@@ -32,14 +32,16 @@
                 "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_PM_10_M_AIR_QUALITY",
                 "displayType": "numberField",
                 "numberField": {
-                    "value": "dustLevel.value"
+                    "value": "dustLevel.value",
+                    "valueType": "integer"
                 }
             },
             {
                 "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_PM_25_M_AIR_QUALITY",
                 "displayType": "numberField",
                 "numberField": {
-                    "value": "fineDustLevel.value"
+                    "value": "fineDustLevel.value",
+                    "valueType": "integer"
                 }
             }
         ],

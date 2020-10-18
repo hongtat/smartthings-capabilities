@@ -4,6 +4,21 @@
     "status": "proposed",
     "name": "Audio Track Data",
     "attributes": {
+        "totalTime": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "PositiveInteger",
+                        "type": "integer",
+                        "minimum": 0
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
         "audioTrackData": {
             "schema": {
                 "type": "object",
@@ -48,21 +63,6 @@
                 "required": [
                     "value"
                 ]
-            },
-            "enumCommands": []
-        },
-        "totalTime": {
-            "schema": {
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "title": "PositiveInteger",
-                        "type": "integer",
-                        "minimum": 0
-                    }
-                },
-                "additionalProperties": false,
-                "required": []
             },
             "enumCommands": []
         },

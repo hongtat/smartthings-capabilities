@@ -46,11 +46,6 @@
                             "key": "auto",
                             "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_AUTO",
                             "type": "active"
-                        },
-                        {
-                            "key": "notSupported",
-                            "value": "Not Supported",
-                            "type": "active"
                         }
                     ],
                     "supportedValues": "supportedAcModes.value"
@@ -96,11 +91,6 @@
                         {
                             "key": "auto",
                             "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_AUTO",
-                            "type": "active"
-                        },
-                        {
-                            "key": "notSupported",
-                            "value": "Not Supported",
                             "type": "active"
                         }
                     ]
@@ -154,13 +144,9 @@
                             "key": "auto",
                             "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_AUTO",
                             "type": "active"
-                        },
-                        {
-                            "key": "notSupported",
-                            "value": "Not Supported",
-                            "type": "active"
                         }
                     ],
+                    "supportedValues": "supportedAcModes.value",
                     "value": "airConditionerMode.value"
                 }
             }
@@ -209,11 +195,6 @@
                         {
                             "key": "auto",
                             "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_AUTO",
-                            "type": "active"
-                        },
-                        {
-                            "key": "notSupported",
-                            "value": "Not Supported",
                             "type": "active"
                         }
                     ],

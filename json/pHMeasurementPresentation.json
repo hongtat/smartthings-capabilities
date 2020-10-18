@@ -17,7 +17,8 @@
                     0,
                     14
                 ],
-                "value": "pH.value"
+                "value": "pH.value",
+                "valueType": "number"
             }
         }
     ],
@@ -28,6 +29,7 @@
                 "displayType": "numberField",
                 "numberField": {
                     "value": "pH.value",
+                    "valueType": "number",
                     "range": [
                         0,
                         14

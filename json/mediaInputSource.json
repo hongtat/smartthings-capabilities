@@ -4,43 +4,6 @@
     "status": "proposed",
     "name": "Media Input Source",
     "attributes": {
-        "inputSource": {
-            "schema": {
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "title": "MediaSource",
-                        "type": "string",
-                        "enum": [
-                            "AM",
-                            "CD",
-                            "FM",
-                            "HDMI",
-                            "HDMI1",
-                            "HDMI2",
-                            "HDMI3",
-                            "HDMI4",
-                            "HDMI5",
-                            "HDMI6",
-                            "digitalTv",
-                            "USB",
-                            "YouTube",
-                            "aux",
-                            "bluetooth",
-                            "digital",
-                            "melon",
-                            "wifi"
-                        ]
-                    }
-                },
-                "additionalProperties": false,
-                "required": [
-                    "value"
-                ]
-            },
-            "setter": "setInputSource",
-            "enumCommands": []
-        },
         "supportedInputSources": {
             "schema": {
                 "type": "object",
@@ -78,6 +41,43 @@
                     "value"
                 ]
             },
+            "enumCommands": []
+        },
+        "inputSource": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "MediaSource",
+                        "type": "string",
+                        "enum": [
+                            "AM",
+                            "CD",
+                            "FM",
+                            "HDMI",
+                            "HDMI1",
+                            "HDMI2",
+                            "HDMI3",
+                            "HDMI4",
+                            "HDMI5",
+                            "HDMI6",
+                            "digitalTv",
+                            "USB",
+                            "YouTube",
+                            "aux",
+                            "bluetooth",
+                            "digital",
+                            "melon",
+                            "wifi"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setInputSource",
             "enumCommands": []
         }
     },

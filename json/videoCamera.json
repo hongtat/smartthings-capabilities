@@ -4,33 +4,21 @@
     "status": "live",
     "name": "Video Camera",
     "attributes": {
-        "camera": {
+        "settings": {
             "schema": {
                 "type": "object",
                 "properties": {
                     "value": {
-                        "type": "string",
-                        "enum": [
-                            "off",
-                            "on",
-                            "restarting",
-                            "unavailable"
-                        ]
+                        "title": "JsonObject",
+                        "type": "object"
                     }
                 },
                 "additionalProperties": false,
-                "required": []
+                "required": [
+                    "value"
+                ]
             },
-            "enumCommands": [
-                {
-                    "command": "on",
-                    "value": "on"
-                },
-                {
-                    "command": "off",
-                    "value": "off"
-                }
-            ]
+            "enumCommands": []
         },
         "mute": {
             "schema": {
@@ -59,21 +47,33 @@
                 }
             ]
         },
-        "settings": {
+        "camera": {
             "schema": {
                 "type": "object",
                 "properties": {
                     "value": {
-                        "title": "JsonObject",
-                        "type": "object"
+                        "type": "string",
+                        "enum": [
+                            "off",
+                            "on",
+                            "restarting",
+                            "unavailable"
+                        ]
                     }
                 },
                 "additionalProperties": false,
-                "required": [
-                    "value"
-                ]
+                "required": []
             },
-            "enumCommands": []
+            "enumCommands": [
+                {
+                    "command": "on",
+                    "value": "on"
+                },
+                {
+                    "command": "off",
+                    "value": "off"
+                }
+            ]
         },
         "statusMessage": {
             "schema": {
@@ -92,19 +92,19 @@
         }
     },
     "commands": {
-        "flip": {
+        "mute": {
             "arguments": []
         },
-        "mute": {
+        "unmute": {
+            "arguments": []
+        },
+        "flip": {
             "arguments": []
         },
         "off": {
             "arguments": []
         },
         "on": {
-            "arguments": []
-        },
-        "unmute": {
             "arguments": []
         }
     }

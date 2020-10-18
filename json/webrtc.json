@@ -4,39 +4,6 @@
     "status": "proposed",
     "name": "webrtc",
     "attributes": {
-        "supportedFeatures": {
-            "schema": {
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "type": "array",
-                        "items": {
-                            "type": "string"
-                        }
-                    }
-                },
-                "additionalProperties": false,
-                "required": [
-                    "value"
-                ]
-            },
-            "enumCommands": []
-        },
-        "audioOnly": {
-            "schema": {
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "type": "boolean"
-                    }
-                },
-                "additionalProperties": false,
-                "required": [
-                    "value"
-                ]
-            },
-            "enumCommands": []
-        },
         "sdpAnswer": {
             "schema": {
                 "type": "object",
@@ -89,6 +56,39 @@
             },
             "enumCommands": []
         },
+        "supportedFeatures": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "audioOnly": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "boolean"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
         "stunUrl": {
             "schema": {
                 "type": "object",
@@ -96,7 +96,7 @@
                     "value": {
                         "title": "URL",
                         "type": "string",
-                        "pattern": "^(https?):\\\/\\\/((?:[a-zA-Z0-9.-]|%[0-9A-F]{2}){3,})(?::(\\d+))?((?:\\\/(?:[a-z0-9-._~!$&'()*+,;=:@]|%[0-9A-F]{2})*)*)(?:\\?((?:[a-zA-Z0-9-._~!$&'()*+,;=:\\\/?@]|%[0-9A-F]{2})*))?(?:#((?:[a-zA-Z0-9-._~!$&'()*+,;=:\\\/?@]|%[0-9A-F]{2})*))?$"
+                        "pattern": "^(https?):\\\/\\\/((?:[a-zA-Z0-9.-]|%[0-9A-F]{2}){3,})(?::(\\d+))?((?:\\\/(?:[a-zA-Z0-9-._~!$&'()*+,;=:@]|%[0-9A-F]{2})*)*)(?:\\?((?:[a-zA-Z0-9-._~!$&'()*+,;=:\\\/?@]|%[0-9A-F]{2})*))?(?:#((?:[a-zA-Z0-9-._~!$&'()*+,;=:\\\/?@]|%[0-9A-F]{2})*))?$"
                     }
                 },
                 "additionalProperties": false,

@@ -56,7 +56,7 @@
                         {
                             "key": "not sleeping",
                             "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_NOT_SLEEPING_M_STATUS",
-                            "type": "active"
+                            "type": "inactive"
                         }
                     ],
                     "value": "sleeping.value"

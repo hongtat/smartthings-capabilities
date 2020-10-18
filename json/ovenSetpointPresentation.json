@@ -1,17 +1,17 @@
 {
     "detailView": [
         {
-            "label": "Refrigeration Temperature",
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_OVEN_TEMPERATURE",
             "displayType": "slider",
             "slider": {
                 "range": [
                     0,
                     40
                 ],
-                "command": "setRefrigerationSetpoint",
-                "argumentType": "number",
-                "value": "refrigerationSetpoint.value",
-                "valueType": "number"
+                "command": "setOvenSetpoint",
+                "argumentType": "integer",
+                "value": "ovenSetpoint.value",
+                "valueType": "integer"
             }
         }
     ],
@@ -19,11 +19,11 @@
         "conditions": [],
         "actions": [
             {
-                "label": "Refrigeration Temperature",
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_OVEN_TEMPERATURE",
                 "displayType": "numberField",
                 "numberField": {
-                    "command": "setRefrigerationSetpoint",
-                    "argumentType": "number",
+                    "command": "setOvenSetpoint",
+                    "argumentType": "integer",
                     "range": [
                         0,
                         40
@@ -32,6 +32,6 @@
             }
         ]
     },
-    "id": "refrigerationSetpoint",
+    "id": "ovenSetpoint",
     "version": 1
 }

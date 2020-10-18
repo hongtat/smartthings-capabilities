@@ -18,7 +18,8 @@
                     999.9
                 ],
                 "unit": "energy.unit",
-                "value": "energy.value"
+                "value": "energy.value",
+                "valueType": "number"
             }
         }
     ],
@@ -28,7 +29,8 @@
                 "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_ENERGY_METER",
                 "displayType": "numberField",
                 "numberField": {
-                    "value": "energy.value"
+                    "value": "energy.value",
+                    "valueType": "number"
                 }
             }
         ],

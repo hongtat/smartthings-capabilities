@@ -17,7 +17,8 @@
                     0,
                     100000
                 ],
-                "value": "illuminance.value"
+                "value": "illuminance.value",
+                "valueType": "number"
             }
         }
     ],
@@ -28,6 +29,7 @@
                 "displayType": "numberField",
                 "numberField": {
                     "value": "illuminance.value",
+                    "valueType": "number",
                     "range": [
                         0,
                         100000

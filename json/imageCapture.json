@@ -11,7 +11,7 @@
                     "value": {
                         "title": "URL",
                         "type": "string",
-                        "pattern": "^(https?):\\\/\\\/((?:[a-zA-Z0-9.-]|%[0-9A-F]{2}){3,})(?::(\\d+))?((?:\\\/(?:[a-z0-9-._~!$&'()*+,;=:@]|%[0-9A-F]{2})*)*)(?:\\?((?:[a-zA-Z0-9-._~!$&'()*+,;=:\\\/?@]|%[0-9A-F]{2})*))?(?:#((?:[a-zA-Z0-9-._~!$&'()*+,;=:\\\/?@]|%[0-9A-F]{2})*))?$"
+                        "pattern": "^(https?):\\\/\\\/((?:[a-zA-Z0-9.-]|%[0-9A-F]{2}){3,})(?::(\\d+))?((?:\\\/(?:[a-zA-Z0-9-._~!$&'()*+,;=:@]|%[0-9A-F]{2})*)*)(?:\\?((?:[a-zA-Z0-9-._~!$&'()*+,;=:\\\/?@]|%[0-9A-F]{2})*))?(?:#((?:[a-zA-Z0-9-._~!$&'()*+,;=:\\\/?@]|%[0-9A-F]{2})*))?$"
                     }
                 },
                 "additionalProperties": false,
@@ -20,6 +20,21 @@
                 ]
             },
             "setter": "take",
+            "enumCommands": []
+        },
+        "encrypted": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "boolean"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
             "enumCommands": []
         },
         "captureTime": {
@@ -38,21 +53,6 @@
                 ]
             },
             "enumCommands": []
-        },
-        "encrypted": {
-            "schema": {
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "type": "boolean"
-                    }
-                },
-                "additionalProperties": false,
-                "required": [
-                    "value"
-                ]
-            },
-            "enumCommands": []
         }
     },
     "commands": {
@@ -60,7 +60,7 @@
             "arguments": [
                 {
                     "name": "correlationId",
-                    "optional": true,
+                    "optional": false,
                     "schema": {
                         "title": "String",
                         "type": "string",
@@ -69,7 +69,7 @@
                 },
                 {
                     "name": "reason",
-                    "optional": true,
+                    "optional": false,
                     "schema": {
                         "title": "String",
                         "type": "string",

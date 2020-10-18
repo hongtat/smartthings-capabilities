@@ -17,7 +17,8 @@
                     0,
                     1000000
                 ],
-                "value": "carbonMonoxideLevel.value"
+                "value": "carbonMonoxideLevel.value",
+                "valueType": "number"
             }
         }
     ],
@@ -28,6 +29,7 @@
                 "displayType": "numberField",
                 "numberField": {
                     "value": "carbonMonoxideLevel.value",
+                    "valueType": "number",
                     "range": [
                         0,
                         1000000

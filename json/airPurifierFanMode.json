@@ -4,29 +4,6 @@
     "status": "proposed",
     "name": "Air Purifier Fan Mode",
     "attributes": {
-        "airPurifierFanMode": {
-            "schema": {
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "title": "AirPurifierFanMode",
-                        "type": "string",
-                        "enum": [
-                            "auto",
-                            "sleep",
-                            "low",
-                            "medium",
-                            "high",
-                            "quiet",
-                            "windFree"
-                        ]
-                    }
-                },
-                "additionalProperties": false,
-                "required": []
-            },
-            "enumCommands": []
-        },
         "supportedAirPurifierFanModes": {
             "schema": {
                 "type": "object",
@@ -45,6 +22,29 @@
                                 "windFree"
                             ]
                         }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
+        "airPurifierFanMode": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "AirPurifierFanMode",
+                        "type": "string",
+                        "enum": [
+                            "auto",
+                            "sleep",
+                            "low",
+                            "medium",
+                            "high",
+                            "quiet",
+                            "windFree"
+                        ]
                     }
                 },
                 "additionalProperties": false,

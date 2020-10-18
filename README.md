@@ -1,6 +1,8 @@
 
 ## SmartThings Capabilities
 
+#### Last Update: 2020-10-18
+
 * [SmartThings Reference](https://smartthings.developer.samsung.com/docs/api-ref/capabilities.html)
 * [SmartThings API](https://smartthings.developer.samsung.com/docs/api-ref/st-api.html#tag/capabilities)
 * [SmartThings CLI](https://github.com/SmartThingsCommunity/smartthings-cli)
@@ -89,7 +91,7 @@
 | [Illuminance Measurement](./json/illuminanceMeasurement.json) | live | [json](./json/illuminanceMeasurementPresentation.json) |
 | [Image Capture](./json/imageCapture.json) | live | [json](./json/imageCapturePresentation.json) |
 | [Indicator](./json/indicator.json) | deprecated |  |
-| [Infrared Level](./json/infraredLevel.json) | live |  |
+| [Infrared Level](./json/infraredLevel.json) | live | [json](./json/infraredLevelPresentation.json) |
 | [Language Setting](./json/languageSetting.json) | proposed | [json](./json/languageSettingPresentation.json) |
 | [Light](./json/light.json) | deprecated |  |
 | [Location Mode](./json/locationMode.json) | live |  |
@@ -105,6 +107,7 @@
 | [Media Playback Shuffle](./json/mediaPlaybackShuffle.json) | proposed | [json](./json/mediaPlaybackShufflePresentation.json) |
 | [Media Presets](./json/mediaPresets.json) | proposed | [json](./json/mediaPresetsPresentation.json) |
 | [Media Track Control](./json/mediaTrackControl.json) | proposed | [json](./json/mediaTrackControlPresentation.json) |
+| [Mold Health Concern](./json/moldHealthConcern.json) | proposed |  |
 | [Momentary](./json/momentary.json) | live | [json](./json/momentaryPresentation.json) |
 | [Motion Sensor](./json/motionSensor.json) | live | [json](./json/motionSensorPresentation.json) |
 | [Music Player](./json/musicPlayer.json) | deprecated | [json](./json/musicPlayerPresentation.json) |
@@ -118,7 +121,7 @@
 | [Oven Mode](./json/ovenMode.json) | proposed | [json](./json/ovenModePresentation.json) |
 | [Oven Operating State](./json/ovenOperatingState.json) | proposed | [json](./json/ovenOperatingStatePresentation.json) |
 | [Oven Operational State](./json/ovenOperationalState.json) | deprecated |  |
-| [Oven Setpoint](./json/ovenSetpoint.json) | proposed |  |
+| [Oven Setpoint](./json/ovenSetpoint.json) | proposed | [json](./json/ovenSetpointPresentation.json) |
 | [Panic Alarm](./json/panicAlarm.json) | live |  |
 | [Pest Control](./json/pestControl.json) | proposed | [json](./json/pestControlPresentation.json) |
 | [Polling](./json/polling.json) | deprecated |  |
@@ -140,7 +143,7 @@
 | [Robot Cleaner State](./json/robotCleanerState.json) | deprecated |  |
 | [Robot Cleaner Turbo Mode](./json/robotCleanerTurboMode.json) | proposed | [json](./json/robotCleanerTurboModePresentation.json) |
 | [Samsung TV](./json/samsungTV.json) | live |  |
-| [Scent](./json/scent.json) | proposed |  |
+| [Scent](./json/scent.json) | proposed | [json](./json/scentPresentation.json) |
 | [Security System](./json/securitySystem.json) | live | [json](./json/securitySystemPresentation.json) |
 | [Sensor](./json/sensor.json) | deprecated |  |
 | [Shock Sensor](./json/shockSensor.json) | deprecated |  |
@@ -171,7 +174,7 @@
 | [Stateless Set Channel By Content Button](./json/statelessSetChannelByContentButton.json) | proposed | [json](./json/statelessSetChannelByContentButtonPresentation.json) |
 | [Stateless Set Channel By Name Button](./json/statelessSetChannelByNameButton.json) | proposed | [json](./json/statelessSetChannelByNameButtonPresentation.json) |
 | [Stateless Temperature Button](./json/statelessTemperatureButton.json) | live | [json](./json/statelessTemperatureButtonPresentation.json) |
-| [Stateless Volume Button With Repetition](./json/statelessVolumeButtonWithRepetition.json) | proposed |  |
+| [Stateless Volume Button With Repetition](./json/statelessVolumeButtonWithRepetition.json) | proposed | [json](./json/statelessVolumeButtonWithRepetitionPresentation.json) |
 | [Step Sensor](./json/stepSensor.json) | proposed |  |
 | [Switch](./json/switch.json) | live | [json](./json/switchPresentation.json) |
 | [Switch Level](./json/switchLevel.json) | live | [json](./json/switchLevelPresentation.json) |
@@ -180,7 +183,7 @@
 | [Temperature Alarm](./json/temperatureAlarm.json) | live | [json](./json/temperatureAlarmPresentation.json) |
 | [Temperature Measurement](./json/temperatureMeasurement.json) | live | [json](./json/temperatureMeasurementPresentation.json) |
 | [Test Capability](./json/testCapability.json) | live |  |
-| [Thermostat](./json/thermostat.json) | deprecated |  |
+| [Thermostat](./json/thermostat.json) | deprecated | [json](./json/thermostatPresentation.json) |
 | [Thermostat Cooling Setpoint](./json/thermostatCoolingSetpoint.json) | live | [json](./json/thermostatCoolingSetpointPresentation.json) |
 | [Thermostat Fan Mode](./json/thermostatFanMode.json) | live | [json](./json/thermostatFanModePresentation.json) |
 | [Thermostat Heating Setpoint](./json/thermostatHeatingSetpoint.json) | live | [json](./json/thermostatHeatingSetpointPresentation.json) |

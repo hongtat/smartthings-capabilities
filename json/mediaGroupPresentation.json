@@ -31,27 +31,9 @@
                 ],
                 "unit": "groupVolume.unit",
                 "command": "setGroupVolume",
-                "value": "groupVolume.value"
-            }
-        },
-        {
-            "label": "Media group",
-            "displayType": "list",
-            "list": {
-                "command": {
-                    "alternatives": [
-                        {
-                            "key": "nextTrack",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_NEXT",
-                            "type": "active"
-                        },
-                        {
-                            "key": "previousTrack",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_PREVIOUS",
-                            "type": "active"
-                        }
-                    ]
-                }
+                "argumentType": "integer",
+                "value": "groupVolume.value",
+                "valueType": "integer"
             }
         },
         {
@@ -86,7 +68,8 @@
                         100
                     ],
                     "unit": "groupVolume.unit",
-                    "value": "groupVolume.value"
+                    "value": "groupVolume.value",
+                    "valueType": "integer"
                 }
             },
             {
@@ -97,7 +80,7 @@
                         {
                             "key": "muted",
                             "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ON_T_SAMSUNG_CONNECT",
-                            "type": "active"
+                            "type": "inactive"
                         },
                         {
                             "key": "unmuted",
@@ -119,7 +102,8 @@
                         100
                     ],
                     "unit": "groupVolume.unit",
-                    "command": "setGroupVolume"
+                    "command": "setGroupVolume",
+                    "argumentType": "integer"
                 }
             },
             {
@@ -130,7 +114,7 @@
                         {
                             "key": "muteGroup",
                             "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ON_T_SAMSUNG_CONNECT",
-                            "type": "active"
+                            "type": "inactive"
                         },
                         {
                             "key": "unmuteGroup",

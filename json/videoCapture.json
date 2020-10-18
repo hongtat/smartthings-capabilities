@@ -4,7 +4,7 @@
     "status": "live",
     "name": "Video Capture",
     "attributes": {
-        "clip": {
+        "stream": {
             "schema": {
                 "type": "object",
                 "properties": {
@@ -20,7 +20,7 @@
             },
             "enumCommands": []
         },
-        "stream": {
+        "clip": {
             "schema": {
                 "type": "object",
                 "properties": {
@@ -69,7 +69,7 @@
                 },
                 {
                     "name": "correlationId",
-                    "optional": true,
+                    "optional": false,
                     "schema": {
                         "title": "String",
                         "type": "string",
@@ -78,7 +78,7 @@
                 },
                 {
                     "name": "reason",
-                    "optional": true,
+                    "optional": false,
                     "schema": {
                         "title": "String",
                         "type": "string",

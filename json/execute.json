@@ -40,7 +40,7 @@
                 },
                 {
                     "name": "args",
-                    "optional": true,
+                    "optional": false,
                     "schema": {
                         "title": "JsonObject",
                         "type": "object"

@@ -4,23 +4,6 @@
     "status": "live",
     "name": "Signal Strength",
     "attributes": {
-        "lqi": {
-            "schema": {
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "type": "integer",
-                        "minimum": 0,
-                        "maximum": 255
-                    }
-                },
-                "additionalProperties": false,
-                "required": [
-                    "value"
-                ]
-            },
-            "enumCommands": []
-        },
         "rssi": {
             "schema": {
                 "type": "object",
@@ -36,6 +19,23 @@
                             "dBm"
                         ],
                         "default": "dBm"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "lqi": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 255
                     }
                 },
                 "additionalProperties": false,

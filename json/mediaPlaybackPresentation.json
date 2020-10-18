@@ -152,6 +152,7 @@
                             "type": "active"
                         }
                     ],
+                    "supportedValues": "supportedPlaybackCommands.value",
                     "value": "playbackStatus.value"
                 }
             }

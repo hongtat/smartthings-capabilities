@@ -4,6 +4,23 @@
     "status": "live",
     "name": "Security System",
     "attributes": {
+        "alarm": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "String",
+                        "type": "string",
+                        "maxLength": 255
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
         "securitySystemStatus": {
             "schema": {
                 "type": "object",
@@ -36,23 +53,6 @@
                     "value": "disarmed"
                 }
             ]
-        },
-        "alarm": {
-            "schema": {
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "title": "String",
-                        "type": "string",
-                        "maxLength": 255
-                    }
-                },
-                "additionalProperties": false,
-                "required": [
-                    "value"
-                ]
-            },
-            "enumCommands": []
         }
     },
     "commands": {
@@ -67,6 +67,9 @@
                 }
             ]
         },
+        "disarm": {
+            "arguments": []
+        },
         "armAway": {
             "arguments": [
                 {
@@ -77,9 +80,6 @@
                     }
                 }
             ]
-        },
-        "disarm": {
-            "arguments": []
         }
     }
 }

@@ -74,49 +74,56 @@
                 "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_GAS_METER",
                 "displayType": "numberField",
                 "numberField": {
-                    "value": "gasMeterVolume.value"
+                    "value": "gasMeterVolume.value",
+                    "valueType": "number"
                 }
             },
             {
                 "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_GAS_METER",
                 "displayType": "numberField",
                 "numberField": {
-                    "value": "gasMeter.value"
+                    "value": "gasMeter.value",
+                    "valueType": "number"
                 }
             },
             {
                 "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_GAS_METER",
                 "displayType": "numberField",
                 "numberField": {
-                    "value": "gasMeterCalorific.value"
+                    "value": "gasMeterCalorific.value",
+                    "valueType": "number"
                 }
             },
             {
                 "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_GAS_METER",
                 "displayType": "numberField",
                 "numberField": {
-                    "value": "gasMeterConversion.value"
+                    "value": "gasMeterConversion.value",
+                    "valueType": "number"
                 }
             },
             {
                 "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_GAS_METER",
                 "displayType": "numberField",
                 "numberField": {
-                    "value": "gasMeterPrecision.value.volume"
+                    "value": "gasMeterPrecision.value.volume",
+                    "valueType": "number"
                 }
             },
             {
                 "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_GAS_METER",
                 "displayType": "numberField",
                 "numberField": {
-                    "value": "gasMeterPrecision.value.calorific"
+                    "value": "gasMeterPrecision.value.calorific",
+                    "valueType": "number"
                 }
             },
             {
                 "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_GAS_METER",
                 "displayType": "numberField",
                 "numberField": {
-                    "value": "gasMeterPrecision.value.conversion"
+                    "value": "gasMeterPrecision.value.conversion",
+                    "valueType": "number"
                 }
             },
             {

@@ -31,6 +31,7 @@
                 "displayType": "numberField",
                 "numberField": {
                     "value": "lqi.value",
+                    "valueType": "integer",
                     "range": [
                         0,
                         255
@@ -42,6 +43,7 @@
                 "displayType": "numberField",
                 "numberField": {
                     "value": "rssi.value",
+                    "valueType": "number",
                     "range": [
                         -200,
                         0

@@ -1,4 +1,63 @@
 {
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_FAN_SPEED",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "name": "setFanMode",
+                    "alternatives": [
+                        {
+                            "key": "low",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_LOW_M_FAN_SPEED",
+                            "type": "active"
+                        },
+                        {
+                            "key": "medium",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_MEDIUM_M_FAN_SPEED",
+                            "type": "active"
+                        },
+                        {
+                            "key": "high",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_HIGH_M_FAN_SPEED",
+                            "type": "active"
+                        },
+                        {
+                            "key": "auto",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_AUTO",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedAcFanModes.value"
+                },
+                "state": {
+                    "value": "fanMode.value",
+                    "alternatives": [
+                        {
+                            "key": "low",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_LOW_M_FAN_SPEED",
+                            "type": "active"
+                        },
+                        {
+                            "key": "medium",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_MEDIUM_M_FAN_SPEED",
+                            "type": "active"
+                        },
+                        {
+                            "key": "high",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_HIGH_M_FAN_SPEED",
+                            "type": "active"
+                        },
+                        {
+                            "key": "auto",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_AUTO",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
     "automation": {
         "conditions": [
             {
@@ -27,6 +86,7 @@
                             "type": "active"
                         }
                     ],
+                    "supportedValues": "supportedAcFanModes.value",
                     "value": "fanMode.value"
                 }
             }

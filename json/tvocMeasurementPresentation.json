@@ -18,7 +18,8 @@
                     1000000
                 ],
                 "unit": "tvocLevel.unit",
-                "value": "tvocLevel.value"
+                "value": "tvocLevel.value",
+                "valueType": "number"
             }
         }
     ],
@@ -29,6 +30,7 @@
                 "displayType": "numberField",
                 "numberField": {
                     "value": "tvocLevel.value",
+                    "valueType": "number",
                     "unit": "tvocLevel.unit",
                     "range": [
                         0,

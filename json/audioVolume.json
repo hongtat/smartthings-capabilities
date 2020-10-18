@@ -32,6 +32,12 @@
         }
     },
     "commands": {
+        "volumeDown": {
+            "arguments": []
+        },
+        "volumeUp": {
+            "arguments": []
+        },
         "setVolume": {
             "arguments": [
                 {
@@ -44,12 +50,6 @@
                     }
                 }
             ]
-        },
-        "volumeUp": {
-            "arguments": []
-        },
-        "volumeDown": {
-            "arguments": []
         }
     }
 }

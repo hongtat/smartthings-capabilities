@@ -45,16 +45,16 @@
         }
     },
     "commands": {
-        "both": {
+        "siren": {
+            "arguments": []
+        },
+        "strobe": {
             "arguments": []
         },
         "off": {
             "arguments": []
         },
-        "siren": {
-            "arguments": []
-        },
-        "strobe": {
+        "both": {
             "arguments": []
         }
     }

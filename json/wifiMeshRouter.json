@@ -4,6 +4,87 @@
     "status": "proposed",
     "name": "Wifi Mesh Router",
     "attributes": {
+        "disconnectedRouterCount": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "PositiveInteger",
+                        "type": "integer",
+                        "minimum": 0
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "wifiGuestNetworkStatus": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "WifiState",
+                        "type": "string",
+                        "enum": [
+                            "enabled",
+                            "disabled",
+                            "not configured"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": [
+                {
+                    "command": "enableWifiGuestNetwork",
+                    "value": "enabled"
+                },
+                {
+                    "command": "disableWifiGuestNetwork",
+                    "value": "disabled"
+                }
+            ]
+        },
+        "connectedRouterCount": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "PositiveInteger",
+                        "type": "integer",
+                        "minimum": 0
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "connectedDeviceCount": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "PositiveInteger",
+                        "type": "integer",
+                        "minimum": 0
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
         "wifiNetworkName": {
             "schema": {
                 "type": "object",
@@ -29,57 +110,6 @@
                         "title": "String",
                         "type": "string",
                         "maxLength": 255
-                    }
-                },
-                "additionalProperties": false,
-                "required": [
-                    "value"
-                ]
-            },
-            "enumCommands": []
-        },
-        "connectedRouterCount": {
-            "schema": {
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "title": "PositiveInteger",
-                        "type": "integer",
-                        "minimum": 0
-                    }
-                },
-                "additionalProperties": false,
-                "required": [
-                    "value"
-                ]
-            },
-            "enumCommands": []
-        },
-        "disconnectedRouterCount": {
-            "schema": {
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "title": "PositiveInteger",
-                        "type": "integer",
-                        "minimum": 0
-                    }
-                },
-                "additionalProperties": false,
-                "required": [
-                    "value"
-                ]
-            },
-            "enumCommands": []
-        },
-        "connectedDeviceCount": {
-            "schema": {
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "title": "PositiveInteger",
-                        "type": "integer",
-                        "minimum": 0
                     }
                 },
                 "additionalProperties": false,
@@ -118,46 +148,16 @@
                     "value": "disabled"
                 }
             ]
-        },
-        "wifiGuestNetworkStatus": {
-            "schema": {
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "title": "WifiState",
-                        "type": "string",
-                        "enum": [
-                            "enabled",
-                            "disabled",
-                            "not configured"
-                        ]
-                    }
-                },
-                "additionalProperties": false,
-                "required": [
-                    "value"
-                ]
-            },
-            "enumCommands": [
-                {
-                    "command": "enableWifiGuestNetwork",
-                    "value": "enabled"
-                },
-                {
-                    "command": "disableWifiGuestNetwork",
-                    "value": "disabled"
-                }
-            ]
         }
     },
     "commands": {
-        "enableWifiNetwork": {
+        "enableWifiGuestNetwork": {
             "arguments": []
         },
         "disableWifiNetwork": {
             "arguments": []
         },
-        "enableWifiGuestNetwork": {
+        "enableWifiNetwork": {
             "arguments": []
         },
         "disableWifiGuestNetwork": {

@@ -4,6 +4,42 @@
     "status": "live",
     "name": "Samsung TV",
     "attributes": {
+        "volume": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "PositiveInteger",
+                        "type": "integer",
+                        "minimum": 0
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "setter": "setVolume",
+            "enumCommands": []
+        },
+        "pictureMode": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "dynamic",
+                            "movie",
+                            "standard",
+                            "unknown"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "setter": "setPictureMode",
+            "enumCommands": []
+        },
         "messageButton": {
             "schema": {
                 "type": "object",
@@ -16,6 +52,27 @@
                 "additionalProperties": false,
                 "required": []
             },
+            "enumCommands": []
+        },
+        "soundMode": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "clear voice",
+                            "movie",
+                            "music",
+                            "standard",
+                            "unknown"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "setter": "setSoundMode",
             "enumCommands": []
         },
         "mute": {
@@ -45,47 +102,6 @@
                 }
             ]
         },
-        "pictureMode": {
-            "schema": {
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "type": "string",
-                        "enum": [
-                            "dynamic",
-                            "movie",
-                            "standard",
-                            "unknown"
-                        ]
-                    }
-                },
-                "additionalProperties": false,
-                "required": []
-            },
-            "setter": "setPictureMode",
-            "enumCommands": []
-        },
-        "soundMode": {
-            "schema": {
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "type": "string",
-                        "enum": [
-                            "clear voice",
-                            "movie",
-                            "music",
-                            "standard",
-                            "unknown"
-                        ]
-                    }
-                },
-                "additionalProperties": false,
-                "required": []
-            },
-            "setter": "setSoundMode",
-            "enumCommands": []
-        },
         "switch": {
             "schema": {
                 "type": "object",
@@ -112,34 +128,9 @@
                     "value": "off"
                 }
             ]
-        },
-        "volume": {
-            "schema": {
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "title": "PositiveInteger",
-                        "type": "integer",
-                        "minimum": 0
-                    }
-                },
-                "additionalProperties": false,
-                "required": []
-            },
-            "setter": "setVolume",
-            "enumCommands": []
         }
     },
     "commands": {
-        "mute": {
-            "arguments": []
-        },
-        "off": {
-            "arguments": []
-        },
-        "on": {
-            "arguments": []
-        },
         "setPictureMode": {
             "arguments": [
                 {
@@ -156,6 +147,9 @@
                 }
             ]
         },
+        "volumeDown": {
+            "arguments": []
+        },
         "setSoundMode": {
             "arguments": [
                 {
@@ -169,19 +163,6 @@
                             "music",
                             "standard"
                         ]
-                    }
-                }
-            ]
-        },
-        "setVolume": {
-            "arguments": [
-                {
-                    "name": "volume",
-                    "optional": false,
-                    "schema": {
-                        "title": "PositiveInteger",
-                        "type": "integer",
-                        "minimum": 0
                     }
                 }
             ]
@@ -226,13 +207,32 @@
                 }
             ]
         },
+        "volumeUp": {
+            "arguments": []
+        },
+        "mute": {
+            "arguments": []
+        },
         "unmute": {
             "arguments": []
         },
-        "volumeDown": {
+        "setVolume": {
+            "arguments": [
+                {
+                    "name": "volume",
+                    "optional": false,
+                    "schema": {
+                        "title": "PositiveInteger",
+                        "type": "integer",
+                        "minimum": 0
+                    }
+                }
+            ]
+        },
+        "off": {
             "arguments": []
         },
-        "volumeUp": {
+        "on": {
             "arguments": []
         }
     }

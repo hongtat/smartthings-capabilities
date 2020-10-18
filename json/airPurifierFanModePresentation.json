@@ -1,4 +1,93 @@
 {
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SACP_HEADER_AIR_PURIFIER_FAN_MODE",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "name": "setAirPurifierFanMode",
+                    "alternatives": [
+                        {
+                            "key": "auto",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_AUTO_M_AIR_PURIFIER",
+                            "type": "active"
+                        },
+                        {
+                            "key": "sleep",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_SLEEP_M_AIR_PURIFIER",
+                            "type": "active"
+                        },
+                        {
+                            "key": "low",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_LOW_M_AIR_PURIFIER",
+                            "type": "active"
+                        },
+                        {
+                            "key": "medium",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_MEDIUM_M_AIR_PURIFIER",
+                            "type": "active"
+                        },
+                        {
+                            "key": "high",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_HIGH_M_AIR_PURIFIER",
+                            "type": "active"
+                        },
+                        {
+                            "key": "quiet",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_QUIET_M_AIR_PURIFIER",
+                            "type": "active"
+                        },
+                        {
+                            "key": "windFree",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_WIND_FREE_M_AIR_PURIFIER",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedAirPurifierFanModes.value"
+                },
+                "state": {
+                    "value": "airPurifierFanMode.value",
+                    "alternatives": [
+                        {
+                            "key": "auto",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_AUTO_M_AIR_PURIFIER",
+                            "type": "active"
+                        },
+                        {
+                            "key": "sleep",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_SLEEP_M_AIR_PURIFIER",
+                            "type": "active"
+                        },
+                        {
+                            "key": "low",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_LOW_M_AIR_PURIFIER",
+                            "type": "active"
+                        },
+                        {
+                            "key": "medium",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_MEDIUM_M_AIR_PURIFIER",
+                            "type": "active"
+                        },
+                        {
+                            "key": "high",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_HIGH_M_AIR_PURIFIER",
+                            "type": "active"
+                        },
+                        {
+                            "key": "quiet",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_QUIET_M_AIR_PURIFIER",
+                            "type": "active"
+                        },
+                        {
+                            "key": "windFree",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_WIND_FREE_M_AIR_PURIFIER",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
     "automation": {
         "conditions": [
             {
@@ -42,6 +131,7 @@
                             "type": "active"
                         }
                     ],
+                    "supportedValues": "supportedAirPurifierFanModes.value",
                     "value": "airPurifierFanMode.value"
                 }
             }

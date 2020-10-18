@@ -4,7 +4,7 @@
     "status": "live",
     "name": "Dust Sensor",
     "attributes": {
-        "fineDustLevel": {
+        "dustLevel": {
             "schema": {
                 "type": "object",
                 "properties": {
@@ -28,7 +28,7 @@
             },
             "enumCommands": []
         },
-        "dustLevel": {
+        "fineDustLevel": {
             "schema": {
                 "type": "object",
                 "properties": {

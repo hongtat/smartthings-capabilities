@@ -4,16 +4,16 @@
     "status": "proposed",
     "name": "Media Group",
     "attributes": {
-        "groupRole": {
+        "groupMute": {
             "schema": {
                 "type": "object",
                 "properties": {
                     "value": {
+                        "title": "MuteState",
                         "type": "string",
                         "enum": [
-                            "primary",
-                            "auxilary",
-                            "ungrouped"
+                            "muted",
+                            "unmuted"
                         ]
                     }
                 },
@@ -22,7 +22,17 @@
                     "value"
                 ]
             },
-            "enumCommands": []
+            "setter": "setGroupMute",
+            "enumCommands": [
+                {
+                    "command": "muteGroup",
+                    "value": "muted"
+                },
+                {
+                    "command": "unmuteGroup",
+                    "value": "unmuted"
+                }
+            ]
         },
         "groupPrimaryDeviceId": {
             "schema": {
@@ -84,16 +94,16 @@
             "setter": "setGroupVolume",
             "enumCommands": []
         },
-        "groupMute": {
+        "groupRole": {
             "schema": {
                 "type": "object",
                 "properties": {
                     "value": {
-                        "title": "MuteState",
                         "type": "string",
                         "enum": [
-                            "muted",
-                            "unmuted"
+                            "primary",
+                            "auxilary",
+                            "ungrouped"
                         ]
                     }
                 },
@@ -102,20 +112,19 @@
                     "value"
                 ]
             },
-            "setter": "setGroupMute",
-            "enumCommands": [
-                {
-                    "command": "muteGroup",
-                    "value": "muted"
-                },
-                {
-                    "command": "unmuteGroup",
-                    "value": "unmuted"
-                }
-            ]
+            "enumCommands": []
         }
     },
     "commands": {
+        "groupVolumeUp": {
+            "arguments": []
+        },
+        "groupVolumeDown": {
+            "arguments": []
+        },
+        "muteGroup": {
+            "arguments": []
+        },
         "setGroupVolume": {
             "arguments": [
                 {
@@ -129,10 +138,7 @@
                 }
             ]
         },
-        "groupVolumeUp": {
-            "arguments": []
-        },
-        "groupVolumeDown": {
+        "unmuteGroup": {
             "arguments": []
         },
         "setGroupMute": {
@@ -150,12 +156,6 @@
                     }
                 }
             ]
-        },
-        "muteGroup": {
-            "arguments": []
-        },
-        "unmuteGroup": {
-            "arguments": []
         }
     }
 }

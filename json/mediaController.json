@@ -4,13 +4,14 @@
     "status": "proposed",
     "name": "Media Controller",
     "attributes": {
-        "activities": {
+        "currentActivity": {
             "schema": {
                 "type": "object",
                 "properties": {
                     "value": {
-                        "title": "JsonObject",
-                        "type": "object"
+                        "title": "String",
+                        "type": "string",
+                        "maxLength": 255
                     }
                 },
                 "additionalProperties": false,
@@ -20,14 +21,13 @@
             },
             "enumCommands": []
         },
-        "currentActivity": {
+        "activities": {
             "schema": {
                 "type": "object",
                 "properties": {
                     "value": {
-                        "title": "String",
-                        "type": "string",
-                        "maxLength": 255
+                        "title": "JsonObject",
+                        "type": "object"
                     }
                 },
                 "additionalProperties": false,

@@ -22,10 +22,10 @@
         }
     },
     "commands": {
-        "startStream": {
+        "stopStream": {
             "arguments": []
         },
-        "stopStream": {
+        "startStream": {
             "arguments": []
         }
     }

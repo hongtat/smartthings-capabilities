@@ -4,12 +4,59 @@
     "status": "proposed",
     "name": "Firmware Update",
     "attributes": {
+        "lastUpdateStatusReason": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
         "availableVersion": {
             "schema": {
                 "type": "object",
                 "properties": {
                     "value": {
                         "type": "string"
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
+        "lastUpdateStatus": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "updateSucceeded",
+                            "updateFailed"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
+        "state": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "normalOperation",
+                            "updateInProgress"
+                        ]
                     }
                 },
                 "additionalProperties": false,
@@ -44,60 +91,13 @@
                 "required": []
             },
             "enumCommands": []
-        },
-        "lastUpdateStatus": {
-            "schema": {
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "type": "string",
-                        "enum": [
-                            "updateSucceeded",
-                            "updateFailed"
-                        ]
-                    }
-                },
-                "additionalProperties": false,
-                "required": []
-            },
-            "enumCommands": []
-        },
-        "lastUpdateStatusReason": {
-            "schema": {
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "type": "string"
-                    }
-                },
-                "additionalProperties": false,
-                "required": []
-            },
-            "enumCommands": []
-        },
-        "state": {
-            "schema": {
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "type": "string",
-                        "enum": [
-                            "normalOperation",
-                            "updateInProgress"
-                        ]
-                    }
-                },
-                "additionalProperties": false,
-                "required": []
-            },
-            "enumCommands": []
         }
     },
     "commands": {
-        "checkForFirmwareUpdate": {
+        "updateFirmware": {
             "arguments": []
         },
-        "updateFirmware": {
+        "checkForFirmwareUpdate": {
             "arguments": []
         }
     }

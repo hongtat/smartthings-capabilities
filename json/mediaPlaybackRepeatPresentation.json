@@ -25,6 +25,54 @@
         "actions": [],
         "basicPlus": []
     },
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_IDS_MUSIC_BUTTON_REPEAT",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "name": "setPlaybackRepeatMode",
+                    "alternatives": [
+                        {
+                            "key": "all",
+                            "value": "___PO_CODE_SMARTTHINGS_IDS_MUSIC_OPT_ALL",
+                            "type": "active"
+                        },
+                        {
+                            "key": "off",
+                            "value": "___PO_CODE_SMARTTHINGS_IDS_MUSIC_OPT_OFF",
+                            "type": "active"
+                        },
+                        {
+                            "key": "one",
+                            "value": "___PO_CODE_SMARTTHINGS_IDS_MUSIC_OPT_ONE",
+                            "type": "active"
+                        }
+                    ]
+                },
+                "state": {
+                    "value": "playbackRepeatMode.value",
+                    "alternatives": [
+                        {
+                            "key": "all",
+                            "value": "___PO_CODE_SMARTTHINGS_IDS_MUSIC_OPT_ALL",
+                            "type": "active"
+                        },
+                        {
+                            "key": "off",
+                            "value": "___PO_CODE_SMARTTHINGS_IDS_MUSIC_OPT_OFF",
+                            "type": "active"
+                        },
+                        {
+                            "key": "one",
+                            "value": "___PO_CODE_SMARTTHINGS_IDS_MUSIC_OPT_ONE",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
     "automation": {
         "conditions": [
             {

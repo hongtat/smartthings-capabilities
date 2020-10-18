@@ -4,7 +4,7 @@
     "status": "proposed",
     "name": "Ocf",
     "attributes": {
-        "n": {
+        "st": {
             "schema": {
                 "title": "StringAttribute",
                 "type": "object",
@@ -22,7 +22,7 @@
             },
             "enumCommands": []
         },
-        "icv": {
+        "mndt": {
             "schema": {
                 "title": "StringAttribute",
                 "type": "object",
@@ -40,7 +40,25 @@
             },
             "enumCommands": []
         },
-        "dmv": {
+        "mnfv": {
+            "schema": {
+                "title": "StringAttribute",
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "String",
+                        "type": "string",
+                        "maxLength": 255
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "mnhw": {
             "schema": {
                 "title": "StringAttribute",
                 "type": "object",
@@ -76,7 +94,79 @@
             },
             "enumCommands": []
         },
-        "pi": {
+        "mnsl": {
+            "schema": {
+                "title": "StringAttribute",
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "String",
+                        "type": "string",
+                        "maxLength": 255
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "dmv": {
+            "schema": {
+                "title": "StringAttribute",
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "String",
+                        "type": "string",
+                        "maxLength": 255
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "n": {
+            "schema": {
+                "title": "StringAttribute",
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "String",
+                        "type": "string",
+                        "maxLength": 255
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "mnmo": {
+            "schema": {
+                "title": "StringAttribute",
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "String",
+                        "type": "string",
+                        "maxLength": 255
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "vid": {
             "schema": {
                 "title": "StringAttribute",
                 "type": "object",
@@ -130,42 +220,6 @@
             },
             "enumCommands": []
         },
-        "mnmo": {
-            "schema": {
-                "title": "StringAttribute",
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "title": "String",
-                        "type": "string",
-                        "maxLength": 255
-                    }
-                },
-                "additionalProperties": false,
-                "required": [
-                    "value"
-                ]
-            },
-            "enumCommands": []
-        },
-        "mndt": {
-            "schema": {
-                "title": "StringAttribute",
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "title": "String",
-                        "type": "string",
-                        "maxLength": 255
-                    }
-                },
-                "additionalProperties": false,
-                "required": [
-                    "value"
-                ]
-            },
-            "enumCommands": []
-        },
         "mnpv": {
             "schema": {
                 "title": "StringAttribute",
@@ -202,7 +256,7 @@
             },
             "enumCommands": []
         },
-        "mnhw": {
+        "pi": {
             "schema": {
                 "title": "StringAttribute",
                 "type": "object",
@@ -220,61 +274,7 @@
             },
             "enumCommands": []
         },
-        "mnfv": {
-            "schema": {
-                "title": "StringAttribute",
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "title": "String",
-                        "type": "string",
-                        "maxLength": 255
-                    }
-                },
-                "additionalProperties": false,
-                "required": [
-                    "value"
-                ]
-            },
-            "enumCommands": []
-        },
-        "mnsl": {
-            "schema": {
-                "title": "StringAttribute",
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "title": "String",
-                        "type": "string",
-                        "maxLength": 255
-                    }
-                },
-                "additionalProperties": false,
-                "required": [
-                    "value"
-                ]
-            },
-            "enumCommands": []
-        },
-        "st": {
-            "schema": {
-                "title": "StringAttribute",
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "title": "String",
-                        "type": "string",
-                        "maxLength": 255
-                    }
-                },
-                "additionalProperties": false,
-                "required": [
-                    "value"
-                ]
-            },
-            "enumCommands": []
-        },
-        "vid": {
+        "icv": {
             "schema": {
                 "title": "StringAttribute",
                 "type": "object",

@@ -5,7 +5,7 @@
     "name": "Stateless Volume Button With Repetition",
     "attributes": [],
     "commands": {
-        "volumeUp": {
+        "volumeDown": {
             "arguments": [
                 {
                     "name": "repetition",
@@ -18,7 +18,7 @@
                 }
             ]
         },
-        "volumeDown": {
+        "volumeUp": {
             "arguments": [
                 {
                     "name": "repetition",

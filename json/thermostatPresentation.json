@@ -1,6 +1,80 @@
 {
     "detailView": [
         {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_HEATING_TEMPERATURE",
+            "displayType": "slider",
+            "slider": {
+                "range": [
+                    0,
+                    40
+                ],
+                "unit": "heatingSetpoint.unit",
+                "command": "setHeatingSetpoint",
+                "argumentType": "number",
+                "value": "heatingSetpoint.value",
+                "valueType": "number"
+            }
+        },
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_COOLING_TEMPERATURE",
+            "displayType": "slider",
+            "slider": {
+                "range": [
+                    0,
+                    40
+                ],
+                "unit": "coolingSetpoint.unit",
+                "command": "setCoolingSetpoint",
+                "argumentType": "number",
+                "value": "coolingSetpoint.value",
+                "valueType": "number"
+            }
+        },
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_STATE",
+            "displayType": "state",
+            "state": {
+                "label": "{{thermostatOperatingState.value}}",
+                "alternatives": [
+                    {
+                        "key": "cooling",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_COOLING_M_THERMOSTAT_STATE",
+                        "type": "active"
+                    },
+                    {
+                        "key": "fan only",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_FAN_ONLY_M_THERMOSTAT_STATE",
+                        "type": "active"
+                    },
+                    {
+                        "key": "heating",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_HEATING_M_THERMOSTAT_STATE",
+                        "type": "active"
+                    },
+                    {
+                        "key": "idle",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_IDLE_M_THERMOSTAT_STATE",
+                        "type": "active"
+                    },
+                    {
+                        "key": "pending cool",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_PENDING_COOL_M_THERMOSTAT_STATE",
+                        "type": "active"
+                    },
+                    {
+                        "key": "pending heat",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_PENDING_HEAT_M_THERMOSTAT_STATE",
+                        "type": "active"
+                    },
+                    {
+                        "key": "vent economizer",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_VENT_ECONOMIZER_M_THERMOSTAT_STATE",
+                        "type": "active"
+                    }
+                ]
+            }
+        },
+        {
             "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_MODE",
             "displayType": "list",
             "list": {
@@ -386,10 +460,220 @@
                     ]
                 }
             }
+        },
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_FAN_MODE",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "name": "setThermostatFanMode",
+                    "alternatives": [
+                        {
+                            "key": "on",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_ON",
+                            "type": "active"
+                        },
+                        {
+                            "key": "auto",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_AUTO",
+                            "type": "active"
+                        },
+                        {
+                            "key": "circulate",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_CIRCULATE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "followschedule",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_SCHEDULE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "autohigh",
+                            "value": "Auto High",
+                            "type": "active"
+                        },
+                        {
+                            "key": "automedium",
+                            "value": "Auto Medium",
+                            "type": "active"
+                        },
+                        {
+                            "key": "circulation",
+                            "value": "Circulation",
+                            "type": "active"
+                        },
+                        {
+                            "key": "high",
+                            "value": "High",
+                            "type": "active"
+                        },
+                        {
+                            "key": "humiditycirculation",
+                            "value": "Humidity Circulation",
+                            "type": "active"
+                        },
+                        {
+                            "key": "low",
+                            "value": "Low",
+                            "type": "active"
+                        },
+                        {
+                            "key": "medium",
+                            "value": "Medium",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedThermostatFanModes.value"
+                },
+                "state": {
+                    "value": "thermostatFanMode.value",
+                    "alternatives": [
+                        {
+                            "key": "on",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_ON",
+                            "type": "active"
+                        },
+                        {
+                            "key": "auto",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_AUTO",
+                            "type": "active"
+                        },
+                        {
+                            "key": "circulate",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_CIRCULATE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "followschedule",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_SCHEDULE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "autohigh",
+                            "value": "Auto High",
+                            "type": "active"
+                        },
+                        {
+                            "key": "automedium",
+                            "value": "Auto Medium",
+                            "type": "active"
+                        },
+                        {
+                            "key": "circulation",
+                            "value": "Circulation",
+                            "type": "active"
+                        },
+                        {
+                            "key": "high",
+                            "value": "High",
+                            "type": "active"
+                        },
+                        {
+                            "key": "humiditycirculation",
+                            "value": "Humidity Circulation",
+                            "type": "active"
+                        },
+                        {
+                            "key": "low",
+                            "value": "Low",
+                            "type": "active"
+                        },
+                        {
+                            "key": "medium",
+                            "value": "Medium",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_PHEADER_SET_TEMPERATURE",
+            "displayType": "slider",
+            "slider": {
+                "range": [
+                    0,
+                    40
+                ],
+                "unit": "thermostatSetpoint.unit",
+                "value": "thermostatSetpoint.value",
+                "valueType": "number"
+            }
         }
     ],
     "automation": {
         "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_HEATING_TEMPERATURE",
+                "displayType": "numberField",
+                "numberField": {
+                    "value": "heatingSetpoint.value",
+                    "valueType": "number",
+                    "unit": "heatingSetpoint.unit",
+                    "range": [
+                        0,
+                        40
+                    ]
+                }
+            },
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_COOLING_TEMPERATURE",
+                "displayType": "numberField",
+                "numberField": {
+                    "value": "coolingSetpoint.value",
+                    "valueType": "number",
+                    "unit": "coolingSetpoint.unit",
+                    "range": [
+                        0,
+                        40
+                    ]
+                }
+            },
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_STATE",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "cooling",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_COOLING_M_THERMOSTAT_STATE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "fan only",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_FAN_ONLY_M_THERMOSTAT_STATE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "heating",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_HEATING_M_THERMOSTAT_STATE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "idle",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_IDLE_M_THERMOSTAT_STATE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "pending cool",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_PENDING_COOL_M_THERMOSTAT_STATE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "pending heat",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_PENDING_HEAT_M_THERMOSTAT_STATE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "vent economizer",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_VENT_ECONOMIZER_M_THERMOSTAT_STATE",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "thermostatOperatingState.value"
+                }
+            },
             {
                 "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_MODE",
                 "displayType": "list",
@@ -588,6 +872,30 @@
         ],
         "actions": [
             {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_HEATING_TEMPERATURE",
+                "displayType": "numberField",
+                "numberField": {
+                    "command": "setHeatingSetpoint",
+                    "argumentType": "number",
+                    "range": [
+                        0,
+                        40
+                    ]
+                }
+            },
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_COOLING_TEMPERATURE",
+                "displayType": "numberField",
+                "numberField": {
+                    "command": "setCoolingSetpoint",
+                    "argumentType": "number",
+                    "range": [
+                        0,
+                        40
+                    ]
+                }
+            },
+            {
                 "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_MODE",
                 "displayType": "list",
                 "list": {
@@ -781,9 +1089,74 @@
                     "supportedValues": "supportedThermostatModes.value",
                     "command": "setThermostatMode"
                 }
+            },
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_FAN_MODE",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "on",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_ON",
+                            "type": "active"
+                        },
+                        {
+                            "key": "auto",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_AUTO",
+                            "type": "active"
+                        },
+                        {
+                            "key": "circulate",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_CIRCULATE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "followschedule",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_SCHEDULE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "autohigh",
+                            "value": "Auto High",
+                            "type": "active"
+                        },
+                        {
+                            "key": "automedium",
+                            "value": "Auto Medium",
+                            "type": "active"
+                        },
+                        {
+                            "key": "circulation",
+                            "value": "Circulation",
+                            "type": "active"
+                        },
+                        {
+                            "key": "high",
+                            "value": "High",
+                            "type": "active"
+                        },
+                        {
+                            "key": "humiditycirculation",
+                            "value": "Humidity Circulation",
+                            "type": "active"
+                        },
+                        {
+                            "key": "low",
+                            "value": "Low",
+                            "type": "active"
+                        },
+                        {
+                            "key": "medium",
+                            "value": "Medium",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedThermostatFanModes.value",
+                    "command": "setThermostatFanMode"
+                }
             }
         ]
     },
-    "id": "thermostatMode",
+    "id": "thermostat",
     "version": 1
 }

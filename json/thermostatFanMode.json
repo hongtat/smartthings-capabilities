@@ -85,12 +85,6 @@
         }
     },
     "commands": {
-        "fanAuto": {
-            "arguments": []
-        },
-        "fanCirculate": {
-            "arguments": []
-        },
         "fanOn": {
             "arguments": []
         },
@@ -111,6 +105,12 @@
                     }
                 }
             ]
+        },
+        "fanAuto": {
+            "arguments": []
+        },
+        "fanCirculate": {
+            "arguments": []
         }
     }
 }

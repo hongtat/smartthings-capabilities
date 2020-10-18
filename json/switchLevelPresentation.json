@@ -9,7 +9,9 @@
                     100
                 ],
                 "command": "setLevel",
-                "value": "level.value"
+                "argumentType": "integer",
+                "value": "level.value",
+                "valueType": "integer"
             }
         }
     ],
@@ -23,7 +25,8 @@
                         0,
                         100
                     ],
-                    "value": "level.value"
+                    "value": "level.value",
+                    "valueType": "integer"
                 }
             }
         ],
@@ -36,7 +39,8 @@
                         0,
                         100
                     ],
-                    "command": "setLevel"
+                    "command": "setLevel",
+                    "argumentType": "integer"
                 }
             }
         ]

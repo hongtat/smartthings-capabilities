@@ -1,0 +1,57 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{infraredLevel.value}}{{infraredLevel.unit}}"
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_INFRARED_LEVEL",
+            "displayType": "slider",
+            "slider": {
+                "range": [
+                    0,
+                    100
+                ],
+                "value": "infraredLevel.value",
+                "valueType": "number"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_INFRARED_LEVEL",
+                "displayType": "numberField",
+                "numberField": {
+                    "value": "infraredLevel.value",
+                    "valueType": "number",
+                    "range": [
+                        0,
+                        100
+                    ]
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_INFRARED_LEVEL",
+                "displayType": "numberField",
+                "numberField": {
+                    "command": "setInfraredLevel",
+                    "argumentType": "number",
+                    "range": [
+                        0,
+                        100
+                    ]
+                }
+            }
+        ]
+    },
+    "id": "infraredLevel",
+    "version": 1
+}

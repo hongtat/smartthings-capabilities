@@ -45,7 +45,7 @@
                 },
                 {
                     "name": "rate",
-                    "optional": true,
+                    "optional": false,
                     "schema": {
                         "title": "PositiveInteger",
                         "type": "integer",

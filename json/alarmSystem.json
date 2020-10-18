@@ -43,10 +43,10 @@
         "sendEvent(alarmSystemStatus,off)": {
             "arguments": []
         },
-        "sendEvent(alarmSystemStatus,stay)": {
+        "sendEvent(alarmSystemStatus,away)": {
             "arguments": []
         },
-        "sendEvent(alarmSystemStatus,away)": {
+        "sendEvent(alarmSystemStatus,stay)": {
             "arguments": []
         }
     }

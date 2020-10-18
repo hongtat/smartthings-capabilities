@@ -43,17 +43,6 @@
         }
     },
     "commands": {
-        "execute": {
-            "arguments": [
-                {
-                    "name": "id",
-                    "optional": false,
-                    "schema": {
-                        "type": "string"
-                    }
-                }
-            ]
-        },
         "create": {
             "arguments": [
                 {
@@ -67,7 +56,7 @@
                 },
                 {
                     "name": "id",
-                    "optional": true,
+                    "optional": false,
                     "schema": {
                         "title": "String",
                         "type": "string",
@@ -76,21 +65,10 @@
                 },
                 {
                     "name": "data",
-                    "optional": true,
+                    "optional": false,
                     "schema": {
                         "title": "JsonObject",
                         "type": "object"
-                    }
-                }
-            ]
-        },
-        "delete": {
-            "arguments": [
-                {
-                    "name": "id",
-                    "optional": false,
-                    "schema": {
-                        "type": "string"
                     }
                 }
             ]
@@ -108,7 +86,7 @@
                 },
                 {
                     "name": "name",
-                    "optional": true,
+                    "optional": false,
                     "schema": {
                         "title": "String",
                         "type": "string",
@@ -117,10 +95,32 @@
                 },
                 {
                     "name": "data",
-                    "optional": true,
+                    "optional": false,
                     "schema": {
                         "title": "JsonObject",
                         "type": "object"
+                    }
+                }
+            ]
+        },
+        "execute": {
+            "arguments": [
+                {
+                    "name": "id",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                }
+            ]
+        },
+        "delete": {
+            "arguments": [
+                {
+                    "name": "id",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
                     }
                 }
             ]

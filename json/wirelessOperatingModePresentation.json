@@ -20,6 +20,44 @@
         "actions": [],
         "basicPlus": []
     },
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_WIRELESS_OPERATING_MODE",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "name": "setWirelessOperatingMode",
+                    "alternatives": [
+                        {
+                            "key": "alwaysOn",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ALWAYS_ON",
+                            "type": "active"
+                        },
+                        {
+                            "key": "whenNeeded",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_WHEN_NEEDED",
+                            "type": "active"
+                        }
+                    ]
+                },
+                "state": {
+                    "value": "wirelessOperatingMode.value",
+                    "alternatives": [
+                        {
+                            "key": "alwaysOn",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ALWAYS_ON",
+                            "type": "active"
+                        },
+                        {
+                            "key": "whenNeeded",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_WHEN_NEEDED",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
     "automation": {
         "conditions": [
             {

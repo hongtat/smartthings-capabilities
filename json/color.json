@@ -63,7 +63,7 @@
                 },
                 {
                     "name": "switchLevel",
-                    "optional": true,
+                    "optional": false,
                     "schema": {
                         "type": "integer",
                         "minimum": 0,

@@ -80,7 +80,7 @@
                         {
                             "key": "closed",
                             "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_CLOSED",
-                            "type": "active"
+                            "type": "inactive"
                         }
                     ],
                     "value": "valve.value"
@@ -101,7 +101,7 @@
                         {
                             "key": "close",
                             "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_CLOSED",
-                            "type": "active"
+                            "type": "inactive"
                         }
                     ]
                 }

@@ -4,6 +4,25 @@
     "status": "deprecated",
     "name": "Robot Cleaner State",
     "attributes": {
+        "robotCleanerTurboState": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "turboOff",
+                            "turboOn",
+                            "turboSilence"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "setter": "setRobotCleanerTurboState",
+            "enumCommands": []
+        },
         "robotCleanerCleaningState": {
             "schema": {
                 "type": "object",
@@ -23,6 +42,29 @@
                 "required": []
             },
             "setter": "setRobotCleanerCleaningState",
+            "enumCommands": []
+        },
+        "supportedRobotCleanerStates": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "enum": [
+                                "cleaningAuto",
+                                "cleaningManual",
+                                "cleaningPart",
+                                "cleaningRepeat",
+                                "cleaningStop"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
             "enumCommands": []
         },
         "robotCleanerControlState": {
@@ -50,48 +92,6 @@
             },
             "setter": "setRobotCleanerControlState",
             "enumCommands": []
-        },
-        "robotCleanerTurboState": {
-            "schema": {
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "type": "string",
-                        "enum": [
-                            "turboOff",
-                            "turboOn",
-                            "turboSilence"
-                        ]
-                    }
-                },
-                "additionalProperties": false,
-                "required": []
-            },
-            "setter": "setRobotCleanerTurboState",
-            "enumCommands": []
-        },
-        "supportedRobotCleanerStates": {
-            "schema": {
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "type": "array",
-                        "items": {
-                            "type": "string",
-                            "enum": [
-                                "cleaningAuto",
-                                "cleaningManual",
-                                "cleaningPart",
-                                "cleaningRepeat",
-                                "cleaningStop"
-                            ]
-                        }
-                    }
-                },
-                "additionalProperties": false,
-                "required": []
-            },
-            "enumCommands": []
         }
     },
     "commands": {
@@ -109,6 +109,9 @@
                     }
                 }
             ]
+        },
+        "stop": {
+            "arguments": []
         },
         "setRobotCleanerControlState": {
             "arguments": [
@@ -139,9 +142,6 @@
                     }
                 }
             ]
-        },
-        "stop": {
-            "arguments": []
         }
     }
 }

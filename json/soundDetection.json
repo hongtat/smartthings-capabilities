@@ -33,30 +33,6 @@
                 }
             ]
         },
-        "soundDetected": {
-            "schema": {
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "title": "DetectedSoundType",
-                        "type": "string",
-                        "enum": [
-                            "noSound",
-                            "babyCrying",
-                            "glassBreaking",
-                            "fireAlarm",
-                            "dogBarking",
-                            "catMeowing"
-                        ]
-                    }
-                },
-                "additionalProperties": false,
-                "required": [
-                    "value"
-                ]
-            },
-            "enumCommands": []
-        },
         "supportedSoundTypes": {
             "schema": {
                 "type": "object",
@@ -83,13 +59,37 @@
                 ]
             },
             "enumCommands": []
+        },
+        "soundDetected": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "DetectedSoundType",
+                        "type": "string",
+                        "enum": [
+                            "noSound",
+                            "babyCrying",
+                            "glassBreaking",
+                            "fireAlarm",
+                            "dogBarking",
+                            "catMeowing"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
         }
     },
     "commands": {
-        "enableSoundDetection": {
+        "disableSoundDetection": {
             "arguments": []
         },
-        "disableSoundDetection": {
+        "enableSoundDetection": {
             "arguments": []
         }
     }

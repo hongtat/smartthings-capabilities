@@ -4,7 +4,7 @@
     "status": "live",
     "name": "TV",
     "attributes": {
-        "channel": {
+        "volume": {
             "schema": {
                 "type": "object",
                 "properties": {
@@ -34,7 +34,7 @@
             },
             "enumCommands": []
         },
-        "picture": {
+        "sound": {
             "schema": {
                 "type": "object",
                 "properties": {
@@ -42,6 +42,21 @@
                         "title": "String",
                         "type": "string",
                         "maxLength": 255
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
+        "channel": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "PositiveInteger",
+                        "type": "integer",
+                        "minimum": 0
                     }
                 },
                 "additionalProperties": false,
@@ -64,7 +79,7 @@
             },
             "enumCommands": []
         },
-        "sound": {
+        "picture": {
             "schema": {
                 "type": "object",
                 "properties": {
@@ -78,34 +93,19 @@
                 "required": []
             },
             "enumCommands": []
-        },
-        "volume": {
-            "schema": {
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "title": "PositiveInteger",
-                        "type": "integer",
-                        "minimum": 0
-                    }
-                },
-                "additionalProperties": false,
-                "required": []
-            },
-            "enumCommands": []
         }
     },
     "commands": {
-        "channelDown": {
-            "arguments": []
-        },
-        "channelUp": {
-            "arguments": []
-        },
         "volumeDown": {
             "arguments": []
         },
         "volumeUp": {
+            "arguments": []
+        },
+        "channelDown": {
+            "arguments": []
+        },
+        "channelUp": {
             "arguments": []
         }
     }

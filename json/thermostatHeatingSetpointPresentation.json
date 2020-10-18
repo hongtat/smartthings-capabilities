@@ -36,7 +36,9 @@
                 ],
                 "unit": "heatingSetpoint.unit",
                 "command": "setHeatingSetpoint",
-                "value": "heatingSetpoint.value"
+                "argumentType": "number",
+                "value": "heatingSetpoint.value",
+                "valueType": "number"
             }
         }
     ],
@@ -47,6 +49,7 @@
                 "displayType": "numberField",
                 "numberField": {
                     "value": "heatingSetpoint.value",
+                    "valueType": "number",
                     "unit": "heatingSetpoint.unit",
                     "range": [
                         0,
@@ -61,6 +64,7 @@
                 "displayType": "numberField",
                 "numberField": {
                     "command": "setHeatingSetpoint",
+                    "argumentType": "number",
                     "range": [
                         0,
                         40

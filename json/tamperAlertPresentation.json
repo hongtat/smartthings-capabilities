@@ -56,7 +56,7 @@
                         {
                             "key": "clear",
                             "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_NOT_TAMPERED_M_STATUS",
-                            "type": "active"
+                            "type": "inactive"
                         }
                     ],
                     "value": "tamper.value"

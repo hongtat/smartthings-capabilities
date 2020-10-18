@@ -4,7 +4,67 @@
     "status": "deprecated",
     "name": "Thermostat",
     "attributes": {
-        "coolingSetpoint": {
+        "thermostatSetpointRange": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": [
+                            {
+                                "title": "TemperatureValue",
+                                "type": "number",
+                                "minimum": -460,
+                                "maximum": 10000
+                            },
+                            {
+                                "title": "TemperatureValue",
+                                "type": "number",
+                                "minimum": -460,
+                                "maximum": 10000
+                            }
+                        ],
+                        "minItems": 2,
+                        "maxItems": 2
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
+        "heatingSetpointRange": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": [
+                            {
+                                "title": "TemperatureValue",
+                                "type": "number",
+                                "minimum": -460,
+                                "maximum": 10000
+                            },
+                            {
+                                "title": "TemperatureValue",
+                                "type": "number",
+                                "minimum": -460,
+                                "maximum": 10000
+                            }
+                        ],
+                        "minItems": 2,
+                        "maxItems": 2
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "thermostatSetpoint": {
             "schema": {
                 "title": "Temperature",
                 "type": "object",
@@ -29,7 +89,46 @@
                     "unit"
                 ]
             },
-            "setter": "setCoolingSetpoint",
+            "enumCommands": []
+        },
+        "supportedThermostatFanModes": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "title": "ThermostatFanMode",
+                            "type": "string",
+                            "enum": [
+                                "auto",
+                                "circulate",
+                                "followschedule",
+                                "on"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
+        "schedule": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "JsonObject",
+                        "type": "object"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setSchedule",
             "enumCommands": []
         },
         "coolingSetpointRange": {
@@ -91,44 +190,50 @@
             "setter": "setHeatingSetpoint",
             "enumCommands": []
         },
-        "heatingSetpointRange": {
+        "coolingSetpoint": {
             "schema": {
+                "title": "Temperature",
                 "type": "object",
                 "properties": {
                     "value": {
-                        "type": "array",
-                        "items": [
-                            {
-                                "title": "TemperatureValue",
-                                "type": "number",
-                                "minimum": -460,
-                                "maximum": 10000
-                            },
-                            {
-                                "title": "TemperatureValue",
-                                "type": "number",
-                                "minimum": -460,
-                                "maximum": 10000
-                            }
-                        ],
-                        "minItems": 2,
-                        "maxItems": 2
+                        "title": "TemperatureValue",
+                        "type": "number",
+                        "minimum": -460,
+                        "maximum": 10000
+                    },
+                    "unit": {
+                        "type": "string",
+                        "enum": [
+                            "F",
+                            "C"
+                        ]
                     }
                 },
                 "additionalProperties": false,
                 "required": [
-                    "value"
+                    "value",
+                    "unit"
                 ]
             },
+            "setter": "setCoolingSetpoint",
             "enumCommands": []
         },
-        "schedule": {
+        "thermostatOperatingState": {
             "schema": {
                 "type": "object",
                 "properties": {
                     "value": {
-                        "title": "JsonObject",
-                        "type": "object"
+                        "title": "ThermostatOperatingState",
+                        "type": "string",
+                        "enum": [
+                            "cooling",
+                            "fan only",
+                            "heating",
+                            "idle",
+                            "pending cool",
+                            "pending heat",
+                            "vent economizer"
+                        ]
                     }
                 },
                 "additionalProperties": false,
@@ -136,7 +241,6 @@
                     "value"
                 ]
             },
-            "setter": "setSchedule",
             "enumCommands": []
         },
         "temperature": {
@@ -221,29 +325,6 @@
                     "value": "on"
                 }
             ]
-        },
-        "supportedThermostatFanModes": {
-            "schema": {
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "type": "array",
-                        "items": {
-                            "title": "ThermostatFanMode",
-                            "type": "string",
-                            "enum": [
-                                "auto",
-                                "circulate",
-                                "followschedule",
-                                "on"
-                            ]
-                        }
-                    }
-                },
-                "additionalProperties": false,
-                "required": []
-            },
-            "enumCommands": []
         },
         "thermostatMode": {
             "schema": {
@@ -430,90 +511,24 @@
                 "required": []
             },
             "enumCommands": []
-        },
-        "thermostatOperatingState": {
-            "schema": {
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "title": "ThermostatOperatingState",
-                        "type": "string",
-                        "enum": [
-                            "cooling",
-                            "fan only",
-                            "heating",
-                            "idle",
-                            "pending cool",
-                            "pending heat",
-                            "vent economizer"
-                        ]
-                    }
-                },
-                "additionalProperties": false,
-                "required": [
-                    "value"
-                ]
-            },
-            "enumCommands": []
-        },
-        "thermostatSetpoint": {
-            "schema": {
-                "title": "Temperature",
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "title": "TemperatureValue",
-                        "type": "number",
-                        "minimum": -460,
-                        "maximum": 10000
-                    },
-                    "unit": {
-                        "type": "string",
-                        "enum": [
-                            "F",
-                            "C"
-                        ]
-                    }
-                },
-                "additionalProperties": false,
-                "required": [
-                    "value",
-                    "unit"
-                ]
-            },
-            "enumCommands": []
-        },
-        "thermostatSetpointRange": {
-            "schema": {
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "type": "array",
-                        "items": [
-                            {
-                                "title": "TemperatureValue",
-                                "type": "number",
-                                "minimum": -460,
-                                "maximum": 10000
-                            },
-                            {
-                                "title": "TemperatureValue",
-                                "type": "number",
-                                "minimum": -460,
-                                "maximum": 10000
-                            }
-                        ],
-                        "minItems": 2,
-                        "maxItems": 2
-                    }
-                },
-                "additionalProperties": false,
-                "required": []
-            },
-            "enumCommands": []
         }
     },
     "commands": {
+        "heat": {
+            "arguments": []
+        },
+        "setSchedule": {
+            "arguments": [
+                {
+                    "name": "schedule",
+                    "optional": false,
+                    "schema": {
+                        "title": "JsonObject",
+                        "type": "object"
+                    }
+                }
+            ]
+        },
         "auto": {
             "arguments": []
         },
@@ -523,16 +538,28 @@
         "emergencyHeat": {
             "arguments": []
         },
+        "setThermostatFanMode": {
+            "arguments": [
+                {
+                    "name": "fanmode",
+                    "optional": false,
+                    "schema": {
+                        "title": "ThermostatFanMode",
+                        "type": "string",
+                        "enum": [
+                            "auto",
+                            "circulate",
+                            "followschedule",
+                            "on"
+                        ]
+                    }
+                }
+            ]
+        },
         "fanAuto": {
             "arguments": []
         },
         "fanCirculate": {
-            "arguments": []
-        },
-        "fanOn": {
-            "arguments": []
-        },
-        "heat": {
             "arguments": []
         },
         "off": {
@@ -562,36 +589,6 @@
                         "type": "number",
                         "minimum": -460,
                         "maximum": 10000
-                    }
-                }
-            ]
-        },
-        "setSchedule": {
-            "arguments": [
-                {
-                    "name": "schedule",
-                    "optional": false,
-                    "schema": {
-                        "title": "JsonObject",
-                        "type": "object"
-                    }
-                }
-            ]
-        },
-        "setThermostatFanMode": {
-            "arguments": [
-                {
-                    "name": "fanmode",
-                    "optional": false,
-                    "schema": {
-                        "title": "ThermostatFanMode",
-                        "type": "string",
-                        "enum": [
-                            "auto",
-                            "circulate",
-                            "followschedule",
-                            "on"
-                        ]
                     }
                 }
             ]
@@ -646,6 +643,9 @@
                     }
                 }
             ]
+        },
+        "fanOn": {
+            "arguments": []
         }
     }
 }

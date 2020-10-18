@@ -4,6 +4,27 @@
     "status": "live",
     "name": "Window Shade",
     "attributes": {
+        "supportedWindowShadeCommands": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "enum": [
+                                "open",
+                                "close",
+                                "pause"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
         "windowShade": {
             "schema": {
                 "type": "object",
@@ -36,27 +57,6 @@
                     "value": "open"
                 }
             ]
-        },
-        "supportedWindowShadeCommands": {
-            "schema": {
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "type": "array",
-                        "items": {
-                            "type": "string",
-                            "enum": [
-                                "open",
-                                "close",
-                                "pause"
-                            ]
-                        }
-                    }
-                },
-                "additionalProperties": false,
-                "required": []
-            },
-            "enumCommands": []
         }
     },
     "commands": {

@@ -6,12 +6,12 @@
                 "alternatives": [
                     {
                         "key": "clear",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_CARBON_MONOXIDE_DETECTED",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_CLEAR_M_SMOKE_DETECTOR_STATUS",
                         "type": "inactive"
                     },
                     {
                         "key": "detected",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_SMOKE_AND_CARBON_MONOXIDE_DETECTED",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_DETECTED",
                         "type": "active"
                     },
                     {
@@ -61,7 +61,7 @@
                         {
                             "key": "clear",
                             "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_CLEAR_M_SMOKE_DETECTOR_STATUS",
-                            "type": "active"
+                            "type": "inactive"
                         },
                         {
                             "key": "detected",

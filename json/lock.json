@@ -64,10 +64,10 @@
         }
     },
     "commands": {
-        "lock": {
+        "unlock": {
             "arguments": []
         },
-        "unlock": {
+        "lock": {
             "arguments": []
         }
     }

@@ -17,7 +17,8 @@
                     0,
                     1000000
                 ],
-                "value": "carbonDioxide.value"
+                "value": "carbonDioxide.value",
+                "valueType": "integer"
             }
         }
     ],
@@ -28,6 +29,7 @@
                 "displayType": "numberField",
                 "numberField": {
                     "value": "carbonDioxide.value",
+                    "valueType": "integer",
                     "range": [
                         0,
                         1000000

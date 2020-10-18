@@ -40,6 +40,84 @@
         "actions": [],
         "basicPlus": []
     },
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_MODE",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "name": "setRobotCleanerCleaningMode",
+                    "alternatives": [
+                        {
+                            "key": "auto",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_AUTO",
+                            "type": "active"
+                        },
+                        {
+                            "key": "part",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_SPOT_M_ROBOT_CLEANER_MODE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "repeat",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_REPEAT_M_ROBOT_CLEANER_MODE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "manual",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_MANUAL_M_ROBOT_CLEANER_MODE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "stop",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_OPT_STOP",
+                            "type": "active"
+                        },
+                        {
+                            "key": "map",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_OPT_MAP",
+                            "type": "active"
+                        }
+                    ]
+                },
+                "state": {
+                    "value": "robotCleanerCleaningMode.value",
+                    "alternatives": [
+                        {
+                            "key": "auto",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_AUTO",
+                            "type": "active"
+                        },
+                        {
+                            "key": "part",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_SPOT_M_ROBOT_CLEANER_MODE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "repeat",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_REPEAT_M_ROBOT_CLEANER_MODE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "manual",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_MANUAL_M_ROBOT_CLEANER_MODE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "stop",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_OPT_STOP",
+                            "type": "active"
+                        },
+                        {
+                            "key": "map",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_OPT_MAP",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
     "automation": {
         "conditions": [
             {

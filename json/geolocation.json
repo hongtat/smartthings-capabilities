@@ -4,36 +4,6 @@
     "status": "proposed",
     "name": "Geolocation",
     "attributes": {
-        "latitude": {
-            "schema": {
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "type": "integer",
-                        "maximum": 90,
-                        "minimum": -90
-                    }
-                },
-                "additionalProperties": false,
-                "required": []
-            },
-            "enumCommands": []
-        },
-        "longitude": {
-            "schema": {
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "type": "integer",
-                        "maximum": 180,
-                        "minimum": -180
-                    }
-                },
-                "additionalProperties": false,
-                "required": []
-            },
-            "enumCommands": []
-        },
         "method": {
             "schema": {
                 "type": "object",
@@ -42,6 +12,36 @@
                         "title": "String",
                         "type": "string",
                         "maxLength": 255
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
+        "heading": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "number",
+                        "minimum": 0,
+                        "maximum": 360
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
+        "latitude": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "integer",
+                        "maximum": 90,
+                        "minimum": -90
                     }
                 },
                 "additionalProperties": false,
@@ -77,21 +77,6 @@
             },
             "enumCommands": []
         },
-        "heading": {
-            "schema": {
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "type": "number",
-                        "minimum": 0,
-                        "maximum": 360
-                    }
-                },
-                "additionalProperties": false,
-                "required": []
-            },
-            "enumCommands": []
-        },
         "speed": {
             "schema": {
                 "type": "object",
@@ -99,6 +84,21 @@
                     "value": {
                         "type": "number",
                         "minimum": 0
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
+        "longitude": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "integer",
+                        "maximum": 180,
+                        "minimum": -180
                     }
                 },
                 "additionalProperties": false,

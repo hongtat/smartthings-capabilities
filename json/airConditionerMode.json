@@ -4,6 +4,22 @@
     "status": "proposed",
     "name": "Air Conditioner Mode",
     "attributes": {
+        "supportedAcModes": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
         "airConditionerMode": {
             "schema": {
                 "type": "object",
@@ -20,22 +36,6 @@
                 ]
             },
             "setter": "setAirConditionerMode",
-            "enumCommands": []
-        },
-        "supportedAcModes": {
-            "schema": {
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "type": "array",
-                        "items": {
-                            "type": "string"
-                        }
-                    }
-                },
-                "additionalProperties": false,
-                "required": []
-            },
             "enumCommands": []
         }
     },

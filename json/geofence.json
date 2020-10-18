@@ -4,12 +4,17 @@
     "status": "proposed",
     "name": "Geofence",
     "attributes": {
-        "name": {
+        "enableState": {
             "schema": {
                 "type": "object",
                 "properties": {
                     "value": {
-                        "type": "string"
+                        "title": "EnableState",
+                        "type": "string",
+                        "enum": [
+                            "enabled",
+                            "disabled"
+                        ]
                     }
                 },
                 "additionalProperties": false,
@@ -17,7 +22,7 @@
                     "value"
                 ]
             },
-            "setter": "setName",
+            "setter": "setEnableState",
             "enumCommands": []
         },
         "geofence": {
@@ -49,17 +54,12 @@
             "setter": "setGeofence",
             "enumCommands": []
         },
-        "enableState": {
+        "name": {
             "schema": {
                 "type": "object",
                 "properties": {
                     "value": {
-                        "title": "EnableState",
-                        "type": "string",
-                        "enum": [
-                            "enabled",
-                            "disabled"
-                        ]
+                        "type": "string"
                     }
                 },
                 "additionalProperties": false,
@@ -67,7 +67,7 @@
                     "value"
                 ]
             },
-            "setter": "setEnableState",
+            "setter": "setName",
             "enumCommands": []
         }
     },
@@ -79,6 +79,22 @@
                     "optional": false,
                     "schema": {
                         "type": "string"
+                    }
+                }
+            ]
+        },
+        "setEnableState": {
+            "arguments": [
+                {
+                    "name": "enableState",
+                    "optional": false,
+                    "schema": {
+                        "title": "EnableState",
+                        "type": "string",
+                        "enum": [
+                            "enabled",
+                            "disabled"
+                        ]
                     }
                 }
             ]
@@ -103,22 +119,6 @@
                                 "type": "number"
                             }
                         }
-                    }
-                }
-            ]
-        },
-        "setEnableState": {
-            "arguments": [
-                {
-                    "name": "enableState",
-                    "optional": false,
-                    "schema": {
-                        "title": "EnableState",
-                        "type": "string",
-                        "enum": [
-                            "enabled",
-                            "disabled"
-                        ]
                     }
                 }
             ]

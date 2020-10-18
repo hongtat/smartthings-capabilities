@@ -50,6 +50,17 @@
         }
     },
     "commands": {
+        "overrideDrlcAction": {
+            "arguments": [
+                {
+                    "name": "value",
+                    "optional": false,
+                    "schema": {
+                        "type": "boolean"
+                    }
+                }
+            ]
+        },
         "requestDrlcAction": {
             "arguments": [
                 {
@@ -92,22 +103,11 @@
                 },
                 {
                     "name": "reportingPeriod",
-                    "optional": true,
+                    "optional": false,
                     "schema": {
                         "title": "PositiveInteger",
                         "type": "integer",
                         "minimum": 0
-                    }
-                }
-            ]
-        },
-        "overrideDrlcAction": {
-            "arguments": [
-                {
-                    "name": "value",
-                    "optional": false,
-                    "schema": {
-                        "type": "boolean"
                     }
                 }
             ]

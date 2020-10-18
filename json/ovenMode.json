@@ -4,51 +4,6 @@
     "status": "proposed",
     "name": "Oven Mode",
     "attributes": {
-        "ovenMode": {
-            "schema": {
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "title": "OvenMode",
-                        "type": "string",
-                        "enum": [
-                            "heating",
-                            "grill",
-                            "warming",
-                            "defrosting",
-                            "Conventional",
-                            "Bake",
-                            "BottomHeat",
-                            "ConvectionBake",
-                            "ConvectionRoast",
-                            "Broil",
-                            "ConvectionBroil",
-                            "SteamCook",
-                            "SteamBake",
-                            "SteamRoast",
-                            "SteamBottomHeatplusConvection",
-                            "Microwave",
-                            "MWplusGrill",
-                            "MWplusConvection",
-                            "MWplusHotBlast",
-                            "MWplusHotBlast2",
-                            "SlimMiddle",
-                            "SlimStrong",
-                            "SlowCook",
-                            "Proof",
-                            "Dehydrate",
-                            "Others"
-                        ]
-                    }
-                },
-                "additionalProperties": false,
-                "required": [
-                    "value"
-                ]
-            },
-            "setter": "setOvenMode",
-            "enumCommands": []
-        },
         "supportedOvenModes": {
             "schema": {
                 "type": "object",
@@ -92,6 +47,51 @@
                 "additionalProperties": false,
                 "required": []
             },
+            "enumCommands": []
+        },
+        "ovenMode": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "OvenMode",
+                        "type": "string",
+                        "enum": [
+                            "heating",
+                            "grill",
+                            "warming",
+                            "defrosting",
+                            "Conventional",
+                            "Bake",
+                            "BottomHeat",
+                            "ConvectionBake",
+                            "ConvectionRoast",
+                            "Broil",
+                            "ConvectionBroil",
+                            "SteamCook",
+                            "SteamBake",
+                            "SteamRoast",
+                            "SteamBottomHeatplusConvection",
+                            "Microwave",
+                            "MWplusGrill",
+                            "MWplusConvection",
+                            "MWplusHotBlast",
+                            "MWplusHotBlast2",
+                            "SlimMiddle",
+                            "SlimStrong",
+                            "SlowCook",
+                            "Proof",
+                            "Dehydrate",
+                            "Others"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setOvenMode",
             "enumCommands": []
         }
     },

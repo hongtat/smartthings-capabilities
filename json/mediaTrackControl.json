@@ -27,10 +27,10 @@
         }
     },
     "commands": {
-        "nextTrack": {
+        "previousTrack": {
             "arguments": []
         },
-        "previousTrack": {
+        "nextTrack": {
             "arguments": []
         }
     }

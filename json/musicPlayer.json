@@ -4,6 +4,21 @@
     "status": "deprecated",
     "name": "Music Player",
     "attributes": {
+        "trackDescription": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "String",
+                        "type": "string",
+                        "maxLength": 255
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
         "level": {
             "schema": {
                 "type": "object",
@@ -47,21 +62,6 @@
                 }
             ]
         },
-        "status": {
-            "schema": {
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "title": "String",
-                        "type": "string",
-                        "maxLength": 255
-                    }
-                },
-                "additionalProperties": false,
-                "required": []
-            },
-            "enumCommands": []
-        },
         "trackData": {
             "schema": {
                 "type": "object",
@@ -76,7 +76,7 @@
             },
             "enumCommands": []
         },
-        "trackDescription": {
+        "status": {
             "schema": {
                 "type": "object",
                 "properties": {
@@ -93,32 +93,7 @@
         }
     },
     "commands": {
-        "mute": {
-            "arguments": []
-        },
-        "nextTrack": {
-            "arguments": []
-        },
-        "pause": {
-            "arguments": []
-        },
         "play": {
-            "arguments": []
-        },
-        "playTrack": {
-            "arguments": [
-                {
-                    "name": "trackToPlay",
-                    "optional": false,
-                    "schema": {
-                        "title": "String",
-                        "type": "string",
-                        "maxLength": 255
-                    }
-                }
-            ]
-        },
-        "previousTrack": {
             "arguments": []
         },
         "restoreTrack": {
@@ -147,18 +122,17 @@
                 }
             ]
         },
-        "setLevel": {
-            "arguments": [
-                {
-                    "name": "level",
-                    "optional": false,
-                    "schema": {
-                        "title": "PositiveInteger",
-                        "type": "integer",
-                        "minimum": 0
-                    }
-                }
-            ]
+        "stop": {
+            "arguments": []
+        },
+        "previousTrack": {
+            "arguments": []
+        },
+        "nextTrack": {
+            "arguments": []
+        },
+        "mute": {
+            "arguments": []
         },
         "setTrack": {
             "arguments": [
@@ -173,11 +147,37 @@
                 }
             ]
         },
-        "stop": {
-            "arguments": []
-        },
         "unmute": {
             "arguments": []
+        },
+        "playTrack": {
+            "arguments": [
+                {
+                    "name": "trackToPlay",
+                    "optional": false,
+                    "schema": {
+                        "title": "String",
+                        "type": "string",
+                        "maxLength": 255
+                    }
+                }
+            ]
+        },
+        "pause": {
+            "arguments": []
+        },
+        "setLevel": {
+            "arguments": [
+                {
+                    "name": "level",
+                    "optional": false,
+                    "schema": {
+                        "title": "PositiveInteger",
+                        "type": "integer",
+                        "minimum": 0
+                    }
+                }
+            ]
         }
     }
 }

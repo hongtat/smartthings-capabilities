@@ -4,6 +4,30 @@
     "status": "proposed",
     "name": "Media Playback",
     "attributes": {
+        "supportedPlaybackCommands": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "title": "MediaPlaybackCommands",
+                            "type": "string",
+                            "enum": [
+                                "pause",
+                                "play",
+                                "stop",
+                                "fastForward",
+                                "rewind"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
         "playbackStatus": {
             "schema": {
                 "type": "object",
@@ -45,33 +69,21 @@
                     "value": "rewinding"
                 }
             ]
-        },
-        "supportedPlaybackCommands": {
-            "schema": {
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "type": "array",
-                        "items": {
-                            "title": "MediaPlaybackCommands",
-                            "type": "string",
-                            "enum": [
-                                "pause",
-                                "play",
-                                "stop",
-                                "fastForward",
-                                "rewind"
-                            ]
-                        }
-                    }
-                },
-                "additionalProperties": false,
-                "required": []
-            },
-            "enumCommands": []
         }
     },
     "commands": {
+        "play": {
+            "arguments": []
+        },
+        "stop": {
+            "arguments": []
+        },
+        "rewind": {
+            "arguments": []
+        },
+        "fastForward": {
+            "arguments": []
+        },
         "setPlaybackStatus": {
             "arguments": [
                 {
@@ -90,19 +102,7 @@
                 }
             ]
         },
-        "play": {
-            "arguments": []
-        },
         "pause": {
-            "arguments": []
-        },
-        "stop": {
-            "arguments": []
-        },
-        "fastForward": {
-            "arguments": []
-        },
-        "rewind": {
             "arguments": []
         }
     }

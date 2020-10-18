@@ -23,6 +23,22 @@
             "setter": "sendEvent(sunrise)",
             "enumCommands": []
         },
+        "sunsetTime": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "String",
+                        "type": "string",
+                        "maxLength": 255
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "setter": "sendEvent(sunsetTime)",
+            "enumCommands": []
+        },
         "sunset": {
             "schema": {
                 "type": "object",
@@ -57,32 +73,16 @@
             },
             "setter": "sendEvent(sunriseTime)",
             "enumCommands": []
-        },
-        "sunsetTime": {
-            "schema": {
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "title": "String",
-                        "type": "string",
-                        "maxLength": 255
-                    }
-                },
-                "additionalProperties": false,
-                "required": []
-            },
-            "setter": "sendEvent(sunsetTime)",
-            "enumCommands": []
         }
     },
     "commands": {
+        "sendEvent(sunriseTime)": {
+            "arguments": []
+        },
         "sendEvent(sunrise)": {
             "arguments": []
         },
         "sendEvent(sunset)": {
-            "arguments": []
-        },
-        "sendEvent(sunriseTime)": {
             "arguments": []
         },
         "sendEvent(sunsetTime)": {

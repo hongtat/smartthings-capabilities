@@ -1,6 +1,96 @@
 {
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_FAN_MODE",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "name": "setThermostatFanMode",
+                    "alternatives": [
+                        {
+                            "key": "on",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_ON",
+                            "type": "active"
+                        },
+                        {
+                            "key": "auto",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_AUTO",
+                            "type": "active"
+                        },
+                        {
+                            "key": "circulate",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_CIRCULATE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "followschedule",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_SCHEDULE",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedThermostatFanModes.value"
+                },
+                "state": {
+                    "value": "thermostatFanMode.value",
+                    "alternatives": [
+                        {
+                            "key": "on",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_ON",
+                            "type": "active"
+                        },
+                        {
+                            "key": "auto",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_AUTO",
+                            "type": "active"
+                        },
+                        {
+                            "key": "circulate",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_CIRCULATE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "followschedule",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_SCHEDULE",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
     "automation": {
-        "conditions": [],
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_FAN_MODE",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "on",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_ON",
+                            "type": "active"
+                        },
+                        {
+                            "key": "auto",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_AUTO",
+                            "type": "active"
+                        },
+                        {
+                            "key": "circulate",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_CIRCULATE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "followschedule",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_SCHEDULE",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedThermostatFanModes.value",
+                    "value": "thermostatFanMode.value"
+                }
+            }
+        ],
         "actions": [
             {
                 "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_FAN_MODE",

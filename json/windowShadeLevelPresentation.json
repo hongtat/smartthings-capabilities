@@ -18,7 +18,9 @@
                     100
                 ],
                 "command": "setShadeLevel",
-                "value": "shadeLevel.value"
+                "argumentType": "object",
+                "value": "shadeLevel.value",
+                "valueType": "integer"
             }
         }
     ],
@@ -32,7 +34,8 @@
                         0,
                         100
                     ],
-                    "value": "shadeLevel.value"
+                    "value": "shadeLevel.value",
+                    "valueType": "integer"
                 }
             }
         ],
@@ -45,7 +48,8 @@
                         0,
                         100
                     ],
-                    "command": "setShadeLevel"
+                    "command": "setShadeLevel",
+                    "argumentType": "object"
                 }
             }
         ]

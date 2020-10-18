@@ -25,6 +25,54 @@
         "actions": [],
         "basicPlus": []
     },
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TURBO_M_ROBOT_CLEANER_MODE",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "name": "setRobotCleanerTurboMode",
+                    "alternatives": [
+                        {
+                            "key": "on",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ON_T_SAMSUNG_CONNECT",
+                            "type": "active"
+                        },
+                        {
+                            "key": "off",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OFF_T_SAMSUNG_CONNECT",
+                            "type": "active"
+                        },
+                        {
+                            "key": "silence",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_QUIET_M_ROBOT_CLEANER_MODE",
+                            "type": "active"
+                        }
+                    ]
+                },
+                "state": {
+                    "value": "robotCleanerTurboMode.value",
+                    "alternatives": [
+                        {
+                            "key": "on",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ON_T_SAMSUNG_CONNECT",
+                            "type": "active"
+                        },
+                        {
+                            "key": "off",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OFF_T_SAMSUNG_CONNECT",
+                            "type": "active"
+                        },
+                        {
+                            "key": "silence",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_QUIET_M_ROBOT_CLEANER_MODE",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
     "automation": {
         "conditions": [
             {

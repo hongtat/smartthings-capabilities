@@ -6,37 +6,37 @@
                 "alternatives": [
                     {
                         "key": "cooling",
-                        "value": "Cooling",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_COOLING_M_THERMOSTAT_STATE",
                         "type": "active"
                     },
                     {
                         "key": "fan only",
-                        "value": "Fan Only",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_FAN_ONLY_M_THERMOSTAT_STATE",
                         "type": "active"
                     },
                     {
                         "key": "heating",
-                        "value": "Heating",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_HEATING_M_THERMOSTAT_STATE",
                         "type": "active"
                     },
                     {
                         "key": "idle",
-                        "value": "Idle",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_IDLE_M_THERMOSTAT_STATE",
                         "type": "active"
                     },
                     {
                         "key": "pending cool",
-                        "value": "Pending Cool",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_PENDING_COOL_M_THERMOSTAT_STATE",
                         "type": "active"
                     },
                     {
                         "key": "pending heat",
-                        "value": "Pending Heat",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_PENDING_HEAT_M_THERMOSTAT_STATE",
                         "type": "active"
                     },
                     {
                         "key": "vent economizer",
-                        "value": "Vent Economizer",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_VENT_ECONOMIZER_M_THERMOSTAT_STATE",
                         "type": "active"
                     }
                 ]
@@ -54,37 +54,37 @@
                 "alternatives": [
                     {
                         "key": "cooling",
-                        "value": "Cooling",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_COOLING_M_THERMOSTAT_STATE",
                         "type": "active"
                     },
                     {
                         "key": "fan only",
-                        "value": "Fan Only",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_FAN_ONLY_M_THERMOSTAT_STATE",
                         "type": "active"
                     },
                     {
                         "key": "heating",
-                        "value": "Heating",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_HEATING_M_THERMOSTAT_STATE",
                         "type": "active"
                     },
                     {
                         "key": "idle",
-                        "value": "Idle",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_IDLE_M_THERMOSTAT_STATE",
                         "type": "active"
                     },
                     {
                         "key": "pending cool",
-                        "value": "Pending Cool",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_PENDING_COOL_M_THERMOSTAT_STATE",
                         "type": "active"
                     },
                     {
                         "key": "pending heat",
-                        "value": "Pending Heat",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_PENDING_HEAT_M_THERMOSTAT_STATE",
                         "type": "active"
                     },
                     {
                         "key": "vent economizer",
-                        "value": "Vent Economizer",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_VENT_ECONOMIZER_M_THERMOSTAT_STATE",
                         "type": "active"
                     }
                 ]
@@ -100,37 +100,37 @@
                     "alternatives": [
                         {
                             "key": "cooling",
-                            "value": "Cooling",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_COOLING_M_THERMOSTAT_STATE",
                             "type": "active"
                         },
                         {
                             "key": "fan only",
-                            "value": "Fan Only",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_FAN_ONLY_M_THERMOSTAT_STATE",
                             "type": "active"
                         },
                         {
                             "key": "heating",
-                            "value": "Heating",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_HEATING_M_THERMOSTAT_STATE",
                             "type": "active"
                         },
                         {
                             "key": "idle",
-                            "value": "Idle",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_IDLE_M_THERMOSTAT_STATE",
                             "type": "active"
                         },
                         {
                             "key": "pending cool",
-                            "value": "Pending Cool",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_PENDING_COOL_M_THERMOSTAT_STATE",
                             "type": "active"
                         },
                         {
                             "key": "pending heat",
-                            "value": "Pending Heat",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_PENDING_HEAT_M_THERMOSTAT_STATE",
                             "type": "active"
                         },
                         {
                             "key": "vent economizer",
-                            "value": "Vent Economizer",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_VENT_ECONOMIZER_M_THERMOSTAT_STATE",
                             "type": "active"
                         }
                     ],

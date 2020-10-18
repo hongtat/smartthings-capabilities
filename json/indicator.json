@@ -42,10 +42,10 @@
         "indicatorNever": {
             "arguments": []
         },
-        "indicatorWhenOff": {
+        "indicatorWhenOn": {
             "arguments": []
         },
-        "indicatorWhenOn": {
+        "indicatorWhenOff": {
             "arguments": []
         }
     }

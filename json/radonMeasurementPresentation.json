@@ -17,7 +17,8 @@
                     0.2,
                     99.9
                 ],
-                "value": "radonLevel.value"
+                "value": "radonLevel.value",
+                "valueType": "number"
             }
         }
     ],
@@ -28,6 +29,7 @@
                 "displayType": "numberField",
                 "numberField": {
                     "value": "radonLevel.value",
+                    "valueType": "number",
                     "range": [
                         0.2,
                         99.9

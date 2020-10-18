@@ -38,6 +38,9 @@
         }
     },
     "commands": {
+        "channelDown": {
+            "arguments": []
+        },
         "setTvChannel": {
             "arguments": [
                 {
@@ -54,14 +57,11 @@
         "channelUp": {
             "arguments": []
         },
-        "channelDown": {
-            "arguments": []
-        },
         "setTvChannelName": {
             "arguments": [
                 {
                     "name": "tvChannelName",
-                    "optional": true,
+                    "optional": false,
                     "schema": {
                         "title": "String",
                         "type": "string",

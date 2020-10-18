@@ -120,7 +120,9 @@
                     100
                 ],
                 "command": "setLevel",
-                "value": "level.value"
+                "argumentType": "integer",
+                "value": "level.value",
+                "valueType": "integer"
             }
         },
         {
@@ -213,7 +215,8 @@
                         0,
                         100
                     ],
-                    "value": "level.value"
+                    "value": "level.value",
+                    "valueType": "integer"
                 }
             },
             {
@@ -224,7 +227,7 @@
                         {
                             "key": "muted",
                             "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_MUTE",
-                            "type": "active"
+                            "type": "inactive"
                         },
                         {
                             "key": "unmuted",
@@ -269,7 +272,8 @@
                         0,
                         100
                     ],
-                    "command": "setLevel"
+                    "command": "setLevel",
+                    "argumentType": "integer"
                 }
             },
             {
@@ -280,7 +284,7 @@
                         {
                             "key": "mute",
                             "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_MUTE",
-                            "type": "active"
+                            "type": "inactive"
                         },
                         {
                             "key": "unmute",

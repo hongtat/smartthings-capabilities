@@ -16,7 +16,7 @@
                     },
                     {
                         "key": "tested",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_TESTED",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_SBODY_DEVICE_TESTED",
                         "type": "active"
                     }
                 ]
@@ -44,7 +44,7 @@
                     },
                     {
                         "key": "tested",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_TESTED",
+                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_SBODY_DEVICE_TESTED",
                         "type": "active"
                     }
                 ]
@@ -61,7 +61,7 @@
                         {
                             "key": "clear",
                             "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_CLEAR_M_SMOKE_DETECTOR_STATUS",
-                            "type": "active"
+                            "type": "inactive"
                         },
                         {
                             "key": "detected",

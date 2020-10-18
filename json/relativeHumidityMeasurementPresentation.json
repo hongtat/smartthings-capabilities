@@ -17,7 +17,8 @@
                     0,
                     100
                 ],
-                "value": "humidity.value"
+                "value": "humidity.value",
+                "valueType": "number"
             }
         }
     ],
@@ -28,6 +29,7 @@
                 "displayType": "numberField",
                 "numberField": {
                     "value": "humidity.value",
+                    "valueType": "number",
                     "range": [
                         0,
                         100

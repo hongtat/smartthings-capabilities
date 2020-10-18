@@ -4,6 +4,24 @@
     "status": "live",
     "name": "Refrigeration",
     "attributes": {
+        "defrost": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "off",
+                            "on"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "setter": "setDefrost",
+            "enumCommands": []
+        },
         "rapidCooling": {
             "schema": {
                 "type": "object",
@@ -39,28 +57,10 @@
             },
             "setter": "setRapidFreezing",
             "enumCommands": []
-        },
-        "defrost": {
-            "schema": {
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "type": "string",
-                        "enum": [
-                            "off",
-                            "on"
-                        ]
-                    }
-                },
-                "additionalProperties": false,
-                "required": []
-            },
-            "setter": "setDefrost",
-            "enumCommands": []
         }
     },
     "commands": {
-        "setRapidCooling": {
+        "setDefrost": {
             "arguments": [
                 {
                     "name": "rapidCooling",
@@ -90,7 +90,7 @@
                 }
             ]
         },
-        "setDefrost": {
+        "setRapidCooling": {
             "arguments": [
                 {
                     "name": "rapidCooling",

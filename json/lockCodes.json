@@ -4,67 +4,6 @@
     "status": "proposed",
     "name": "Lock Codes",
     "attributes": {
-        "codeChanged": {
-            "schema": {
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "title": "String",
-                        "type": "string",
-                        "maxLength": 255
-                    }
-                },
-                "additionalProperties": false,
-                "required": []
-            },
-            "enumCommands": []
-        },
-        "codeReport": {
-            "schema": {
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "title": "JsonObject",
-                        "type": "object"
-                    }
-                },
-                "additionalProperties": false,
-                "required": [
-                    "value"
-                ]
-            },
-            "enumCommands": []
-        },
-        "lockCodes": {
-            "schema": {
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "title": "String",
-                        "type": "string",
-                        "maxLength": 255
-                    }
-                },
-                "additionalProperties": false,
-                "required": []
-            },
-            "enumCommands": []
-        },
-        "scanCodes": {
-            "schema": {
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "title": "String",
-                        "type": "string",
-                        "maxLength": 255
-                    }
-                },
-                "additionalProperties": false,
-                "required": []
-            },
-            "enumCommands": []
-        },
         "codeLength": {
             "schema": {
                 "type": "object",
@@ -111,14 +50,14 @@
             },
             "enumCommands": []
         },
-        "minCodeLength": {
+        "codeChanged": {
             "schema": {
                 "type": "object",
                 "properties": {
                     "value": {
-                        "title": "PositiveInteger",
-                        "type": "integer",
-                        "minimum": 0
+                        "title": "String",
+                        "type": "string",
+                        "maxLength": 255
                     }
                 },
                 "additionalProperties": false,
@@ -158,25 +97,74 @@
                     "value": "unlocked with timeout"
                 }
             ]
-        }
-    },
-    "commands": {
-        "updateCodes": {
-            "arguments": [
-                {
-                    "name": "codes",
-                    "optional": false,
-                    "schema": {
+        },
+        "minCodeLength": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "PositiveInteger",
+                        "type": "integer",
+                        "minimum": 0
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
+        "codeReport": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
                         "title": "JsonObject",
                         "type": "object"
                     }
-                }
-            ]
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
         },
-        "deleteCode": {
+        "scanCodes": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "String",
+                        "type": "string",
+                        "maxLength": 255
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
+        "lockCodes": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "String",
+                        "type": "string",
+                        "maxLength": 255
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setCodeLength": {
             "arguments": [
                 {
-                    "name": "codeSlot",
+                    "name": "length",
                     "optional": false,
                     "schema": {
                         "title": "PositiveInteger",
@@ -185,25 +173,15 @@
                     }
                 }
             ]
-        },
-        "lock": {
-            "arguments": []
         },
         "reloadAllCodes": {
             "arguments": []
         },
-        "requestCode": {
-            "arguments": [
-                {
-                    "name": "codeSlot",
-                    "optional": false,
-                    "schema": {
-                        "title": "PositiveInteger",
-                        "type": "integer",
-                        "minimum": 0
-                    }
-                }
-            ]
+        "unlock": {
+            "arguments": []
+        },
+        "unlockWithTimeout": {
+            "arguments": []
         },
         "setCode": {
             "arguments": [
@@ -236,16 +214,38 @@
                 }
             ]
         },
-        "unlock": {
-            "arguments": []
-        },
-        "unlockWithTimeout": {
-            "arguments": []
-        },
-        "setCodeLength": {
+        "updateCodes": {
             "arguments": [
                 {
-                    "name": "length",
+                    "name": "codes",
+                    "optional": false,
+                    "schema": {
+                        "title": "JsonObject",
+                        "type": "object"
+                    }
+                }
+            ]
+        },
+        "lock": {
+            "arguments": []
+        },
+        "requestCode": {
+            "arguments": [
+                {
+                    "name": "codeSlot",
+                    "optional": false,
+                    "schema": {
+                        "title": "PositiveInteger",
+                        "type": "integer",
+                        "minimum": 0
+                    }
+                }
+            ]
+        },
+        "deleteCode": {
+            "arguments": [
+                {
+                    "name": "codeSlot",
                     "optional": false,
                     "schema": {
                         "title": "PositiveInteger",

@@ -71,43 +71,6 @@
             },
             "enumCommands": []
         },
-        "DeviceWatch-DeviceStatus": {
-            "schema": {
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "type": "string",
-                        "enum": [
-                            "online",
-                            "offline"
-                        ]
-                    },
-                    "data": {
-                        "type": "object",
-                        "additionalProperties": false,
-                        "required": [],
-                        "properties": {
-                            "deviceScheme": {
-                                "type": "string",
-                                "enum": [
-                                    "MIXED",
-                                    "TRACKED",
-                                    "UNTRACKED"
-                                ]
-                            },
-                            "badProperty": {
-                                "type": "string"
-                            }
-                        }
-                    }
-                },
-                "additionalProperties": false,
-                "required": [
-                    "value"
-                ]
-            },
-            "enumCommands": []
-        },
         "healthStatus": {
             "schema": {
                 "type": "object",
@@ -180,6 +143,43 @@
                                 "title": "String",
                                 "type": "string",
                                 "maxLength": 255
+                            }
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "DeviceWatch-DeviceStatus": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "online",
+                            "offline"
+                        ]
+                    },
+                    "data": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "required": [],
+                        "properties": {
+                            "deviceScheme": {
+                                "type": "string",
+                                "enum": [
+                                    "MIXED",
+                                    "TRACKED",
+                                    "UNTRACKED"
+                                ]
+                            },
+                            "badProperty": {
+                                "type": "string"
                             }
                         }
                     }

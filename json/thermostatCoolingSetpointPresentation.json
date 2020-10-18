@@ -36,7 +36,9 @@
                 ],
                 "unit": "coolingSetpoint.unit",
                 "command": "setCoolingSetpoint",
-                "value": "coolingSetpoint.value"
+                "argumentType": "number",
+                "value": "coolingSetpoint.value",
+                "valueType": "number"
             }
         }
     ],
@@ -47,6 +49,7 @@
                 "displayType": "numberField",
                 "numberField": {
                     "value": "coolingSetpoint.value",
+                    "valueType": "number",
                     "unit": "coolingSetpoint.unit",
                     "range": [
                         0,
@@ -61,6 +64,7 @@
                 "displayType": "numberField",
                 "numberField": {
                     "command": "setCoolingSetpoint",
+                    "argumentType": "number",
                     "range": [
                         0,
                         40

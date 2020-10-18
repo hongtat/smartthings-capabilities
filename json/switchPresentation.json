@@ -58,7 +58,7 @@
                         {
                             "key": "off",
                             "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OFF_T_SAMSUNG_CONNECT",
-                            "type": "active"
+                            "type": "inactive"
                         }
                     ]
                 }
@@ -80,7 +80,7 @@
                         {
                             "key": "off",
                             "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OFF_T_SAMSUNG_CONNECT",
-                            "type": "active"
+                            "type": "inactive"
                         }
                     ],
                     "value": "switch.value"
@@ -102,7 +102,7 @@
                         {
                             "key": "off",
                             "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OFF_T_SAMSUNG_CONNECT",
-                            "type": "active"
+                            "type": "inactive"
                         }
                     ]
                 },

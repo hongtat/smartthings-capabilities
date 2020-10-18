@@ -19,7 +19,9 @@
                 ],
                 "step": 1,
                 "command": "setVolume",
-                "value": "volume.value"
+                "argumentType": "integer",
+                "value": "volume.value",
+                "valueType": "integer"
             }
         }
     ],
@@ -33,7 +35,8 @@
                         0,
                         100
                     ],
-                    "value": "volume.value"
+                    "value": "volume.value",
+                    "valueType": "integer"
                 }
             }
         ],
@@ -46,7 +49,8 @@
                         0,
                         100
                     ],
-                    "command": "setVolume"
+                    "command": "setVolume",
+                    "argumentType": "integer"
                 }
             }
         ]

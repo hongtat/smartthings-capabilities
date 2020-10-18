@@ -4,6 +4,22 @@
     "status": "live",
     "name": "Color Control",
     "attributes": {
+        "saturation": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "PositiveNumber",
+                        "type": "number",
+                        "minimum": 0
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "setter": "setSaturation",
+            "enumCommands": []
+        },
         "color": {
             "schema": {
                 "type": "object",
@@ -34,22 +50,6 @@
                 "required": []
             },
             "setter": "setHue",
-            "enumCommands": []
-        },
-        "saturation": {
-            "schema": {
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "title": "PositiveNumber",
-                        "type": "number",
-                        "minimum": 0
-                    }
-                },
-                "additionalProperties": false,
-                "required": []
-            },
-            "setter": "setSaturation",
             "enumCommands": []
         }
     },

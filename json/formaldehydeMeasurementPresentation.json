@@ -25,6 +25,7 @@
                 "displayType": "numberField",
                 "numberField": {
                     "value": "formaldehydeLevel.value",
+                    "valueType": "number",
                     "range": [
                         0,
                         1000000

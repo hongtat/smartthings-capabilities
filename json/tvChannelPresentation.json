@@ -10,13 +10,33 @@
     },
     "detailView": [
         {
-            "label": "TV Channel",
+            "label": "___PO_CODE_SMARTTHINGS_WDS_SAC_TBOPT_CHANNEL",
             "displayType": "textField",
             "textField": {
                 "command": "setTvChannel"
             }
         }
     ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_WDS_SAC_TBOPT_CHANNEL",
+                "displayType": "textField",
+                "textField": {
+                    "value": "tvChannel.value"
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_WDS_SAC_TBOPT_CHANNEL",
+                "displayType": "textField",
+                "textField": {
+                    "command": "setTvChannel"
+                }
+            }
+        ]
+    },
     "id": "tvChannel",
     "version": 1
 }

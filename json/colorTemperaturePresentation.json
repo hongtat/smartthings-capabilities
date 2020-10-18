@@ -14,10 +14,13 @@
             "displayType": "slider",
             "slider": {
                 "range": [
-                    0,
-                    100
+                    1,
+                    30000
                 ],
-                "value": "colorTemperature.value"
+                "command": "setColorTemperature",
+                "argumentType": "integer",
+                "value": "colorTemperature.value",
+                "valueType": "integer"
             }
         }
     ],
@@ -27,11 +30,29 @@
                 "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_COLOR_TEMPERATURE",
                 "displayType": "numberField",
                 "numberField": {
-                    "value": "colorTemperature.value"
+                    "value": "colorTemperature.value",
+                    "valueType": "integer",
+                    "range": [
+                        1,
+                        30000
+                    ]
                 }
             }
         ],
-        "actions": []
+        "actions": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_COLOR_TEMPERATURE",
+                "displayType": "numberField",
+                "numberField": {
+                    "command": "setColorTemperature",
+                    "argumentType": "integer",
+                    "range": [
+                        1,
+                        30000
+                    ]
+                }
+            }
+        ]
     },
     "id": "colorTemperature",
     "version": 1

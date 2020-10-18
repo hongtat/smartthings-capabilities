@@ -34,10 +34,10 @@
         }
     },
     "commands": {
-        "chime": {
+        "off": {
             "arguments": []
         },
-        "off": {
+        "chime": {
             "arguments": []
         }
     }

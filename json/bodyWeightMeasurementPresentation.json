@@ -17,7 +17,8 @@
                     0,
                     200
                 ],
-                "value": "bodyWeightMeasurement.value"
+                "value": "bodyWeightMeasurement.value",
+                "valueType": "number"
             }
         }
     ],
@@ -28,6 +29,7 @@
                 "displayType": "numberField",
                 "numberField": {
                     "value": "bodyWeightMeasurement.value",
+                    "valueType": "number",
                     "range": [
                         0,
                         200

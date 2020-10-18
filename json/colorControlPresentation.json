@@ -15,14 +15,16 @@
                 "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_COLOR_CONTROL",
                 "displayType": "numberField",
                 "numberField": {
-                    "command": "setHue"
+                    "command": "setHue",
+                    "argumentType": "number"
                 }
             },
             {
                 "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_COLOR_CONTROL",
                 "displayType": "numberField",
                 "numberField": {
-                    "command": "setSaturation"
+                    "command": "setSaturation",
+                    "argumentType": "number"
                 }
             }
         ]

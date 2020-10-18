@@ -25,6 +25,7 @@
                 "displayType": "numberField",
                 "numberField": {
                     "value": "equivalentCarbonDioxideMeasurement.value",
+                    "valueType": "number",
                     "range": [
                         0,
                         1000000

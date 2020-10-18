@@ -30,6 +30,64 @@
         "actions": [],
         "basicPlus": []
     },
+    "detailView": [
+        {
+            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_MODE",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "name": "setOvenMode",
+                    "alternatives": [
+                        {
+                            "key": "heating",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_HEATING_M_OVEN_MODE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "grill",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_GRILL_M_OVEN_MODE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "warming",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_WARMING_M_OVEN_MODE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "defrosting",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_DEFROSTING_M_OVEN_MODE",
+                            "type": "active"
+                        }
+                    ]
+                },
+                "state": {
+                    "value": "ovenMode.value",
+                    "alternatives": [
+                        {
+                            "key": "heating",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_HEATING_M_OVEN_MODE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "grill",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_GRILL_M_OVEN_MODE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "warming",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_WARMING_M_OVEN_MODE",
+                            "type": "active"
+                        },
+                        {
+                            "key": "defrosting",
+                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_DEFROSTING_M_OVEN_MODE",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
     "automation": {
         "conditions": [
             {

@@ -17,7 +17,8 @@
                     0,
                     194
                 ],
-                "value": "soundPressureLevel.value"
+                "value": "soundPressureLevel.value",
+                "valueType": "number"
             }
         }
     ],
@@ -28,6 +29,7 @@
                 "displayType": "numberField",
                 "numberField": {
                     "value": "soundPressureLevel.value",
+                    "valueType": "number",
                     "range": [
                         0,
                         194
