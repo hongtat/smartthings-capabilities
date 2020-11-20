@@ -1,12 +1,11 @@
 
 ## SmartThings Capabilities
 
-#### Last Update: 2020-10-18
+#### Last Update: 2020-11-20
 
 * [SmartThings Reference](https://smartthings.developer.samsung.com/docs/api-ref/capabilities.html)
 * [SmartThings API](https://smartthings.developer.samsung.com/docs/api-ref/st-api.html#tag/capabilities)
 * [SmartThings CLI](https://github.com/SmartThingsCommunity/smartthings-cli)
-* [SmartThings CLI Wiki](https://github.com/SmartThingsCommunity/smartthings-cli/wiki)
 * [Create Personal Access Token](https://account.smartthings.com/tokens)
 
 
