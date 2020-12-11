@@ -60,7 +60,7 @@
             "arguments": [
                 {
                     "name": "url",
-                    "optional": false,
+                    "optional": true,
                     "schema": {
                         "title": "URL",
                         "type": "string",

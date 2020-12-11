@@ -56,7 +56,7 @@
                 },
                 {
                     "name": "id",
-                    "optional": false,
+                    "optional": true,
                     "schema": {
                         "title": "String",
                         "type": "string",
@@ -65,7 +65,7 @@
                 },
                 {
                     "name": "data",
-                    "optional": false,
+                    "optional": true,
                     "schema": {
                         "title": "JsonObject",
                         "type": "object"
@@ -86,7 +86,7 @@
                 },
                 {
                     "name": "name",
-                    "optional": false,
+                    "optional": true,
                     "schema": {
                         "title": "String",
                         "type": "string",
@@ -95,7 +95,7 @@
                 },
                 {
                     "name": "data",
-                    "optional": false,
+                    "optional": true,
                     "schema": {
                         "title": "JsonObject",
                         "type": "object"

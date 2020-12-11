@@ -61,7 +61,7 @@
             "arguments": [
                 {
                     "name": "tvChannelName",
-                    "optional": false,
+                    "optional": true,
                     "schema": {
                         "title": "String",
                         "type": "string",

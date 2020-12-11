@@ -103,7 +103,7 @@
                 },
                 {
                     "name": "reportingPeriod",
-                    "optional": false,
+                    "optional": true,
                     "schema": {
                         "title": "PositiveInteger",
                         "type": "integer",

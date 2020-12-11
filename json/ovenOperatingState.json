@@ -146,7 +146,7 @@
             "arguments": [
                 {
                     "name": "mode",
-                    "optional": false,
+                    "optional": true,
                     "schema": {
                         "title": "OvenMode",
                         "type": "string",
@@ -182,7 +182,7 @@
                 },
                 {
                     "name": "time",
-                    "optional": false,
+                    "optional": true,
                     "schema": {
                         "title": "PositiveInteger",
                         "type": "integer",
@@ -191,7 +191,7 @@
                 },
                 {
                     "name": "setpoint",
-                    "optional": false,
+                    "optional": true,
                     "schema": {
                         "title": "PositiveInteger",
                         "type": "integer",

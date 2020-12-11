@@ -60,7 +60,7 @@
             "arguments": [
                 {
                     "name": "correlationId",
-                    "optional": false,
+                    "optional": true,
                     "schema": {
                         "title": "String",
                         "type": "string",
@@ -69,7 +69,7 @@
                 },
                 {
                     "name": "reason",
-                    "optional": false,
+                    "optional": true,
                     "schema": {
                         "title": "String",
                         "type": "string",

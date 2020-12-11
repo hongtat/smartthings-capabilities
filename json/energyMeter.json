@@ -29,5 +29,9 @@
             "enumCommands": []
         }
     },
-    "commands": []
+    "commands": {
+        "resetEnergyMeter": {
+            "arguments": []
+        }
+    }
 }

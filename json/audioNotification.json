@@ -18,7 +18,7 @@
                 },
                 {
                     "name": "level",
-                    "optional": false,
+                    "optional": true,
                     "schema": {
                         "type": "integer",
                         "minimum": 0,
@@ -40,7 +40,7 @@
                 },
                 {
                     "name": "level",
-                    "optional": false,
+                    "optional": true,
                     "schema": {
                         "type": "integer",
                         "minimum": 0,
@@ -62,7 +62,7 @@
                 },
                 {
                     "name": "level",
-                    "optional": false,
+                    "optional": true,
                     "schema": {
                         "type": "integer",
                         "minimum": 0,
