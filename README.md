@@ -1,7 +1,7 @@
 
 ## SmartThings Capabilities
 
-#### Last Update: 2020-12-11
+#### Last Update: 2020-12-28
 
 * [SmartThings Reference](https://smartthings.developer.samsung.com/docs/api-ref/capabilities.html)
 * [SmartThings API](https://smartthings.developer.samsung.com/docs/api-ref/st-api.html#tag/capabilities)
@@ -72,6 +72,8 @@
 | [Execute](./json/execute.json) | live |  |
 | [Fan Oscillation Mode](./json/fanOscillationMode.json) | proposed | [json](./json/fanOscillationModePresentation.json) |
 | [Fan Speed](./json/fanSpeed.json) | live | [json](./json/fanSpeedPresentation.json) |
+| [Feeder Operating State](./json/feederOperatingState.json) | proposed |  |
+| [Feeder Portion](./json/feederPortion.json) | proposed |  |
 | [Filter State](./json/filterState.json) | live |  |
 | [Filter Status](./json/filterStatus.json) | proposed | [json](./json/filterStatusPresentation.json) |
 | [Fine Dust Health Concern](./json/fineDustHealthConcern.json) | proposed | [json](./json/fineDustHealthConcernPresentation.json) |
@@ -132,11 +134,11 @@
 | [Radon Measurement](./json/radonMeasurement.json) | proposed | [json](./json/radonMeasurementPresentation.json) |
 | [Rapid Cooling](./json/rapidCooling.json) | proposed | [json](./json/rapidCoolingPresentation.json) |
 | [Refresh](./json/refresh.json) | live | [json](./json/refreshPresentation.json) |
-| [Refrigeration](./json/refrigeration.json) | live |  |
+| [Refrigeration](./json/refrigeration.json) | live | [json](./json/refrigerationPresentation.json) |
 | [Refrigeration Setpoint](./json/refrigerationSetpoint.json) | proposed | [json](./json/refrigerationSetpointPresentation.json) |
 | [Relative Humidity Measurement](./json/relativeHumidityMeasurement.json) | live | [json](./json/relativeHumidityMeasurementPresentation.json) |
 | [Relay Switch](./json/relaySwitch.json) | deprecated |  |
-| [Remote Control Status](./json/remoteControlStatus.json) | live |  |
+| [Remote Control Status](./json/remoteControlStatus.json) | live | [json](./json/remoteControlStatusPresentation.json) |
 | [Robot Cleaner Cleaning Mode](./json/robotCleanerCleaningMode.json) | proposed | [json](./json/robotCleanerCleaningModePresentation.json) |
 | [Robot Cleaner Movement](./json/robotCleanerMovement.json) | proposed | [json](./json/robotCleanerMovementPresentation.json) |
 | [Robot Cleaner State](./json/robotCleanerState.json) | deprecated |  |
@@ -199,6 +201,11 @@
 | [Tvoc Measurement](./json/tvocMeasurement.json) | live | [json](./json/tvocMeasurementPresentation.json) |
 | [Ultraviolet Index](./json/ultravioletIndex.json) | live | [json](./json/ultravioletIndexPresentation.json) |
 | [Valve](./json/valve.json) | live | [json](./json/valvePresentation.json) |
+| [Vehicle Engine](./json/vehicleEngine.json) | proposed |  |
+| [Vehicle Fuel Level](./json/vehicleFuelLevel.json) | proposed |  |
+| [Vehicle Odometer](./json/vehicleOdometer.json) | proposed |  |
+| [Vehicle Range](./json/vehicleRange.json) | proposed |  |
+| [Vehicle Tire Pressure Monitor](./json/vehicleTirePressureMonitor.json) | proposed |  |
 | [Very Fine Dust Health Concern](./json/veryFineDustHealthConcern.json) | proposed | [json](./json/veryFineDustHealthConcernPresentation.json) |
 | [Very Fine Dust Sensor](./json/veryFineDustSensor.json) | live | [json](./json/veryFineDustSensorPresentation.json) |
 | [Video Camera](./json/videoCamera.json) | live | [json](./json/videoCameraPresentation.json) |
@@ -218,4 +225,4 @@
 | [Wireless Operating Mode](./json/wirelessOperatingMode.json) | proposed | [json](./json/wirelessOperatingModePresentation.json) |
 | [Zw Multichannel](./json/zwMultichannel.json) | live |  |
 | [pH Measurement](./json/pHMeasurement.json) | live | [json](./json/pHMeasurementPresentation.json) |
-| [webrtc](./json/webrtc.json) | proposed |  |
+| [webrtc](./json/webrtc.json) | live |  |

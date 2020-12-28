@@ -6,22 +6,22 @@
                 "alternatives": [
                     {
                         "key": "off",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_OFF",
+                        "value": "{{i18n.attributes.alarm.i18n.value.off.label}}",
                         "type": "inactive"
                     },
                     {
                         "key": "both",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_SIREN_AND_STROBE_ABB",
+                        "value": "{{i18n.attributes.alarm.i18n.value.both.label}}",
                         "type": "active"
                     },
                     {
                         "key": "strobe",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_STROBE_ABB",
+                        "value": "{{i18n.attributes.alarm.i18n.value.strobe.label}}",
                         "type": "active"
                     },
                     {
                         "key": "siren",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_SIREN",
+                        "value": "{{i18n.attributes.alarm.i18n.value.siren.label}}",
                         "type": "active"
                     }
                 ]
@@ -32,29 +32,29 @@
     },
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_ALARM",
+            "label": "{{i18n.label}}",
             "displayType": "list",
             "list": {
                 "command": {
                     "alternatives": [
                         {
                             "key": "off",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_OFF",
+                            "value": "{{i18n.commands.off.label}}",
                             "type": "inactive"
                         },
                         {
                             "key": "strobe",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_STROBE_ABB",
+                            "value": "{{i18n.commands.strobe.label}}",
                             "type": "active"
                         },
                         {
                             "key": "both",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_SIREN_AND_STROBE_ABB",
+                            "value": "{{i18n.commands.both.label}}",
                             "type": "active"
                         },
                         {
                             "key": "siren",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_SIREN",
+                            "value": "{{i18n.commands.siren.label}}",
                             "type": "active"
                         }
                     ]
@@ -64,22 +64,22 @@
                     "alternatives": [
                         {
                             "key": "off",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_OFF",
+                            "value": "{{i18n.attributes.alarm.i18n.value.off.label}}",
                             "type": "inactive"
                         },
                         {
                             "key": "strobe",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_STROBE_ABB",
+                            "value": "{{i18n.attributes.alarm.i18n.value.strobe.label}}",
                             "type": "active"
                         },
                         {
                             "key": "both",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_SIREN_AND_STROBE_ABB",
+                            "value": "{{i18n.attributes.alarm.i18n.value.both.label}}",
                             "type": "active"
                         },
                         {
                             "key": "siren",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_SIREN",
+                            "value": "{{i18n.attributes.alarm.i18n.value.siren.label}}",
                             "type": "active"
                         }
                     ]
@@ -90,59 +90,60 @@
     "automation": {
         "conditions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_ALARM",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "off",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_OFF",
+                            "value": "{{i18n.attributes.alarm.i18n.value.off.label}}",
                             "type": "inactive"
                         },
                         {
                             "key": "strobe",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_STROBE_ABB",
+                            "value": "{{i18n.attributes.alarm.i18n.value.strobe.label}}",
                             "type": "active"
                         },
                         {
                             "key": "both",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_SIREN_AND_STROBE_ABB",
+                            "value": "{{i18n.attributes.alarm.i18n.value.both.label}}",
                             "type": "active"
                         },
                         {
                             "key": "siren",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_SIREN",
+                            "value": "{{i18n.attributes.alarm.i18n.value.siren.label}}",
                             "type": "active"
                         }
                     ],
-                    "value": "alarm.value"
+                    "value": "alarm.value",
+                    "multiSelection": false
                 }
             }
         ],
         "actions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_ALARM",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "off",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_OFF",
+                            "value": "{{i18n.commands.off.label}}",
                             "type": "inactive"
                         },
                         {
                             "key": "strobe",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_STROBE_ABB",
+                            "value": "{{i18n.commands.strobe.label}}",
                             "type": "active"
                         },
                         {
                             "key": "both",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_SIREN_AND_STROBE_ABB",
+                            "value": "{{i18n.commands.both.label}}",
                             "type": "active"
                         },
                         {
                             "key": "siren",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_SIREN",
+                            "value": "{{i18n.commands.siren.label}}",
                             "type": "active"
                         }
                     ]

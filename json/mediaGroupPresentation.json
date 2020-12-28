@@ -22,7 +22,7 @@
             }
         },
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_GROUP_VOLUME",
+            "label": "{{i18n.attributes.groupVolume.label}}",
             "displayType": "slider",
             "slider": {
                 "range": [
@@ -60,7 +60,7 @@
     "automation": {
         "conditions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_GROUP_VOLUME",
+                "label": "{{i18n.attributes.groupVolume.label}}",
                 "displayType": "slider",
                 "slider": {
                     "range": [
@@ -73,28 +73,29 @@
                 }
             },
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SACP_OPT_MUTE_GROUP",
+                "label": "{{i18n.attributes.groupMute.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "muted",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ON_T_SAMSUNG_CONNECT",
+                            "value": "{{i18n.attributes.groupMute.i18n.value.muted.label}}",
                             "type": "inactive"
                         },
                         {
                             "key": "unmuted",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OFF_T_SAMSUNG_CONNECT",
+                            "value": "{{i18n.attributes.groupMute.i18n.value.unmuted.label}}",
                             "type": "active"
                         }
                     ],
-                    "value": "groupMute.value"
+                    "value": "groupMute.value",
+                    "multiSelection": false
                 }
             }
         ],
         "actions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_GROUP_VOLUME",
+                "label": "{{i18n.attributes.groupVolume.label}}",
                 "displayType": "slider",
                 "slider": {
                     "range": [
@@ -107,18 +108,18 @@
                 }
             },
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SACP_OPT_MUTE_GROUP",
+                "label": "{{i18n.attributes.groupMute.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "muteGroup",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ON_T_SAMSUNG_CONNECT",
+                            "value": "{{i18n.commands.muteGroup.label}}",
                             "type": "inactive"
                         },
                         {
                             "key": "unmuteGroup",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OFF_T_SAMSUNG_CONNECT",
+                            "value": "{{i18n.commands.unmuteGroup.label}}",
                             "type": "active"
                         }
                     ]

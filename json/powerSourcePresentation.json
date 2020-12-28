@@ -6,22 +6,22 @@
                 "alternatives": [
                     {
                         "key": "battery",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_BATTERY",
+                        "value": "{{i18n.attributes.powerSource.i18n.value.battery.label}}",
                         "type": "active"
                     },
                     {
                         "key": "dc",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_DC_POWER_SUPPLY",
+                        "value": "{{i18n.attributes.powerSource.i18n.value.dc.label}}",
                         "type": "active"
                     },
                     {
                         "key": "mains",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_AC_POWER_SUPPLY",
+                        "value": "{{i18n.attributes.powerSource.i18n.value.mains.label}}",
                         "type": "active"
                     },
                     {
                         "key": "unknown",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_UNKNOWN",
+                        "value": "{{i18n.attributes.powerSource.i18n.value.unknown.label}}",
                         "type": "active"
                     }
                 ]
@@ -32,29 +32,29 @@
     },
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_POWER_SOURCE",
+            "label": "{{i18n.label}}",
             "displayType": "state",
             "state": {
                 "label": "{{powerSource.value}}",
                 "alternatives": [
                     {
                         "key": "battery",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_BATTERY",
+                        "value": "{{i18n.attributes.powerSource.i18n.value.battery.label}}",
                         "type": "active"
                     },
                     {
                         "key": "dc",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_DC_POWER_SUPPLY",
+                        "value": "{{i18n.attributes.powerSource.i18n.value.dc.label}}",
                         "type": "active"
                     },
                     {
                         "key": "mains",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_AC_POWER_SUPPLY",
+                        "value": "{{i18n.attributes.powerSource.i18n.value.mains.label}}",
                         "type": "active"
                     },
                     {
                         "key": "unknown",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_UNKNOWN",
+                        "value": "{{i18n.attributes.powerSource.i18n.value.unknown.label}}",
                         "type": "active"
                     }
                 ]
@@ -64,31 +64,32 @@
     "automation": {
         "conditions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_POWER_SOURCE",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "battery",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_BATTERY",
+                            "value": "{{i18n.attributes.powerSource.i18n.value.battery.label}}",
                             "type": "active"
                         },
                         {
                             "key": "dc",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_DC_POWER_SUPPLY",
+                            "value": "{{i18n.attributes.powerSource.i18n.value.dc.label}}",
                             "type": "active"
                         },
                         {
                             "key": "mains",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_AC_POWER_SUPPLY",
+                            "value": "{{i18n.attributes.powerSource.i18n.value.mains.label}}",
                             "type": "active"
                         },
                         {
                             "key": "unknown",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_UNKNOWN",
+                            "value": "{{i18n.attributes.powerSource.i18n.value.unknown.label}}",
                             "type": "active"
                         }
-                    ]
+                    ],
+                    "multiSelection": false
                 }
             }
         ],

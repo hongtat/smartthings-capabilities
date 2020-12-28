@@ -6,12 +6,12 @@
                 "alternatives": [
                     {
                         "key": "muted",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ON_T_SAMSUNG_CONNECT",
+                        "value": "{{i18n.attributes.mute.i18n.value.muted.label}}",
                         "type": "active"
                     },
                     {
                         "key": "unmuted",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OFF_T_SAMSUNG_CONNECT",
+                        "value": "{{i18n.attributes.mute.i18n.value.unmuted.label}}",
                         "type": "inactive"
                     }
                 ]
@@ -37,7 +37,7 @@
     },
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_AUDIO_MUTE",
+            "label": "{{i18n.label}}",
             "displayType": "toggleSwitch",
             "toggleSwitch": {
                 "command": {
@@ -52,12 +52,12 @@
                     "alternatives": [
                         {
                             "key": "muted",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ON_T_SAMSUNG_CONNECT",
+                            "value": "{{i18n.attributes.mute.i18n.value.muted.label}}",
                             "type": "active"
                         },
                         {
                             "key": "unmuted",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OFF_T_SAMSUNG_CONNECT",
+                            "value": "{{i18n.attributes.mute.i18n.value.unmuted.label}}",
                             "type": "inactive"
                         }
                     ]
@@ -68,39 +68,40 @@
     "automation": {
         "conditions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_AUDIO_MUTE",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "muted",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ON_T_SAMSUNG_CONNECT",
+                            "value": "{{i18n.attributes.mute.i18n.value.muted.label}}",
                             "type": "active"
                         },
                         {
                             "key": "unmuted",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OFF_T_SAMSUNG_CONNECT",
+                            "value": "{{i18n.attributes.mute.i18n.value.unmuted.label}}",
                             "type": "inactive"
                         }
                     ],
-                    "value": "mute.value"
+                    "value": "mute.value",
+                    "multiSelection": false
                 }
             }
         ],
         "actions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_AUDIO_MUTE",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "mute",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ON_T_SAMSUNG_CONNECT",
+                            "value": "{{i18n.commands.mute.label}}",
                             "type": "active"
                         },
                         {
                             "key": "unmute",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OFF_T_SAMSUNG_CONNECT",
+                            "value": "{{i18n.commands.unmute.label}}",
                             "type": "inactive"
                         }
                     ]

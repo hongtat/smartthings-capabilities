@@ -10,13 +10,14 @@
     },
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_COLOR_TEMPERATURE",
+            "label": "{{i18n.label}}",
             "displayType": "slider",
             "slider": {
                 "range": [
                     1,
                     30000
                 ],
+                "unit": "colorTemperature.unit",
                 "command": "setColorTemperature",
                 "argumentType": "integer",
                 "value": "colorTemperature.value",
@@ -27,29 +28,31 @@
     "automation": {
         "conditions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_COLOR_TEMPERATURE",
-                "displayType": "numberField",
-                "numberField": {
-                    "value": "colorTemperature.value",
-                    "valueType": "integer",
+                "label": "{{i18n.label}}",
+                "displayType": "slider",
+                "slider": {
                     "range": [
                         1,
                         30000
-                    ]
+                    ],
+                    "unit": "colorTemperature.unit",
+                    "value": "colorTemperature.value",
+                    "valueType": "integer"
                 }
             }
         ],
         "actions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_COLOR_TEMPERATURE",
-                "displayType": "numberField",
-                "numberField": {
-                    "command": "setColorTemperature",
-                    "argumentType": "integer",
+                "label": "{{i18n.label}}",
+                "displayType": "slider",
+                "slider": {
                     "range": [
                         1,
                         30000
-                    ]
+                    ],
+                    "unit": "colorTemperature.unit",
+                    "command": "setColorTemperature",
+                    "argumentType": "integer"
                 }
             }
         ]

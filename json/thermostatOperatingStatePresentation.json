@@ -6,37 +6,37 @@
                 "alternatives": [
                     {
                         "key": "cooling",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_COOLING_M_THERMOSTAT_STATE",
+                        "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.cooling.label}}",
                         "type": "active"
                     },
                     {
                         "key": "fan only",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_FAN_ONLY_M_THERMOSTAT_STATE",
+                        "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.fan only.label}}",
                         "type": "active"
                     },
                     {
                         "key": "heating",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_HEATING_M_THERMOSTAT_STATE",
+                        "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.heating.label}}",
                         "type": "active"
                     },
                     {
                         "key": "idle",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_IDLE_M_THERMOSTAT_STATE",
+                        "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.idle.label}}",
                         "type": "active"
                     },
                     {
                         "key": "pending cool",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_PENDING_COOL_M_THERMOSTAT_STATE",
+                        "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.pending cool.label}}",
                         "type": "active"
                     },
                     {
                         "key": "pending heat",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_PENDING_HEAT_M_THERMOSTAT_STATE",
+                        "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.pending heat.label}}",
                         "type": "active"
                     },
                     {
                         "key": "vent economizer",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_VENT_ECONOMIZER_M_THERMOSTAT_STATE",
+                        "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.vent economizer.label}}",
                         "type": "active"
                     }
                 ]
@@ -47,44 +47,44 @@
     },
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_STATE",
+            "label": "{{i18n.label}}",
             "displayType": "state",
             "state": {
                 "label": "{{thermostatOperatingState.value}}",
                 "alternatives": [
                     {
                         "key": "cooling",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_COOLING_M_THERMOSTAT_STATE",
+                        "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.cooling.label}}",
                         "type": "active"
                     },
                     {
                         "key": "fan only",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_FAN_ONLY_M_THERMOSTAT_STATE",
+                        "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.fan only.label}}",
                         "type": "active"
                     },
                     {
                         "key": "heating",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_HEATING_M_THERMOSTAT_STATE",
+                        "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.heating.label}}",
                         "type": "active"
                     },
                     {
                         "key": "idle",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_IDLE_M_THERMOSTAT_STATE",
+                        "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.idle.label}}",
                         "type": "active"
                     },
                     {
                         "key": "pending cool",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_PENDING_COOL_M_THERMOSTAT_STATE",
+                        "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.pending cool.label}}",
                         "type": "active"
                     },
                     {
                         "key": "pending heat",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_PENDING_HEAT_M_THERMOSTAT_STATE",
+                        "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.pending heat.label}}",
                         "type": "active"
                     },
                     {
                         "key": "vent economizer",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_VENT_ECONOMIZER_M_THERMOSTAT_STATE",
+                        "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.vent economizer.label}}",
                         "type": "active"
                     }
                 ]
@@ -94,47 +94,48 @@
     "automation": {
         "conditions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_STATE",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "cooling",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_COOLING_M_THERMOSTAT_STATE",
+                            "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.cooling.label}}",
                             "type": "active"
                         },
                         {
                             "key": "fan only",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_FAN_ONLY_M_THERMOSTAT_STATE",
+                            "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.fan only.label}}",
                             "type": "active"
                         },
                         {
                             "key": "heating",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_HEATING_M_THERMOSTAT_STATE",
+                            "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.heating.label}}",
                             "type": "active"
                         },
                         {
                             "key": "idle",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_IDLE_M_THERMOSTAT_STATE",
+                            "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.idle.label}}",
                             "type": "active"
                         },
                         {
                             "key": "pending cool",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_PENDING_COOL_M_THERMOSTAT_STATE",
+                            "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.pending cool.label}}",
                             "type": "active"
                         },
                         {
                             "key": "pending heat",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_PENDING_HEAT_M_THERMOSTAT_STATE",
+                            "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.pending heat.label}}",
                             "type": "active"
                         },
                         {
                             "key": "vent economizer",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_VENT_ECONOMIZER_M_THERMOSTAT_STATE",
+                            "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.vent economizer.label}}",
                             "type": "active"
                         }
                     ],
-                    "value": "thermostatOperatingState.value"
+                    "value": "thermostatOperatingState.value",
+                    "multiSelection": false
                 }
             }
         ],

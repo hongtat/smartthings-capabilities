@@ -10,13 +10,14 @@
     },
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_CARBON_MONOXIDE_CONCENTRATION",
+            "label": "{{i18n.label}}",
             "displayType": "slider",
             "slider": {
                 "range": [
                     0,
                     1000000
                 ],
+                "unit": "carbonMonoxideLevel.unit",
                 "value": "carbonMonoxideLevel.value",
                 "valueType": "number"
             }
@@ -25,11 +26,12 @@
     "automation": {
         "conditions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_CARBON_MONOXIDE_CONCENTRATION",
+                "label": "{{i18n.label}}",
                 "displayType": "numberField",
                 "numberField": {
                     "value": "carbonMonoxideLevel.value",
                     "valueType": "number",
+                    "unit": "carbonMonoxideLevel.unit",
                     "range": [
                         0,
                         1000000

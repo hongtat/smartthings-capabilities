@@ -6,22 +6,22 @@
                 "alternatives": [
                     {
                         "key": "airwash",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_AIR_WASH_M_WASHER_STATUS",
+                        "value": "{{i18n.attributes.dishwasherJobState.i18n.value.airwash.label}}",
                         "type": "active"
                     },
                     {
                         "key": "cooling",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_COOLING_DOWN_M_WASHER_STATUS",
+                        "value": "{{i18n.attributes.dishwasherJobState.i18n.value.cooling.label}}",
                         "type": "active"
                     },
                     {
                         "key": "drying",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_DRYING_M_WASHER_STATUS",
+                        "value": "{{i18n.attributes.dishwasherJobState.i18n.value.drying.label}}",
                         "type": "active"
                     },
                     {
                         "key": "finish",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_FINISHED_M_WASHER_STATUS",
+                        "value": "{{i18n.attributes.dishwasherJobState.i18n.value.finish.label}}",
                         "type": "active"
                     },
                     {
@@ -31,32 +31,32 @@
                     },
                     {
                         "key": "prewash",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_WASH_M_WASHER_STATUS",
+                        "value": "{{i18n.attributes.dishwasherJobState.i18n.value.wash.label}}",
                         "type": "active"
                     },
                     {
                         "key": "rinse",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_RINSE_M_WASHER_STATUS",
+                        "value": "{{i18n.attributes.dishwasherJobState.i18n.value.rinse.label}}",
                         "type": "active"
                     },
                     {
                         "key": "spin",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_SPIN_M_WASHER_STATUS",
+                        "value": "{{i18n.attributes.dishwasherJobState.i18n.value.spin.label}}",
                         "type": "active"
                     },
                     {
                         "key": "unknown",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_UNKNOWN",
+                        "value": "{{i18n.attributes.dishwasherJobState.i18n.value.unknown.label}}",
                         "type": "active"
                     },
                     {
                         "key": "wash",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_WASH_M_WASHER_STATUS",
+                        "value": "{{i18n.attributes.dishwasherJobState.i18n.value.wash.label}}",
                         "type": "active"
                     },
                     {
                         "key": "wrinklePrevent",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_WRINKLE_PREVENT_M_WASHER_STATUS",
+                        "value": "{{i18n.attributes.dishwasherJobState.i18n.value.wrinklePrevent.label}}",
                         "type": "active"
                     }
                 ]
@@ -67,29 +67,29 @@
     },
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_DISHWASHER",
+            "label": "{{i18n.label}}",
             "displayType": "state",
             "state": {
                 "label": "{{dishwasherJobState.value}}",
                 "alternatives": [
                     {
                         "key": "airwash",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_AIR_WASH_M_WASHER_STATUS",
+                        "value": "{{i18n.attributes.dishwasherJobState.i18n.value.airwash.label}}",
                         "type": "active"
                     },
                     {
                         "key": "cooling",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_COOLING_DOWN_M_WASHER_STATUS",
+                        "value": "{{i18n.attributes.dishwasherJobState.i18n.value.cooling.label}}",
                         "type": "active"
                     },
                     {
                         "key": "drying",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_DRYING_M_WASHER_STATUS",
+                        "value": "{{i18n.attributes.dishwasherJobState.i18n.value.drying.label}}",
                         "type": "active"
                     },
                     {
                         "key": "finish",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_FINISHED_M_WASHER_STATUS",
+                        "value": "{{i18n.attributes.dishwasherJobState.i18n.value.finish.label}}",
                         "type": "active"
                     },
                     {
@@ -99,38 +99,158 @@
                     },
                     {
                         "key": "prewash",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_WASH_M_WASHER_STATUS",
+                        "value": "{{i18n.attributes.dishwasherJobState.i18n.value.wash.label}}",
                         "type": "active"
                     },
                     {
                         "key": "rinse",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_RINSE_M_WASHER_STATUS",
+                        "value": "{{i18n.attributes.dishwasherJobState.i18n.value.rinse.label}}",
                         "type": "active"
                     },
                     {
                         "key": "spin",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_SPIN_M_WASHER_STATUS",
+                        "value": "{{i18n.attributes.dishwasherJobState.i18n.value.spin.label}}",
                         "type": "active"
                     },
                     {
                         "key": "unknown",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_UNKNOWN",
+                        "value": "{{i18n.attributes.dishwasherJobState.i18n.value.unknown.label}}",
                         "type": "active"
                     },
                     {
                         "key": "wash",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_WASH_M_WASHER_STATUS",
+                        "value": "{{i18n.attributes.dishwasherJobState.i18n.value.wash.label}}",
                         "type": "active"
                     },
                     {
                         "key": "wrinklePrevent",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_WRINKLE_PREVENT_M_WASHER_STATUS",
+                        "value": "{{i18n.attributes.dishwasherJobState.i18n.value.wrinklePrevent.label}}",
                         "type": "active"
                     }
                 ]
             }
         }
     ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.attributes.machineState.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "pause",
+                            "value": "{{i18n.attributes.machineState.i18n.value.pause.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "run",
+                            "value": "{{i18n.attributes.machineState.i18n.value.run.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "stop",
+                            "value": "{{i18n.attributes.machineState.i18n.value.stop.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "machineState.value",
+                    "multiSelection": false
+                }
+            },
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "airwash",
+                            "value": "{{i18n.attributes.dishwasherJobState.i18n.value.airwash.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "cooling",
+                            "value": "{{i18n.attributes.dishwasherJobState.i18n.value.cooling.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "drying",
+                            "value": "{{i18n.attributes.dishwasherJobState.i18n.value.drying.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "finish",
+                            "value": "{{i18n.attributes.dishwasherJobState.i18n.value.finish.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "preDrain",
+                            "value": "Pre Drain",
+                            "type": "active"
+                        },
+                        {
+                            "key": "prewash",
+                            "value": "{{i18n.attributes.dishwasherJobState.i18n.value.wash.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "rinse",
+                            "value": "{{i18n.attributes.dishwasherJobState.i18n.value.rinse.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "spin",
+                            "value": "{{i18n.attributes.dishwasherJobState.i18n.value.spin.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "unknown",
+                            "value": "{{i18n.attributes.dishwasherJobState.i18n.value.unknown.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "wash",
+                            "value": "{{i18n.attributes.dishwasherJobState.i18n.value.wash.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "wrinklePrevent",
+                            "value": "{{i18n.attributes.dishwasherJobState.i18n.value.wrinklePrevent.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "dishwasherJobState.value",
+                    "multiSelection": false
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "{{i18n.attributes.machineState.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "pause",
+                            "value": "{{i18n.commands.setMachineState.arguments.state.i18n.pause.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "run",
+                            "value": "{{i18n.commands.setMachineState.arguments.state.i18n.run.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "stop",
+                            "value": "{{i18n.commands.setMachineState.arguments.state.i18n.stop.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "command": "setMachineState"
+                }
+            }
+        ]
+    },
     "id": "dishwasherOperatingState",
     "version": 1
 }

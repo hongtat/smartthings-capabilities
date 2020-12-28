@@ -6,12 +6,12 @@
                 "alternatives": [
                     {
                         "key": "not present",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_NOT_PRESENT_M_STATUS",
+                        "value": "{{i18n.attributes.presence.i18n.value.not present.label}}",
                         "type": "inactive"
                     },
                     {
                         "key": "present",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_PRESENT_M_PRESENCE_STATUS",
+                        "value": "{{i18n.attributes.presence.i18n.value.present.label}}",
                         "type": "active"
                     }
                 ]
@@ -22,19 +22,19 @@
     },
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BUTTON_PRESENCE_SENSOR_18",
+            "label": "{{i18n.label}}",
             "displayType": "state",
             "state": {
                 "label": "{{presence.value}}",
                 "alternatives": [
                     {
                         "key": "not present",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_NOT_PRESENT_M_STATUS",
+                        "value": "{{i18n.attributes.presence.i18n.value.not present.label}}",
                         "type": "inactive"
                     },
                     {
                         "key": "present",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_PRESENT_M_PRESENCE_STATUS",
+                        "value": "{{i18n.attributes.presence.i18n.value.present.label}}",
                         "type": "active"
                     }
                 ]
@@ -44,22 +44,23 @@
     "automation": {
         "conditions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BUTTON_PRESENCE_SENSOR_18",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "not present",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_NOT_PRESENT_M_STATUS",
+                            "value": "{{i18n.attributes.presence.i18n.value.not present.label}}",
                             "type": "inactive"
                         },
                         {
                             "key": "present",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_PRESENT_M_PRESENCE_STATUS",
+                            "value": "{{i18n.attributes.presence.i18n.value.present.label}}",
                             "type": "active"
                         }
                     ],
-                    "value": "presence.value"
+                    "value": "presence.value",
+                    "multiSelection": false
                 }
             }
         ],

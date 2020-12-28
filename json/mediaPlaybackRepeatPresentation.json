@@ -6,17 +6,17 @@
                 "alternatives": [
                     {
                         "key": "all",
-                        "value": "___PO_CODE_SMARTTHINGS_IDS_MUSIC_OPT_ALL",
+                        "value": "{{i18n.attributes.playbackRepeatMode.i18n.value.all.label}}",
                         "type": "active"
                     },
                     {
                         "key": "off",
-                        "value": "___PO_CODE_SMARTTHINGS_IDS_MUSIC_OPT_OFF",
+                        "value": "{{i18n.attributes.playbackRepeatMode.i18n.value.off.label}}",
                         "type": "active"
                     },
                     {
                         "key": "one",
-                        "value": "___PO_CODE_SMARTTHINGS_IDS_MUSIC_OPT_ONE",
+                        "value": "{{i18n.attributes.playbackRepeatMode.i18n.value.one.label}}",
                         "type": "active"
                     }
                 ]
@@ -27,7 +27,7 @@
     },
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_IDS_MUSIC_BUTTON_REPEAT",
+            "label": "{{i18n.label}}",
             "displayType": "list",
             "list": {
                 "command": {
@@ -35,17 +35,17 @@
                     "alternatives": [
                         {
                             "key": "all",
-                            "value": "___PO_CODE_SMARTTHINGS_IDS_MUSIC_OPT_ALL",
+                            "value": "{{i18n.commands.setPlaybackRepeatMode.arguments.mode.i18n.all.label}}",
                             "type": "active"
                         },
                         {
                             "key": "off",
-                            "value": "___PO_CODE_SMARTTHINGS_IDS_MUSIC_OPT_OFF",
+                            "value": "{{i18n.commands.setPlaybackRepeatMode.arguments.mode.i18n.off.label}}",
                             "type": "active"
                         },
                         {
                             "key": "one",
-                            "value": "___PO_CODE_SMARTTHINGS_IDS_MUSIC_OPT_ONE",
+                            "value": "{{i18n.commands.setPlaybackRepeatMode.arguments.mode.i18n.one.label}}",
                             "type": "active"
                         }
                     ]
@@ -55,17 +55,17 @@
                     "alternatives": [
                         {
                             "key": "all",
-                            "value": "___PO_CODE_SMARTTHINGS_IDS_MUSIC_OPT_ALL",
+                            "value": "{{i18n.attributes.playbackRepeatMode.i18n.value.all.label}}",
                             "type": "active"
                         },
                         {
                             "key": "off",
-                            "value": "___PO_CODE_SMARTTHINGS_IDS_MUSIC_OPT_OFF",
+                            "value": "{{i18n.attributes.playbackRepeatMode.i18n.value.off.label}}",
                             "type": "active"
                         },
                         {
                             "key": "one",
-                            "value": "___PO_CODE_SMARTTHINGS_IDS_MUSIC_OPT_ONE",
+                            "value": "{{i18n.attributes.playbackRepeatMode.i18n.value.one.label}}",
                             "type": "active"
                         }
                     ]
@@ -76,49 +76,50 @@
     "automation": {
         "conditions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_IDS_MUSIC_BUTTON_REPEAT",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "all",
-                            "value": "___PO_CODE_SMARTTHINGS_IDS_MUSIC_OPT_ALL",
+                            "value": "{{i18n.attributes.playbackRepeatMode.i18n.value.all.label}}",
                             "type": "active"
                         },
                         {
                             "key": "off",
-                            "value": "___PO_CODE_SMARTTHINGS_IDS_MUSIC_OPT_OFF",
+                            "value": "{{i18n.attributes.playbackRepeatMode.i18n.value.off.label}}",
                             "type": "active"
                         },
                         {
                             "key": "one",
-                            "value": "___PO_CODE_SMARTTHINGS_IDS_MUSIC_OPT_ONE",
+                            "value": "{{i18n.attributes.playbackRepeatMode.i18n.value.one.label}}",
                             "type": "active"
                         }
                     ],
-                    "value": "playbackRepeatMode.value"
+                    "value": "playbackRepeatMode.value",
+                    "multiSelection": false
                 }
             }
         ],
         "actions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_IDS_MUSIC_BUTTON_REPEAT",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "all",
-                            "value": "___PO_CODE_SMARTTHINGS_IDS_MUSIC_OPT_ALL",
+                            "value": "{{i18n.commands.setPlaybackRepeatMode.arguments.mode.i18n.all.label}}",
                             "type": "active"
                         },
                         {
                             "key": "off",
-                            "value": "___PO_CODE_SMARTTHINGS_IDS_MUSIC_OPT_OFF",
+                            "value": "{{i18n.commands.setPlaybackRepeatMode.arguments.mode.i18n.off.label}}",
                             "type": "active"
                         },
                         {
                             "key": "one",
-                            "value": "___PO_CODE_SMARTTHINGS_IDS_MUSIC_OPT_ONE",
+                            "value": "{{i18n.commands.setPlaybackRepeatMode.arguments.mode.i18n.one.label}}",
                             "type": "active"
                         }
                     ],

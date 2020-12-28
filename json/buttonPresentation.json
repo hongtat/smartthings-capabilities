@@ -6,117 +6,117 @@
                 "alternatives": [
                     {
                         "key": "pushed",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_PRESSED",
+                        "value": "{{i18n.attributes.button.i18n.value.pushed.label}}",
                         "type": "active"
                     },
                     {
                         "key": "double",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_DOUBLE_PRESSED",
+                        "value": "{{i18n.attributes.button.i18n.value.double.label}}",
                         "type": "active"
                     },
                     {
                         "key": "held",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_HELD",
+                        "value": "{{i18n.attributes.button.i18n.value.held.label}}",
                         "type": "active"
                     },
                     {
                         "key": "Ready",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_STANDBY",
+                        "value": "{{i18n.attributes.button.i18n.value.Ready.label}}",
                         "type": "inactive"
                     },
                     {
                         "key": "pushed_2x",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_PRESSED_2_TIMES_M_BUTTON_STATUS",
+                        "value": "{{i18n.attributes.button.i18n.value.pushed_2x.label}}",
                         "type": "inactive"
                     },
                     {
                         "key": "pushed_3x",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_PRESSED_3_TIMES_M_BUTTON_STATUS",
+                        "value": "{{i18n.attributes.button.i18n.value.pushed_3x.label}}",
                         "type": "inactive"
                     },
                     {
                         "key": "pushed_4x",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_PRESSED_4_TIMES_M_BUTTON_STATUS",
+                        "value": "{{i18n.attributes.button.i18n.value.pushed_4x.label}}",
                         "type": "inactive"
                     },
                     {
                         "key": "pushed_5x",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_PRESSED_5_TIMES_M_BUTTON_STATUS",
+                        "value": "{{i18n.attributes.button.i18n.value.pushed_5x.label}}",
                         "type": "inactive"
                     },
                     {
                         "key": "pushed_6x",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_PRESSED_6_TIMES_M_BUTTON_STATUS",
+                        "value": "{{i18n.attributes.button.i18n.value.pushed_6x.label}}",
                         "type": "inactive"
                     },
                     {
                         "key": "down",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TOGGLED_DOWN_M_BUTTON_STATUS",
+                        "value": "{{i18n.attributes.button.i18n.value.down.label}}",
                         "type": "inactive"
                     },
                     {
                         "key": "down_2x",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TOGGLED_DOWN_2_TIMES_M_BUTTON_STATUS",
+                        "value": "{{i18n.attributes.button.i18n.value.down_2x.label}}",
                         "type": "inactive"
                     },
                     {
                         "key": "down_3x",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TOGGLED_DOWN_3_TIMES_M_BUTTON_STATUS",
+                        "value": "{{i18n.attributes.button.i18n.value.down_3x.label}}",
                         "type": "inactive"
                     },
                     {
                         "key": "down_4x",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TOGGLED_DOWN_4_TIMES_M_BUTTON_STATUS",
+                        "value": "{{i18n.attributes.button.i18n.value.down_4x.label}}",
                         "type": "inactive"
                     },
                     {
                         "key": "down_5x",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TOGGLED_DOWN_5_TIMES_M_BUTTON_STATUS",
+                        "value": "{{i18n.attributes.button.i18n.value.down_5x.label}}",
                         "type": "inactive"
                     },
                     {
                         "key": "down_6x",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TOGGLED_DOWN_6_TIMES_M_BUTTON_STATUS",
+                        "value": "{{i18n.attributes.button.i18n.value.down_6x.label}}",
                         "type": "inactive"
                     },
                     {
                         "key": "down_hold",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_HELD_DOWN_M_BUTTON_STATUS",
+                        "value": "{{i18n.attributes.button.i18n.value.down_hold.label}}",
                         "type": "inactive"
                     },
                     {
                         "key": "up",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TOGGLED_UP_M_BUTTON_STATUS",
+                        "value": "{{i18n.attributes.button.i18n.value.up.label}}",
                         "type": "inactive"
                     },
                     {
                         "key": "up_2x",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TOGGLED_UP_2_TIMES_M_BUTTON_STATUS",
+                        "value": "{{i18n.attributes.button.i18n.value.up_2x.label}}",
                         "type": "inactive"
                     },
                     {
                         "key": "up_3x",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TOGGLED_UP_3_TIMES_M_BUTTON_STATUS",
+                        "value": "{{i18n.attributes.button.i18n.value.up_3x.label}}",
                         "type": "inactive"
                     },
                     {
                         "key": "up_4x",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TOGGLED_UP_4_TIMES_M_BUTTON_STATUS",
+                        "value": "{{i18n.attributes.button.i18n.value.up_4x.label}}",
                         "type": "inactive"
                     },
                     {
                         "key": "up_5x",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TOGGLED_UP_5_TIMES_M_BUTTON_STATUS",
+                        "value": "{{i18n.attributes.button.i18n.value.up_5x.label}}",
                         "type": "inactive"
                     },
                     {
                         "key": "up_6x",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TOGGLED_UP_6_TIMES_M_BUTTON_STATUS",
+                        "value": "{{i18n.attributes.button.i18n.value.up_6x.label}}",
                         "type": "inactive"
                     },
                     {
                         "key": "up_hold",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_HELD_UP_M_BUTTON_STATUS",
+                        "value": "{{i18n.attributes.button.i18n.value.up_hold.label}}",
                         "type": "inactive"
                     }
                 ]
@@ -127,124 +127,124 @@
     },
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_BUTTON",
+            "label": "{{i18n.label}}",
             "displayType": "state",
             "state": {
                 "label": "{{button.value}}",
                 "alternatives": [
                     {
                         "key": "pushed",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_PRESSED",
+                        "value": "{{i18n.attributes.button.i18n.value.pushed.label}}",
                         "type": "active"
                     },
                     {
                         "key": "double",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_DOUBLE_PRESSED",
+                        "value": "{{i18n.attributes.button.i18n.value.double.label}}",
                         "type": "active"
                     },
                     {
                         "key": "held",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_HELD",
+                        "value": "{{i18n.attributes.button.i18n.value.held.label}}",
                         "type": "active"
                     },
                     {
                         "key": "Ready",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_STANDBY",
+                        "value": "{{i18n.attributes.button.i18n.value.Ready.label}}",
                         "type": "inactive"
                     },
                     {
                         "key": "pushed_2x",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_PRESSED_2_TIMES_M_BUTTON_STATUS",
+                        "value": "{{i18n.attributes.button.i18n.value.pushed_2x.label}}",
                         "type": "inactive"
                     },
                     {
                         "key": "pushed_3x",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_PRESSED_3_TIMES_M_BUTTON_STATUS",
+                        "value": "{{i18n.attributes.button.i18n.value.pushed_3x.label}}",
                         "type": "inactive"
                     },
                     {
                         "key": "pushed_4x",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_PRESSED_4_TIMES_M_BUTTON_STATUS",
+                        "value": "{{i18n.attributes.button.i18n.value.pushed_4x.label}}",
                         "type": "inactive"
                     },
                     {
                         "key": "pushed_5x",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_PRESSED_5_TIMES_M_BUTTON_STATUS",
+                        "value": "{{i18n.attributes.button.i18n.value.pushed_5x.label}}",
                         "type": "inactive"
                     },
                     {
                         "key": "pushed_6x",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_PRESSED_6_TIMES_M_BUTTON_STATUS",
+                        "value": "{{i18n.attributes.button.i18n.value.pushed_6x.label}}",
                         "type": "inactive"
                     },
                     {
                         "key": "down",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TOGGLED_DOWN_M_BUTTON_STATUS",
+                        "value": "{{i18n.attributes.button.i18n.value.down.label}}",
                         "type": "inactive"
                     },
                     {
                         "key": "down_2x",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TOGGLED_DOWN_2_TIMES_M_BUTTON_STATUS",
+                        "value": "{{i18n.attributes.button.i18n.value.down_2x.label}}",
                         "type": "inactive"
                     },
                     {
                         "key": "down_3x",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TOGGLED_DOWN_3_TIMES_M_BUTTON_STATUS",
+                        "value": "{{i18n.attributes.button.i18n.value.down_3x.label}}",
                         "type": "inactive"
                     },
                     {
                         "key": "down_4x",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TOGGLED_DOWN_4_TIMES_M_BUTTON_STATUS",
+                        "value": "{{i18n.attributes.button.i18n.value.down_4x.label}}",
                         "type": "inactive"
                     },
                     {
                         "key": "down_5x",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TOGGLED_DOWN_5_TIMES_M_BUTTON_STATUS",
+                        "value": "{{i18n.attributes.button.i18n.value.down_5x.label}}",
                         "type": "inactive"
                     },
                     {
                         "key": "down_6x",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TOGGLED_DOWN_6_TIMES_M_BUTTON_STATUS",
+                        "value": "{{i18n.attributes.button.i18n.value.down_6x.label}}",
                         "type": "inactive"
                     },
                     {
                         "key": "down_hold",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_HELD_DOWN_M_BUTTON_STATUS",
+                        "value": "{{i18n.attributes.button.i18n.value.down_hold.label}}",
                         "type": "inactive"
                     },
                     {
                         "key": "up",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TOGGLED_UP_M_BUTTON_STATUS",
+                        "value": "{{i18n.attributes.button.i18n.value.up.label}}",
                         "type": "inactive"
                     },
                     {
                         "key": "up_2x",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TOGGLED_UP_2_TIMES_M_BUTTON_STATUS",
+                        "value": "{{i18n.attributes.button.i18n.value.up_2x.label}}",
                         "type": "inactive"
                     },
                     {
                         "key": "up_3x",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TOGGLED_UP_3_TIMES_M_BUTTON_STATUS",
+                        "value": "{{i18n.attributes.button.i18n.value.up_3x.label}}",
                         "type": "inactive"
                     },
                     {
                         "key": "up_4x",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TOGGLED_UP_4_TIMES_M_BUTTON_STATUS",
+                        "value": "{{i18n.attributes.button.i18n.value.up_4x.label}}",
                         "type": "inactive"
                     },
                     {
                         "key": "up_5x",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TOGGLED_UP_5_TIMES_M_BUTTON_STATUS",
+                        "value": "{{i18n.attributes.button.i18n.value.up_5x.label}}",
                         "type": "inactive"
                     },
                     {
                         "key": "up_6x",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TOGGLED_UP_6_TIMES_M_BUTTON_STATUS",
+                        "value": "{{i18n.attributes.button.i18n.value.up_6x.label}}",
                         "type": "inactive"
                     },
                     {
                         "key": "up_hold",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_HELD_UP_M_BUTTON_STATUS",
+                        "value": "{{i18n.attributes.button.i18n.value.up_hold.label}}",
                         "type": "inactive"
                     }
                 ]
@@ -254,127 +254,123 @@
     "automation": {
         "conditions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_BUTTON",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "pushed",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_PRESSED",
+                            "value": "{{i18n.attributes.button.i18n.value.pushed.label}}",
                             "type": "active"
                         },
                         {
                             "key": "double",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_DOUBLE_PRESSED",
+                            "value": "{{i18n.attributes.button.i18n.value.double.label}}",
                             "type": "active"
                         },
                         {
                             "key": "held",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_HELD",
+                            "value": "{{i18n.attributes.button.i18n.value.held.label}}",
                             "type": "active"
                         },
                         {
-                            "key": "Ready",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_STANDBY",
-                            "type": "inactive"
-                        },
-                        {
                             "key": "pushed_2x",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_PRESSED_2_TIMES_M_BUTTON_STATUS",
+                            "value": "{{i18n.attributes.button.i18n.value.pushed_2x.label}}",
                             "type": "inactive"
                         },
                         {
                             "key": "pushed_3x",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_PRESSED_3_TIMES_M_BUTTON_STATUS",
+                            "value": "{{i18n.attributes.button.i18n.value.pushed_3x.label}}",
                             "type": "inactive"
                         },
                         {
                             "key": "pushed_4x",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_PRESSED_4_TIMES_M_BUTTON_STATUS",
+                            "value": "{{i18n.attributes.button.i18n.value.pushed_4x.label}}",
                             "type": "inactive"
                         },
                         {
                             "key": "pushed_5x",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_PRESSED_5_TIMES_M_BUTTON_STATUS",
+                            "value": "{{i18n.attributes.button.i18n.value.pushed_5x.label}}",
                             "type": "inactive"
                         },
                         {
                             "key": "pushed_6x",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_PRESSED_6_TIMES_M_BUTTON_STATUS",
+                            "value": "{{i18n.attributes.button.i18n.value.pushed_6x.label}}",
                             "type": "inactive"
                         },
                         {
                             "key": "down",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TOGGLED_DOWN_M_BUTTON_STATUS",
+                            "value": "{{i18n.attributes.button.i18n.value.down.label}}",
                             "type": "inactive"
                         },
                         {
                             "key": "down_2x",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TOGGLED_DOWN_2_TIMES_M_BUTTON_STATUS",
+                            "value": "{{i18n.attributes.button.i18n.value.down_2x.label}}",
                             "type": "inactive"
                         },
                         {
                             "key": "down_3x",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TOGGLED_DOWN_3_TIMES_M_BUTTON_STATUS",
+                            "value": "{{i18n.attributes.button.i18n.value.down_3x.label}}",
                             "type": "inactive"
                         },
                         {
                             "key": "down_4x",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TOGGLED_DOWN_4_TIMES_M_BUTTON_STATUS",
+                            "value": "{{i18n.attributes.button.i18n.value.down_4x.label}}",
                             "type": "inactive"
                         },
                         {
                             "key": "down_5x",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TOGGLED_DOWN_5_TIMES_M_BUTTON_STATUS",
+                            "value": "{{i18n.attributes.button.i18n.value.down_5x.label}}",
                             "type": "inactive"
                         },
                         {
                             "key": "down_6x",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TOGGLED_DOWN_6_TIMES_M_BUTTON_STATUS",
+                            "value": "{{i18n.attributes.button.i18n.value.down_6x.label}}",
                             "type": "inactive"
                         },
                         {
                             "key": "down_hold",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_HELD_DOWN_M_BUTTON_STATUS",
+                            "value": "{{i18n.attributes.button.i18n.value.down_hold.label}}",
                             "type": "inactive"
                         },
                         {
                             "key": "up",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TOGGLED_UP_M_BUTTON_STATUS",
+                            "value": "{{i18n.attributes.button.i18n.value.up.label}}",
                             "type": "inactive"
                         },
                         {
                             "key": "up_2x",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TOGGLED_UP_2_TIMES_M_BUTTON_STATUS",
+                            "value": "{{i18n.attributes.button.i18n.value.up_2x.label}}",
                             "type": "inactive"
                         },
                         {
                             "key": "up_3x",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TOGGLED_UP_3_TIMES_M_BUTTON_STATUS",
+                            "value": "{{i18n.attributes.button.i18n.value.up_3x.label}}",
                             "type": "inactive"
                         },
                         {
                             "key": "up_4x",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TOGGLED_UP_4_TIMES_M_BUTTON_STATUS",
+                            "value": "{{i18n.attributes.button.i18n.value.up_4x.label}}",
                             "type": "inactive"
                         },
                         {
                             "key": "up_5x",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TOGGLED_UP_5_TIMES_M_BUTTON_STATUS",
+                            "value": "{{i18n.attributes.button.i18n.value.up_5x.label}}",
                             "type": "inactive"
                         },
                         {
                             "key": "up_6x",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TOGGLED_UP_6_TIMES_M_BUTTON_STATUS",
+                            "value": "{{i18n.attributes.button.i18n.value.up_6x.label}}",
                             "type": "inactive"
                         },
                         {
                             "key": "up_hold",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_HELD_UP_M_BUTTON_STATUS",
+                            "value": "{{i18n.attributes.button.i18n.value.up_hold.label}}",
                             "type": "inactive"
                         }
                     ],
-                    "value": "button.value"
+                    "value": "button.value",
+                    "multiSelection": false
                 },
                 "emphasis": true
             }

@@ -10,7 +10,7 @@
     },
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_GAS_METER",
+            "label": "{{i18n.label}}",
             "displayType": "state",
             "state": {
                 "label": "{{gasMeterVolume.value}}",
@@ -18,7 +18,7 @@
             }
         },
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_GAS_METER",
+            "label": "{{i18n.label}}",
             "displayType": "state",
             "state": {
                 "label": "{{gasMeter.value}}",
@@ -26,42 +26,42 @@
             }
         },
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_GAS_METER",
+            "label": "{{i18n.label}}",
             "displayType": "state",
             "state": {
                 "label": "{{gasMeterCalorific.value}}"
             }
         },
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_GAS_METER",
+            "label": "{{i18n.label}}",
             "displayType": "state",
             "state": {
                 "label": "{{gasMeterConversion.value}}"
             }
         },
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_GAS_METER",
+            "label": "{{i18n.label}}",
             "displayType": "state",
             "state": {
                 "label": "{{gasMeterPrecision.value.volume}}"
             }
         },
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_GAS_METER",
+            "label": "{{i18n.label}}",
             "displayType": "state",
             "state": {
                 "label": "{{gasMeterPrecision.value.calorific}}"
             }
         },
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_GAS_METER",
+            "label": "{{i18n.label}}",
             "displayType": "state",
             "state": {
                 "label": "{{gasMeterPrecision.value.conversion}}"
             }
         },
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_GAS_METER",
+            "label": "{{i18n.label}}",
             "displayType": "state",
             "state": {
                 "label": "{{gasMeterTime.value}}"
@@ -71,23 +71,25 @@
     "automation": {
         "conditions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_GAS_METER",
+                "label": "{{i18n.label}}",
                 "displayType": "numberField",
                 "numberField": {
                     "value": "gasMeterVolume.value",
-                    "valueType": "number"
+                    "valueType": "number",
+                    "unit": "gasMeterVolume.unit"
                 }
             },
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_GAS_METER",
+                "label": "{{i18n.label}}",
                 "displayType": "numberField",
                 "numberField": {
                     "value": "gasMeter.value",
-                    "valueType": "number"
+                    "valueType": "number",
+                    "unit": "gasMeter.unit"
                 }
             },
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_GAS_METER",
+                "label": "{{i18n.label}}",
                 "displayType": "numberField",
                 "numberField": {
                     "value": "gasMeterCalorific.value",
@@ -95,7 +97,7 @@
                 }
             },
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_GAS_METER",
+                "label": "{{i18n.label}}",
                 "displayType": "numberField",
                 "numberField": {
                     "value": "gasMeterConversion.value",
@@ -103,7 +105,7 @@
                 }
             },
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_GAS_METER",
+                "label": "{{i18n.label}}",
                 "displayType": "numberField",
                 "numberField": {
                     "value": "gasMeterPrecision.value.volume",
@@ -111,7 +113,7 @@
                 }
             },
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_GAS_METER",
+                "label": "{{i18n.label}}",
                 "displayType": "numberField",
                 "numberField": {
                     "value": "gasMeterPrecision.value.calorific",
@@ -119,7 +121,7 @@
                 }
             },
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_GAS_METER",
+                "label": "{{i18n.label}}",
                 "displayType": "numberField",
                 "numberField": {
                     "value": "gasMeterPrecision.value.conversion",
@@ -127,7 +129,7 @@
                 }
             },
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_GAS_METER",
+                "label": "{{i18n.label}}",
                 "displayType": "textField",
                 "textField": {
                     "value": "gasMeterTime.value"

@@ -10,13 +10,14 @@
     },
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_NOISE_LEVEL",
+            "label": "{{i18n.label}}",
             "displayType": "slider",
             "slider": {
                 "range": [
                     0,
                     194
                 ],
+                "unit": "soundPressureLevel.unit",
                 "value": "soundPressureLevel.value",
                 "valueType": "number"
             }
@@ -25,11 +26,12 @@
     "automation": {
         "conditions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_NOISE_LEVEL",
+                "label": "{{i18n.label}}",
                 "displayType": "numberField",
                 "numberField": {
                     "value": "soundPressureLevel.value",
                     "valueType": "number",
+                    "unit": "soundPressureLevel.unit",
                     "range": [
                         0,
                         194

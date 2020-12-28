@@ -6,12 +6,12 @@
                 "alternatives": [
                     {
                         "key": "sleeping",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_SLEEPING_M_STATUS",
+                        "value": "{{i18n.attributes.sleeping.i18n.value.sleeping.label}}",
                         "type": "active"
                     },
                     {
                         "key": "not sleeping",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_NOT_SLEEPING_M_STATUS",
+                        "value": "{{i18n.attributes.sleeping.i18n.value.not sleeping.label}}",
                         "type": "inactive"
                     }
                 ]
@@ -22,19 +22,19 @@
     },
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_SLEEP_SENSOR",
+            "label": "{{i18n.label}}",
             "displayType": "state",
             "state": {
                 "label": "{{sleeping.value}}",
                 "alternatives": [
                     {
                         "key": "sleeping",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_SLEEPING_M_STATUS",
+                        "value": "{{i18n.attributes.sleeping.i18n.value.sleeping.label}}",
                         "type": "active"
                     },
                     {
                         "key": "not sleeping",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_NOT_SLEEPING_M_STATUS",
+                        "value": "{{i18n.attributes.sleeping.i18n.value.not sleeping.label}}",
                         "type": "inactive"
                     }
                 ]
@@ -44,22 +44,23 @@
     "automation": {
         "conditions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_SLEEP_SENSOR",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "sleeping",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_SLEEPING_M_STATUS",
+                            "value": "{{i18n.attributes.sleeping.i18n.value.sleeping.label}}",
                             "type": "active"
                         },
                         {
                             "key": "not sleeping",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_NOT_SLEEPING_M_STATUS",
+                            "value": "{{i18n.attributes.sleeping.i18n.value.not sleeping.label}}",
                             "type": "inactive"
                         }
                     ],
-                    "value": "sleeping.value"
+                    "value": "sleeping.value",
+                    "multiSelection": false
                 }
             }
         ],

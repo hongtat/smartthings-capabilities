@@ -6,12 +6,12 @@
                 "alternatives": [
                     {
                         "key": "alwaysOn",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ALWAYS_ON",
+                        "value": "{{i18n.attributes.wirelessOperatingMode.i18n.value.alwaysOn.label}}",
                         "type": "active"
                     },
                     {
                         "key": "whenNeeded",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_WHEN_NEEDED",
+                        "value": "{{i18n.attributes.wirelessOperatingMode.i18n.value.whenNeeded.label}}",
                         "type": "active"
                     }
                 ]
@@ -22,7 +22,7 @@
     },
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_WIRELESS_OPERATING_MODE",
+            "label": "{{i18n.label}}",
             "displayType": "list",
             "list": {
                 "command": {
@@ -30,12 +30,12 @@
                     "alternatives": [
                         {
                             "key": "alwaysOn",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ALWAYS_ON",
+                            "value": "{{i18n.commands.setWirelessOperatingMode.arguments.wirelessOperatingMode.i18n.alwaysOn.label}}",
                             "type": "active"
                         },
                         {
                             "key": "whenNeeded",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_WHEN_NEEDED",
+                            "value": "{{i18n.commands.setWirelessOperatingMode.arguments.wirelessOperatingMode.i18n.whenNeeded.label}}",
                             "type": "active"
                         }
                     ]
@@ -45,12 +45,12 @@
                     "alternatives": [
                         {
                             "key": "alwaysOn",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ALWAYS_ON",
+                            "value": "{{i18n.attributes.wirelessOperatingMode.i18n.value.alwaysOn.label}}",
                             "type": "active"
                         },
                         {
                             "key": "whenNeeded",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_WHEN_NEEDED",
+                            "value": "{{i18n.attributes.wirelessOperatingMode.i18n.value.whenNeeded.label}}",
                             "type": "active"
                         }
                     ]
@@ -61,39 +61,40 @@
     "automation": {
         "conditions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_WIRELESS_OPERATING_MODE",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "alwaysOn",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ALWAYS_ON",
+                            "value": "{{i18n.attributes.wirelessOperatingMode.i18n.value.alwaysOn.label}}",
                             "type": "active"
                         },
                         {
                             "key": "whenNeeded",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_WHEN_NEEDED",
+                            "value": "{{i18n.attributes.wirelessOperatingMode.i18n.value.whenNeeded.label}}",
                             "type": "active"
                         }
                     ],
-                    "value": "wirelessOperatingMode.value"
+                    "value": "wirelessOperatingMode.value",
+                    "multiSelection": false
                 }
             }
         ],
         "actions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_WIRELESS_OPERATING_MODE",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "alwaysOn",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ALWAYS_ON",
+                            "value": "{{i18n.commands.setWirelessOperatingMode.arguments.wirelessOperatingMode.i18n.alwaysOn.label}}",
                             "type": "active"
                         },
                         {
                             "key": "whenNeeded",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_WHEN_NEEDED",
+                            "value": "{{i18n.commands.setWirelessOperatingMode.arguments.wirelessOperatingMode.i18n.whenNeeded.label}}",
                             "type": "active"
                         }
                     ],

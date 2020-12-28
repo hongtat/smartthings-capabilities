@@ -6,12 +6,12 @@
                 "alternatives": [
                     {
                         "key": "off",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_OFF",
+                        "value": "{{i18n.attributes.chime.i18n.value.off.label}}",
                         "type": "inactive"
                     },
                     {
                         "key": "chime",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_CHIME",
+                        "value": "{{i18n.label}}",
                         "type": "active"
                     }
                 ]
@@ -37,7 +37,7 @@
     },
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_CHIME",
+            "label": "{{i18n.label}}",
             "displayType": "switch",
             "switch": {
                 "command": {
@@ -52,12 +52,12 @@
                     "alternatives": [
                         {
                             "key": "off",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_OFF",
+                            "value": "{{i18n.attributes.chime.i18n.value.off.label}}",
                             "type": "inactive"
                         },
                         {
                             "key": "chime",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_CHIME",
+                            "value": "{{i18n.label}}",
                             "type": "active"
                         }
                     ]
@@ -68,39 +68,40 @@
     "automation": {
         "conditions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_CHIME",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "off",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_OFF",
+                            "value": "{{i18n.attributes.chime.i18n.value.off.label}}",
                             "type": "inactive"
                         },
                         {
                             "key": "chime",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_CHIME",
+                            "value": "{{i18n.label}}",
                             "type": "active"
                         }
                     ],
-                    "value": "chime.value"
+                    "value": "chime.value",
+                    "multiSelection": false
                 }
             }
         ],
         "actions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_CHIME",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "off",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_OFF",
+                            "value": "{{i18n.commands.off.label}}",
                             "type": "inactive"
                         },
                         {
                             "key": "chime",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_CHIME",
+                            "value": "{{i18n.label}}",
                             "type": "active"
                         }
                     ]

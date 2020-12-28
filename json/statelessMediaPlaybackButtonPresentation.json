@@ -9,27 +9,27 @@
                     "alternatives": [
                         {
                             "key": "pause",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_PAUSE",
+                            "value": "{{i18n.commands.setButton.arguments.button.i18n.pause.label}}",
                             "type": "active"
                         },
                         {
                             "key": "play",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_PLAY",
+                            "value": "{{i18n.commands.setButton.arguments.button.i18n.play.label}}",
                             "type": "active"
                         },
                         {
                             "key": "stop",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_STOP",
+                            "value": "{{i18n.commands.setButton.arguments.button.i18n.stop.label}}",
                             "type": "active"
                         },
                         {
                             "key": "fastForward",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_FAST_FORWARD",
+                            "value": "{{i18n.commands.setButton.arguments.button.i18n.fastForward.label}}",
                             "type": "active"
                         },
                         {
                             "key": "rewind",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_REWIND",
+                            "value": "{{i18n.commands.setButton.arguments.button.i18n.rewind.label}}",
                             "type": "active"
                         }
                     ]
@@ -47,27 +47,27 @@
                     "alternatives": [
                         {
                             "key": "pause",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_PAUSE",
+                            "value": "{{i18n.commands.setButton.arguments.button.i18n.pause.label}}",
                             "type": "active"
                         },
                         {
                             "key": "play",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_PLAY",
+                            "value": "{{i18n.commands.setButton.arguments.button.i18n.play.label}}",
                             "type": "active"
                         },
                         {
                             "key": "stop",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_STOP",
+                            "value": "{{i18n.commands.setButton.arguments.button.i18n.stop.label}}",
                             "type": "active"
                         },
                         {
                             "key": "fastForward",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_FAST_FORWARD",
+                            "value": "{{i18n.commands.setButton.arguments.button.i18n.fastForward.label}}",
                             "type": "active"
                         },
                         {
                             "key": "rewind",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_REWIND",
+                            "value": "{{i18n.commands.setButton.arguments.button.i18n.rewind.label}}",
                             "type": "active"
                         }
                     ],

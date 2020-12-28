@@ -6,12 +6,12 @@
                 "alternatives": [
                     {
                         "key": "active",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_VIBRATION_DETECTED",
+                        "value": "{{i18n.attributes.acceleration.i18n.value.active.label}}",
                         "type": "active"
                     },
                     {
                         "key": "inactive",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_NO_VIBRATION",
+                        "value": "{{i18n.attributes.acceleration.i18n.value.inactive.label}}",
                         "type": "inactive"
                     }
                 ]
@@ -22,19 +22,19 @@
     },
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_VIBRATION_SENSOR",
+            "label": "{{i18n.label}}",
             "displayType": "state",
             "state": {
                 "label": "{{acceleration.value}}",
                 "alternatives": [
                     {
                         "key": "active",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_VIBRATION_DETECTED",
+                        "value": "{{i18n.attributes.acceleration.i18n.value.active.label}}",
                         "type": "active"
                     },
                     {
                         "key": "inactive",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_NO_VIBRATION",
+                        "value": "{{i18n.attributes.acceleration.i18n.value.inactive.label}}",
                         "type": "inactive"
                     }
                 ]
@@ -44,22 +44,23 @@
     "automation": {
         "conditions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_VIBRATION_SENSOR",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "active",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_VIBRATION_DETECTED",
+                            "value": "{{i18n.attributes.acceleration.i18n.value.active.label}}",
                             "type": "active"
                         },
                         {
                             "key": "inactive",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_NO_VIBRATION",
+                            "value": "{{i18n.attributes.acceleration.i18n.value.inactive.label}}",
                             "type": "inactive"
                         }
                     ],
-                    "value": "acceleration.value"
+                    "value": "acceleration.value",
+                    "multiSelection": false
                 }
             }
         ],

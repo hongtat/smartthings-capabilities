@@ -6,12 +6,12 @@
                 "alternatives": [
                     {
                         "key": "enabled",
-                        "value": "___PO_CODE_SMARTTHINGS_IDS_VC_BODY_ENABLE",
+                        "value": "{{i18n.attributes.playbackShuffle.i18n.value.enabled.label}}",
                         "type": "active"
                     },
                     {
                         "key": "disabled",
-                        "value": "___PO_CODE_SMARTTHINGS_IDS_VC_BODY_DISABLE",
+                        "value": "{{i18n.attributes.playbackShuffle.i18n.value.disabled.label}}",
                         "type": "inactive"
                     }
                 ]
@@ -22,7 +22,7 @@
     },
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_IDS_MP_BODY_SHUFFLE",
+            "label": "{{i18n.label}}",
             "displayType": "list",
             "list": {
                 "command": {
@@ -30,12 +30,12 @@
                     "alternatives": [
                         {
                             "key": "enabled",
-                            "value": "___PO_CODE_SMARTTHINGS_IDS_VC_BODY_ENABLE",
+                            "value": "{{i18n.commands.setPlaybackShuffle.arguments.shuffle.i18n.enabled.label}}",
                             "type": "active"
                         },
                         {
                             "key": "disabled",
-                            "value": "___PO_CODE_SMARTTHINGS_IDS_VC_BODY_DISABLE",
+                            "value": "{{i18n.commands.setPlaybackShuffle.arguments.shuffle.i18n.disabled.label}}",
                             "type": "inactive"
                         }
                     ]
@@ -45,12 +45,12 @@
                     "alternatives": [
                         {
                             "key": "enabled",
-                            "value": "___PO_CODE_SMARTTHINGS_IDS_VC_BODY_ENABLE",
+                            "value": "{{i18n.attributes.playbackShuffle.i18n.value.enabled.label}}",
                             "type": "active"
                         },
                         {
                             "key": "disabled",
-                            "value": "___PO_CODE_SMARTTHINGS_IDS_VC_BODY_DISABLE",
+                            "value": "{{i18n.attributes.playbackShuffle.i18n.value.disabled.label}}",
                             "type": "inactive"
                         }
                     ]
@@ -61,39 +61,40 @@
     "automation": {
         "conditions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_IDS_MP_BODY_SHUFFLE",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "enabled",
-                            "value": "___PO_CODE_SMARTTHINGS_IDS_VC_BODY_ENABLE",
+                            "value": "{{i18n.attributes.playbackShuffle.i18n.value.enabled.label}}",
                             "type": "active"
                         },
                         {
                             "key": "disabled",
-                            "value": "___PO_CODE_SMARTTHINGS_IDS_VC_BODY_DISABLE",
+                            "value": "{{i18n.attributes.playbackShuffle.i18n.value.disabled.label}}",
                             "type": "inactive"
                         }
                     ],
-                    "value": "playbackShuffle.value"
+                    "value": "playbackShuffle.value",
+                    "multiSelection": false
                 }
             }
         ],
         "actions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_IDS_MP_BODY_SHUFFLE",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "enabled",
-                            "value": "___PO_CODE_SMARTTHINGS_IDS_VC_BODY_ENABLE",
+                            "value": "{{i18n.commands.setPlaybackShuffle.arguments.shuffle.i18n.enabled.label}}",
                             "type": "active"
                         },
                         {
                             "key": "disabled",
-                            "value": "___PO_CODE_SMARTTHINGS_IDS_VC_BODY_DISABLE",
+                            "value": "{{i18n.commands.setPlaybackShuffle.arguments.shuffle.i18n.disabled.label}}",
                             "type": "inactive"
                         }
                     ],

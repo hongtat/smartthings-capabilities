@@ -1,13 +1,14 @@
 {
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_DIMMER",
+            "label": "{{i18n.label}}",
             "displayType": "slider",
             "slider": {
                 "range": [
                     0,
                     100
                 ],
+                "unit": "level.unit",
                 "command": "setLevel",
                 "argumentType": "integer",
                 "value": "level.value",
@@ -18,13 +19,14 @@
     "automation": {
         "conditions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_DIMMER",
+                "label": "{{i18n.label}}",
                 "displayType": "slider",
                 "slider": {
                     "range": [
                         0,
                         100
                     ],
+                    "unit": "level.unit",
                     "value": "level.value",
                     "valueType": "integer"
                 }
@@ -32,13 +34,14 @@
         ],
         "actions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_DIMMER",
+                "label": "{{i18n.label}}",
                 "displayType": "slider",
                 "slider": {
                     "range": [
                         0,
                         100
                     ],
+                    "unit": "level.unit",
                     "command": "setLevel",
                     "argumentType": "integer"
                 }

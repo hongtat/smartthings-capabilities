@@ -6,32 +6,32 @@
                 "alternatives": [
                     {
                         "key": "noActivity",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_NPBODY_NO_ACTIVITY",
+                        "value": "{{i18n.attributes.activity.i18n.value.noActivity.label}}",
                         "type": "active"
                     },
                     {
                         "key": "falling",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_FALLING",
+                        "value": "{{i18n.attributes.activity.i18n.value.falling.label}}",
                         "type": "active"
                     },
                     {
                         "key": "lying",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_LYING",
+                        "value": "{{i18n.attributes.activity.i18n.value.lying.label}}",
                         "type": "active"
                     },
                     {
                         "key": "sitting",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_SITTING",
+                        "value": "{{i18n.attributes.activity.i18n.value.sitting.label}}",
                         "type": "active"
                     },
                     {
                         "key": "standing",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_STANDING",
+                        "value": "{{i18n.attributes.activity.i18n.value.standing.label}}",
                         "type": "active"
                     },
                     {
                         "key": "eating",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_EATING",
+                        "value": "{{i18n.attributes.activity.i18n.value.eating.label}}",
                         "type": "active"
                     }
                 ]
@@ -42,39 +42,39 @@
     },
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_ACTIVITY_SENSOR",
+            "label": "{{i18n.label}}",
             "displayType": "state",
             "state": {
                 "label": "{{activity.value}}",
                 "alternatives": [
                     {
                         "key": "noActivity",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_NPBODY_NO_ACTIVITY",
+                        "value": "{{i18n.attributes.activity.i18n.value.noActivity.label}}",
                         "type": "active"
                     },
                     {
                         "key": "falling",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_FALLING",
+                        "value": "{{i18n.attributes.activity.i18n.value.falling.label}}",
                         "type": "active"
                     },
                     {
                         "key": "lying",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_LYING",
+                        "value": "{{i18n.attributes.activity.i18n.value.lying.label}}",
                         "type": "active"
                     },
                     {
                         "key": "sitting",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_SITTING",
+                        "value": "{{i18n.attributes.activity.i18n.value.sitting.label}}",
                         "type": "active"
                     },
                     {
                         "key": "standing",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_STANDING",
+                        "value": "{{i18n.attributes.activity.i18n.value.standing.label}}",
                         "type": "active"
                     },
                     {
                         "key": "eating",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_EATING",
+                        "value": "{{i18n.attributes.activity.i18n.value.eating.label}}",
                         "type": "active"
                     }
                 ]
@@ -84,42 +84,43 @@
     "automation": {
         "conditions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_ACTIVITY_SENSOR",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "noActivity",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_NPBODY_NO_ACTIVITY",
+                            "value": "{{i18n.attributes.activity.i18n.value.noActivity.label}}",
                             "type": "active"
                         },
                         {
                             "key": "falling",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_FALLING",
+                            "value": "{{i18n.attributes.activity.i18n.value.falling.label}}",
                             "type": "active"
                         },
                         {
                             "key": "lying",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_LYING",
+                            "value": "{{i18n.attributes.activity.i18n.value.lying.label}}",
                             "type": "active"
                         },
                         {
                             "key": "sitting",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_SITTING",
+                            "value": "{{i18n.attributes.activity.i18n.value.sitting.label}}",
                             "type": "active"
                         },
                         {
                             "key": "standing",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_STANDING",
+                            "value": "{{i18n.attributes.activity.i18n.value.standing.label}}",
                             "type": "active"
                         },
                         {
                             "key": "eating",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_EATING",
+                            "value": "{{i18n.attributes.activity.i18n.value.eating.label}}",
                             "type": "active"
                         }
                     ],
-                    "value": "activity.value"
+                    "value": "activity.value",
+                    "multiSelection": false
                 }
             }
         ],

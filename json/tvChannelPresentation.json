@@ -10,7 +10,7 @@
     },
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_WDS_SAC_TBOPT_CHANNEL",
+            "label": "{{i18n.label}}",
             "displayType": "textField",
             "textField": {
                 "command": "setTvChannel"
@@ -20,7 +20,7 @@
     "automation": {
         "conditions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_WDS_SAC_TBOPT_CHANNEL",
+                "label": "{{i18n.label}}",
                 "displayType": "textField",
                 "textField": {
                     "value": "tvChannel.value"
@@ -29,7 +29,7 @@
         ],
         "actions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_WDS_SAC_TBOPT_CHANNEL",
+                "label": "{{i18n.label}}",
                 "displayType": "textField",
                 "textField": {
                     "command": "setTvChannel"

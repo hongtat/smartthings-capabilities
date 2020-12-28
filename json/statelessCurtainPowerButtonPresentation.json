@@ -1,7 +1,7 @@
 {
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_CURTAIN",
+            "label": "{{i18n.label}}",
             "displayType": "list",
             "list": {
                 "command": {
@@ -9,17 +9,17 @@
                     "alternatives": [
                         {
                             "key": "open",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BUTTON_OPEN_12",
+                            "value": "{{i18n.commands.setButton.arguments.button.i18n.open.label}}",
                             "type": "active"
                         },
                         {
                             "key": "close",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BUTTON_CLOSE_12",
+                            "value": "{{i18n.commands.setButton.arguments.button.i18n.close.label}}",
                             "type": "active"
                         },
                         {
                             "key": "pause",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BUTTON_PAUSE_12",
+                            "value": "{{i18n.commands.setButton.arguments.button.i18n.pause.label}}",
                             "type": "active"
                         }
                     ]
@@ -31,23 +31,23 @@
         "conditions": [],
         "actions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_CURTAIN",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "open",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BUTTON_OPEN_12",
+                            "value": "{{i18n.commands.setButton.arguments.button.i18n.open.label}}",
                             "type": "active"
                         },
                         {
                             "key": "close",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BUTTON_CLOSE_12",
+                            "value": "{{i18n.commands.setButton.arguments.button.i18n.close.label}}",
                             "type": "active"
                         },
                         {
                             "key": "pause",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BUTTON_PAUSE_12",
+                            "value": "{{i18n.commands.setButton.arguments.button.i18n.pause.label}}",
                             "type": "active"
                         }
                     ],

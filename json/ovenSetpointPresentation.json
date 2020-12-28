@@ -1,7 +1,7 @@
 {
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_OVEN_TEMPERATURE",
+            "label": "{{i18n.label}}",
             "displayType": "slider",
             "slider": {
                 "range": [
@@ -19,7 +19,7 @@
         "conditions": [],
         "actions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_OVEN_TEMPERATURE",
+                "label": "{{i18n.label}}",
                 "displayType": "numberField",
                 "numberField": {
                     "command": "setOvenSetpoint",

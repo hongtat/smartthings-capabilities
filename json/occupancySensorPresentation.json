@@ -6,12 +6,12 @@
                 "alternatives": [
                     {
                         "key": "unoccupied",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_AWAY",
+                        "value": "{{i18n.attributes.occupancy.i18n.value.unoccupied.label}}",
                         "type": "inactive"
                     },
                     {
                         "key": "occupied",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_INSIDE",
+                        "value": "{{i18n.attributes.occupancy.i18n.value.occupied.label}}",
                         "type": "active"
                     }
                 ]
@@ -22,19 +22,19 @@
     },
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_OCCUPANCY",
+            "label": "{{i18n.label}}",
             "displayType": "state",
             "state": {
                 "label": "{{occupancy.value}}",
                 "alternatives": [
                     {
                         "key": "unoccupied",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_AWAY",
+                        "value": "{{i18n.attributes.occupancy.i18n.value.unoccupied.label}}",
                         "type": "inactive"
                     },
                     {
                         "key": "occupied",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_INSIDE",
+                        "value": "{{i18n.attributes.occupancy.i18n.value.occupied.label}}",
                         "type": "active"
                     }
                 ]
@@ -44,22 +44,23 @@
     "automation": {
         "conditions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_OCCUPANCY",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "unoccupied",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_AWAY",
+                            "value": "{{i18n.attributes.occupancy.i18n.value.unoccupied.label}}",
                             "type": "inactive"
                         },
                         {
                             "key": "occupied",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_INSIDE",
+                            "value": "{{i18n.attributes.occupancy.i18n.value.occupied.label}}",
                             "type": "active"
                         }
                     ],
-                    "value": "occupancy.value"
+                    "value": "occupancy.value",
+                    "multiSelection": false
                 }
             }
         ],

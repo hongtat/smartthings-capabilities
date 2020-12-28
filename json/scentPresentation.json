@@ -1,14 +1,14 @@
 {
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_SCENTS",
+            "label": "{{i18n.label}}",
             "displayType": "state",
             "state": {
                 "label": "{{scentName.value}}"
             }
         },
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_SCENTS",
+            "label": "{{i18n.label}}",
             "displayType": "slider",
             "slider": {
                 "range": [
@@ -25,7 +25,7 @@
     "automation": {
         "conditions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_SCENTS",
+                "label": "{{i18n.label}}",
                 "displayType": "textField",
                 "textField": {
                     "value": "scentName.value"
@@ -34,11 +34,12 @@
         ],
         "actions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_SCENTS",
+                "label": "{{i18n.label}}",
                 "displayType": "numberField",
                 "numberField": {
                     "command": "setScentIntensity",
                     "argumentType": "integer",
+                    "unit": "scentIntensity.unit",
                     "range": [
                         0,
                         100

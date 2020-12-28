@@ -1,7 +1,7 @@
 {
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SACP_HEADER_ODOR_SENSOR",
+            "label": "{{i18n.label}}",
             "displayType": "state",
             "state": {
                 "label": "{{odorLevel.value}}"

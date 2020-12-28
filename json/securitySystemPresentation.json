@@ -6,17 +6,17 @@
                 "alternatives": [
                     {
                         "key": "armedAway",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ARMED_HAWAY",
+                        "value": "{{i18n.attributes.securitySystemStatus.i18n.value.armedAway.label}}",
                         "type": "active"
                     },
                     {
                         "key": "armedStay",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ARMED_HSTAY",
+                        "value": "{{i18n.attributes.securitySystemStatus.i18n.value.armedStay.label}}",
                         "type": "active"
                     },
                     {
                         "key": "disarmed",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_DISARMED",
+                        "value": "{{i18n.attributes.securitySystemStatus.i18n.value.disarmed.label}}",
                         "type": "active"
                     }
                 ]
@@ -27,24 +27,24 @@
     },
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_SECURITY_MODE",
+            "label": "{{i18n.label}}",
             "displayType": "list",
             "list": {
                 "command": {
                     "alternatives": [
                         {
                             "key": "armedAway",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ARMED_HAWAY",
+                            "value": "{{i18n.commands.armedAway.label}}",
                             "type": "active"
                         },
                         {
                             "key": "armedStay",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ARMED_HSTAY",
+                            "value": "{{i18n.commands.armedStay.label}}",
                             "type": "active"
                         },
                         {
                             "key": "disarmed",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_DISARMED",
+                            "value": "{{i18n.commands.disarmed.label}}",
                             "type": "active"
                         }
                     ]
@@ -54,17 +54,17 @@
                     "alternatives": [
                         {
                             "key": "armedAway",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ARMED_HAWAY",
+                            "value": "{{i18n.attributes.securitySystemStatus.i18n.value.armedAway.label}}",
                             "type": "active"
                         },
                         {
                             "key": "armedStay",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ARMED_HSTAY",
+                            "value": "{{i18n.attributes.securitySystemStatus.i18n.value.armedStay.label}}",
                             "type": "active"
                         },
                         {
                             "key": "disarmed",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_DISARMED",
+                            "value": "{{i18n.attributes.securitySystemStatus.i18n.value.disarmed.label}}",
                             "type": "active"
                         }
                     ]
@@ -75,49 +75,50 @@
     "automation": {
         "conditions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_SECURITY_MODE",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "armedAway",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ARMED_HAWAY",
+                            "value": "{{i18n.attributes.securitySystemStatus.i18n.value.armedAway.label}}",
                             "type": "active"
                         },
                         {
                             "key": "armedStay",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ARMED_HSTAY",
+                            "value": "{{i18n.attributes.securitySystemStatus.i18n.value.armedStay.label}}",
                             "type": "active"
                         },
                         {
                             "key": "disarmed",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_DISARMED",
+                            "value": "{{i18n.attributes.securitySystemStatus.i18n.value.disarmed.label}}",
                             "type": "active"
                         }
                     ],
-                    "value": "securitySystemStatus.value"
+                    "value": "securitySystemStatus.value",
+                    "multiSelection": false
                 }
             }
         ],
         "actions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_SECURITY_MODE",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "armedAway",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ARMED_HAWAY",
+                            "value": "{{i18n.commands.armedAway.label}}",
                             "type": "active"
                         },
                         {
                             "key": "armedStay",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ARMED_HSTAY",
+                            "value": "{{i18n.commands.armedStay.label}}",
                             "type": "active"
                         },
                         {
                             "key": "disarmed",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_DISARMED",
+                            "value": "{{i18n.commands.disarmed.label}}",
                             "type": "active"
                         }
                     ]

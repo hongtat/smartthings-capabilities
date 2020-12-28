@@ -10,13 +10,14 @@
     },
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_WEIGHT",
+            "label": "{{i18n.label}}",
             "displayType": "slider",
             "slider": {
                 "range": [
                     0,
                     200
                 ],
+                "unit": "bodyWeightMeasurement.unit",
                 "value": "bodyWeightMeasurement.value",
                 "valueType": "number"
             }
@@ -25,11 +26,12 @@
     "automation": {
         "conditions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_WEIGHT",
+                "label": "{{i18n.label}}",
                 "displayType": "numberField",
                 "numberField": {
                     "value": "bodyWeightMeasurement.value",
                     "valueType": "number",
+                    "unit": "bodyWeightMeasurement.unit",
                     "range": [
                         0,
                         200

@@ -3,7 +3,7 @@
         "conditions": [],
         "actions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_TURN_CAMERA_TO_WAYPOINT",
+                "label": "{{i18n.label}}",
                 "displayType": "textField",
                 "textField": {
                     "command": "execute"

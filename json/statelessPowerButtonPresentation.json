@@ -1,7 +1,7 @@
 {
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_POWER",
+            "label": "{{i18n.label}}",
             "displayType": "list",
             "list": {
                 "command": {
@@ -9,12 +9,12 @@
                     "alternatives": [
                         {
                             "key": "powerOn",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ON_T_SAMSUNG_CONNECT",
+                            "value": "{{i18n.commands.setButton.arguments.button.i18n.powerOn.label}}",
                             "type": "active"
                         },
                         {
                             "key": "powerOff",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OFF_T_SAMSUNG_CONNECT",
+                            "value": "{{i18n.commands.setButton.arguments.button.i18n.powerOff.label}}",
                             "type": "active"
                         }
                     ]
@@ -26,18 +26,18 @@
         "conditions": [],
         "actions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_POWER",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "powerOn",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ON_T_SAMSUNG_CONNECT",
+                            "value": "{{i18n.commands.setButton.arguments.button.i18n.powerOn.label}}",
                             "type": "active"
                         },
                         {
                             "key": "powerOff",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OFF_T_SAMSUNG_CONNECT",
+                            "value": "{{i18n.commands.setButton.arguments.button.i18n.powerOff.label}}",
                             "type": "active"
                         }
                     ],

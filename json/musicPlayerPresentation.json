@@ -6,22 +6,22 @@
                 "alternatives": [
                     {
                         "key": "playing",
-                        "value": "___PO_CODE_SMARTTHINGS_IDS_MUSIC_BODY_PLAYING",
+                        "value": "{{i18n.attributes.status.i18n.value.playing.label}}",
                         "type": "active"
                     },
                     {
                         "key": "paused",
-                        "value": "___PO_CODE_SMARTTHINGS_IDS_FM_SBODY_PAUSED",
+                        "value": "{{i18n.attributes.status.i18n.value.paused.label}}",
                         "type": "inactive"
                     },
                     {
                         "key": "stopped",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_STOPPED",
+                        "value": "{{i18n.attributes.status.i18n.value.stopped.label}}",
                         "type": "inactive"
                     },
                     {
                         "key": "standby",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_STANDBY",
+                        "value": "{{i18n.attributes.status.i18n.value.standby.label}}",
                         "type": "inactive"
                     }
                 ]
@@ -47,24 +47,24 @@
     },
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_MUSIC_PLAYER",
+            "label": "{{i18n.label}}",
             "displayType": "list",
             "list": {
                 "command": {
                     "alternatives": [
                         {
                             "key": "play",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_PLAY",
+                            "value": "{{i18n.commands.play.label}}",
                             "type": "active"
                         },
                         {
                             "key": "pause",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_PAUSE",
+                            "value": "{{i18n.commands.pause.label}}",
                             "type": "inactive"
                         },
                         {
                             "key": "stop",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_STOP",
+                            "value": "{{i18n.commands.stop.label}}",
                             "type": "inactive"
                         }
                     ]
@@ -74,37 +74,37 @@
                     "alternatives": [
                         {
                             "key": "play",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_PLAY",
+                            "value": "{{i18n.attributes.status.i18n.value.play.label}}",
                             "type": "active"
                         },
                         {
                             "key": "pause",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_PAUSE",
+                            "value": "{{i18n.attributes.status.i18n.value.pause.label}}",
                             "type": "inactive"
                         },
                         {
                             "key": "stop",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_STOP",
+                            "value": "{{i18n.attributes.status.i18n.value.stop.label}}",
                             "type": "inactive"
                         },
                         {
                             "key": "playing",
-                            "value": "___PO_CODE_SMARTTHINGS_IDS_MUSIC_BODY_PLAYING",
+                            "value": "{{i18n.attributes.status.i18n.value.playing.label}}",
                             "type": "active"
                         },
                         {
                             "key": "paused",
-                            "value": "___PO_CODE_SMARTTHINGS_IDS_FM_SBODY_PAUSED",
+                            "value": "{{i18n.attributes.status.i18n.value.paused.label}}",
                             "type": "inactive"
                         },
                         {
                             "key": "stopped",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_STOPPED",
+                            "value": "{{i18n.attributes.status.i18n.value.stopped.label}}",
                             "type": "inactive"
                         },
                         {
                             "key": "standby",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_STANDBY",
+                            "value": "{{i18n.attributes.status.i18n.value.standby.label}}",
                             "type": "inactive"
                         }
                     ]
@@ -112,7 +112,7 @@
             }
         },
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_VOLUME",
+            "label": "{{i18n.attributes.level.label}}",
             "displayType": "slider",
             "slider": {
                 "range": [
@@ -126,7 +126,7 @@
             }
         },
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_MUTE",
+            "label": "{{i18n.attributes.mute.label}}",
             "displayType": "toggleSwitch",
             "toggleSwitch": {
                 "command": {
@@ -141,12 +141,12 @@
                     "alternatives": [
                         {
                             "key": "muted",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_MUTE",
+                            "value": "{{i18n.attributes.mute.i18n.value.muted.label}}",
                             "type": "inactive"
                         },
                         {
                             "key": "unmuted",
-                            "value": "___PO_CODE_SMARTTHINGS_IDS_VPL_OPT_UNMUTE",
+                            "value": "{{i18n.attributes.mute.i18n.value.unmuted.label}}",
                             "type": "active"
                         }
                     ]
@@ -161,19 +161,19 @@
             }
         },
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_MEDIA_TRACK_CONTROL",
+            "label": "{{i18n.attributes.trackData.label}}",
             "displayType": "list",
             "list": {
                 "command": {
                     "alternatives": [
                         {
                             "key": "nextTrack",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_NEXT",
+                            "value": "{{i18n.commands.nextTrack.label}}",
                             "type": "active"
                         },
                         {
                             "key": "previousTrack",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_PREVIOUS",
+                            "value": "{{i18n.commands.previousTrack.label}}",
                             "type": "active"
                         }
                     ]
@@ -184,31 +184,32 @@
     "automation": {
         "conditions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_MUSIC_PLAYER",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "playing",
-                            "value": "___PO_CODE_SMARTTHINGS_IDS_MUSIC_BODY_PLAYING",
+                            "value": "{{i18n.attributes.status.i18n.value.playing.label}}",
                             "type": "active"
                         },
                         {
                             "key": "paused",
-                            "value": "___PO_CODE_SMARTTHINGS_IDS_FM_SBODY_PAUSED",
+                            "value": "{{i18n.attributes.status.i18n.value.paused.label}}",
                             "type": "inactive"
                         },
                         {
                             "key": "stopped",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_STOPPED",
+                            "value": "{{i18n.attributes.status.i18n.value.stopped.label}}",
                             "type": "inactive"
                         }
                     ],
-                    "value": "status.value"
+                    "value": "status.value",
+                    "multiSelection": false
                 }
             },
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_VOLUME",
+                "label": "{{i18n.attributes.level.label}}",
                 "displayType": "slider",
                 "slider": {
                     "range": [
@@ -220,52 +221,53 @@
                 }
             },
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_MUTE",
+                "label": "{{i18n.attributes.mute.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "muted",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_MUTE",
+                            "value": "{{i18n.attributes.mute.i18n.value.muted.label}}",
                             "type": "inactive"
                         },
                         {
                             "key": "unmuted",
-                            "value": "___PO_CODE_SMARTTHINGS_IDS_VPL_OPT_UNMUTE",
+                            "value": "{{i18n.attributes.mute.i18n.value.unmuted.label}}",
                             "type": "active"
                         }
                     ],
-                    "value": "mute.value"
+                    "value": "mute.value",
+                    "multiSelection": false
                 },
                 "emphasis": true
             }
         ],
         "actions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_MUSIC_PLAYER",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "play",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_PLAY",
+                            "value": "{{i18n.commands.play.label}}",
                             "type": "active"
                         },
                         {
                             "key": "pause",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_PAUSE",
+                            "value": "{{i18n.commands.pause.label}}",
                             "type": "inactive"
                         },
                         {
                             "key": "stop",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_STOP",
+                            "value": "{{i18n.commands.stop.label}}",
                             "type": "inactive"
                         }
                     ]
                 }
             },
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_VOLUME",
+                "label": "{{i18n.attributes.level.label}}",
                 "displayType": "slider",
                 "slider": {
                     "range": [
@@ -277,18 +279,18 @@
                 }
             },
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_MUTE",
+                "label": "{{i18n.attributes.mute.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "mute",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_MUTE",
+                            "value": "{{i18n.commands.mute.label}}",
                             "type": "inactive"
                         },
                         {
                             "key": "unmute",
-                            "value": "___PO_CODE_SMARTTHINGS_IDS_VPL_OPT_UNMUTE",
+                            "value": "{{i18n.commands.unmute.label}}",
                             "type": "active"
                         }
                     ]
@@ -296,18 +298,18 @@
                 "emphasis": true
             },
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_MEDIA_TRACK_CONTROL",
+                "label": "{{i18n.attributes.trackData.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "nextTrack",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_NEXT",
+                            "value": "{{i18n.commands.nextTrack.label}}",
                             "type": "active"
                         },
                         {
                             "key": "previousTrack",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_PREVIOUS",
+                            "value": "{{i18n.commands.previousTrack.label}}",
                             "type": "active"
                         }
                     ]

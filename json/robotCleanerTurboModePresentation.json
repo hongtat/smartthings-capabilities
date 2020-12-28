@@ -6,17 +6,17 @@
                 "alternatives": [
                     {
                         "key": "on",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ON_T_SAMSUNG_CONNECT",
+                        "value": "{{i18n.attributes.robotCleanerTurboMode.i18n.value.on.label}}",
                         "type": "active"
                     },
                     {
                         "key": "off",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OFF_T_SAMSUNG_CONNECT",
+                        "value": "{{i18n.attributes.robotCleanerTurboMode.i18n.value.off.label}}",
                         "type": "active"
                     },
                     {
                         "key": "silence",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_QUIET_M_ROBOT_CLEANER_MODE",
+                        "value": "{{i18n.attributes.robotCleanerTurboMode.i18n.value.silence.label}}",
                         "type": "active"
                     }
                 ]
@@ -27,7 +27,7 @@
     },
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TURBO_M_ROBOT_CLEANER_MODE",
+            "label": "{{i18n.label}}",
             "displayType": "list",
             "list": {
                 "command": {
@@ -35,17 +35,17 @@
                     "alternatives": [
                         {
                             "key": "on",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ON_T_SAMSUNG_CONNECT",
+                            "value": "{{i18n.commands.setRobotCleanerTurboMode.arguments.mode.i18n.on.label}}",
                             "type": "active"
                         },
                         {
                             "key": "off",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OFF_T_SAMSUNG_CONNECT",
+                            "value": "{{i18n.commands.setRobotCleanerTurboMode.arguments.mode.i18n.off.label}}",
                             "type": "active"
                         },
                         {
                             "key": "silence",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_QUIET_M_ROBOT_CLEANER_MODE",
+                            "value": "{{i18n.commands.setRobotCleanerTurboMode.arguments.mode.i18n.silence.label}}",
                             "type": "active"
                         }
                     ]
@@ -55,17 +55,17 @@
                     "alternatives": [
                         {
                             "key": "on",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ON_T_SAMSUNG_CONNECT",
+                            "value": "{{i18n.attributes.robotCleanerTurboMode.i18n.value.on.label}}",
                             "type": "active"
                         },
                         {
                             "key": "off",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OFF_T_SAMSUNG_CONNECT",
+                            "value": "{{i18n.attributes.robotCleanerTurboMode.i18n.value.off.label}}",
                             "type": "active"
                         },
                         {
                             "key": "silence",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_QUIET_M_ROBOT_CLEANER_MODE",
+                            "value": "{{i18n.attributes.robotCleanerTurboMode.i18n.value.silence.label}}",
                             "type": "active"
                         }
                     ]
@@ -76,49 +76,50 @@
     "automation": {
         "conditions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TURBO_M_ROBOT_CLEANER_MODE",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "on",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ON_T_SAMSUNG_CONNECT",
+                            "value": "{{i18n.attributes.robotCleanerTurboMode.i18n.value.on.label}}",
                             "type": "active"
                         },
                         {
                             "key": "off",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OFF_T_SAMSUNG_CONNECT",
+                            "value": "{{i18n.attributes.robotCleanerTurboMode.i18n.value.off.label}}",
                             "type": "active"
                         },
                         {
                             "key": "silence",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_QUIET_M_ROBOT_CLEANER_MODE",
+                            "value": "{{i18n.attributes.robotCleanerTurboMode.i18n.value.silence.label}}",
                             "type": "active"
                         }
                     ],
-                    "value": "robotCleanerTurboMode.value"
+                    "value": "robotCleanerTurboMode.value",
+                    "multiSelection": false
                 }
             }
         ],
         "actions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_TURBO_M_ROBOT_CLEANER_MODE",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "on",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ON_T_SAMSUNG_CONNECT",
+                            "value": "{{i18n.commands.setRobotCleanerTurboMode.arguments.mode.i18n.on.label}}",
                             "type": "active"
                         },
                         {
                             "key": "off",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OFF_T_SAMSUNG_CONNECT",
+                            "value": "{{i18n.commands.setRobotCleanerTurboMode.arguments.mode.i18n.off.label}}",
                             "type": "active"
                         },
                         {
                             "key": "silence",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_QUIET_M_ROBOT_CLEANER_MODE",
+                            "value": "{{i18n.commands.setRobotCleanerTurboMode.arguments.mode.i18n.silence.label}}",
                             "type": "active"
                         }
                     ],

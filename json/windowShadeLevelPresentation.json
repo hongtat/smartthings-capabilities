@@ -10,13 +10,14 @@
     },
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_SHADE_LEVEL",
+            "label": "{{i18n.label}}",
             "displayType": "slider",
             "slider": {
                 "range": [
                     0,
                     100
                 ],
+                "unit": "shadeLevel.unit",
                 "command": "setShadeLevel",
                 "argumentType": "object",
                 "value": "shadeLevel.value",
@@ -27,13 +28,14 @@
     "automation": {
         "conditions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_SHADE_LEVEL",
+                "label": "{{i18n.label}}",
                 "displayType": "slider",
                 "slider": {
                     "range": [
                         0,
                         100
                     ],
+                    "unit": "shadeLevel.unit",
                     "value": "shadeLevel.value",
                     "valueType": "integer"
                 }
@@ -41,13 +43,14 @@
         ],
         "actions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_SHADE_LEVEL",
+                "label": "{{i18n.label}}",
                 "displayType": "slider",
                 "slider": {
                     "range": [
                         0,
                         100
                     ],
+                    "unit": "shadeLevel.unit",
                     "command": "setShadeLevel",
                     "argumentType": "object"
                 }

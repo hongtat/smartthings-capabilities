@@ -1,30 +1,90 @@
 {
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_FAN_SPEED",
+            "label": "{{i18n.label}}",
             "displayType": "list",
             "list": {
                 "command": {
                     "name": "setFanMode",
                     "alternatives": [
                         {
-                            "key": "low",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_LOW_M_FAN_SPEED",
+                            "key": "1",
+                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.1.label}}",
                             "type": "active"
                         },
                         {
-                            "key": "medium",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_MEDIUM_M_FAN_SPEED",
+                            "key": "2",
+                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.2.label}}",
                             "type": "active"
                         },
                         {
-                            "key": "high",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_HIGH_M_FAN_SPEED",
+                            "key": "3",
+                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.3.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "4",
+                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.4.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "5",
+                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.5.label}}",
                             "type": "active"
                         },
                         {
                             "key": "auto",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_AUTO",
+                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.auto.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "low",
+                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.low.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "medium",
+                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.medium.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "high",
+                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.high.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "turbo",
+                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.turbo.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "max",
+                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.max.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "windfree",
+                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.windfree.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "sleep",
+                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.sleep.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "quiet",
+                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.quiet.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "smart",
+                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.smart.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "pet",
+                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.pet.label}}",
                             "type": "active"
                         }
                     ],
@@ -34,23 +94,83 @@
                     "value": "fanMode.value",
                     "alternatives": [
                         {
-                            "key": "low",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_LOW_M_FAN_SPEED",
+                            "key": "1",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.1.label}}",
                             "type": "active"
                         },
                         {
-                            "key": "medium",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_MEDIUM_M_FAN_SPEED",
+                            "key": "2",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.2.label}}",
                             "type": "active"
                         },
                         {
-                            "key": "high",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_HIGH_M_FAN_SPEED",
+                            "key": "3",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.3.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "4",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.4.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "5",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.5.label}}",
                             "type": "active"
                         },
                         {
                             "key": "auto",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_AUTO",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.auto.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "low",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.low.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "medium",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.medium.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "high",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.high.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "turbo",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.turbo.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "max",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.max.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "windfree",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.windfree.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "sleep",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.sleep.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "quiet",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.quiet.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "smart",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.smart.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "pet",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.pet.label}}",
                             "type": "active"
                         }
                     ]
@@ -61,60 +181,181 @@
     "automation": {
         "conditions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_FAN_SPEED",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
-                            "key": "low",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_LOW_M_FAN_SPEED",
+                            "key": "1",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.1.label}}",
                             "type": "active"
                         },
                         {
-                            "key": "medium",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_MEDIUM_M_FAN_SPEED",
+                            "key": "2",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.2.label}}",
                             "type": "active"
                         },
                         {
-                            "key": "high",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_HIGH_M_FAN_SPEED",
+                            "key": "3",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.3.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "4",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.4.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "5",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.5.label}}",
                             "type": "active"
                         },
                         {
                             "key": "auto",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_AUTO",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.auto.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "low",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.low.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "medium",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.medium.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "high",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.high.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "turbo",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.turbo.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "max",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.max.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "windfree",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.windfree.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "sleep",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.sleep.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "quiet",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.quiet.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "smart",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.smart.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "pet",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.pet.label}}",
                             "type": "active"
                         }
                     ],
                     "supportedValues": "supportedAcFanModes.value",
-                    "value": "fanMode.value"
+                    "value": "fanMode.value",
+                    "multiSelection": false
                 }
             }
         ],
         "actions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_FAN_SPEED",
+                "label": "{{i18n.commands.setFanMode.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
-                            "key": "low",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_LOW_M_FAN_SPEED",
+                            "key": "1",
+                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.1.label}}",
                             "type": "active"
                         },
                         {
-                            "key": "medium",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_MEDIUM_M_FAN_SPEED",
+                            "key": "2",
+                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.2.label}}",
                             "type": "active"
                         },
                         {
-                            "key": "high",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_HIGH_M_FAN_SPEED",
+                            "key": "3",
+                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.3.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "4",
+                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.4.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "5",
+                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.5.label}}",
                             "type": "active"
                         },
                         {
                             "key": "auto",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_AUTO",
+                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.auto.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "low",
+                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.low.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "medium",
+                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.medium.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "high",
+                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.high.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "turbo",
+                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.turbo.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "max",
+                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.max.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "windfree",
+                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.windfree.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "sleep",
+                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.sleep.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "quiet",
+                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.quiet.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "smart",
+                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.smart.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "pet",
+                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.pet.label}}",
                             "type": "active"
                         }
                     ],

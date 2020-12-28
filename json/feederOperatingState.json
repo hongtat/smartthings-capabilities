@@ -1,0 +1,37 @@
+{
+    "id": "feederOperatingState",
+    "version": 1,
+    "status": "proposed",
+    "name": "Feeder Operating State",
+    "attributes": {
+        "feederOperatingState": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "idle",
+                            "feeding"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": [
+                {
+                    "command": "startFeeding",
+                    "value": "feeding"
+                }
+            ]
+        }
+    },
+    "commands": {
+        "startFeeding": {
+            "arguments": []
+        }
+    }
+}

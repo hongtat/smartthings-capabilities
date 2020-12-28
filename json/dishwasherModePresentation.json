@@ -6,22 +6,22 @@
                 "alternatives": [
                     {
                         "key": "auto",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_AUTO",
+                        "value": "{{i18n.attributes.dishwasherMode.i18n.value.auto.label}}",
                         "type": "active"
                     },
                     {
                         "key": "quick",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_QUICK_M_WASHER_MODE",
+                        "value": "{{i18n.attributes.dishwasherMode.i18n.value.quick.label}}",
                         "type": "active"
                     },
                     {
                         "key": "rinse",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_RINSE_M_WASHER_STATUS",
+                        "value": "{{i18n.attributes.dishwasherMode.i18n.value.rinse.label}}",
                         "type": "active"
                     },
                     {
                         "key": "dry",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_DRY",
+                        "value": "{{i18n.attributes.dishwasherMode.i18n.value.dry.label}}",
                         "type": "active"
                     }
                 ]
@@ -32,7 +32,7 @@
     },
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_MODE",
+            "label": "{{i18n.label}}",
             "displayType": "list",
             "list": {
                 "command": {
@@ -40,22 +40,22 @@
                     "alternatives": [
                         {
                             "key": "auto",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_AUTO",
+                            "value": "{{i18n.commands.setDishwasherMode.arguments.mode.i18n.auto.label}}",
                             "type": "active"
                         },
                         {
                             "key": "quick",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_QUICK_M_WASHER_MODE",
+                            "value": "{{i18n.commands.setDishwasherMode.arguments.mode.i18n.quick.label}}",
                             "type": "active"
                         },
                         {
                             "key": "rinse",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_RINSE_M_WASHER_STATUS",
+                            "value": "{{i18n.commands.setDishwasherMode.arguments.mode.i18n.rinse.label}}",
                             "type": "active"
                         },
                         {
                             "key": "dry",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_DRY",
+                            "value": "{{i18n.commands.setDishwasherMode.arguments.mode.i18n.dry.label}}",
                             "type": "active"
                         }
                     ]
@@ -65,22 +65,22 @@
                     "alternatives": [
                         {
                             "key": "auto",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_AUTO",
+                            "value": "{{i18n.attributes.dishwasherMode.i18n.value.auto.label}}",
                             "type": "active"
                         },
                         {
                             "key": "quick",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_QUICK_M_WASHER_MODE",
+                            "value": "{{i18n.attributes.dishwasherMode.i18n.value.quick.label}}",
                             "type": "active"
                         },
                         {
                             "key": "rinse",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_RINSE_M_WASHER_STATUS",
+                            "value": "{{i18n.attributes.dishwasherMode.i18n.value.rinse.label}}",
                             "type": "active"
                         },
                         {
                             "key": "dry",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_DRY",
+                            "value": "{{i18n.attributes.dishwasherMode.i18n.value.dry.label}}",
                             "type": "active"
                         }
                     ]
@@ -91,59 +91,60 @@
     "automation": {
         "conditions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_MODE",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "auto",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_AUTO",
+                            "value": "{{i18n.attributes.dishwasherMode.i18n.value.auto.label}}",
                             "type": "active"
                         },
                         {
                             "key": "quick",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_QUICK_M_WASHER_MODE",
+                            "value": "{{i18n.attributes.dishwasherMode.i18n.value.quick.label}}",
                             "type": "active"
                         },
                         {
                             "key": "rinse",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_RINSE_M_WASHER_STATUS",
+                            "value": "{{i18n.attributes.dishwasherMode.i18n.value.rinse.label}}",
                             "type": "active"
                         },
                         {
                             "key": "dry",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_DRY",
+                            "value": "{{i18n.attributes.dishwasherMode.i18n.value.dry.label}}",
                             "type": "active"
                         }
                     ],
-                    "value": "dishwasherMode.value"
+                    "value": "dishwasherMode.value",
+                    "multiSelection": false
                 }
             }
         ],
         "actions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_MODE",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "auto",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_AUTO",
+                            "value": "{{i18n.commands.setDishwasherMode.arguments.mode.i18n.auto.label}}",
                             "type": "active"
                         },
                         {
                             "key": "quick",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_QUICK_M_WASHER_MODE",
+                            "value": "{{i18n.commands.setDishwasherMode.arguments.mode.i18n.quick.label}}",
                             "type": "active"
                         },
                         {
                             "key": "rinse",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_RINSE_M_WASHER_STATUS",
+                            "value": "{{i18n.commands.setDishwasherMode.arguments.mode.i18n.rinse.label}}",
                             "type": "active"
                         },
                         {
                             "key": "dry",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_DRY",
+                            "value": "{{i18n.commands.setDishwasherMode.arguments.mode.i18n.dry.label}}",
                             "type": "active"
                         }
                     ],

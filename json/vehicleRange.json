@@ -1,0 +1,55 @@
+{
+    "id": "vehicleRange",
+    "version": 1,
+    "status": "proposed",
+    "name": "Vehicle Range",
+    "attributes": {
+        "estimatedRemainingRange": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "Distance",
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                            "value": {
+                                "title": "PositiveNumber",
+                                "type": "number",
+                                "minimum": 0
+                            },
+                            "unit": {
+                                "title": "DistanceUnit",
+                                "type": "string",
+                                "enum": [
+                                    "mi",
+                                    "km",
+                                    "m"
+                                ]
+                            }
+                        },
+                        "required": [
+                            "value",
+                            "unit"
+                        ]
+                    },
+                    "unit": {
+                        "type": "string",
+                        "enum": [
+                            "mi",
+                            "km",
+                            "m"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value",
+                    "unit"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": []
+}

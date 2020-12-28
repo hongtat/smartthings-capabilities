@@ -6,17 +6,17 @@
                 "alternatives": [
                     {
                         "key": "regular",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_MEDIUM_M_DRYER_MODE",
+                        "value": "{{i18n.attributes.dryerMode.i18n.value.regular.label}}",
                         "type": "active"
                     },
                     {
                         "key": "lowHeat",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_LOW_M_DRYER_MODE",
+                        "value": "{{i18n.attributes.dryerMode.i18n.value.lowHeat.label}}",
                         "type": "active"
                     },
                     {
                         "key": "highHeat",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_HIGH_M_DRYER_MODE",
+                        "value": "{{i18n.attributes.dryerMode.i18n.value.highHeat.label}}",
                         "type": "active"
                     }
                 ]
@@ -27,7 +27,7 @@
     },
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_MODE",
+            "label": "{{i18n.label}}",
             "displayType": "list",
             "list": {
                 "command": {
@@ -35,17 +35,17 @@
                     "alternatives": [
                         {
                             "key": "regular",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_MEDIUM_M_DRYER_MODE",
+                            "value": "{{i18n.commands.setDryerMode.arguments.mode.i18n.regular.label}}",
                             "type": "active"
                         },
                         {
                             "key": "lowHeat",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_LOW_M_DRYER_MODE",
+                            "value": "{{i18n.commands.setDryerMode.arguments.mode.i18n.lowHeat.label}}",
                             "type": "active"
                         },
                         {
                             "key": "highHeat",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_HIGH_M_DRYER_MODE",
+                            "value": "{{i18n.commands.setDryerMode.arguments.mode.i18n.highHeat.label}}",
                             "type": "active"
                         }
                     ]
@@ -55,17 +55,17 @@
                     "alternatives": [
                         {
                             "key": "regular",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_MEDIUM_M_DRYER_MODE",
+                            "value": "{{i18n.attributes.dryerMode.i18n.value.regular.label}}",
                             "type": "active"
                         },
                         {
                             "key": "lowHeat",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_LOW_M_DRYER_MODE",
+                            "value": "{{i18n.attributes.dryerMode.i18n.value.lowHeat.label}}",
                             "type": "active"
                         },
                         {
                             "key": "highHeat",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_HIGH_M_DRYER_MODE",
+                            "value": "{{i18n.attributes.dryerMode.i18n.value.highHeat.label}}",
                             "type": "active"
                         }
                     ]
@@ -76,49 +76,50 @@
     "automation": {
         "conditions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_MODE",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "regular",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_MEDIUM_M_DRYER_MODE",
+                            "value": "{{i18n.attributes.dryerMode.i18n.value.regular.label}}",
                             "type": "active"
                         },
                         {
                             "key": "lowHeat",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_LOW_M_DRYER_MODE",
+                            "value": "{{i18n.attributes.dryerMode.i18n.value.lowHeat.label}}",
                             "type": "active"
                         },
                         {
                             "key": "highHeat",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_HIGH_M_DRYER_MODE",
+                            "value": "{{i18n.attributes.dryerMode.i18n.value.highHeat.label}}",
                             "type": "active"
                         }
                     ],
-                    "value": "dryerMode.value"
+                    "value": "dryerMode.value",
+                    "multiSelection": false
                 }
             }
         ],
         "actions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_MODE",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "regular",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_MEDIUM_M_DRYER_MODE",
+                            "value": "{{i18n.commands.setDryerMode.arguments.mode.i18n.regular.label}}",
                             "type": "active"
                         },
                         {
                             "key": "lowHeat",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_LOW_M_DRYER_MODE",
+                            "value": "{{i18n.commands.setDryerMode.arguments.mode.i18n.lowHeat.label}}",
                             "type": "active"
                         },
                         {
                             "key": "highHeat",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_HIGH_M_DRYER_MODE",
+                            "value": "{{i18n.commands.setDryerMode.arguments.mode.i18n.highHeat.label}}",
                             "type": "active"
                         }
                     ],

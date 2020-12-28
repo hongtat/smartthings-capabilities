@@ -8,6 +8,7 @@
                     0,
                     40
                 ],
+                "unit": "refrigerationSetpoint.unit",
                 "command": "setRefrigerationSetpoint",
                 "argumentType": "number",
                 "value": "refrigerationSetpoint.value",
@@ -24,6 +25,7 @@
                 "numberField": {
                     "command": "setRefrigerationSetpoint",
                     "argumentType": "number",
+                    "unit": "refrigerationSetpoint.unit",
                     "range": [
                         0,
                         40

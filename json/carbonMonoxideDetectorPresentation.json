@@ -6,17 +6,17 @@
                 "alternatives": [
                     {
                         "key": "clear",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_CLEAR_M_SMOKE_DETECTOR_STATUS",
+                        "value": "{{i18n.attributes.carbonMonoxide.i18n.value.clear.label}}",
                         "type": "inactive"
                     },
                     {
                         "key": "detected",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_DETECTED",
+                        "value": "{{i18n.attributes.carbonMonoxide.i18n.value.detected.label}}",
                         "type": "active"
                     },
                     {
                         "key": "tested",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_TESTED",
+                        "value": "{{i18n.attributes.carbonMonoxide.i18n.value.tested.label}}",
                         "type": "inactive"
                     }
                 ]
@@ -27,24 +27,24 @@
     },
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_CARBON_MONOXIDE_DETECTOR",
+            "label": "{{i18n.label}}",
             "displayType": "state",
             "state": {
                 "label": "{{carbonMonoxide.value}}",
                 "alternatives": [
                     {
                         "key": "clear",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_CLEAR_M_SMOKE_DETECTOR_STATUS",
+                        "value": "{{i18n.attributes.carbonMonoxide.i18n.value.clear.label}}",
                         "type": "inactive"
                     },
                     {
                         "key": "detected",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_DETECTED",
+                        "value": "{{i18n.attributes.carbonMonoxide.i18n.value.detected.label}}",
                         "type": "active"
                     },
                     {
                         "key": "tested",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_TESTED",
+                        "value": "{{i18n.attributes.carbonMonoxide.i18n.value.tested.label}}",
                         "type": "inactive"
                     }
                 ]
@@ -54,27 +54,28 @@
     "automation": {
         "conditions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_CARBON_MONOXIDE_DETECTOR",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "clear",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_CLEAR_M_SMOKE_DETECTOR_STATUS",
+                            "value": "{{i18n.attributes.carbonMonoxide.i18n.value.clear.label}}",
                             "type": "inactive"
                         },
                         {
                             "key": "detected",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_DETECTED",
+                            "value": "{{i18n.attributes.carbonMonoxide.i18n.value.detected.label}}",
                             "type": "active"
                         },
                         {
                             "key": "tested",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_TESTED",
+                            "value": "{{i18n.attributes.carbonMonoxide.i18n.value.tested.label}}",
                             "type": "inactive"
                         }
                     ],
-                    "value": "carbonMonoxide.value"
+                    "value": "carbonMonoxide.value",
+                    "multiSelection": false
                 }
             }
         ],

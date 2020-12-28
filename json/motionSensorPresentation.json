@@ -6,12 +6,12 @@
                 "alternatives": [
                     {
                         "key": "active",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_MOTION_DETECTED",
+                        "value": "{{i18n.attributes.motion.i18n.value.active.label}}",
                         "type": "active"
                     },
                     {
                         "key": "inactive",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_NO_MOTION",
+                        "value": "{{i18n.attributes.motion.i18n.value.inactive.label}}",
                         "type": "inactive"
                     }
                 ]
@@ -22,19 +22,19 @@
     },
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_MOTION_SENSOR",
+            "label": "{{i18n.label}}",
             "displayType": "state",
             "state": {
                 "label": "{{motion.value}}",
                 "alternatives": [
                     {
                         "key": "active",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_MOTION_DETECTED",
+                        "value": "{{i18n.attributes.motion.i18n.value.active.label}}",
                         "type": "active"
                     },
                     {
                         "key": "inactive",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_NO_MOTION",
+                        "value": "{{i18n.attributes.motion.i18n.value.inactive.label}}",
                         "type": "inactive"
                     }
                 ]
@@ -44,22 +44,23 @@
     "automation": {
         "conditions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_MOTION_SENSOR",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "active",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_MOTION_DETECTED",
+                            "value": "{{i18n.attributes.motion.i18n.value.active.label}}",
                             "type": "active"
                         },
                         {
                             "key": "inactive",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_NO_MOTION",
+                            "value": "{{i18n.attributes.motion.i18n.value.inactive.label}}",
                             "type": "inactive"
                         }
                     ],
-                    "value": "motion.value"
+                    "value": "motion.value",
+                    "multiSelection": false
                 }
             }
         ],

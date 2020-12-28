@@ -6,12 +6,12 @@
                 "alternatives": [
                     {
                         "key": "normal",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_NORMAL_M_FILTER_STATE",
+                        "value": "{{i18n.attributes.filterStatus.i18n.value.normal.label}}",
                         "type": "active"
                     },
                     {
                         "key": "replace",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_REPLACEMENT_NEEDED",
+                        "value": "{{i18n.attributes.filterStatus.i18n.value.replace.label}}",
                         "type": "active"
                     }
                 ]
@@ -22,19 +22,19 @@
     },
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_FILTER_STATE",
+            "label": "{{i18n.label}}",
             "displayType": "state",
             "state": {
                 "label": "{{filterStatus.value}}",
                 "alternatives": [
                     {
                         "key": "normal",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_NORMAL_M_FILTER_STATE",
+                        "value": "{{i18n.attributes.filterStatus.i18n.value.normal.label}}",
                         "type": "active"
                     },
                     {
                         "key": "replace",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_REPLACEMENT_NEEDED",
+                        "value": "{{i18n.attributes.filterStatus.i18n.value.replace.label}}",
                         "type": "active"
                     }
                 ]

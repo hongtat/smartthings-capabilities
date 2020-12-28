@@ -6,12 +6,12 @@
                 "alternatives": [
                     {
                         "key": "open",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OPEN",
+                        "value": "{{i18n.attributes.valve.i18n.value.open.label}}",
                         "type": "active"
                     },
                     {
                         "key": "closed",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_CLOSED",
+                        "value": "{{i18n.attributes.valve.i18n.value.closed.label}}",
                         "type": "inactive"
                     }
                 ]
@@ -37,7 +37,7 @@
     },
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BUTTON_VALVE_18",
+            "label": "{{i18n.label}}",
             "displayType": "toggleSwitch",
             "toggleSwitch": {
                 "command": {
@@ -52,12 +52,12 @@
                     "alternatives": [
                         {
                             "key": "open",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OPEN",
+                            "value": "{{i18n.attributes.valve.i18n.value.open.label}}",
                             "type": "active"
                         },
                         {
                             "key": "closed",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_CLOSED",
+                            "value": "{{i18n.attributes.valve.i18n.value.closed.label}}",
                             "type": "inactive"
                         }
                     ]
@@ -68,39 +68,40 @@
     "automation": {
         "conditions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BUTTON_VALVE_18",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "open",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OPEN",
+                            "value": "{{i18n.attributes.valve.i18n.value.open.label}}",
                             "type": "active"
                         },
                         {
                             "key": "closed",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_CLOSED",
+                            "value": "{{i18n.attributes.valve.i18n.value.closed.label}}",
                             "type": "inactive"
                         }
                     ],
-                    "value": "valve.value"
+                    "value": "valve.value",
+                    "multiSelection": false
                 }
             }
         ],
         "actions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BUTTON_VALVE_18",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "open",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OPEN",
+                            "value": "{{i18n.commands.open.label}}",
                             "type": "active"
                         },
                         {
                             "key": "close",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_CLOSED",
+                            "value": "{{i18n.commands.close.label}}",
                             "type": "inactive"
                         }
                     ]

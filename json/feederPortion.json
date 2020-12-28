@@ -1,0 +1,49 @@
+{
+    "id": "feederPortion",
+    "version": 1,
+    "status": "proposed",
+    "name": "Feeder Portion",
+    "attributes": {
+        "feedPortion": {
+            "schema": {
+                "title": "IntegerPercent",
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 100
+                    },
+                    "unit": {
+                        "type": "string",
+                        "enum": [
+                            "%"
+                        ],
+                        "default": "%"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setPortion",
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setPortion": {
+            "arguments": [
+                {
+                    "name": "portion",
+                    "optional": false,
+                    "schema": {
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 100
+                    }
+                }
+            ]
+        }
+    }
+}

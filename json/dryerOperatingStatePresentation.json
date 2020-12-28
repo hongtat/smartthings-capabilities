@@ -6,37 +6,37 @@
                 "alternatives": [
                     {
                         "key": "cooling",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_COOLING_DOWN_M_WASHER_STATUS",
+                        "value": "{{i18n.attributes.dryerJobState.i18n.value.cooling.label}}",
                         "type": "active"
                     },
                     {
                         "key": "delayWash",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_DELAY_END_M_WASHER_STATUS",
+                        "value": "{{i18n.attributes.dryerJobState.i18n.value.delayWash.label}}",
                         "type": "active"
                     },
                     {
                         "key": "drying",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_DRYING_M_WASHER_STATUS",
+                        "value": "{{i18n.attributes.dryerJobState.i18n.value.drying.label}}",
                         "type": "active"
                     },
                     {
                         "key": "finished",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_FINISHED_M_WASHER_STATUS",
+                        "value": "{{i18n.attributes.dryerJobState.i18n.value.finished.label}}",
                         "type": "active"
                     },
                     {
                         "key": "none",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_NONE",
+                        "value": "{{i18n.attributes.dryerJobState.i18n.value.none.label}}",
                         "type": "active"
                     },
                     {
                         "key": "weightSensing",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_CHECKING_WEIGHT_M_WASHER_STATUS",
+                        "value": "{{i18n.attributes.dryerJobState.i18n.value.weightSensing.label}}",
                         "type": "active"
                     },
                     {
                         "key": "wrinklePrevent",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_WRINKLE_PREVENT_M_WASHER_STATUS",
+                        "value": "{{i18n.attributes.dryerJobState.i18n.value.wrinklePrevent.label}}",
                         "type": "active"
                     }
                 ]
@@ -47,50 +47,150 @@
     },
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_DRYER",
+            "label": "{{i18n.label}}",
             "displayType": "state",
             "state": {
                 "label": "{{dryerJobState.value}}",
                 "alternatives": [
                     {
                         "key": "cooling",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_COOLING_DOWN_M_WASHER_STATUS",
+                        "value": "{{i18n.attributes.dryerJobState.i18n.value.cooling.label}}",
                         "type": "active"
                     },
                     {
                         "key": "delayWash",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_DELAY_END_M_WASHER_STATUS",
+                        "value": "{{i18n.attributes.dryerJobState.i18n.value.delayWash.label}}",
                         "type": "active"
                     },
                     {
                         "key": "drying",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_DRYING_M_WASHER_STATUS",
+                        "value": "{{i18n.attributes.dryerJobState.i18n.value.drying.label}}",
                         "type": "active"
                     },
                     {
                         "key": "finished",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_FINISHED_M_WASHER_STATUS",
+                        "value": "{{i18n.attributes.dryerJobState.i18n.value.finished.label}}",
                         "type": "active"
                     },
                     {
                         "key": "none",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_NONE",
+                        "value": "{{i18n.attributes.dryerJobState.i18n.value.none.label}}",
                         "type": "active"
                     },
                     {
                         "key": "weightSensing",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_CHECKING_WEIGHT_M_WASHER_STATUS",
+                        "value": "{{i18n.attributes.dryerJobState.i18n.value.weightSensing.label}}",
                         "type": "active"
                     },
                     {
                         "key": "wrinklePrevent",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_WRINKLE_PREVENT_M_WASHER_STATUS",
+                        "value": "{{i18n.attributes.dryerJobState.i18n.value.wrinklePrevent.label}}",
                         "type": "active"
                     }
                 ]
             }
         }
     ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.attributes.machineState.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "pause",
+                            "value": "{{i18n.attributes.machineState.i18n.value.pause.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "run",
+                            "value": "{{i18n.attributes.machineState.i18n.value.run.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "stop",
+                            "value": "{{i18n.attributes.machineState.i18n.value.stop.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "machineState.value",
+                    "multiSelection": false
+                }
+            },
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "cooling",
+                            "value": "{{i18n.attributes.dryerJobState.i18n.value.cooling.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "delayWash",
+                            "value": "{{i18n.attributes.dryerJobState.i18n.value.delayWash.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "drying",
+                            "value": "{{i18n.attributes.dryerJobState.i18n.value.drying.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "finished",
+                            "value": "{{i18n.attributes.dryerJobState.i18n.value.finished.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "none",
+                            "value": "{{i18n.attributes.dryerJobState.i18n.value.none.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "weightSensing",
+                            "value": "{{i18n.attributes.dryerJobState.i18n.value.weightSensing.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "wrinklePrevent",
+                            "value": "{{i18n.attributes.dryerJobState.i18n.value.wrinklePrevent.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "dryerJobState.value",
+                    "multiSelection": false
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "{{i18n.attributes.machineState.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "pause",
+                            "value": "{{i18n.commands.setMachineState.arguments.state.i18n.pause.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "run",
+                            "value": "{{i18n.commands.setMachineState.arguments.state.i18n.run.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "stop",
+                            "value": "{{i18n.commands.setMachineState.arguments.state.i18n.stop.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "command": "setMachineState"
+                }
+            }
+        ]
+    },
     "id": "dryerOperatingState",
     "version": 1
 }

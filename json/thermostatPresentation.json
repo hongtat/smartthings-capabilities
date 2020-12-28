@@ -1,7 +1,7 @@
 {
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_HEATING_TEMPERATURE",
+            "label": "{{i18n.attributes.heatingSetpoint.label}}",
             "displayType": "slider",
             "slider": {
                 "range": [
@@ -16,7 +16,7 @@
             }
         },
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_COOLING_TEMPERATURE",
+            "label": "{{i18n.attributes.coolingSetpoint.label}}",
             "displayType": "slider",
             "slider": {
                 "range": [
@@ -31,51 +31,51 @@
             }
         },
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_STATE",
+            "label": "{{i18n.attributes.thermostatOperatingState.label}}",
             "displayType": "state",
             "state": {
                 "label": "{{thermostatOperatingState.value}}",
                 "alternatives": [
                     {
                         "key": "cooling",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_COOLING_M_THERMOSTAT_STATE",
+                        "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.cooling.label}}",
                         "type": "active"
                     },
                     {
                         "key": "fan only",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_FAN_ONLY_M_THERMOSTAT_STATE",
+                        "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.fan only.label}}",
                         "type": "active"
                     },
                     {
                         "key": "heating",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_HEATING_M_THERMOSTAT_STATE",
+                        "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.heating.label}}",
                         "type": "active"
                     },
                     {
                         "key": "idle",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_IDLE_M_THERMOSTAT_STATE",
+                        "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.idle.label}}",
                         "type": "active"
                     },
                     {
                         "key": "pending cool",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_PENDING_COOL_M_THERMOSTAT_STATE",
+                        "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.pending cool.label}}",
                         "type": "active"
                     },
                     {
                         "key": "pending heat",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_PENDING_HEAT_M_THERMOSTAT_STATE",
+                        "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.pending heat.label}}",
                         "type": "active"
                     },
                     {
                         "key": "vent economizer",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_VENT_ECONOMIZER_M_THERMOSTAT_STATE",
+                        "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.vent economizer.label}}",
                         "type": "active"
                     }
                 ]
             }
         },
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_MODE",
+            "label": "{{i18n.attributes.thermostatMode.label}}",
             "displayType": "list",
             "list": {
                 "command": {
@@ -88,7 +88,7 @@
                         },
                         {
                             "key": "auto",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_AUTO",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.auto.label}}",
                             "type": "active"
                         },
                         {
@@ -138,7 +138,7 @@
                         },
                         {
                             "key": "cool",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_COOL_ABB",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.cool.label}}",
                             "type": "active"
                         },
                         {
@@ -158,17 +158,17 @@
                         },
                         {
                             "key": "eco",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_ECO",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.eco.label}}",
                             "type": "active"
                         },
                         {
                             "key": "emergency heat",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_EMERGENCY_ABB",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.emergencyheat.label}}",
                             "type": "active"
                         },
                         {
                             "key": "emergencyheat",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_EMERGENCY_ABB",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.emergencyheat.label}}",
                             "type": "active"
                         },
                         {
@@ -203,7 +203,7 @@
                         },
                         {
                             "key": "heat",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_HEAT_ABB",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.heat.label}}",
                             "type": "active"
                         },
                         {
@@ -233,7 +233,7 @@
                         },
                         {
                             "key": "off",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_OFF",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.off.label}}",
                             "type": "active"
                         },
                         {
@@ -248,12 +248,12 @@
                         },
                         {
                             "key": "rush hour",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_RUSH_HOUR",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.rushhour.label}}",
                             "type": "active"
                         },
                         {
                             "key": "rushhour",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_RUSH_HOUR",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.rushhour.label}}",
                             "type": "active"
                         },
                         {
@@ -279,7 +279,7 @@
                         },
                         {
                             "key": "auto",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_AUTO",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.auto.label}}",
                             "type": "active"
                         },
                         {
@@ -329,7 +329,7 @@
                         },
                         {
                             "key": "cool",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_COOL_ABB",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.cool.label}}",
                             "type": "active"
                         },
                         {
@@ -349,17 +349,17 @@
                         },
                         {
                             "key": "eco",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_ECO",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.eco.label}}",
                             "type": "active"
                         },
                         {
                             "key": "emergency heat",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_EMERGENCY_ABB",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.emergencyheat.label}}",
                             "type": "active"
                         },
                         {
                             "key": "emergencyheat",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_EMERGENCY_ABB",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.emergencyheat.label}}",
                             "type": "active"
                         },
                         {
@@ -394,7 +394,7 @@
                         },
                         {
                             "key": "heat",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_HEAT_ABB",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.heat.label}}",
                             "type": "active"
                         },
                         {
@@ -424,7 +424,7 @@
                         },
                         {
                             "key": "off",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_OFF",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.off.label}}",
                             "type": "active"
                         },
                         {
@@ -439,12 +439,12 @@
                         },
                         {
                             "key": "rush hour",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_RUSH_HOUR",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.rushhour.label}}",
                             "type": "active"
                         },
                         {
                             "key": "rushhour",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_RUSH_HOUR",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.rushhour.label}}",
                             "type": "active"
                         },
                         {
@@ -462,7 +462,7 @@
             }
         },
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_FAN_MODE",
+            "label": "{{i18n.attributes.thermostatFanMode.label}}",
             "displayType": "list",
             "list": {
                 "command": {
@@ -470,22 +470,22 @@
                     "alternatives": [
                         {
                             "key": "on",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_ON",
+                            "value": "{{i18n.commands.setThermostatFanMode.arguments.mode.i18n.on.label}}",
                             "type": "active"
                         },
                         {
                             "key": "auto",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_AUTO",
+                            "value": "{{i18n.commands.setThermostatFanMode.arguments.mode.i18n.auto.label}}",
                             "type": "active"
                         },
                         {
                             "key": "circulate",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_CIRCULATE",
+                            "value": "{{i18n.commands.setThermostatFanMode.arguments.mode.i18n.circulate.label}}",
                             "type": "active"
                         },
                         {
                             "key": "followschedule",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_SCHEDULE",
+                            "value": "{{i18n.commands.setThermostatFanMode.arguments.mode.i18n.followschedule.label}}",
                             "type": "active"
                         },
                         {
@@ -531,22 +531,22 @@
                     "alternatives": [
                         {
                             "key": "on",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_ON",
+                            "value": "{{i18n.attributes.thermostatFanMode.i18n.value.on.label}}",
                             "type": "active"
                         },
                         {
                             "key": "auto",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_AUTO",
+                            "value": "{{i18n.attributes.thermostatFanMode.i18n.value.auto.label}}",
                             "type": "active"
                         },
                         {
                             "key": "circulate",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_CIRCULATE",
+                            "value": "{{i18n.attributes.thermostatFanMode.i18n.value.circulate.label}}",
                             "type": "active"
                         },
                         {
                             "key": "followschedule",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_SCHEDULE",
+                            "value": "{{i18n.attributes.thermostatFanMode.i18n.value.followschedule.label}}",
                             "type": "active"
                         },
                         {
@@ -587,25 +587,12 @@
                     ]
                 }
             }
-        },
-        {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_PHEADER_SET_TEMPERATURE",
-            "displayType": "slider",
-            "slider": {
-                "range": [
-                    0,
-                    40
-                ],
-                "unit": "thermostatSetpoint.unit",
-                "value": "thermostatSetpoint.value",
-                "valueType": "number"
-            }
         }
     ],
     "automation": {
         "conditions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_HEATING_TEMPERATURE",
+                "label": "{{i18n.attributes.heatingSetpoint.label}}",
                 "displayType": "numberField",
                 "numberField": {
                     "value": "heatingSetpoint.value",
@@ -618,7 +605,7 @@
                 }
             },
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_COOLING_TEMPERATURE",
+                "label": "{{i18n.attributes.coolingSetpoint.label}}",
                 "displayType": "numberField",
                 "numberField": {
                     "value": "coolingSetpoint.value",
@@ -631,51 +618,52 @@
                 }
             },
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_STATE",
+                "label": "{{i18n.attributes.thermostatOperatingState.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "cooling",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_COOLING_M_THERMOSTAT_STATE",
+                            "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.cooling.label}}",
                             "type": "active"
                         },
                         {
                             "key": "fan only",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_FAN_ONLY_M_THERMOSTAT_STATE",
+                            "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.fan only.label}}",
                             "type": "active"
                         },
                         {
                             "key": "heating",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_HEATING_M_THERMOSTAT_STATE",
+                            "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.heating.label}}",
                             "type": "active"
                         },
                         {
                             "key": "idle",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_IDLE_M_THERMOSTAT_STATE",
+                            "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.idle.label}}",
                             "type": "active"
                         },
                         {
                             "key": "pending cool",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_PENDING_COOL_M_THERMOSTAT_STATE",
+                            "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.pending cool.label}}",
                             "type": "active"
                         },
                         {
                             "key": "pending heat",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_PENDING_HEAT_M_THERMOSTAT_STATE",
+                            "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.pending heat.label}}",
                             "type": "active"
                         },
                         {
                             "key": "vent economizer",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_VENT_ECONOMIZER_M_THERMOSTAT_STATE",
+                            "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.vent economizer.label}}",
                             "type": "active"
                         }
                     ],
-                    "value": "thermostatOperatingState.value"
+                    "value": "thermostatOperatingState.value",
+                    "multiSelection": false
                 }
             },
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_MODE",
+                "label": "{{i18n.attributes.thermostatMode.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
@@ -686,7 +674,7 @@
                         },
                         {
                             "key": "auto",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_AUTO",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.auto.label}}",
                             "type": "active"
                         },
                         {
@@ -736,7 +724,7 @@
                         },
                         {
                             "key": "cool",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_COOL_ABB",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.cool.label}}",
                             "type": "active"
                         },
                         {
@@ -756,17 +744,17 @@
                         },
                         {
                             "key": "eco",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_ECO",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.eco.label}}",
                             "type": "active"
                         },
                         {
                             "key": "emergency heat",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_EMERGENCY_ABB",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.emergencyheat.label}}",
                             "type": "active"
                         },
                         {
                             "key": "emergencyheat",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_EMERGENCY_ABB",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.emergencyheat.label}}",
                             "type": "active"
                         },
                         {
@@ -801,7 +789,7 @@
                         },
                         {
                             "key": "heat",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_HEAT_ABB",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.heat.label}}",
                             "type": "active"
                         },
                         {
@@ -831,7 +819,7 @@
                         },
                         {
                             "key": "off",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_OFF",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.off.label}}",
                             "type": "active"
                         },
                         {
@@ -846,12 +834,12 @@
                         },
                         {
                             "key": "rush hour",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_RUSH_HOUR",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.rushhour.label}}",
                             "type": "active"
                         },
                         {
                             "key": "rushhour",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_RUSH_HOUR",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.rushhour.label}}",
                             "type": "active"
                         },
                         {
@@ -866,17 +854,19 @@
                         }
                     ],
                     "supportedValues": "supportedThermostatModes.value",
-                    "value": "thermostatMode.value"
+                    "value": "thermostatMode.value",
+                    "multiSelection": false
                 }
             }
         ],
         "actions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_HEATING_TEMPERATURE",
+                "label": "{{i18n.attributes.heatingSetpoint.label}}",
                 "displayType": "numberField",
                 "numberField": {
                     "command": "setHeatingSetpoint",
                     "argumentType": "number",
+                    "unit": "heatingSetpoint.unit",
                     "range": [
                         0,
                         40
@@ -884,11 +874,12 @@
                 }
             },
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_COOLING_TEMPERATURE",
+                "label": "{{i18n.attributes.coolingSetpoint.label}}",
                 "displayType": "numberField",
                 "numberField": {
                     "command": "setCoolingSetpoint",
                     "argumentType": "number",
+                    "unit": "coolingSetpoint.unit",
                     "range": [
                         0,
                         40
@@ -896,7 +887,7 @@
                 }
             },
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_MODE",
+                "label": "{{i18n.attributes.thermostatMode.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
@@ -907,7 +898,7 @@
                         },
                         {
                             "key": "auto",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_AUTO",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.auto.label}}",
                             "type": "active"
                         },
                         {
@@ -957,7 +948,7 @@
                         },
                         {
                             "key": "cool",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_COOL_ABB",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.cool.label}}",
                             "type": "active"
                         },
                         {
@@ -977,17 +968,17 @@
                         },
                         {
                             "key": "eco",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_ECO",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.eco.label}}",
                             "type": "active"
                         },
                         {
                             "key": "emergency heat",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_EMERGENCY_ABB",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.emergencyheat.label}}",
                             "type": "active"
                         },
                         {
                             "key": "emergencyheat",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_EMERGENCY_ABB",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.emergencyheat.label}}",
                             "type": "active"
                         },
                         {
@@ -1022,7 +1013,7 @@
                         },
                         {
                             "key": "heat",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_HEAT_ABB",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.heat.label}}",
                             "type": "active"
                         },
                         {
@@ -1052,7 +1043,7 @@
                         },
                         {
                             "key": "off",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_OFF",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.off.label}}",
                             "type": "active"
                         },
                         {
@@ -1067,12 +1058,12 @@
                         },
                         {
                             "key": "rush hour",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_RUSH_HOUR",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.rushhour.label}}",
                             "type": "active"
                         },
                         {
                             "key": "rushhour",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_RUSH_HOUR",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.rushhour.label}}",
                             "type": "active"
                         },
                         {
@@ -1091,28 +1082,28 @@
                 }
             },
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_FAN_MODE",
+                "label": "{{i18n.attributes.thermostatFanMode.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "on",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TBOPT_ON",
+                            "value": "{{i18n.commands.setThermostatFanMode.arguments.mode.i18n.on.label}}",
                             "type": "active"
                         },
                         {
                             "key": "auto",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_AUTO",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.auto.label}}",
                             "type": "active"
                         },
                         {
                             "key": "circulate",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_CIRCULATE",
+                            "value": "{{i18n.commands.setThermostatFanMode.arguments.mode.i18n.circulate.label}}",
                             "type": "active"
                         },
                         {
                             "key": "followschedule",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_SCHEDULE",
+                            "value": "{{i18n.commands.setThermostatFanMode.arguments.mode.i18n.followschedule.label}}",
                             "type": "active"
                         },
                         {

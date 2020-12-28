@@ -1,7 +1,7 @@
 {
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_PHEADER_SET_TEMPERATURE",
+            "label": "{{i18n.label}}",
             "displayType": "slider",
             "slider": {
                 "range": [

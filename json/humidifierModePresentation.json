@@ -6,22 +6,22 @@
                 "alternatives": [
                     {
                         "key": "auto",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_AUTO_M_HUMIDITY",
+                        "value": "{{i18n.attributes.humidifierMode.i18n.value.auto.label}}",
                         "type": "active"
                     },
                     {
                         "key": "low",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_LOW_M_HUMIDITY",
+                        "value": "{{i18n.attributes.humidifierMode.i18n.value.low.label}}",
                         "type": "active"
                     },
                     {
                         "key": "medium",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_MEDIUM_M_HUMIDITY",
+                        "value": "{{i18n.attributes.humidifierMode.i18n.value.medium.label}}",
                         "type": "active"
                     },
                     {
                         "key": "high",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_HIGH_M_HUMIDITY",
+                        "value": "{{i18n.attributes.humidifierMode.i18n.value.high.label}}",
                         "type": "active"
                     }
                 ]
@@ -32,7 +32,7 @@
     },
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_HUMIDIFIER_MODE",
+            "label": "{{i18n.label}}",
             "displayType": "list",
             "list": {
                 "command": {
@@ -40,22 +40,22 @@
                     "alternatives": [
                         {
                             "key": "auto",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_AUTO_M_HUMIDITY",
+                            "value": "{{i18n.commands.setHumidifierMode.arguments.humidifierMode.i18n.auto.label}}",
                             "type": "active"
                         },
                         {
                             "key": "low",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_LOW_M_HUMIDITY",
+                            "value": "{{i18n.commands.setHumidifierMode.arguments.humidifierMode.i18n.low.label}}",
                             "type": "active"
                         },
                         {
                             "key": "medium",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_MEDIUM_M_HUMIDITY",
+                            "value": "{{i18n.commands.setHumidifierMode.arguments.humidifierMode.i18n.medium.label}}",
                             "type": "active"
                         },
                         {
                             "key": "high",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_HIGH_M_HUMIDITY",
+                            "value": "{{i18n.commands.setHumidifierMode.arguments.humidifierMode.i18n.high.label}}",
                             "type": "active"
                         }
                     ]
@@ -65,22 +65,22 @@
                     "alternatives": [
                         {
                             "key": "auto",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_AUTO_M_HUMIDITY",
+                            "value": "{{i18n.attributes.humidifierMode.i18n.value.auto.label}}",
                             "type": "active"
                         },
                         {
                             "key": "low",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_LOW_M_HUMIDITY",
+                            "value": "{{i18n.attributes.humidifierMode.i18n.value.low.label}}",
                             "type": "active"
                         },
                         {
                             "key": "medium",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_MEDIUM_M_HUMIDITY",
+                            "value": "{{i18n.attributes.humidifierMode.i18n.value.medium.label}}",
                             "type": "active"
                         },
                         {
                             "key": "high",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_HIGH_M_HUMIDITY",
+                            "value": "{{i18n.attributes.humidifierMode.i18n.value.high.label}}",
                             "type": "active"
                         }
                     ]
@@ -91,59 +91,60 @@
     "automation": {
         "conditions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_HUMIDIFIER_MODE",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "auto",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_AUTO_M_HUMIDITY",
+                            "value": "{{i18n.attributes.humidifierMode.i18n.value.auto.label}}",
                             "type": "active"
                         },
                         {
                             "key": "low",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_LOW_M_HUMIDITY",
+                            "value": "{{i18n.attributes.humidifierMode.i18n.value.low.label}}",
                             "type": "active"
                         },
                         {
                             "key": "medium",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_MEDIUM_M_HUMIDITY",
+                            "value": "{{i18n.attributes.humidifierMode.i18n.value.medium.label}}",
                             "type": "active"
                         },
                         {
                             "key": "high",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_HIGH_M_HUMIDITY",
+                            "value": "{{i18n.attributes.humidifierMode.i18n.value.high.label}}",
                             "type": "active"
                         }
                     ],
-                    "value": "humidifierMode.value"
+                    "value": "humidifierMode.value",
+                    "multiSelection": false
                 }
             }
         ],
         "actions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_HUMIDIFIER_MODE",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "auto",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_AUTO_M_HUMIDITY",
+                            "value": "{{i18n.commands.setHumidifierMode.arguments.humidifierMode.i18n.auto.label}}",
                             "type": "active"
                         },
                         {
                             "key": "low",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_LOW_M_HUMIDITY",
+                            "value": "{{i18n.commands.setHumidifierMode.arguments.humidifierMode.i18n.low.label}}",
                             "type": "active"
                         },
                         {
                             "key": "medium",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_MEDIUM_M_HUMIDITY",
+                            "value": "{{i18n.commands.setHumidifierMode.arguments.humidifierMode.i18n.medium.label}}",
                             "type": "active"
                         },
                         {
                             "key": "high",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_HIGH_M_HUMIDITY",
+                            "value": "{{i18n.commands.setHumidifierMode.arguments.humidifierMode.i18n.high.label}}",
                             "type": "active"
                         }
                     ],

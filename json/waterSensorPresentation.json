@@ -6,12 +6,12 @@
                 "alternatives": [
                     {
                         "key": "wet",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_WET",
+                        "value": "{{i18n.attributes.water.i18n.value.wet.label}}",
                         "type": "active"
                     },
                     {
                         "key": "dry",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_DRY",
+                        "value": "{{i18n.attributes.water.i18n.value.dry.label}}",
                         "type": "inactive"
                     }
                 ]
@@ -22,19 +22,19 @@
     },
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_WATER_SENSOR",
+            "label": "{{i18n.label}}",
             "displayType": "state",
             "state": {
                 "label": "{{water.value}}",
                 "alternatives": [
                     {
                         "key": "wet",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_WET",
+                        "value": "{{i18n.attributes.water.i18n.value.wet.label}}",
                         "type": "active"
                     },
                     {
                         "key": "dry",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_DRY",
+                        "value": "{{i18n.attributes.water.i18n.value.dry.label}}",
                         "type": "inactive"
                     }
                 ]
@@ -44,22 +44,23 @@
     "automation": {
         "conditions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_WATER_SENSOR",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "wet",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_WET",
+                            "value": "{{i18n.attributes.water.i18n.value.wet.label}}",
                             "type": "active"
                         },
                         {
                             "key": "dry",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_DRY",
+                            "value": "{{i18n.attributes.water.i18n.value.dry.label}}",
                             "type": "inactive"
                         }
                     ],
-                    "value": "water.value"
+                    "value": "water.value",
+                    "multiSelection": false
                 }
             }
         ],

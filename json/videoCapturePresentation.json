@@ -1,7 +1,7 @@
 {
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_IDS_MEMO_OPT_RECORD",
+            "label": "{{i18n.label}}",
             "displayType": "pushButton",
             "pushButton": {
                 "command": "capture"
@@ -12,13 +12,13 @@
         "conditions": [],
         "actions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_IDS_MEMO_OPT_RECORD",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "capture",
-                            "value": "___PO_CODE_SMARTTHINGS_IDS_MEMO_OPT_RECORD",
+                            "value": "{{i18n.label}}",
                             "type": "active"
                         }
                     ]

@@ -1,7 +1,7 @@
 {
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_OBJECT_SENSOR",
+            "label": "{{i18n.label}}",
             "displayType": "state",
             "state": {
                 "label": "{{detected.value.value}}",
@@ -13,24 +13,24 @@
                     },
                     {
                         "key": "pet",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_ANIMAL",
+                        "value": "{{i18n.attributes.detected.i18n.value.pet.label}}",
                         "type": "active"
                     },
                     {
                         "key": "parcel",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_PACKAGE",
+                        "value": "{{i18n.attributes.detected.i18n.value.parcel.label}}",
                         "type": "active"
                     },
                     {
                         "key": "none",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_NONE",
+                        "value": "{{i18n.attributes.detected.i18n.value.none.label}}",
                         "type": "active"
                     }
                 ]
             }
         },
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_OBJECT_SENSOR",
+            "label": "{{i18n.label}}",
             "displayType": "state",
             "state": {
                 "label": "{{detected.value.qty}}"
@@ -40,23 +40,24 @@
     "automation": {
         "conditions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_OBJECT_SENSOR",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "human",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_PERSON_DETECTED",
+                            "value": "{{i18n.attributes.detected.i18n.value.human.label}}",
                             "type": "active"
                         },
                         {
                             "key": "human_0",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_NO_PERSON",
+                            "value": "{{i18n.attributes.detected.i18n.value.human_0.label}}",
                             "type": "active"
                         }
                     ],
                     "supportedValues": "supportedValues.value",
-                    "value": "detected.value.value"
+                    "value": "detected.value.value",
+                    "multiSelection": false
                 }
             }
         ],

@@ -6,12 +6,12 @@
                 "alternatives": [
                     {
                         "key": "notDriving",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_SBODY_NOT_DRIVING",
+                        "value": "{{i18n.attributes.drivingStatus.i18n.value.notDriving.label}}",
                         "type": "inactive"
                     },
                     {
                         "key": "driving",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_SBODY_DRIVING",
+                        "value": "{{i18n.attributes.drivingStatus.i18n.value.driving.label}}",
                         "type": "active"
                     }
                 ]
@@ -22,7 +22,7 @@
     },
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SACP_HEADER_DRIVING_STATUS",
+            "label": "{{i18n.label}}",
             "displayType": "list",
             "list": {
                 "state": {
@@ -30,12 +30,12 @@
                     "alternatives": [
                         {
                             "key": "notDriving",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_SBODY_NOT_DRIVING",
+                            "value": "{{i18n.attributes.drivingStatus.i18n.value.notDriving.label}}",
                             "type": "inactive"
                         },
                         {
                             "key": "driving",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_SBODY_DRIVING",
+                            "value": "{{i18n.attributes.drivingStatus.i18n.value.driving.label}}",
                             "type": "active"
                         }
                     ]
@@ -46,22 +46,23 @@
     "automation": {
         "conditions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SACP_HEADER_DRIVING_STATUS",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "notDriving",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_SBODY_NOT_DRIVING",
+                            "value": "{{i18n.attributes.drivingStatus.i18n.value.notDriving.label}}",
                             "type": "inactive"
                         },
                         {
                             "key": "driving",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SACP_SBODY_DRIVING",
+                            "value": "{{i18n.attributes.drivingStatus.i18n.value.driving.label}}",
                             "type": "active"
                         }
                     ],
-                    "value": "drivingStatus.value"
+                    "value": "drivingStatus.value",
+                    "multiSelection": false
                 }
             }
         ],

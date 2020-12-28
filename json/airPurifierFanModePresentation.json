@@ -1,7 +1,7 @@
 {
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SACP_HEADER_AIR_PURIFIER_FAN_MODE",
+            "label": "{{i18n.label}}",
             "displayType": "list",
             "list": {
                 "command": {
@@ -9,37 +9,37 @@
                     "alternatives": [
                         {
                             "key": "auto",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_AUTO_M_AIR_PURIFIER",
+                            "value": "{{i18n.commands.setAirPurifierFanMode.arguments.airPurifierFanMode.i18n.auto.label}}",
                             "type": "active"
                         },
                         {
                             "key": "sleep",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_SLEEP_M_AIR_PURIFIER",
+                            "value": "{{i18n.commands.setAirPurifierFanMode.arguments.airPurifierFanMode.i18n.sleep.label}}",
                             "type": "active"
                         },
                         {
                             "key": "low",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_LOW_M_AIR_PURIFIER",
+                            "value": "{{i18n.commands.setAirPurifierFanMode.arguments.airPurifierFanMode.i18n.low.label}}",
                             "type": "active"
                         },
                         {
                             "key": "medium",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_MEDIUM_M_AIR_PURIFIER",
+                            "value": "{{i18n.commands.setAirPurifierFanMode.arguments.airPurifierFanMode.i18n.medium.label}}",
                             "type": "active"
                         },
                         {
                             "key": "high",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_HIGH_M_AIR_PURIFIER",
+                            "value": "{{i18n.commands.setAirPurifierFanMode.arguments.airPurifierFanMode.i18n.high.label}}",
                             "type": "active"
                         },
                         {
                             "key": "quiet",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_QUIET_M_AIR_PURIFIER",
+                            "value": "{{i18n.commands.setAirPurifierFanMode.arguments.airPurifierFanMode.i18n.quiet.label}}",
                             "type": "active"
                         },
                         {
                             "key": "windFree",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_WIND_FREE_M_AIR_PURIFIER",
+                            "value": "{{i18n.commands.setAirPurifierFanMode.arguments.airPurifierFanMode.i18n.windFree.label}}",
                             "type": "active"
                         }
                     ],
@@ -50,37 +50,37 @@
                     "alternatives": [
                         {
                             "key": "auto",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_AUTO_M_AIR_PURIFIER",
+                            "value": "{{i18n.attributes.airPurifierFanMode.i18n.value.auto.label}}",
                             "type": "active"
                         },
                         {
                             "key": "sleep",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_SLEEP_M_AIR_PURIFIER",
+                            "value": "{{i18n.attributes.airPurifierFanMode.i18n.value.sleep.label}}",
                             "type": "active"
                         },
                         {
                             "key": "low",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_LOW_M_AIR_PURIFIER",
+                            "value": "{{i18n.attributes.airPurifierFanMode.i18n.value.low.label}}",
                             "type": "active"
                         },
                         {
                             "key": "medium",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_MEDIUM_M_AIR_PURIFIER",
+                            "value": "{{i18n.attributes.airPurifierFanMode.i18n.value.medium.label}}",
                             "type": "active"
                         },
                         {
                             "key": "high",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_HIGH_M_AIR_PURIFIER",
+                            "value": "{{i18n.attributes.airPurifierFanMode.i18n.value.high.label}}",
                             "type": "active"
                         },
                         {
                             "key": "quiet",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_QUIET_M_AIR_PURIFIER",
+                            "value": "{{i18n.attributes.airPurifierFanMode.i18n.value.quiet.label}}",
                             "type": "active"
                         },
                         {
                             "key": "windFree",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_WIND_FREE_M_AIR_PURIFIER",
+                            "value": "{{i18n.attributes.airPurifierFanMode.i18n.value.windFree.label}}",
                             "type": "active"
                         }
                     ]
@@ -91,90 +91,91 @@
     "automation": {
         "conditions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SACP_HEADER_AIR_PURIFIER_FAN_MODE",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "auto",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_AUTO_M_AIR_PURIFIER",
+                            "value": "{{i18n.attributes.airPurifierFanMode.i18n.value.auto.label}}",
                             "type": "active"
                         },
                         {
                             "key": "sleep",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_SLEEP_M_AIR_PURIFIER",
+                            "value": "{{i18n.attributes.airPurifierFanMode.i18n.value.sleep.label}}",
                             "type": "active"
                         },
                         {
                             "key": "low",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_LOW_M_AIR_PURIFIER",
+                            "value": "{{i18n.attributes.airPurifierFanMode.i18n.value.low.label}}",
                             "type": "active"
                         },
                         {
                             "key": "medium",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_MEDIUM_M_AIR_PURIFIER",
+                            "value": "{{i18n.attributes.airPurifierFanMode.i18n.value.medium.label}}",
                             "type": "active"
                         },
                         {
                             "key": "high",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_HIGH_M_AIR_PURIFIER",
+                            "value": "{{i18n.attributes.airPurifierFanMode.i18n.value.high.label}}",
                             "type": "active"
                         },
                         {
                             "key": "quiet",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_QUIET_M_AIR_PURIFIER",
+                            "value": "{{i18n.attributes.airPurifierFanMode.i18n.value.quiet.label}}",
                             "type": "active"
                         },
                         {
                             "key": "windFree",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_WIND_FREE_M_AIR_PURIFIER",
+                            "value": "{{i18n.attributes.airPurifierFanMode.i18n.value.windFree.label}}",
                             "type": "active"
                         }
                     ],
                     "supportedValues": "supportedAirPurifierFanModes.value",
-                    "value": "airPurifierFanMode.value"
+                    "value": "airPurifierFanMode.value",
+                    "multiSelection": false
                 }
             }
         ],
         "actions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SACP_HEADER_AIR_PURIFIER_FAN_MODE",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "auto",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_AUTO_M_AIR_PURIFIER",
+                            "value": "{{i18n.commands.setAirPurifierFanMode.arguments.airPurifierFanMode.i18n.auto.label}}",
                             "type": "active"
                         },
                         {
                             "key": "sleep",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_SLEEP_M_AIR_PURIFIER",
+                            "value": "{{i18n.commands.setAirPurifierFanMode.arguments.airPurifierFanMode.i18n.sleep.label}}",
                             "type": "active"
                         },
                         {
                             "key": "low",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_LOW_M_AIR_PURIFIER",
+                            "value": "{{i18n.commands.setAirPurifierFanMode.arguments.airPurifierFanMode.i18n.low.label}}",
                             "type": "active"
                         },
                         {
                             "key": "medium",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_MEDIUM_M_AIR_PURIFIER",
+                            "value": "{{i18n.commands.setAirPurifierFanMode.arguments.airPurifierFanMode.i18n.medium.label}}",
                             "type": "active"
                         },
                         {
                             "key": "high",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_HIGH_M_AIR_PURIFIER",
+                            "value": "{{i18n.commands.setAirPurifierFanMode.arguments.airPurifierFanMode.i18n.high.label}}",
                             "type": "active"
                         },
                         {
                             "key": "quiet",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_QUIET_M_AIR_PURIFIER",
+                            "value": "{{i18n.commands.setAirPurifierFanMode.arguments.airPurifierFanMode.i18n.quiet.label}}",
                             "type": "active"
                         },
                         {
                             "key": "windFree",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_WIND_FREE_M_AIR_PURIFIER",
+                            "value": "{{i18n.commands.setAirPurifierFanMode.arguments.airPurifierFanMode.i18n.windFree.label}}",
                             "type": "active"
                         }
                     ],

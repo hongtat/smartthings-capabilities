@@ -6,27 +6,27 @@
                 "alternatives": [
                     {
                         "key": "good",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_GOOD",
+                        "value": "{{i18n.attributes.consumableStatus.i18n.value.good.label}}",
                         "type": "active"
                     },
                     {
                         "key": "maintenance_required",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_MAINTENANCE_REQUIRED",
+                        "value": "{{i18n.attributes.consumableStatus.i18n.value.maintenance_required.label}}",
                         "type": "active"
                     },
                     {
                         "key": "missing",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_MISSING",
+                        "value": "{{i18n.attributes.consumableStatus.i18n.value.missing.label}}",
                         "type": "active"
                     },
                     {
                         "key": "order",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ORDER",
+                        "value": "{{i18n.attributes.consumableStatus.i18n.value.order.label}}",
                         "type": "active"
                     },
                     {
                         "key": "replace",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_REPLACE",
+                        "value": "{{i18n.attributes.consumableStatus.i18n.value.replace.label}}",
                         "type": "active"
                     }
                 ]
@@ -37,7 +37,7 @@
     },
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_CONSUMABLE_ITEM",
+            "label": "{{i18n.label}}",
             "displayType": "list",
             "list": {
                 "command": {
@@ -45,27 +45,27 @@
                     "alternatives": [
                         {
                             "key": "good",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_GOOD",
+                            "value": "{{i18n.commands.setConsumableStatus.arguments.status.i18n.good.label}}",
                             "type": "active"
                         },
                         {
                             "key": "maintenance_required",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_MAINTENANCE_REQUIRED",
+                            "value": "{{i18n.commands.setConsumableStatus.arguments.status.i18n.maintenance_required.label}}",
                             "type": "active"
                         },
                         {
                             "key": "missing",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_MISSING",
+                            "value": "{{i18n.commands.setConsumableStatus.arguments.status.i18n.missing.label}}",
                             "type": "active"
                         },
                         {
                             "key": "order",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ORDER",
+                            "value": "{{i18n.commands.setConsumableStatus.arguments.status.i18n.order.label}}",
                             "type": "active"
                         },
                         {
                             "key": "replace",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_REPLACE",
+                            "value": "{{i18n.commands.setConsumableStatus.arguments.status.i18n.replace.label}}",
                             "type": "active"
                         }
                     ]
@@ -75,27 +75,27 @@
                     "alternatives": [
                         {
                             "key": "good",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_GOOD",
+                            "value": "{{i18n.attributes.consumableStatus.i18n.value.good.label}}",
                             "type": "active"
                         },
                         {
                             "key": "maintenance_required",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_MAINTENANCE_REQUIRED",
+                            "value": "{{i18n.attributes.consumableStatus.i18n.value.maintenance_required.label}}",
                             "type": "active"
                         },
                         {
                             "key": "missing",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_MISSING",
+                            "value": "{{i18n.attributes.consumableStatus.i18n.value.missing.label}}",
                             "type": "active"
                         },
                         {
                             "key": "order",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ORDER",
+                            "value": "{{i18n.attributes.consumableStatus.i18n.value.order.label}}",
                             "type": "active"
                         },
                         {
                             "key": "replace",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_REPLACE",
+                            "value": "{{i18n.attributes.consumableStatus.i18n.value.replace.label}}",
                             "type": "active"
                         }
                     ]
@@ -106,69 +106,70 @@
     "automation": {
         "conditions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_CONSUMABLE_ITEM",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "good",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_GOOD",
+                            "value": "{{i18n.attributes.consumableStatus.i18n.value.good.label}}",
                             "type": "active"
                         },
                         {
                             "key": "maintenance_required",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_MAINTENANCE_REQUIRED",
+                            "value": "{{i18n.attributes.consumableStatus.i18n.value.maintenance_required.label}}",
                             "type": "active"
                         },
                         {
                             "key": "missing",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_MISSING",
+                            "value": "{{i18n.attributes.consumableStatus.i18n.value.missing.label}}",
                             "type": "active"
                         },
                         {
                             "key": "order",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ORDER",
+                            "value": "{{i18n.attributes.consumableStatus.i18n.value.order.label}}",
                             "type": "active"
                         },
                         {
                             "key": "replace",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_REPLACE",
+                            "value": "{{i18n.attributes.consumableStatus.i18n.value.replace.label}}",
                             "type": "active"
                         }
                     ],
-                    "value": "consumableStatus.value"
+                    "value": "consumableStatus.value",
+                    "multiSelection": false
                 }
             }
         ],
         "actions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_CONSUMABLE_ITEM",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "good",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_GOOD",
+                            "value": "{{i18n.commands.setConsumableStatus.arguments.status.i18n.good.label}}",
                             "type": "active"
                         },
                         {
                             "key": "maintenance_required",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_MAINTENANCE_REQUIRED",
+                            "value": "{{i18n.commands.setConsumableStatus.arguments.status.i18n.maintenance_required.label}}",
                             "type": "active"
                         },
                         {
                             "key": "missing",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_MISSING",
+                            "value": "{{i18n.commands.setConsumableStatus.arguments.status.i18n.missing.label}}",
                             "type": "active"
                         },
                         {
                             "key": "order",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ORDER",
+                            "value": "{{i18n.commands.setConsumableStatus.arguments.status.i18n.order.label}}",
                             "type": "active"
                         },
                         {
                             "key": "replace",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_REPLACE",
+                            "value": "{{i18n.commands.setConsumableStatus.arguments.status.i18n.replace.label}}",
                             "type": "active"
                         }
                     ],

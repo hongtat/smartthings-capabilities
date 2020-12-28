@@ -1,19 +1,19 @@
 {
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_MEDIA_TRACK_CONTROL",
+            "label": "{{i18n.label}}",
             "displayType": "list",
             "list": {
                 "command": {
                     "alternatives": [
                         {
                             "key": "nextTrack",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_NEXT",
+                            "value": "{{i18n.commands.nextTrack.label}}",
                             "type": "active"
                         },
                         {
                             "key": "previousTrack",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_PREVIOUS",
+                            "value": "{{i18n.commands.previousTrack.label}}",
                             "type": "active"
                         }
                     ]
@@ -25,18 +25,18 @@
         "conditions": [],
         "actions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_MEDIA_TRACK_CONTROL",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "nextTrack",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_NEXT",
+                            "value": "{{i18n.commands.nextTrack.label}}",
                             "type": "active"
                         },
                         {
                             "key": "previousTrack",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_PREVIOUS",
+                            "value": "{{i18n.commands.previousTrack.label}}",
                             "type": "active"
                         }
                     ]

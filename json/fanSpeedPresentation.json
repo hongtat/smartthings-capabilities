@@ -6,27 +6,27 @@
                 "alternatives": [
                     {
                         "key": "0",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OFF_T_SAMSUNG_CONNECT",
+                        "value": "{{i18n.attributes.fanSpeed.i18n.value.0.label}}",
                         "type": "inactive"
                     },
                     {
                         "key": "1",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_LOW_M_FAN_SPEED",
+                        "value": "{{i18n.attributes.fanSpeed.i18n.value.1.label}}",
                         "type": "active"
                     },
                     {
                         "key": "2",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_MEDIUM_M_FAN_SPEED",
+                        "value": "{{i18n.attributes.fanSpeed.i18n.value.2.label}}",
                         "type": "active"
                     },
                     {
                         "key": "3",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_HIGH_M_FAN_SPEED",
+                        "value": "{{i18n.attributes.fanSpeed.i18n.value.3.label}}",
                         "type": "active"
                     },
                     {
                         "key": "4",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_MAX_M_SPEED",
+                        "value": "{{i18n.attributes.fanSpeed.i18n.value.4.label}}",
                         "type": "active"
                     }
                 ]
@@ -37,7 +37,7 @@
     },
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_FAN_SPEED",
+            "label": "{{i18n.label}}",
             "displayType": "list",
             "list": {
                 "command": {
@@ -45,27 +45,27 @@
                     "alternatives": [
                         {
                             "key": "0",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OFF_T_SAMSUNG_CONNECT",
+                            "value": "{{i18n.commands.setFanSpeed.arguments.speed.i18n.0.label}}",
                             "type": "inactive"
                         },
                         {
                             "key": "1",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_LOW_M_FAN_SPEED",
+                            "value": "{{i18n.commands.setFanSpeed.arguments.speed.i18n.1.label}}",
                             "type": "active"
                         },
                         {
                             "key": "2",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_MEDIUM_M_FAN_SPEED",
+                            "value": "{{i18n.commands.setFanSpeed.arguments.speed.i18n.2.label}}",
                             "type": "active"
                         },
                         {
                             "key": "3",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_HIGH_M_FAN_SPEED",
+                            "value": "{{i18n.commands.setFanSpeed.arguments.speed.i18n.3.label}}",
                             "type": "active"
                         },
                         {
                             "key": "4",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_MAX_M_SPEED",
+                            "value": "{{i18n.commands.setFanSpeed.arguments.speed.i18n.4.label}}",
                             "type": "active"
                         }
                     ]
@@ -75,27 +75,27 @@
                     "alternatives": [
                         {
                             "key": "0",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OFF_T_SAMSUNG_CONNECT",
+                            "value": "{{i18n.attributes.fanSpeed.i18n.value.0.label}}",
                             "type": "inactive"
                         },
                         {
                             "key": "1",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_LOW_M_FAN_SPEED",
+                            "value": "{{i18n.attributes.fanSpeed.i18n.value.1.label}}",
                             "type": "active"
                         },
                         {
                             "key": "2",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_MEDIUM_M_FAN_SPEED",
+                            "value": "{{i18n.attributes.fanSpeed.i18n.value.2.label}}",
                             "type": "active"
                         },
                         {
                             "key": "3",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_HIGH_M_FAN_SPEED",
+                            "value": "{{i18n.attributes.fanSpeed.i18n.value.3.label}}",
                             "type": "active"
                         },
                         {
                             "key": "4",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_MAX_M_SPEED",
+                            "value": "{{i18n.attributes.fanSpeed.i18n.value.4.label}}",
                             "type": "active"
                         }
                     ]
@@ -106,69 +106,70 @@
     "automation": {
         "conditions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_FAN_SPEED",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "0",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OFF_T_SAMSUNG_CONNECT",
+                            "value": "{{i18n.attributes.fanSpeed.i18n.value.0.label}}",
                             "type": "inactive"
                         },
                         {
                             "key": "1",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_LOW_M_FAN_SPEED",
+                            "value": "{{i18n.attributes.fanSpeed.i18n.value.1.label}}",
                             "type": "active"
                         },
                         {
                             "key": "2",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_MEDIUM_M_FAN_SPEED",
+                            "value": "{{i18n.attributes.fanSpeed.i18n.value.2.label}}",
                             "type": "active"
                         },
                         {
                             "key": "3",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_HIGH_M_FAN_SPEED",
+                            "value": "{{i18n.attributes.fanSpeed.i18n.value.3.label}}",
                             "type": "active"
                         },
                         {
                             "key": "4",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_MAX_M_SPEED",
+                            "value": "{{i18n.attributes.fanSpeed.i18n.value.4.label}}",
                             "type": "active"
                         }
                     ],
-                    "value": "fanSpeed.value"
+                    "value": "fanSpeed.value",
+                    "multiSelection": false
                 }
             }
         ],
         "actions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_FAN_SPEED",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "0",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OFF_T_SAMSUNG_CONNECT",
+                            "value": "{{i18n.commands.setFanSpeed.arguments.speed.i18n.0.label}}",
                             "type": "inactive"
                         },
                         {
                             "key": "1",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_LOW_M_FAN_SPEED",
+                            "value": "{{i18n.commands.setFanSpeed.arguments.speed.i18n.1.label}}",
                             "type": "active"
                         },
                         {
                             "key": "2",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_MEDIUM_M_FAN_SPEED",
+                            "value": "{{i18n.commands.setFanSpeed.arguments.speed.i18n.2.label}}",
                             "type": "active"
                         },
                         {
                             "key": "3",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_HIGH_M_FAN_SPEED",
+                            "value": "{{i18n.commands.setFanSpeed.arguments.speed.i18n.3.label}}",
                             "type": "active"
                         },
                         {
                             "key": "4",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_MAX_M_SPEED",
+                            "value": "{{i18n.commands.setFanSpeed.arguments.speed.i18n.4.label}}",
                             "type": "active"
                         }
                     ],

@@ -6,27 +6,27 @@
                 "alternatives": [
                     {
                         "key": "closed",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_CLOSED",
+                        "value": "{{i18n.attributes.door.i18n.value.closed.label}}",
                         "type": "inactive"
                     },
                     {
                         "key": "open",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OPEN",
+                        "value": "{{i18n.attributes.door.i18n.value.open.label}}",
                         "type": "active"
                     },
                     {
                         "key": "unknown",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_UNKNOWN",
+                        "value": "{{i18n.attributes.door.i18n.value.unknown.label}}",
                         "type": "active"
                     },
                     {
                         "key": "opening",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OPENING_ING",
+                        "value": "{{i18n.attributes.door.i18n.value.opening.label}}",
                         "type": "active"
                     },
                     {
                         "key": "closing",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_CLOSING_ING",
+                        "value": "{{i18n.attributes.door.i18n.value.closing.label}}",
                         "type": "active"
                     }
                 ]
@@ -52,7 +52,7 @@
     },
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_DOOR",
+            "label": "{{i18n.label}}",
             "displayType": "toggleSwitch",
             "toggleSwitch": {
                 "command": {
@@ -67,27 +67,27 @@
                     "alternatives": [
                         {
                             "key": "closed",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_CLOSED",
+                            "value": "{{i18n.attributes.door.i18n.value.closed.label}}",
                             "type": "inactive"
                         },
                         {
                             "key": "open",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OPEN",
+                            "value": "{{i18n.attributes.door.i18n.value.open.label}}",
                             "type": "active"
                         },
                         {
                             "key": "unknown",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_UNKNOWN",
+                            "value": "{{i18n.attributes.door.i18n.value.unknown.label}}",
                             "type": "active"
                         },
                         {
                             "key": "opening",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OPENING_ING",
+                            "value": "{{i18n.attributes.door.i18n.value.opening.label}}",
                             "type": "active"
                         },
                         {
                             "key": "closing",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_CLOSING_ING",
+                            "value": "{{i18n.attributes.door.i18n.value.closing.label}}",
                             "type": "active"
                         }
                     ]
@@ -98,54 +98,55 @@
     "automation": {
         "conditions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_DOOR",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "closing",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_CLOSING_ING",
+                            "value": "{{i18n.attributes.door.i18n.value.closing.label}}",
                             "type": "active"
                         },
                         {
                             "key": "opening",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OPENING_ING",
+                            "value": "{{i18n.attributes.door.i18n.value.opening.label}}",
                             "type": "active"
                         },
                         {
                             "key": "closed",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_CLOSED",
+                            "value": "{{i18n.attributes.door.i18n.value.closed.label}}",
                             "type": "inactive"
                         },
                         {
                             "key": "open",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OPEN",
+                            "value": "{{i18n.attributes.door.i18n.value.open.label}}",
                             "type": "active"
                         },
                         {
                             "key": "unknown",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_UNKNOWN",
+                            "value": "{{i18n.attributes.door.i18n.value.unknown.label}}",
                             "type": "active"
                         }
                     ],
-                    "value": "door.value"
+                    "value": "door.value",
+                    "multiSelection": false
                 }
             }
         ],
         "actions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_DOOR",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "close",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_CLOSED",
+                            "value": "{{i18n.commands.close.label}}",
                             "type": "inactive"
                         },
                         {
                             "key": "open",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OPEN",
+                            "value": "{{i18n.commands.open.label}}",
                             "type": "active"
                         }
                     ]

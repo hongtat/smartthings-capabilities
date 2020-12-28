@@ -6,32 +6,32 @@
                 "alternatives": [
                     {
                         "key": "good",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_GOOD_M_AIRQUALITY_CHN",
+                        "value": "{{i18n.attributes.dustHealthConcern.i18n.value.good.label}}",
                         "type": "active"
                     },
                     {
                         "key": "moderate",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_MODERATE_CHN",
+                        "value": "{{i18n.attributes.dustHealthConcern.i18n.value.moderate.label}}",
                         "type": "active"
                     },
                     {
                         "key": "slightlyUnhealthy",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_SLIGHTLY_UNHEALTHY_ABB_CHN",
+                        "value": "{{i18n.attributes.dustHealthConcern.i18n.value.slightlyUnhealthy.label}}",
                         "type": "active"
                     },
                     {
                         "key": "unhealthy",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_UNHEALTHY_ABB_CHN",
+                        "value": "{{i18n.attributes.dustHealthConcern.i18n.value.unhealthy.label}}",
                         "type": "active"
                     },
                     {
                         "key": "veryUnhealthy",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_VERY_UNHEALTHY_ABB_CHN",
+                        "value": "{{i18n.attributes.dustHealthConcern.i18n.value.veryUnhealthy.label}}",
                         "type": "active"
                     },
                     {
                         "key": "hazardous",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_HAZARDOUS_ABB_CHN",
+                        "value": "{{i18n.attributes.dustHealthConcern.i18n.value.hazardous.label}}",
                         "type": "active"
                     }
                 ]
@@ -42,39 +42,39 @@
     },
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SACP_HEADER_DUST",
+            "label": "{{i18n.label}}",
             "displayType": "state",
             "state": {
                 "label": "{{dustHealthConcern.value}}",
                 "alternatives": [
                     {
                         "key": "good",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_GOOD_M_AIRQUALITY_CHN",
+                        "value": "{{i18n.attributes.dustHealthConcern.i18n.value.good.label}}",
                         "type": "active"
                     },
                     {
                         "key": "moderate",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_MODERATE_CHN",
+                        "value": "{{i18n.attributes.dustHealthConcern.i18n.value.moderate.label}}",
                         "type": "active"
                     },
                     {
                         "key": "slightlyUnhealthy",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_SLIGHTLY_UNHEALTHY_ABB_CHN",
+                        "value": "{{i18n.attributes.dustHealthConcern.i18n.value.slightlyUnhealthy.label}}",
                         "type": "active"
                     },
                     {
                         "key": "unhealthy",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_UNHEALTHY_ABB_CHN",
+                        "value": "{{i18n.attributes.dustHealthConcern.i18n.value.unhealthy.label}}",
                         "type": "active"
                     },
                     {
                         "key": "veryUnhealthy",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_VERY_UNHEALTHY_ABB_CHN",
+                        "value": "{{i18n.attributes.dustHealthConcern.i18n.value.veryUnhealthy.label}}",
                         "type": "active"
                     },
                     {
                         "key": "hazardous",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_HAZARDOUS_ABB_CHN",
+                        "value": "{{i18n.attributes.dustHealthConcern.i18n.value.hazardous.label}}",
                         "type": "active"
                     }
                 ]
@@ -84,42 +84,43 @@
     "automation": {
         "conditions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SACP_HEADER_DUST",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "good",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_GOOD_M_AIRQUALITY_CHN",
+                            "value": "{{i18n.attributes.dustHealthConcern.i18n.value.good.label}}",
                             "type": "active"
                         },
                         {
                             "key": "moderate",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_MODERATE_CHN",
+                            "value": "{{i18n.attributes.dustHealthConcern.i18n.value.moderate.label}}",
                             "type": "active"
                         },
                         {
                             "key": "slightlyUnhealthy",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_SLIGHTLY_UNHEALTHY_ABB_CHN",
+                            "value": "{{i18n.attributes.dustHealthConcern.i18n.value.slightlyUnhealthy.label}}",
                             "type": "active"
                         },
                         {
                             "key": "unhealthy",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_UNHEALTHY_ABB_CHN",
+                            "value": "{{i18n.attributes.dustHealthConcern.i18n.value.unhealthy.label}}",
                             "type": "active"
                         },
                         {
                             "key": "veryUnhealthy",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_VERY_UNHEALTHY_ABB_CHN",
+                            "value": "{{i18n.attributes.dustHealthConcern.i18n.value.veryUnhealthy.label}}",
                             "type": "active"
                         },
                         {
                             "key": "hazardous",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_HAZARDOUS_ABB_CHN",
+                            "value": "{{i18n.attributes.dustHealthConcern.i18n.value.hazardous.label}}",
                             "type": "active"
                         }
                     ],
-                    "value": "dustHealthConcern.value"
+                    "value": "dustHealthConcern.value",
+                    "multiSelection": false
                 }
             }
         ],

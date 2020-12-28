@@ -6,27 +6,27 @@
                 "alternatives": [
                     {
                         "key": "idle",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_TRAP_UNARMED",
+                        "value": "{{i18n.attributes.pestControl.i18n.value.idle.label}}",
                         "type": "active"
                     },
                     {
                         "key": "trapArmed",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_TRAP_ARMED",
+                        "value": "{{i18n.attributes.pestControl.i18n.value.trapArmed.label}}",
                         "type": "active"
                     },
                     {
                         "key": "trapRearmRequired",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_TRAP_REARM_REQUIRED",
+                        "value": "{{i18n.attributes.pestControl.i18n.value.trapRearmRequired.label}}",
                         "type": "active"
                     },
                     {
                         "key": "pestDetected",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_PEST_DETECTED",
+                        "value": "{{i18n.attributes.pestControl.i18n.value.pestDetected.label}}",
                         "type": "active"
                     },
                     {
                         "key": "pestExterminated",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_PEST_EXTERMINATED",
+                        "value": "{{i18n.attributes.pestControl.i18n.value.pestExterminated.label}}",
                         "type": "active"
                     }
                 ]
@@ -37,34 +37,34 @@
     },
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_PEST_CONTROL",
+            "label": "{{i18n.label}}",
             "displayType": "state",
             "state": {
                 "label": "{{pestControl.value}}",
                 "alternatives": [
                     {
                         "key": "idle",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_TRAP_UNARMED",
+                        "value": "{{i18n.attributes.pestControl.i18n.value.idle.label}}",
                         "type": "active"
                     },
                     {
                         "key": "trapArmed",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_TRAP_ARMED",
+                        "value": "{{i18n.attributes.pestControl.i18n.value.trapArmed.label}}",
                         "type": "active"
                     },
                     {
                         "key": "trapRearmRequired",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_TRAP_REARM_REQUIRED",
+                        "value": "{{i18n.attributes.pestControl.i18n.value.trapRearmRequired.label}}",
                         "type": "active"
                     },
                     {
                         "key": "pestDetected",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_PEST_DETECTED",
+                        "value": "{{i18n.attributes.pestControl.i18n.value.pestDetected.label}}",
                         "type": "active"
                     },
                     {
                         "key": "pestExterminated",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_PEST_EXTERMINATED",
+                        "value": "{{i18n.attributes.pestControl.i18n.value.pestExterminated.label}}",
                         "type": "active"
                     }
                 ]
@@ -74,37 +74,38 @@
     "automation": {
         "conditions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_PEST_CONTROL",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "idle",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_TRAP_UNARMED",
+                            "value": "{{i18n.attributes.pestControl.i18n.value.idle.label}}",
                             "type": "active"
                         },
                         {
                             "key": "trapArmed",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_TRAP_ARMED",
+                            "value": "{{i18n.attributes.pestControl.i18n.value.trapArmed.label}}",
                             "type": "active"
                         },
                         {
                             "key": "trapRearmRequired",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_TRAP_REARM_REQUIRED",
+                            "value": "{{i18n.attributes.pestControl.i18n.value.trapRearmRequired.label}}",
                             "type": "active"
                         },
                         {
                             "key": "pestDetected",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_PEST_DETECTED",
+                            "value": "{{i18n.attributes.pestControl.i18n.value.pestDetected.label}}",
                             "type": "active"
                         },
                         {
                             "key": "pestExterminated",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_PEST_EXTERMINATED",
+                            "value": "{{i18n.attributes.pestControl.i18n.value.pestExterminated.label}}",
                             "type": "active"
                         }
                     ],
-                    "value": "pestControl.value"
+                    "value": "pestControl.value",
+                    "multiSelection": false
                 }
             }
         ],

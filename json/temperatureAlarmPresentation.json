@@ -6,22 +6,22 @@
                 "alternatives": [
                     {
                         "key": "cleared",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_NORMAL",
+                        "value": "{{i18n.attributes.temperatureAlarm.i18n.value.cleared.label}}",
                         "type": "inactive"
                     },
                     {
                         "key": "heat",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OVERHEATING_M_STATUS",
+                        "value": "{{i18n.attributes.temperatureAlarm.i18n.value.heat.label}}",
                         "type": "active"
                     },
                     {
                         "key": "freeze",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_FREEZING_M_STATUS",
+                        "value": "{{i18n.attributes.temperatureAlarm.i18n.value.freeze.label}}",
                         "type": "active"
                     },
                     {
                         "key": "rateOfRise",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_RAPIDLY_RISING",
+                        "value": "{{i18n.attributes.temperatureAlarm.i18n.value.rateOfRise.label}}",
                         "type": "active"
                     }
                 ]
@@ -32,29 +32,29 @@
     },
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_TEMPERATURE_ALERT",
+            "label": "{{i18n.label}}",
             "displayType": "state",
             "state": {
                 "label": "{{temperatureAlarm.value}}",
                 "alternatives": [
                     {
                         "key": "cleared",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_NORMAL",
+                        "value": "{{i18n.attributes.temperatureAlarm.i18n.value.cleared.label}}",
                         "type": "inactive"
                     },
                     {
                         "key": "heat",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OVERHEATING_M_STATUS",
+                        "value": "{{i18n.attributes.temperatureAlarm.i18n.value.heat.label}}",
                         "type": "active"
                     },
                     {
                         "key": "freeze",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_FREEZING_M_STATUS",
+                        "value": "{{i18n.attributes.temperatureAlarm.i18n.value.freeze.label}}",
                         "type": "active"
                     },
                     {
                         "key": "rateOfRise",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_RAPIDLY_RISING",
+                        "value": "{{i18n.attributes.temperatureAlarm.i18n.value.rateOfRise.label}}",
                         "type": "active"
                     }
                 ]
@@ -64,32 +64,33 @@
     "automation": {
         "conditions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_TEMPERATURE_ALERT",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "cleared",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_NORMAL",
+                            "value": "{{i18n.attributes.temperatureAlarm.i18n.value.cleared.label}}",
                             "type": "inactive"
                         },
                         {
                             "key": "heat",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OVERHEATING_M_STATUS",
+                            "value": "{{i18n.attributes.temperatureAlarm.i18n.value.heat.label}}",
                             "type": "active"
                         },
                         {
                             "key": "freeze",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_FREEZING_M_STATUS",
+                            "value": "{{i18n.attributes.temperatureAlarm.i18n.value.freeze.label}}",
                             "type": "active"
                         },
                         {
                             "key": "rateOfRise",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_RAPIDLY_RISING",
+                            "value": "{{i18n.attributes.temperatureAlarm.i18n.value.rateOfRise.label}}",
                             "type": "active"
                         }
                     ],
-                    "value": "temperatureAlarm.value"
+                    "value": "temperatureAlarm.value",
+                    "multiSelection": false
                 }
             }
         ],

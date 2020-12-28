@@ -1,0 +1,29 @@
+{
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "true",
+                            "value": "{{i18n.attributes.remoteControlEnabled.i18n.value.true.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "false",
+                            "value": "{{i18n.attributes.remoteControlEnabled.i18n.value.false.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "remoteControlEnabled.value",
+                    "multiSelection": false
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "remoteControlStatus",
+    "version": 1
+}

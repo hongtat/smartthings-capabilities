@@ -6,22 +6,22 @@
                 "alternatives": [
                     {
                         "key": "heating",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_HEATING_M_OVEN_MODE",
+                        "value": "{{i18n.attributes.ovenMode.i18n.value.heating.label}}",
                         "type": "active"
                     },
                     {
                         "key": "grill",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_GRILL_M_OVEN_MODE",
+                        "value": "{{i18n.attributes.ovenMode.i18n.value.grill.label}}",
                         "type": "active"
                     },
                     {
                         "key": "warming",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_WARMING_M_OVEN_MODE",
+                        "value": "{{i18n.attributes.ovenMode.i18n.value.warming.label}}",
                         "type": "active"
                     },
                     {
                         "key": "defrosting",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_DEFROSTING_M_OVEN_MODE",
+                        "value": "{{i18n.attributes.ovenMode.i18n.value.defrosting.label}}",
                         "type": "active"
                     }
                 ]
@@ -32,7 +32,7 @@
     },
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_MODE",
+            "label": "{{i18n.label}}",
             "displayType": "list",
             "list": {
                 "command": {
@@ -40,22 +40,22 @@
                     "alternatives": [
                         {
                             "key": "heating",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_HEATING_M_OVEN_MODE",
+                            "value": "{{i18n.commands.setOvenMode.arguments.mode.i18n.heating.label}}",
                             "type": "active"
                         },
                         {
                             "key": "grill",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_GRILL_M_OVEN_MODE",
+                            "value": "{{i18n.commands.setOvenMode.arguments.mode.i18n.grill.label}}",
                             "type": "active"
                         },
                         {
                             "key": "warming",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_WARMING_M_OVEN_MODE",
+                            "value": "{{i18n.commands.setOvenMode.arguments.mode.i18n.warming.label}}",
                             "type": "active"
                         },
                         {
                             "key": "defrosting",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_DEFROSTING_M_OVEN_MODE",
+                            "value": "{{i18n.commands.setOvenMode.arguments.mode.i18n.defrosting.label}}",
                             "type": "active"
                         }
                     ]
@@ -65,22 +65,22 @@
                     "alternatives": [
                         {
                             "key": "heating",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_HEATING_M_OVEN_MODE",
+                            "value": "{{i18n.attributes.ovenMode.i18n.value.heating.label}}",
                             "type": "active"
                         },
                         {
                             "key": "grill",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_GRILL_M_OVEN_MODE",
+                            "value": "{{i18n.attributes.ovenMode.i18n.value.grill.label}}",
                             "type": "active"
                         },
                         {
                             "key": "warming",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_WARMING_M_OVEN_MODE",
+                            "value": "{{i18n.attributes.ovenMode.i18n.value.warming.label}}",
                             "type": "active"
                         },
                         {
                             "key": "defrosting",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_DEFROSTING_M_OVEN_MODE",
+                            "value": "{{i18n.attributes.ovenMode.i18n.value.defrosting.label}}",
                             "type": "active"
                         }
                     ]
@@ -91,59 +91,60 @@
     "automation": {
         "conditions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_MODE",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "heating",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_HEATING_M_OVEN_MODE",
+                            "value": "{{i18n.attributes.ovenMode.i18n.value.heating.label}}",
                             "type": "active"
                         },
                         {
                             "key": "grill",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_GRILL_M_OVEN_MODE",
+                            "value": "{{i18n.attributes.ovenMode.i18n.value.grill.label}}",
                             "type": "active"
                         },
                         {
                             "key": "warming",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_WARMING_M_OVEN_MODE",
+                            "value": "{{i18n.attributes.ovenMode.i18n.value.warming.label}}",
                             "type": "active"
                         },
                         {
                             "key": "defrosting",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_DEFROSTING_M_OVEN_MODE",
+                            "value": "{{i18n.attributes.ovenMode.i18n.value.defrosting.label}}",
                             "type": "active"
                         }
                     ],
-                    "value": "ovenMode.value"
+                    "value": "ovenMode.value",
+                    "multiSelection": false
                 }
             }
         ],
         "actions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_MODE",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "heating",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_HEATING_M_OVEN_MODE",
+                            "value": "{{i18n.commands.setOvenMode.arguments.mode.i18n.heating.label}}",
                             "type": "active"
                         },
                         {
                             "key": "grill",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_GRILL_M_OVEN_MODE",
+                            "value": "{{i18n.commands.setOvenMode.arguments.mode.i18n.grill.label}}",
                             "type": "active"
                         },
                         {
                             "key": "warming",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_WARMING_M_OVEN_MODE",
+                            "value": "{{i18n.commands.setOvenMode.arguments.mode.i18n.warming.label}}",
                             "type": "active"
                         },
                         {
                             "key": "defrosting",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_DEFROSTING_M_OVEN_MODE",
+                            "value": "{{i18n.commands.setOvenMode.arguments.mode.i18n.defrosting.label}}",
                             "type": "active"
                         }
                     ],

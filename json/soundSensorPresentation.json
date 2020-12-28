@@ -6,12 +6,12 @@
                 "alternatives": [
                     {
                         "key": "detected",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_SOUND_DETECTED",
+                        "value": "{{i18n.attributes.sound.i18n.value.detected.label}}",
                         "type": "active"
                     },
                     {
                         "key": "not detected",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_NO_SOUND",
+                        "value": "{{i18n.attributes.sound.i18n.value.not detected.label}}",
                         "type": "inactive"
                     }
                 ]
@@ -22,19 +22,19 @@
     },
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_SOUND_SENSOR",
+            "label": "{{i18n.label}}",
             "displayType": "state",
             "state": {
                 "label": "{{sound.value}}",
                 "alternatives": [
                     {
                         "key": "detected",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_SOUND_DETECTED",
+                        "value": "{{i18n.attributes.sound.i18n.value.detected.label}}",
                         "type": "active"
                     },
                     {
                         "key": "not detected",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_NO_SOUND",
+                        "value": "{{i18n.attributes.sound.i18n.value.not detected.label}}",
                         "type": "inactive"
                     }
                 ]
@@ -44,22 +44,23 @@
     "automation": {
         "conditions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_SOUND_SENSOR",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "detected",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_SOUND_DETECTED",
+                            "value": "{{i18n.attributes.sound.i18n.value.detected.label}}",
                             "type": "active"
                         },
                         {
                             "key": "not detected",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_NO_SOUND",
+                            "value": "{{i18n.attributes.sound.i18n.value.not detected.label}}",
                             "type": "inactive"
                         }
                     ],
-                    "value": "sound.value"
+                    "value": "sound.value",
+                    "multiSelection": false
                 }
             }
         ],

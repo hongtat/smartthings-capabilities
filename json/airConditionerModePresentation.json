@@ -1,7 +1,7 @@
 {
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_MODE",
+            "label": "{{i18n.label}}",
             "displayType": "list",
             "list": {
                 "command": {
@@ -9,42 +9,107 @@
                     "alternatives": [
                         {
                             "key": "cool",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_COOL_ABB",
-                            "type": "active"
-                        },
-                        {
-                            "key": "fanOnly",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_PURIFY_M_AIR_CONDITIONER_MODE",
+                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.cool.label}}",
                             "type": "active"
                         },
                         {
                             "key": "dry",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_DRY_M_AIR_CONDITIONER",
+                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.dry.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "wind",
+                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.wind.label}}",
                             "type": "active"
                         },
                         {
                             "key": "heat",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_HEAT_ABB",
+                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.heat.label}}",
                             "type": "active"
                         },
                         {
                             "key": "coolClean",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_COOL_PURIFY_M_AIR_CONDITIONER_MODE",
+                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.coolClean.label}}",
                             "type": "active"
                         },
                         {
                             "key": "dryClean",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_DRY_PURIFY_M_AIR_CONDITIONER_MODE",
+                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.dryClean.label}}",
                             "type": "active"
                         },
                         {
                             "key": "heatClean",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_HEAT_PURIFY_M_AIR_CONDITIONER_MODE",
+                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.heatClean.label}}",
                             "type": "active"
                         },
                         {
                             "key": "auto",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_AUTO",
+                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.auto.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "fanOnly",
+                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.fanOnly.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "fan",
+                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.fan.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "aIComfort",
+                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.aIComfort.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "eco",
+                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.eco.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "std",
+                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.std.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "power",
+                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.power.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "force",
+                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.force.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "heatEx",
+                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.heatEx.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "bypass",
+                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.bypass.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "sleep",
+                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.sleep.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "purification",
+                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.purification.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "ventilation",
+                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.ventilation.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "smartVentilation",
+                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.smartVentilation.label}}",
                             "type": "active"
                         }
                     ],
@@ -55,42 +120,107 @@
                     "alternatives": [
                         {
                             "key": "cool",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_COOL_ABB",
-                            "type": "active"
-                        },
-                        {
-                            "key": "fanOnly",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_PURIFY_M_AIR_CONDITIONER_MODE",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.cool.label}}",
                             "type": "active"
                         },
                         {
                             "key": "dry",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_DRY_M_AIR_CONDITIONER",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.dry.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "wind",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.wind.label}}",
                             "type": "active"
                         },
                         {
                             "key": "heat",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_HEAT_ABB",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.heat.label}}",
                             "type": "active"
                         },
                         {
                             "key": "coolClean",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_COOL_PURIFY_M_AIR_CONDITIONER_MODE",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.coolClean.label}}",
                             "type": "active"
                         },
                         {
                             "key": "dryClean",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_DRY_PURIFY_M_AIR_CONDITIONER_MODE",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.dryClean.label}}",
                             "type": "active"
                         },
                         {
                             "key": "heatClean",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_HEAT_PURIFY_M_AIR_CONDITIONER_MODE",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.heatClean.label}}",
                             "type": "active"
                         },
                         {
                             "key": "auto",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_AUTO",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.auto.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "fanOnly",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.fanOnly.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "fan",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.fan.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "aIComfort",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.aIComfort.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "eco",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.eco.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "std",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.std.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "power",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.power.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "force",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.force.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "heatEx",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.heatEx.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "bypass",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.bypass.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "sleep",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.sleep.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "purification",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.purification.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "ventilation",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.ventilation.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "smartVentilation",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.smartVentilation.label}}",
                             "type": "active"
                         }
                     ]
@@ -101,100 +231,231 @@
     "automation": {
         "conditions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_MODE",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "cool",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_COOL_ABB",
-                            "type": "active"
-                        },
-                        {
-                            "key": "fanOnly",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_PURIFY_M_AIR_CONDITIONER_MODE",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.cool.label}}",
                             "type": "active"
                         },
                         {
                             "key": "dry",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_DRY_M_AIR_CONDITIONER",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.dry.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "wind",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.wind.label}}",
                             "type": "active"
                         },
                         {
                             "key": "heat",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_HEAT_ABB",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.heat.label}}",
                             "type": "active"
                         },
                         {
                             "key": "coolClean",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_COOL_PURIFY_M_AIR_CONDITIONER_MODE",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.coolClean.label}}",
                             "type": "active"
                         },
                         {
                             "key": "dryClean",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_DRY_PURIFY_M_AIR_CONDITIONER_MODE",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.dryClean.label}}",
                             "type": "active"
                         },
                         {
                             "key": "heatClean",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_HEAT_PURIFY_M_AIR_CONDITIONER_MODE",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.heatClean.label}}",
                             "type": "active"
                         },
                         {
                             "key": "auto",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_AUTO",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.auto.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "fanOnly",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.fanOnly.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "fan",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.fan.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "aIComfort",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.aIComfort.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "eco",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.eco.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "std",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.std.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "power",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.power.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "force",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.force.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "heatEx",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.heatEx.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "bypass",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.bypass.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "sleep",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.sleep.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "purification",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.purification.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "ventilation",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.ventilation.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "smartVentilation",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.smartVentilation.label}}",
                             "type": "active"
                         }
                     ],
                     "supportedValues": "supportedAcModes.value",
-                    "value": "airConditionerMode.value"
+                    "value": "airConditionerMode.value",
+                    "multiSelection": false
                 }
             }
         ],
         "actions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_TMBODY_MODE",
+                "label": "{{i18n.commands.setAirConditionerMode.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "cool",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_COOL_ABB",
-                            "type": "active"
-                        },
-                        {
-                            "key": "fanOnly",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_PURIFY_M_AIR_CONDITIONER_MODE",
+                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.cool.label}}",
                             "type": "active"
                         },
                         {
                             "key": "dry",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_DRY_M_AIR_CONDITIONER",
+                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.dry.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "wind",
+                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.wind.label}}",
                             "type": "active"
                         },
                         {
                             "key": "heat",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_HEAT_ABB",
+                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.heat.label}}",
                             "type": "active"
                         },
                         {
                             "key": "coolClean",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_COOL_PURIFY_M_AIR_CONDITIONER_MODE",
+                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.coolClean.label}}",
                             "type": "active"
                         },
                         {
                             "key": "dryClean",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_DRY_PURIFY_M_AIR_CONDITIONER_MODE",
+                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.dryClean.label}}",
                             "type": "active"
                         },
                         {
                             "key": "heatClean",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_HEAT_PURIFY_M_AIR_CONDITIONER_MODE",
+                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.heatClean.label}}",
                             "type": "active"
                         },
                         {
                             "key": "auto",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_OPT_AUTO",
+                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.auto.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "fanOnly",
+                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.fanOnly.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "fan",
+                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.fan.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "aIComfort",
+                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.aIComfort.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "eco",
+                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.eco.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "std",
+                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.std.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "power",
+                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.power.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "force",
+                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.force.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "heatEx",
+                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.heatEx.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "bypass",
+                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.bypass.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "sleep",
+                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.sleep.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "purification",
+                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.purification.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "ventilation",
+                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.ventilation.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "smartVentilation",
+                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.smartVentilation.label}}",
                             "type": "active"
                         }
                     ],

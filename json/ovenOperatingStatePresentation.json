@@ -6,37 +6,37 @@
                 "alternatives": [
                     {
                         "key": "cleaning",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_CLEANING_M_OVEN_STATUS",
+                        "value": "{{i18n.attributes.ovenJobState.i18n.value.cleaning.label}}",
                         "type": "active"
                     },
                     {
                         "key": "cooking",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_COOKING_M_OVEN_STATUS",
+                        "value": "{{i18n.attributes.ovenJobState.i18n.value.cooking.label}}",
                         "type": "active"
                     },
                     {
                         "key": "cooling",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_COOLING_DOWN_M_OVEN_STATUS",
+                        "value": "{{i18n.attributes.ovenJobState.i18n.value.cooling.label}}",
                         "type": "active"
                     },
                     {
                         "key": "draining",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_DRAINING_M_OVEN_STATUS",
+                        "value": "{{i18n.attributes.ovenJobState.i18n.value.draining.label}}",
                         "type": "active"
                     },
                     {
                         "key": "preheat",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_PREHEATING_M_OVEN_STATUS",
+                        "value": "{{i18n.attributes.ovenJobState.i18n.value.preheat.label}}",
                         "type": "active"
                     },
                     {
                         "key": "ready",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_READY_M_OVEN_STATUS",
+                        "value": "{{i18n.attributes.ovenJobState.i18n.value.ready.label}}",
                         "type": "active"
                     },
                     {
                         "key": "rinsing",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_RINSING_M_OVEN_STATUS",
+                        "value": "{{i18n.attributes.ovenJobState.i18n.value.rinsing.label}}",
                         "type": "active"
                     }
                 ]
@@ -47,50 +47,140 @@
     },
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_OVEN_M_OVEN_STATUS",
+            "label": "{{i18n.label}}",
             "displayType": "state",
             "state": {
                 "label": "{{ovenJobState.value}}",
                 "alternatives": [
                     {
                         "key": "cleaning",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_CLEANING_M_OVEN_STATUS",
+                        "value": "{{i18n.attributes.ovenJobState.i18n.value.cleaning.label}}",
                         "type": "active"
                     },
                     {
                         "key": "cooking",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_COOKING_M_OVEN_STATUS",
+                        "value": "{{i18n.attributes.ovenJobState.i18n.value.cooking.label}}",
                         "type": "active"
                     },
                     {
                         "key": "cooling",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_COOLING_DOWN_M_OVEN_STATUS",
+                        "value": "{{i18n.attributes.ovenJobState.i18n.value.cooling.label}}",
                         "type": "active"
                     },
                     {
                         "key": "draining",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_DRAINING_M_OVEN_STATUS",
+                        "value": "{{i18n.attributes.ovenJobState.i18n.value.draining.label}}",
                         "type": "active"
                     },
                     {
                         "key": "preheat",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_PREHEATING_M_OVEN_STATUS",
+                        "value": "{{i18n.attributes.ovenJobState.i18n.value.preheat.label}}",
                         "type": "active"
                     },
                     {
                         "key": "ready",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_READY_M_OVEN_STATUS",
+                        "value": "{{i18n.attributes.ovenJobState.i18n.value.ready.label}}",
                         "type": "active"
                     },
                     {
                         "key": "rinsing",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_RINSING_M_OVEN_STATUS",
+                        "value": "{{i18n.attributes.ovenJobState.i18n.value.rinsing.label}}",
                         "type": "active"
                     }
                 ]
             }
         }
     ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.attributes.machineState.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "ready",
+                            "value": "{{i18n.attributes.machineState.i18n.value.ready.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "running",
+                            "value": "{{i18n.attributes.machineState.i18n.value.running.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "paused",
+                            "value": "{{i18n.attributes.machineState.i18n.value.paused.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "machineState.value",
+                    "multiSelection": false
+                }
+            },
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "cleaning",
+                            "value": "{{i18n.attributes.ovenJobState.i18n.value.cleaning.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "cooking",
+                            "value": "{{i18n.attributes.ovenJobState.i18n.value.cooking.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "cooling",
+                            "value": "{{i18n.attributes.ovenJobState.i18n.value.cooling.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "draining",
+                            "value": "{{i18n.attributes.ovenJobState.i18n.value.draining.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "preheat",
+                            "value": "{{i18n.attributes.ovenJobState.i18n.value.preheat.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "ready",
+                            "value": "{{i18n.attributes.ovenJobState.i18n.value.ready.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "rinsing",
+                            "value": "{{i18n.attributes.ovenJobState.i18n.value.rinsing.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "ovenJobState.value",
+                    "multiSelection": false
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "{{i18n.attributes.machineState.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "stop",
+                            "value": "{{i18n.commands.setMachineState.arguments.state.i18n.stop.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "command": "setMachineState"
+                }
+            }
+        ]
+    },
     "id": "ovenOperatingState",
     "version": 1
 }

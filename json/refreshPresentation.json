@@ -13,7 +13,7 @@
     },
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BUTTON_REFRESH_8",
+            "label": "{{i18n.label}}",
             "displayType": "pushButton",
             "pushButton": {
                 "command": "refresh"
@@ -24,13 +24,13 @@
         "conditions": [],
         "actions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BUTTON_REFRESH_8",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "refresh",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BUTTON_REFRESH_8",
+                            "value": "{{i18n.label}}",
                             "type": "active"
                         }
                     ]

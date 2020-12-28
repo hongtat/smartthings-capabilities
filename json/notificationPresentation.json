@@ -1,7 +1,7 @@
 {
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_TEXT_DISPLAY",
+            "label": "{{i18n.label}}",
             "displayType": "textField",
             "textField": {
                 "command": "deviceNotification"
@@ -12,7 +12,7 @@
         "conditions": [],
         "actions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_TEXT_DISPLAY",
+                "label": "{{i18n.label}}",
                 "displayType": "textField",
                 "textField": {
                     "command": "deviceNotification"

@@ -1,7 +1,7 @@
 {
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_NOW_PLAYING",
+            "label": "{{i18n.attributes.title.label}}",
             "displayType": "state",
             "state": {
                 "label": "{{audioTrackData.value.title}}"

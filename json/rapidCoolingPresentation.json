@@ -6,12 +6,12 @@
                 "alternatives": [
                     {
                         "key": "on",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ON_T_SAMSUNG_CONNECT",
+                        "value": "{{i18n.attributes.rapidCooling.i18n.value.on.label}}",
                         "type": "active"
                     },
                     {
                         "key": "off",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OFF_T_SAMSUNG_CONNECT",
+                        "value": "{{i18n.attributes.rapidCooling.i18n.value.off.label}}",
                         "type": "inactive"
                     }
                 ]
@@ -22,7 +22,7 @@
     },
     "detailView": [
         {
-            "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_POWER_COOL_M_REFRIGERATOR",
+            "label": "{{i18n.label}}",
             "displayType": "switch",
             "switch": {
                 "command": {
@@ -37,12 +37,12 @@
                     "alternatives": [
                         {
                             "key": "on",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ON_T_SAMSUNG_CONNECT",
+                            "value": "{{i18n.attributes.rapidCooling.i18n.value.on.label}}",
                             "type": "active"
                         },
                         {
                             "key": "off",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OFF_T_SAMSUNG_CONNECT",
+                            "value": "{{i18n.attributes.rapidCooling.i18n.value.off.label}}",
                             "type": "inactive"
                         }
                     ]
@@ -53,39 +53,40 @@
     "automation": {
         "conditions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_POWER_COOL_M_REFRIGERATOR",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "on",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ON_T_SAMSUNG_CONNECT",
+                            "value": "{{i18n.attributes.rapidCooling.i18n.value.on.label}}",
                             "type": "active"
                         },
                         {
                             "key": "off",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OFF_T_SAMSUNG_CONNECT",
+                            "value": "{{i18n.attributes.rapidCooling.i18n.value.off.label}}",
                             "type": "inactive"
                         }
                     ],
-                    "value": "rapidCooling.value"
+                    "value": "rapidCooling.value",
+                    "multiSelection": false
                 }
             }
         ],
         "actions": [
             {
-                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_HEADER_POWER_COOL_M_REFRIGERATOR",
+                "label": "{{i18n.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "on",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_ON_T_SAMSUNG_CONNECT",
+                            "value": "{{i18n.commands.setRapidCooling.arguments.rapidCooling.i18n.on.label}}",
                             "type": "active"
                         },
                         {
                             "key": "off",
-                            "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_OFF_T_SAMSUNG_CONNECT",
+                            "value": "{{i18n.commands.setRapidCooling.arguments.rapidCooling.i18n.off.label}}",
                             "type": "inactive"
                         }
                     ],
