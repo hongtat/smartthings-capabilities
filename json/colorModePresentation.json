@@ -76,8 +76,7 @@
                             "type": "active"
                         }
                     ],
-                    "value": "colorMode.value",
-                    "multiSelection": false
+                    "value": "colorMode.value"
                 }
             }
         ],

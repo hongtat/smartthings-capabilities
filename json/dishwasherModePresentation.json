@@ -116,8 +116,7 @@
                             "type": "active"
                         }
                     ],
-                    "value": "dishwasherMode.value",
-                    "multiSelection": false
+                    "value": "dishwasherMode.value"
                 }
             }
         ],

@@ -96,8 +96,7 @@
                             "type": "active"
                         }
                     ],
-                    "value": "playbackRepeatMode.value",
-                    "multiSelection": false
+                    "value": "playbackRepeatMode.value"
                 }
             }
         ],

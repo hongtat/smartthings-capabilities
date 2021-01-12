@@ -136,8 +136,7 @@
                             "type": "active"
                         }
                     ],
-                    "value": "fanSpeed.value",
-                    "multiSelection": false
+                    "value": "fanSpeed.value"
                 }
             }
         ],

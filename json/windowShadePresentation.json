@@ -150,8 +150,7 @@
                             "type": "active"
                         }
                     ],
-                    "value": "windowShade.value",
-                    "multiSelection": false
+                    "value": "windowShade.value"
                 }
             }
         ],

@@ -236,8 +236,7 @@
                             "type": "active"
                         }
                     ],
-                    "value": "fanOscillationMode.value",
-                    "multiSelection": false
+                    "value": "fanOscillationMode.value"
                 }
             }
         ],

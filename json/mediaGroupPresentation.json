@@ -88,8 +88,7 @@
                             "type": "active"
                         }
                     ],
-                    "value": "groupMute.value",
-                    "multiSelection": false
+                    "value": "groupMute.value"
                 }
             }
         ],

@@ -59,8 +59,7 @@
                             "type": "active"
                         }
                     ],
-                    "value": "occupancy.value",
-                    "multiSelection": false
+                    "value": "occupancy.value"
                 }
             }
         ],

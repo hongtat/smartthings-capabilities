@@ -12,12 +12,12 @@
                     {
                         "key": "stopped",
                         "value": "{{i18n.attributes.playbackStatus.i18n.value.stopped.label}}",
-                        "type": "active"
+                        "type": "inactive"
                     },
                     {
                         "key": "paused",
                         "value": "{{i18n.attributes.playbackStatus.i18n.value.paused.label}}",
-                        "type": "active"
+                        "type": "inactive"
                     },
                     {
                         "key": "fast forwarding",
@@ -65,7 +65,7 @@
                         {
                             "key": "stop",
                             "value": "{{i18n.commands.stop.label}}",
-                            "type": "active"
+                            "type": "inactive"
                         },
                         {
                             "key": "rewind",
@@ -80,7 +80,7 @@
                         {
                             "key": "pause",
                             "value": "{{i18n.commands.pause.label}}",
-                            "type": "active"
+                            "type": "inactive"
                         }
                     ],
                     "supportedValues": "supportedPlaybackCommands.value"
@@ -96,12 +96,12 @@
                         {
                             "key": "stopped",
                             "value": "{{i18n.attributes.playbackStatus.i18n.value.stopped.label}}",
-                            "type": "active"
+                            "type": "inactive"
                         },
                         {
                             "key": "paused",
                             "value": "{{i18n.attributes.playbackStatus.i18n.value.paused.label}}",
-                            "type": "active"
+                            "type": "inactive"
                         },
                         {
                             "key": "fast forwarding",
@@ -133,12 +133,12 @@
                         {
                             "key": "stopped",
                             "value": "{{i18n.attributes.playbackStatus.i18n.value.stopped.label}}",
-                            "type": "active"
+                            "type": "inactive"
                         },
                         {
                             "key": "paused",
                             "value": "{{i18n.attributes.playbackStatus.i18n.value.paused.label}}",
-                            "type": "active"
+                            "type": "inactive"
                         },
                         {
                             "key": "fast forwarding",
@@ -151,8 +151,7 @@
                             "type": "active"
                         }
                     ],
-                    "value": "playbackStatus.value",
-                    "multiSelection": false
+                    "value": "playbackStatus.value"
                 }
             }
         ],
@@ -170,7 +169,7 @@
                         {
                             "key": "stop",
                             "value": "{{i18n.commands.stop.label}}",
-                            "type": "active"
+                            "type": "inactive"
                         },
                         {
                             "key": "rewind",
@@ -185,7 +184,7 @@
                         {
                             "key": "pause",
                             "value": "{{i18n.commands.pause.label}}",
-                            "type": "active"
+                            "type": "inactive"
                         }
                     ],
                     "supportedValues": "supportedPlaybackCommands.value"

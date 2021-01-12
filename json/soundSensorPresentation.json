@@ -59,8 +59,7 @@
                             "type": "inactive"
                         }
                     ],
-                    "value": "sound.value",
-                    "multiSelection": false
+                    "value": "sound.value"
                 }
             }
         ],

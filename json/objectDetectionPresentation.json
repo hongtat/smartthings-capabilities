@@ -56,8 +56,7 @@
                         }
                     ],
                     "supportedValues": "supportedValues.value",
-                    "value": "detected.value.value",
-                    "multiSelection": false
+                    "value": "detected.value.value"
                 }
             }
         ],

@@ -116,8 +116,7 @@
                             "type": "active"
                         }
                     ],
-                    "value": "ovenMode.value",
-                    "multiSelection": false
+                    "value": "ovenMode.value"
                 }
             }
         ],

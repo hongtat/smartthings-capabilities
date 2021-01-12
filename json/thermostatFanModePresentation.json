@@ -87,8 +87,7 @@
                         }
                     ],
                     "supportedValues": "supportedThermostatFanModes.value",
-                    "value": "thermostatFanMode.value",
-                    "multiSelection": false
+                    "value": "thermostatFanMode.value"
                 }
             }
         ],

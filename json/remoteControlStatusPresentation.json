@@ -17,8 +17,7 @@
                             "type": "active"
                         }
                     ],
-                    "value": "remoteControlEnabled.value",
-                    "multiSelection": false
+                    "value": "remoteControlEnabled.value"
                 }
             }
         ],

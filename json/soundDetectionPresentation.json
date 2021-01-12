@@ -147,8 +147,7 @@
                             "type": "active"
                         }
                     ],
-                    "value": "soundDetected.value",
-                    "multiSelection": false
+                    "value": "soundDetected.value"
                 }
             }
         ],

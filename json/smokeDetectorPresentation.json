@@ -67,15 +67,9 @@
                             "key": "detected",
                             "value": "{{i18n.attributes.smoke.i18n.value.detected.label}}",
                             "type": "active"
-                        },
-                        {
-                            "key": "tested",
-                            "value": "{{i18n.attributes.smoke.i18n.value.tested.label}}",
-                            "type": "active"
                         }
                     ],
-                    "value": "smoke.value",
-                    "multiSelection": false
+                    "value": "smoke.value"
                 }
             }
         ],

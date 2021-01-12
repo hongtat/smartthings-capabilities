@@ -128,8 +128,7 @@
                             "type": "active"
                         }
                     ],
-                    "value": "door.value",
-                    "multiSelection": false
+                    "value": "door.value"
                 }
             }
         ],

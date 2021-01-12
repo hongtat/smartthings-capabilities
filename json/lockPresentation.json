@@ -113,8 +113,7 @@
                             "type": "active"
                         }
                     ],
-                    "value": "lock.value",
-                    "multiSelection": false
+                    "value": "lock.value"
                 }
             }
         ],

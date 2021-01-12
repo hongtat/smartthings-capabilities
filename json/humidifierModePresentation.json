@@ -116,8 +116,7 @@
                             "type": "active"
                         }
                     ],
-                    "value": "humidifierMode.value",
-                    "multiSelection": false
+                    "value": "humidifierMode.value"
                 }
             }
         ],

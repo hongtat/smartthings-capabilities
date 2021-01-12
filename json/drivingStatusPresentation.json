@@ -61,8 +61,7 @@
                             "type": "active"
                         }
                     ],
-                    "value": "drivingStatus.value",
-                    "multiSelection": false
+                    "value": "drivingStatus.value"
                 }
             }
         ],

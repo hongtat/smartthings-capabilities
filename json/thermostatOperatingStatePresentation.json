@@ -134,8 +134,7 @@
                             "type": "active"
                         }
                     ],
-                    "value": "thermostatOperatingState.value",
-                    "multiSelection": false
+                    "value": "thermostatOperatingState.value"
                 }
             }
         ],

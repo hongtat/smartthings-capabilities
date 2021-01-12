@@ -119,8 +119,7 @@
                             "type": "active"
                         }
                     ],
-                    "value": "radonHealthConcern.value",
-                    "multiSelection": false
+                    "value": "radonHealthConcern.value"
                 }
             }
         ],

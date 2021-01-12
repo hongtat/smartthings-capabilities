@@ -228,8 +228,7 @@
                             "description": "{{i18n.attributes.lightingMode.i18n.value.soft.description}}"
                         }
                     ],
-                    "value": "lightingMode.value",
-                    "multiSelection": false
+                    "value": "lightingMode.value"
                 }
             }
         ],

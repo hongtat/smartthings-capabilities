@@ -658,8 +658,7 @@
                             "type": "active"
                         }
                     ],
-                    "value": "thermostatOperatingState.value",
-                    "multiSelection": false
+                    "value": "thermostatOperatingState.value"
                 }
             },
             {
@@ -854,8 +853,7 @@
                         }
                     ],
                     "supportedValues": "supportedThermostatModes.value",
-                    "value": "thermostatMode.value",
-                    "multiSelection": false
+                    "value": "thermostatMode.value"
                 }
             }
         ],

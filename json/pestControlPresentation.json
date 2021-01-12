@@ -104,8 +104,7 @@
                             "type": "active"
                         }
                     ],
-                    "value": "pestControl.value",
-                    "multiSelection": false
+                    "value": "pestControl.value"
                 }
             }
         ],

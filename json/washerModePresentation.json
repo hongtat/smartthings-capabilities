@@ -116,8 +116,7 @@
                             "type": "active"
                         }
                     ],
-                    "value": "washerMode.value",
-                    "multiSelection": false
+                    "value": "washerMode.value"
                 }
             }
         ],

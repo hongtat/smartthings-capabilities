@@ -132,8 +132,7 @@
                         }
                     ],
                     "supportedValues": "supportedAirPurifierFanModes.value",
-                    "value": "airPurifierFanMode.value",
-                    "multiSelection": false
+                    "value": "airPurifierFanMode.value"
                 }
             }
         ],

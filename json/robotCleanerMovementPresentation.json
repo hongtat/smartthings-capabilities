@@ -236,8 +236,7 @@
                             "type": "active"
                         }
                     ],
-                    "value": "robotCleanerMovement.value",
-                    "multiSelection": false
+                    "value": "robotCleanerMovement.value"
                 }
             }
         ],

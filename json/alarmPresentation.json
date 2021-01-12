@@ -115,8 +115,7 @@
                             "type": "active"
                         }
                     ],
-                    "value": "alarm.value",
-                    "multiSelection": false
+                    "value": "alarm.value"
                 }
             }
         ],

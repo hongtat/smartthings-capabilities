@@ -88,8 +88,7 @@
                             "value": "{{i18n.attributes.powerSource.i18n.value.unknown.label}}",
                             "type": "active"
                         }
-                    ],
-                    "multiSelection": false
+                    ]
                 }
             }
         ],

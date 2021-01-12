@@ -369,8 +369,7 @@
                             "type": "inactive"
                         }
                     ],
-                    "value": "button.value",
-                    "multiSelection": false
+                    "value": "button.value"
                 },
                 "emphasis": true
             }

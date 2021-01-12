@@ -119,8 +119,7 @@
                             "type": "active"
                         }
                     ],
-                    "value": "dustHealthConcern.value",
-                    "multiSelection": false
+                    "value": "dustHealthConcern.value"
                 }
             }
         ],

@@ -96,8 +96,7 @@
                             "type": "active"
                         }
                     ],
-                    "value": "robotCleanerTurboMode.value",
-                    "multiSelection": false
+                    "value": "robotCleanerTurboMode.value"
                 }
             }
         ],

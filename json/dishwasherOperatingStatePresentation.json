@@ -154,8 +154,7 @@
                             "type": "active"
                         }
                     ],
-                    "value": "machineState.value",
-                    "multiSelection": false
+                    "value": "machineState.value"
                 }
             },
             {
@@ -219,8 +218,7 @@
                             "type": "active"
                         }
                     ],
-                    "value": "dishwasherJobState.value",
-                    "multiSelection": false
+                    "value": "dishwasherJobState.value"
                 }
             }
         ],

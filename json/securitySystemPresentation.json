@@ -95,8 +95,7 @@
                             "type": "active"
                         }
                     ],
-                    "value": "securitySystemStatus.value",
-                    "multiSelection": false
+                    "value": "securitySystemStatus.value"
                 }
             }
         ],

@@ -267,8 +267,7 @@
                         }
                     ],
                     "supportedValues": "supportedAcFanModes.value",
-                    "value": "fanMode.value",
-                    "multiSelection": false
+                    "value": "fanMode.value"
                 }
             }
         ],

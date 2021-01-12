@@ -68,8 +68,7 @@
                             "type": "inactive"
                         }
                     ],
-                    "value": "rapidCooling.value",
-                    "multiSelection": false
+                    "value": "rapidCooling.value"
                 }
             }
         ],

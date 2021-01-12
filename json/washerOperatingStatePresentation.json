@@ -164,8 +164,7 @@
                             "type": "active"
                         }
                     ],
-                    "value": "machineState.value",
-                    "multiSelection": false
+                    "value": "machineState.value"
                 }
             },
             {
@@ -234,8 +233,7 @@
                             "type": "active"
                         }
                     ],
-                    "value": "washerJobState.value",
-                    "multiSelection": false
+                    "value": "washerJobState.value"
                 }
             }
         ],

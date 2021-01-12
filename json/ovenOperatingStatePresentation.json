@@ -114,8 +114,7 @@
                             "type": "active"
                         }
                     ],
-                    "value": "machineState.value",
-                    "multiSelection": false
+                    "value": "machineState.value"
                 }
             },
             {
@@ -159,8 +158,7 @@
                             "type": "active"
                         }
                     ],
-                    "value": "ovenJobState.value",
-                    "multiSelection": false
+                    "value": "ovenJobState.value"
                 }
             }
         ],

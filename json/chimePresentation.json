@@ -83,8 +83,7 @@
                             "type": "active"
                         }
                     ],
-                    "value": "chime.value",
-                    "multiSelection": false
+                    "value": "chime.value"
                 }
             }
         ],
