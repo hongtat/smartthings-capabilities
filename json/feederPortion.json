@@ -6,25 +6,28 @@
     "attributes": {
         "feedPortion": {
             "schema": {
-                "title": "IntegerPercent",
+                "title": "FeedPortion",
                 "type": "object",
                 "properties": {
                     "value": {
-                        "type": "integer",
+                        "type": "number",
                         "minimum": 0,
-                        "maximum": 100
+                        "maximum": 2000
                     },
                     "unit": {
                         "type": "string",
                         "enum": [
-                            "%"
+                            "g",
+                            "lbs",
+                            "oz"
                         ],
-                        "default": "%"
+                        "default": "g"
                     }
                 },
                 "additionalProperties": false,
                 "required": [
-                    "value"
+                    "value",
+                    "unit"
                 ]
             },
             "setter": "setPortion",
@@ -38,9 +41,29 @@
                     "name": "portion",
                     "optional": false,
                     "schema": {
-                        "type": "integer",
-                        "minimum": 0,
-                        "maximum": 100
+                        "title": "FeedPortion",
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                            "value": {
+                                "type": "number",
+                                "minimum": 0,
+                                "maximum": 2000
+                            },
+                            "unit": {
+                                "type": "string",
+                                "enum": [
+                                    "g",
+                                    "lbs",
+                                    "oz"
+                                ],
+                                "default": "g"
+                            }
+                        },
+                        "required": [
+                            "value",
+                            "unit"
+                        ]
                     }
                 }
             ]

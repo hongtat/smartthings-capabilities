@@ -168,7 +168,7 @@
                 }
             },
             {
-                "label": "{{i18n.label}}",
+                "label": "{{i18n.attributes.washerJobState.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [

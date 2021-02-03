@@ -58,6 +58,16 @@
                         "title": "String",
                         "type": "string",
                         "maxLength": 255
+                    },
+                    "data": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "required": [],
+                        "properties": {
+                            "codeName": {
+                                "type": "string"
+                            }
+                        }
                     }
                 },
                 "additionalProperties": false,
@@ -118,8 +128,9 @@
                 "type": "object",
                 "properties": {
                     "value": {
-                        "title": "JsonObject",
-                        "type": "object"
+                        "title": "PositiveInteger",
+                        "type": "integer",
+                        "minimum": 0
                     }
                 },
                 "additionalProperties": false,

@@ -48,7 +48,8 @@
                                 "glassBreaking",
                                 "fireAlarm",
                                 "dogBarking",
-                                "catMeowing"
+                                "catMeowing",
+                                "doorKnocking"
                             ]
                         }
                     }
@@ -73,7 +74,8 @@
                             "glassBreaking",
                             "fireAlarm",
                             "dogBarking",
-                            "catMeowing"
+                            "catMeowing",
+                            "doorKnocking"
                         ]
                     }
                 },

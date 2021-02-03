@@ -1,20 +1,4 @@
 {
-    "detailView": [
-        {
-            "label": "{{i18n.label}}",
-            "displayType": "state",
-            "state": {
-                "label": "{{image.value}}"
-            }
-        },
-        {
-            "label": "{{i18n.label}}",
-            "displayType": "state",
-            "state": {
-                "label": "{{captureTime.value}}"
-            }
-        }
-    ],
     "automation": {
         "conditions": [],
         "actions": [
@@ -24,7 +8,7 @@
                 "list": {
                     "alternatives": [
                         {
-                            "key": "take",
+                            "key": "capture",
                             "value": "{{i18n.label}}",
                             "type": "active"
                         }
@@ -33,6 +17,6 @@
             }
         ]
     },
-    "id": "imageCapture",
+    "id": "audioCapture",
     "version": 1
 }

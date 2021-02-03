@@ -92,7 +92,21 @@
                 }
             }
         ],
-        "actions": []
+        "actions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "call",
+                            "value": "{{i18n.commands.call.label}}",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        ]
     },
     "id": "elevatorCall",
     "version": 1

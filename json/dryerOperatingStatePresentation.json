@@ -118,7 +118,7 @@
                 }
             },
             {
-                "label": "{{i18n.label}}",
+                "label": "{{i18n.attributes.dryerJobState.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [

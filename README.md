@@ -1,7 +1,7 @@
 
 ## SmartThings Capabilities
 
-#### Last Update: 2021-01-12
+#### Last Update: 2021-02-03
 
 * [SmartThings Reference](https://smartthings.developer.samsung.com/docs/api-ref/capabilities.html)
 * [SmartThings API](https://smartthings.developer.samsung.com/docs/api-ref/st-api.html#tag/capabilities)
@@ -25,7 +25,7 @@
 | [Alarm System Arm Only](./json/alarmSystemArmOnly.json) | dead |  |
 | [Astronomical Data](./json/astronomicalData.json) | dead |  |
 | [Atmospheric Pressure Measurement](./json/atmosphericPressureMeasurement.json) | proposed | [json](./json/atmosphericPressureMeasurementPresentation.json) |
-| [Audio Capture](./json/audioCapture.json) | proposed |  |
+| [Audio Capture](./json/audioCapture.json) | proposed | [json](./json/audioCapturePresentation.json) |
 | [Audio Mute](./json/audioMute.json) | live | [json](./json/audioMutePresentation.json) |
 | [Audio Notification](./json/audioNotification.json) | live | [json](./json/audioNotificationPresentation.json) |
 | [Audio Stream](./json/audioStream.json) | live |  |
@@ -136,6 +136,7 @@
 | [Refresh](./json/refresh.json) | live | [json](./json/refreshPresentation.json) |
 | [Refrigeration](./json/refrigeration.json) | live | [json](./json/refrigerationPresentation.json) |
 | [Refrigeration Setpoint](./json/refrigerationSetpoint.json) | proposed | [json](./json/refrigerationSetpointPresentation.json) |
+| [Relative Brightness](./json/relativeBrightness.json) | proposed |  |
 | [Relative Humidity Measurement](./json/relativeHumidityMeasurement.json) | live | [json](./json/relativeHumidityMeasurementPresentation.json) |
 | [Relay Switch](./json/relaySwitch.json) | deprecated |  |
 | [Remote Control Status](./json/remoteControlStatus.json) | live | [json](./json/remoteControlStatusPresentation.json) |
@@ -168,8 +169,7 @@
 | [Stateless Media Playback Button](./json/statelessMediaPlaybackButton.json) | proposed | [json](./json/statelessMediaPlaybackButtonPresentation.json) |
 | [Stateless Power Button](./json/statelessPowerButton.json) | live | [json](./json/statelessPowerButtonPresentation.json) |
 | [Stateless Power Toggle Button](./json/statelessPowerToggleButton.json) | live | [json](./json/statelessPowerToggleButtonPresentation.json) |
-| [Stateless Robot Cleaner Action Button](./json/statelessRobotCleanerActionButton.json) | proposed | [json](./json/statelessRobotCleanerActionButtonPresentation.json) |
-| [Stateless Robot Cleaner Home Button](./json/statelessRobotCleanerHomeButton.json) | proposed | [json](./json/statelessRobotCleanerHomeButtonPresentation.json) |
+| [Stateless Robot Cleaner Action Button](./json/statelessRobotCleanerHomeButton.json) | proposed | [json](./json/statelessRobotCleanerHomeButtonPresentation.json) |
 | [Stateless Robot Cleaner Toggle Button](./json/statelessRobotCleanerToggleButton.json) | proposed | [json](./json/statelessRobotCleanerToggleButtonPresentation.json) |
 | [Stateless Set Channel Button](./json/statelessSetChannelButton.json) | proposed | [json](./json/statelessSetChannelButtonPresentation.json) |
 | [Stateless Set Channel By Content Button](./json/statelessSetChannelByContentButton.json) | proposed | [json](./json/statelessSetChannelByContentButtonPresentation.json) |

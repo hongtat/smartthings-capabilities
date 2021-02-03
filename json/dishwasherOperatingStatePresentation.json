@@ -158,7 +158,7 @@
                 }
             },
             {
-                "label": "{{i18n.label}}",
+                "label": "{{i18n.attributes.dishwasherJobState.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
