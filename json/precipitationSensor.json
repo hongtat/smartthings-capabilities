@@ -1,0 +1,32 @@
+{
+    "id": "precipitationSensor",
+    "version": 1,
+    "status": "proposed",
+    "name": "Precipitation Sensor",
+    "attributes": {
+        "precipitationIntensity": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "none",
+                            "possiblePrecipitation",
+                            "light",
+                            "moderate",
+                            "heavy",
+                            "violent"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": []
+}

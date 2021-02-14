@@ -1,37 +1,37 @@
 {
-    "id": "energyMeter",
+    "id": "precipitationMeasurement",
     "version": 1,
-    "status": "live",
-    "name": "Energy Meter",
+    "status": "proposed",
+    "name": "Precipitation Measurement",
     "attributes": {
-        "energy": {
+        "precipitationLevel": {
             "schema": {
                 "type": "object",
                 "properties": {
                     "value": {
-                        "type": "number"
+                        "title": "PositiveNumber",
+                        "type": "number",
+                        "minimum": 0
                     },
                     "unit": {
                         "type": "string",
                         "enum": [
-                            "Wh",
-                            "kWh",
-                            "mWh",
-                            "kVAh"
-                        ],
-                        "default": "kWh"
+                            "mm",
+                            "in"
+                        ]
                     }
                 },
                 "additionalProperties": false,
                 "required": [
-                    "value"
+                    "value",
+                    "unit"
                 ]
             },
             "enumCommands": []
         }
     },
     "commands": {
-        "resetEnergyMeter": {
+        "resetPrecipitationLevel": {
             "arguments": []
         }
     }
