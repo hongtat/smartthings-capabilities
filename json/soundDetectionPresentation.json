@@ -33,6 +33,11 @@
                         "key": "catMeowing",
                         "value": "{{i18n.attributes.soundDetected.i18n.value.catMeowing.label}}",
                         "type": "active"
+                    },
+                    {
+                        "key": "doorKnocking",
+                        "value": "{{i18n.attributes.soundDetected.i18n.value.doorKnocking.label}}",
+                        "type": "active"
                     }
                 ]
             }
@@ -75,6 +80,11 @@
                     {
                         "key": "catMeowing",
                         "value": "{{i18n.attributes.soundDetected.i18n.value.catMeowing.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "doorKnocking",
+                        "value": "{{i18n.attributes.soundDetected.i18n.value.doorKnocking.label}}",
                         "type": "active"
                     }
                 ]
@@ -145,8 +155,14 @@
                             "key": "catMeowing",
                             "value": "{{i18n.attributes.soundDetected.i18n.value.catMeowing.label}}",
                             "type": "active"
+                        },
+                        {
+                            "key": "doorKnocking",
+                            "value": "{{i18n.attributes.soundDetected.i18n.value.doorKnocking.label}}",
+                            "type": "active"
                         }
                     ],
+                    "supportedValues": "supportedSoundTypes.value",
                     "value": "soundDetected.value"
                 }
             }

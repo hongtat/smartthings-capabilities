@@ -1,7 +1,7 @@
 
 ## SmartThings Capabilities
 
-#### Last Update: 2021-02-14
+#### Last Update: 2021-03-14
 
 * [SmartThings Reference](https://smartthings.developer.samsung.com/docs/api-ref/capabilities.html)
 * [SmartThings API](https://smartthings.developer.samsung.com/docs/api-ref/st-api.html#tag/capabilities)
@@ -36,7 +36,7 @@
 | [Beacon](./json/beacon.json) | deprecated |  |
 | [Body Mass Index Measurement](./json/bodyMassIndexMeasurement.json) | proposed | [json](./json/bodyMassIndexMeasurementPresentation.json) |
 | [Body Weight Measurement](./json/bodyWeightMeasurement.json) | proposed | [json](./json/bodyWeightMeasurementPresentation.json) |
-| [Bridge](./json/bridge.json) | deprecated |  |
+| [Bridge](./json/bridge.json) | deprecated | [json](./json/bridgePresentation.json) |
 | [Buffered Video Capture](./json/bufferedVideoCapture.json) | deprecated |  |
 | [Bulb](./json/bulb.json) | dead |  |
 | [Button](./json/button.json) | live | [json](./json/buttonPresentation.json) |
@@ -139,7 +139,7 @@
 | [Refresh](./json/refresh.json) | live | [json](./json/refreshPresentation.json) |
 | [Refrigeration](./json/refrigeration.json) | live | [json](./json/refrigerationPresentation.json) |
 | [Refrigeration Setpoint](./json/refrigerationSetpoint.json) | proposed | [json](./json/refrigerationSetpointPresentation.json) |
-| [Relative Brightness](./json/relativeBrightness.json) | proposed |  |
+| [Relative Brightness](./json/relativeBrightness.json) | proposed | [json](./json/relativeBrightnessPresentation.json) |
 | [Relative Humidity Measurement](./json/relativeHumidityMeasurement.json) | live | [json](./json/relativeHumidityMeasurementPresentation.json) |
 | [Relay Switch](./json/relaySwitch.json) | deprecated |  |
 | [Remote Control Status](./json/remoteControlStatus.json) | live | [json](./json/remoteControlStatusPresentation.json) |
@@ -205,11 +205,11 @@
 | [Tvoc Measurement](./json/tvocMeasurement.json) | live | [json](./json/tvocMeasurementPresentation.json) |
 | [Ultraviolet Index](./json/ultravioletIndex.json) | live | [json](./json/ultravioletIndexPresentation.json) |
 | [Valve](./json/valve.json) | live | [json](./json/valvePresentation.json) |
-| [Vehicle Engine](./json/vehicleEngine.json) | proposed |  |
-| [Vehicle Fuel Level](./json/vehicleFuelLevel.json) | proposed |  |
-| [Vehicle Odometer](./json/vehicleOdometer.json) | proposed |  |
-| [Vehicle Range](./json/vehicleRange.json) | proposed |  |
-| [Vehicle Tire Pressure Monitor](./json/vehicleTirePressureMonitor.json) | proposed |  |
+| [Vehicle Engine](./json/vehicleEngine.json) | proposed | [json](./json/vehicleEnginePresentation.json) |
+| [Vehicle Fuel Level](./json/vehicleFuelLevel.json) | proposed | [json](./json/vehicleFuelLevelPresentation.json) |
+| [Vehicle Odometer](./json/vehicleOdometer.json) | proposed | [json](./json/vehicleOdometerPresentation.json) |
+| [Vehicle Range](./json/vehicleRange.json) | proposed | [json](./json/vehicleRangePresentation.json) |
+| [Vehicle Tire Pressure Monitor](./json/vehicleTirePressureMonitor.json) | proposed | [json](./json/vehicleTirePressureMonitorPresentation.json) |
 | [Very Fine Dust Health Concern](./json/veryFineDustHealthConcern.json) | proposed | [json](./json/veryFineDustHealthConcernPresentation.json) |
 | [Very Fine Dust Sensor](./json/veryFineDustSensor.json) | live | [json](./json/veryFineDustSensorPresentation.json) |
 | [Video Camera](./json/videoCamera.json) | live | [json](./json/videoCameraPresentation.json) |

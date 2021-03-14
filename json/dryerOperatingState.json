@@ -80,6 +80,7 @@
                             "drying",
                             "finished",
                             "none",
+                            "refreshing",
                             "weightSensing",
                             "wrinklePrevent"
                         ]

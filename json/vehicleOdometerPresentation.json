@@ -1,0 +1,46 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{odometerReading.value}} {{odometerReading.unit}}"
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.label}}",
+            "displayType": "slider",
+            "slider": {
+                "range": [
+                    0,
+                    100
+                ],
+                "unit": "odometerReading.unit",
+                "value": "odometerReading.value",
+                "valueType": "object"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "numberField",
+                "numberField": {
+                    "value": "odometerReading.value",
+                    "valueType": "object",
+                    "unit": "odometerReading.unit",
+                    "range": [
+                        0,
+                        100
+                    ]
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "vehicleOdometer",
+    "version": 1
+}

@@ -1,0 +1,13 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "___PO_CODE_SMARTTHINGS_DREAM_SAC_SBODY_CONNECTED"
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "id": "bridge",
+    "version": 1
+}

@@ -20,24 +20,6 @@
             }
         }
     ],
-    "automation": {
-        "conditions": [],
-        "actions": [
-            {
-                "label": "{{i18n.label}}",
-                "displayType": "list",
-                "list": {
-                    "alternatives": [
-                        {
-                            "key": "refresh",
-                            "value": "{{i18n.label}}",
-                            "type": "active"
-                        }
-                    ]
-                }
-            }
-        ]
-    },
     "id": "refresh",
     "version": 1
 }

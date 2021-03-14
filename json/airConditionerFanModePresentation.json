@@ -1,4 +1,95 @@
 {
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{fanMode.value}}",
+                "alternatives": [
+                    {
+                        "key": "1",
+                        "value": "{{i18n.attributes.fanMode.i18n.value.1.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "2",
+                        "value": "{{i18n.attributes.fanMode.i18n.value.2.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "3",
+                        "value": "{{i18n.attributes.fanMode.i18n.value.3.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "4",
+                        "value": "{{i18n.attributes.fanMode.i18n.value.4.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "5",
+                        "value": "{{i18n.attributes.fanMode.i18n.value.5.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "auto",
+                        "value": "{{i18n.attributes.fanMode.i18n.value.auto.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "low",
+                        "value": "{{i18n.attributes.fanMode.i18n.value.low.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "medium",
+                        "value": "{{i18n.attributes.fanMode.i18n.value.medium.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "high",
+                        "value": "{{i18n.attributes.fanMode.i18n.value.high.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "turbo",
+                        "value": "{{i18n.attributes.fanMode.i18n.value.turbo.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "max",
+                        "value": "{{i18n.attributes.fanMode.i18n.value.max.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "windfree",
+                        "value": "{{i18n.attributes.fanMode.i18n.value.windfree.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "sleep",
+                        "value": "{{i18n.attributes.fanMode.i18n.value.sleep.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "quiet",
+                        "value": "{{i18n.attributes.fanMode.i18n.value.quiet.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "smart",
+                        "value": "{{i18n.attributes.fanMode.i18n.value.smart.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "pet",
+                        "value": "{{i18n.attributes.fanMode.i18n.value.pet.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
     "detailView": [
         {
             "label": "{{i18n.label}}",

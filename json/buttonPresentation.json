@@ -369,6 +369,7 @@
                             "type": "inactive"
                         }
                     ],
+                    "supportedValues": "supportedButtonValues.value",
                     "value": "button.value"
                 },
                 "emphasis": true

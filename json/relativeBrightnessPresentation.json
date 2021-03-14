@@ -1,0 +1,46 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{brightnessIntensity.value}}{{brightnessIntensity.unit}}"
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.label}}",
+            "displayType": "slider",
+            "slider": {
+                "range": [
+                    1,
+                    7
+                ],
+                "unit": "brightnessIntensity.unit",
+                "value": "brightnessIntensity.value",
+                "valueType": "integer"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "numberField",
+                "numberField": {
+                    "value": "brightnessIntensity.value",
+                    "valueType": "integer",
+                    "unit": "brightnessIntensity.unit",
+                    "range": [
+                        1,
+                        7
+                    ]
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "relativeBrightness",
+    "version": 1
+}

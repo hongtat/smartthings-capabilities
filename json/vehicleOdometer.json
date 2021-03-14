@@ -6,32 +6,13 @@
     "attributes": {
         "odometerReading": {
             "schema": {
+                "title": "Distance",
                 "type": "object",
                 "properties": {
                     "value": {
-                        "title": "Distance",
-                        "type": "object",
-                        "additionalProperties": false,
-                        "properties": {
-                            "value": {
-                                "title": "PositiveNumber",
-                                "type": "number",
-                                "minimum": 0
-                            },
-                            "unit": {
-                                "title": "DistanceUnit",
-                                "type": "string",
-                                "enum": [
-                                    "mi",
-                                    "km",
-                                    "m"
-                                ]
-                            }
-                        },
-                        "required": [
-                            "value",
-                            "unit"
-                        ]
+                        "title": "PositiveNumber",
+                        "type": "number",
+                        "minimum": 0
                     },
                     "unit": {
                         "type": "string",
