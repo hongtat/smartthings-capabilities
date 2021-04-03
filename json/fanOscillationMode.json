@@ -4,6 +4,41 @@
     "status": "proposed",
     "name": "Fan Oscillation Mode",
     "attributes": {
+        "supportedFanOscillationModes": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "items": {
+                            "title": "FanOscillationMode",
+                            "type": "string",
+                            "enum": [
+                                "fixed",
+                                "vertical",
+                                "horizontal",
+                                "all",
+                                "indirect",
+                                "direct",
+                                "fixedCenter",
+                                "fixedLeft",
+                                "fixedRight",
+                                "far",
+                                "wide",
+                                "mid",
+                                "spot",
+                                "swing"
+                            ]
+                        },
+                        "type": "array"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
         "fanOscillationMode": {
             "schema": {
                 "type": "object",
@@ -21,7 +56,11 @@
                             "fixedCenter",
                             "fixedLeft",
                             "fixedRight",
-                            "far"
+                            "far",
+                            "wide",
+                            "mid",
+                            "spot",
+                            "swing"
                         ]
                     }
                 },
@@ -50,7 +89,11 @@
                             "fixedCenter",
                             "fixedLeft",
                             "fixedRight",
-                            "far"
+                            "far",
+                            "wide",
+                            "mid",
+                            "spot",
+                            "swing"
                         ]
                     }
                 }

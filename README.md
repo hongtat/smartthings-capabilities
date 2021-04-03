@@ -1,7 +1,7 @@
 
 ## SmartThings Capabilities
 
-#### Last Update: 2021-03-14
+#### Last Update: 2021-04-03
 
 * [SmartThings Reference](https://smartthings.developer.samsung.com/docs/api-ref/capabilities.html)
 * [SmartThings API](https://smartthings.developer.samsung.com/docs/api-ref/st-api.html#tag/capabilities)
@@ -207,6 +207,7 @@
 | [Valve](./json/valve.json) | live | [json](./json/valvePresentation.json) |
 | [Vehicle Engine](./json/vehicleEngine.json) | proposed | [json](./json/vehicleEnginePresentation.json) |
 | [Vehicle Fuel Level](./json/vehicleFuelLevel.json) | proposed | [json](./json/vehicleFuelLevelPresentation.json) |
+| [Vehicle Information](./json/vehicleInformation.json) | proposed |  |
 | [Vehicle Odometer](./json/vehicleOdometer.json) | proposed | [json](./json/vehicleOdometerPresentation.json) |
 | [Vehicle Range](./json/vehicleRange.json) | proposed | [json](./json/vehicleRangePresentation.json) |
 | [Vehicle Tire Pressure Monitor](./json/vehicleTirePressureMonitor.json) | proposed | [json](./json/vehicleTirePressureMonitorPresentation.json) |
