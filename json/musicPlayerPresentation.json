@@ -38,7 +38,19 @@
                     "state": {
                         "value": "status.value",
                         "play": "playing",
-                        "pause": "paused"
+                        "pause": "paused",
+                        "alternatives": [
+                            {
+                                "key": "stopped",
+                                "value": "{{i18n.attributes.status.i18n.value.stopped.label}}",
+                                "type": "inactive"
+                            },
+                            {
+                                "key": "standby",
+                                "value": "{{i18n.attributes.status.i18n.value.standby.label}}",
+                                "type": "inactive"
+                            }
+                        ]
                     }
                 }
             }

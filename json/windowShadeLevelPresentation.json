@@ -19,7 +19,7 @@
                 ],
                 "unit": "shadeLevel.unit",
                 "command": "setShadeLevel",
-                "argumentType": "object",
+                "argumentType": "integer",
                 "value": "shadeLevel.value",
                 "valueType": "integer"
             }
@@ -52,7 +52,7 @@
                     ],
                     "unit": "shadeLevel.unit",
                     "command": "setShadeLevel",
-                    "argumentType": "object"
+                    "argumentType": "integer"
                 }
             }
         ]

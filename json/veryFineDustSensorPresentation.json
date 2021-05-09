@@ -1,4 +1,13 @@
 {
+    "dashboard": {
+        "states": [
+            {
+                "label": "PM1.0 {{veryFineDustLevel.value}} \u00b5g\/m\u00b3"
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
     "detailView": [
         {
             "label": "{{i18n.label}}",

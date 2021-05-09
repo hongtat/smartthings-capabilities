@@ -22,11 +22,7 @@
                 "numberField": {
                     "value": "power.value",
                     "valueType": "number",
-                    "unit": "power.unit",
-                    "range": [
-                        0,
-                        999.9
-                    ]
+                    "unit": "power.unit"
                 }
             }
         ],

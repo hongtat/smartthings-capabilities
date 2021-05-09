@@ -31,11 +31,7 @@
                 "numberField": {
                     "value": "energy.value",
                     "valueType": "number",
-                    "unit": "energy.unit",
-                    "range": [
-                        0,
-                        999.9
-                    ]
+                    "unit": "energy.unit"
                 }
             }
         ],

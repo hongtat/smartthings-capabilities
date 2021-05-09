@@ -51,6 +51,9 @@
                         "type": "string",
                         "enum": [
                             "airWash",
+                            "aIRinse",
+                            "aISpin",
+                            "aIWash",
                             "cooling",
                             "delayWash",
                             "drying",

@@ -1,0 +1,49 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{feedPortion.value}}"
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.label}}",
+            "displayType": "slider",
+            "slider": {
+                "range": [
+                    0,
+                    100
+                ],
+                "step": 1,
+                "unit": "feedPortion.unit",
+                "command": "setPortion",
+                "argumentType": "object",
+                "value": "feedPortion.value",
+                "valueType": "number"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [],
+        "actions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "slider",
+                "slider": {
+                    "range": [
+                        0,
+                        100
+                    ],
+                    "unit": "feedPortion.unit",
+                    "command": "setPortion",
+                    "argumentType": "object"
+                }
+            }
+        ]
+    },
+    "id": "feederPortion",
+    "version": 1
+}

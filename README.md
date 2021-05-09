@@ -1,7 +1,7 @@
 
 ## SmartThings Capabilities
 
-#### Last Update: 2021-04-03
+#### Last Update: 2021-05-09
 
 * [SmartThings Reference](https://smartthings.developer.samsung.com/docs/api-ref/capabilities.html)
 * [SmartThings API](https://smartthings.developer.samsung.com/docs/api-ref/st-api.html#tag/capabilities)
@@ -72,8 +72,8 @@
 | [Execute](./json/execute.json) | live |  |
 | [Fan Oscillation Mode](./json/fanOscillationMode.json) | proposed | [json](./json/fanOscillationModePresentation.json) |
 | [Fan Speed](./json/fanSpeed.json) | live | [json](./json/fanSpeedPresentation.json) |
-| [Feeder Operating State](./json/feederOperatingState.json) | proposed |  |
-| [Feeder Portion](./json/feederPortion.json) | proposed |  |
+| [Feeder Operating State](./json/feederOperatingState.json) | proposed | [json](./json/feederOperatingStatePresentation.json) |
+| [Feeder Portion](./json/feederPortion.json) | proposed | [json](./json/feederPortionPresentation.json) |
 | [Filter State](./json/filterState.json) | live |  |
 | [Filter Status](./json/filterStatus.json) | proposed | [json](./json/filterStatusPresentation.json) |
 | [Fine Dust Health Concern](./json/fineDustHealthConcern.json) | proposed | [json](./json/fineDustHealthConcernPresentation.json) |
@@ -207,7 +207,7 @@
 | [Valve](./json/valve.json) | live | [json](./json/valvePresentation.json) |
 | [Vehicle Engine](./json/vehicleEngine.json) | proposed | [json](./json/vehicleEnginePresentation.json) |
 | [Vehicle Fuel Level](./json/vehicleFuelLevel.json) | proposed | [json](./json/vehicleFuelLevelPresentation.json) |
-| [Vehicle Information](./json/vehicleInformation.json) | proposed |  |
+| [Vehicle Information](./json/vehicleInformation.json) | proposed | [json](./json/vehicleInformationPresentation.json) |
 | [Vehicle Odometer](./json/vehicleOdometer.json) | proposed | [json](./json/vehicleOdometerPresentation.json) |
 | [Vehicle Range](./json/vehicleRange.json) | proposed | [json](./json/vehicleRangePresentation.json) |
 | [Vehicle Tire Pressure Monitor](./json/vehicleTirePressureMonitor.json) | proposed | [json](./json/vehicleTirePressureMonitorPresentation.json) |

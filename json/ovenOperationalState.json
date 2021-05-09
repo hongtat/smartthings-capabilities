@@ -99,7 +99,17 @@
                             "draining",
                             "preheat",
                             "ready",
-                            "rinsing"
+                            "rinsing",
+                            "finished",
+                            "scheduledStart",
+                            "warming",
+                            "defrosting",
+                            "sensing",
+                            "searing",
+                            "fastPreheat",
+                            "scheduledEnd",
+                            "stoneHeating",
+                            "timeHoldPreheat"
                         ]
                     }
                 },

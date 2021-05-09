@@ -82,7 +82,11 @@
                             "none",
                             "refreshing",
                             "weightSensing",
-                            "wrinklePrevent"
+                            "wrinklePrevent",
+                            "dehumidifying",
+                            "aIDrying",
+                            "sanitizing",
+                            "internalCare"
                         ]
                     }
                 },
