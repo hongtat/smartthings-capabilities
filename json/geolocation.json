@@ -39,7 +39,7 @@
                 "type": "object",
                 "properties": {
                     "value": {
-                        "type": "integer",
+                        "type": "number",
                         "maximum": 90,
                         "minimum": -90
                     }
@@ -96,7 +96,7 @@
                 "type": "object",
                 "properties": {
                     "value": {
-                        "type": "integer",
+                        "type": "number",
                         "maximum": 180,
                         "minimum": -180
                     }

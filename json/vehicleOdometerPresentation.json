@@ -11,15 +11,9 @@
     "detailView": [
         {
             "label": "{{i18n.label}}",
-            "displayType": "slider",
-            "slider": {
-                "range": [
-                    0,
-                    100
-                ],
-                "unit": "odometerReading.unit",
-                "value": "odometerReading.value",
-                "valueType": "object"
+            "displayType": "state",
+            "state": {
+                "label": "{{odometerReading.value}} {{odometerReading.unit}}"
             }
         }
     ],
@@ -30,12 +24,8 @@
                 "displayType": "numberField",
                 "numberField": {
                     "value": "odometerReading.value",
-                    "valueType": "object",
-                    "unit": "odometerReading.unit",
-                    "range": [
-                        0,
-                        100
-                    ]
+                    "valueType": "number",
+                    "unit": "odometerReading.unit"
                 }
             }
         ],

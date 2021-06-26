@@ -11,15 +11,9 @@
     "detailView": [
         {
             "label": "{{i18n.label}}",
-            "displayType": "slider",
-            "slider": {
-                "range": [
-                    0,
-                    500
-                ],
-                "unit": "estimatedRemainingRange.unit",
-                "value": "estimatedRemainingRange.value",
-                "valueType": "object"
+            "displayType": "state",
+            "state": {
+                "label": "{{estimatedRemainingRange.value}} {{estimatedRemainingRange.unit}}"
             }
         }
     ],
@@ -30,12 +24,8 @@
                 "displayType": "numberField",
                 "numberField": {
                     "value": "estimatedRemainingRange.value",
-                    "valueType": "object",
-                    "unit": "estimatedRemainingRange.unit",
-                    "range": [
-                        0,
-                        500
-                    ]
+                    "valueType": "number",
+                    "unit": "estimatedRemainingRange.unit"
                 }
             }
         ],

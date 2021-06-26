@@ -8,7 +8,7 @@
                 "alternatives": [
                     {
                         "key": "human",
-                        "value": "___PO_CODE_SMARTTHINGS_DREAM_SAC_BODY_PERSON",
+                        "value": "{{i18n.attributes.detected.i18n.value.human.label}}",
                         "type": "active"
                     },
                     {
@@ -50,8 +50,18 @@
                             "type": "active"
                         },
                         {
-                            "key": "human_0",
-                            "value": "{{i18n.attributes.detected.i18n.value.human_0.label}}",
+                            "key": "pet",
+                            "value": "{{i18n.attributes.detected.i18n.value.pet.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "parcel",
+                            "value": "{{i18n.attributes.detected.i18n.value.parcel.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "none",
+                            "value": "{{i18n.attributes.detected.i18n.value.none.label}}",
                             "type": "active"
                         }
                     ],

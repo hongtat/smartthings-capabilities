@@ -1,7 +1,7 @@
 {
     "detailView": [
         {
-            "label": "{{i18n.attributes.title.label}}",
+            "label": "___PO_CODE_CAPABILITY.SMARTTHINGS.AUDIOTRACKDATA_DEFAULT_TITLE",
             "displayType": "state",
             "state": {
                 "label": "{{audioTrackData.value.title}}"

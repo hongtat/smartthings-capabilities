@@ -11,7 +11,7 @@
                     },
                     {
                         "key": "vertical",
-                        "value": "{{i18n.attributes.fanOscillationMode.i18n.value.vertcal.label}}",
+                        "value": "{{i18n.attributes.fanOscillationMode.i18n.value.vertical.label}}",
                         "type": "active"
                     },
                     {
@@ -74,8 +74,8 @@
                             "type": "active"
                         },
                         {
-                            "key": "vertcal",
-                            "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.vertcal.label}}",
+                            "key": "vertical",
+                            "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.vertical.label}}",
                             "type": "active"
                         },
                         {
@@ -118,7 +118,8 @@
                             "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.far.label}}",
                             "type": "active"
                         }
-                    ]
+                    ],
+                    "supportedValues": "supportedFanOscillationModes.value"
                 },
                 "state": {
                     "value": "fanOscillationMode.value",
@@ -129,8 +130,8 @@
                             "type": "active"
                         },
                         {
-                            "key": "vertcal",
-                            "value": "{{i18n.attributes.fanOscillationMode.i18n.value.vertcal.label}}",
+                            "key": "vertical",
+                            "value": "{{i18n.attributes.fanOscillationMode.i18n.value.vertical.label}}",
                             "type": "active"
                         },
                         {
@@ -191,8 +192,8 @@
                             "type": "active"
                         },
                         {
-                            "key": "vertcal",
-                            "value": "{{i18n.attributes.fanOscillationMode.i18n.value.vertcal.label}}",
+                            "key": "vertical",
+                            "value": "{{i18n.attributes.fanOscillationMode.i18n.value.vertical.label}}",
                             "type": "active"
                         },
                         {
@@ -236,6 +237,7 @@
                             "type": "active"
                         }
                     ],
+                    "supportedValues": "supportedFanOscillationModes.value",
                     "value": "fanOscillationMode.value"
                 }
             }
@@ -252,8 +254,8 @@
                             "type": "active"
                         },
                         {
-                            "key": "vertcal",
-                            "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.vertcal.label}}",
+                            "key": "vertical",
+                            "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.vertical.label}}",
                             "type": "active"
                         },
                         {
@@ -267,6 +269,7 @@
                             "type": "active"
                         }
                     ],
+                    "supportedValues": "supportedFanOscillationModes.value",
                     "command": "setFanOscillationMode"
                 }
             }

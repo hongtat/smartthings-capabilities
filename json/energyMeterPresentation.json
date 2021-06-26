@@ -2,7 +2,7 @@
     "dashboard": {
         "states": [
             {
-                "label": "{{energy.value}}{{energy.unit}}"
+                "label": "{{energy.value}} {{energy.unit}}"
             }
         ],
         "actions": [],
@@ -21,6 +21,13 @@
                 "value": "energy.value",
                 "valueType": "number"
             }
+        },
+        {
+            "label": "{{i18n.commands.resetEnergyMeter.label}}",
+            "displayType": "pushButton",
+            "pushButton": {
+                "command": "resetEnergyMeter"
+            }
         }
     ],
     "automation": {
@@ -35,7 +42,21 @@
                 }
             }
         ],
-        "actions": []
+        "actions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "resetEnergyMeter",
+                            "value": "{{i18n.commands.resetEnergyMeter.label}}",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        ]
     },
     "id": "energyMeter",
     "version": 1

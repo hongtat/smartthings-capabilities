@@ -21,7 +21,7 @@
                     },
                     {
                         "key": "Ready",
-                        "value": "{{i18n.attributes.button.i18n.value.Ready.label}}",
+                        "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.BUTTON_DEFAULT_STANDBY",
                         "type": "inactive"
                     },
                     {
@@ -149,7 +149,7 @@
                     },
                     {
                         "key": "Ready",
-                        "value": "{{i18n.attributes.button.i18n.value.Ready.label}}",
+                        "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.BUTTON_DEFAULT_STANDBY",
                         "type": "inactive"
                     },
                     {

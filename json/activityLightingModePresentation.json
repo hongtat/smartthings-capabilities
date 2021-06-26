@@ -8,49 +8,49 @@
                         "key": "reading",
                         "value": "{{i18n.attributes.lightingMode.i18n.value.reading.label}}",
                         "type": "active",
-                        "description": "{{i18n.attributes.lightingMode.i18n.value.reading.description}}"
+                        "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_READING"
                     },
                     {
                         "key": "writing",
                         "value": "{{i18n.attributes.lightingMode.i18n.value.writing.label}}",
                         "type": "active",
-                        "description": "{{i18n.attributes.lightingMode.i18n.value.writing.description}}"
+                        "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_WRIGHTING"
                     },
                     {
                         "key": "computer",
                         "value": "{{i18n.attributes.lightingMode.i18n.value.computer.label}}",
                         "type": "active",
-                        "description": "{{i18n.attributes.lightingMode.i18n.value.computer.description}}"
+                        "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_COMPUTER"
                     },
                     {
                         "key": "day",
                         "value": "{{i18n.attributes.lightingMode.i18n.value.day.label}}",
                         "type": "active",
-                        "description": "{{i18n.attributes.lightingMode.i18n.value.day.description}}"
+                        "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_DAY"
                     },
                     {
                         "key": "night",
                         "value": "{{i18n.attributes.lightingMode.i18n.value.night.label}}",
                         "type": "active",
-                        "description": "{{i18n.attributes.lightingMode.i18n.value.night.description}}"
+                        "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_NIGHT"
                     },
                     {
                         "key": "sleepPreparation",
                         "value": "{{i18n.attributes.lightingMode.i18n.value.sleepPreparation.label}}",
                         "type": "active",
-                        "description": "{{i18n.attributes.lightingMode.i18n.value.sleepPreparation.description}}"
+                        "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_SLEEPPREPARATION"
                     },
                     {
                         "key": "cozy",
                         "value": "{{i18n.attributes.lightingMode.i18n.value.cozy.label}}",
                         "type": "active",
-                        "description": "{{i18n.attributes.lightingMode.i18n.value.cozy.description}}"
+                        "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_COZY"
                     },
                     {
                         "key": "soft",
                         "value": "{{i18n.attributes.lightingMode.i18n.value.soft.label}}",
                         "type": "active",
-                        "description": "{{i18n.attributes.lightingMode.i18n.value.soft.description}}"
+                        "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_SOFT"
                     }
                 ]
             }
@@ -70,49 +70,49 @@
                             "key": "reading",
                             "value": "{{i18n.commands.setLightingMode.arguments.lightingMode.i18n.reading.label}}",
                             "type": "active",
-                            "description": "{{i18n.commands.setLightingMode.arguments.lightingMode.i18n.reading.description}}"
+                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_READING"
                         },
                         {
                             "key": "writing",
                             "value": "{{i18n.commands.setLightingMode.arguments.lightingMode.i18n.writing.label}}",
                             "type": "active",
-                            "description": "{{i18n.commands.setLightingMode.arguments.lightingMode.i18n.writing.description}}"
+                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_WRIGHTING"
                         },
                         {
                             "key": "computer",
                             "value": "{{i18n.commands.setLightingMode.arguments.lightingMode.i18n.computer.label}}",
                             "type": "active",
-                            "description": "{{i18n.commands.setLightingMode.arguments.lightingMode.i18n.computer.description}}"
+                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_COMPUTER"
                         },
                         {
                             "key": "day",
                             "value": "{{i18n.commands.setLightingMode.arguments.lightingMode.i18n.day.label}}",
                             "type": "active",
-                            "description": "{{i18n.commands.setLightingMode.arguments.lightingMode.i18n.day.description}}"
+                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_DAY"
                         },
                         {
                             "key": "night",
                             "value": "{{i18n.commands.setLightingMode.arguments.lightingMode.i18n.night.label}}",
                             "type": "active",
-                            "description": "{{i18n.commands.setLightingMode.arguments.lightingMode.i18n.night.description}}"
+                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_NIGHT"
                         },
                         {
                             "key": "sleepPreparation",
                             "value": "{{i18n.commands.setLightingMode.arguments.lightingMode.i18n.sleepPreparation.label}}",
                             "type": "active",
-                            "description": "{{i18n.commands.setLightingMode.arguments.lightingMode.i18n.sleepPreparation.description}}"
+                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_SLEEPPREPARATION"
                         },
                         {
                             "key": "cozy",
                             "value": "{{i18n.commands.setLightingMode.arguments.lightingMode.i18n.cozy.label}}",
                             "type": "active",
-                            "description": "{{i18n.commands.setLightingMode.arguments.lightingMode.i18n.cozy.description}}"
+                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_COZY"
                         },
                         {
                             "key": "soft",
                             "value": "{{i18n.commands.setLightingMode.arguments.lightingMode.i18n.soft.label}}",
                             "type": "active",
-                            "description": "{{i18n.commands.setLightingMode.arguments.lightingMode.i18n.soft.description}}"
+                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_SOFT"
                         }
                     ]
                 },
@@ -123,49 +123,49 @@
                             "key": "reading",
                             "value": "{{i18n.attributes.lightingMode.i18n.value.reading.label}}",
                             "type": "active",
-                            "description": "{{i18n.attributes.lightingMode.i18n.value.reading.description}}"
+                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_READING"
                         },
                         {
                             "key": "writing",
                             "value": "{{i18n.attributes.lightingMode.i18n.value.writing.label}}",
                             "type": "active",
-                            "description": "{{i18n.attributes.lightingMode.i18n.value.writing.description}}"
+                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_WRIGHTING"
                         },
                         {
                             "key": "computer",
                             "value": "{{i18n.attributes.lightingMode.i18n.value.computer.label}}",
                             "type": "active",
-                            "description": "{{i18n.attributes.lightingMode.i18n.value.computer.description}}"
+                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_COMPUTER"
                         },
                         {
                             "key": "day",
                             "value": "{{i18n.attributes.lightingMode.i18n.value.day.label}}",
                             "type": "active",
-                            "description": "{{i18n.attributes.lightingMode.i18n.value.day.description}}"
+                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_DAY"
                         },
                         {
                             "key": "night",
                             "value": "{{i18n.attributes.lightingMode.i18n.value.night.label}}",
                             "type": "active",
-                            "description": "{{i18n.attributes.lightingMode.i18n.value.night.description}}"
+                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_NIGHT"
                         },
                         {
                             "key": "sleepPreparation",
                             "value": "{{i18n.attributes.lightingMode.i18n.value.sleepPreparation.label}}",
                             "type": "active",
-                            "description": "{{i18n.attributes.lightingMode.i18n.value.sleepPreparation.description}}"
+                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_SLEEPPREPARATION"
                         },
                         {
                             "key": "cozy",
                             "value": "{{i18n.attributes.lightingMode.i18n.value.cozy.label}}",
                             "type": "active",
-                            "description": "{{i18n.attributes.lightingMode.i18n.value.cozy.description}}"
+                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_COZY"
                         },
                         {
                             "key": "soft",
                             "value": "{{i18n.attributes.lightingMode.i18n.value.soft.label}}",
                             "type": "active",
-                            "description": "{{i18n.attributes.lightingMode.i18n.value.soft.description}}"
+                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_SOFT"
                         }
                     ]
                 }
@@ -183,49 +183,49 @@
                             "key": "reading",
                             "value": "{{i18n.attributes.lightingMode.i18n.value.reading.label}}",
                             "type": "active",
-                            "description": "{{i18n.attributes.lightingMode.i18n.value.reading.description}}"
+                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_READING"
                         },
                         {
                             "key": "writing",
                             "value": "{{i18n.attributes.lightingMode.i18n.value.writing.label}}",
                             "type": "active",
-                            "description": "{{i18n.attributes.lightingMode.i18n.value.writing.description}}"
+                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_WRIGHTING"
                         },
                         {
                             "key": "computer",
                             "value": "{{i18n.attributes.lightingMode.i18n.value.computer.label}}",
                             "type": "active",
-                            "description": "{{i18n.attributes.lightingMode.i18n.value.computer.description}}"
+                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_COMPUTER"
                         },
                         {
                             "key": "day",
                             "value": "{{i18n.attributes.lightingMode.i18n.value.day.label}}",
                             "type": "active",
-                            "description": "{{i18n.attributes.lightingMode.i18n.value.day.description}}"
+                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_DAY"
                         },
                         {
                             "key": "night",
                             "value": "{{i18n.attributes.lightingMode.i18n.value.night.label}}",
                             "type": "active",
-                            "description": "{{i18n.attributes.lightingMode.i18n.value.night.description}}"
+                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_NIGHT"
                         },
                         {
                             "key": "sleepPreparation",
                             "value": "{{i18n.attributes.lightingMode.i18n.value.sleepPreparation.label}}",
                             "type": "active",
-                            "description": "{{i18n.attributes.lightingMode.i18n.value.sleepPreparation.description}}"
+                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_SLEEPPREPARATION"
                         },
                         {
                             "key": "cozy",
                             "value": "{{i18n.attributes.lightingMode.i18n.value.cozy.label}}",
                             "type": "active",
-                            "description": "{{i18n.attributes.lightingMode.i18n.value.cozy.description}}"
+                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_COZY"
                         },
                         {
                             "key": "soft",
                             "value": "{{i18n.attributes.lightingMode.i18n.value.soft.label}}",
                             "type": "active",
-                            "description": "{{i18n.attributes.lightingMode.i18n.value.soft.description}}"
+                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_SOFT"
                         }
                     ],
                     "value": "lightingMode.value"
@@ -242,49 +242,49 @@
                             "key": "reading",
                             "value": "{{i18n.commands.setLightingMode.arguments.lightingMode.i18n.reading.label}}",
                             "type": "active",
-                            "description": "{{i18n.commands.setLightingMode.arguments.lightingMode.i18n.reading.description}}"
+                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_READING"
                         },
                         {
                             "key": "writing",
                             "value": "{{i18n.commands.setLightingMode.arguments.lightingMode.i18n.writing.label}}",
                             "type": "active",
-                            "description": "{{i18n.commands.setLightingMode.arguments.lightingMode.i18n.writing.description}}"
+                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_WRIGHTING"
                         },
                         {
                             "key": "computer",
                             "value": "{{i18n.commands.setLightingMode.arguments.lightingMode.i18n.computer.label}}",
                             "type": "active",
-                            "description": "{{i18n.commands.setLightingMode.arguments.lightingMode.i18n.computer.description}}"
+                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_COMPUTER"
                         },
                         {
                             "key": "day",
                             "value": "{{i18n.commands.setLightingMode.arguments.lightingMode.i18n.day.label}}",
                             "type": "active",
-                            "description": "{{i18n.commands.setLightingMode.arguments.lightingMode.i18n.day.description}}"
+                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_DAY"
                         },
                         {
                             "key": "night",
                             "value": "{{i18n.commands.setLightingMode.arguments.lightingMode.i18n.night.label}}",
                             "type": "active",
-                            "description": "{{i18n.commands.setLightingMode.arguments.lightingMode.i18n.night.description}}"
+                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_NIGHT"
                         },
                         {
                             "key": "sleepPreparation",
                             "value": "{{i18n.commands.setLightingMode.arguments.lightingMode.i18n.sleepPreparation.label}}",
                             "type": "active",
-                            "description": "{{i18n.commands.setLightingMode.arguments.lightingMode.i18n.sleepPreparation.description}}"
+                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_SLEEPPREPARATION"
                         },
                         {
                             "key": "cozy",
                             "value": "{{i18n.commands.setLightingMode.arguments.lightingMode.i18n.cozy.label}}",
                             "type": "active",
-                            "description": "{{i18n.commands.setLightingMode.arguments.lightingMode.i18n.cozy.description}}"
+                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_COZY"
                         },
                         {
                             "key": "soft",
                             "value": "{{i18n.commands.setLightingMode.arguments.lightingMode.i18n.soft.label}}",
                             "type": "active",
-                            "description": "{{i18n.commands.setLightingMode.arguments.lightingMode.i18n.soft.description}}"
+                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_SOFT"
                         }
                     ],
                     "command": "setLightingMode"

@@ -33,18 +33,18 @@
                 "command": {
                     "alternatives": [
                         {
-                            "key": "armedAway",
-                            "value": "{{i18n.commands.armedAway.label}}",
+                            "key": "armAway",
+                            "value": "{{i18n.commands.armAway.label}}",
                             "type": "active"
                         },
                         {
-                            "key": "armedStay",
-                            "value": "{{i18n.commands.armedStay.label}}",
+                            "key": "armStay",
+                            "value": "{{i18n.commands.armStay.label}}",
                             "type": "active"
                         },
                         {
-                            "key": "disarmed",
-                            "value": "{{i18n.commands.disarmed.label}}",
+                            "key": "disarm",
+                            "value": "{{i18n.commands.disarm.label}}",
                             "type": "active"
                         }
                     ]
@@ -106,18 +106,18 @@
                 "list": {
                     "alternatives": [
                         {
-                            "key": "armedAway",
-                            "value": "{{i18n.commands.armedAway.label}}",
+                            "key": "armAway",
+                            "value": "{{i18n.commands.armAway.label}}",
                             "type": "active"
                         },
                         {
-                            "key": "armedStay",
-                            "value": "{{i18n.commands.armedStay.label}}",
+                            "key": "armStay",
+                            "value": "{{i18n.commands.armStay.label}}",
                             "type": "active"
                         },
                         {
-                            "key": "disarmed",
-                            "value": "{{i18n.commands.disarmed.label}}",
+                            "key": "disarm",
+                            "value": "{{i18n.commands.disarm.label}}",
                             "type": "active"
                         }
                     ]

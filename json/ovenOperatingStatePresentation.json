@@ -169,8 +169,18 @@
                 "list": {
                     "alternatives": [
                         {
-                            "key": "stop",
-                            "value": "{{i18n.commands.setMachineState.arguments.state.i18n.stop.label}}",
+                            "key": "running",
+                            "value": "{{i18n.commands.setMachineState.arguments.state.i18n.running.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "ready",
+                            "value": "{{i18n.commands.setMachineState.arguments.state.i18n.ready.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "pause",
+                            "value": "{{i18n.commands.setMachineState.arguments.state.i18n.pause.label}}",
                             "type": "active"
                         }
                     ],

@@ -1,7 +1,7 @@
 
 ## SmartThings Capabilities
 
-#### Last Update: 2021-05-09
+#### Last Update: 2021-06-26
 
 * [SmartThings Reference](https://smartthings.developer.samsung.com/docs/api-ref/capabilities.html)
 * [SmartThings API](https://smartthings.developer.samsung.com/docs/api-ref/st-api.html#tag/capabilities)
@@ -28,7 +28,7 @@
 | [Audio Capture](./json/audioCapture.json) | proposed | [json](./json/audioCapturePresentation.json) |
 | [Audio Mute](./json/audioMute.json) | live | [json](./json/audioMutePresentation.json) |
 | [Audio Notification](./json/audioNotification.json) | live | [json](./json/audioNotificationPresentation.json) |
-| [Audio Stream](./json/audioStream.json) | live |  |
+| [Audio Stream](./json/audioStream.json) | live | [json](./json/audioStreamPresentation.json) |
 | [Audio Track Addressing](./json/audioTrackAddressing.json) | proposed |  |
 | [Audio Track Data](./json/audioTrackData.json) | proposed | [json](./json/audioTrackDataPresentation.json) |
 | [Audio Volume](./json/audioVolume.json) | live | [json](./json/audioVolumePresentation.json) |
@@ -108,7 +108,8 @@
 | [Media Playback Shuffle](./json/mediaPlaybackShuffle.json) | proposed | [json](./json/mediaPlaybackShufflePresentation.json) |
 | [Media Presets](./json/mediaPresets.json) | proposed | [json](./json/mediaPresetsPresentation.json) |
 | [Media Track Control](./json/mediaTrackControl.json) | proposed | [json](./json/mediaTrackControlPresentation.json) |
-| [Mold Health Concern](./json/moldHealthConcern.json) | proposed |  |
+| [Mode](./json/mode.json) | proposed | [json](./json/modePresentation.json) |
+| [Mold Health Concern](./json/moldHealthConcern.json) | proposed | [json](./json/moldHealthConcernPresentation.json) |
 | [Momentary](./json/momentary.json) | live | [json](./json/momentaryPresentation.json) |
 | [Motion Sensor](./json/motionSensor.json) | live | [json](./json/motionSensorPresentation.json) |
 | [Music Player](./json/musicPlayer.json) | deprecated | [json](./json/musicPlayerPresentation.json) |

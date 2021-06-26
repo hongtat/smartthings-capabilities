@@ -52,6 +52,11 @@
                             "key": "detected",
                             "value": "{{i18n.attributes.tamper.i18n.value.detected.label}}",
                             "type": "active"
+                        },
+                        {
+                            "key": "clear",
+                            "value": "{{i18n.attributes.tamper.i18n.value.clear.label}}",
+                            "type": "active"
                         }
                     ],
                     "value": "tamper.value"
