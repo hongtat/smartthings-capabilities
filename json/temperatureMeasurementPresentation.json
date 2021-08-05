@@ -34,10 +34,12 @@
                     -20,
                     50
                 ],
+                "step": null,
                 "unit": "temperature.unit",
                 "value": "temperature.value",
                 "valueType": "number"
-            }
+            },
+            "state": null
         }
     ],
     "automation": {

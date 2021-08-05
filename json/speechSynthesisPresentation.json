@@ -4,8 +4,10 @@
             "label": "Speech Synthesis",
             "displayType": "textField",
             "textField": {
-                "command": "speak"
-            }
+                "command": "speak",
+                "value": null
+            },
+            "state": null
         }
     ],
     "id": "speechSynthesis",

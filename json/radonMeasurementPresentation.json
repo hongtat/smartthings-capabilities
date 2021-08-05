@@ -2,7 +2,8 @@
     "dashboard": {
         "states": [
             {
-                "label": "{{radonLevel.value}} {{radonLevel.unit}}"
+                "label": "{{radonLevel.value}} {{radonLevel.unit}}",
+                "alternatives": null
             }
         ],
         "actions": [],
@@ -17,10 +18,12 @@
                     0.2,
                     99.9
                 ],
+                "step": null,
                 "unit": "radonLevel.unit",
                 "value": "radonLevel.value",
                 "valueType": "number"
-            }
+            },
+            "state": null
         }
     ],
     "automation": {

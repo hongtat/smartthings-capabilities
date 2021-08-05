@@ -4,8 +4,10 @@
             "label": "Set channel by content button",
             "displayType": "textField",
             "textField": {
-                "command": "setChannelByContent"
-            }
+                "command": "setChannelByContent",
+                "value": null
+            },
+            "state": null
         }
     ],
     "automation": {

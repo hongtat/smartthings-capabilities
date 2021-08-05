@@ -2,7 +2,8 @@
     "dashboard": {
         "states": [
             {
-                "label": "{{airQuality.value}} {{airQuality.unit}}"
+                "label": "{{airQuality.value}} {{airQuality.unit}}",
+                "alternatives": null
             }
         ],
         "actions": [],
@@ -17,10 +18,12 @@
                     0,
                     100
                 ],
+                "step": null,
                 "unit": "airQuality.unit",
                 "value": "airQuality.value",
                 "valueType": "integer"
-            }
+            },
+            "state": null
         }
     ],
     "automation": {

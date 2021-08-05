@@ -47,7 +47,8 @@
                         }
                     ]
                 }
-            }
+            },
+            "state": null
         }
     ],
     "automation": {

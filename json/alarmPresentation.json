@@ -84,7 +84,8 @@
                         }
                     ]
                 }
-            }
+            },
+            "state": null
         }
     ],
     "automation": {

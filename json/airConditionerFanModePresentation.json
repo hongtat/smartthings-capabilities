@@ -266,7 +266,8 @@
                         }
                     ]
                 }
-            }
+            },
+            "state": null
         }
     ],
     "automation": {

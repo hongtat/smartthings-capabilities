@@ -24,7 +24,8 @@
                         }
                     ]
                 }
-            }
+            },
+            "state": null
         }
     ],
     "automation": {

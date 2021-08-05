@@ -2,7 +2,8 @@
     "dashboard": {
         "states": [
             {
-                "label": "{{carbonMonoxideLevel.value}} {{carbonMonoxideLevel.unit}}"
+                "label": "{{carbonMonoxideLevel.value}} {{carbonMonoxideLevel.unit}}",
+                "alternatives": null
             }
         ],
         "actions": [],
@@ -17,10 +18,12 @@
                     0,
                     1000000
                 ],
+                "step": null,
                 "unit": "carbonMonoxideLevel.unit",
                 "value": "carbonMonoxideLevel.value",
                 "valueType": "number"
-            }
+            },
+            "state": null
         }
     ],
     "automation": {

@@ -4,8 +4,10 @@
             "label": "{{i18n.label}}",
             "displayType": "textField",
             "textField": {
-                "command": "deviceNotification"
-            }
+                "command": "deviceNotification",
+                "value": null
+            },
+            "state": null
         }
     ],
     "automation": {

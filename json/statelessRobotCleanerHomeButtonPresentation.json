@@ -6,7 +6,8 @@
             "pushButton": {
                 "command": "setButton",
                 "argument": "home"
-            }
+            },
+            "state": null
         }
     ],
     "automation": {

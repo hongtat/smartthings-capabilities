@@ -55,7 +55,8 @@
                         }
                     ]
                 }
-            }
+            },
+            "state": null
         }
     ],
     "automation": {

@@ -4,8 +4,10 @@
             "label": "Set Channel Button",
             "displayType": "textField",
             "textField": {
-                "command": "setChannel"
-            }
+                "command": "setChannel",
+                "value": null
+            },
+            "state": null
         }
     ],
     "automation": {

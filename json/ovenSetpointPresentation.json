@@ -8,11 +8,14 @@
                     0,
                     40
                 ],
+                "step": null,
+                "unit": null,
                 "command": "setOvenSetpoint",
                 "argumentType": "integer",
                 "value": "ovenSetpoint.value",
                 "valueType": "integer"
-            }
+            },
+            "state": null
         }
     ],
     "automation": {
@@ -24,6 +27,7 @@
                 "numberField": {
                     "command": "setOvenSetpoint",
                     "argumentType": "integer",
+                    "unit": null,
                     "range": [
                         0,
                         40

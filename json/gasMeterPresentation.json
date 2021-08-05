@@ -2,7 +2,8 @@
     "dashboard": {
         "states": [
             {
-                "label": "{{gasMeter.value}} {{gasMeter.unit}}"
+                "label": "{{gasMeter.value}} {{gasMeter.unit}}",
+                "alternatives": null
             }
         ],
         "actions": [],
@@ -93,7 +94,8 @@
                 "displayType": "numberField",
                 "numberField": {
                     "value": "gasMeterCalorific.value",
-                    "valueType": "number"
+                    "valueType": "number",
+                    "unit": null
                 }
             },
             {
@@ -101,7 +103,8 @@
                 "displayType": "numberField",
                 "numberField": {
                     "value": "gasMeterConversion.value",
-                    "valueType": "number"
+                    "valueType": "number",
+                    "unit": null
                 }
             },
             {
@@ -109,7 +112,8 @@
                 "displayType": "numberField",
                 "numberField": {
                     "value": "gasMeterPrecision.value.volume",
-                    "valueType": "number"
+                    "valueType": "number",
+                    "unit": null
                 }
             },
             {
@@ -117,7 +121,8 @@
                 "displayType": "numberField",
                 "numberField": {
                     "value": "gasMeterPrecision.value.calorific",
-                    "valueType": "number"
+                    "valueType": "number",
+                    "unit": null
                 }
             },
             {
@@ -125,7 +130,8 @@
                 "displayType": "numberField",
                 "numberField": {
                     "value": "gasMeterPrecision.value.conversion",
-                    "valueType": "number"
+                    "valueType": "number",
+                    "unit": null
                 }
             },
             {

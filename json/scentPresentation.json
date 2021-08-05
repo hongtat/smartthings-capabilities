@@ -15,11 +15,14 @@
                     0,
                     100
                 ],
+                "step": null,
+                "unit": null,
                 "command": "setScentIntensity",
                 "argumentType": "integer",
                 "value": "scentIntensity.value",
                 "valueType": "integer"
-            }
+            },
+            "state": null
         }
     ],
     "automation": {

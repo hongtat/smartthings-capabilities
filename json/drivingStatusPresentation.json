@@ -27,6 +27,7 @@
             "list": {
                 "state": {
                     "value": "drivingStatus.value",
+                    "valueType": "string",
                     "alternatives": [
                         {
                             "key": "notDriving",
@@ -40,7 +41,8 @@
                         }
                     ]
                 }
-            }
+            },
+            "state": null
         }
     ],
     "automation": {
@@ -61,7 +63,8 @@
                             "type": "active"
                         }
                     ],
-                    "value": "drivingStatus.value"
+                    "value": "drivingStatus.value",
+                    "valueType": "string"
                 }
             }
         ],

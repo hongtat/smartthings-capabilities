@@ -2,7 +2,8 @@
     "dashboard": {
         "states": [
             {
-                "label": "___PO_CODE_CAPABILITY.SMARTTHINGS.BRIDGE_DEFAULT_CONNECTED"
+                "label": "___PO_CODE_CAPABILITY.SMARTTHINGS.BRIDGE_DEFAULT_CONNECTED",
+                "alternatives": null
             }
         ],
         "actions": [],

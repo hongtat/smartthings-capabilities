@@ -34,12 +34,14 @@
                     0,
                     40
                 ],
+                "step": null,
                 "unit": "coolingSetpoint.unit",
                 "command": "setCoolingSetpoint",
                 "argumentType": "number",
                 "value": "coolingSetpoint.value",
                 "valueType": "number"
-            }
+            },
+            "state": null
         }
     ],
     "automation": {

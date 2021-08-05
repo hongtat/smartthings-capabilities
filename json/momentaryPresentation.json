@@ -2,7 +2,8 @@
     "dashboard": {
         "states": [
             {
-                "label": "___PO_CODE_CAPABILITY.SMARTTHINGS.MOMENTARY_DEFAULT_STANDBY"
+                "label": "___PO_CODE_CAPABILITY.SMARTTHINGS.MOMENTARY_DEFAULT_STANDBY",
+                "alternatives": null
             }
         ],
         "actions": [
@@ -21,7 +22,8 @@
             "displayType": "pushButton",
             "pushButton": {
                 "command": "push"
-            }
+            },
+            "state": null
         }
     ],
     "automation": {

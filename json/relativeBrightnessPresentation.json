@@ -2,7 +2,8 @@
     "dashboard": {
         "states": [
             {
-                "label": "{{brightnessIntensity.value}} {{brightnessIntensity.unit}}"
+                "label": "{{brightnessIntensity.value}} {{brightnessIntensity.unit}}",
+                "alternatives": null
             }
         ],
         "actions": [],
@@ -17,10 +18,12 @@
                     1,
                     7
                 ],
+                "step": null,
                 "unit": "brightnessIntensity.unit",
                 "value": "brightnessIntensity.value",
                 "valueType": "integer"
-            }
+            },
+            "state": null
         }
     ],
     "automation": {

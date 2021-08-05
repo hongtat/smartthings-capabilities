@@ -8,10 +8,12 @@
                     0,
                     999.9
                 ],
+                "step": null,
                 "unit": "power.unit",
                 "value": "power.value",
                 "valueType": "number"
-            }
+            },
+            "state": null
         }
     ],
     "automation": {

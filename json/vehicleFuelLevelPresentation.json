@@ -2,7 +2,8 @@
     "dashboard": {
         "states": [
             {
-                "label": "{{fuelLevel.value}} {{fuelLevel.unit}}"
+                "label": "{{fuelLevel.value}} {{fuelLevel.unit}}",
+                "alternatives": null
             }
         ],
         "actions": [],
@@ -17,10 +18,12 @@
                     0,
                     100
                 ],
+                "step": null,
                 "unit": "fuelLevel.unit",
                 "value": "fuelLevel.value",
                 "valueType": "integer"
-            }
+            },
+            "state": null
         }
     ],
     "automation": {

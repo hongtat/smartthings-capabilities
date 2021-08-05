@@ -34,12 +34,14 @@
                     0,
                     40
                 ],
+                "step": null,
                 "unit": "heatingSetpoint.unit",
                 "command": "setHeatingSetpoint",
                 "argumentType": "number",
                 "value": "heatingSetpoint.value",
                 "valueType": "number"
-            }
+            },
+            "state": null
         }
     ],
     "automation": {

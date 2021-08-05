@@ -4,8 +4,10 @@
             "label": "Audio alert",
             "displayType": "textField",
             "textField": {
-                "command": "playTrack"
-            }
+                "command": "playTrack",
+                "value": null
+            },
+            "state": null
         }
     ],
     "id": "audioNotification",

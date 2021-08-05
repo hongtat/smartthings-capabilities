@@ -2,7 +2,8 @@
     "dashboard": {
         "states": [
             {
-                "label": "{{tvChannel.value}}"
+                "label": "{{tvChannel.value}}",
+                "alternatives": null
             }
         ],
         "actions": [],
@@ -13,8 +14,10 @@
             "label": "{{i18n.label}}",
             "displayType": "textField",
             "textField": {
-                "command": "setTvChannel"
-            }
+                "command": "setTvChannel",
+                "value": null
+            },
+            "state": null
         }
     ],
     "automation": {

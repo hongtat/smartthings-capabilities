@@ -4,8 +4,10 @@
             "label": "Custom IR Button",
             "displayType": "textField",
             "textField": {
-                "command": "setButton"
-            }
+                "command": "setButton",
+                "value": null
+            },
+            "state": null
         }
     ],
     "automation": {

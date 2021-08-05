@@ -2,7 +2,8 @@
     "dashboard": {
         "states": [
             {
-                "label": "{{estimatedRemainingRange.value}} {{estimatedRemainingRange.unit}}"
+                "label": "{{estimatedRemainingRange.value}} {{estimatedRemainingRange.unit}}",
+                "alternatives": null
             }
         ],
         "actions": [],

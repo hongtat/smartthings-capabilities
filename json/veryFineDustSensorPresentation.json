@@ -2,7 +2,8 @@
     "dashboard": {
         "states": [
             {
-                "label": "PM1.0 {{veryFineDustLevel.value}} \u00b5g\/m\u00b3"
+                "label": "PM1.0 {{veryFineDustLevel.value}} \u00b5g\/m\u00b3",
+                "alternatives": null
             }
         ],
         "actions": [],

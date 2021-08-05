@@ -2,7 +2,8 @@
     "dashboard": {
         "states": [
             {
-                "label": "{{formaldehydeLevel.value}}{{formaldehydeLevel.unit}}"
+                "label": "{{formaldehydeLevel.value}}{{formaldehydeLevel.unit}}",
+                "alternatives": null
             }
         ],
         "actions": [],

@@ -1,7 +1,7 @@
 
 ## SmartThings Capabilities
 
-#### Last Update: 2021-06-26
+#### Last Update: 2021-08-05
 
 * [SmartThings Reference](https://smartthings.developer.samsung.com/docs/api-ref/capabilities.html)
 * [SmartThings API](https://smartthings.developer.samsung.com/docs/api-ref/st-api.html#tag/capabilities)

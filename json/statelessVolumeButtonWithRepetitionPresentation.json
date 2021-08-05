@@ -4,25 +4,31 @@
             "label": "Stateless Volume Button With Repetition",
             "displayType": "numberField",
             "numberField": {
+                "value": null,
+                "unit": null,
                 "command": "volumeUp",
                 "argumentType": "integer",
                 "range": [
                     0,
                     10
                 ]
-            }
+            },
+            "state": null
         },
         {
             "label": "Stateless Volume Button With Repetition",
             "displayType": "numberField",
             "numberField": {
+                "value": null,
+                "unit": null,
                 "command": "volumeDown",
                 "argumentType": "integer",
                 "range": [
                     0,
                     10
                 ]
-            }
+            },
+            "state": null
         }
     ],
     "automation": {
@@ -34,6 +40,7 @@
                 "numberField": {
                     "command": "volumeUp",
                     "argumentType": "integer",
+                    "unit": null,
                     "range": [
                         0,
                         10
@@ -46,6 +53,7 @@
                 "numberField": {
                     "command": "volumeDown",
                     "argumentType": "integer",
+                    "unit": null,
                     "range": [
                         0,
                         10

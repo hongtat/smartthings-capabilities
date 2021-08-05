@@ -17,7 +17,8 @@
             "displayType": "pushButton",
             "pushButton": {
                 "command": "refresh"
-            }
+            },
+            "state": null
         }
     ],
     "id": "refresh",

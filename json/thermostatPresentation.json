@@ -8,12 +8,14 @@
                     0,
                     40
                 ],
+                "step": null,
                 "unit": "heatingSetpoint.unit",
                 "command": "setHeatingSetpoint",
                 "argumentType": "number",
                 "value": "heatingSetpoint.value",
                 "valueType": "number"
-            }
+            },
+            "state": null
         },
         {
             "label": "{{i18n.attributes.coolingSetpoint.label}}",
@@ -23,12 +25,14 @@
                     0,
                     40
                 ],
+                "step": null,
                 "unit": "coolingSetpoint.unit",
                 "command": "setCoolingSetpoint",
                 "argumentType": "number",
                 "value": "coolingSetpoint.value",
                 "valueType": "number"
-            }
+            },
+            "state": null
         },
         {
             "label": "{{i18n.attributes.thermostatOperatingState.label}}",
@@ -459,7 +463,8 @@
                         }
                     ]
                 }
-            }
+            },
+            "state": null
         },
         {
             "label": "{{i18n.attributes.thermostatFanMode.label}}",
@@ -586,7 +591,8 @@
                         }
                     ]
                 }
-            }
+            },
+            "state": null
         }
     ],
     "automation": {

@@ -121,7 +121,8 @@
                         }
                     ]
                 }
-            }
+            },
+            "state": null
         },
         {
             "label": "{{i18n.attributes.level.label}}",
@@ -131,11 +132,14 @@
                     0,
                     100
                 ],
+                "step": null,
+                "unit": null,
                 "command": "setLevel",
                 "argumentType": "integer",
                 "value": "level.value",
                 "valueType": "integer"
-            }
+            },
+            "state": null
         },
         {
             "label": "{{i18n.attributes.mute.label}}",
@@ -163,7 +167,8 @@
                         }
                     ]
                 }
-            }
+            },
+            "state": null
         },
         {
             "label": "Track",
@@ -190,7 +195,8 @@
                         }
                     ]
                 }
-            }
+            },
+            "state": null
         }
     ],
     "automation": {
@@ -227,6 +233,8 @@
                         0,
                         100
                     ],
+                    "step": null,
+                    "unit": null,
                     "value": "level.value",
                     "valueType": "integer"
                 }
@@ -284,6 +292,8 @@
                         0,
                         100
                     ],
+                    "step": null,
+                    "unit": null,
                     "command": "setLevel",
                     "argumentType": "integer"
                 }

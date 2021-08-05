@@ -2,7 +2,8 @@
     "dashboard": {
         "states": [
             {
-                "label": "{{mode.value}}"
+                "label": "{{mode.value}}",
+                "alternatives": null
             }
         ],
         "actions": [],
@@ -34,7 +35,8 @@
                         }
                     ]
                 }
-            }
+            },
+            "state": null
         }
     ],
     "automation": {

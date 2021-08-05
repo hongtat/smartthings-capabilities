@@ -16,7 +16,8 @@
                 "displayType": "numberField",
                 "numberField": {
                     "command": "setColor",
-                    "argumentType": "object"
+                    "argumentType": "object",
+                    "unit": null
                 }
             }
         ]

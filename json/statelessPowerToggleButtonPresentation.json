@@ -19,7 +19,8 @@
             "pushButton": {
                 "command": "setButton",
                 "argument": "powerToggle"
-            }
+            },
+            "state": null
         }
     ],
     "automation": {

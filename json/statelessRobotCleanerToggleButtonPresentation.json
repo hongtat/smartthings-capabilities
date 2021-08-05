@@ -6,7 +6,8 @@
             "pushButton": {
                 "command": "setButton",
                 "argument": "actionToggle"
-            }
+            },
+            "state": null
         }
     ],
     "automation": {

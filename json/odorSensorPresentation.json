@@ -15,7 +15,8 @@
                 "displayType": "numberField",
                 "numberField": {
                     "value": "odorLevel.value",
-                    "valueType": "integer"
+                    "valueType": "integer",
+                    "unit": null
                 }
             }
         ],

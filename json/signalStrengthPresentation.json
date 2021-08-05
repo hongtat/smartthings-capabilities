@@ -2,7 +2,8 @@
     "dashboard": {
         "states": [
             {
-                "label": "lqi:{{lqi.value}},rssi:{{rssi.value}}"
+                "label": "lqi:{{lqi.value}},rssi:{{rssi.value}}",
+                "alternatives": null
             }
         ],
         "actions": [],
@@ -33,6 +34,7 @@
                 "numberField": {
                     "value": "lqi.value",
                     "valueType": "integer",
+                    "unit": null,
                     "range": [
                         0,
                         255

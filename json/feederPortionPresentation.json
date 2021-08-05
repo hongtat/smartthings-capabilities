@@ -2,7 +2,8 @@
     "dashboard": {
         "states": [
             {
-                "label": "{{feedPortion.value}}"
+                "label": "{{feedPortion.value}}",
+                "alternatives": null
             }
         ],
         "actions": [],
@@ -23,7 +24,8 @@
                 "argumentType": "object",
                 "value": "feedPortion.value",
                 "valueType": "number"
-            }
+            },
+            "state": null
         }
     ],
     "automation": {
@@ -37,6 +39,7 @@
                         0,
                         100
                     ],
+                    "step": null,
                     "unit": "feedPortion.unit",
                     "command": "setPortion",
                     "argumentType": "object"

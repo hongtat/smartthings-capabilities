@@ -2,7 +2,8 @@
     "dashboard": {
         "states": [
             {
-                "label": "{{eta.value}}"
+                "label": "{{eta.value}}",
+                "alternatives": null
             }
         ],
         "actions": [],
