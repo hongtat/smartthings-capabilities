@@ -3,6 +3,7 @@
     "version": 1,
     "status": "live",
     "name": "pH Measurement",
+    "ephemeral": false,
     "attributes": {
         "pH": {
             "schema": {

@@ -2,8 +2,7 @@
     "dashboard": {
         "states": [
             {
-                "label": "{{feedPortion.value}}",
-                "alternatives": null
+                "label": "{{feedPortion.value}}"
             }
         ],
         "actions": [],

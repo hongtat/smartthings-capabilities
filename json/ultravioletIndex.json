@@ -3,6 +3,7 @@
     "version": 1,
     "status": "live",
     "name": "Ultraviolet Index",
+    "ephemeral": false,
     "attributes": {
         "ultravioletIndex": {
             "schema": {

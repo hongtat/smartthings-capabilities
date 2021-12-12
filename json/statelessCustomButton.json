@@ -3,6 +3,7 @@
     "version": 1,
     "status": "live",
     "name": "Stateless Custom Button",
+    "ephemeral": false,
     "attributes": {
         "availableCustomButtons": {
             "schema": {

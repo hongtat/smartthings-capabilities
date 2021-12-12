@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Fan Oscillation Mode",
+    "ephemeral": false,
     "attributes": {
         "supportedFanOscillationModes": {
             "schema": {

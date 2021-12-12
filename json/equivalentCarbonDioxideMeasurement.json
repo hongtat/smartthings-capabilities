@@ -3,6 +3,7 @@
     "version": 1,
     "status": "live",
     "name": "Equivalent Carbon Dioxide Measurement",
+    "ephemeral": false,
     "attributes": {
         "equivalentCarbonDioxideMeasurement": {
             "schema": {

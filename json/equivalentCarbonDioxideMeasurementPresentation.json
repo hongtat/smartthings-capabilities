@@ -2,8 +2,7 @@
     "dashboard": {
         "states": [
             {
-                "label": "{{equivalentCarbonDioxideMeasurement.value}}{{equivalentCarbonDioxideMeasurement.unit}}",
-                "alternatives": null
+                "label": "{{equivalentCarbonDioxideMeasurement.value}}{{equivalentCarbonDioxideMeasurement.unit}}"
             }
         ],
         "actions": [],

@@ -3,6 +3,7 @@
     "version": 1,
     "status": "live",
     "name": "Thermostat Operating State",
+    "ephemeral": false,
     "attributes": {
         "thermostatOperatingState": {
             "schema": {

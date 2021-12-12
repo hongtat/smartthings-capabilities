@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Robot Cleaner Cleaning Mode",
+    "ephemeral": false,
     "attributes": {
         "robotCleanerCleaningMode": {
             "schema": {
@@ -31,6 +32,7 @@
     },
     "commands": {
         "setRobotCleanerCleaningMode": {
+            "name": "setRobotCleanerCleaningMode",
             "arguments": [
                 {
                     "name": "mode",

@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Fine Dust Health Concern",
+    "ephemeral": false,
     "attributes": {
         "fineDustHealthConcern": {
             "schema": {

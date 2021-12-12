@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Precipitation Measurement",
+    "ephemeral": false,
     "attributes": {
         "precipitationLevel": {
             "schema": {

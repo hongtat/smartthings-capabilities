@@ -3,6 +3,7 @@
     "version": 1,
     "status": "dead",
     "name": "Alarm System",
+    "ephemeral": false,
     "attributes": {
         "alarmSystemStatus": {
             "schema": {

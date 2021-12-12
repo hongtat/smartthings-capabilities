@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Wifi Mesh Router",
+    "ephemeral": false,
     "attributes": {
         "disconnectedRouterCount": {
             "schema": {

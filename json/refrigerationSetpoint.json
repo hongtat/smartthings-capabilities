@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Refrigeration Setpoint",
+    "ephemeral": false,
     "attributes": {
         "refrigerationSetpoint": {
             "schema": {
@@ -35,6 +36,7 @@
     },
     "commands": {
         "setRefrigerationSetpoint": {
+            "name": "setRefrigerationSetpoint",
             "arguments": [
                 {
                     "name": "setpoint",

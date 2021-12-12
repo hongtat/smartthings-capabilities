@@ -2,8 +2,7 @@
     "dashboard": {
         "states": [
             {
-                "label": "{{airQuality.value}} {{airQuality.unit}}",
-                "alternatives": null
+                "label": "{{airQuality.value}} {{airQuality.unit}}"
             }
         ],
         "actions": [],

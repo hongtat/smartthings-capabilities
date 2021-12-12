@@ -2,8 +2,7 @@
     "dashboard": {
         "states": [
             {
-                "label": "{{colorTemperature.value}} {{colorTemperature.unit}}",
-                "alternatives": null
+                "label": "{{colorTemperature.value}} {{colorTemperature.unit}}"
             }
         ],
         "actions": [],

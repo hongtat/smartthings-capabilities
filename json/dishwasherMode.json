@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Dishwasher Mode",
+    "ephemeral": false,
     "attributes": {
         "dishwasherMode": {
             "schema": {
@@ -30,6 +31,7 @@
     },
     "commands": {
         "setDishwasherMode": {
+            "name": "setDishwasherMode",
             "arguments": [
                 {
                     "name": "mode",

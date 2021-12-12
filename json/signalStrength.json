@@ -3,6 +3,7 @@
     "version": 1,
     "status": "live",
     "name": "Signal Strength",
+    "ephemeral": false,
     "attributes": {
         "rssi": {
             "schema": {

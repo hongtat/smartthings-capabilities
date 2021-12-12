@@ -3,6 +3,7 @@
     "version": 1,
     "status": "live",
     "name": "Samsung TV",
+    "ephemeral": false,
     "attributes": {
         "volume": {
             "schema": {
@@ -132,6 +133,7 @@
     },
     "commands": {
         "setPictureMode": {
+            "name": "setPictureMode",
             "arguments": [
                 {
                     "name": "pictureMode",
@@ -151,6 +153,7 @@
             "arguments": []
         },
         "setSoundMode": {
+            "name": "setSoundMode",
             "arguments": [
                 {
                     "name": "soundMode",
@@ -217,6 +220,7 @@
             "arguments": []
         },
         "setVolume": {
+            "name": "setVolume",
             "arguments": [
                 {
                     "name": "volume",

@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Odor Sensor",
+    "ephemeral": false,
     "attributes": {
         "odorLevel": {
             "schema": {

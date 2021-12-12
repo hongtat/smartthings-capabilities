@@ -1,7 +1,7 @@
 
 ## SmartThings Capabilities
 
-#### Last Update: 2021-08-05
+#### Last Update: 2021-12-12
 
 * [SmartThings Reference](https://smartthings.developer.samsung.com/docs/api-ref/capabilities.html)
 * [SmartThings API](https://smartthings.developer.samsung.com/docs/api-ref/st-api.html#tag/capabilities)
@@ -55,7 +55,7 @@
 | [Consumable](./json/consumable.json) | proposed | [json](./json/consumablePresentation.json) |
 | [Contact Sensor](./json/contactSensor.json) | live | [json](./json/contactSensorPresentation.json) |
 | [Demand Response Load Control](./json/demandResponseLoadControl.json) | proposed |  |
-| [Dew Point](./json/dewPoint.json) | proposed | [json](./json/dewPointPresentation.json) |
+| [Dew Point](./json/dewPoint.json) | live | [json](./json/dewPointPresentation.json) |
 | [Dishwasher Mode](./json/dishwasherMode.json) | proposed | [json](./json/dishwasherModePresentation.json) |
 | [Dishwasher Operating State](./json/dishwasherOperatingState.json) | proposed | [json](./json/dishwasherOperatingStatePresentation.json) |
 | [Dishwasher Operational State](./json/dishwasherOperationalState.json) | deprecated |  |
@@ -109,7 +109,7 @@
 | [Media Presets](./json/mediaPresets.json) | proposed | [json](./json/mediaPresetsPresentation.json) |
 | [Media Track Control](./json/mediaTrackControl.json) | proposed | [json](./json/mediaTrackControlPresentation.json) |
 | [Mode](./json/mode.json) | proposed | [json](./json/modePresentation.json) |
-| [Mold Health Concern](./json/moldHealthConcern.json) | proposed | [json](./json/moldHealthConcernPresentation.json) |
+| [Mold Health Concern](./json/moldHealthConcern.json) | live | [json](./json/moldHealthConcernPresentation.json) |
 | [Momentary](./json/momentary.json) | live | [json](./json/momentaryPresentation.json) |
 | [Motion Sensor](./json/motionSensor.json) | live | [json](./json/motionSensorPresentation.json) |
 | [Music Player](./json/musicPlayer.json) | deprecated | [json](./json/musicPlayerPresentation.json) |
@@ -119,6 +119,7 @@
 | [Occupancy Sensor](./json/occupancySensor.json) | proposed | [json](./json/occupancySensorPresentation.json) |
 | [Ocf](./json/ocf.json) | proposed |  |
 | [Odor Sensor](./json/odorSensor.json) | proposed | [json](./json/odorSensorPresentation.json) |
+| [Operating State](./json/operatingState.json) | proposed |  |
 | [Outlet](./json/outlet.json) | deprecated |  |
 | [Oven Mode](./json/ovenMode.json) | proposed | [json](./json/ovenModePresentation.json) |
 | [Oven Operating State](./json/ovenOperatingState.json) | proposed | [json](./json/ovenOperatingStatePresentation.json) |

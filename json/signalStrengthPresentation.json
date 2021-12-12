@@ -2,8 +2,7 @@
     "dashboard": {
         "states": [
             {
-                "label": "lqi:{{lqi.value}},rssi:{{rssi.value}}",
-                "alternatives": null
+                "label": "lqi:{{lqi.value}},rssi:{{rssi.value}}"
             }
         ],
         "actions": [],

@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Media Playback",
+    "ephemeral": false,
     "attributes": {
         "supportedPlaybackCommands": {
             "schema": {
@@ -85,6 +86,7 @@
             "arguments": []
         },
         "setPlaybackStatus": {
+            "name": "setPlaybackStatus",
             "arguments": [
                 {
                     "name": "status",

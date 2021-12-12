@@ -3,6 +3,7 @@
     "version": 1,
     "status": "dead",
     "name": "Astronomical Data",
+    "ephemeral": false,
     "attributes": {
         "sunrise": {
             "schema": {
@@ -77,15 +78,19 @@
     },
     "commands": {
         "sendEvent(sunriseTime)": {
+            "name": "sendEvent(sunriseTime)",
             "arguments": []
         },
         "sendEvent(sunrise)": {
+            "name": "sendEvent(sunrise)",
             "arguments": []
         },
         "sendEvent(sunset)": {
+            "name": "sendEvent(sunset)",
             "arguments": []
         },
         "sendEvent(sunsetTime)": {
+            "name": "sendEvent(sunsetTime)",
             "arguments": []
         }
     }

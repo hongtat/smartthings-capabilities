@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Gas Meter",
+    "ephemeral": false,
     "attributes": {
         "gasMeterPrecision": {
             "schema": {

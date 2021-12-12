@@ -3,6 +3,7 @@
     "version": 1,
     "status": "live",
     "name": "Video Camera",
+    "ephemeral": false,
     "attributes": {
         "settings": {
             "schema": {

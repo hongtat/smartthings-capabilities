@@ -2,8 +2,7 @@
     "dashboard": {
         "states": [
             {
-                "label": "{{tvocLevel.value}}{{tvocLevel.unit}}",
-                "alternatives": null
+                "label": "{{tvocLevel.value}}{{tvocLevel.unit}}"
             }
         ],
         "actions": [],

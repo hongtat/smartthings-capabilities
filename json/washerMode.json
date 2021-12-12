@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Washer Mode",
+    "ephemeral": false,
     "attributes": {
         "washerMode": {
             "schema": {
@@ -30,6 +31,7 @@
     },
     "commands": {
         "setWasherMode": {
+            "name": "setWasherMode",
             "arguments": [
                 {
                     "name": "mode",

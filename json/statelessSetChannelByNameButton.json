@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Stateless Set Channel By Name Button",
+    "ephemeral": false,
     "attributes": [],
     "commands": {
         "setChannelByName": {

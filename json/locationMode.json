@@ -3,6 +3,7 @@
     "version": 1,
     "status": "live",
     "name": "Location Mode",
+    "ephemeral": false,
     "attributes": {
         "mode": {
             "schema": {
@@ -25,6 +26,7 @@
     },
     "commands": {
         "setMode": {
+            "name": "setMode",
             "arguments": [
                 {
                     "name": "mode",

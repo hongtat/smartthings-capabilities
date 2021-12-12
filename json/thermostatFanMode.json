@@ -3,6 +3,7 @@
     "version": 1,
     "status": "live",
     "name": "Thermostat Fan Mode",
+    "ephemeral": false,
     "attributes": {
         "thermostatFanMode": {
             "schema": {
@@ -89,6 +90,7 @@
             "arguments": []
         },
         "setThermostatFanMode": {
+            "name": "setThermostatFanMode",
             "arguments": [
                 {
                     "name": "mode",

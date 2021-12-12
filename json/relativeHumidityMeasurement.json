@@ -3,6 +3,7 @@
     "version": 1,
     "status": "live",
     "name": "Relative Humidity Measurement",
+    "ephemeral": false,
     "attributes": {
         "humidity": {
             "schema": {

@@ -3,6 +3,7 @@
     "version": 1,
     "status": "live",
     "name": "Valve",
+    "ephemeral": false,
     "attributes": {
         "valve": {
             "schema": {

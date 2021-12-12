@@ -3,6 +3,7 @@
     "version": 1,
     "status": "live",
     "name": "Sound Sensor",
+    "ephemeral": false,
     "attributes": {
         "sound": {
             "schema": {

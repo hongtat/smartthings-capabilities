@@ -3,6 +3,7 @@
     "version": 1,
     "status": "deprecated",
     "name": "Oven Operational State",
+    "ephemeral": false,
     "attributes": {
         "completionTime": {
             "schema": {
@@ -139,6 +140,7 @@
             "arguments": []
         },
         "setMachineState": {
+            "name": "setMachineState",
             "arguments": [
                 {
                     "name": "state",

@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Stateless Robot Cleaner Action Button",
+    "ephemeral": false,
     "attributes": {
         "availableRobotCleanerActionButtons": {
             "schema": {

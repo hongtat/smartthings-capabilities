@@ -3,6 +3,7 @@
     "version": 1,
     "status": "live",
     "name": "Thermostat Mode",
+    "ephemeral": false,
     "attributes": {
         "thermostatMode": {
             "schema": {
@@ -199,6 +200,7 @@
             "arguments": []
         },
         "setThermostatMode": {
+            "name": "setThermostatMode",
             "arguments": [
                 {
                     "name": "mode",

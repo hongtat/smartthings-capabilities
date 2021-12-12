@@ -1,8 +1,9 @@
 {
     "id": "moldHealthConcern",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Mold Health Concern",
+    "ephemeral": false,
     "attributes": {
         "moldHealthConcern": {
             "schema": {

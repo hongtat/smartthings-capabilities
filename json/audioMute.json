@@ -3,6 +3,7 @@
     "version": 1,
     "status": "live",
     "name": "Audio Mute",
+    "ephemeral": false,
     "attributes": {
         "mute": {
             "schema": {
@@ -37,6 +38,7 @@
     },
     "commands": {
         "setMute": {
+            "name": "setMute",
             "arguments": [
                 {
                     "name": "state",

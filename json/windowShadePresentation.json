@@ -53,7 +53,8 @@
                     "state": {
                         "value": "windowShade.value",
                         "on": "open",
-                        "off": "closed"
+                        "off": "closed",
+                        "valueType": "string"
                     }
                 }
             }
@@ -82,10 +83,12 @@
                             "value": "{{i18n.commands.pause.label}}",
                             "type": "active"
                         }
-                    ]
+                    ],
+                    "supportedValues": "supportedWindowShadeCommands.value"
                 },
                 "state": {
                     "value": "windowShade.value",
+                    "valueType": "string",
                     "alternatives": [
                         {
                             "key": "closed",
@@ -151,7 +154,8 @@
                             "type": "active"
                         }
                     ],
-                    "value": "windowShade.value"
+                    "value": "windowShade.value",
+                    "valueType": "string"
                 }
             }
         ],
@@ -170,8 +174,14 @@
                             "key": "open",
                             "value": "{{i18n.commands.open.label}}",
                             "type": "active"
+                        },
+                        {
+                            "key": "pause",
+                            "value": "{{i18n.commands.pause.label}}",
+                            "type": "active"
                         }
-                    ]
+                    ],
+                    "supportedValues": "supportedWindowShadeCommands.value"
                 }
             }
         ]

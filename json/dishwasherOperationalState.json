@@ -3,6 +3,7 @@
     "version": 1,
     "status": "deprecated",
     "name": "Dishwasher Operational State",
+    "ephemeral": false,
     "attributes": {
         "completionTime": {
             "schema": {
@@ -99,6 +100,7 @@
     },
     "commands": {
         "setMachineState": {
+            "name": "setMachineState",
             "arguments": [
                 {
                     "name": "state",

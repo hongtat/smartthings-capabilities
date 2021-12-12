@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Dryer Operating State",
+    "ephemeral": false,
     "attributes": {
         "completionTime": {
             "schema": {
@@ -86,7 +87,10 @@
                             "dehumidifying",
                             "aIDrying",
                             "sanitizing",
-                            "internalCare"
+                            "internalCare",
+                            "freezeProtection",
+                            "continuousDehumidifying",
+                            "thawingFrozenInside"
                         ]
                     }
                 },
@@ -100,6 +104,7 @@
     },
     "commands": {
         "setMachineState": {
+            "name": "setMachineState",
             "arguments": [
                 {
                     "name": "state",

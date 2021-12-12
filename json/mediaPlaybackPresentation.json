@@ -42,8 +42,26 @@
                     },
                     "state": {
                         "value": "playbackStatus.value",
+                        "valueType": "string",
                         "play": "playing",
-                        "pause": "paused"
+                        "pause": "paused",
+                        "alternatives": [
+                            {
+                                "key": "stopped",
+                                "value": "{{i18n.attributes.playbackStatus.i18n.value.stopped.label}}",
+                                "type": "inactive"
+                            },
+                            {
+                                "key": "fast forwarding",
+                                "value": "{{i18n.attributes.playbackStatus.i18n.value.fast forwarding.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "rewinding",
+                                "value": "{{i18n.attributes.playbackStatus.i18n.value.rewinding.label}}",
+                                "type": "active"
+                            }
+                        ]
                     }
                 }
             }
@@ -87,6 +105,7 @@
                 },
                 "state": {
                     "value": "playbackStatus.value",
+                    "valueType": "string",
                     "alternatives": [
                         {
                             "key": "playing",
@@ -152,7 +171,8 @@
                             "type": "active"
                         }
                     ],
-                    "value": "playbackStatus.value"
+                    "value": "playbackStatus.value",
+                    "valueType": "string"
                 }
             }
         ],

@@ -2,10 +2,35 @@
     "detailView": [
         {
             "label": "{{i18n.label}}",
-            "displayType": "state",
-            "state": {
-                "label": "{{hue.value}} {{saturation.value}}"
-            }
+            "displayType": "numberField",
+            "numberField": {
+                "value": "hue.value",
+                "valueType": "number",
+                "unit": null,
+                "command": "setHue",
+                "argumentType": "number",
+                "range": [
+                    0,
+                    255
+                ]
+            },
+            "state": null
+        },
+        {
+            "label": "{{i18n.label}}",
+            "displayType": "numberField",
+            "numberField": {
+                "value": "saturation.value",
+                "valueType": "number",
+                "unit": null,
+                "command": "setSaturation",
+                "argumentType": "number",
+                "range": [
+                    0,
+                    255
+                ]
+            },
+            "state": null
         }
     ],
     "automation": {

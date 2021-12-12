@@ -3,6 +3,7 @@
     "version": 1,
     "status": "deprecated",
     "name": "Thermostat Setpoint",
+    "ephemeral": false,
     "attributes": {
         "thermostatSetpoint": {
             "schema": {

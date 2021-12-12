@@ -3,6 +3,7 @@
     "version": 1,
     "status": "deprecated",
     "name": "Music Player",
+    "ephemeral": false,
     "attributes": {
         "trackDescription": {
             "schema": {
@@ -167,6 +168,7 @@
             "arguments": []
         },
         "setLevel": {
+            "name": "setLevel",
             "arguments": [
                 {
                     "name": "level",

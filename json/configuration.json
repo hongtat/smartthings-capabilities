@@ -3,6 +3,7 @@
     "version": 1,
     "status": "live",
     "name": "Configuration",
+    "ephemeral": false,
     "attributes": [],
     "commands": {
         "configure": {

@@ -2,8 +2,7 @@
     "dashboard": {
         "states": [
             {
-                "label": "{{mode.value}}",
-                "alternatives": null
+                "label": "{{mode.value}}"
             }
         ],
         "actions": [],

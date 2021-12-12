@@ -37,7 +37,47 @@
                 ]
             }
         ],
-        "actions": [],
+        "actions": [
+            {
+                "displayType": "playStop",
+                "playStop": {
+                    "command": {
+                        "name": "setRobotCleanerCleaningMode",
+                        "play": "auto",
+                        "stop": "stop",
+                        "argumentType": "string"
+                    },
+                    "state": {
+                        "value": "robotCleanerCleaningMode.value",
+                        "play": "auto",
+                        "stop": "stop",
+                        "alternatives": [
+                            {
+                                "key": "part",
+                                "value": "{{i18n.attributes.robotCleanerCleaningMode.i18n.value.part.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "repeat",
+                                "value": "{{i18n.attributes.robotCleanerCleaningMode.i18n.value.repeat.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "manual",
+                                "value": "{{i18n.attributes.robotCleanerCleaningMode.i18n.value.manual.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "map",
+                                "value": "{{i18n.attributes.robotCleanerCleaningMode.i18n.value.map.label}}",
+                                "type": "active"
+                            }
+                        ],
+                        "valueType": "string"
+                    }
+                }
+            }
+        ],
         "basicPlus": []
     },
     "detailView": [
@@ -78,10 +118,12 @@
                             "value": "{{i18n.commands.setRobotCleanerCleaningMode.arguments.mode.i18n.map.label}}",
                             "type": "active"
                         }
-                    ]
+                    ],
+                    "argumentType": "string"
                 },
                 "state": {
                     "value": "robotCleanerCleaningMode.value",
+                    "valueType": "string",
                     "alternatives": [
                         {
                             "key": "auto",
@@ -157,7 +199,8 @@
                             "type": "active"
                         }
                     ],
-                    "value": "robotCleanerCleaningMode.value"
+                    "value": "robotCleanerCleaningMode.value",
+                    "valueType": "string"
                 }
             }
         ],
@@ -198,7 +241,8 @@
                             "type": "active"
                         }
                     ],
-                    "command": "setRobotCleanerCleaningMode"
+                    "command": "setRobotCleanerCleaningMode",
+                    "argumentType": "string"
                 }
             }
         ]

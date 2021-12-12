@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Mode",
+    "ephemeral": false,
     "attributes": {
         "mode": {
             "schema": {
@@ -39,6 +40,7 @@
     },
     "commands": {
         "setMode": {
+            "name": "setMode",
             "arguments": [
                 {
                     "name": "mode",

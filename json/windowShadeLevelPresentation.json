@@ -2,8 +2,7 @@
     "dashboard": {
         "states": [
             {
-                "label": "{{shadeLevel.value}}",
-                "alternatives": null
+                "label": "{{shadeLevel.value}}"
             }
         ],
         "actions": [],

@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Radon Measurement",
+    "ephemeral": false,
     "attributes": {
         "radonLevel": {
             "schema": {

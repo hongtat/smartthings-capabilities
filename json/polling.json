@@ -3,6 +3,7 @@
     "version": 1,
     "status": "deprecated",
     "name": "Polling",
+    "ephemeral": false,
     "attributes": [],
     "commands": {
         "poll": {

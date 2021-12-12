@@ -3,6 +3,7 @@
     "version": 1,
     "status": "dead",
     "name": "Bulb",
+    "ephemeral": false,
     "attributes": {
         "switch": {
             "schema": {

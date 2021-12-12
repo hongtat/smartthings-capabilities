@@ -2,8 +2,7 @@
     "dashboard": {
         "states": [
             {
-                "label": "{{energy.value}} {{energy.unit}}",
-                "alternatives": null
+                "label": "{{energy.value}} {{energy.unit}}"
             }
         ],
         "actions": [],

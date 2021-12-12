@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Feeder Portion",
+    "ephemeral": false,
     "attributes": {
         "feedPortion": {
             "schema": {
@@ -30,7 +31,6 @@
                     "unit"
                 ]
             },
-            "setter": "setPortion",
             "enumCommands": []
         }
     },
@@ -42,28 +42,23 @@
                     "optional": false,
                     "schema": {
                         "title": "FeedPortion",
-                        "type": "object",
-                        "additionalProperties": false,
-                        "properties": {
-                            "value": {
-                                "type": "number",
-                                "minimum": 0,
-                                "maximum": 2000
-                            },
-                            "unit": {
-                                "type": "string",
-                                "enum": [
-                                    "g",
-                                    "lbs",
-                                    "oz"
-                                ],
-                                "default": "g"
-                            }
-                        },
-                        "required": [
-                            "value",
-                            "unit"
-                        ]
+                        "type": "number",
+                        "minimum": 0,
+                        "maximum": 2000
+                    }
+                },
+                {
+                    "name": "unit",
+                    "optional": true,
+                    "schema": {
+                        "title": "unit",
+                        "type": "string",
+                        "enum": [
+                            "g",
+                            "lbs",
+                            "oz"
+                        ],
+                        "default": "g"
                     }
                 }
             ]

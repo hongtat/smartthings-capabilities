@@ -2,8 +2,7 @@
     "dashboard": {
         "states": [
             {
-                "label": "{{volume.value}}{{volume.unit}}",
-                "alternatives": null
+                "label": "{{volume.value}}{{volume.unit}}"
             }
         ],
         "actions": [],

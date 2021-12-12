@@ -3,6 +3,7 @@
     "version": 1,
     "status": "live",
     "name": "Zw Multichannel",
+    "ephemeral": false,
     "attributes": {
         "epEvent": {
             "schema": {

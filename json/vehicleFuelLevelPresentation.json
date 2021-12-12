@@ -2,8 +2,7 @@
     "dashboard": {
         "states": [
             {
-                "label": "{{fuelLevel.value}} {{fuelLevel.unit}}",
-                "alternatives": null
+                "label": "{{fuelLevel.value}} {{fuelLevel.unit}}"
             }
         ],
         "actions": [],

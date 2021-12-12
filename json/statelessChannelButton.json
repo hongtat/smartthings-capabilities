@@ -3,6 +3,7 @@
     "version": 1,
     "status": "live",
     "name": "Stateless Channel Button",
+    "ephemeral": false,
     "attributes": {
         "availableChannelButtons": {
             "schema": {

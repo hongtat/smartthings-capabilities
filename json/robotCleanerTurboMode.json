@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Robot Cleaner Turbo Mode",
+    "ephemeral": false,
     "attributes": {
         "robotCleanerTurboMode": {
             "schema": {
@@ -28,6 +29,7 @@
     },
     "commands": {
         "setRobotCleanerTurboMode": {
+            "name": "setRobotCleanerTurboMode",
             "arguments": [
                 {
                     "name": "mode",

@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Activity Lighting Mode",
+    "ephemeral": false,
     "attributes": {
         "lightingMode": {
             "schema": {
@@ -33,6 +34,7 @@
     },
     "commands": {
         "setLightingMode": {
+            "name": "setLightingMode",
             "arguments": [
                 {
                     "name": "lightingMode",

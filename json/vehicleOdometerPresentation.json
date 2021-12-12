@@ -2,8 +2,7 @@
     "dashboard": {
         "states": [
             {
-                "label": "{{odometerReading.value}} {{odometerReading.unit}}",
-                "alternatives": null
+                "label": "{{odometerReading.value}} {{odometerReading.unit}}"
             }
         ],
         "actions": [],

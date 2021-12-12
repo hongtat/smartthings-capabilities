@@ -3,6 +3,7 @@
     "version": 1,
     "status": "live",
     "name": "Color Control",
+    "ephemeral": false,
     "attributes": {
         "saturation": {
             "schema": {
@@ -55,6 +56,7 @@
     },
     "commands": {
         "setColor": {
+            "name": "setColor",
             "arguments": [
                 {
                     "name": "color",
@@ -87,6 +89,7 @@
             ]
         },
         "setHue": {
+            "name": "setHue",
             "arguments": [
                 {
                     "name": "hue",
@@ -100,6 +103,7 @@
             ]
         },
         "setSaturation": {
+            "name": "setSaturation",
             "arguments": [
                 {
                     "name": "saturation",

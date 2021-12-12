@@ -38,6 +38,21 @@
                         "key": "doorKnocking",
                         "value": "{{i18n.attributes.soundDetected.i18n.value.doorKnocking.label}}",
                         "type": "active"
+                    },
+                    {
+                        "key": "siren",
+                        "value": "{{i18n.attributes.soundDetected.i18n.value.siren.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "fingerSnapping",
+                        "value": "{{i18n.attributes.soundDetected.i18n.value.fingerSnapping.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "snoring",
+                        "value": "{{i18n.attributes.soundDetected.i18n.value.snoring.label}}",
+                        "type": "active"
                     }
                 ]
             }
@@ -86,6 +101,21 @@
                         "key": "doorKnocking",
                         "value": "{{i18n.attributes.soundDetected.i18n.value.doorKnocking.label}}",
                         "type": "active"
+                    },
+                    {
+                        "key": "siren",
+                        "value": "{{i18n.attributes.soundDetected.i18n.value.siren.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "fingerSnapping",
+                        "value": "{{i18n.attributes.soundDetected.i18n.value.fingerSnapping.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "snoring",
+                        "value": "{{i18n.attributes.soundDetected.i18n.value.snoring.label}}",
+                        "type": "active"
                     }
                 ]
             }
@@ -100,6 +130,7 @@
                 },
                 "state": {
                     "value": "soundDetectionState.value",
+                    "valueType": "string",
                     "on": "enabled",
                     "off": "disabled",
                     "label": "{{soundDetectionState.value}}",
@@ -161,10 +192,26 @@
                             "key": "doorKnocking",
                             "value": "{{i18n.attributes.soundDetected.i18n.value.doorKnocking.label}}",
                             "type": "active"
+                        },
+                        {
+                            "key": "siren",
+                            "value": "{{i18n.attributes.soundDetected.i18n.value.siren.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "fingerSnapping",
+                            "value": "{{i18n.attributes.soundDetected.i18n.value.fingerSnapping.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "snoring",
+                            "value": "{{i18n.attributes.soundDetected.i18n.value.snoring.label}}",
+                            "type": "active"
                         }
                     ],
                     "supportedValues": "supportedSoundTypes.value",
-                    "value": "soundDetected.value"
+                    "value": "soundDetected.value",
+                    "valueType": "string"
                 }
             }
         ],

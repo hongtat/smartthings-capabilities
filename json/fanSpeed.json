@@ -3,6 +3,7 @@
     "version": 1,
     "status": "live",
     "name": "Fan Speed",
+    "ephemeral": false,
     "attributes": {
         "fanSpeed": {
             "schema": {
@@ -25,6 +26,7 @@
     },
     "commands": {
         "setFanSpeed": {
+            "name": "setFanSpeed",
             "arguments": [
                 {
                     "name": "speed",

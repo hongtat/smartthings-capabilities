@@ -40,9 +40,67 @@
                         "type": "active"
                     }
                 ]
+            },
+            {
+                "label": "{{machineState.value}}",
+                "alternatives": [
+                    {
+                        "key": "pause",
+                        "value": "{{i18n.attributes.machineState.i18n.value.pause.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "run",
+                        "value": "{{i18n.attributes.machineState.i18n.value.run.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "stop",
+                        "value": "{{i18n.attributes.machineState.i18n.value.stop.label}}",
+                        "type": "active"
+                    }
+                ]
+            },
+            {
+                "label": "{{completionTime.value}}"
             }
         ],
-        "actions": [],
+        "actions": [
+            {
+                "displayType": "playPause",
+                "playPause": {
+                    "command": {
+                        "name": "setMachineState",
+                        "play": "run",
+                        "pause": "pause",
+                        "argumentType": "string"
+                    },
+                    "state": {
+                        "value": "machineState.value",
+                        "valueType": "string",
+                        "play": "run",
+                        "pause": "pause"
+                    }
+                }
+            },
+            {
+                "displayType": "playStop",
+                "playStop": {
+                    "command": {
+                        "name": "setMachineState",
+                        "play": "run",
+                        "stop": "stop",
+                        "argumentType": "string"
+                    },
+                    "state": {
+                        "value": "machineState.value",
+                        "play": "run",
+                        "stop": "stop",
+                        "valueType": "string"
+                    }
+                }
+            }
+        ],
         "basicPlus": []
     },
     "detailView": [
@@ -114,7 +172,8 @@
                             "type": "active"
                         }
                     ],
-                    "value": "machineState.value"
+                    "value": "machineState.value",
+                    "valueType": "string"
                 }
             },
             {
@@ -158,7 +217,8 @@
                             "type": "active"
                         }
                     ],
-                    "value": "dryerJobState.value"
+                    "value": "dryerJobState.value",
+                    "valueType": "string"
                 }
             }
         ],
@@ -184,8 +244,10 @@
                             "type": "active"
                         }
                     ],
-                    "command": "setMachineState"
-                }
+                    "command": "setMachineState",
+                    "argumentType": "string"
+                },
+                "emphasis": false
             }
         ]
     },

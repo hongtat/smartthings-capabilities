@@ -3,6 +3,7 @@
     "version": 1,
     "status": "live",
     "name": "Air Quality Sensor",
+    "ephemeral": false,
     "attributes": {
         "airQuality": {
             "schema": {

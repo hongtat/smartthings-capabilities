@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Washer Operating State",
+    "ephemeral": false,
     "attributes": {
         "completionTime": {
             "schema": {
@@ -64,7 +65,8 @@
                             "spin",
                             "wash",
                             "weightSensing",
-                            "wrinklePrevent"
+                            "wrinklePrevent",
+                            "freezeProtection"
                         ]
                     }
                 },
@@ -100,6 +102,7 @@
     },
     "commands": {
         "setMachineState": {
+            "name": "setMachineState",
             "arguments": [
                 {
                     "name": "state",

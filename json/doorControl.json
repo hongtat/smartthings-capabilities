@@ -3,6 +3,7 @@
     "version": 1,
     "status": "live",
     "name": "Door Control",
+    "ephemeral": false,
     "attributes": {
         "door": {
             "schema": {

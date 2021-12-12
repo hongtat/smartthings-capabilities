@@ -3,6 +3,7 @@
     "version": 1,
     "status": "deprecated",
     "name": "Garage Door Control",
+    "ephemeral": false,
     "attributes": {
         "door": {
             "schema": {

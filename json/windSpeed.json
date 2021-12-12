@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Wind Speed",
+    "ephemeral": false,
     "attributes": {
         "windspeed": {
             "schema": {

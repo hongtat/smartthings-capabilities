@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Stateless Robot Cleaner Home Button",
+    "ephemeral": false,
     "attributes": {
         "availableRobotCleanerHomeButtons": {
             "schema": {

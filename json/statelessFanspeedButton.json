@@ -3,6 +3,7 @@
     "version": 1,
     "status": "live",
     "name": "Stateless Fanspeed Button",
+    "ephemeral": false,
     "attributes": {
         "availableFanspeedButtons": {
             "schema": {

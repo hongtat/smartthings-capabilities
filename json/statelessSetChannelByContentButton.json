@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Stateless Set Channel By Content Button",
+    "ephemeral": false,
     "attributes": [],
     "commands": {
         "setChannelByContent": {

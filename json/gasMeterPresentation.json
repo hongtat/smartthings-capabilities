@@ -2,8 +2,7 @@
     "dashboard": {
         "states": [
             {
-                "label": "{{gasMeter.value}} {{gasMeter.unit}}",
-                "alternatives": null
+                "label": "{{gasMeter.value}} {{gasMeter.unit}}"
             }
         ],
         "actions": [],

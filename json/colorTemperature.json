@@ -3,6 +3,7 @@
     "version": 1,
     "status": "live",
     "name": "Color Temperature",
+    "ephemeral": false,
     "attributes": {
         "colorTemperature": {
             "schema": {
@@ -32,6 +33,7 @@
     },
     "commands": {
         "setColorTemperature": {
+            "name": "setColorTemperature",
             "arguments": [
                 {
                     "name": "temperature",

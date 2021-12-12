@@ -2,8 +2,7 @@
     "dashboard": {
         "states": [
             {
-                "label": "{{atmosphericPressure.value}} {{atmosphericPressure.unit}}",
-                "alternatives": null
+                "label": "{{atmosphericPressure.value}} {{atmosphericPressure.unit}}"
             }
         ],
         "actions": [],

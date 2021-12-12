@@ -2,8 +2,7 @@
     "dashboard": {
         "states": [
             {
-                "label": "{{bmiMeasurement.value}} {{bmiMeasurement.unit}}",
-                "alternatives": null
+                "label": "{{bmiMeasurement.value}} {{bmiMeasurement.unit}}"
             }
         ],
         "actions": [],

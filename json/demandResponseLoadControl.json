@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Demand Response Load Control",
+    "ephemeral": false,
     "attributes": {
         "drlcStatus": {
             "schema": {
@@ -23,7 +24,7 @@
                                 "title": "DrlcLevel",
                                 "type": "integer",
                                 "minimum": -1,
-                                "maximum": 3
+                                "maximum": 4
                             },
                             "start": {
                                 "title": "Iso8601Date",
@@ -80,7 +81,7 @@
                         "title": "DrlcLevel",
                         "type": "integer",
                         "minimum": -1,
-                        "maximum": 3
+                        "maximum": 4
                     }
                 },
                 {

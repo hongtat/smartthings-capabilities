@@ -2,8 +2,7 @@
     "dashboard": {
         "states": [
             {
-                "label": "PM2.5 {{fineDustLevel.value}} \u00b5g\/m\u00b3",
-                "alternatives": null
+                "label": "PM2.5 {{fineDustLevel.value}} \u00b5g\/m\u00b3"
             }
         ],
         "actions": [],

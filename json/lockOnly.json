@@ -3,6 +3,7 @@
     "version": 1,
     "status": "deprecated",
     "name": "Lock Only",
+    "ephemeral": false,
     "attributes": {
         "lock": {
             "schema": {

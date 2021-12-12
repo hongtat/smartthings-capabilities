@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Power Consumption Report",
+    "ephemeral": false,
     "attributes": {
         "powerConsumption": {
             "schema": {
@@ -39,6 +40,9 @@
                                 "type": "number"
                             },
                             "persistedEnergy": {
+                                "type": "number"
+                            },
+                            "persistedSavedEnergy": {
                                 "type": "number"
                             }
                         }

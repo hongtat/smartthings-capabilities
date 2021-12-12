@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Consumable",
+    "ephemeral": false,
     "attributes": {
         "consumableStatus": {
             "schema": {
@@ -31,6 +32,7 @@
     },
     "commands": {
         "setConsumableStatus": {
+            "name": "setConsumableStatus",
             "arguments": [
                 {
                     "name": "status",

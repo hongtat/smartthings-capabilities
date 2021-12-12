@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Radon Health Concern",
+    "ephemeral": false,
     "attributes": {
         "radonHealthConcern": {
             "schema": {

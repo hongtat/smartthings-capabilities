@@ -3,6 +3,7 @@
     "version": 1,
     "status": "live",
     "name": "Stateless Power Button",
+    "ephemeral": false,
     "attributes": {
         "availablePowerButtons": {
             "schema": {

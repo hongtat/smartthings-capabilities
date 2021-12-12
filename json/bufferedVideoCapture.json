@@ -3,6 +3,7 @@
     "version": 1,
     "status": "deprecated",
     "name": "Buffered Video Capture",
+    "ephemeral": false,
     "attributes": {
         "clip": {
             "schema": {

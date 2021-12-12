@@ -3,6 +3,7 @@
     "version": 1,
     "status": "live",
     "name": "Infrared Level",
+    "ephemeral": false,
     "attributes": {
         "infraredLevel": {
             "schema": {
@@ -33,6 +34,7 @@
     },
     "commands": {
         "setInfraredLevel": {
+            "name": "setInfraredLevel",
             "arguments": [
                 {
                     "name": "level",

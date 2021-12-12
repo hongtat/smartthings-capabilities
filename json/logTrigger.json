@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Log Trigger",
+    "ephemeral": false,
     "attributes": {
         "logState": {
             "schema": {

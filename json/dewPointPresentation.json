@@ -2,8 +2,7 @@
     "dashboard": {
         "states": [
             {
-                "label": "{{dewpoint.value}} {{dewpoint.unit}}",
-                "alternatives": null
+                "label": "{{dewpoint.value}} {{dewpoint.unit}}"
             }
         ],
         "actions": [],

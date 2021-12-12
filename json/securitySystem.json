@@ -3,6 +3,7 @@
     "version": 1,
     "status": "live",
     "name": "Security System",
+    "ephemeral": false,
     "attributes": {
         "alarm": {
             "schema": {

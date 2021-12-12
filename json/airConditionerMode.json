@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Air Conditioner Mode",
+    "ephemeral": false,
     "attributes": {
         "supportedAcModes": {
             "schema": {
@@ -41,6 +42,7 @@
     },
     "commands": {
         "setAirConditionerMode": {
+            "name": "setAirConditionerMode",
             "arguments": [
                 {
                     "name": "mode",

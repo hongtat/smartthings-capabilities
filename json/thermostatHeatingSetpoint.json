@@ -3,6 +3,7 @@
     "version": 1,
     "status": "live",
     "name": "Thermostat Heating Setpoint",
+    "ephemeral": false,
     "attributes": {
         "heatingSetpoint": {
             "schema": {
@@ -35,6 +36,7 @@
     },
     "commands": {
         "setHeatingSetpoint": {
+            "name": "setHeatingSetpoint",
             "arguments": [
                 {
                     "name": "setpoint",

@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Dryer Mode",
+    "ephemeral": false,
     "attributes": {
         "dryerMode": {
             "schema": {
@@ -29,6 +30,7 @@
     },
     "commands": {
         "setDryerMode": {
+            "name": "setDryerMode",
             "arguments": [
                 {
                     "name": "mode",

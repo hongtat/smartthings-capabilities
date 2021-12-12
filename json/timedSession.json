@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Timed Session",
+    "ephemeral": false,
     "attributes": {
         "completionTime": {
             "schema": {
@@ -72,6 +73,7 @@
             "arguments": []
         },
         "setCompletionTime": {
+            "name": "setCompletionTime",
             "arguments": [
                 {
                     "name": "completionTime",

@@ -3,6 +3,7 @@
     "version": 1,
     "status": "dead",
     "name": "Air Flow Direction",
+    "ephemeral": false,
     "attributes": {
         "airFlowDirection": {
             "schema": {

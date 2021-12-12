@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Air Purifier Fan Mode",
+    "ephemeral": false,
     "attributes": {
         "supportedAirPurifierFanModes": {
             "schema": {

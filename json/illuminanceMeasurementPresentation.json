@@ -2,8 +2,7 @@
     "dashboard": {
         "states": [
             {
-                "label": "{{illuminance.value}}{{illuminance.unit}}",
-                "alternatives": null
+                "label": "{{illuminance.value}}{{illuminance.unit}}"
             }
         ],
         "actions": [],

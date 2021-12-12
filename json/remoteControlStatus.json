@@ -3,6 +3,7 @@
     "version": 1,
     "status": "live",
     "name": "Remote Control Status",
+    "ephemeral": false,
     "attributes": {
         "remoteControlEnabled": {
             "schema": {

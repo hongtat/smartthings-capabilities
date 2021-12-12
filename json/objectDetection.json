@@ -3,6 +3,7 @@
     "version": 1,
     "status": "live",
     "name": "Object Detection",
+    "ephemeral": false,
     "attributes": {
         "detected": {
             "schema": {

@@ -3,6 +3,7 @@
     "version": 1,
     "status": "deprecated",
     "name": "Thermostat",
+    "ephemeral": false,
     "attributes": {
         "thermostatSetpointRange": {
             "schema": {
@@ -518,6 +519,7 @@
             "arguments": []
         },
         "setSchedule": {
+            "name": "setSchedule",
             "arguments": [
                 {
                     "name": "schedule",
@@ -539,6 +541,7 @@
             "arguments": []
         },
         "setThermostatFanMode": {
+            "name": "setThermostatFanMode",
             "arguments": [
                 {
                     "name": "fanmode",
@@ -566,6 +569,7 @@
             "arguments": []
         },
         "setCoolingSetpoint": {
+            "name": "setCoolingSetpoint",
             "arguments": [
                 {
                     "name": "setpoint",
@@ -580,6 +584,7 @@
             ]
         },
         "setHeatingSetpoint": {
+            "name": "setHeatingSetpoint",
             "arguments": [
                 {
                     "name": "setpoint",
@@ -594,6 +599,7 @@
             ]
         },
         "setThermostatMode": {
+            "name": "setThermostatMode",
             "arguments": [
                 {
                     "name": "mode",

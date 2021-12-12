@@ -2,8 +2,7 @@
     "dashboard": {
         "states": [
             {
-                "label": "{{infraredLevel.value}}{{infraredLevel.unit}}",
-                "alternatives": null
+                "label": "{{infraredLevel.value}}{{infraredLevel.unit}}"
             }
         ],
         "actions": [],

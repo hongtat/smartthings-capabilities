@@ -3,6 +3,7 @@
     "version": 1,
     "status": "live",
     "name": "Dust Sensor",
+    "ephemeral": false,
     "attributes": {
         "dustLevel": {
             "schema": {

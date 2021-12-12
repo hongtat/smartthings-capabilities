@@ -3,6 +3,7 @@
     "version": 1,
     "status": "deprecated",
     "name": "Bridge",
+    "ephemeral": false,
     "attributes": [],
     "commands": []
 }

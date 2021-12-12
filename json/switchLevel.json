@@ -3,6 +3,7 @@
     "version": 1,
     "status": "live",
     "name": "Switch Level",
+    "ephemeral": false,
     "attributes": {
         "level": {
             "schema": {
@@ -33,6 +34,7 @@
     },
     "commands": {
         "setLevel": {
+            "name": "setLevel",
             "arguments": [
                 {
                     "name": "level",

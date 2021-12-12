@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Media Group",
+    "ephemeral": false,
     "attributes": {
         "groupMute": {
             "schema": {
@@ -126,6 +127,7 @@
             "arguments": []
         },
         "setGroupVolume": {
+            "name": "setGroupVolume",
             "arguments": [
                 {
                     "name": "groupVolume",
@@ -142,6 +144,7 @@
             "arguments": []
         },
         "setGroupMute": {
+            "name": "setGroupMute",
             "arguments": [
                 {
                     "name": "state",

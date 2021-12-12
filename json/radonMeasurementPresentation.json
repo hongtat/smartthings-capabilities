@@ -2,8 +2,7 @@
     "dashboard": {
         "states": [
             {
-                "label": "{{radonLevel.value}} {{radonLevel.unit}}",
-                "alternatives": null
+                "label": "{{radonLevel.value}} {{radonLevel.unit}}"
             }
         ],
         "actions": [],

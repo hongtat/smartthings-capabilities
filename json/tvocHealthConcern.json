@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Tvoc Health Concern",
+    "ephemeral": false,
     "attributes": {
         "tvocHealthConcern": {
             "schema": {

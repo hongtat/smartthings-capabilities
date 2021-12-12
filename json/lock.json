@@ -3,6 +3,7 @@
     "version": 1,
     "status": "live",
     "name": "Lock",
+    "ephemeral": false,
     "attributes": {
         "lock": {
             "schema": {
@@ -36,6 +37,9 @@
                                 ]
                             },
                             "codeId": {
+                                "type": "string"
+                            },
+                            "codeName": {
                                 "type": "string"
                             },
                             "timeout": {

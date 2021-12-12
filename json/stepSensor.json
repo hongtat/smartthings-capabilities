@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Step Sensor",
+    "ephemeral": false,
     "attributes": {
         "goal": {
             "schema": {

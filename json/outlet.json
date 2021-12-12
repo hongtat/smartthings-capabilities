@@ -3,6 +3,7 @@
     "version": 1,
     "status": "deprecated",
     "name": "Outlet",
+    "ephemeral": false,
     "attributes": {
         "switch": {
             "schema": {

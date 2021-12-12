@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Media Playback Repeat",
+    "ephemeral": false,
     "attributes": {
         "playbackRepeatMode": {
             "schema": {
@@ -28,6 +29,7 @@
     },
     "commands": {
         "setPlaybackRepeatMode": {
+            "name": "setPlaybackRepeatMode",
             "arguments": [
                 {
                     "name": "mode",

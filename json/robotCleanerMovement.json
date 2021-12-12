@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Robot Cleaner Movement",
+    "ephemeral": false,
     "attributes": {
         "robotCleanerMovement": {
             "schema": {
@@ -35,6 +36,7 @@
     },
     "commands": {
         "setRobotCleanerMovement": {
+            "name": "setRobotCleanerMovement",
             "arguments": [
                 {
                     "name": "mode",

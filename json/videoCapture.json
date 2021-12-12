@@ -3,6 +3,7 @@
     "version": 1,
     "status": "live",
     "name": "Video Capture",
+    "ephemeral": false,
     "attributes": {
         "stream": {
             "schema": {

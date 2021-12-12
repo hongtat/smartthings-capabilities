@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Audio Capture",
+    "ephemeral": false,
     "attributes": {
         "stream": {
             "schema": {

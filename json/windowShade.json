@@ -3,6 +3,7 @@
     "version": 1,
     "status": "live",
     "name": "Window Shade",
+    "ephemeral": false,
     "attributes": {
         "supportedWindowShadeCommands": {
             "schema": {

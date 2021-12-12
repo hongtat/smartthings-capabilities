@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Sound Detection",
+    "ephemeral": false,
     "attributes": {
         "soundDetectionState": {
             "schema": {

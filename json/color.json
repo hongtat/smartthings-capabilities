@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Color",
+    "ephemeral": false,
     "attributes": {
         "colorValue": {
             "schema": {
@@ -36,6 +37,7 @@
     },
     "commands": {
         "setColorValue": {
+            "name": "setColorValue",
             "arguments": [
                 {
                     "name": "colorValue",
@@ -59,15 +61,6 @@
                             "hue",
                             "saturation"
                         ]
-                    }
-                },
-                {
-                    "name": "switchLevel",
-                    "optional": true,
-                    "schema": {
-                        "type": "integer",
-                        "minimum": 0,
-                        "maximum": 100
                     }
                 }
             ]

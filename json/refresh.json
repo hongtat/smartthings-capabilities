@@ -3,6 +3,7 @@
     "version": 1,
     "status": "live",
     "name": "Refresh",
+    "ephemeral": false,
     "attributes": [],
     "commands": {
         "refresh": {

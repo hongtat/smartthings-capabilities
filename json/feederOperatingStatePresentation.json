@@ -17,7 +17,14 @@
                 ]
             }
         ],
-        "actions": [],
+        "actions": [
+            {
+                "displayType": "pushButton",
+                "pushButton": {
+                    "command": "startFeeding"
+                }
+            }
+        ],
         "basicPlus": []
     },
     "detailView": [
@@ -36,6 +43,7 @@
                 },
                 "state": {
                     "value": "feederOperatingState.value",
+                    "valueType": "string",
                     "alternatives": [
                         {
                             "key": "feeding",
@@ -71,7 +79,8 @@
                             "type": "inactive"
                         }
                     ],
-                    "value": "feederOperatingState.value"
+                    "value": "feederOperatingState.value",
+                    "valueType": "string"
                 }
             }
         ],

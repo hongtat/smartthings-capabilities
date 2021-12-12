@@ -2,8 +2,7 @@
     "dashboard": {
         "states": [
             {
-                "label": "{{battery.value}} {{battery.unit}}",
-                "alternatives": null
+                "label": "{{battery.value}} {{battery.unit}}"
             }
         ],
         "actions": [],

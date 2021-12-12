@@ -3,6 +3,7 @@
     "version": 1,
     "status": "live",
     "name": "webrtc",
+    "ephemeral": false,
     "attributes": {
         "sdpAnswer": {
             "schema": {

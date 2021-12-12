@@ -3,6 +3,7 @@
     "version": 1,
     "status": "live",
     "name": "Formaldehyde Measurement",
+    "ephemeral": false,
     "attributes": {
         "formaldehydeLevel": {
             "schema": {

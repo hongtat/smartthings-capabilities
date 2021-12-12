@@ -3,6 +3,7 @@
     "version": 1,
     "status": "live",
     "name": "Temperature Measurement",
+    "ephemeral": false,
     "attributes": {
         "temperature": {
             "schema": {

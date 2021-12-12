@@ -3,6 +3,7 @@
     "version": 1,
     "status": "live",
     "name": "Energy Meter",
+    "ephemeral": false,
     "attributes": {
         "energy": {
             "schema": {

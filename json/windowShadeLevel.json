@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Window Shade Level",
+    "ephemeral": false,
     "attributes": {
         "shadeLevel": {
             "schema": {
@@ -33,6 +34,7 @@
     },
     "commands": {
         "setShadeLevel": {
+            "name": "setShadeLevel",
             "arguments": [
                 {
                     "name": "shadeLevel",

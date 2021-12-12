@@ -3,6 +3,7 @@
     "version": 1,
     "status": "live",
     "name": "Power Meter",
+    "ephemeral": false,
     "attributes": {
         "power": {
             "schema": {

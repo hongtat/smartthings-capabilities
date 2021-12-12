@@ -3,6 +3,7 @@
     "version": 1,
     "status": "live",
     "name": "Sound Pressure Level",
+    "ephemeral": false,
     "attributes": {
         "soundPressureLevel": {
             "schema": {

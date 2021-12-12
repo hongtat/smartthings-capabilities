@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Stateless Robot Cleaner Toggle Button",
+    "ephemeral": false,
     "attributes": {
         "availableRobotCleanerToggleButtons": {
             "schema": {

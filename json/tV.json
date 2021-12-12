@@ -3,6 +3,7 @@
     "version": 1,
     "status": "live",
     "name": "TV",
+    "ephemeral": false,
     "attributes": {
         "volume": {
             "schema": {

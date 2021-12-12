@@ -2,8 +2,7 @@
     "dashboard": {
         "states": [
             {
-                "label": "{{bodyWeightMeasurement.value}} {{bodyWeightMeasurement.unit}}",
-                "alternatives": null
+                "label": "{{bodyWeightMeasurement.value}} {{bodyWeightMeasurement.unit}}"
             }
         ],
         "actions": [],

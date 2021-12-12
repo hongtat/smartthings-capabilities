@@ -2,8 +2,7 @@
     "dashboard": {
         "states": [
             {
-                "label": "{{soundPressureLevel.value}}{{soundPressureLevel.unit}}",
-                "alternatives": null
+                "label": "{{soundPressureLevel.value}}{{soundPressureLevel.unit}}"
             }
         ],
         "actions": [],

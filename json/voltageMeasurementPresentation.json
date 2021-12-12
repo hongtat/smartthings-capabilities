@@ -2,8 +2,7 @@
     "dashboard": {
         "states": [
             {
-                "label": "{{voltage.value}}{{voltage.unit}}",
-                "alternatives": null
+                "label": "{{voltage.value}}{{voltage.unit}}"
             }
         ],
         "actions": [],

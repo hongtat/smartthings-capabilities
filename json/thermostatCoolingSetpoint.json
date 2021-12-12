@@ -3,6 +3,7 @@
     "version": 1,
     "status": "live",
     "name": "Thermostat Cooling Setpoint",
+    "ephemeral": false,
     "attributes": {
         "coolingSetpoint": {
             "schema": {
@@ -35,6 +36,7 @@
     },
     "commands": {
         "setCoolingSetpoint": {
+            "name": "setCoolingSetpoint",
             "arguments": [
                 {
                     "name": "setpoint",

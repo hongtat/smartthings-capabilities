@@ -22,7 +22,32 @@
                 ]
             }
         ],
-        "actions": [],
+        "actions": [
+            {
+                "displayType": "playStop",
+                "playStop": {
+                    "command": {
+                        "name": "setRobotCleanerTurboMode",
+                        "play": "on",
+                        "stop": "off",
+                        "argumentType": "string"
+                    },
+                    "state": {
+                        "value": "robotCleanerTurboMode.value",
+                        "play": "on",
+                        "stop": "off",
+                        "alternatives": [
+                            {
+                                "key": "silence",
+                                "value": "{{i18n.attributes.robotCleanerTurboMode.i18n.value.silence.label}}",
+                                "type": "active"
+                            }
+                        ],
+                        "valueType": "string"
+                    }
+                }
+            }
+        ],
         "basicPlus": []
     },
     "detailView": [
@@ -48,10 +73,12 @@
                             "value": "{{i18n.commands.setRobotCleanerTurboMode.arguments.mode.i18n.silence.label}}",
                             "type": "active"
                         }
-                    ]
+                    ],
+                    "argumentType": "string"
                 },
                 "state": {
                     "value": "robotCleanerTurboMode.value",
+                    "valueType": "string",
                     "alternatives": [
                         {
                             "key": "on",
@@ -97,7 +124,8 @@
                             "type": "active"
                         }
                     ],
-                    "value": "robotCleanerTurboMode.value"
+                    "value": "robotCleanerTurboMode.value",
+                    "valueType": "string"
                 }
             }
         ],
@@ -123,7 +151,8 @@
                             "type": "active"
                         }
                     ],
-                    "command": "setRobotCleanerTurboMode"
+                    "command": "setRobotCleanerTurboMode",
+                    "argumentType": "string"
                 }
             }
         ]

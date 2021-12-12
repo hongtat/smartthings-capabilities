@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Media Input Source",
+    "ephemeral": false,
     "attributes": {
         "supportedInputSources": {
             "schema": {
@@ -83,6 +84,7 @@
     },
     "commands": {
         "setInputSource": {
+            "name": "setInputSource",
             "arguments": [
                 {
                     "name": "mode",

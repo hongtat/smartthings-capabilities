@@ -3,6 +3,7 @@
     "version": 1,
     "status": "live",
     "name": "Fine Dust Sensor",
+    "ephemeral": false,
     "attributes": {
         "fineDustLevel": {
             "schema": {

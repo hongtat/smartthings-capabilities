@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Scent",
+    "ephemeral": false,
     "attributes": {
         "scentName": {
             "schema": {
@@ -48,6 +49,7 @@
     },
     "commands": {
         "setScentIntensity": {
+            "name": "setScentIntensity",
             "arguments": [
                 {
                     "name": "intensity",

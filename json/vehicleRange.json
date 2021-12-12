@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Vehicle Range",
+    "ephemeral": false,
     "attributes": {
         "estimatedRemainingRange": {
             "schema": {

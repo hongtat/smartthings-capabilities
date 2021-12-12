@@ -3,6 +3,7 @@
     "version": 1,
     "status": "live",
     "name": "Stateless Temperature Button",
+    "ephemeral": false,
     "attributes": {
         "availableTemperatureButtons": {
             "schema": {

@@ -3,6 +3,7 @@
     "version": 1,
     "status": "deprecated",
     "name": "Touch Sensor",
+    "ephemeral": false,
     "attributes": {
         "touch": {
             "schema": {

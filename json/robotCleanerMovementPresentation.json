@@ -57,7 +57,126 @@
                 ]
             }
         ],
-        "actions": [],
+        "actions": [
+            {
+                "displayType": "playPause",
+                "playPause": {
+                    "command": {
+                        "name": "setRobotCleanerMovement",
+                        "play": "cleaning",
+                        "pause": "pause",
+                        "argumentType": "string"
+                    },
+                    "state": {
+                        "value": "robotCleanerMovement.value",
+                        "valueType": "string",
+                        "play": "cleaning",
+                        "pause": "pause",
+                        "alternatives": [
+                            {
+                                "key": "homing",
+                                "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.homing.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "idle",
+                                "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.idle.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "charging",
+                                "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.charging.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "alarm",
+                                "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.alarm.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "powerOff",
+                                "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.powerOff.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "reserve",
+                                "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.reserve.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "point",
+                                "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.point.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "after",
+                                "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.after.label}}",
+                                "type": "active"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "displayType": "playStop",
+                "playStop": {
+                    "command": {
+                        "name": "setRobotCleanerMovement",
+                        "play": "cleaning",
+                        "stop": "homing",
+                        "argumentType": "string"
+                    },
+                    "state": {
+                        "value": "robotCleanerMovement.value",
+                        "play": "cleaning",
+                        "stop": "homing",
+                        "alternatives": [
+                            {
+                                "key": "idle",
+                                "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.idle.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "charging",
+                                "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.charging.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "alarm",
+                                "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.alarm.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "powerOff",
+                                "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.powerOff.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "reserve",
+                                "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.reserve.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "point",
+                                "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.point.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "after",
+                                "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.after.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "pause",
+                                "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.pause.label}}",
+                                "type": "active"
+                            }
+                        ],
+                        "valueType": "string"
+                    }
+                }
+            }
+        ],
         "basicPlus": []
     },
     "detailView": [
@@ -118,10 +237,12 @@
                             "value": "{{i18n.commands.setRobotCleanerMovement.arguments.mode.i18n.pause.label}}",
                             "type": "active"
                         }
-                    ]
+                    ],
+                    "argumentType": "string"
                 },
                 "state": {
                     "value": "robotCleanerMovement.value",
+                    "valueType": "string",
                     "alternatives": [
                         {
                             "key": "homing",
@@ -237,7 +358,8 @@
                             "type": "active"
                         }
                     ],
-                    "value": "robotCleanerMovement.value"
+                    "value": "robotCleanerMovement.value",
+                    "valueType": "string"
                 }
             }
         ],
@@ -298,7 +420,8 @@
                             "type": "active"
                         }
                     ],
-                    "command": "setRobotCleanerMovement"
+                    "command": "setRobotCleanerMovement",
+                    "argumentType": "string"
                 }
             }
         ]

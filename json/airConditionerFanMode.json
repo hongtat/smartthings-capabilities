@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Air Conditioner Fan Mode",
+    "ephemeral": false,
     "attributes": {
         "fanMode": {
             "schema": {

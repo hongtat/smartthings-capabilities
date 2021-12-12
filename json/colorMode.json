@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Color Mode",
+    "ephemeral": false,
     "attributes": {
         "colorMode": {
             "schema": {

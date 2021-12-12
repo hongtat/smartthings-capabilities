@@ -3,6 +3,7 @@
     "version": 1,
     "status": "deprecated",
     "name": "Light",
+    "ephemeral": false,
     "attributes": {
         "switch": {
             "schema": {

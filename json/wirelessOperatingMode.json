@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Wireless Operating Mode",
+    "ephemeral": false,
     "attributes": {
         "wirelessOperatingMode": {
             "schema": {
@@ -27,6 +28,7 @@
     },
     "commands": {
         "setWirelessOperatingMode": {
+            "name": "setWirelessOperatingMode",
             "arguments": [
                 {
                     "name": "wirelessOperatingMode",

@@ -3,6 +3,7 @@
     "version": 1,
     "status": "live",
     "name": "Execute",
+    "ephemeral": false,
     "attributes": {
         "data": {
             "schema": {

@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Rapid Cooling",
+    "ephemeral": false,
     "attributes": {
         "rapidCooling": {
             "schema": {
@@ -27,6 +28,7 @@
     },
     "commands": {
         "setRapidCooling": {
+            "name": "setRapidCooling",
             "arguments": [
                 {
                     "name": "rapidCooling",

@@ -68,10 +68,12 @@
                             "value": "{{i18n.commands.setFanSpeed.arguments.speed.i18n.4.label}}",
                             "type": "active"
                         }
-                    ]
+                    ],
+                    "argumentType": "integer"
                 },
                 "state": {
                     "value": "fanSpeed.value",
+                    "valueType": "integer",
                     "alternatives": [
                         {
                             "key": "0",
@@ -137,7 +139,8 @@
                             "type": "active"
                         }
                     ],
-                    "value": "fanSpeed.value"
+                    "value": "fanSpeed.value",
+                    "valueType": "integer"
                 }
             }
         ],
@@ -173,7 +176,8 @@
                             "type": "active"
                         }
                     ],
-                    "command": "setFanSpeed"
+                    "command": "setFanSpeed",
+                    "argumentType": "integer"
                 }
             }
         ]

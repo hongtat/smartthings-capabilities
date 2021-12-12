@@ -3,6 +3,7 @@
     "version": 1,
     "status": "deprecated",
     "name": "Robot Cleaner State",
+    "ephemeral": false,
     "attributes": {
         "robotCleanerTurboState": {
             "schema": {
@@ -96,6 +97,7 @@
     },
     "commands": {
         "setRobotCleanerCleaningState": {
+            "name": "setRobotCleanerCleaningState",
             "arguments": [
                 {
                     "name": "state",
@@ -114,6 +116,7 @@
             "arguments": []
         },
         "setRobotCleanerControlState": {
+            "name": "setRobotCleanerControlState",
             "arguments": [
                 {
                     "name": "state",
@@ -128,6 +131,7 @@
             ]
         },
         "setRobotCleanerTurboState": {
+            "name": "setRobotCleanerTurboState",
             "arguments": [
                 {
                     "name": "state",

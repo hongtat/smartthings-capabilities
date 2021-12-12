@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Oven Mode",
+    "ephemeral": false,
     "attributes": {
         "supportedOvenModes": {
             "schema": {
@@ -97,6 +98,7 @@
     },
     "commands": {
         "setOvenMode": {
+            "name": "setOvenMode",
             "arguments": [
                 {
                     "name": "mode",

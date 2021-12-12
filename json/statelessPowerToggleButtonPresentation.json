@@ -6,7 +6,8 @@
                 "displayType": "pushButton",
                 "pushButton": {
                     "command": "setButton",
-                    "argument": "powerToggle"
+                    "argument": "powerToggle",
+                    "argumentType": "string"
                 }
             }
         ],
@@ -18,7 +19,8 @@
             "displayType": "pushButton",
             "pushButton": {
                 "command": "setButton",
-                "argument": "powerToggle"
+                "argument": "powerToggle",
+                "argumentType": "string"
             },
             "state": null
         }
@@ -27,7 +29,7 @@
         "conditions": [],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "{{i18n.commands.setButton.arguments.button.i18n.powerToggle.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
@@ -37,7 +39,8 @@
                             "type": "active"
                         }
                     ],
-                    "command": "setButton"
+                    "command": "setButton",
+                    "argumentType": "string"
                 }
             }
         ]

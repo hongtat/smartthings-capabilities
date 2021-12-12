@@ -2,8 +2,7 @@
     "dashboard": {
         "states": [
             {
-                "label": "{{pH.value}} {{pH.unit}}",
-                "alternatives": null
+                "label": "{{pH.value}} {{pH.unit}}"
             }
         ],
         "actions": [],

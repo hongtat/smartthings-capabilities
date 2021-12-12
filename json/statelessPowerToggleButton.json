@@ -3,6 +3,7 @@
     "version": 1,
     "status": "live",
     "name": "Stateless Power Toggle Button",
+    "ephemeral": false,
     "attributes": {
         "availablePowerToggleButtons": {
             "schema": {

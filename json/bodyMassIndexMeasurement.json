@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Body Mass Index Measurement",
+    "ephemeral": false,
     "attributes": {
         "bmiMeasurement": {
             "schema": {

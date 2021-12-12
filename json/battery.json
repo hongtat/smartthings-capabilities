@@ -3,6 +3,7 @@
     "version": 1,
     "status": "live",
     "name": "Battery",
+    "ephemeral": false,
     "attributes": {
         "battery": {
             "schema": {

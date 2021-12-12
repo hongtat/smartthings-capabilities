@@ -3,6 +3,7 @@
     "version": 1,
     "status": "deprecated",
     "name": "Thermostat Schedule",
+    "ephemeral": false,
     "attributes": {
         "schedule": {
             "schema": {
@@ -22,6 +23,7 @@
     },
     "commands": {
         "setSchedule": {
+            "name": "setSchedule",
             "arguments": [
                 {
                     "name": "schedule",

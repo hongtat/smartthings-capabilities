@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Media Controller",
+    "ephemeral": false,
     "attributes": {
         "currentActivity": {
             "schema": {

@@ -3,6 +3,7 @@
     "version": 1,
     "status": "live",
     "name": "Image Capture",
+    "ephemeral": false,
     "attributes": {
         "image": {
             "schema": {
@@ -57,6 +58,7 @@
     },
     "commands": {
         "take": {
+            "name": "take",
             "arguments": [
                 {
                     "name": "correlationId",

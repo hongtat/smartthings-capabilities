@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Stateless Curtain Power Button",
+    "ephemeral": false,
     "attributes": {
         "availableCurtainPowerButtons": {
             "schema": {

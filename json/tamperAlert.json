@@ -3,6 +3,7 @@
     "version": 1,
     "status": "live",
     "name": "Tamper Alert",
+    "ephemeral": false,
     "attributes": {
         "tamper": {
             "schema": {

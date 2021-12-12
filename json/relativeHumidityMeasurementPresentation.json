@@ -2,8 +2,7 @@
     "dashboard": {
         "states": [
             {
-                "label": "{{humidity.value}}{{humidity.unit}}",
-                "alternatives": null
+                "label": "{{humidity.value}}{{humidity.unit}}"
             }
         ],
         "actions": [],

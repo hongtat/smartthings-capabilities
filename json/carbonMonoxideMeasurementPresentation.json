@@ -2,8 +2,7 @@
     "dashboard": {
         "states": [
             {
-                "label": "{{carbonMonoxideLevel.value}} {{carbonMonoxideLevel.unit}}",
-                "alternatives": null
+                "label": "{{carbonMonoxideLevel.value}} {{carbonMonoxideLevel.unit}}"
             }
         ],
         "actions": [],

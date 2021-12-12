@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Media Playback Shuffle",
+    "ephemeral": false,
     "attributes": {
         "playbackShuffle": {
             "schema": {
@@ -27,6 +28,7 @@
     },
     "commands": {
         "setPlaybackShuffle": {
+            "name": "setPlaybackShuffle",
             "arguments": [
                 {
                     "name": "shuffle",
