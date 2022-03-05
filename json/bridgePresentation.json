@@ -5,8 +5,7 @@
                 "label": "___PO_CODE_CAPABILITY.SMARTTHINGS.BRIDGE_DEFAULT_CONNECTED"
             }
         ],
-        "actions": [],
-        "basicPlus": []
+        "actions": []
     },
     "id": "bridge",
     "version": 1

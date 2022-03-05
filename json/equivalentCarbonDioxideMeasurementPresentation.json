@@ -5,8 +5,7 @@
                 "label": "{{equivalentCarbonDioxideMeasurement.value}}{{equivalentCarbonDioxideMeasurement.unit}}"
             }
         ],
-        "actions": [],
-        "basicPlus": []
+        "actions": []
     },
     "detailView": [
         {

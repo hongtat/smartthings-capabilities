@@ -5,8 +5,7 @@
                 "label": "{{illuminance.value}}{{illuminance.unit}}"
             }
         ],
-        "actions": [],
-        "basicPlus": []
+        "actions": []
     },
     "detailView": [
         {

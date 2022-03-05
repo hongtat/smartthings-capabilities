@@ -5,8 +5,7 @@
                 "label": "{{airQuality.value}} {{airQuality.unit}}"
             }
         ],
-        "actions": [],
-        "basicPlus": []
+        "actions": []
     },
     "detailView": [
         {

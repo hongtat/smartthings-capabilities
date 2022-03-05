@@ -5,8 +5,7 @@
                 "label": "{{estimatedRemainingRange.value}} {{estimatedRemainingRange.unit}}"
             }
         ],
-        "actions": [],
-        "basicPlus": []
+        "actions": []
     },
     "detailView": [
         {

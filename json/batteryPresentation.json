@@ -5,8 +5,7 @@
                 "label": "{{battery.value}} {{battery.unit}}"
             }
         ],
-        "actions": [],
-        "basicPlus": []
+        "actions": []
     },
     "detailView": [
         {

@@ -1,7 +1,7 @@
 
 ## SmartThings Capabilities
 
-#### Last Update: 2021-12-12
+#### Last Update: 2022-03-05
 
 * [SmartThings Reference](https://smartthings.developer.samsung.com/docs/api-ref/capabilities.html)
 * [SmartThings API](https://smartthings.developer.samsung.com/docs/api-ref/st-api.html#tag/capabilities)
@@ -150,6 +150,7 @@
 | [Robot Cleaner State](./json/robotCleanerState.json) | deprecated |  |
 | [Robot Cleaner Turbo Mode](./json/robotCleanerTurboMode.json) | proposed | [json](./json/robotCleanerTurboModePresentation.json) |
 | [Samsung TV](./json/samsungTV.json) | live |  |
+| [Scenes](./json/scenes.json) | proposed |  |
 | [Scent](./json/scent.json) | proposed | [json](./json/scentPresentation.json) |
 | [Security System](./json/securitySystem.json) | live | [json](./json/securitySystemPresentation.json) |
 | [Sensor](./json/sensor.json) | deprecated |  |

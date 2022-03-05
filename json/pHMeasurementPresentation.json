@@ -5,8 +5,7 @@
                 "label": "{{pH.value}} {{pH.unit}}"
             }
         ],
-        "actions": [],
-        "basicPlus": []
+        "actions": []
     },
     "detailView": [
         {

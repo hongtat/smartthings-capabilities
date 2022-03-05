@@ -5,8 +5,7 @@
                 "label": "{{infraredLevel.value}}{{infraredLevel.unit}}"
             }
         ],
-        "actions": [],
-        "basicPlus": []
+        "actions": []
     },
     "detailView": [
         {

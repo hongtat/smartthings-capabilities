@@ -5,8 +5,7 @@
                 "label": "lqi:{{lqi.value}},rssi:{{rssi.value}}"
             }
         ],
-        "actions": [],
-        "basicPlus": []
+        "actions": []
     },
     "detailView": [
         {

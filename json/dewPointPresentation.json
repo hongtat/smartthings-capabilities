@@ -5,8 +5,7 @@
                 "label": "{{dewpoint.value}} {{dewpoint.unit}}"
             }
         ],
-        "actions": [],
-        "basicPlus": []
+        "actions": []
     },
     "detailView": [
         {

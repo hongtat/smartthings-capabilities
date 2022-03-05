@@ -16,8 +16,7 @@
                     "data": {
                         "type": "object",
                         "additionalProperties": true,
-                        "required": [],
-                        "properties": null
+                        "required": []
                     }
                 },
                 "additionalProperties": false,

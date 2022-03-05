@@ -5,8 +5,7 @@
                 "label": "{{volume.value}}{{volume.unit}}"
             }
         ],
-        "actions": [],
-        "basicPlus": []
+        "actions": []
     },
     "detailView": [
         {

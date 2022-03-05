@@ -5,8 +5,7 @@
                 "label": "{{odometerReading.value}} {{odometerReading.unit}}"
             }
         ],
-        "actions": [],
-        "basicPlus": []
+        "actions": []
     },
     "detailView": [
         {

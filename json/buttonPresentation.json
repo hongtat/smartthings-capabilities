@@ -27,103 +27,102 @@
                     {
                         "key": "pushed_2x",
                         "value": "{{i18n.attributes.button.i18n.value.pushed_2x.label}}",
-                        "type": "inactive"
+                        "type": "active"
                     },
                     {
                         "key": "pushed_3x",
                         "value": "{{i18n.attributes.button.i18n.value.pushed_3x.label}}",
-                        "type": "inactive"
+                        "type": "active"
                     },
                     {
                         "key": "pushed_4x",
                         "value": "{{i18n.attributes.button.i18n.value.pushed_4x.label}}",
-                        "type": "inactive"
+                        "type": "active"
                     },
                     {
                         "key": "pushed_5x",
                         "value": "{{i18n.attributes.button.i18n.value.pushed_5x.label}}",
-                        "type": "inactive"
+                        "type": "active"
                     },
                     {
                         "key": "pushed_6x",
                         "value": "{{i18n.attributes.button.i18n.value.pushed_6x.label}}",
-                        "type": "inactive"
+                        "type": "active"
                     },
                     {
                         "key": "down",
                         "value": "{{i18n.attributes.button.i18n.value.down.label}}",
-                        "type": "inactive"
+                        "type": "active"
                     },
                     {
                         "key": "down_2x",
                         "value": "{{i18n.attributes.button.i18n.value.down_2x.label}}",
-                        "type": "inactive"
+                        "type": "active"
                     },
                     {
                         "key": "down_3x",
                         "value": "{{i18n.attributes.button.i18n.value.down_3x.label}}",
-                        "type": "inactive"
+                        "type": "active"
                     },
                     {
                         "key": "down_4x",
                         "value": "{{i18n.attributes.button.i18n.value.down_4x.label}}",
-                        "type": "inactive"
+                        "type": "active"
                     },
                     {
                         "key": "down_5x",
                         "value": "{{i18n.attributes.button.i18n.value.down_5x.label}}",
-                        "type": "inactive"
+                        "type": "active"
                     },
                     {
                         "key": "down_6x",
                         "value": "{{i18n.attributes.button.i18n.value.down_6x.label}}",
-                        "type": "inactive"
+                        "type": "active"
                     },
                     {
                         "key": "down_hold",
                         "value": "{{i18n.attributes.button.i18n.value.down_hold.label}}",
-                        "type": "inactive"
+                        "type": "active"
                     },
                     {
                         "key": "up",
                         "value": "{{i18n.attributes.button.i18n.value.up.label}}",
-                        "type": "inactive"
+                        "type": "active"
                     },
                     {
                         "key": "up_2x",
                         "value": "{{i18n.attributes.button.i18n.value.up_2x.label}}",
-                        "type": "inactive"
+                        "type": "active"
                     },
                     {
                         "key": "up_3x",
                         "value": "{{i18n.attributes.button.i18n.value.up_3x.label}}",
-                        "type": "inactive"
+                        "type": "active"
                     },
                     {
                         "key": "up_4x",
                         "value": "{{i18n.attributes.button.i18n.value.up_4x.label}}",
-                        "type": "inactive"
+                        "type": "active"
                     },
                     {
                         "key": "up_5x",
                         "value": "{{i18n.attributes.button.i18n.value.up_5x.label}}",
-                        "type": "inactive"
+                        "type": "active"
                     },
                     {
                         "key": "up_6x",
                         "value": "{{i18n.attributes.button.i18n.value.up_6x.label}}",
-                        "type": "inactive"
+                        "type": "active"
                     },
                     {
                         "key": "up_hold",
                         "value": "{{i18n.attributes.button.i18n.value.up_hold.label}}",
-                        "type": "inactive"
+                        "type": "active"
                     }
                 ]
             }
         ],
-        "actions": [],
-        "basicPlus": []
+        "actions": []
     },
     "detailView": [
         {
@@ -150,102 +149,102 @@
                     {
                         "key": "Ready",
                         "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.BUTTON_DEFAULT_STANDBY",
-                        "type": "inactive"
+                        "type": "active"
                     },
                     {
                         "key": "pushed_2x",
                         "value": "{{i18n.attributes.button.i18n.value.pushed_2x.label}}",
-                        "type": "inactive"
+                        "type": "active"
                     },
                     {
                         "key": "pushed_3x",
                         "value": "{{i18n.attributes.button.i18n.value.pushed_3x.label}}",
-                        "type": "inactive"
+                        "type": "active"
                     },
                     {
                         "key": "pushed_4x",
                         "value": "{{i18n.attributes.button.i18n.value.pushed_4x.label}}",
-                        "type": "inactive"
+                        "type": "active"
                     },
                     {
                         "key": "pushed_5x",
                         "value": "{{i18n.attributes.button.i18n.value.pushed_5x.label}}",
-                        "type": "inactive"
+                        "type": "active"
                     },
                     {
                         "key": "pushed_6x",
                         "value": "{{i18n.attributes.button.i18n.value.pushed_6x.label}}",
-                        "type": "inactive"
+                        "type": "active"
                     },
                     {
                         "key": "down",
                         "value": "{{i18n.attributes.button.i18n.value.down.label}}",
-                        "type": "inactive"
+                        "type": "active"
                     },
                     {
                         "key": "down_2x",
                         "value": "{{i18n.attributes.button.i18n.value.down_2x.label}}",
-                        "type": "inactive"
+                        "type": "active"
                     },
                     {
                         "key": "down_3x",
                         "value": "{{i18n.attributes.button.i18n.value.down_3x.label}}",
-                        "type": "inactive"
+                        "type": "active"
                     },
                     {
                         "key": "down_4x",
                         "value": "{{i18n.attributes.button.i18n.value.down_4x.label}}",
-                        "type": "inactive"
+                        "type": "active"
                     },
                     {
                         "key": "down_5x",
                         "value": "{{i18n.attributes.button.i18n.value.down_5x.label}}",
-                        "type": "inactive"
+                        "type": "active"
                     },
                     {
                         "key": "down_6x",
                         "value": "{{i18n.attributes.button.i18n.value.down_6x.label}}",
-                        "type": "inactive"
+                        "type": "active"
                     },
                     {
                         "key": "down_hold",
                         "value": "{{i18n.attributes.button.i18n.value.down_hold.label}}",
-                        "type": "inactive"
+                        "type": "active"
                     },
                     {
                         "key": "up",
                         "value": "{{i18n.attributes.button.i18n.value.up.label}}",
-                        "type": "inactive"
+                        "type": "active"
                     },
                     {
                         "key": "up_2x",
                         "value": "{{i18n.attributes.button.i18n.value.up_2x.label}}",
-                        "type": "inactive"
+                        "type": "active"
                     },
                     {
                         "key": "up_3x",
                         "value": "{{i18n.attributes.button.i18n.value.up_3x.label}}",
-                        "type": "inactive"
+                        "type": "active"
                     },
                     {
                         "key": "up_4x",
                         "value": "{{i18n.attributes.button.i18n.value.up_4x.label}}",
-                        "type": "inactive"
+                        "type": "active"
                     },
                     {
                         "key": "up_5x",
                         "value": "{{i18n.attributes.button.i18n.value.up_5x.label}}",
-                        "type": "inactive"
+                        "type": "active"
                     },
                     {
                         "key": "up_6x",
                         "value": "{{i18n.attributes.button.i18n.value.up_6x.label}}",
-                        "type": "inactive"
+                        "type": "active"
                     },
                     {
                         "key": "up_hold",
                         "value": "{{i18n.attributes.button.i18n.value.up_hold.label}}",
-                        "type": "inactive"
+                        "type": "active"
                     }
                 ]
             }
@@ -276,101 +275,102 @@
                         {
                             "key": "pushed_2x",
                             "value": "{{i18n.attributes.button.i18n.value.pushed_2x.label}}",
-                            "type": "inactive"
+                            "type": "active"
                         },
                         {
                             "key": "pushed_3x",
                             "value": "{{i18n.attributes.button.i18n.value.pushed_3x.label}}",
-                            "type": "inactive"
+                            "type": "active"
                         },
                         {
                             "key": "pushed_4x",
                             "value": "{{i18n.attributes.button.i18n.value.pushed_4x.label}}",
-                            "type": "inactive"
+                            "type": "active"
                         },
                         {
                             "key": "pushed_5x",
                             "value": "{{i18n.attributes.button.i18n.value.pushed_5x.label}}",
-                            "type": "inactive"
+                            "type": "active"
                         },
                         {
                             "key": "pushed_6x",
                             "value": "{{i18n.attributes.button.i18n.value.pushed_6x.label}}",
-                            "type": "inactive"
+                            "type": "active"
                         },
                         {
                             "key": "down",
                             "value": "{{i18n.attributes.button.i18n.value.down.label}}",
-                            "type": "inactive"
+                            "type": "active"
                         },
                         {
                             "key": "down_2x",
                             "value": "{{i18n.attributes.button.i18n.value.down_2x.label}}",
-                            "type": "inactive"
+                            "type": "active"
                         },
                         {
                             "key": "down_3x",
                             "value": "{{i18n.attributes.button.i18n.value.down_3x.label}}",
-                            "type": "inactive"
+                            "type": "active"
                         },
                         {
                             "key": "down_4x",
                             "value": "{{i18n.attributes.button.i18n.value.down_4x.label}}",
-                            "type": "inactive"
+                            "type": "active"
                         },
                         {
                             "key": "down_5x",
                             "value": "{{i18n.attributes.button.i18n.value.down_5x.label}}",
-                            "type": "inactive"
+                            "type": "active"
                         },
                         {
                             "key": "down_6x",
                             "value": "{{i18n.attributes.button.i18n.value.down_6x.label}}",
-                            "type": "inactive"
+                            "type": "active"
                         },
                         {
                             "key": "down_hold",
                             "value": "{{i18n.attributes.button.i18n.value.down_hold.label}}",
-                            "type": "inactive"
+                            "type": "active"
                         },
                         {
                             "key": "up",
                             "value": "{{i18n.attributes.button.i18n.value.up.label}}",
-                            "type": "inactive"
+                            "type": "active"
                         },
                         {
                             "key": "up_2x",
                             "value": "{{i18n.attributes.button.i18n.value.up_2x.label}}",
-                            "type": "inactive"
+                            "type": "active"
                         },
                         {
                             "key": "up_3x",
                             "value": "{{i18n.attributes.button.i18n.value.up_3x.label}}",
-                            "type": "inactive"
+                            "type": "active"
                         },
                         {
                             "key": "up_4x",
                             "value": "{{i18n.attributes.button.i18n.value.up_4x.label}}",
-                            "type": "inactive"
+                            "type": "active"
                         },
                         {
                             "key": "up_5x",
                             "value": "{{i18n.attributes.button.i18n.value.up_5x.label}}",
-                            "type": "inactive"
+                            "type": "active"
                         },
                         {
                             "key": "up_6x",
                             "value": "{{i18n.attributes.button.i18n.value.up_6x.label}}",
-                            "type": "inactive"
+                            "type": "active"
                         },
                         {
                             "key": "up_hold",
                             "value": "{{i18n.attributes.button.i18n.value.up_hold.label}}",
-                            "type": "inactive"
+                            "type": "active"
                         }
                     ],
                     "supportedValues": "supportedButtonValues.value",
-                    "value": "button.value"
+                    "value": "button.value",
+                    "valueType": "string"
                 },
                 "emphasis": true
             }

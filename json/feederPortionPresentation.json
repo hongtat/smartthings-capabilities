@@ -5,8 +5,7 @@
                 "label": "{{feedPortion.value}}"
             }
         ],
-        "actions": [],
-        "basicPlus": []
+        "actions": []
     },
     "detailView": [
         {

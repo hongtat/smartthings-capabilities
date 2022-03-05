@@ -5,8 +5,7 @@
                 "label": "{{humidity.value}}{{humidity.unit}}"
             }
         ],
-        "actions": [],
-        "basicPlus": []
+        "actions": []
     },
     "detailView": [
         {

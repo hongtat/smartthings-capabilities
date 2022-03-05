@@ -5,8 +5,7 @@
                 "label": "{{mode.value}}"
             }
         ],
-        "actions": [],
-        "basicPlus": []
+        "actions": []
     },
     "detailView": [
         {

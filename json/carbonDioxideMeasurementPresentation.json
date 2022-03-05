@@ -5,8 +5,7 @@
                 "label": "{{carbonDioxide.value}} {{carbonDioxide.unit}}"
             }
         ],
-        "actions": [],
-        "basicPlus": []
+        "actions": []
     },
     "detailView": [
         {

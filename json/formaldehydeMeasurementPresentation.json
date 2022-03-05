@@ -5,8 +5,7 @@
                 "label": "{{formaldehydeLevel.value}}{{formaldehydeLevel.unit}}"
             }
         ],
-        "actions": [],
-        "basicPlus": []
+        "actions": []
     },
     "detailView": [
         {

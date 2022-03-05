@@ -34,7 +34,11 @@
                             "up_4x",
                             "up_5x",
                             "up_6x",
-                            "up_hold"
+                            "up_hold",
+                            "swipe_up",
+                            "swipe_down",
+                            "swipe_left",
+                            "swipe_right"
                         ]
                     }
                 },
@@ -93,7 +97,11 @@
                                 "up_4x",
                                 "up_5x",
                                 "up_6x",
-                                "up_hold"
+                                "up_hold",
+                                "swipe_up",
+                                "swipe_down",
+                                "swipe_left",
+                                "swipe_right"
                             ]
                         }
                     }

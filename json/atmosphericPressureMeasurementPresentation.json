@@ -5,8 +5,7 @@
                 "label": "{{atmosphericPressure.value}} {{atmosphericPressure.unit}}"
             }
         ],
-        "actions": [],
-        "basicPlus": []
+        "actions": []
     },
     "detailView": [
         {

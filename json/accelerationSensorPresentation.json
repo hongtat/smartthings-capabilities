@@ -17,8 +17,7 @@
                 ]
             }
         ],
-        "actions": [],
-        "basicPlus": []
+        "actions": []
     },
     "detailView": [
         {
@@ -59,7 +58,8 @@
                             "type": "inactive"
                         }
                     ],
-                    "value": "acceleration.value"
+                    "value": "acceleration.value",
+                    "valueType": "string"
                 }
             }
         ],

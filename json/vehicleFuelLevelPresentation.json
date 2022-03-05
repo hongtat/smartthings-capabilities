@@ -5,8 +5,7 @@
                 "label": "{{fuelLevel.value}} {{fuelLevel.unit}}"
             }
         ],
-        "actions": [],
-        "basicPlus": []
+        "actions": []
     },
     "detailView": [
         {

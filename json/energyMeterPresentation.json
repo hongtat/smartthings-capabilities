@@ -5,8 +5,7 @@
                 "label": "{{energy.value}} {{energy.unit}}"
             }
         ],
-        "actions": [],
-        "basicPlus": []
+        "actions": []
     },
     "detailView": [
         {

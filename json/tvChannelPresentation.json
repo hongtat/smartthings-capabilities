@@ -5,8 +5,7 @@
                 "label": "{{tvChannel.value}}"
             }
         ],
-        "actions": [],
-        "basicPlus": []
+        "actions": []
     },
     "detailView": [
         {

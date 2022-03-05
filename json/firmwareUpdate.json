@@ -56,7 +56,8 @@
                         "type": "string",
                         "enum": [
                             "normalOperation",
-                            "updateInProgress"
+                            "updateInProgress",
+                            "insufficientStorage"
                         ]
                     }
                 },

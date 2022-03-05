@@ -5,8 +5,7 @@
                 "label": "{{gasMeter.value}} {{gasMeter.unit}}"
             }
         ],
-        "actions": [],
-        "basicPlus": []
+        "actions": []
     },
     "detailView": [
         {

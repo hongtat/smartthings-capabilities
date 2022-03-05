@@ -5,8 +5,7 @@
                 "label": "{{bmiMeasurement.value}} {{bmiMeasurement.unit}}"
             }
         ],
-        "actions": [],
-        "basicPlus": []
+        "actions": []
     },
     "detailView": [
         {

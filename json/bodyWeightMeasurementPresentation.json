@@ -5,8 +5,7 @@
                 "label": "{{bodyWeightMeasurement.value}} {{bodyWeightMeasurement.unit}}"
             }
         ],
-        "actions": [],
-        "basicPlus": []
+        "actions": []
     },
     "detailView": [
         {
