@@ -1,7 +1,7 @@
 
 ## SmartThings Capabilities
 
-#### Last Update: 2022-03-08
+#### Last Update: 2022-03-19
 
 * [Capabilities Reference](https://developer-preview.smartthings.com/docs/devices/capabilities/capabilities-reference)
 * [SmartThings API](https://developer-preview.smartthings.com/api/public#operation/listCapabilities)
@@ -178,6 +178,7 @@
 | [Stateless Robot Cleaner Action Button](./json/statelessRobotCleanerActionButton.json) | proposed | [json](./json/statelessRobotCleanerActionButtonPresentation.json) |
 | [Stateless Robot Cleaner Home Button](./json/statelessRobotCleanerHomeButton.json) | proposed | [json](./json/statelessRobotCleanerHomeButtonPresentation.json) |
 | [Stateless Robot Cleaner Toggle Button](./json/statelessRobotCleanerToggleButton.json) | proposed | [json](./json/statelessRobotCleanerToggleButtonPresentation.json) |
+| [Stateless Scenes](./json/statelessScenes.json) | proposed |  |
 | [Stateless Set Channel Button](./json/statelessSetChannelButton.json) | proposed | [json](./json/statelessSetChannelButtonPresentation.json) |
 | [Stateless Set Channel By Content Button](./json/statelessSetChannelByContentButton.json) | proposed | [json](./json/statelessSetChannelByContentButtonPresentation.json) |
 | [Stateless Set Channel By Name Button](./json/statelessSetChannelByNameButton.json) | proposed | [json](./json/statelessSetChannelByNameButtonPresentation.json) |
