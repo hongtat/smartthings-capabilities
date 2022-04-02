@@ -146,6 +146,63 @@
                     }
                 ]
             }
+        },
+        {
+            "label": "{{i18n.attributes.machineState.label}}",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "name": "setMachineState",
+                    "alternatives": [
+                        {
+                            "key": "pause",
+                            "value": "{{i18n.commands.setMachineState.arguments.state.i18n.pause.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "run",
+                            "value": "{{i18n.commands.setMachineState.arguments.state.i18n.run.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "stop",
+                            "value": "{{i18n.commands.setMachineState.arguments.state.i18n.stop.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "argumentType": "string",
+                    "supportedValues": "supportedMachineStates.value"
+                },
+                "state": {
+                    "value": "machineState.value",
+                    "valueType": "string",
+                    "alternatives": [
+                        {
+                            "key": "pause",
+                            "value": "{{i18n.attributes.machineState.i18n.value.pause.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "run",
+                            "value": "{{i18n.attributes.machineState.i18n.value.run.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "stop",
+                            "value": "{{i18n.attributes.machineState.i18n.value.stop.label}}",
+                            "type": "active"
+                        }
+                    ]
+                }
+            },
+            "state": null
+        },
+        {
+            "label": "{{i18n.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{completionTime.value}}"
+            }
         }
     ],
     "automation": {

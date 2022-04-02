@@ -18,6 +18,8 @@
                 ],
                 "step": null,
                 "unit": "infraredLevel.unit",
+                "command": "setInfraredLevel",
+                "argumentType": "number",
                 "value": "infraredLevel.value",
                 "valueType": "number"
             },
