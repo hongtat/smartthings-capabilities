@@ -17,7 +17,9 @@
                             "value": "Channel Down",
                             "type": "active"
                         }
-                    ]
+                    ],
+                    "argumentType": "string",
+                    "supportedValues": "availableChannelButtons.value"
                 }
             },
             "state": null
@@ -42,7 +44,9 @@
                             "type": "active"
                         }
                     ],
-                    "command": "setButton"
+                    "supportedValues": "availableChannelButtons.value",
+                    "command": "setButton",
+                    "argumentType": "string"
                 }
             }
         ]

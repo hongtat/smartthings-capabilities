@@ -17,7 +17,9 @@
                             "value": "{{i18n.commands.setButton.arguments.button.i18n.powerOff.label}}",
                             "type": "active"
                         }
-                    ]
+                    ],
+                    "argumentType": "string",
+                    "supportedValues": "availablePowerButtons.value"
                 }
             },
             "state": null
@@ -42,7 +44,9 @@
                             "type": "active"
                         }
                     ],
-                    "command": "setButton"
+                    "supportedValues": "availablePowerButtons.value",
+                    "command": "setButton",
+                    "argumentType": "string"
                 }
             }
         ]

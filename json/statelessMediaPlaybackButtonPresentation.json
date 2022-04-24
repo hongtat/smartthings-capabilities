@@ -32,7 +32,9 @@
                             "value": "{{i18n.commands.setButton.arguments.button.i18n.rewind.label}}",
                             "type": "active"
                         }
-                    ]
+                    ],
+                    "argumentType": "string",
+                    "supportedValues": "availableMediaPlaybackButtons.value"
                 }
             },
             "state": null
@@ -72,7 +74,9 @@
                             "type": "active"
                         }
                     ],
-                    "command": "setButton"
+                    "supportedValues": "availableMediaPlaybackButtons.value",
+                    "command": "setButton",
+                    "argumentType": "string"
                 }
             }
         ]

@@ -1,4 +1,12 @@
 {
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{captureTime.value}}"
+            }
+        ],
+        "actions": []
+    },
     "detailView": [
         {
             "label": "{{i18n.label}}",

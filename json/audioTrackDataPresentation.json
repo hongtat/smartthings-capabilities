@@ -32,6 +32,13 @@
             "label": "Audio Track Data",
             "displayType": "state",
             "state": {
+                "label": "{{audioTrackData.value.mediaSource}}"
+            }
+        },
+        {
+            "label": "Audio Track Data",
+            "displayType": "state",
+            "state": {
                 "label": "{{totalTime.value}}"
             }
         },

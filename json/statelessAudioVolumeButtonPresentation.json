@@ -17,7 +17,9 @@
                             "value": "Volume Down",
                             "type": "active"
                         }
-                    ]
+                    ],
+                    "argumentType": "string",
+                    "supportedValues": "availableAudioVolumeButtons.value"
                 }
             },
             "state": null
@@ -42,7 +44,9 @@
                             "type": "active"
                         }
                     ],
-                    "command": "setButton"
+                    "supportedValues": "availableAudioVolumeButtons.value",
+                    "command": "setButton",
+                    "argumentType": "string"
                 }
             }
         ]

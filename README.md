@@ -1,7 +1,7 @@
 
 ## SmartThings Capabilities
 
-#### Last Update: 2022-04-02
+#### Last Update: 2022-04-24
 
 * [Capabilities Reference](https://developer-preview.smartthings.com/docs/devices/capabilities/capabilities-reference)
 * [SmartThings API](https://developer-preview.smartthings.com/api/public#operation/listCapabilities)

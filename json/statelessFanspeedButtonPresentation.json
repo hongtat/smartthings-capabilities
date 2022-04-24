@@ -17,7 +17,9 @@
                             "value": "Decrease Fanspeed",
                             "type": "active"
                         }
-                    ]
+                    ],
+                    "argumentType": "string",
+                    "supportedValues": "availableFanspeedButtons.value"
                 }
             },
             "state": null
@@ -42,7 +44,9 @@
                             "type": "active"
                         }
                     ],
-                    "command": "setButton"
+                    "supportedValues": "availableFanspeedButtons.value",
+                    "command": "setButton",
+                    "argumentType": "string"
                 }
             }
         ]

@@ -38,8 +38,15 @@
                     "state": {
                         "value": "lock.value",
                         "on": "locked",
-                        "off": "unlocked"
+                        "off": "unlocked",
+                        "valueType": "string"
                     }
+                }
+            },
+            {
+                "displayType": "pushButton",
+                "pushButton": {
+                    "command": "unlock"
                 }
             }
         ]
@@ -55,6 +62,7 @@
                 },
                 "state": {
                     "value": "lock.value",
+                    "valueType": "string",
                     "on": "locked",
                     "off": "unlocked",
                     "label": "{{lock.value}}",
@@ -113,7 +121,8 @@
                             "type": "active"
                         }
                     ],
-                    "value": "lock.value"
+                    "value": "lock.value",
+                    "valueType": "string"
                 }
             }
         ],

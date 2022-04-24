@@ -58,6 +58,36 @@
                 }
             },
             "state": null
+        },
+        {
+            "label": "{{i18n.attributes.groupMute.label}}",
+            "displayType": "toggleSwitch",
+            "toggleSwitch": {
+                "command": {
+                    "on": "muteGroup",
+                    "off": "unmuteGroup"
+                },
+                "state": {
+                    "value": "groupMute.value",
+                    "valueType": "string",
+                    "on": "muted",
+                    "off": "unmuted",
+                    "label": "{{groupMute.value}}",
+                    "alternatives": [
+                        {
+                            "key": "muted",
+                            "value": "{{i18n.attributes.groupMute.i18n.value.muted.label}}",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "unmuted",
+                            "value": "{{i18n.attributes.groupMute.i18n.value.unmuted.label}}",
+                            "type": "active"
+                        }
+                    ]
+                }
+            },
+            "state": null
         }
     ],
     "automation": {
@@ -92,7 +122,8 @@
                             "type": "active"
                         }
                     ],
-                    "value": "groupMute.value"
+                    "value": "groupMute.value",
+                    "valueType": "string"
                 }
             }
         ],

@@ -17,7 +17,9 @@
                             "value": "Decrease Temperature",
                             "type": "active"
                         }
-                    ]
+                    ],
+                    "argumentType": "string",
+                    "supportedValues": "availableTemperatureButtons.value"
                 }
             },
             "state": null
@@ -42,7 +44,9 @@
                             "type": "active"
                         }
                     ],
-                    "command": "setButton"
+                    "supportedValues": "availableTemperatureButtons.value",
+                    "command": "setButton",
+                    "argumentType": "string"
                 }
             }
         ]

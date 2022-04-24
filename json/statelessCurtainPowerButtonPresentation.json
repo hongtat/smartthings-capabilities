@@ -22,7 +22,9 @@
                             "value": "{{i18n.commands.setButton.arguments.button.i18n.pause.label}}",
                             "type": "active"
                         }
-                    ]
+                    ],
+                    "argumentType": "string",
+                    "supportedValues": "availableCurtainPowerButtons.value"
                 }
             },
             "state": null
@@ -52,7 +54,9 @@
                             "type": "active"
                         }
                     ],
-                    "command": "setButton"
+                    "supportedValues": "availableCurtainPowerButtons.value",
+                    "command": "setButton",
+                    "argumentType": "string"
                 }
             }
         ]

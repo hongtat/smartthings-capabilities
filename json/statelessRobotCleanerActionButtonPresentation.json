@@ -22,7 +22,9 @@
                             "value": "Quit",
                             "type": "active"
                         }
-                    ]
+                    ],
+                    "argumentType": "string",
+                    "supportedValues": "availableRobotCleanerActionButtons.value"
                 }
             },
             "state": null
@@ -52,7 +54,9 @@
                             "type": "active"
                         }
                     ],
-                    "command": "setButton"
+                    "supportedValues": "availableRobotCleanerActionButtons.value",
+                    "command": "setButton",
+                    "argumentType": "string"
                 }
             }
         ]
