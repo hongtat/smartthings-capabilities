@@ -62,9 +62,21 @@
                 "type": "object",
                 "properties": {
                     "value": {
-                        "type": "array",
-                        "items": {
-                            "type": "string"
+                        "type": "object",
+                        "additionalProperties": true,
+                        "properties": {
+                            "bundle": {
+                                "type": "boolean"
+                            },
+                            "order": {
+                                "type": "string"
+                            },
+                            "audio": {
+                                "type": "string"
+                            },
+                            "video": {
+                                "type": "string"
+                            }
                         }
                     }
                 },
@@ -97,7 +109,7 @@
                     "value": {
                         "title": "URL",
                         "type": "string",
-                        "pattern": "^(https?):\\\/\\\/((?:[a-zA-Z0-9.-]|%[0-9A-F]{2}){3,})(?::(\\d+))?((?:\\\/(?:[a-zA-Z0-9-._~!$&'()*+,;=:@]|%[0-9A-F]{2})*)*)(?:\\?((?:[a-zA-Z0-9-._~!$&'()*+,;=:\\\/?@]|%[0-9A-F]{2})*))?(?:#((?:[a-zA-Z0-9-._~!$&'()*+,;=:\\\/?@]|%[0-9A-F]{2})*))?$"
+                        "pattern": "^(stun?):((?:[a-zA-Z0-9.-]|%[0-9A-F]{2}){3,})(?::(\\d+))?((?:\\\/(?:[a-zA-Z0-9-._~!$&'()*+,;=:@]|%[0-9A-F]{2})*)*)(?:\\?((?:[a-zA-Z0-9-._~!$&'()*+,;=:\\\/?@]|%[0-9A-F]{2})*))?(?:#((?:[a-zA-Z0-9-._~!$&'()*+,;=:\\\/?@]|%[0-9A-F]{2})*))?$"
                     }
                 },
                 "additionalProperties": false,

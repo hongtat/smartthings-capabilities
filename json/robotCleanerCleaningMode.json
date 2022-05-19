@@ -44,7 +44,8 @@
                             "part",
                             "repeat",
                             "manual",
-                            "stop"
+                            "stop",
+                            "map"
                         ]
                     }
                 }

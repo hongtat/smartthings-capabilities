@@ -1,7 +1,7 @@
 
 ## SmartThings Capabilities
 
-#### Last Update: 2022-04-24
+#### Last Update: 2022-05-19
 
 * [Capabilities Reference](https://developer-preview.smartthings.com/docs/devices/capabilities/capabilities-reference)
 * [SmartThings API](https://developer-preview.smartthings.com/api/public#operation/listCapabilities)
@@ -70,7 +70,7 @@
 | [Equivalent Carbon Dioxide Measurement](./json/equivalentCarbonDioxideMeasurement.json) | live | [json](./json/equivalentCarbonDioxideMeasurementPresentation.json) |
 | [Estimated Time Of Arrival](./json/estimatedTimeOfArrival.json) | proposed | [json](./json/estimatedTimeOfArrivalPresentation.json) |
 | [Execute](./json/execute.json) | live |  |
-| [Fan Oscillation Mode](./json/fanOscillationMode.json) | proposed | [json](./json/fanOscillationModePresentation.json) |
+| [Fan Oscillation Mode](./json/fanOscillationMode.json) | live | [json](./json/fanOscillationModePresentation.json) |
 | [Fan Speed](./json/fanSpeed.json) | live | [json](./json/fanSpeedPresentation.json) |
 | [Feeder Operating State](./json/feederOperatingState.json) | proposed | [json](./json/feederOperatingStatePresentation.json) |
 | [Feeder Portion](./json/feederPortion.json) | proposed | [json](./json/feederPortionPresentation.json) |
@@ -78,7 +78,7 @@
 | [Filter Status](./json/filterStatus.json) | proposed | [json](./json/filterStatusPresentation.json) |
 | [Fine Dust Health Concern](./json/fineDustHealthConcern.json) | proposed | [json](./json/fineDustHealthConcernPresentation.json) |
 | [Fine Dust Sensor](./json/fineDustSensor.json) | live | [json](./json/fineDustSensorPresentation.json) |
-| [Firmware Update](./json/firmwareUpdate.json) | proposed |  |
+| [Firmware Update](./json/firmwareUpdate.json) | live |  |
 | [Formaldehyde Measurement](./json/formaldehydeMeasurement.json) | live | [json](./json/formaldehydeMeasurementPresentation.json) |
 | [Garage Door Control](./json/garageDoorControl.json) | deprecated | [json](./json/garageDoorControlPresentation.json) |
 | [Gas Detector](./json/gasDetector.json) | proposed | [json](./json/gasDetectorPresentation.json) |

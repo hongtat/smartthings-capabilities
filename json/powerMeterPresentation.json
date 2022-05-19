@@ -1,4 +1,12 @@
 {
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{power.value}} {{power.unit}}"
+            }
+        ],
+        "actions": []
+    },
     "detailView": [
         {
             "label": "{{i18n.label}}",
