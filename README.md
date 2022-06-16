@@ -1,7 +1,7 @@
 
 ## SmartThings Capabilities
 
-#### Last Update: 2022-05-19
+#### Last Update: 2022-06-16
 
 * [Capabilities Reference](https://developer-preview.smartthings.com/docs/devices/capabilities/capabilities-reference)
 * [SmartThings API](https://developer-preview.smartthings.com/api/public#operation/listCapabilities)
@@ -229,7 +229,7 @@
 | [Wifi Mesh Router](./json/wifiMeshRouter.json) | proposed |  |
 | [Wind Speed](./json/windSpeed.json) | proposed |  |
 | [Window Shade](./json/windowShade.json) | live | [json](./json/windowShadePresentation.json) |
-| [Window Shade Level](./json/windowShadeLevel.json) | proposed | [json](./json/windowShadeLevelPresentation.json) |
+| [Window Shade Level](./json/windowShadeLevel.json) | live | [json](./json/windowShadeLevelPresentation.json) |
 | [Window Shade Preset](./json/windowShadePreset.json) | live | [json](./json/windowShadePresetPresentation.json) |
 | [Wireless Operating Mode](./json/wirelessOperatingMode.json) | proposed | [json](./json/wirelessOperatingModePresentation.json) |
 | [Zw Multichannel](./json/zwMultichannel.json) | live |  |

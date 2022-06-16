@@ -1,7 +1,7 @@
 {
     "id": "windowShadeLevel",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Window Shade Level",
     "ephemeral": false,
     "attributes": {
