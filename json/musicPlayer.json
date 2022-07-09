@@ -95,9 +95,11 @@
     },
     "commands": {
         "play": {
+            "name": "play",
             "arguments": []
         },
         "restoreTrack": {
+            "name": "restoreTrack",
             "arguments": [
                 {
                     "name": "trackToRestore",
@@ -111,6 +113,7 @@
             ]
         },
         "resumeTrack": {
+            "name": "resumeTrack",
             "arguments": [
                 {
                     "name": "trackToResume",
@@ -124,18 +127,23 @@
             ]
         },
         "stop": {
+            "name": "stop",
             "arguments": []
         },
         "previousTrack": {
+            "name": "previousTrack",
             "arguments": []
         },
         "nextTrack": {
+            "name": "nextTrack",
             "arguments": []
         },
         "mute": {
+            "name": "mute",
             "arguments": []
         },
         "setTrack": {
+            "name": "setTrack",
             "arguments": [
                 {
                     "name": "trackToSet",
@@ -149,9 +157,11 @@
             ]
         },
         "unmute": {
+            "name": "unmute",
             "arguments": []
         },
         "playTrack": {
+            "name": "playTrack",
             "arguments": [
                 {
                     "name": "trackToPlay",
@@ -165,6 +175,7 @@
             ]
         },
         "pause": {
+            "name": "pause",
             "arguments": []
         },
         "setLevel": {

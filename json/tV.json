@@ -98,15 +98,19 @@
     },
     "commands": {
         "volumeDown": {
+            "name": "volumeDown",
             "arguments": []
         },
         "volumeUp": {
+            "name": "volumeUp",
             "arguments": []
         },
         "channelDown": {
+            "name": "channelDown",
             "arguments": []
         },
         "channelUp": {
+            "name": "channelUp",
             "arguments": []
         }
     }

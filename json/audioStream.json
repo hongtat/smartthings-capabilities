@@ -23,9 +23,11 @@
     },
     "commands": {
         "startAudio": {
+            "name": "startAudio",
             "arguments": []
         },
         "stopAudio": {
+            "name": "stopAudio",
             "arguments": []
         }
     }

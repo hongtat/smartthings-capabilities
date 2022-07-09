@@ -1,7 +1,7 @@
 
 ## SmartThings Capabilities
 
-#### Last Update: 2022-06-16
+#### Last Update: 2022-07-09
 
 * [Capabilities Reference](https://developer-preview.smartthings.com/docs/devices/capabilities/capabilities-reference)
 * [SmartThings API](https://developer-preview.smartthings.com/api/public#operation/listCapabilities)
@@ -54,6 +54,7 @@
 | [Configuration](./json/configuration.json) | live |  |
 | [Consumable](./json/consumable.json) | proposed | [json](./json/consumablePresentation.json) |
 | [Contact Sensor](./json/contactSensor.json) | live | [json](./json/contactSensorPresentation.json) |
+| [Current Measurement](./json/currentMeasurement.json) | proposed |  |
 | [Demand Response Load Control](./json/demandResponseLoadControl.json) | proposed |  |
 | [Dew Point](./json/dewPoint.json) | live | [json](./json/dewPointPresentation.json) |
 | [Dishwasher Mode](./json/dishwasherMode.json) | proposed | [json](./json/dishwasherModePresentation.json) |
@@ -93,6 +94,7 @@
 | [Image Capture](./json/imageCapture.json) | live | [json](./json/imageCapturePresentation.json) |
 | [Indicator](./json/indicator.json) | deprecated |  |
 | [Infrared Level](./json/infraredLevel.json) | live | [json](./json/infraredLevelPresentation.json) |
+| [Keypad Input](./json/keypadInput.json) | proposed |  |
 | [Language Setting](./json/languageSetting.json) | proposed | [json](./json/languageSettingPresentation.json) |
 | [Light](./json/light.json) | deprecated |  |
 | [Location Mode](./json/locationMode.json) | live |  |

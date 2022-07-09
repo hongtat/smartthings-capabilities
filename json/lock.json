@@ -69,9 +69,11 @@
     },
     "commands": {
         "unlock": {
+            "name": "unlock",
             "arguments": []
         },
         "lock": {
+            "name": "lock",
             "arguments": []
         }
     }

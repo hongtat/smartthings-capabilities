@@ -29,9 +29,11 @@
     },
     "commands": {
         "previousTrack": {
+            "name": "previousTrack",
             "arguments": []
         },
         "nextTrack": {
+            "name": "nextTrack",
             "arguments": []
         }
     }

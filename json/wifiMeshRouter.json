@@ -153,15 +153,19 @@
     },
     "commands": {
         "enableWifiGuestNetwork": {
+            "name": "enableWifiGuestNetwork",
             "arguments": []
         },
         "disableWifiNetwork": {
+            "name": "disableWifiNetwork",
             "arguments": []
         },
         "enableWifiNetwork": {
+            "name": "enableWifiNetwork",
             "arguments": []
         },
         "disableWifiGuestNetwork": {
+            "name": "disableWifiGuestNetwork",
             "arguments": []
         }
     }

@@ -38,9 +38,11 @@
     },
     "commands": {
         "startEngine": {
+            "name": "startEngine",
             "arguments": []
         },
         "stopEngine": {
+            "name": "stopEngine",
             "arguments": []
         }
     }

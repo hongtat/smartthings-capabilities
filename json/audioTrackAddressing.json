@@ -7,6 +7,7 @@
     "attributes": [],
     "commands": {
         "setAudioTrack": {
+            "name": "setAudioTrack",
             "arguments": [
                 {
                     "name": "trackToSet",

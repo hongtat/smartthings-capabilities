@@ -64,12 +64,15 @@
     },
     "commands": {
         "cancel": {
+            "name": "cancel",
             "arguments": []
         },
         "stop": {
+            "name": "stop",
             "arguments": []
         },
         "start": {
+            "name": "start",
             "arguments": []
         },
         "setCompletionTime": {
@@ -87,6 +90,7 @@
             ]
         },
         "pause": {
+            "name": "pause",
             "arguments": []
         }
     }

@@ -68,6 +68,7 @@
     },
     "commands": {
         "captureClip": {
+            "name": "captureClip",
             "arguments": [
                 {
                     "name": "duration",

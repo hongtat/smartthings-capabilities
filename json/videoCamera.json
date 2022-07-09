@@ -94,18 +94,23 @@
     },
     "commands": {
         "mute": {
+            "name": "mute",
             "arguments": []
         },
         "unmute": {
+            "name": "unmute",
             "arguments": []
         },
         "flip": {
+            "name": "flip",
             "arguments": []
         },
         "off": {
+            "name": "off",
             "arguments": []
         },
         "on": {
+            "name": "on",
             "arguments": []
         }
     }

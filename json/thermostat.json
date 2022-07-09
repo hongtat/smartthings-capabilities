@@ -516,6 +516,7 @@
     },
     "commands": {
         "heat": {
+            "name": "heat",
             "arguments": []
         },
         "setSchedule": {
@@ -532,12 +533,15 @@
             ]
         },
         "auto": {
+            "name": "auto",
             "arguments": []
         },
         "cool": {
+            "name": "cool",
             "arguments": []
         },
         "emergencyHeat": {
+            "name": "emergencyHeat",
             "arguments": []
         },
         "setThermostatFanMode": {
@@ -560,12 +564,15 @@
             ]
         },
         "fanAuto": {
+            "name": "fanAuto",
             "arguments": []
         },
         "fanCirculate": {
+            "name": "fanCirculate",
             "arguments": []
         },
         "off": {
+            "name": "off",
             "arguments": []
         },
         "setCoolingSetpoint": {
@@ -651,6 +658,7 @@
             ]
         },
         "fanOn": {
+            "name": "fanOn",
             "arguments": []
         }
     }

@@ -118,12 +118,15 @@
     },
     "commands": {
         "groupVolumeUp": {
+            "name": "groupVolumeUp",
             "arguments": []
         },
         "groupVolumeDown": {
+            "name": "groupVolumeDown",
             "arguments": []
         },
         "muteGroup": {
+            "name": "muteGroup",
             "arguments": []
         },
         "setGroupVolume": {
@@ -141,6 +144,7 @@
             ]
         },
         "unmuteGroup": {
+            "name": "unmuteGroup",
             "arguments": []
         },
         "setGroupMute": {

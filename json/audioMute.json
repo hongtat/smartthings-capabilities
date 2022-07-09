@@ -55,9 +55,11 @@
             ]
         },
         "mute": {
+            "name": "mute",
             "arguments": []
         },
         "unmute": {
+            "name": "unmute",
             "arguments": []
         }
     }

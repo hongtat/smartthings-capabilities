@@ -47,15 +47,19 @@
     },
     "commands": {
         "siren": {
+            "name": "siren",
             "arguments": []
         },
         "strobe": {
+            "name": "strobe",
             "arguments": []
         },
         "off": {
+            "name": "off",
             "arguments": []
         },
         "both": {
+            "name": "both",
             "arguments": []
         }
     }

@@ -97,9 +97,11 @@
     },
     "commands": {
         "updateFirmware": {
+            "name": "updateFirmware",
             "arguments": []
         },
         "checkForFirmwareUpdate": {
+            "name": "checkForFirmwareUpdate",
             "arguments": []
         }
     }

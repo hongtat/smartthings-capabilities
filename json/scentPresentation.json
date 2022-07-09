@@ -16,7 +16,7 @@
                     100
                 ],
                 "step": null,
-                "unit": null,
+                "unit": "scentIntensity.unit",
                 "command": "setScentIntensity",
                 "argumentType": "integer",
                 "value": "scentIntensity.value",
@@ -31,7 +31,8 @@
                 "label": "{{i18n.label}}",
                 "displayType": "textField",
                 "textField": {
-                    "value": "scentName.value"
+                    "value": "scentName.value",
+                    "valueType": "string"
                 }
             }
         ],

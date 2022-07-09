@@ -24,9 +24,11 @@
     },
     "commands": {
         "stopStream": {
+            "name": "stopStream",
             "arguments": []
         },
         "startStream": {
+            "name": "startStream",
             "arguments": []
         }
     }

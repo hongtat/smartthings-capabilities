@@ -58,6 +58,7 @@
     },
     "commands": {
         "triggerLogWithUrl": {
+            "name": "triggerLogWithUrl",
             "arguments": [
                 {
                     "name": "url",
@@ -71,6 +72,7 @@
             ]
         },
         "triggerLogWithLogInfo": {
+            "name": "triggerLogWithLogInfo",
             "arguments": [
                 {
                     "name": "logInfo",
@@ -83,6 +85,7 @@
             ]
         },
         "triggerLog": {
+            "name": "triggerLog",
             "arguments": []
         }
     }

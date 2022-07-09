@@ -1,15 +1,4 @@
 {
-    "dashboard": {
-        "states": [],
-        "actions": [
-            {
-                "displayType": "pushButton",
-                "pushButton": {
-                    "command": "refresh"
-                }
-            }
-        ]
-    },
     "detailView": [
         {
             "label": "{{i18n.label}}",

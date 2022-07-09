@@ -87,6 +87,7 @@
     },
     "commands": {
         "fanOn": {
+            "name": "fanOn",
             "arguments": []
         },
         "setThermostatFanMode": {
@@ -109,9 +110,11 @@
             ]
         },
         "fanAuto": {
+            "name": "fanAuto",
             "arguments": []
         },
         "fanCirculate": {
+            "name": "fanCirculate",
             "arguments": []
         }
     }

@@ -33,6 +33,7 @@
     },
     "commands": {
         "resetEnergyMeter": {
+            "name": "resetEnergyMeter",
             "arguments": []
         }
     }

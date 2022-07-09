@@ -52,6 +52,7 @@
     },
     "commands": {
         "overrideDrlcAction": {
+            "name": "overrideDrlcAction",
             "arguments": [
                 {
                     "name": "value",
@@ -63,6 +64,7 @@
             ]
         },
         "requestDrlcAction": {
+            "name": "requestDrlcAction",
             "arguments": [
                 {
                     "name": "drlcType",

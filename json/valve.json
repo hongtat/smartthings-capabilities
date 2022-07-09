@@ -36,9 +36,11 @@
     },
     "commands": {
         "close": {
+            "name": "close",
             "arguments": []
         },
         "open": {
+            "name": "open",
             "arguments": []
         }
     }

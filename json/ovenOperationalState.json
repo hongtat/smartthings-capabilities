@@ -137,6 +137,7 @@
     },
     "commands": {
         "stop": {
+            "name": "stop",
             "arguments": []
         },
         "setMachineState": {

@@ -1,21 +1,24 @@
 {
-    "id": "elevatorCall",
+    "id": "currentMeasurement",
     "version": 1,
     "status": "proposed",
-    "name": "Elevator Call",
+    "name": "Current Measurement",
     "ephemeral": false,
     "attributes": {
-        "callStatus": {
+        "current": {
             "schema": {
                 "type": "object",
                 "properties": {
                     "value": {
+                        "title": "Number",
+                        "type": "number"
+                    },
+                    "unit": {
                         "type": "string",
                         "enum": [
-                            "called",
-                            "standby",
-                            "unknown"
-                        ]
+                            "A"
+                        ],
+                        "default": "A"
                     }
                 },
                 "additionalProperties": false,
@@ -26,10 +29,5 @@
             "enumCommands": []
         }
     },
-    "commands": {
-        "call": {
-            "name": "call",
-            "arguments": []
-        }
-    }
+    "commands": []
 }

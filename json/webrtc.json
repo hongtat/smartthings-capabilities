@@ -122,6 +122,7 @@
     },
     "commands": {
         "sdpOffer": {
+            "name": "sdpOffer",
             "arguments": [
                 {
                     "name": "id",
@@ -140,6 +141,7 @@
             ]
         },
         "end": {
+            "name": "end",
             "arguments": [
                 {
                     "name": "id",

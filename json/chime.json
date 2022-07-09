@@ -36,9 +36,11 @@
     },
     "commands": {
         "off": {
+            "name": "off",
             "arguments": []
         },
         "chime": {
+            "name": "chime",
             "arguments": []
         }
     }

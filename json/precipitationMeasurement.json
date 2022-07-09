@@ -33,6 +33,7 @@
     },
     "commands": {
         "resetPrecipitationLevel": {
+            "name": "resetPrecipitationLevel",
             "arguments": []
         }
     }

@@ -195,6 +195,7 @@
     },
     "commands": {
         "ping": {
+            "name": "ping",
             "arguments": []
         }
     }

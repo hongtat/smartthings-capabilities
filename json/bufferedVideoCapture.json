@@ -24,6 +24,7 @@
     },
     "commands": {
         "capture": {
+            "name": "capture",
             "arguments": [
                 {
                     "name": "startTime",

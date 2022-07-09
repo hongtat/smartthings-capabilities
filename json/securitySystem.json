@@ -58,6 +58,7 @@
     },
     "commands": {
         "armStay": {
+            "name": "armStay",
             "arguments": [
                 {
                     "name": "bypassAll",
@@ -69,9 +70,11 @@
             ]
         },
         "disarm": {
+            "name": "disarm",
             "arguments": []
         },
         "armAway": {
+            "name": "armAway",
             "arguments": [
                 {
                     "name": "bypassAll",

@@ -220,15 +220,19 @@
             ]
         },
         "reloadAllCodes": {
+            "name": "reloadAllCodes",
             "arguments": []
         },
         "unlock": {
+            "name": "unlock",
             "arguments": []
         },
         "unlockWithTimeout": {
+            "name": "unlockWithTimeout",
             "arguments": []
         },
         "setCode": {
+            "name": "setCode",
             "arguments": [
                 {
                     "name": "codeSlot",
@@ -260,6 +264,7 @@
             ]
         },
         "updateCodes": {
+            "name": "updateCodes",
             "arguments": [
                 {
                     "name": "codes",
@@ -272,9 +277,11 @@
             ]
         },
         "lock": {
+            "name": "lock",
             "arguments": []
         },
         "requestCode": {
+            "name": "requestCode",
             "arguments": [
                 {
                     "name": "codeSlot",
@@ -288,6 +295,7 @@
             ]
         },
         "deleteCode": {
+            "name": "deleteCode",
             "arguments": [
                 {
                     "name": "codeSlot",
@@ -301,6 +309,7 @@
             ]
         },
         "nameSlot": {
+            "name": "nameSlot",
             "arguments": [
                 {
                     "name": "codeSlot",

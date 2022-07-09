@@ -3,8 +3,8 @@
         "states": [],
         "actions": [
             {
-                "displayType": "pushButton",
-                "pushButton": {
+                "displayType": "statelessPowerToggle",
+                "statelessPowerToggle": {
                     "command": "setButton",
                     "argument": "powerToggle",
                     "argumentType": "string"

@@ -194,9 +194,11 @@
     },
     "commands": {
         "heat": {
+            "name": "heat",
             "arguments": []
         },
         "auto": {
+            "name": "auto",
             "arguments": []
         },
         "setThermostatMode": {
@@ -252,12 +254,15 @@
             ]
         },
         "cool": {
+            "name": "cool",
             "arguments": []
         },
         "emergencyHeat": {
+            "name": "emergencyHeat",
             "arguments": []
         },
         "off": {
+            "name": "off",
             "arguments": []
         }
     }

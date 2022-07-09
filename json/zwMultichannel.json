@@ -38,6 +38,7 @@
     },
     "commands": {
         "enableEpEvents": {
+            "name": "enableEpEvents",
             "arguments": [
                 {
                     "name": "enabledEndpoints",
@@ -51,6 +52,7 @@
             ]
         },
         "epCmd": {
+            "name": "epCmd",
             "arguments": [
                 {
                     "name": "endpoint",

@@ -7,6 +7,7 @@
     "attributes": [],
     "commands": {
         "speak": {
+            "name": "speak",
             "arguments": [
                 {
                     "name": "phrase",

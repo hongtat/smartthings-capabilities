@@ -74,15 +74,19 @@
     },
     "commands": {
         "play": {
+            "name": "play",
             "arguments": []
         },
         "stop": {
+            "name": "stop",
             "arguments": []
         },
         "rewind": {
+            "name": "rewind",
             "arguments": []
         },
         "fastForward": {
+            "name": "fastForward",
             "arguments": []
         },
         "setPlaybackStatus": {
@@ -105,6 +109,7 @@
             ]
         },
         "pause": {
+            "name": "pause",
             "arguments": []
         }
     }

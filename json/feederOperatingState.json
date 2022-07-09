@@ -32,6 +32,7 @@
     },
     "commands": {
         "startFeeding": {
+            "name": "startFeeding",
             "arguments": []
         }
     }

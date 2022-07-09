@@ -37,6 +37,7 @@
     },
     "commands": {
         "setPortion": {
+            "name": "setPortion",
             "arguments": [
                 {
                     "name": "portion",

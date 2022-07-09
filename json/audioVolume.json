@@ -34,9 +34,11 @@
     },
     "commands": {
         "volumeDown": {
+            "name": "volumeDown",
             "arguments": []
         },
         "volumeUp": {
+            "name": "volumeUp",
             "arguments": []
         },
         "setVolume": {

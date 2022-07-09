@@ -27,6 +27,7 @@
     },
     "commands": {
         "setButton": {
+            "name": "setButton",
             "arguments": [
                 {
                     "name": "button",

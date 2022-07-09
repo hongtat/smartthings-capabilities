@@ -42,12 +42,15 @@
     },
     "commands": {
         "sendEvent(alarmSystemStatus,off)": {
+            "name": "sendOffEvent",
             "arguments": []
         },
         "sendEvent(alarmSystemStatus,away)": {
+            "name": "sendAwayEvent",
             "arguments": []
         },
         "sendEvent(alarmSystemStatus,stay)": {
+            "name": "sendStayEvent",
             "arguments": []
         }
     }

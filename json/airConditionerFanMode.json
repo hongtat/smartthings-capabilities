@@ -39,6 +39,7 @@
     },
     "commands": {
         "setFanMode": {
+            "name": "setFanMode",
             "arguments": [
                 {
                     "name": "fanMode",

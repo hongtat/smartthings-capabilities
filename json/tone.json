@@ -7,6 +7,7 @@
     "attributes": [],
     "commands": {
         "beep": {
+            "name": "beep",
             "arguments": []
         }
     }

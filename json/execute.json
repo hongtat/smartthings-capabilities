@@ -29,6 +29,7 @@
     },
     "commands": {
         "execute": {
+            "name": "execute",
             "arguments": [
                 {
                     "name": "command",

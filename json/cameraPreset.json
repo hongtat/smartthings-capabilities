@@ -45,6 +45,7 @@
     },
     "commands": {
         "create": {
+            "name": "create",
             "arguments": [
                 {
                     "name": "name",
@@ -75,6 +76,7 @@
             ]
         },
         "update": {
+            "name": "update",
             "arguments": [
                 {
                     "name": "id",
@@ -105,6 +107,7 @@
             ]
         },
         "execute": {
+            "name": "execute",
             "arguments": [
                 {
                     "name": "id",
@@ -116,6 +119,7 @@
             ]
         },
         "delete": {
+            "name": "delete",
             "arguments": [
                 {
                     "name": "id",

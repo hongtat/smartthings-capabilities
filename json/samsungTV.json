@@ -150,6 +150,7 @@
             ]
         },
         "volumeDown": {
+            "name": "volumeDown",
             "arguments": []
         },
         "setSoundMode": {
@@ -171,6 +172,7 @@
             ]
         },
         "showMessage": {
+            "name": "showMessage",
             "arguments": [
                 {
                     "name": "1",
@@ -211,12 +213,15 @@
             ]
         },
         "volumeUp": {
+            "name": "volumeUp",
             "arguments": []
         },
         "mute": {
+            "name": "mute",
             "arguments": []
         },
         "unmute": {
+            "name": "unmute",
             "arguments": []
         },
         "setVolume": {
@@ -234,9 +239,11 @@
             ]
         },
         "off": {
+            "name": "off",
             "arguments": []
         },
         "on": {
+            "name": "on",
             "arguments": []
         }
     }
