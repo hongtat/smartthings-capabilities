@@ -92,8 +92,7 @@
                 "displayType": "numberField",
                 "numberField": {
                     "value": "gasMeterCalorific.value",
-                    "valueType": "number",
-                    "unit": null
+                    "valueType": "number"
                 }
             },
             {
@@ -101,8 +100,7 @@
                 "displayType": "numberField",
                 "numberField": {
                     "value": "gasMeterConversion.value",
-                    "valueType": "number",
-                    "unit": null
+                    "valueType": "number"
                 }
             },
             {
@@ -110,8 +108,7 @@
                 "displayType": "numberField",
                 "numberField": {
                     "value": "gasMeterPrecision.value.volume",
-                    "valueType": "number",
-                    "unit": null
+                    "valueType": "number"
                 }
             },
             {
@@ -119,8 +116,7 @@
                 "displayType": "numberField",
                 "numberField": {
                     "value": "gasMeterPrecision.value.calorific",
-                    "valueType": "number",
-                    "unit": null
+                    "valueType": "number"
                 }
             },
             {
@@ -128,8 +124,7 @@
                 "displayType": "numberField",
                 "numberField": {
                     "value": "gasMeterPrecision.value.conversion",
-                    "valueType": "number",
-                    "unit": null
+                    "valueType": "number"
                 }
             },
             {

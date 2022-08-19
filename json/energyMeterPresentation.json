@@ -16,20 +16,17 @@
                     0,
                     999.9
                 ],
-                "step": null,
                 "unit": "energy.unit",
                 "value": "energy.value",
                 "valueType": "number"
-            },
-            "state": null
+            }
         },
         {
             "label": "{{i18n.commands.resetEnergyMeter.label}}",
             "displayType": "pushButton",
             "pushButton": {
                 "command": "resetEnergyMeter"
-            },
-            "state": null
+            }
         }
     ],
     "automation": {

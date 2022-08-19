@@ -16,8 +16,7 @@
             "displayType": "pushButton",
             "pushButton": {
                 "command": "beep"
-            },
-            "state": null
+            }
         }
     ],
     "id": "tone",

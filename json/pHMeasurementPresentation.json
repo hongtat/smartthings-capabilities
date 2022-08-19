@@ -16,12 +16,10 @@
                     0,
                     14
                 ],
-                "step": null,
                 "unit": "pH.unit",
                 "value": "pH.value",
                 "valueType": "number"
-            },
-            "state": null
+            }
         }
     ],
     "automation": {

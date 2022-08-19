@@ -21,8 +21,7 @@
                     "argumentType": "string",
                     "supportedValues": "availableFanspeedButtons.value"
                 }
-            },
-            "state": null
+            }
         }
     ],
     "automation": {

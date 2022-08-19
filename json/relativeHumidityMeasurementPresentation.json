@@ -16,12 +16,10 @@
                     0,
                     100
                 ],
-                "step": null,
                 "unit": "humidity.unit",
                 "value": "humidity.value",
                 "valueType": "number"
-            },
-            "state": null
+            }
         }
     ],
     "automation": {

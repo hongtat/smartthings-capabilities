@@ -23,6 +23,16 @@
                         "key": "dry",
                         "value": "{{i18n.attributes.dishwasherMode.i18n.value.dry.label}}",
                         "type": "active"
+                    },
+                    {
+                        "key": "eco",
+                        "value": "{{i18n.attributes.dishwasherMode.i18n.value.eco.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "intense",
+                        "value": "{{i18n.attributes.dishwasherMode.i18n.value.intense.label}}",
+                        "type": "active"
                     }
                 ]
             }
@@ -56,11 +66,23 @@
                             "key": "dry",
                             "value": "{{i18n.commands.setDishwasherMode.arguments.mode.i18n.dry.label}}",
                             "type": "active"
+                        },
+                        {
+                            "key": "eco",
+                            "value": "{{i18n.commands.setDishwasherMode.arguments.mode.i18n.eco.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "intense",
+                            "value": "{{i18n.commands.setDishwasherMode.arguments.mode.i18n.intense.label}}",
+                            "type": "active"
                         }
-                    ]
+                    ],
+                    "argumentType": "string"
                 },
                 "state": {
                     "value": "dishwasherMode.value",
+                    "valueType": "string",
                     "alternatives": [
                         {
                             "key": "auto",
@@ -81,11 +103,20 @@
                             "key": "dry",
                             "value": "{{i18n.attributes.dishwasherMode.i18n.value.dry.label}}",
                             "type": "active"
+                        },
+                        {
+                            "key": "eco",
+                            "value": "{{i18n.attributes.dishwasherMode.i18n.value.eco.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "intense",
+                            "value": "{{i18n.attributes.dishwasherMode.i18n.value.intense.label}}",
+                            "type": "active"
                         }
                     ]
                 }
-            },
-            "state": null
+            }
         }
     ],
     "automation": {
@@ -114,9 +145,20 @@
                             "key": "dry",
                             "value": "{{i18n.attributes.dishwasherMode.i18n.value.dry.label}}",
                             "type": "active"
+                        },
+                        {
+                            "key": "eco",
+                            "value": "{{i18n.attributes.dishwasherMode.i18n.value.eco.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "intense",
+                            "value": "{{i18n.attributes.dishwasherMode.i18n.value.intense.label}}",
+                            "type": "active"
                         }
                     ],
-                    "value": "dishwasherMode.value"
+                    "value": "dishwasherMode.value",
+                    "valueType": "string"
                 }
             }
         ],
@@ -145,9 +187,20 @@
                             "key": "dry",
                             "value": "{{i18n.commands.setDishwasherMode.arguments.mode.i18n.dry.label}}",
                             "type": "active"
+                        },
+                        {
+                            "key": "eco",
+                            "value": "{{i18n.commands.setDishwasherMode.arguments.mode.i18n.eco.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "intense",
+                            "value": "{{i18n.commands.setDishwasherMode.arguments.mode.i18n.intense.label}}",
+                            "type": "active"
                         }
                     ],
-                    "command": "setDishwasherMode"
+                    "command": "setDishwasherMode",
+                    "argumentType": "string"
                 }
             }
         ]

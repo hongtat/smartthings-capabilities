@@ -29,14 +29,12 @@
                     0,
                     100
                 ],
-                "step": null,
                 "unit": "groupVolume.unit",
                 "command": "setGroupVolume",
                 "argumentType": "integer",
                 "value": "groupVolume.value",
                 "valueType": "integer"
-            },
-            "state": null
+            }
         },
         {
             "label": "Media group",
@@ -56,8 +54,7 @@
                         }
                     ]
                 }
-            },
-            "state": null
+            }
         },
         {
             "label": "{{i18n.attributes.groupMute.label}}",
@@ -86,8 +83,7 @@
                         }
                     ]
                 }
-            },
-            "state": null
+            }
         }
     ],
     "automation": {
@@ -100,7 +96,6 @@
                         0,
                         100
                     ],
-                    "step": null,
                     "unit": "groupVolume.unit",
                     "value": "groupVolume.value",
                     "valueType": "integer"
@@ -136,7 +131,6 @@
                         0,
                         100
                     ],
-                    "step": null,
                     "unit": "groupVolume.unit",
                     "command": "setGroupVolume",
                     "argumentType": "integer"

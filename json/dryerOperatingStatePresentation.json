@@ -194,8 +194,7 @@
                         }
                     ]
                 }
-            },
-            "state": null
+            }
         },
         {
             "label": "{{i18n.label}}",

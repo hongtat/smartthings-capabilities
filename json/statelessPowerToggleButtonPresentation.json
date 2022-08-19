@@ -20,8 +20,7 @@
                 "command": "setButton",
                 "argument": "powerToggle",
                 "argumentType": "string"
-            },
-            "state": null
+            }
         }
     ],
     "automation": {

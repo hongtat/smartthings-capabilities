@@ -21,8 +21,7 @@
                     "argumentType": "string",
                     "supportedValues": "availableTemperatureButtons.value"
                 }
-            },
-            "state": null
+            }
         }
     ],
     "automation": {

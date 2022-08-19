@@ -8,12 +8,9 @@
                     0,
                     255
                 ],
-                "step": null,
-                "unit": null,
                 "value": "ultravioletIndex.value",
                 "valueType": "number"
-            },
-            "state": null
+            }
         }
     ],
     "automation": {
@@ -24,7 +21,6 @@
                 "numberField": {
                     "value": "ultravioletIndex.value",
                     "valueType": "number",
-                    "unit": null,
                     "range": [
                         0,
                         255

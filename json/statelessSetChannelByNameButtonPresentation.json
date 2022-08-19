@@ -4,10 +4,8 @@
             "label": "Set Channel By Name Button",
             "displayType": "textField",
             "textField": {
-                "command": "setChannelByName",
-                "value": null
-            },
-            "state": null
+                "command": "setChannelByName"
+            }
         }
     ],
     "automation": {

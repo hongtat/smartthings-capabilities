@@ -22,8 +22,7 @@
                 "argumentType": "integer",
                 "value": "volume.value",
                 "valueType": "integer"
-            },
-            "state": null
+            }
         }
     ],
     "automation": {
@@ -36,7 +35,6 @@
                         0,
                         100
                     ],
-                    "step": null,
                     "unit": "volume.unit",
                     "value": "volume.value",
                     "valueType": "integer"
@@ -52,7 +50,6 @@
                         0,
                         100
                     ],
-                    "step": null,
                     "unit": "volume.unit",
                     "command": "setVolume",
                     "argumentType": "integer"

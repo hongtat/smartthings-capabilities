@@ -21,8 +21,7 @@
                     "argumentType": "string",
                     "supportedValues": "availablePowerButtons.value"
                 }
-            },
-            "state": null
+            }
         }
     ],
     "automation": {

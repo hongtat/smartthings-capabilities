@@ -22,7 +22,7 @@
                     {
                         "key": "idle",
                         "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.idle.label}}",
-                        "type": "active"
+                        "type": "inactive"
                     },
                     {
                         "key": "pending cool",
@@ -69,7 +69,7 @@
                     {
                         "key": "idle",
                         "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.idle.label}}",
-                        "type": "active"
+                        "type": "inactive"
                     },
                     {
                         "key": "pending cool",
@@ -115,7 +115,7 @@
                         {
                             "key": "idle",
                             "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.idle.label}}",
-                            "type": "active"
+                            "type": "inactive"
                         },
                         {
                             "key": "pending cool",
@@ -133,7 +133,8 @@
                             "type": "active"
                         }
                     ],
-                    "value": "thermostatOperatingState.value"
+                    "value": "thermostatOperatingState.value",
+                    "valueType": "string"
                 }
             }
         ],

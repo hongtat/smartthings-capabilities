@@ -16,12 +16,10 @@
                     0,
                     100000
                 ],
-                "step": null,
                 "unit": "illuminance.unit",
                 "value": "illuminance.value",
                 "valueType": "number"
-            },
-            "state": null
+            }
         }
     ],
     "automation": {

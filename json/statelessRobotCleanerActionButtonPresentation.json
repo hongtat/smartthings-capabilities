@@ -26,8 +26,7 @@
                     "argumentType": "string",
                     "supportedValues": "availableRobotCleanerActionButtons.value"
                 }
-            },
-            "state": null
+            }
         }
     ],
     "automation": {

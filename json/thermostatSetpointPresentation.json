@@ -8,12 +8,10 @@
                     0,
                     40
                 ],
-                "step": null,
                 "unit": "thermostatSetpoint.unit",
                 "value": "thermostatSetpoint.value",
                 "valueType": "number"
-            },
-            "state": null
+            }
         }
     ],
     "id": "thermostatSetpoint",

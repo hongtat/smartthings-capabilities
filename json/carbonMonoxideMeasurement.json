@@ -1,7 +1,7 @@
 {
     "id": "carbonMonoxideMeasurement",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Carbon Monoxide Measurement",
     "ephemeral": false,
     "attributes": {
@@ -10,8 +10,8 @@
                 "type": "object",
                 "properties": {
                     "value": {
-                        "type": "number",
                         "minimum": 0,
+                        "type": "number",
                         "maximum": 1000000
                     },
                     "unit": {

@@ -1,7 +1,7 @@
 {
     "id": "radonMeasurement",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Radon Measurement",
     "ephemeral": false,
     "attributes": {

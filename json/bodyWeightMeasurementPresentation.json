@@ -16,12 +16,10 @@
                     0,
                     200
                 ],
-                "step": null,
                 "unit": "bodyWeightMeasurement.unit",
                 "value": "bodyWeightMeasurement.value",
                 "valueType": "number"
-            },
-            "state": null
+            }
         }
     ],
     "automation": {

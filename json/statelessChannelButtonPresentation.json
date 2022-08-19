@@ -21,8 +21,7 @@
                     "argumentType": "string",
                     "supportedValues": "availableChannelButtons.value"
                 }
-            },
-            "state": null
+            }
         }
     ],
     "automation": {

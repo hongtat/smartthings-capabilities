@@ -32,7 +32,6 @@
                 "numberField": {
                     "value": "lqi.value",
                     "valueType": "integer",
-                    "unit": null,
                     "range": [
                         0,
                         255

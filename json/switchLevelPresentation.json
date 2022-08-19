@@ -16,14 +16,12 @@
                     0,
                     100
                 ],
-                "step": null,
                 "unit": "level.unit",
                 "command": "setLevel",
                 "argumentType": "integer",
                 "value": "level.value",
                 "valueType": "integer"
-            },
-            "state": null
+            }
         }
     ],
     "automation": {
@@ -36,7 +34,6 @@
                         0,
                         100
                     ],
-                    "step": null,
                     "unit": "level.unit",
                     "value": "level.value",
                     "valueType": "integer"
@@ -52,7 +49,6 @@
                         0,
                         100
                     ],
-                    "step": null,
                     "unit": "level.unit",
                     "command": "setLevel",
                     "argumentType": "integer"

@@ -5,10 +5,8 @@
             "displayType": "textField",
             "textField": {
                 "command": "speak",
-                "argumentType": "string",
-                "value": null
-            },
-            "state": null
+                "argumentType": "string"
+            }
         }
     ],
     "automation": {

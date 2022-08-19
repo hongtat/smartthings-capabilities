@@ -16,14 +16,12 @@
                     0,
                     100
                 ],
-                "step": null,
                 "unit": "shadeLevel.unit",
                 "command": "setShadeLevel",
                 "argumentType": "integer",
                 "value": "shadeLevel.value",
                 "valueType": "integer"
-            },
-            "state": null
+            }
         }
     ],
     "automation": {
@@ -36,7 +34,6 @@
                         0,
                         100
                     ],
-                    "step": null,
                     "unit": "shadeLevel.unit",
                     "value": "shadeLevel.value",
                     "valueType": "integer"
@@ -52,7 +49,6 @@
                         0,
                         100
                     ],
-                    "step": null,
                     "unit": "shadeLevel.unit",
                     "command": "setShadeLevel",
                     "argumentType": "integer"

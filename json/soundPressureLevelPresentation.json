@@ -16,12 +16,10 @@
                     0,
                     194
                 ],
-                "step": null,
                 "unit": "soundPressureLevel.unit",
                 "value": "soundPressureLevel.value",
                 "valueType": "number"
-            },
-            "state": null
+            }
         }
     ],
     "automation": {

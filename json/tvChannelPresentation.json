@@ -12,10 +12,8 @@
             "label": "{{i18n.label}}",
             "displayType": "textField",
             "textField": {
-                "command": "setTvChannel",
-                "value": null
-            },
-            "state": null
+                "command": "setTvChannel"
+            }
         }
     ],
     "automation": {

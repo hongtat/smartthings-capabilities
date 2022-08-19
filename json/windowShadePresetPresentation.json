@@ -16,8 +16,7 @@
             "displayType": "pushButton",
             "pushButton": {
                 "command": "presetPosition"
-            },
-            "state": null
+            }
         }
     ],
     "automation": {

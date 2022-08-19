@@ -157,7 +157,7 @@
                     {
                         "key": "off",
                         "value": "{{i18n.attributes.thermostatMode.i18n.value.off.label}}",
-                        "type": "active"
+                        "type": "inactive"
                     },
                     {
                         "key": "out",
@@ -355,7 +355,7 @@
                         {
                             "key": "off",
                             "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.off.label}}",
-                            "type": "active"
+                            "type": "inactive"
                         },
                         {
                             "key": "out",
@@ -548,7 +548,7 @@
                         {
                             "key": "off",
                             "value": "{{i18n.attributes.thermostatMode.i18n.value.off.label}}",
-                            "type": "active"
+                            "type": "inactive"
                         },
                         {
                             "key": "out",
@@ -582,8 +582,7 @@
                         }
                     ]
                 }
-            },
-            "state": null
+            }
         }
     ],
     "automation": {
@@ -746,7 +745,7 @@
                         {
                             "key": "off",
                             "value": "{{i18n.attributes.thermostatMode.i18n.value.off.label}}",
-                            "type": "active"
+                            "type": "inactive"
                         },
                         {
                             "key": "out",
@@ -944,7 +943,7 @@
                         {
                             "key": "off",
                             "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.off.label}}",
-                            "type": "active"
+                            "type": "inactive"
                         },
                         {
                             "key": "out",

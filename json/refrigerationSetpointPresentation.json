@@ -8,14 +8,12 @@
                     0,
                     40
                 ],
-                "step": null,
                 "unit": "refrigerationSetpoint.unit",
                 "command": "setRefrigerationSetpoint",
                 "argumentType": "number",
                 "value": "refrigerationSetpoint.value",
                 "valueType": "number"
-            },
-            "state": null
+            }
         }
     ],
     "automation": {

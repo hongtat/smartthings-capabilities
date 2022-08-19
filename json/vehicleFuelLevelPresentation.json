@@ -16,12 +16,10 @@
                     0,
                     100
                 ],
-                "step": null,
                 "unit": "fuelLevel.unit",
                 "value": "fuelLevel.value",
                 "valueType": "integer"
-            },
-            "state": null
+            }
         }
     ],
     "automation": {

@@ -67,37 +67,9 @@
         ],
         "actions": [
             {
-                "displayType": "playPause",
-                "playPause": {
-                    "command": {
-                        "name": "setMachineState",
-                        "play": "running",
-                        "pause": "paused",
-                        "argumentType": "string"
-                    },
-                    "state": {
-                        "value": "machineState.value",
-                        "valueType": "string",
-                        "play": "running",
-                        "pause": "paused"
-                    }
-                }
-            },
-            {
-                "displayType": "playStop",
-                "playStop": {
-                    "command": {
-                        "name": "setMachineState",
-                        "play": "running",
-                        "stop": "ready",
-                        "argumentType": "string"
-                    },
-                    "state": {
-                        "value": "machineState.value",
-                        "play": "running",
-                        "stop": "ready",
-                        "valueType": "string"
-                    }
+                "displayType": "pushButton",
+                "pushButton": {
+                    "command": "stop"
                 }
             }
         ]
@@ -155,16 +127,6 @@
                     "name": "setMachineState",
                     "alternatives": [
                         {
-                            "key": "pause",
-                            "value": "{{i18n.commands.setMachineState.arguments.state.i18n.pause.label}}",
-                            "type": "active"
-                        },
-                        {
-                            "key": "run",
-                            "value": "{{i18n.commands.setMachineState.arguments.state.i18n.run.label}}",
-                            "type": "active"
-                        },
-                        {
                             "key": "stop",
                             "value": "{{i18n.commands.setMachineState.arguments.state.i18n.stop.label}}",
                             "type": "active"
@@ -178,24 +140,23 @@
                     "valueType": "string",
                     "alternatives": [
                         {
-                            "key": "pause",
-                            "value": "{{i18n.attributes.machineState.i18n.value.pause.label}}",
+                            "key": "ready",
+                            "value": "{{i18n.attributes.machineState.i18n.value.ready.label}}",
                             "type": "active"
                         },
                         {
-                            "key": "run",
-                            "value": "{{i18n.attributes.machineState.i18n.value.run.label}}",
+                            "key": "running",
+                            "value": "{{i18n.attributes.machineState.i18n.value.running.label}}",
                             "type": "active"
                         },
                         {
-                            "key": "stop",
-                            "value": "{{i18n.attributes.machineState.i18n.value.stop.label}}",
+                            "key": "paused",
+                            "value": "{{i18n.attributes.machineState.i18n.value.paused.label}}",
                             "type": "active"
                         }
                     ]
                 }
-            },
-            "state": null
+            }
         },
         {
             "label": "{{i18n.label}}",
@@ -285,23 +246,11 @@
                 "list": {
                     "alternatives": [
                         {
-                            "key": "running",
-                            "value": "{{i18n.commands.setMachineState.arguments.state.i18n.running.label}}",
-                            "type": "active"
-                        },
-                        {
-                            "key": "ready",
-                            "value": "{{i18n.commands.setMachineState.arguments.state.i18n.ready.label}}",
-                            "type": "active"
-                        },
-                        {
-                            "key": "pause",
-                            "value": "{{i18n.commands.setMachineState.arguments.state.i18n.pause.label}}",
+                            "key": "stop",
+                            "value": "{{i18n.commands.setMachineState.arguments.state.i18n.stop.label}}",
                             "type": "active"
                         }
-                    ],
-                    "command": "setMachineState",
-                    "argumentType": "string"
+                    ]
                 }
             }
         ]

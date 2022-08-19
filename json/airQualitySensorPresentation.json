@@ -16,12 +16,10 @@
                     0,
                     100
                 ],
-                "step": null,
                 "unit": "airQuality.unit",
                 "value": "airQuality.value",
                 "valueType": "integer"
-            },
-            "state": null
+            }
         }
     ],
     "automation": {

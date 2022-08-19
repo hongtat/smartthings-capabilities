@@ -37,8 +37,7 @@
             "displayType": "pushButton",
             "pushButton": {
                 "command": "call"
-            },
-            "state": null
+            }
         },
         {
             "label": "{{i18n.label}}",

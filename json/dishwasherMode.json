@@ -13,6 +13,8 @@
                         "title": "DishwasherMode",
                         "type": "string",
                         "enum": [
+                            "eco",
+                            "intense",
                             "auto",
                             "quick",
                             "rinse",
@@ -40,6 +42,8 @@
                         "title": "DishwasherMode",
                         "type": "string",
                         "enum": [
+                            "eco",
+                            "intense",
                             "auto",
                             "quick",
                             "rinse",

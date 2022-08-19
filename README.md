@@ -1,7 +1,7 @@
 
 ## SmartThings Capabilities
 
-#### Last Update: 2022-07-09
+#### Last Update: 2022-08-20
 
 * [Capabilities Reference](https://developer-preview.smartthings.com/docs/devices/capabilities/capabilities-reference)
 * [SmartThings API](https://developer-preview.smartthings.com/api/public#operation/listCapabilities)
@@ -45,7 +45,7 @@
 | [Carbon Dioxide Health Concern](./json/carbonDioxideHealthConcern.json) | proposed | [json](./json/carbonDioxideHealthConcernPresentation.json) |
 | [Carbon Dioxide Measurement](./json/carbonDioxideMeasurement.json) | live | [json](./json/carbonDioxideMeasurementPresentation.json) |
 | [Carbon Monoxide Detector](./json/carbonMonoxideDetector.json) | live | [json](./json/carbonMonoxideDetectorPresentation.json) |
-| [Carbon Monoxide Measurement](./json/carbonMonoxideMeasurement.json) | proposed | [json](./json/carbonMonoxideMeasurementPresentation.json) |
+| [Carbon Monoxide Measurement](./json/carbonMonoxideMeasurement.json) | live | [json](./json/carbonMonoxideMeasurementPresentation.json) |
 | [Chime](./json/chime.json) | proposed | [json](./json/chimePresentation.json) |
 | [Color](./json/color.json) | proposed |  |
 | [Color Control](./json/colorControl.json) | live | [json](./json/colorControlPresentation.json) |
@@ -138,7 +138,7 @@
 | [Precipitation Sensor](./json/precipitationSensor.json) | proposed |  |
 | [Presence Sensor](./json/presenceSensor.json) | live | [json](./json/presenceSensorPresentation.json) |
 | [Radon Health Concern](./json/radonHealthConcern.json) | proposed | [json](./json/radonHealthConcernPresentation.json) |
-| [Radon Measurement](./json/radonMeasurement.json) | proposed | [json](./json/radonMeasurementPresentation.json) |
+| [Radon Measurement](./json/radonMeasurement.json) | live | [json](./json/radonMeasurementPresentation.json) |
 | [Rapid Cooling](./json/rapidCooling.json) | proposed | [json](./json/rapidCoolingPresentation.json) |
 | [Refresh](./json/refresh.json) | live | [json](./json/refreshPresentation.json) |
 | [Refrigeration](./json/refrigeration.json) | live | [json](./json/refrigerationPresentation.json) |

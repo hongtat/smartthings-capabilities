@@ -5,8 +5,7 @@
             "displayType": "pushButton",
             "pushButton": {
                 "command": "capture"
-            },
-            "state": null
+            }
         }
     ],
     "automation": {

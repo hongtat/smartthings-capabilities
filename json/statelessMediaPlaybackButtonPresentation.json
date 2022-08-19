@@ -36,8 +36,7 @@
                     "argumentType": "string",
                     "supportedValues": "availableMediaPlaybackButtons.value"
                 }
-            },
-            "state": null
+            }
         }
     ],
     "automation": {

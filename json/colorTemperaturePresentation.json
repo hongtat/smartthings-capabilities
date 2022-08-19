@@ -16,14 +16,12 @@
                     1,
                     30000
                 ],
-                "step": null,
                 "unit": "colorTemperature.unit",
                 "command": "setColorTemperature",
                 "argumentType": "integer",
                 "value": "colorTemperature.value",
                 "valueType": "integer"
-            },
-            "state": null
+            }
         }
     ],
     "automation": {
@@ -36,7 +34,6 @@
                         1,
                         30000
                     ],
-                    "step": null,
                     "unit": "colorTemperature.unit",
                     "value": "colorTemperature.value",
                     "valueType": "integer"
@@ -52,7 +49,6 @@
                         1,
                         30000
                     ],
-                    "step": null,
                     "unit": "colorTemperature.unit",
                     "command": "setColorTemperature",
                     "argumentType": "integer"

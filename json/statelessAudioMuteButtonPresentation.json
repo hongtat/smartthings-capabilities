@@ -6,8 +6,7 @@
             "pushButton": {
                 "command": "setButton",
                 "argument": "muteToggle"
-            },
-            "state": null
+            }
         }
     ],
     "automation": {

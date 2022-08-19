@@ -16,12 +16,10 @@
                     0,
                     1000000
                 ],
-                "step": null,
                 "unit": "tvocLevel.unit",
                 "value": "tvocLevel.value",
                 "valueType": "number"
-            },
-            "state": null
+            }
         }
     ],
     "automation": {

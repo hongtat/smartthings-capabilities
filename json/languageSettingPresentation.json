@@ -6,8 +6,7 @@
             "textField": {
                 "command": "setLanguage",
                 "value": "language.value"
-            },
-            "state": null
+            }
         }
     ],
     "id": "languageSetting",

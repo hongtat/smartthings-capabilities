@@ -6,15 +6,13 @@
             "numberField": {
                 "value": "hue.value",
                 "valueType": "number",
-                "unit": null,
                 "command": "setHue",
                 "argumentType": "number",
                 "range": [
                     0,
                     255
                 ]
-            },
-            "state": null
+            }
         },
         {
             "label": "{{i18n.label}}",
@@ -22,15 +20,13 @@
             "numberField": {
                 "value": "saturation.value",
                 "valueType": "number",
-                "unit": null,
                 "command": "setSaturation",
                 "argumentType": "number",
                 "range": [
                     0,
                     255
                 ]
-            },
-            "state": null
+            }
         }
     ],
     "automation": {
@@ -41,8 +37,7 @@
                 "displayType": "numberField",
                 "numberField": {
                     "command": "setColor",
-                    "argumentType": "object",
-                    "unit": null
+                    "argumentType": "object"
                 }
             }
         ]

@@ -16,12 +16,10 @@
                     0.2,
                     99.9
                 ],
-                "step": null,
                 "unit": "radonLevel.unit",
                 "value": "radonLevel.value",
                 "valueType": "number"
-            },
-            "state": null
+            }
         }
     ],
     "automation": {
