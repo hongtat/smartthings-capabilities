@@ -19,6 +19,24 @@
             }
         }
     ],
+    "automation": {
+        "conditions": [],
+        "actions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "beep",
+                            "value": "{{i18n.commands.beep.label}}",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
     "id": "tone",
     "version": 1
 }
