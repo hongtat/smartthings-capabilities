@@ -22,24 +22,21 @@
     "detailView": [
         {
             "label": "{{i18n.label}}",
-            "displayType": "list",
-            "list": {
-                "state": {
-                    "value": "drivingStatus.value",
-                    "valueType": "string",
-                    "alternatives": [
-                        {
-                            "key": "notDriving",
-                            "value": "{{i18n.attributes.drivingStatus.i18n.value.notDriving.label}}",
-                            "type": "inactive"
-                        },
-                        {
-                            "key": "driving",
-                            "value": "{{i18n.attributes.drivingStatus.i18n.value.driving.label}}",
-                            "type": "active"
-                        }
-                    ]
-                }
+            "displayType": "state",
+            "state": {
+                "label": "{{drivingStatus.value}}",
+                "alternatives": [
+                    {
+                        "key": "notDriving",
+                        "value": "{{i18n.attributes.drivingStatus.i18n.value.notDriving.label}}",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "driving",
+                        "value": "{{i18n.attributes.drivingStatus.i18n.value.driving.label}}",
+                        "type": "active"
+                    }
+                ]
             }
         }
     ],

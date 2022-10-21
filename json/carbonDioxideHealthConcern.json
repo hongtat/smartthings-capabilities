@@ -1,7 +1,7 @@
 {
     "id": "carbonDioxideHealthConcern",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Carbon Dioxide Health Concern",
     "ephemeral": false,
     "attributes": {

@@ -1,7 +1,7 @@
 {
     "id": "airConditionerMode",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Air Conditioner Mode",
     "ephemeral": false,
     "attributes": {
@@ -10,10 +10,10 @@
                 "type": "object",
                 "properties": {
                     "value": {
-                        "type": "array",
                         "items": {
                             "type": "string"
-                        }
+                        },
+                        "type": "array"
                     }
                 },
                 "additionalProperties": false,
@@ -27,8 +27,8 @@
                 "properties": {
                     "value": {
                         "title": "String",
-                        "type": "string",
-                        "maxLength": 255
+                        "maxLength": 255,
+                        "type": "string"
                     }
                 },
                 "additionalProperties": false,
@@ -49,8 +49,8 @@
                     "optional": false,
                     "schema": {
                         "title": "String",
-                        "type": "string",
-                        "maxLength": 255
+                        "maxLength": 255,
+                        "type": "string"
                     }
                 }
             ]

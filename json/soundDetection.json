@@ -1,10 +1,41 @@
 {
     "id": "soundDetection",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Sound Detection",
     "ephemeral": false,
     "attributes": {
+        "supportedSoundTypes": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "items": {
+                            "title": "DetectedSoundType",
+                            "type": "string",
+                            "enum": [
+                                "noSound",
+                                "babyCrying",
+                                "glassBreaking",
+                                "fireAlarm",
+                                "dogBarking",
+                                "catMeowing",
+                                "doorKnocking",
+                                "siren",
+                                "fingerSnapping",
+                                "snoring"
+                            ]
+                        },
+                        "type": "array"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
         "soundDetectionState": {
             "schema": {
                 "type": "object",
@@ -33,37 +64,6 @@
                     "value": "disabled"
                 }
             ]
-        },
-        "supportedSoundTypes": {
-            "schema": {
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "type": "array",
-                        "items": {
-                            "title": "DetectedSoundType",
-                            "type": "string",
-                            "enum": [
-                                "noSound",
-                                "babyCrying",
-                                "glassBreaking",
-                                "fireAlarm",
-                                "dogBarking",
-                                "catMeowing",
-                                "doorKnocking",
-                                "siren",
-                                "fingerSnapping",
-                                "snoring"
-                            ]
-                        }
-                    }
-                },
-                "additionalProperties": false,
-                "required": [
-                    "value"
-                ]
-            },
-            "enumCommands": []
         },
         "soundDetected": {
             "schema": {

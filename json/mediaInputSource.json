@@ -1,7 +1,7 @@
 {
     "id": "mediaInputSource",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Media Input Source",
     "ephemeral": false,
     "attributes": {
@@ -10,7 +10,6 @@
                 "type": "object",
                 "properties": {
                     "value": {
-                        "type": "array",
                         "items": {
                             "title": "MediaSource",
                             "type": "string",
@@ -34,7 +33,8 @@
                                 "melon",
                                 "wifi"
                             ]
-                        }
+                        },
+                        "type": "array"
                     }
                 },
                 "additionalProperties": false,

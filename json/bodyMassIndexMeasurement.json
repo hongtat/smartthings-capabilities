@@ -1,7 +1,7 @@
 {
     "id": "bodyMassIndexMeasurement",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Body Mass Index Measurement",
     "ephemeral": false,
     "attributes": {

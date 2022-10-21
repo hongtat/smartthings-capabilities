@@ -1,7 +1,7 @@
 
 ## SmartThings Capabilities
 
-#### Last Update: 2022-09-21
+#### Last Update: 2022-10-22
 
 * [Capabilities Reference](https://developer-preview.smartthings.com/docs/devices/capabilities/capabilities-reference)
 * [SmartThings API](https://developer-preview.smartthings.com/api/public#operation/listCapabilities)
@@ -13,10 +13,10 @@
 | ---- | ---- | ---- |
 | [Acceleration Sensor](./json/accelerationSensor.json) | live | [json](./json/accelerationSensorPresentation.json) |
 | [Activity Lighting Mode](./json/activityLightingMode.json) | proposed | [json](./json/activityLightingModePresentation.json) |
-| [Activity Sensor](./json/activitySensor.json) | proposed | [json](./json/activitySensorPresentation.json) |
+| [Activity Sensor](./json/activitySensor.json) | live | [json](./json/activitySensorPresentation.json) |
 | [Actuator](./json/actuator.json) | deprecated |  |
-| [Air Conditioner Fan Mode](./json/airConditionerFanMode.json) | proposed | [json](./json/airConditionerFanModePresentation.json) |
-| [Air Conditioner Mode](./json/airConditionerMode.json) | proposed | [json](./json/airConditionerModePresentation.json) |
+| [Air Conditioner Fan Mode](./json/airConditionerFanMode.json) | live | [json](./json/airConditionerFanModePresentation.json) |
+| [Air Conditioner Mode](./json/airConditionerMode.json) | live | [json](./json/airConditionerModePresentation.json) |
 | [Air Flow Direction](./json/airFlowDirection.json) | dead |  |
 | [Air Purifier Fan Mode](./json/airPurifierFanMode.json) | proposed | [json](./json/airPurifierFanModePresentation.json) |
 | [Air Quality Sensor](./json/airQualitySensor.json) | live | [json](./json/airQualitySensorPresentation.json) |
@@ -34,7 +34,7 @@
 | [Audio Volume](./json/audioVolume.json) | live | [json](./json/audioVolumePresentation.json) |
 | [Battery](./json/battery.json) | live | [json](./json/batteryPresentation.json) |
 | [Beacon](./json/beacon.json) | deprecated |  |
-| [Body Mass Index Measurement](./json/bodyMassIndexMeasurement.json) | proposed | [json](./json/bodyMassIndexMeasurementPresentation.json) |
+| [Body Mass Index Measurement](./json/bodyMassIndexMeasurement.json) | live | [json](./json/bodyMassIndexMeasurementPresentation.json) |
 | [Body Weight Measurement](./json/bodyWeightMeasurement.json) | proposed | [json](./json/bodyWeightMeasurementPresentation.json) |
 | [Bridge](./json/bridge.json) | deprecated | [json](./json/bridgePresentation.json) |
 | [Buffered Video Capture](./json/bufferedVideoCapture.json) | deprecated |  |
@@ -42,7 +42,7 @@
 | [Button](./json/button.json) | live | [json](./json/buttonPresentation.json) |
 | [Bypassable](./json/bypassable.json) | live |  |
 | [Camera Preset](./json/cameraPreset.json) | proposed | [json](./json/cameraPresetPresentation.json) |
-| [Carbon Dioxide Health Concern](./json/carbonDioxideHealthConcern.json) | proposed | [json](./json/carbonDioxideHealthConcernPresentation.json) |
+| [Carbon Dioxide Health Concern](./json/carbonDioxideHealthConcern.json) | live | [json](./json/carbonDioxideHealthConcernPresentation.json) |
 | [Carbon Dioxide Measurement](./json/carbonDioxideMeasurement.json) | live | [json](./json/carbonDioxideMeasurementPresentation.json) |
 | [Carbon Monoxide Detector](./json/carbonMonoxideDetector.json) | live | [json](./json/carbonMonoxideDetectorPresentation.json) |
 | [Carbon Monoxide Measurement](./json/carbonMonoxideMeasurement.json) | live | [json](./json/carbonMonoxideMeasurementPresentation.json) |
@@ -66,7 +66,7 @@
 | [Dryer Operating State](./json/dryerOperatingState.json) | proposed | [json](./json/dryerOperatingStatePresentation.json) |
 | [Dust Health Concern](./json/dustHealthConcern.json) | proposed | [json](./json/dustHealthConcernPresentation.json) |
 | [Dust Sensor](./json/dustSensor.json) | live | [json](./json/dustSensorPresentation.json) |
-| [Elevator Call](./json/elevatorCall.json) | proposed | [json](./json/elevatorCallPresentation.json) |
+| [Elevator Call](./json/elevatorCall.json) | live | [json](./json/elevatorCallPresentation.json) |
 | [Energy Meter](./json/energyMeter.json) | live | [json](./json/energyMeterPresentation.json) |
 | [Equivalent Carbon Dioxide Measurement](./json/equivalentCarbonDioxideMeasurement.json) | live | [json](./json/equivalentCarbonDioxideMeasurementPresentation.json) |
 | [Estimated Time Of Arrival](./json/estimatedTimeOfArrival.json) | proposed | [json](./json/estimatedTimeOfArrivalPresentation.json) |
@@ -77,39 +77,39 @@
 | [Feeder Portion](./json/feederPortion.json) | proposed | [json](./json/feederPortionPresentation.json) |
 | [Filter State](./json/filterState.json) | live |  |
 | [Filter Status](./json/filterStatus.json) | proposed | [json](./json/filterStatusPresentation.json) |
-| [Fine Dust Health Concern](./json/fineDustHealthConcern.json) | proposed | [json](./json/fineDustHealthConcernPresentation.json) |
+| [Fine Dust Health Concern](./json/fineDustHealthConcern.json) | live | [json](./json/fineDustHealthConcernPresentation.json) |
 | [Fine Dust Sensor](./json/fineDustSensor.json) | live | [json](./json/fineDustSensorPresentation.json) |
 | [Firmware Update](./json/firmwareUpdate.json) | live |  |
 | [Formaldehyde Measurement](./json/formaldehydeMeasurement.json) | live | [json](./json/formaldehydeMeasurementPresentation.json) |
 | [Garage Door Control](./json/garageDoorControl.json) | deprecated | [json](./json/garageDoorControlPresentation.json) |
 | [Gas Detector](./json/gasDetector.json) | proposed | [json](./json/gasDetectorPresentation.json) |
-| [Gas Meter](./json/gasMeter.json) | proposed | [json](./json/gasMeterPresentation.json) |
+| [Gas Meter](./json/gasMeter.json) | live | [json](./json/gasMeterPresentation.json) |
 | [Geofence](./json/geofence.json) | proposed |  |
 | [Geofences](./json/geofences.json) | deprecated |  |
 | [Geolocation](./json/geolocation.json) | proposed |  |
 | [Health Check](./json/healthCheck.json) | live |  |
 | [Holdable Button](./json/holdableButton.json) | deprecated |  |
-| [Humidifier Mode](./json/humidifierMode.json) | proposed | [json](./json/humidifierModePresentation.json) |
+| [Humidifier Mode](./json/humidifierMode.json) | live | [json](./json/humidifierModePresentation.json) |
 | [Illuminance Measurement](./json/illuminanceMeasurement.json) | live | [json](./json/illuminanceMeasurementPresentation.json) |
 | [Image Capture](./json/imageCapture.json) | live | [json](./json/imageCapturePresentation.json) |
 | [Indicator](./json/indicator.json) | deprecated |  |
 | [Infrared Level](./json/infraredLevel.json) | live | [json](./json/infraredLevelPresentation.json) |
-| [Keypad Input](./json/keypadInput.json) | proposed |  |
+| [Keypad Input](./json/keypadInput.json) | proposed | [json](./json/keypadInputPresentation.json) |
 | [Language Setting](./json/languageSetting.json) | proposed | [json](./json/languageSettingPresentation.json) |
 | [Light](./json/light.json) | deprecated |  |
 | [Location Mode](./json/locationMode.json) | live |  |
 | [Lock](./json/lock.json) | live | [json](./json/lockPresentation.json) |
-| [Lock Codes](./json/lockCodes.json) | proposed |  |
+| [Lock Codes](./json/lockCodes.json) | live |  |
 | [Lock Only](./json/lockOnly.json) | deprecated |  |
 | [Log Trigger](./json/logTrigger.json) | proposed |  |
 | [Media Controller](./json/mediaController.json) | proposed |  |
 | [Media Group](./json/mediaGroup.json) | proposed | [json](./json/mediaGroupPresentation.json) |
-| [Media Input Source](./json/mediaInputSource.json) | proposed | [json](./json/mediaInputSourcePresentation.json) |
-| [Media Playback](./json/mediaPlayback.json) | proposed | [json](./json/mediaPlaybackPresentation.json) |
+| [Media Input Source](./json/mediaInputSource.json) | live | [json](./json/mediaInputSourcePresentation.json) |
+| [Media Playback](./json/mediaPlayback.json) | live | [json](./json/mediaPlaybackPresentation.json) |
 | [Media Playback Repeat](./json/mediaPlaybackRepeat.json) | proposed | [json](./json/mediaPlaybackRepeatPresentation.json) |
 | [Media Playback Shuffle](./json/mediaPlaybackShuffle.json) | proposed | [json](./json/mediaPlaybackShufflePresentation.json) |
 | [Media Presets](./json/mediaPresets.json) | proposed | [json](./json/mediaPresetsPresentation.json) |
-| [Media Track Control](./json/mediaTrackControl.json) | proposed | [json](./json/mediaTrackControlPresentation.json) |
+| [Media Track Control](./json/mediaTrackControl.json) | live | [json](./json/mediaTrackControlPresentation.json) |
 | [Mode](./json/mode.json) | proposed | [json](./json/modePresentation.json) |
 | [Mold Health Concern](./json/moldHealthConcern.json) | live | [json](./json/moldHealthConcernPresentation.json) |
 | [Momentary](./json/momentary.json) | live | [json](./json/momentaryPresentation.json) |
@@ -118,9 +118,9 @@
 | [Network Meter](./json/networkMeter.json) | live |  |
 | [Notification](./json/notification.json) | live | [json](./json/notificationPresentation.json) |
 | [Object Detection](./json/objectDetection.json) | live | [json](./json/objectDetectionPresentation.json) |
-| [Occupancy Sensor](./json/occupancySensor.json) | proposed | [json](./json/occupancySensorPresentation.json) |
+| [Occupancy Sensor](./json/occupancySensor.json) | live | [json](./json/occupancySensorPresentation.json) |
 | [Ocf](./json/ocf.json) | proposed |  |
-| [Odor Sensor](./json/odorSensor.json) | proposed | [json](./json/odorSensorPresentation.json) |
+| [Odor Sensor](./json/odorSensor.json) | live | [json](./json/odorSensorPresentation.json) |
 | [Operating State](./json/operatingState.json) | proposed |  |
 | [Outlet](./json/outlet.json) | deprecated |  |
 | [Oven Mode](./json/ovenMode.json) | proposed | [json](./json/ovenModePresentation.json) |
@@ -130,7 +130,7 @@
 | [Panic Alarm](./json/panicAlarm.json) | live |  |
 | [Pest Control](./json/pestControl.json) | proposed | [json](./json/pestControlPresentation.json) |
 | [Polling](./json/polling.json) | deprecated |  |
-| [Power Consumption Report](./json/powerConsumptionReport.json) | proposed |  |
+| [Power Consumption Report](./json/powerConsumptionReport.json) | live |  |
 | [Power Meter](./json/powerMeter.json) | live | [json](./json/powerMeterPresentation.json) |
 | [Power Source](./json/powerSource.json) | live | [json](./json/powerSourcePresentation.json) |
 | [Precipitation Measurement](./json/precipitationMeasurement.json) | proposed |  |
@@ -147,10 +147,10 @@
 | [Relative Humidity Measurement](./json/relativeHumidityMeasurement.json) | live | [json](./json/relativeHumidityMeasurementPresentation.json) |
 | [Relay Switch](./json/relaySwitch.json) | deprecated |  |
 | [Remote Control Status](./json/remoteControlStatus.json) | live | [json](./json/remoteControlStatusPresentation.json) |
-| [Robot Cleaner Cleaning Mode](./json/robotCleanerCleaningMode.json) | proposed | [json](./json/robotCleanerCleaningModePresentation.json) |
+| [Robot Cleaner Cleaning Mode](./json/robotCleanerCleaningMode.json) | live | [json](./json/robotCleanerCleaningModePresentation.json) |
 | [Robot Cleaner Movement](./json/robotCleanerMovement.json) | proposed | [json](./json/robotCleanerMovementPresentation.json) |
 | [Robot Cleaner State](./json/robotCleanerState.json) | deprecated |  |
-| [Robot Cleaner Turbo Mode](./json/robotCleanerTurboMode.json) | proposed | [json](./json/robotCleanerTurboModePresentation.json) |
+| [Robot Cleaner Turbo Mode](./json/robotCleanerTurboMode.json) | live | [json](./json/robotCleanerTurboModePresentation.json) |
 | [Samsung TV](./json/samsungTV.json) | live |  |
 | [Scenes](./json/scenes.json) | proposed |  |
 | [Scent](./json/scent.json) | proposed | [json](./json/scentPresentation.json) |
@@ -160,7 +160,7 @@
 | [Signal Strength](./json/signalStrength.json) | live | [json](./json/signalStrengthPresentation.json) |
 | [Sleep Sensor](./json/sleepSensor.json) | live | [json](./json/sleepSensorPresentation.json) |
 | [Smoke Detector](./json/smokeDetector.json) | live | [json](./json/smokeDetectorPresentation.json) |
-| [Sound Detection](./json/soundDetection.json) | proposed | [json](./json/soundDetectionPresentation.json) |
+| [Sound Detection](./json/soundDetection.json) | live | [json](./json/soundDetectionPresentation.json) |
 | [Sound Pressure Level](./json/soundPressureLevel.json) | live | [json](./json/soundPressureLevelPresentation.json) |
 | [Sound Sensor](./json/soundSensor.json) | live | [json](./json/soundSensorPresentation.json) |
 | [Speech Recognition](./json/speechRecognition.json) | proposed |  |
@@ -217,7 +217,7 @@
 | [Vehicle Odometer](./json/vehicleOdometer.json) | proposed | [json](./json/vehicleOdometerPresentation.json) |
 | [Vehicle Range](./json/vehicleRange.json) | proposed | [json](./json/vehicleRangePresentation.json) |
 | [Vehicle Tire Pressure Monitor](./json/vehicleTirePressureMonitor.json) | proposed | [json](./json/vehicleTirePressureMonitorPresentation.json) |
-| [Very Fine Dust Health Concern](./json/veryFineDustHealthConcern.json) | proposed | [json](./json/veryFineDustHealthConcernPresentation.json) |
+| [Very Fine Dust Health Concern](./json/veryFineDustHealthConcern.json) | live | [json](./json/veryFineDustHealthConcernPresentation.json) |
 | [Very Fine Dust Sensor](./json/veryFineDustSensor.json) | live | [json](./json/veryFineDustSensorPresentation.json) |
 | [Video Camera](./json/videoCamera.json) | live | [json](./json/videoCameraPresentation.json) |
 | [Video Capture](./json/videoCapture.json) | live | [json](./json/videoCapturePresentation.json) |
@@ -225,7 +225,7 @@
 | [Video Stream](./json/videoStream.json) | live | [json](./json/videoStreamPresentation.json) |
 | [Voltage Measurement](./json/voltageMeasurement.json) | live | [json](./json/voltageMeasurementPresentation.json) |
 | [Washer Mode](./json/washerMode.json) | proposed | [json](./json/washerModePresentation.json) |
-| [Washer Operating State](./json/washerOperatingState.json) | proposed | [json](./json/washerOperatingStatePresentation.json) |
+| [Washer Operating State](./json/washerOperatingState.json) | live | [json](./json/washerOperatingStatePresentation.json) |
 | [Washer Operational State](./json/washerOperationalState.json) | deprecated |  |
 | [Water Sensor](./json/waterSensor.json) | live | [json](./json/waterSensorPresentation.json) |
 | [Wifi Mesh Router](./json/wifiMeshRouter.json) | proposed |  |

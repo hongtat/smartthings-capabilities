@@ -1,7 +1,7 @@
 {
     "id": "fineDustHealthConcern",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Fine Dust Health Concern",
     "ephemeral": false,
     "attributes": {

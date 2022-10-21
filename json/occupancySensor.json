@@ -1,7 +1,7 @@
 {
     "id": "occupancySensor",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Occupancy Sensor",
     "ephemeral": false,
     "attributes": {

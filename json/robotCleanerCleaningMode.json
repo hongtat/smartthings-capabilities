@@ -1,7 +1,7 @@
 {
     "id": "robotCleanerCleaningMode",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Robot Cleaner Cleaning Mode",
     "ephemeral": false,
     "attributes": {

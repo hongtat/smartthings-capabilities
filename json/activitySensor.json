@@ -1,7 +1,7 @@
 {
     "id": "activitySensor",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Activity Sensor",
     "ephemeral": false,
     "attributes": {

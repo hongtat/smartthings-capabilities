@@ -1,7 +1,7 @@
 {
     "id": "mediaPlayback",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Media Playback",
     "ephemeral": false,
     "attributes": {
@@ -10,7 +10,6 @@
                 "type": "object",
                 "properties": {
                     "value": {
-                        "type": "array",
                         "items": {
                             "title": "MediaPlaybackCommands",
                             "type": "string",
@@ -21,7 +20,8 @@
                                 "fastForward",
                                 "rewind"
                             ]
-                        }
+                        },
+                        "type": "array"
                     }
                 },
                 "additionalProperties": false,
@@ -40,7 +40,8 @@
                             "playing",
                             "stopped",
                             "fast forwarding",
-                            "rewinding"
+                            "rewinding",
+                            "buffering"
                         ]
                     }
                 },
@@ -77,12 +78,12 @@
             "name": "play",
             "arguments": []
         },
-        "stop": {
-            "name": "stop",
-            "arguments": []
-        },
         "rewind": {
             "name": "rewind",
+            "arguments": []
+        },
+        "stop": {
+            "name": "stop",
             "arguments": []
         },
         "fastForward": {

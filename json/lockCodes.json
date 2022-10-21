@@ -1,7 +1,7 @@
 {
     "id": "lockCodes",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Lock Codes",
     "ephemeral": false,
     "attributes": {
@@ -11,8 +11,8 @@
                 "properties": {
                     "value": {
                         "title": "PositiveInteger",
-                        "type": "integer",
-                        "minimum": 0
+                        "minimum": 0,
+                        "type": "integer"
                     }
                 },
                 "additionalProperties": false,
@@ -27,8 +27,8 @@
                 "properties": {
                     "value": {
                         "title": "PositiveInteger",
-                        "type": "integer",
-                        "minimum": 0
+                        "minimum": 0,
+                        "type": "integer"
                     }
                 },
                 "additionalProperties": false,
@@ -42,8 +42,8 @@
                 "properties": {
                     "value": {
                         "title": "PositiveInteger",
-                        "type": "integer",
-                        "minimum": 0
+                        "minimum": 0,
+                        "type": "integer"
                     }
                 },
                 "additionalProperties": false,
@@ -57,8 +57,8 @@
                 "properties": {
                     "value": {
                         "title": "String",
-                        "type": "string",
-                        "maxLength": 255
+                        "maxLength": 255,
+                        "type": "string"
                     },
                     "data": {
                         "type": "object",
@@ -110,13 +110,13 @@
                             "codeId": {
                                 "type": "string"
                             },
-                            "codeName": {
-                                "type": "string"
-                            },
                             "timeout": {
                                 "title": "Iso8601Date",
-                                "type": "string",
-                                "pattern": "^(?:[1-9]\\d{3}-?(?:(?:0[1-9]|1[0-2])-?(?:0[1-9]|1\\d|2[0-8])|(?:0[13-9]|1[0-2])-?(?:29|30)|(?:0[13578]|1[02])-?31)|(?:[1-9]\\d(?:0[48]|[2468][048]|[13579][26])|(?:[2468][048]|[13579][26])00)-?02-?29)T(?:[01]\\d|2[0-3]):?[0-5]\\d:?[0-5]\\d(?:\\.\\d{3})?(?:Z|[+-][01]\\d(?::?[0-5]\\d)?)$"
+                                "pattern": "^(?:[1-9]\\d{3}-?(?:(?:0[1-9]|1[0-2])-?(?:0[1-9]|1\\d|2[0-8])|(?:0[13-9]|1[0-2])-?(?:29|30)|(?:0[13578]|1[02])-?31)|(?:[1-9]\\d(?:0[48]|[2468][048]|[13579][26])|(?:[2468][048]|[13579][26])00)-?02-?29)T(?:[01]\\d|2[0-3]):?[0-5]\\d:?[0-5]\\d(?:\\.\\d{3})?(?:Z|[+-][01]\\d(?::?[0-5]\\d)?)$",
+                                "type": "string"
+                            },
+                            "codeName": {
+                                "type": "string"
                             }
                         }
                     }
@@ -147,8 +147,8 @@
                 "properties": {
                     "value": {
                         "title": "PositiveInteger",
-                        "type": "integer",
-                        "minimum": 0
+                        "minimum": 0,
+                        "type": "integer"
                     }
                 },
                 "additionalProperties": false,
@@ -162,8 +162,8 @@
                 "properties": {
                     "value": {
                         "title": "PositiveInteger",
-                        "type": "integer",
-                        "minimum": 0
+                        "minimum": 0,
+                        "type": "integer"
                     }
                 },
                 "additionalProperties": false,
@@ -179,8 +179,8 @@
                 "properties": {
                     "value": {
                         "title": "String",
-                        "type": "string",
-                        "maxLength": 255
+                        "maxLength": 255,
+                        "type": "string"
                     }
                 },
                 "additionalProperties": false,
@@ -194,8 +194,8 @@
                 "properties": {
                     "value": {
                         "title": "String",
-                        "type": "string",
-                        "maxLength": 255
+                        "maxLength": 255,
+                        "type": "string"
                     }
                 },
                 "additionalProperties": false,
@@ -213,8 +213,8 @@
                     "optional": false,
                     "schema": {
                         "title": "PositiveInteger",
-                        "type": "integer",
-                        "minimum": 0
+                        "minimum": 0,
+                        "type": "integer"
                     }
                 }
             ]
@@ -239,8 +239,8 @@
                     "optional": false,
                     "schema": {
                         "title": "PositiveInteger",
-                        "type": "integer",
-                        "minimum": 0
+                        "minimum": 0,
+                        "type": "integer"
                     }
                 },
                 {
@@ -248,8 +248,8 @@
                     "optional": false,
                     "schema": {
                         "title": "String",
-                        "type": "string",
-                        "maxLength": 255
+                        "maxLength": 255,
+                        "type": "string"
                     }
                 },
                 {
@@ -257,8 +257,8 @@
                     "optional": false,
                     "schema": {
                         "title": "String",
-                        "type": "string",
-                        "maxLength": 255
+                        "maxLength": 255,
+                        "type": "string"
                     }
                 }
             ]
@@ -276,10 +276,6 @@
                 }
             ]
         },
-        "lock": {
-            "name": "lock",
-            "arguments": []
-        },
         "requestCode": {
             "name": "requestCode",
             "arguments": [
@@ -288,8 +284,35 @@
                     "optional": false,
                     "schema": {
                         "title": "PositiveInteger",
-                        "type": "integer",
-                        "minimum": 0
+                        "minimum": 0,
+                        "type": "integer"
+                    }
+                }
+            ]
+        },
+        "lock": {
+            "name": "lock",
+            "arguments": []
+        },
+        "nameSlot": {
+            "name": "nameSlot",
+            "arguments": [
+                {
+                    "name": "codeSlot",
+                    "optional": false,
+                    "schema": {
+                        "title": "PositiveInteger",
+                        "minimum": 0,
+                        "type": "integer"
+                    }
+                },
+                {
+                    "name": "codeName",
+                    "optional": false,
+                    "schema": {
+                        "title": "String",
+                        "maxLength": 255,
+                        "type": "string"
                     }
                 }
             ]
@@ -302,31 +325,8 @@
                     "optional": false,
                     "schema": {
                         "title": "PositiveInteger",
-                        "type": "integer",
-                        "minimum": 0
-                    }
-                }
-            ]
-        },
-        "nameSlot": {
-            "name": "nameSlot",
-            "arguments": [
-                {
-                    "name": "codeSlot",
-                    "optional": false,
-                    "schema": {
-                        "title": "PositiveInteger",
-                        "type": "integer",
-                        "minimum": 0
-                    }
-                },
-                {
-                    "name": "codeName",
-                    "optional": false,
-                    "schema": {
-                        "title": "String",
-                        "type": "string",
-                        "maxLength": 255
+                        "minimum": 0,
+                        "type": "integer"
                     }
                 }
             ]

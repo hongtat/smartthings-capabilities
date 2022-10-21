@@ -1,7 +1,7 @@
 {
     "id": "robotCleanerTurboMode",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Robot Cleaner Turbo Mode",
     "ephemeral": false,
     "attributes": {

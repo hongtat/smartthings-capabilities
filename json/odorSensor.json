@@ -1,7 +1,7 @@
 {
     "id": "odorSensor",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Odor Sensor",
     "ephemeral": false,
     "attributes": {
@@ -11,8 +11,8 @@
                 "properties": {
                     "value": {
                         "title": "PositiveInteger",
-                        "type": "integer",
-                        "minimum": 0
+                        "minimum": 0,
+                        "type": "integer"
                     }
                 },
                 "additionalProperties": false,

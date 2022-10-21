@@ -1,7 +1,7 @@
 {
     "id": "airConditionerFanMode",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Air Conditioner Fan Mode",
     "ephemeral": false,
     "attributes": {
@@ -11,8 +11,8 @@
                 "properties": {
                     "value": {
                         "title": "String",
-                        "type": "string",
-                        "maxLength": 255
+                        "maxLength": 255,
+                        "type": "string"
                     }
                 },
                 "additionalProperties": false,
@@ -25,10 +25,10 @@
                 "type": "object",
                 "properties": {
                     "value": {
-                        "type": "array",
                         "items": {
                             "type": "string"
-                        }
+                        },
+                        "type": "array"
                     }
                 },
                 "additionalProperties": false,
@@ -46,8 +46,8 @@
                     "optional": false,
                     "schema": {
                         "title": "String",
-                        "type": "string",
-                        "maxLength": 255
+                        "maxLength": 255,
+                        "type": "string"
                     }
                 }
             ]
