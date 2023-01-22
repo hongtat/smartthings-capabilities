@@ -12,11 +12,11 @@
                     "value": {
                         "items": {
                             "title": "MediaTrackCommands",
-                            "type": "string",
                             "enum": [
                                 "previousTrack",
                                 "nextTrack"
-                            ]
+                            ],
+                            "type": "string"
                         },
                         "type": "array"
                     }

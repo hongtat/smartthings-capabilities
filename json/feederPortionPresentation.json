@@ -2,7 +2,14 @@
     "dashboard": {
         "states": [
             {
-                "label": "{{feedPortion.value}}"
+                "label": "{{feedPortion.value}} {{feedPortion.value}}",
+                "alternatives": [
+                    {
+                        "key": "servings",
+                        "value": "{{i18n.attributes.feedPortion.i18n.unit.servings.label}}",
+                        "type": "active"
+                    }
+                ]
             }
         ],
         "actions": []
@@ -18,8 +25,15 @@
                 ],
                 "step": 1,
                 "unit": "feedPortion.unit",
+                "alternatives": [
+                    {
+                        "key": "servings",
+                        "value": "{{i18n.attributes.feedPortion.i18n.unit.servings.label}}",
+                        "type": "active"
+                    }
+                ],
                 "command": "setPortion",
-                "argumentType": "object",
+                "argumentType": "number",
                 "value": "feedPortion.value",
                 "valueType": "number"
             }
@@ -38,7 +52,7 @@
                     ],
                     "unit": "feedPortion.unit",
                     "command": "setPortion",
-                    "argumentType": "object"
+                    "argumentType": "number"
                 }
             }
         ]

@@ -26,8 +26,8 @@
                 "type": "object",
                 "properties": {
                     "value": {
-                        "title": "String",
                         "maxLength": 255,
+                        "title": "String",
                         "type": "string"
                     }
                 },
@@ -48,8 +48,8 @@
                     "name": "mode",
                     "optional": false,
                     "schema": {
-                        "title": "String",
                         "maxLength": 255,
+                        "title": "String",
                         "type": "string"
                     }
                 }

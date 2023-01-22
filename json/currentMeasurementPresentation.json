@@ -2,7 +2,7 @@
     "dashboard": {
         "states": [
             {
-                "label": "{{voltage.value}} {{voltage.unit}}"
+                "label": "{{current.value}} {{current.unit}}"
             }
         ],
         "actions": []
@@ -12,8 +12,8 @@
             "label": "{{i18n.label}}",
             "displayType": "state",
             "state": {
-                "label": "{{voltage.value}}",
-                "unit": "voltage.unit"
+                "label": "{{current.value}}",
+                "unit": "current.unit"
             }
         }
     ],
@@ -23,14 +23,14 @@
                 "label": "{{i18n.label}}",
                 "displayType": "numberField",
                 "numberField": {
-                    "value": "voltage.value",
+                    "value": "current.value",
                     "valueType": "number",
-                    "unit": "voltage.unit"
+                    "unit": "current.unit"
                 }
             }
         ],
         "actions": []
     },
-    "id": "voltageMeasurement",
+    "id": "currentMeasurement",
     "version": 1
 }

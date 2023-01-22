@@ -54,7 +54,29 @@
                         "value": "windowShade.value",
                         "on": "open",
                         "off": "closed",
-                        "valueType": "string"
+                        "valueType": "string",
+                        "alternatives": [
+                            {
+                                "key": "unknown",
+                                "value": "{{i18n.attributes.windowShade.i18n.value.unknown.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "opening",
+                                "value": "{{i18n.attributes.windowShade.i18n.value.opening.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "closing",
+                                "value": "{{i18n.attributes.windowShade.i18n.value.closing.label}}",
+                                "type": "inactive"
+                            },
+                            {
+                                "key": "partially open",
+                                "value": "{{i18n.attributes.windowShade.i18n.value.partially open.label}}",
+                                "type": "active"
+                            }
+                        ]
                     }
                 }
             }

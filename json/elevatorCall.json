@@ -10,12 +10,12 @@
                 "type": "object",
                 "properties": {
                     "value": {
-                        "type": "string",
                         "enum": [
                             "called",
                             "standby",
                             "unknown"
-                        ]
+                        ],
+                        "type": "string"
                     }
                 },
                 "additionalProperties": false,

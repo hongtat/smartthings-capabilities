@@ -11,7 +11,6 @@
                 "properties": {
                     "value": {
                         "title": "AirQualityHealthConcern",
-                        "type": "string",
                         "enum": [
                             "good",
                             "moderate",
@@ -19,7 +18,8 @@
                             "unhealthy",
                             "veryUnhealthy",
                             "hazardous"
-                        ]
+                        ],
+                        "type": "string"
                     }
                 },
                 "additionalProperties": false,

@@ -12,7 +12,6 @@
                     "value": {
                         "items": {
                             "title": "MediaSource",
-                            "type": "string",
                             "enum": [
                                 "AM",
                                 "CD",
@@ -32,7 +31,8 @@
                                 "digital",
                                 "melon",
                                 "wifi"
-                            ]
+                            ],
+                            "type": "string"
                         },
                         "type": "array"
                     }
@@ -50,7 +50,6 @@
                 "properties": {
                     "value": {
                         "title": "MediaSource",
-                        "type": "string",
                         "enum": [
                             "AM",
                             "CD",
@@ -70,7 +69,8 @@
                             "digital",
                             "melon",
                             "wifi"
-                        ]
+                        ],
+                        "type": "string"
                     }
                 },
                 "additionalProperties": false,
@@ -91,7 +91,6 @@
                     "optional": false,
                     "schema": {
                         "title": "MediaSource",
-                        "type": "string",
                         "enum": [
                             "AM",
                             "CD",
@@ -111,7 +110,8 @@
                             "digital",
                             "melon",
                             "wifi"
-                        ]
+                        ],
+                        "type": "string"
                     }
                 }
             ]

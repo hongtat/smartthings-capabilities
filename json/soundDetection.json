@@ -5,48 +5,17 @@
     "name": "Sound Detection",
     "ephemeral": false,
     "attributes": {
-        "supportedSoundTypes": {
-            "schema": {
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "items": {
-                            "title": "DetectedSoundType",
-                            "type": "string",
-                            "enum": [
-                                "noSound",
-                                "babyCrying",
-                                "glassBreaking",
-                                "fireAlarm",
-                                "dogBarking",
-                                "catMeowing",
-                                "doorKnocking",
-                                "siren",
-                                "fingerSnapping",
-                                "snoring"
-                            ]
-                        },
-                        "type": "array"
-                    }
-                },
-                "additionalProperties": false,
-                "required": [
-                    "value"
-                ]
-            },
-            "enumCommands": []
-        },
         "soundDetectionState": {
             "schema": {
                 "type": "object",
                 "properties": {
                     "value": {
                         "title": "EnableState",
-                        "type": "string",
                         "enum": [
                             "enabled",
                             "disabled"
-                        ]
+                        ],
+                        "type": "string"
                     }
                 },
                 "additionalProperties": false,
@@ -65,13 +34,43 @@
                 }
             ]
         },
+        "supportedSoundTypes": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "items": {
+                            "title": "DetectedSoundType",
+                            "enum": [
+                                "noSound",
+                                "babyCrying",
+                                "glassBreaking",
+                                "fireAlarm",
+                                "dogBarking",
+                                "catMeowing",
+                                "doorKnocking",
+                                "siren",
+                                "fingerSnapping",
+                                "snoring"
+                            ],
+                            "type": "string"
+                        },
+                        "type": "array"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
         "soundDetected": {
             "schema": {
                 "type": "object",
                 "properties": {
                     "value": {
                         "title": "DetectedSoundType",
-                        "type": "string",
                         "enum": [
                             "noSound",
                             "babyCrying",
@@ -83,7 +82,8 @@
                             "siren",
                             "fingerSnapping",
                             "snoring"
-                        ]
+                        ],
+                        "type": "string"
                     }
                 },
                 "additionalProperties": false,

@@ -11,16 +11,17 @@
                 "type": "object",
                 "properties": {
                     "value": {
-                        "type": "number",
+                        "maximum": 2000,
                         "minimum": 0,
-                        "maximum": 2000
+                        "type": "number"
                     },
                     "unit": {
                         "type": "string",
                         "enum": [
                             "g",
                             "lbs",
-                            "oz"
+                            "oz",
+                            "servings"
                         ],
                         "default": "g"
                     }
@@ -43,24 +44,25 @@
                     "name": "portion",
                     "optional": false,
                     "schema": {
-                        "title": "FeedPortion",
-                        "type": "number",
+                        "maximum": 2000,
                         "minimum": 0,
-                        "maximum": 2000
+                        "title": "FeedPortion",
+                        "type": "number"
                     }
                 },
                 {
                     "name": "unit",
                     "optional": true,
                     "schema": {
-                        "title": "unit",
-                        "type": "string",
+                        "default": "g",
                         "enum": [
                             "g",
                             "lbs",
-                            "oz"
+                            "oz",
+                            "servings"
                         ],
-                        "default": "g"
+                        "title": "unit",
+                        "type": "string"
                     }
                 }
             ]

@@ -1,7 +1,7 @@
 
 ## SmartThings Capabilities
 
-#### Last Update: 2022-10-22
+#### Last Update: 2023-01-23
 
 * [Capabilities Reference](https://developer-preview.smartthings.com/docs/devices/capabilities/capabilities-reference)
 * [SmartThings API](https://developer-preview.smartthings.com/api/public#operation/listCapabilities)
@@ -40,7 +40,7 @@
 | [Buffered Video Capture](./json/bufferedVideoCapture.json) | deprecated |  |
 | [Bulb](./json/bulb.json) | dead |  |
 | [Button](./json/button.json) | live | [json](./json/buttonPresentation.json) |
-| [Bypassable](./json/bypassable.json) | live |  |
+| [Bypassable](./json/bypassable.json) | live | [json](./json/bypassablePresentation.json) |
 | [Camera Preset](./json/cameraPreset.json) | proposed | [json](./json/cameraPresetPresentation.json) |
 | [Carbon Dioxide Health Concern](./json/carbonDioxideHealthConcern.json) | live | [json](./json/carbonDioxideHealthConcernPresentation.json) |
 | [Carbon Dioxide Measurement](./json/carbonDioxideMeasurement.json) | live | [json](./json/carbonDioxideMeasurementPresentation.json) |
@@ -54,7 +54,7 @@
 | [Configuration](./json/configuration.json) | live |  |
 | [Consumable](./json/consumable.json) | proposed | [json](./json/consumablePresentation.json) |
 | [Contact Sensor](./json/contactSensor.json) | live | [json](./json/contactSensorPresentation.json) |
-| [Current Measurement](./json/currentMeasurement.json) | proposed |  |
+| [Current Measurement](./json/currentMeasurement.json) | proposed | [json](./json/currentMeasurementPresentation.json) |
 | [Demand Response Load Control](./json/demandResponseLoadControl.json) | proposed |  |
 | [Dew Point](./json/dewPoint.json) | live | [json](./json/dewPointPresentation.json) |
 | [Dishwasher Mode](./json/dishwasherMode.json) | proposed | [json](./json/dishwasherModePresentation.json) |
@@ -127,7 +127,7 @@
 | [Oven Operating State](./json/ovenOperatingState.json) | proposed | [json](./json/ovenOperatingStatePresentation.json) |
 | [Oven Operational State](./json/ovenOperationalState.json) | deprecated |  |
 | [Oven Setpoint](./json/ovenSetpoint.json) | proposed | [json](./json/ovenSetpointPresentation.json) |
-| [Panic Alarm](./json/panicAlarm.json) | live |  |
+| [Panic Alarm](./json/panicAlarm.json) | live | [json](./json/panicAlarmPresentation.json) |
 | [Pest Control](./json/pestControl.json) | proposed | [json](./json/pestControlPresentation.json) |
 | [Polling](./json/polling.json) | deprecated |  |
 | [Power Consumption Report](./json/powerConsumptionReport.json) | live |  |
@@ -135,7 +135,7 @@
 | [Power Source](./json/powerSource.json) | live | [json](./json/powerSourcePresentation.json) |
 | [Precipitation Measurement](./json/precipitationMeasurement.json) | proposed |  |
 | [Precipitation Rate](./json/precipitationRate.json) | proposed |  |
-| [Precipitation Sensor](./json/precipitationSensor.json) | proposed |  |
+| [Precipitation Sensor](./json/precipitationSensor.json) | proposed | [json](./json/precipitationSensorPresentation.json) |
 | [Presence Sensor](./json/presenceSensor.json) | live | [json](./json/presenceSensorPresentation.json) |
 | [Radon Health Concern](./json/radonHealthConcern.json) | proposed | [json](./json/radonHealthConcernPresentation.json) |
 | [Radon Measurement](./json/radonMeasurement.json) | live | [json](./json/radonMeasurementPresentation.json) |
@@ -147,6 +147,7 @@
 | [Relative Humidity Measurement](./json/relativeHumidityMeasurement.json) | live | [json](./json/relativeHumidityMeasurementPresentation.json) |
 | [Relay Switch](./json/relaySwitch.json) | deprecated |  |
 | [Remote Control Status](./json/remoteControlStatus.json) | live | [json](./json/remoteControlStatusPresentation.json) |
+| [Rice Cooker](./json/riceCooker.json) | proposed | [json](./json/riceCookerPresentation.json) |
 | [Robot Cleaner Cleaning Mode](./json/robotCleanerCleaningMode.json) | live | [json](./json/robotCleanerCleaningModePresentation.json) |
 | [Robot Cleaner Movement](./json/robotCleanerMovement.json) | proposed | [json](./json/robotCleanerMovementPresentation.json) |
 | [Robot Cleaner State](./json/robotCleanerState.json) | deprecated |  |

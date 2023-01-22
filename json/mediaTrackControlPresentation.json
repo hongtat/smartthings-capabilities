@@ -16,7 +16,8 @@
                             "value": "{{i18n.commands.previousTrack.label}}",
                             "type": "active"
                         }
-                    ]
+                    ],
+                    "supportedValues": "supportedTrackControlCommands.value"
                 }
             }
         }
@@ -39,7 +40,8 @@
                             "value": "{{i18n.commands.previousTrack.label}}",
                             "type": "active"
                         }
-                    ]
+                    ],
+                    "supportedValues": "supportedTrackControlCommands.value"
                 }
             }
         ]

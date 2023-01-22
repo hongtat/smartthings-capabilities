@@ -53,6 +53,36 @@
                         "key": "far",
                         "value": "{{i18n.attributes.fanOscillationMode.i18n.value.far.label}}",
                         "type": "active"
+                    },
+                    {
+                        "key": "individual",
+                        "value": "{{i18n.attributes.fanOscillationMode.i18n.value.individual.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "wide",
+                        "value": "{{i18n.attributes.fanOscillationMode.i18n.value.wide.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "mid",
+                        "value": "{{i18n.attributes.fanOscillationMode.i18n.value.mid.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "off",
+                        "value": "{{i18n.attributes.fanOscillationMode.i18n.value.off.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "swing",
+                        "value": "{{i18n.attributes.fanOscillationMode.i18n.value.swing.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "spot",
+                        "value": "{{i18n.attributes.fanOscillationMode.i18n.value.spot.label}}",
+                        "type": "active"
                     }
                 ]
             }
@@ -116,12 +146,44 @@
                             "key": "far",
                             "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.far.label}}",
                             "type": "active"
+                        },
+                        {
+                            "key": "individual",
+                            "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.individual.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "wide",
+                            "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.wide.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "mid",
+                            "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.mid.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "off",
+                            "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.off.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "swing",
+                            "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.swing.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "spot",
+                            "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.spot.label}}",
+                            "type": "active"
                         }
                     ],
+                    "argumentType": "string",
                     "supportedValues": "supportedFanOscillationModes.value"
                 },
                 "state": {
                     "value": "fanOscillationMode.value",
+                    "valueType": "string",
                     "alternatives": [
                         {
                             "key": "fixed",
@@ -171,6 +233,36 @@
                         {
                             "key": "far",
                             "value": "{{i18n.attributes.fanOscillationMode.i18n.value.far.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "individual",
+                            "value": "{{i18n.attributes.fanOscillationMode.i18n.value.individual.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "wide",
+                            "value": "{{i18n.attributes.fanOscillationMode.i18n.value.wide.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "mid",
+                            "value": "{{i18n.attributes.fanOscillationMode.i18n.value.mid.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "off",
+                            "value": "{{i18n.attributes.fanOscillationMode.i18n.value.off.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "swing",
+                            "value": "{{i18n.attributes.fanOscillationMode.i18n.value.swing.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "spot",
+                            "value": "{{i18n.attributes.fanOscillationMode.i18n.value.spot.label}}",
                             "type": "active"
                         }
                     ]
@@ -234,10 +326,41 @@
                             "key": "far",
                             "value": "{{i18n.attributes.fanOscillationMode.i18n.value.far.label}}",
                             "type": "active"
+                        },
+                        {
+                            "key": "individual",
+                            "value": "{{i18n.attributes.fanOscillationMode.i18n.value.individual.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "wide",
+                            "value": "{{i18n.attributes.fanOscillationMode.i18n.value.wide.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "mid",
+                            "value": "{{i18n.attributes.fanOscillationMode.i18n.value.mid.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "off",
+                            "value": "{{i18n.attributes.fanOscillationMode.i18n.value.off.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "swing",
+                            "value": "{{i18n.attributes.fanOscillationMode.i18n.value.swing.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "spot",
+                            "value": "{{i18n.attributes.fanOscillationMode.i18n.value.spot.label}}",
+                            "type": "active"
                         }
                     ],
                     "supportedValues": "supportedFanOscillationModes.value",
-                    "value": "fanOscillationMode.value"
+                    "value": "fanOscillationMode.value",
+                    "valueType": "string"
                 }
             }
         ],
@@ -266,10 +389,71 @@
                             "key": "all",
                             "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.all.label}}",
                             "type": "active"
+                        },
+                        {
+                            "key": "indirect",
+                            "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.indirect.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "direct",
+                            "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.direct.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "fixedCenter",
+                            "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.fixedCenter.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "fixedLeft",
+                            "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.fixedLeft.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "fixedRight",
+                            "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.fixedRight.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "far",
+                            "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.far.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "individual",
+                            "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.individual.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "wide",
+                            "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.wide.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "mid",
+                            "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.mid.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "off",
+                            "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.off.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "swing",
+                            "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.swing.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "spot",
+                            "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.spot.label}}",
+                            "type": "active"
                         }
                     ],
                     "supportedValues": "supportedFanOscillationModes.value",
-                    "command": "setFanOscillationMode"
+                    "command": "setFanOscillationMode",
+                    "argumentType": "string"
                 }
             }
         ]
