@@ -1340,9 +1340,16 @@
         },
         {
             "label": "{{i18n.attributes.scheduledTime.label}}",
-            "displayType": "state",
-            "state": {
-                "label": "{{scheduledTime.value}}"
+            "displayType": "textField",
+            "textField": {
+                "command": "scheduleCooking",
+                "argumentType": "string",
+                "value": "scheduledTime.value",
+                "valueType": "string",
+                "range": [
+                    0,
+                    24
+                ]
             }
         }
     ],
@@ -1978,7 +1985,9 @@
                             "type": "active"
                         }
                     ],
-                    "supportedValues": "supportedMenus.value"
+                    "supportedValues": "supportedMenus.value",
+                    "command": "startCooking",
+                    "argumentType": "string"
                 }
             },
             {
@@ -2007,7 +2016,9 @@
                             "type": "active"
                         }
                     ],
-                    "supportedValues": "supportedCookerModes.value"
+                    "supportedValues": "supportedCookerModes.value",
+                    "command": "setMode",
+                    "argumentType": "string"
                 }
             }
         ]

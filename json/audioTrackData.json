@@ -45,9 +45,9 @@
                                 "maxLength": 255
                             },
                             "albumArtUrl": {
-                                "title": "String",
+                                "title": "URI",
                                 "type": "string",
-                                "maxLength": 255
+                                "format": "uri"
                             },
                             "mediaSource": {
                                 "title": "String",

@@ -1,4 +1,45 @@
 {
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{remoteControlEnabled.value}}",
+                "alternatives": [
+                    {
+                        "key": "true",
+                        "value": "{{i18n.attributes.remoteControlEnabled.i18n.value.true.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "false",
+                        "value": "{{i18n.attributes.remoteControlEnabled.i18n.value.false.label}}",
+                        "type": "inactive"
+                    }
+                ]
+            }
+        ],
+        "actions": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{remoteControlEnabled.value}}",
+                "alternatives": [
+                    {
+                        "key": "true",
+                        "value": "{{i18n.attributes.remoteControlEnabled.i18n.value.true.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "false",
+                        "value": "{{i18n.attributes.remoteControlEnabled.i18n.value.false.label}}",
+                        "type": "inactive"
+                    }
+                ]
+            }
+        }
+    ],
     "automation": {
         "conditions": [
             {
@@ -14,10 +55,11 @@
                         {
                             "key": "false",
                             "value": "{{i18n.attributes.remoteControlEnabled.i18n.value.false.label}}",
-                            "type": "active"
+                            "type": "inactive"
                         }
                     ],
-                    "value": "remoteControlEnabled.value"
+                    "value": "remoteControlEnabled.value",
+                    "valueType": "string"
                 }
             }
         ],
