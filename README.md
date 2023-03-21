@@ -1,7 +1,7 @@
 
 ## SmartThings Capabilities
 
-#### Last Update: 2023-02-18
+#### Last Update: 2023-03-21
 
 * [Capabilities Reference](https://developer-preview.smartthings.com/docs/devices/capabilities/capabilities-reference)
 * [SmartThings API](https://developer-preview.smartthings.com/api/public#operation/listCapabilities)
@@ -86,7 +86,7 @@
 | [Gas Meter](./json/gasMeter.json) | live | [json](./json/gasMeterPresentation.json) |
 | [Geofence](./json/geofence.json) | proposed |  |
 | [Geofences](./json/geofences.json) | deprecated |  |
-| [Geolocation](./json/geolocation.json) | proposed |  |
+| [Geolocation](./json/geolocation.json) | proposed | [json](./json/geolocationPresentation.json) |
 | [Health Check](./json/healthCheck.json) | live |  |
 | [Holdable Button](./json/holdableButton.json) | deprecated |  |
 | [Humidifier Mode](./json/humidifierMode.json) | live | [json](./json/humidifierModePresentation.json) |
@@ -208,7 +208,7 @@
 | [Tone](./json/tone.json) | live | [json](./json/tonePresentation.json) |
 | [Touch Sensor](./json/touchSensor.json) | deprecated |  |
 | [Tv Channel](./json/tvChannel.json) | proposed | [json](./json/tvChannelPresentation.json) |
-| [Tvoc Health Concern](./json/tvocHealthConcern.json) | proposed |  |
+| [Tvoc Health Concern](./json/tvocHealthConcern.json) | proposed | [json](./json/tvocHealthConcernPresentation.json) |
 | [Tvoc Measurement](./json/tvocMeasurement.json) | live | [json](./json/tvocMeasurementPresentation.json) |
 | [Ultraviolet Index](./json/ultravioletIndex.json) | live | [json](./json/ultravioletIndexPresentation.json) |
 | [Valve](./json/valve.json) | live | [json](./json/valvePresentation.json) |
@@ -228,6 +228,9 @@
 | [Washer Mode](./json/washerMode.json) | proposed | [json](./json/washerModePresentation.json) |
 | [Washer Operating State](./json/washerOperatingState.json) | live | [json](./json/washerOperatingStatePresentation.json) |
 | [Washer Operational State](./json/washerOperationalState.json) | deprecated |  |
+| [Water Flow Alarm](./json/waterFlowAlarm.json) | proposed |  |
+| [Water Meter](./json/waterMeter.json) | proposed |  |
+| [Water Pressure Measurement](./json/waterPressureMeasurement.json) | proposed |  |
 | [Water Sensor](./json/waterSensor.json) | live | [json](./json/waterSensorPresentation.json) |
 | [Wifi Mesh Router](./json/wifiMeshRouter.json) | proposed |  |
 | [Wind Speed](./json/windSpeed.json) | proposed |  |

@@ -1,21 +1,38 @@
 {
     "detailView": [
         {
-            "label": "Media group",
+            "label": "{{i18n.label}}",
             "displayType": "state",
             "state": {
-                "label": "{{groupRole.value}}"
+                "label": "{{groupRole.value}}",
+                "alternatives": [
+                    {
+                        "key": "primary",
+                        "value": "{{i18n.attributes.groupRole.i18n.value.primary.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "auxilary",
+                        "value": "{{i18n.attributes.groupRole.i18n.value.auxilary.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "ungrouped",
+                        "value": "{{i18n.attributes.groupRole.i18n.value.ungrouped.label}}",
+                        "type": "active"
+                    }
+                ]
             }
         },
         {
-            "label": "Media group",
+            "label": "{{i18n.label}}",
             "displayType": "state",
             "state": {
                 "label": "{{groupPrimaryDeviceId.value}}"
             }
         },
         {
-            "label": "Media group",
+            "label": "{{i18n.label}}",
             "displayType": "state",
             "state": {
                 "label": "{{groupId.value}}"
@@ -37,7 +54,7 @@
             }
         },
         {
-            "label": "Media group",
+            "label": "{{i18n.label}}",
             "displayType": "list",
             "list": {
                 "command": {

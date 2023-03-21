@@ -17,8 +17,7 @@
                     "unit": {
                         "type": "string",
                         "enum": [
-                            "CAQI",
-                            "IAQ"
+                            "CAQI"
                         ],
                         "default": "CAQI"
                     }
