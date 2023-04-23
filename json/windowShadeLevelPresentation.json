@@ -2,7 +2,14 @@
     "dashboard": {
         "states": [
             {
-                "label": "{{shadeLevel.value}} {{shadeLevel.unit}}"
+                "label": "{{shadeLevel.value}} {{shadeLevel.unit}}",
+                "alternatives": [
+                    {
+                        "key": "0",
+                        "value": "0",
+                        "type": "inactive"
+                    }
+                ]
             }
         ],
         "actions": []

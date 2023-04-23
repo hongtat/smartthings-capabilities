@@ -18,7 +18,8 @@
                         "type": "string",
                         "enum": [
                             "ppm",
-                            "ppb"
+                            "ppb",
+                            "ug\/m3"
                         ],
                         "default": "ppm"
                     }

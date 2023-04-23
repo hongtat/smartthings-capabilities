@@ -1,7 +1,7 @@
 
 ## SmartThings Capabilities
 
-#### Last Update: 2023-03-21
+#### Last Update: 2023-04-23
 
 * [Capabilities Reference](https://developer-preview.smartthings.com/docs/devices/capabilities/capabilities-reference)
 * [SmartThings API](https://developer-preview.smartthings.com/api/public#operation/listCapabilities)
@@ -228,9 +228,9 @@
 | [Washer Mode](./json/washerMode.json) | proposed | [json](./json/washerModePresentation.json) |
 | [Washer Operating State](./json/washerOperatingState.json) | live | [json](./json/washerOperatingStatePresentation.json) |
 | [Washer Operational State](./json/washerOperationalState.json) | deprecated |  |
-| [Water Flow Alarm](./json/waterFlowAlarm.json) | proposed |  |
-| [Water Meter](./json/waterMeter.json) | proposed |  |
-| [Water Pressure Measurement](./json/waterPressureMeasurement.json) | proposed |  |
+| [Water Flow Alarm](./json/waterFlowAlarm.json) | proposed | [json](./json/waterFlowAlarmPresentation.json) |
+| [Water Meter](./json/waterMeter.json) | proposed | [json](./json/waterMeterPresentation.json) |
+| [Water Pressure Measurement](./json/waterPressureMeasurement.json) | proposed | [json](./json/waterPressureMeasurementPresentation.json) |
 | [Water Sensor](./json/waterSensor.json) | live | [json](./json/waterSensorPresentation.json) |
 | [Wifi Mesh Router](./json/wifiMeshRouter.json) | proposed |  |
 | [Wind Speed](./json/windSpeed.json) | proposed |  |
