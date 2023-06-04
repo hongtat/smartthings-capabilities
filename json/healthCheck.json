@@ -98,6 +98,17 @@
                             },
                             "badProperty": {
                                 "type": "string"
+                            },
+                            "reason": {
+                                "type": "string",
+                                "enum": [
+                                    "INVALID-ACCESS-TOKEN",
+                                    "INTEGRATION-OFFLINE",
+                                    "DEVICE-OFFLINE",
+                                    "DEVICE-DELETED",
+                                    "DEVICE-UNAVAILABLE",
+                                    "DEVICE-UNDISCOVERED"
+                                ]
                             }
                         }
                     }
@@ -181,6 +192,17 @@
                             },
                             "badProperty": {
                                 "type": "string"
+                            },
+                            "reason": {
+                                "type": "string",
+                                "enum": [
+                                    "INVALID-ACCESS-TOKEN",
+                                    "INTEGRATION-OFFLINE",
+                                    "DEVICE-OFFLINE",
+                                    "DEVICE-DELETED",
+                                    "DEVICE-UNAVAILABLE",
+                                    "DEVICE-UNDISCOVERED"
+                                ]
                             }
                         }
                     }

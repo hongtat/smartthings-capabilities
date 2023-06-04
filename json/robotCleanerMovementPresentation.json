@@ -12,12 +12,12 @@
                     {
                         "key": "idle",
                         "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.idle.label}}",
-                        "type": "active"
+                        "type": "inactive"
                     },
                     {
                         "key": "charging",
                         "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.charging.label}}",
-                        "type": "active"
+                        "type": "inactive"
                     },
                     {
                         "key": "alarm",
@@ -27,12 +27,12 @@
                     {
                         "key": "powerOff",
                         "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.powerOff.label}}",
-                        "type": "active"
+                        "type": "inactive"
                     },
                     {
                         "key": "reserve",
                         "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.reserve.label}}",
-                        "type": "active"
+                        "type": "inactive"
                     },
                     {
                         "key": "point",
@@ -52,7 +52,7 @@
                     {
                         "key": "pause",
                         "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.pause.label}}",
-                        "type": "active"
+                        "type": "inactive"
                     }
                 ]
             }
@@ -74,44 +74,19 @@
                         "pause": "pause",
                         "alternatives": [
                             {
-                                "key": "homing",
-                                "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.homing.label}}",
-                                "type": "active"
-                            },
-                            {
                                 "key": "idle",
                                 "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.idle.label}}",
-                                "type": "active"
+                                "type": "inactive"
                             },
                             {
                                 "key": "charging",
                                 "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.charging.label}}",
-                                "type": "active"
-                            },
-                            {
-                                "key": "alarm",
-                                "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.alarm.label}}",
-                                "type": "active"
-                            },
-                            {
-                                "key": "powerOff",
-                                "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.powerOff.label}}",
-                                "type": "active"
+                                "type": "inactive"
                             },
                             {
                                 "key": "reserve",
                                 "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.reserve.label}}",
-                                "type": "active"
-                            },
-                            {
-                                "key": "point",
-                                "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.point.label}}",
-                                "type": "active"
-                            },
-                            {
-                                "key": "after",
-                                "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.after.label}}",
-                                "type": "active"
+                                "type": "inactive"
                             }
                         ]
                     }
@@ -134,42 +109,17 @@
                             {
                                 "key": "idle",
                                 "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.idle.label}}",
-                                "type": "active"
+                                "type": "inactive"
                             },
                             {
                                 "key": "charging",
                                 "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.charging.label}}",
-                                "type": "active"
-                            },
-                            {
-                                "key": "alarm",
-                                "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.alarm.label}}",
-                                "type": "active"
-                            },
-                            {
-                                "key": "powerOff",
-                                "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.powerOff.label}}",
-                                "type": "active"
+                                "type": "inactive"
                             },
                             {
                                 "key": "reserve",
                                 "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.reserve.label}}",
-                                "type": "active"
-                            },
-                            {
-                                "key": "point",
-                                "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.point.label}}",
-                                "type": "active"
-                            },
-                            {
-                                "key": "after",
-                                "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.after.label}}",
-                                "type": "active"
-                            },
-                            {
-                                "key": "pause",
-                                "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.pause.label}}",
-                                "type": "active"
+                                "type": "inactive"
                             }
                         ],
                         "valueType": "string"
@@ -194,12 +144,12 @@
                         {
                             "key": "idle",
                             "value": "{{i18n.commands.setRobotCleanerMovement.arguments.mode.i18n.idle.label}}",
-                            "type": "active"
+                            "type": "inactive"
                         },
                         {
                             "key": "charging",
                             "value": "{{i18n.commands.setRobotCleanerMovement.arguments.mode.i18n.charging.label}}",
-                            "type": "active"
+                            "type": "inactive"
                         },
                         {
                             "key": "alarm",
@@ -209,12 +159,12 @@
                         {
                             "key": "powerOff",
                             "value": "{{i18n.commands.setRobotCleanerMovement.arguments.mode.i18n.powerOff.label}}",
-                            "type": "active"
+                            "type": "inactive"
                         },
                         {
                             "key": "reserve",
                             "value": "{{i18n.commands.setRobotCleanerMovement.arguments.mode.i18n.reserve.label}}",
-                            "type": "active"
+                            "type": "inactive"
                         },
                         {
                             "key": "point",
@@ -234,7 +184,7 @@
                         {
                             "key": "pause",
                             "value": "{{i18n.commands.setRobotCleanerMovement.arguments.mode.i18n.pause.label}}",
-                            "type": "active"
+                            "type": "inactive"
                         }
                     ],
                     "argumentType": "string"
@@ -251,12 +201,12 @@
                         {
                             "key": "idle",
                             "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.idle.label}}",
-                            "type": "active"
+                            "type": "inactive"
                         },
                         {
                             "key": "charging",
                             "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.charging.label}}",
-                            "type": "active"
+                            "type": "inactive"
                         },
                         {
                             "key": "alarm",
@@ -266,12 +216,12 @@
                         {
                             "key": "powerOff",
                             "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.powerOff.label}}",
-                            "type": "active"
+                            "type": "inactive"
                         },
                         {
                             "key": "reserve",
                             "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.reserve.label}}",
-                            "type": "active"
+                            "type": "inactive"
                         },
                         {
                             "key": "point",
@@ -291,7 +241,7 @@
                         {
                             "key": "pause",
                             "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.pause.label}}",
-                            "type": "active"
+                            "type": "inactive"
                         }
                     ]
                 }
@@ -313,12 +263,12 @@
                         {
                             "key": "idle",
                             "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.idle.label}}",
-                            "type": "active"
+                            "type": "inactive"
                         },
                         {
                             "key": "charging",
                             "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.charging.label}}",
-                            "type": "active"
+                            "type": "inactive"
                         },
                         {
                             "key": "alarm",
@@ -328,12 +278,12 @@
                         {
                             "key": "powerOff",
                             "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.powerOff.label}}",
-                            "type": "active"
+                            "type": "inactive"
                         },
                         {
                             "key": "reserve",
                             "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.reserve.label}}",
-                            "type": "active"
+                            "type": "inactive"
                         },
                         {
                             "key": "point",
@@ -353,7 +303,7 @@
                         {
                             "key": "pause",
                             "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.pause.label}}",
-                            "type": "active"
+                            "type": "inactive"
                         }
                     ],
                     "value": "robotCleanerMovement.value",
@@ -369,53 +319,53 @@
                     "alternatives": [
                         {
                             "key": "homing",
-                            "value": "{{i18n.commands.setRobotCleanerMovement.arguments.mode.i18n.homing.label}}",
+                            "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.homing.label}}",
                             "type": "active"
                         },
                         {
                             "key": "idle",
-                            "value": "{{i18n.commands.setRobotCleanerMovement.arguments.mode.i18n.idle.label}}",
-                            "type": "active"
+                            "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.idle.label}}",
+                            "type": "inactive"
                         },
                         {
                             "key": "charging",
-                            "value": "{{i18n.commands.setRobotCleanerMovement.arguments.mode.i18n.charging.label}}",
-                            "type": "active"
+                            "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.charging.label}}",
+                            "type": "inactive"
                         },
                         {
                             "key": "alarm",
-                            "value": "{{i18n.commands.setRobotCleanerMovement.arguments.mode.i18n.alarm.label}}",
+                            "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.alarm.label}}",
                             "type": "active"
                         },
                         {
                             "key": "powerOff",
-                            "value": "{{i18n.commands.setRobotCleanerMovement.arguments.mode.i18n.powerOff.label}}",
-                            "type": "active"
+                            "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.powerOff.label}}",
+                            "type": "inactive"
                         },
                         {
                             "key": "reserve",
-                            "value": "{{i18n.commands.setRobotCleanerMovement.arguments.mode.i18n.reserve.label}}",
-                            "type": "active"
+                            "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.reserve.label}}",
+                            "type": "inactive"
                         },
                         {
                             "key": "point",
-                            "value": "{{i18n.commands.setRobotCleanerMovement.arguments.mode.i18n.point.label}}",
+                            "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.point.label}}",
                             "type": "active"
                         },
                         {
                             "key": "after",
-                            "value": "{{i18n.commands.setRobotCleanerMovement.arguments.mode.i18n.after.label}}",
+                            "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.after.label}}",
                             "type": "active"
                         },
                         {
                             "key": "cleaning",
-                            "value": "{{i18n.commands.setRobotCleanerMovement.arguments.mode.i18n.cleaning.label}}",
+                            "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.cleaning.label}}",
                             "type": "active"
                         },
                         {
                             "key": "pause",
-                            "value": "{{i18n.commands.setRobotCleanerMovement.arguments.mode.i18n.pause.label}}",
-                            "type": "active"
+                            "value": "{{i18n.attributes.robotCleanerMovement.i18n.value.pause.label}}",
+                            "type": "inactive"
                         }
                     ],
                     "command": "setRobotCleanerMovement",

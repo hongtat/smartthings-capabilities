@@ -56,9 +56,9 @@
                 "type": "object",
                 "properties": {
                     "value": {
-                        "maxLength": 255,
                         "title": "String",
-                        "type": "string"
+                        "type": "string",
+                        "maxLength": 255
                     },
                     "data": {
                         "type": "object",
@@ -82,13 +82,13 @@
                 "properties": {
                     "value": {
                         "title": "LockState",
+                        "type": "string",
                         "enum": [
                             "locked",
                             "unknown",
                             "unlocked",
                             "unlocked with timeout"
-                        ],
-                        "type": "string"
+                        ]
                     },
                     "data": {
                         "type": "object",
@@ -96,6 +96,7 @@
                         "required": [],
                         "properties": {
                             "method": {
+                                "type": "string",
                                 "enum": [
                                     "manual",
                                     "keypad",
@@ -104,19 +105,18 @@
                                     "rfid",
                                     "fingerprint",
                                     "bluetooth"
-                                ],
+                                ]
+                            },
+                            "codeId": {
                                 "type": "string"
                             },
                             "codeName": {
                                 "type": "string"
                             },
-                            "codeId": {
-                                "type": "string"
-                            },
                             "timeout": {
-                                "pattern": "^(?:[1-9]\\d{3}-?(?:(?:0[1-9]|1[0-2])-?(?:0[1-9]|1\\d|2[0-8])|(?:0[13-9]|1[0-2])-?(?:29|30)|(?:0[13578]|1[02])-?31)|(?:[1-9]\\d(?:0[48]|[2468][048]|[13579][26])|(?:[2468][048]|[13579][26])00)-?02-?29)T(?:[01]\\d|2[0-3]):?[0-5]\\d:?[0-5]\\d(?:\\.\\d{3})?(?:Z|[+-][01]\\d(?::?[0-5]\\d)?)$",
                                 "title": "Iso8601Date",
-                                "type": "string"
+                                "type": "string",
+                                "pattern": "^(?:[1-9]\\d{3}-?(?:(?:0[1-9]|1[0-2])-?(?:0[1-9]|1\\d|2[0-8])|(?:0[13-9]|1[0-2])-?(?:29|30)|(?:0[13578]|1[02])-?31)|(?:[1-9]\\d(?:0[48]|[2468][048]|[13579][26])|(?:[2468][048]|[13579][26])00)-?02-?29)T(?:[01]\\d|2[0-3]):?[0-5]\\d:?[0-5]\\d(?:\\.\\d{3})?(?:Z|[+-][01]\\d(?::?[0-5]\\d)?)$"
                             }
                         }
                     }
@@ -156,21 +156,6 @@
             },
             "enumCommands": []
         },
-        "scanCodes": {
-            "schema": {
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "maxLength": 255,
-                        "title": "String",
-                        "type": "string"
-                    }
-                },
-                "additionalProperties": false,
-                "required": []
-            },
-            "enumCommands": []
-        },
         "codeReport": {
             "schema": {
                 "type": "object",
@@ -188,13 +173,26 @@
             },
             "enumCommands": []
         },
+        "scanCodes": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "String",
+                        "type": "string",
+                        "maxLength": 255
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
         "lockCodes": {
             "schema": {
                 "type": "object",
                 "properties": {
                     "value": {
-                        "maxLength": 255,
-                        "title": "String",
                         "type": "string"
                     }
                 },
@@ -247,21 +245,38 @@
                     "name": "codePIN",
                     "optional": false,
                     "schema": {
-                        "maxLength": 255,
                         "title": "String",
-                        "type": "string"
+                        "type": "string",
+                        "maxLength": 255
                     }
                 },
                 {
                     "name": "codeName",
                     "optional": false,
                     "schema": {
-                        "maxLength": 255,
                         "title": "String",
-                        "type": "string"
+                        "type": "string",
+                        "maxLength": 255
                     }
                 }
             ]
+        },
+        "updateCodes": {
+            "name": "updateCodes",
+            "arguments": [
+                {
+                    "name": "codes",
+                    "optional": false,
+                    "schema": {
+                        "title": "JsonObject",
+                        "type": "object"
+                    }
+                }
+            ]
+        },
+        "lock": {
+            "name": "lock",
+            "arguments": []
         },
         "requestCode": {
             "name": "requestCode",
@@ -273,23 +288,6 @@
                         "title": "PositiveInteger",
                         "type": "integer",
                         "minimum": 0
-                    }
-                }
-            ]
-        },
-        "lock": {
-            "name": "lock",
-            "arguments": []
-        },
-        "updateCodes": {
-            "name": "updateCodes",
-            "arguments": [
-                {
-                    "name": "codes",
-                    "optional": false,
-                    "schema": {
-                        "title": "JsonObject",
-                        "type": "object"
                     }
                 }
             ]
@@ -324,9 +322,9 @@
                     "name": "codeName",
                     "optional": false,
                     "schema": {
-                        "maxLength": 255,
                         "title": "String",
-                        "type": "string"
+                        "type": "string",
+                        "maxLength": 255
                     }
                 }
             ]

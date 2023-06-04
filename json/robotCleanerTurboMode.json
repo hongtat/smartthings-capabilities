@@ -10,12 +10,13 @@
                 "type": "object",
                 "properties": {
                     "value": {
+                        "type": "string",
                         "enum": [
                             "on",
                             "off",
-                            "silence"
-                        ],
-                        "type": "string"
+                            "silence",
+                            "extraSilence"
+                        ]
                     }
                 },
                 "additionalProperties": false,
@@ -35,12 +36,13 @@
                     "name": "mode",
                     "optional": false,
                     "schema": {
+                        "type": "string",
                         "enum": [
                             "on",
                             "off",
-                            "silence"
-                        ],
-                        "type": "string"
+                            "silence",
+                            "extraSilence"
+                        ]
                     }
                 }
             ]

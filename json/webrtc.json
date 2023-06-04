@@ -121,6 +121,18 @@
         }
     },
     "commands": {
+        "startTalkback": {
+            "name": "startTalkback",
+            "arguments": [
+                {
+                    "name": "id",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                }
+            ]
+        },
         "sdpOffer": {
             "name": "sdpOffer",
             "arguments": [
@@ -133,6 +145,18 @@
                 },
                 {
                     "name": "sdp",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                }
+            ]
+        },
+        "stopTalkback": {
+            "name": "stopTalkback",
+            "arguments": [
+                {
+                    "name": "id",
                     "optional": false,
                     "schema": {
                         "type": "string"
