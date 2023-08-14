@@ -58,7 +58,8 @@
                             "type": "inactive"
                         }
                     ],
-                    "value": "contact.value"
+                    "value": "contact.value",
+                    "multiSelectable": false
                 }
             }
         ],

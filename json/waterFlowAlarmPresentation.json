@@ -163,7 +163,8 @@
                     ],
                     "supportedValues": "supportedAlarmStatuses.value",
                     "value": "volumeAlarm.value",
-                    "valueType": "string"
+                    "valueType": "string",
+                    "multiSelectable": false
                 }
             },
             {
@@ -189,7 +190,8 @@
                     ],
                     "supportedValues": "supportedAlarmStatuses.value",
                     "value": "durationAlarm.value",
-                    "valueType": "string"
+                    "valueType": "string",
+                    "multiSelectable": false
                 }
             },
             {
@@ -215,7 +217,8 @@
                     ],
                     "supportedValues": "supportedAlarmStatuses.value",
                     "value": "rateAlarm.value",
-                    "valueType": "string"
+                    "valueType": "string",
+                    "multiSelectable": false
                 }
             }
         ],

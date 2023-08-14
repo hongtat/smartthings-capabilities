@@ -88,7 +88,8 @@
                             "type": "active"
                         }
                     ],
-                    "value": "temperatureAlarm.value"
+                    "value": "temperatureAlarm.value",
+                    "multiSelectable": false
                 }
             }
         ],

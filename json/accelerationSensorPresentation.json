@@ -59,7 +59,8 @@
                         }
                     ],
                     "value": "acceleration.value",
-                    "valueType": "string"
+                    "valueType": "string",
+                    "multiSelectable": false
                 }
             }
         ],

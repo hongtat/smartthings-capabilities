@@ -119,7 +119,8 @@
                         }
                     ],
                     "value": "tvocHealthConcern.value",
-                    "valueType": "string"
+                    "valueType": "string",
+                    "multiSelectable": false
                 }
             }
         ],

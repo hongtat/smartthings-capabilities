@@ -480,7 +480,8 @@
                     ],
                     "supportedValues": "supportedAcModes.value",
                     "value": "airConditionerMode.value",
-                    "valueType": "string"
+                    "valueType": "string",
+                    "multiSelectable": false
                 }
             }
         ],

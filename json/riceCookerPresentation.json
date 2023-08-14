@@ -1388,7 +1388,8 @@
                     ],
                     "supportedValues": "supportedCookerModes.value",
                     "value": "cookerMode.value",
-                    "valueType": "string"
+                    "valueType": "string",
+                    "multiSelectable": false
                 }
             },
             {
@@ -1429,7 +1430,8 @@
                     ],
                     "supportedValues": "supportedEvents.value",
                     "value": "event.value",
-                    "valueType": "string"
+                    "valueType": "string",
+                    "multiSelectable": false
                 }
             }
         ],

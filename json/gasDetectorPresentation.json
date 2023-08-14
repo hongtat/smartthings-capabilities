@@ -68,7 +68,8 @@
                             "type": "active"
                         }
                     ],
-                    "value": "gas.value"
+                    "value": "gas.value",
+                    "multiSelectable": false
                 }
             }
         ],

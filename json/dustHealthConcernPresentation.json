@@ -118,7 +118,8 @@
                             "type": "active"
                         }
                     ],
-                    "value": "dustHealthConcern.value"
+                    "value": "dustHealthConcern.value",
+                    "multiSelectable": false
                 }
             }
         ],

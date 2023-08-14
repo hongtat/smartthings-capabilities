@@ -95,7 +95,8 @@
                             "type": "active"
                         }
                     ],
-                    "value": "dryerMode.value"
+                    "value": "dryerMode.value",
+                    "multiSelectable": false
                 }
             }
         ],

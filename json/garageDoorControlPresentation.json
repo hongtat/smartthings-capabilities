@@ -127,7 +127,8 @@
                             "type": "active"
                         }
                     ],
-                    "value": "door.value"
+                    "value": "door.value",
+                    "multiSelectable": false
                 }
             }
         ],

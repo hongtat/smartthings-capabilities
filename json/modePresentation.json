@@ -50,7 +50,8 @@
                         }
                     ],
                     "supportedValues": "supportedModes.value",
-                    "value": "mode.value"
+                    "value": "mode.value",
+                    "multiSelectable": false
                 }
             }
         ],

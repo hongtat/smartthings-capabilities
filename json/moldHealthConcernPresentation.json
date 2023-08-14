@@ -118,7 +118,8 @@
                             "type": "active"
                         }
                     ],
-                    "value": "moldHealthConcern.value"
+                    "value": "moldHealthConcern.value",
+                    "multiSelectable": false
                 }
             }
         ],

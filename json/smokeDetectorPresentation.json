@@ -68,7 +68,8 @@
                             "type": "active"
                         }
                     ],
-                    "value": "smoke.value"
+                    "value": "smoke.value",
+                    "multiSelectable": false
                 }
             }
         ],

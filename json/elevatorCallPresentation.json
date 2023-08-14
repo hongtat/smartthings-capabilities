@@ -87,7 +87,8 @@
                             "type": "inactive"
                         }
                     ],
-                    "value": "callStatus.value"
+                    "value": "callStatus.value",
+                    "multiSelectable": false
                 }
             }
         ],

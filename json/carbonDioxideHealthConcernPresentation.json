@@ -118,7 +118,8 @@
                             "type": "active"
                         }
                     ],
-                    "value": "carbonDioxideHealthConcern.value"
+                    "value": "carbonDioxideHealthConcern.value",
+                    "multiSelectable": false
                 }
             }
         ],

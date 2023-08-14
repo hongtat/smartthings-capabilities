@@ -215,7 +215,8 @@
                             "type": "inactive"
                         }
                     ],
-                    "value": "status.value"
+                    "value": "status.value",
+                    "multiSelectable": false
                 }
             },
             {
@@ -246,7 +247,8 @@
                             "type": "active"
                         }
                     ],
-                    "value": "mute.value"
+                    "value": "mute.value",
+                    "multiSelectable": false
                 },
                 "emphasis": true
             }

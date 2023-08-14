@@ -228,7 +228,8 @@
                         }
                     ],
                     "value": "machineState.value",
-                    "valueType": "string"
+                    "valueType": "string",
+                    "multiSelectable": false
                 }
             },
             {
@@ -273,7 +274,8 @@
                         }
                     ],
                     "value": "dryerJobState.value",
-                    "valueType": "string"
+                    "valueType": "string",
+                    "multiSelectable": false
                 }
             }
         ],

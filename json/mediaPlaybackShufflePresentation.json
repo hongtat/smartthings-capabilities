@@ -75,7 +75,8 @@
                             "type": "inactive"
                         }
                     ],
-                    "value": "playbackShuffle.value"
+                    "value": "playbackShuffle.value",
+                    "multiSelectable": false
                 }
             }
         ],

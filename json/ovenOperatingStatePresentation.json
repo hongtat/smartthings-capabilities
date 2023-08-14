@@ -190,7 +190,8 @@
                         }
                     ],
                     "value": "machineState.value",
-                    "valueType": "string"
+                    "valueType": "string",
+                    "multiSelectable": false
                 }
             },
             {
@@ -235,7 +236,8 @@
                         }
                     ],
                     "value": "ovenJobState.value",
-                    "valueType": "string"
+                    "valueType": "string",
+                    "multiSelectable": false
                 }
             }
         ],

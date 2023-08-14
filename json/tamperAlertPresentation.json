@@ -58,7 +58,8 @@
                             "type": "active"
                         }
                     ],
-                    "value": "tamper.value"
+                    "value": "tamper.value",
+                    "multiSelectable": false
                 }
             }
         ],

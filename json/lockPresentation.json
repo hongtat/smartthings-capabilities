@@ -121,7 +121,8 @@
                         }
                     ],
                     "value": "lock.value",
-                    "valueType": "string"
+                    "valueType": "string",
+                    "multiSelectable": false
                 }
             }
         ],

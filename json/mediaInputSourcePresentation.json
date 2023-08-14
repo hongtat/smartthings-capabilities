@@ -397,7 +397,8 @@
                         }
                     ],
                     "supportedValues": "supportedInputSources.value",
-                    "value": "inputSource.value"
+                    "value": "inputSource.value",
+                    "multiSelectable": false
                 }
             }
         ],

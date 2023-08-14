@@ -58,7 +58,8 @@
                             "type": "inactive"
                         }
                     ],
-                    "value": "water.value"
+                    "value": "water.value",
+                    "multiSelectable": false
                 }
             }
         ],

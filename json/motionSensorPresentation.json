@@ -58,7 +58,8 @@
                             "type": "inactive"
                         }
                     ],
-                    "value": "motion.value"
+                    "value": "motion.value",
+                    "multiSelectable": false
                 }
             }
         ],

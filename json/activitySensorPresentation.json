@@ -118,7 +118,8 @@
                             "type": "active"
                         }
                     ],
-                    "value": "activity.value"
+                    "value": "activity.value",
+                    "multiSelectable": false
                 }
             }
         ],

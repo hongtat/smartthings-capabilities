@@ -112,7 +112,8 @@
                             "type": "inactive"
                         }
                     ],
-                    "value": "engineState.value"
+                    "value": "engineState.value",
+                    "multiSelectable": false
                 }
             }
         ],

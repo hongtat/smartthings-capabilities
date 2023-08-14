@@ -1,7 +1,7 @@
 
 ## SmartThings Capabilities
 
-#### Last Update: 2023-06-04
+#### Last Update: 2023-08-14
 
 * [Capabilities Reference](https://developer-preview.smartthings.com/docs/devices/capabilities/capabilities-reference)
 * [SmartThings API](https://developer-preview.smartthings.com/api/public#operation/listCapabilities)
@@ -75,7 +75,7 @@
 | [Fan Speed](./json/fanSpeed.json) | live | [json](./json/fanSpeedPresentation.json) |
 | [Feeder Operating State](./json/feederOperatingState.json) | proposed | [json](./json/feederOperatingStatePresentation.json) |
 | [Feeder Portion](./json/feederPortion.json) | proposed | [json](./json/feederPortionPresentation.json) |
-| [Filter State](./json/filterState.json) | live |  |
+| [Filter State](./json/filterState.json) | live | [json](./json/filterStatePresentation.json) |
 | [Filter Status](./json/filterStatus.json) | proposed | [json](./json/filterStatusPresentation.json) |
 | [Fine Dust Health Concern](./json/fineDustHealthConcern.json) | live | [json](./json/fineDustHealthConcernPresentation.json) |
 | [Fine Dust Sensor](./json/fineDustSensor.json) | live | [json](./json/fineDustSensorPresentation.json) |

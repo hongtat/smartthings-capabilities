@@ -75,7 +75,8 @@
                             "type": "active"
                         }
                     ],
-                    "value": "wirelessOperatingMode.value"
+                    "value": "wirelessOperatingMode.value",
+                    "multiSelectable": false
                 }
             }
         ],

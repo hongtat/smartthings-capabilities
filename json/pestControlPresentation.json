@@ -103,7 +103,8 @@
                             "type": "active"
                         }
                     ],
-                    "value": "pestControl.value"
+                    "value": "pestControl.value",
+                    "multiSelectable": false
                 }
             }
         ],

@@ -135,7 +135,8 @@
                         }
                     ],
                     "value": "groupMute.value",
-                    "valueType": "string"
+                    "valueType": "string",
+                    "multiSelectable": false
                 }
             }
         ],

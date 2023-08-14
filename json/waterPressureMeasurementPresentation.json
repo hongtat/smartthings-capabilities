@@ -85,7 +85,8 @@
                         }
                     ],
                     "value": "pressureAlarm.value",
-                    "valueType": "string"
+                    "valueType": "string",
+                    "multiSelectable": false
                 }
             },
             {

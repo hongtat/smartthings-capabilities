@@ -780,7 +780,8 @@
                     ],
                     "supportedValues": "supportedThermostatModes.value",
                     "value": "thermostatMode.value",
-                    "valueType": "string"
+                    "valueType": "string",
+                    "multiSelectable": false
                 }
             }
         ],

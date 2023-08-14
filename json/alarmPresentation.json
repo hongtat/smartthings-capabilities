@@ -198,7 +198,8 @@
                         }
                     ],
                     "value": "alarm.value",
-                    "valueType": "string"
+                    "valueType": "string",
+                    "multiSelectable": false
                 }
             }
         ],

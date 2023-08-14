@@ -135,7 +135,8 @@
                             "type": "active"
                         }
                     ],
-                    "value": "consumableStatus.value"
+                    "value": "consumableStatus.value",
+                    "multiSelectable": false
                 }
             }
         ],

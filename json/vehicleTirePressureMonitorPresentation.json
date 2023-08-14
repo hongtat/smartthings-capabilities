@@ -58,7 +58,8 @@
                             "type": "active"
                         }
                     ],
-                    "value": "tirePressureState.value"
+                    "value": "tirePressureState.value",
+                    "multiSelectable": false
                 }
             }
         ],

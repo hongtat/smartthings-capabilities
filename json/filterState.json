@@ -7,12 +7,20 @@
     "attributes": {
         "filterLifeRemaining": {
             "schema": {
+                "title": "IntegerPercent",
                 "type": "object",
                 "properties": {
                     "value": {
-                        "title": "PositiveInteger",
                         "type": "integer",
-                        "minimum": 0
+                        "minimum": 0,
+                        "maximum": 100
+                    },
+                    "unit": {
+                        "type": "string",
+                        "enum": [
+                            "%"
+                        ],
+                        "default": "%"
                     }
                 },
                 "additionalProperties": false,

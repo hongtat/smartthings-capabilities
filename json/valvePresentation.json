@@ -82,7 +82,8 @@
                             "type": "inactive"
                         }
                     ],
-                    "value": "valve.value"
+                    "value": "valve.value",
+                    "multiSelectable": false
                 }
             }
         ],

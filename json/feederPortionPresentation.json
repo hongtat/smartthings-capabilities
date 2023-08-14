@@ -51,6 +51,13 @@
                         100
                     ],
                     "unit": "feedPortion.unit",
+                    "alternatives": [
+                        {
+                            "key": "servings",
+                            "value": "{{i18n.attributes.feedPortion.i18n.unit.servings.label}}",
+                            "type": "active"
+                        }
+                    ],
                     "command": "setPortion",
                     "argumentType": "number"
                 }
