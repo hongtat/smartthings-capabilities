@@ -1,20 +1,23 @@
 {
-    "id": "gasDetector",
+    "id": "movementSensor",
     "version": 1,
-    "status": "live",
-    "name": "Gas Detector",
+    "status": "proposed",
+    "name": "Movement Sensor",
     "ephemeral": false,
     "attributes": {
-        "gas": {
+        "movement": {
             "schema": {
                 "type": "object",
                 "properties": {
                     "value": {
+                        "title": "MovementType",
                         "type": "string",
                         "enum": [
-                            "clear",
-                            "detected",
-                            "tested"
+                            "inactive",
+                            "approaching",
+                            "movingAway",
+                            "entering",
+                            "leaving"
                         ]
                     }
                 },

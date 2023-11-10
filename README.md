@@ -1,7 +1,7 @@
 
 ## SmartThings Capabilities
 
-#### Last Update: 2023-08-14
+#### Last Update: 2023-11-10
 
 * [Capabilities Reference](https://developer-preview.smartthings.com/docs/devices/capabilities/capabilities-reference)
 * [SmartThings API](https://developer-preview.smartthings.com/api/public#operation/listCapabilities)
@@ -82,7 +82,7 @@
 | [Firmware Update](./json/firmwareUpdate.json) | live |  |
 | [Formaldehyde Measurement](./json/formaldehydeMeasurement.json) | live | [json](./json/formaldehydeMeasurementPresentation.json) |
 | [Garage Door Control](./json/garageDoorControl.json) | deprecated | [json](./json/garageDoorControlPresentation.json) |
-| [Gas Detector](./json/gasDetector.json) | proposed | [json](./json/gasDetectorPresentation.json) |
+| [Gas Detector](./json/gasDetector.json) | live | [json](./json/gasDetectorPresentation.json) |
 | [Gas Meter](./json/gasMeter.json) | live | [json](./json/gasMeterPresentation.json) |
 | [Geofence](./json/geofence.json) | proposed |  |
 | [Geofences](./json/geofences.json) | deprecated |  |
@@ -114,6 +114,7 @@
 | [Mold Health Concern](./json/moldHealthConcern.json) | live | [json](./json/moldHealthConcernPresentation.json) |
 | [Momentary](./json/momentary.json) | live | [json](./json/momentaryPresentation.json) |
 | [Motion Sensor](./json/motionSensor.json) | live | [json](./json/motionSensorPresentation.json) |
+| [Movement Sensor](./json/movementSensor.json) | proposed |  |
 | [Music Player](./json/musicPlayer.json) | deprecated | [json](./json/musicPlayerPresentation.json) |
 | [Network Meter](./json/networkMeter.json) | live |  |
 | [Notification](./json/notification.json) | live | [json](./json/notificationPresentation.json) |
@@ -232,11 +233,13 @@
 | [Water Meter](./json/waterMeter.json) | proposed | [json](./json/waterMeterPresentation.json) |
 | [Water Pressure Measurement](./json/waterPressureMeasurement.json) | proposed | [json](./json/waterPressureMeasurementPresentation.json) |
 | [Water Sensor](./json/waterSensor.json) | live | [json](./json/waterSensorPresentation.json) |
+| [Water Usage Meter](./json/waterUsageMeter.json) | proposed |  |
 | [Wifi Mesh Router](./json/wifiMeshRouter.json) | proposed |  |
 | [Wind Speed](./json/windSpeed.json) | proposed |  |
 | [Window Shade](./json/windowShade.json) | live | [json](./json/windowShadePresentation.json) |
 | [Window Shade Level](./json/windowShadeLevel.json) | live | [json](./json/windowShadeLevelPresentation.json) |
 | [Window Shade Preset](./json/windowShadePreset.json) | live | [json](./json/windowShadePresetPresentation.json) |
+| [Window Shade Tilt Level](./json/windowShadeTiltLevel.json) | proposed |  |
 | [Wireless Operating Mode](./json/wirelessOperatingMode.json) | proposed | [json](./json/wirelessOperatingModePresentation.json) |
 | [Zw Multichannel](./json/zwMultichannel.json) | live |  |
 | [pH Measurement](./json/pHMeasurement.json) | live | [json](./json/pHMeasurementPresentation.json) |

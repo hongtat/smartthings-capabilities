@@ -6,7 +6,7 @@
                 "alternatives": [
                     {
                         "key": "asleep",
-                        "value": "Asleep",
+                        "value": "{{i18n.attributes.thermostatMode.i18n.value.asleep.label}}",
                         "type": "active"
                     },
                     {
@@ -16,47 +16,47 @@
                     },
                     {
                         "key": "autowitheco",
-                        "value": "Auto with Eco",
+                        "value": "{{i18n.attributes.thermostatMode.i18n.value.autowitheco.label}}",
                         "type": "active"
                     },
                     {
                         "key": "autowithreset",
-                        "value": "Auto With Reset",
+                        "value": "{{i18n.attributes.thermostatMode.i18n.value.autowithreset.label}}",
                         "type": "active"
                     },
                     {
                         "key": "autochangeover",
-                        "value": "Auto Changeover",
+                        "value": "{{i18n.attributes.thermostatMode.i18n.value.autochangeover.label}}",
                         "type": "active"
                     },
                     {
                         "key": "autochangeoveractive",
-                        "value": "Auto Changeover Active",
+                        "value": "{{i18n.attributes.thermostatMode.i18n.value.autochangeoveractive.label}}",
                         "type": "active"
                     },
                     {
                         "key": "autocool",
-                        "value": "Auto Cool",
+                        "value": "{{i18n.attributes.thermostatMode.i18n.value.autocool.label}}",
                         "type": "active"
                     },
                     {
                         "key": "autoheat",
-                        "value": "Auto Heat",
+                        "value": "{{i18n.attributes.thermostatMode.i18n.value.autoheat.label}}",
                         "type": "active"
                     },
                     {
                         "key": "auxheatonly",
-                        "value": "Auxillary Heat Only",
+                        "value": "{{i18n.attributes.thermostatMode.i18n.value.auxheatonly.label}}",
                         "type": "active"
                     },
                     {
                         "key": "auxiliaryemergencyheat",
-                        "value": "Auxillary Emergency Heat",
+                        "value": "{{i18n.attributes.thermostatMode.i18n.value.auxiliaryemergencyheat.label}}",
                         "type": "active"
                     },
                     {
                         "key": "away",
-                        "value": "Away",
+                        "value": "{{i18n.attributes.thermostatMode.i18n.value.away.label}}",
                         "type": "active"
                     },
                     {
@@ -66,17 +66,17 @@
                     },
                     {
                         "key": "custom",
-                        "value": "Custom",
+                        "value": "{{i18n.attributes.thermostatMode.i18n.value.custom.label}}",
                         "type": "active"
                     },
                     {
                         "key": "dayoff",
-                        "value": "Day Off",
+                        "value": "{{i18n.attributes.thermostatMode.i18n.value.dayoff.label}}",
                         "type": "active"
                     },
                     {
                         "key": "dryair",
-                        "value": "Dry air",
+                        "value": "{{i18n.attributes.thermostatMode.i18n.value.dryair.label}}",
                         "type": "active"
                     },
                     {
@@ -96,32 +96,32 @@
                     },
                     {
                         "key": "emergencyheatactive",
-                        "value": "Emergency Heat Active",
+                        "value": "{{i18n.attributes.thermostatMode.i18n.value.emergencyheatactive.label}}",
                         "type": "active"
                     },
                     {
                         "key": "energysavecool",
-                        "value": "Energy Save Cool",
+                        "value": "{{i18n.attributes.thermostatMode.i18n.value.energysavecool.label}}",
                         "type": "active"
                     },
                     {
                         "key": "energysaveheat",
-                        "value": "Energy Save Heat",
+                        "value": "{{i18n.attributes.thermostatMode.i18n.value.energysaveheat.label}}",
                         "type": "active"
                     },
                     {
                         "key": "fanonly",
-                        "value": "Fan only",
+                        "value": "{{i18n.attributes.thermostatMode.i18n.value.fanonly.label}}",
                         "type": "active"
                     },
                     {
                         "key": "frostguard",
-                        "value": "Frost Guard",
+                        "value": "{{i18n.attributes.thermostatMode.i18n.value.frostguard.label}}",
                         "type": "active"
                     },
                     {
                         "key": "furnace",
-                        "value": "Furnace",
+                        "value": "{{i18n.attributes.thermostatMode.i18n.value.furnace.label}}",
                         "type": "active"
                     },
                     {
@@ -131,27 +131,32 @@
                     },
                     {
                         "key": "heatingoff",
-                        "value": "Heating Off",
+                        "value": "{{i18n.attributes.thermostatMode.i18n.value.heatingoff.label}}",
                         "type": "active"
                     },
                     {
                         "key": "home",
-                        "value": "Home",
+                        "value": "{{i18n.attributes.thermostatMode.i18n.value.home.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "hotwateronly",
+                        "value": "{{i18n.attributes.thermostatMode.i18n.value.hotwateronly.label}}",
                         "type": "active"
                     },
                     {
                         "key": "in",
-                        "value": "In",
+                        "value": "{{i18n.attributes.thermostatMode.i18n.value.in.label}}",
                         "type": "active"
                     },
                     {
                         "key": "manual",
-                        "value": "Manual",
+                        "value": "{{i18n.attributes.thermostatMode.i18n.value.manual.label}}",
                         "type": "active"
                     },
                     {
                         "key": "moistair",
-                        "value": "Moistair",
+                        "value": "{{i18n.attributes.thermostatMode.i18n.value.moistair.label}}",
                         "type": "active"
                     },
                     {
@@ -161,12 +166,12 @@
                     },
                     {
                         "key": "out",
-                        "value": "Out",
+                        "value": "{{i18n.attributes.thermostatMode.i18n.value.out.label}}",
                         "type": "active"
                     },
                     {
                         "key": "resume",
-                        "value": "Resume",
+                        "value": "{{i18n.attributes.thermostatMode.i18n.value.resume.label}}",
                         "type": "active"
                     },
                     {
@@ -181,12 +186,12 @@
                     },
                     {
                         "key": "schedule",
-                        "value": "Schedule",
+                        "value": "{{i18n.attributes.thermostatMode.i18n.value.schedule.label}}",
                         "type": "active"
                     },
                     {
                         "key": "southernaway",
-                        "value": "Southern Away",
+                        "value": "{{i18n.attributes.thermostatMode.i18n.value.southernaway.label}}",
                         "type": "active"
                     }
                 ]
@@ -204,7 +209,7 @@
                     "alternatives": [
                         {
                             "key": "asleep",
-                            "value": "Asleep",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.asleep.label}}",
                             "type": "active"
                         },
                         {
@@ -214,47 +219,47 @@
                         },
                         {
                             "key": "autowitheco",
-                            "value": "Auto with Eco",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.autowitheco.label}}",
                             "type": "active"
                         },
                         {
                             "key": "autowithreset",
-                            "value": "Auto With Reset",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.autowithreset.label}}",
                             "type": "active"
                         },
                         {
                             "key": "autochangeover",
-                            "value": "Auto Changeover",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.autochangeover.label}}",
                             "type": "active"
                         },
                         {
                             "key": "autochangeoveractive",
-                            "value": "Auto Changeover Active",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.autochangeoveractive.label}}",
                             "type": "active"
                         },
                         {
                             "key": "autocool",
-                            "value": "Auto Cool",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.autocool.label}}",
                             "type": "active"
                         },
                         {
                             "key": "autoheat",
-                            "value": "Auto Heat",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.autoheat.label}}",
                             "type": "active"
                         },
                         {
                             "key": "auxheatonly",
-                            "value": "Auxillary Heat Only",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.auxheatonly.label}}",
                             "type": "active"
                         },
                         {
                             "key": "auxiliaryemergencyheat",
-                            "value": "Auxillary Emergency Heat",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.auxiliaryemergencyheat.label}}",
                             "type": "active"
                         },
                         {
                             "key": "away",
-                            "value": "Away",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.away.label}}",
                             "type": "active"
                         },
                         {
@@ -264,17 +269,17 @@
                         },
                         {
                             "key": "custom",
-                            "value": "Custom",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.custom.label}}",
                             "type": "active"
                         },
                         {
                             "key": "dayoff",
-                            "value": "Day Off",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.dayoff.label}}",
                             "type": "active"
                         },
                         {
                             "key": "dryair",
-                            "value": "Dry air",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.dryair.label}}",
                             "type": "active"
                         },
                         {
@@ -294,32 +299,32 @@
                         },
                         {
                             "key": "emergencyheatactive",
-                            "value": "Emergency Heat Active",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.emergencyheatactive.label}}",
                             "type": "active"
                         },
                         {
                             "key": "energysavecool",
-                            "value": "Energy Save Cool",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.energysavecool.label}}",
                             "type": "active"
                         },
                         {
                             "key": "energysaveheat",
-                            "value": "Energy Save Heat",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.energysaveheat.label}}",
                             "type": "active"
                         },
                         {
                             "key": "fanonly",
-                            "value": "Fan only",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.fanonly.label}}",
                             "type": "active"
                         },
                         {
                             "key": "frostguard",
-                            "value": "Frost Guard",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.frostguard.label}}",
                             "type": "active"
                         },
                         {
                             "key": "furnace",
-                            "value": "Furnace",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.furnace.label}}",
                             "type": "active"
                         },
                         {
@@ -329,27 +334,32 @@
                         },
                         {
                             "key": "heatingoff",
-                            "value": "Heating Off",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.heatingoff.label}}",
                             "type": "active"
                         },
                         {
                             "key": "home",
-                            "value": "Home",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.home.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "hotwateronly",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.hotwateronly.label}}",
                             "type": "active"
                         },
                         {
                             "key": "in",
-                            "value": "In",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.in.label}}",
                             "type": "active"
                         },
                         {
                             "key": "manual",
-                            "value": "Manual",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.manual.label}}",
                             "type": "active"
                         },
                         {
                             "key": "moistair",
-                            "value": "Moistair",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.moistair.label}}",
                             "type": "active"
                         },
                         {
@@ -359,12 +369,12 @@
                         },
                         {
                             "key": "out",
-                            "value": "Out",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.out.label}}",
                             "type": "active"
                         },
                         {
                             "key": "resume",
-                            "value": "Resume",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.resume.label}}",
                             "type": "active"
                         },
                         {
@@ -379,12 +389,12 @@
                         },
                         {
                             "key": "schedule",
-                            "value": "Schedule",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.schedule.label}}",
                             "type": "active"
                         },
                         {
                             "key": "southernaway",
-                            "value": "Southern Away",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.southernaway.label}}",
                             "type": "active"
                         }
                     ],
@@ -397,7 +407,7 @@
                     "alternatives": [
                         {
                             "key": "asleep",
-                            "value": "Asleep",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.asleep.label}}",
                             "type": "active"
                         },
                         {
@@ -407,47 +417,47 @@
                         },
                         {
                             "key": "autowitheco",
-                            "value": "Auto with Eco",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.autowitheco.label}}",
                             "type": "active"
                         },
                         {
                             "key": "autowithreset",
-                            "value": "Auto With Reset",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.autowithreset.label}}",
                             "type": "active"
                         },
                         {
                             "key": "autochangeover",
-                            "value": "Auto Changeover",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.autochangeover.label}}",
                             "type": "active"
                         },
                         {
                             "key": "autochangeoveractive",
-                            "value": "Auto Changeover Active",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.autochangeoveractive.label}}",
                             "type": "active"
                         },
                         {
                             "key": "autocool",
-                            "value": "Auto Cool",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.autocool.label}}",
                             "type": "active"
                         },
                         {
                             "key": "autoheat",
-                            "value": "Auto Heat",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.autoheat.label}}",
                             "type": "active"
                         },
                         {
                             "key": "auxheatonly",
-                            "value": "Auxillary Heat Only",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.auxheatonly.label}}",
                             "type": "active"
                         },
                         {
                             "key": "auxiliaryemergencyheat",
-                            "value": "Auxillary Emergency Heat",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.auxiliaryemergencyheat.label}}",
                             "type": "active"
                         },
                         {
                             "key": "away",
-                            "value": "Away",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.away.label}}",
                             "type": "active"
                         },
                         {
@@ -457,17 +467,17 @@
                         },
                         {
                             "key": "custom",
-                            "value": "Custom",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.custom.label}}",
                             "type": "active"
                         },
                         {
                             "key": "dayoff",
-                            "value": "Day Off",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.dayoff.label}}",
                             "type": "active"
                         },
                         {
                             "key": "dryair",
-                            "value": "Dry air",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.dryair.label}}",
                             "type": "active"
                         },
                         {
@@ -487,32 +497,32 @@
                         },
                         {
                             "key": "emergencyheatactive",
-                            "value": "Emergency Heat Active",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.emergencyheatactive.label}}",
                             "type": "active"
                         },
                         {
                             "key": "energysavecool",
-                            "value": "Energy Save Cool",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.energysavecool.label}}",
                             "type": "active"
                         },
                         {
                             "key": "energysaveheat",
-                            "value": "Energy Save Heat",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.energysaveheat.label}}",
                             "type": "active"
                         },
                         {
                             "key": "fanonly",
-                            "value": "Fan only",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.fanonly.label}}",
                             "type": "active"
                         },
                         {
                             "key": "frostguard",
-                            "value": "Frost Guard",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.frostguard.label}}",
                             "type": "active"
                         },
                         {
                             "key": "furnace",
-                            "value": "Furnace",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.furnace.label}}",
                             "type": "active"
                         },
                         {
@@ -522,27 +532,32 @@
                         },
                         {
                             "key": "heatingoff",
-                            "value": "Heating Off",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.heatingoff.label}}",
                             "type": "active"
                         },
                         {
                             "key": "home",
-                            "value": "Home",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.home.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "hotwateronly",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.hotwateronly.label}}",
                             "type": "active"
                         },
                         {
                             "key": "in",
-                            "value": "In",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.in.label}}",
                             "type": "active"
                         },
                         {
                             "key": "manual",
-                            "value": "Manual",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.manual.label}}",
                             "type": "active"
                         },
                         {
                             "key": "moistair",
-                            "value": "Moistair",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.moistair.label}}",
                             "type": "active"
                         },
                         {
@@ -552,12 +567,12 @@
                         },
                         {
                             "key": "out",
-                            "value": "Out",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.out.label}}",
                             "type": "active"
                         },
                         {
                             "key": "resume",
-                            "value": "Resume",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.resume.label}}",
                             "type": "active"
                         },
                         {
@@ -572,12 +587,12 @@
                         },
                         {
                             "key": "schedule",
-                            "value": "Schedule",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.schedule.label}}",
                             "type": "active"
                         },
                         {
                             "key": "southernaway",
-                            "value": "Southern Away",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.southernaway.label}}",
                             "type": "active"
                         }
                     ]
@@ -594,7 +609,7 @@
                     "alternatives": [
                         {
                             "key": "asleep",
-                            "value": "Asleep",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.asleep.label}}",
                             "type": "active"
                         },
                         {
@@ -604,47 +619,47 @@
                         },
                         {
                             "key": "autowitheco",
-                            "value": "Auto with Eco",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.autowitheco.label}}",
                             "type": "active"
                         },
                         {
                             "key": "autowithreset",
-                            "value": "Auto With Reset",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.autowithreset.label}}",
                             "type": "active"
                         },
                         {
                             "key": "autochangeover",
-                            "value": "Auto Changeover",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.autochangeover.label}}",
                             "type": "active"
                         },
                         {
                             "key": "autochangeoveractive",
-                            "value": "Auto Changeover Active",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.autochangeoveractive.label}}",
                             "type": "active"
                         },
                         {
                             "key": "autocool",
-                            "value": "Auto Cool",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.autocool.label}}",
                             "type": "active"
                         },
                         {
                             "key": "autoheat",
-                            "value": "Auto Heat",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.autoheat.label}}",
                             "type": "active"
                         },
                         {
                             "key": "auxheatonly",
-                            "value": "Auxillary Heat Only",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.auxheatonly.label}}",
                             "type": "active"
                         },
                         {
                             "key": "auxiliaryemergencyheat",
-                            "value": "Auxillary Emergency Heat",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.auxiliaryemergencyheat.label}}",
                             "type": "active"
                         },
                         {
                             "key": "away",
-                            "value": "Away",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.away.label}}",
                             "type": "active"
                         },
                         {
@@ -654,17 +669,17 @@
                         },
                         {
                             "key": "custom",
-                            "value": "Custom",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.custom.label}}",
                             "type": "active"
                         },
                         {
                             "key": "dayoff",
-                            "value": "Day Off",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.dayoff.label}}",
                             "type": "active"
                         },
                         {
                             "key": "dryair",
-                            "value": "Dry air",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.dryair.label}}",
                             "type": "active"
                         },
                         {
@@ -684,32 +699,32 @@
                         },
                         {
                             "key": "emergencyheatactive",
-                            "value": "Emergency Heat Active",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.emergencyheatactive.label}}",
                             "type": "active"
                         },
                         {
                             "key": "energysavecool",
-                            "value": "Energy Save Cool",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.energysavecool.label}}",
                             "type": "active"
                         },
                         {
                             "key": "energysaveheat",
-                            "value": "Energy Save Heat",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.energysaveheat.label}}",
                             "type": "active"
                         },
                         {
                             "key": "fanonly",
-                            "value": "Fan only",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.fanonly.label}}",
                             "type": "active"
                         },
                         {
                             "key": "frostguard",
-                            "value": "Frost Guard",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.frostguard.label}}",
                             "type": "active"
                         },
                         {
                             "key": "furnace",
-                            "value": "Furnace",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.furnace.label}}",
                             "type": "active"
                         },
                         {
@@ -719,27 +734,32 @@
                         },
                         {
                             "key": "heatingoff",
-                            "value": "Heating Off",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.heatingoff.label}}",
                             "type": "active"
                         },
                         {
                             "key": "home",
-                            "value": "Home",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.home.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "hotwateronly",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.hotwateronly.label}}",
                             "type": "active"
                         },
                         {
                             "key": "in",
-                            "value": "In",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.in.label}}",
                             "type": "active"
                         },
                         {
                             "key": "manual",
-                            "value": "Manual",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.manual.label}}",
                             "type": "active"
                         },
                         {
                             "key": "moistair",
-                            "value": "Moistair",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.moistair.label}}",
                             "type": "active"
                         },
                         {
@@ -749,12 +769,12 @@
                         },
                         {
                             "key": "out",
-                            "value": "Out",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.out.label}}",
                             "type": "active"
                         },
                         {
                             "key": "resume",
-                            "value": "Resume",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.resume.label}}",
                             "type": "active"
                         },
                         {
@@ -769,12 +789,12 @@
                         },
                         {
                             "key": "schedule",
-                            "value": "Schedule",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.schedule.label}}",
                             "type": "active"
                         },
                         {
                             "key": "southernaway",
-                            "value": "Southern Away",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.southernaway.label}}",
                             "type": "active"
                         }
                     ],
@@ -793,7 +813,7 @@
                     "alternatives": [
                         {
                             "key": "asleep",
-                            "value": "Asleep",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.asleep.label}}",
                             "type": "active"
                         },
                         {
@@ -803,47 +823,47 @@
                         },
                         {
                             "key": "autowitheco",
-                            "value": "Auto with Eco",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.autowitheco.label}}",
                             "type": "active"
                         },
                         {
                             "key": "autowithreset",
-                            "value": "Auto With Reset",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.autowithreset.label}}",
                             "type": "active"
                         },
                         {
                             "key": "autochangeover",
-                            "value": "Auto Changeover",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.autochangeover.label}}",
                             "type": "active"
                         },
                         {
                             "key": "autochangeoveractive",
-                            "value": "Auto Changeover Active",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.autochangeoveractive.label}}",
                             "type": "active"
                         },
                         {
                             "key": "autocool",
-                            "value": "Auto Cool",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.autocool.label}}",
                             "type": "active"
                         },
                         {
                             "key": "autoheat",
-                            "value": "Auto Heat",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.autoheat.label}}",
                             "type": "active"
                         },
                         {
                             "key": "auxheatonly",
-                            "value": "Auxillary Heat Only",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.auxheatonly.label}}",
                             "type": "active"
                         },
                         {
                             "key": "auxiliaryemergencyheat",
-                            "value": "Auxillary Emergency Heat",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.auxiliaryemergencyheat.label}}",
                             "type": "active"
                         },
                         {
                             "key": "away",
-                            "value": "Away",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.away.label}}",
                             "type": "active"
                         },
                         {
@@ -853,17 +873,17 @@
                         },
                         {
                             "key": "custom",
-                            "value": "Custom",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.custom.label}}",
                             "type": "active"
                         },
                         {
                             "key": "dayoff",
-                            "value": "Day Off",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.dayoff.label}}",
                             "type": "active"
                         },
                         {
                             "key": "dryair",
-                            "value": "Dry air",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.dryair.label}}",
                             "type": "active"
                         },
                         {
@@ -883,32 +903,32 @@
                         },
                         {
                             "key": "emergencyheatactive",
-                            "value": "Emergency Heat Active",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.emergencyheatactive.label}}",
                             "type": "active"
                         },
                         {
                             "key": "energysavecool",
-                            "value": "Energy Save Cool",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.energysavecool.label}}",
                             "type": "active"
                         },
                         {
                             "key": "energysaveheat",
-                            "value": "Energy Save Heat",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.energysaveheat.label}}",
                             "type": "active"
                         },
                         {
                             "key": "fanonly",
-                            "value": "Fan only",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.fanonly.label}}",
                             "type": "active"
                         },
                         {
                             "key": "frostguard",
-                            "value": "Frost Guard",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.frostguard.label}}",
                             "type": "active"
                         },
                         {
                             "key": "furnace",
-                            "value": "Furnace",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.furnace.label}}",
                             "type": "active"
                         },
                         {
@@ -918,27 +938,32 @@
                         },
                         {
                             "key": "heatingoff",
-                            "value": "Heating Off",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.heatingoff.label}}",
                             "type": "active"
                         },
                         {
                             "key": "home",
-                            "value": "Home",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.home.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "hotwateronly",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.hotwateronly.label}}",
                             "type": "active"
                         },
                         {
                             "key": "in",
-                            "value": "In",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.in.label}}",
                             "type": "active"
                         },
                         {
                             "key": "manual",
-                            "value": "Manual",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.manual.label}}",
                             "type": "active"
                         },
                         {
                             "key": "moistair",
-                            "value": "Moistair",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.moistair.label}}",
                             "type": "active"
                         },
                         {
@@ -948,12 +973,12 @@
                         },
                         {
                             "key": "out",
-                            "value": "Out",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.out.label}}",
                             "type": "active"
                         },
                         {
                             "key": "resume",
-                            "value": "Resume",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.resume.label}}",
                             "type": "active"
                         },
                         {
@@ -968,12 +993,12 @@
                         },
                         {
                             "key": "schedule",
-                            "value": "Schedule",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.schedule.label}}",
                             "type": "active"
                         },
                         {
                             "key": "southernaway",
-                            "value": "Southern Away",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.southernaway.label}}",
                             "type": "active"
                         }
                     ],

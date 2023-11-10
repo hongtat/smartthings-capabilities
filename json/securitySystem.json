@@ -5,6 +5,58 @@
     "name": "Security System",
     "ephemeral": false,
     "attributes": {
+        "sensorStatus": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "ready",
+                            "bypassedNotReady"
+                        ]
+                    },
+                    "data": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "required": [],
+                        "properties": {
+                            "openSensors": {
+                                "type": "array",
+                                "items": {
+                                    "type": "object",
+                                    "additionalProperties": false,
+                                    "properties": {
+                                        "name": {
+                                            "title": "String",
+                                            "type": "string",
+                                            "maxLength": 255
+                                        },
+                                        "status": {
+                                            "type": "string",
+                                            "enum": [
+                                                "open",
+                                                "unlocked",
+                                                "unresponsive",
+                                                "other"
+                                            ]
+                                        },
+                                        "externalId": {
+                                            "title": "String",
+                                            "type": "string",
+                                            "maxLength": 255
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
         "alarm": {
             "schema": {
                 "type": "object",
@@ -62,7 +114,7 @@
             "arguments": [
                 {
                     "name": "bypassAll",
-                    "optional": false,
+                    "optional": true,
                     "schema": {
                         "type": "boolean"
                     }
@@ -78,7 +130,7 @@
             "arguments": [
                 {
                     "name": "bypassAll",
-                    "optional": false,
+                    "optional": true,
                     "schema": {
                         "type": "boolean"
                     }

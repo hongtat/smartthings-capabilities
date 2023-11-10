@@ -1,0 +1,56 @@
+{
+    "id": "waterUsageMeter",
+    "version": 1,
+    "status": "proposed",
+    "name": "Water Usage Meter",
+    "ephemeral": false,
+    "attributes": {
+        "waterUsageMonth": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "number"
+                    },
+                    "unit": {
+                        "type": "string",
+                        "enum": [
+                            "gal",
+                            "L"
+                        ],
+                        "default": "gal"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "waterUsageDay": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "number"
+                    },
+                    "unit": {
+                        "type": "string",
+                        "enum": [
+                            "gal",
+                            "L"
+                        ],
+                        "default": "gal"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": []
+}
