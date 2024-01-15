@@ -5,6 +5,50 @@
     "name": "Color Temperature",
     "ephemeral": false,
     "attributes": {
+        "colorTemperatureRange": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                            "minimum": {
+                                "type": "integer",
+                                "minimum": 1,
+                                "maximum": 30000
+                            },
+                            "maximum": {
+                                "type": "integer",
+                                "minimum": 1,
+                                "maximum": 30000
+                            },
+                            "step": {
+                                "type": "integer",
+                                "minimum": 1,
+                                "maximum": 30000
+                            }
+                        },
+                        "required": [
+                            "minimum",
+                            "maximum"
+                        ]
+                    },
+                    "unit": {
+                        "type": "string",
+                        "enum": [
+                            "K"
+                        ],
+                        "default": "K"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
         "colorTemperature": {
             "schema": {
                 "type": "object",

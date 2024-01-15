@@ -1,0 +1,164 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{rinseMode.value}}",
+                "alternatives": [
+                    {
+                        "key": "none",
+                        "value": "{{i18n.attributes.rinseMode.i18n.value.none.label}}",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "normal",
+                        "value": "{{i18n.attributes.rinseMode.i18n.value.normal.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "extra",
+                        "value": "{{i18n.attributes.rinseMode.i18n.value.extra.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "max",
+                        "value": "{{i18n.attributes.rinseMode.i18n.value.max.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.label}}",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "name": "setRinseMode",
+                    "alternatives": [
+                        {
+                            "key": "none",
+                            "value": "{{i18n.commands.setRinseMode.arguments.rinseMode.i18n.none.label}}",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "normal",
+                            "value": "{{i18n.commands.setRinseMode.arguments.rinseMode.i18n.normal.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "extra",
+                            "value": "{{i18n.commands.setRinseMode.arguments.rinseMode.i18n.extra.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "max",
+                            "value": "{{i18n.commands.setRinseMode.arguments.rinseMode.i18n.max.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "argumentType": "string",
+                    "supportedValues": "supportedRinseModes.value"
+                },
+                "state": {
+                    "value": "rinseMode.value",
+                    "valueType": "string",
+                    "alternatives": [
+                        {
+                            "key": "none",
+                            "value": "{{i18n.attributes.rinseMode.i18n.value.none.label}}",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "normal",
+                            "value": "{{i18n.attributes.rinseMode.i18n.value.normal.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "extra",
+                            "value": "{{i18n.attributes.rinseMode.i18n.value.extra.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "max",
+                            "value": "{{i18n.attributes.rinseMode.i18n.value.max.label}}",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "none",
+                            "value": "{{i18n.attributes.rinseMode.i18n.value.none.label}}",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "normal",
+                            "value": "{{i18n.attributes.rinseMode.i18n.value.normal.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "extra",
+                            "value": "{{i18n.attributes.rinseMode.i18n.value.extra.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "max",
+                            "value": "{{i18n.attributes.rinseMode.i18n.value.max.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedRinseModes.value",
+                    "value": "rinseMode.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "none",
+                            "value": "{{i18n.commands.setRinseMode.arguments.rinseMode.i18n.none.label}}",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "normal",
+                            "value": "{{i18n.commands.setRinseMode.arguments.rinseMode.i18n.normal.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "extra",
+                            "value": "{{i18n.commands.setRinseMode.arguments.rinseMode.i18n.extra.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "max",
+                            "value": "{{i18n.commands.setRinseMode.arguments.rinseMode.i18n.max.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedRinseModes.value",
+                    "command": "setRinseMode",
+                    "argumentType": "string"
+                }
+            }
+        ]
+    },
+    "id": "laundryWasherRinseMode",
+    "version": 1
+}

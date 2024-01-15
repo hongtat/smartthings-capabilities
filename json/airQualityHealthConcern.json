@@ -1,20 +1,24 @@
 {
-    "id": "elevatorCall",
+    "id": "airQualityHealthConcern",
     "version": 1,
-    "status": "live",
-    "name": "Elevator Call",
+    "status": "proposed",
+    "name": "Air Quality Health Concern",
     "ephemeral": false,
     "attributes": {
-        "callStatus": {
+        "airQualityHealthConcern": {
             "schema": {
                 "type": "object",
                 "properties": {
                     "value": {
+                        "title": "AirQualityHealthConcern",
                         "type": "string",
                         "enum": [
-                            "called",
-                            "standby",
-                            "unknown"
+                            "good",
+                            "moderate",
+                            "slightlyUnhealthy",
+                            "unhealthy",
+                            "veryUnhealthy",
+                            "hazardous"
                         ]
                     }
                 },
@@ -26,10 +30,5 @@
             "enumCommands": []
         }
     },
-    "commands": {
-        "call": {
-            "name": "call",
-            "arguments": []
-        }
-    }
+    "commands": []
 }

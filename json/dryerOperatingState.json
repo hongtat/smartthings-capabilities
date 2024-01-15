@@ -1,7 +1,7 @@
 {
     "id": "dryerOperatingState",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Dryer Operating State",
     "ephemeral": false,
     "attributes": {

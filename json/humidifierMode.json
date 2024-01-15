@@ -11,13 +11,13 @@
                 "properties": {
                     "value": {
                         "title": "HumidifierMode",
+                        "type": "string",
                         "enum": [
                             "auto",
                             "low",
                             "medium",
                             "high"
-                        ],
-                        "type": "string"
+                        ]
                     }
                 },
                 "additionalProperties": false,
@@ -35,13 +35,13 @@
                     "optional": false,
                     "schema": {
                         "title": "HumidifierMode",
+                        "type": "string",
                         "enum": [
                             "auto",
                             "low",
                             "medium",
                             "high"
-                        ],
-                        "type": "string"
+                        ]
                     }
                 }
             ]

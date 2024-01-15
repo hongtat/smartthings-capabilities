@@ -10,6 +10,7 @@
                 "type": "object",
                 "properties": {
                     "value": {
+                        "type": "string",
                         "enum": [
                             "auto",
                             "part",
@@ -17,8 +18,7 @@
                             "manual",
                             "stop",
                             "map"
-                        ],
-                        "type": "string"
+                        ]
                     }
                 },
                 "additionalProperties": false,
@@ -38,6 +38,7 @@
                     "name": "mode",
                     "optional": false,
                     "schema": {
+                        "type": "string",
                         "enum": [
                             "auto",
                             "part",
@@ -45,8 +46,7 @@
                             "manual",
                             "stop",
                             "map"
-                        ],
-                        "type": "string"
+                        ]
                     }
                 }
             ]

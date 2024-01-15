@@ -10,8 +10,10 @@
                 "type": "object",
                 "properties": {
                     "value": {
+                        "type": "array",
                         "items": {
                             "title": "MediaSource",
+                            "type": "string",
                             "enum": [
                                 "AM",
                                 "CD",
@@ -30,11 +32,16 @@
                                 "bluetooth",
                                 "digital",
                                 "melon",
-                                "wifi"
-                            ],
-                            "type": "string"
-                        },
-                        "type": "array"
+                                "wifi",
+                                "network",
+                                "optical",
+                                "coaxial",
+                                "analog1",
+                                "analog2",
+                                "analog3",
+                                "phono"
+                            ]
+                        }
                     }
                 },
                 "additionalProperties": false,
@@ -50,6 +57,7 @@
                 "properties": {
                     "value": {
                         "title": "MediaSource",
+                        "type": "string",
                         "enum": [
                             "AM",
                             "CD",
@@ -68,9 +76,15 @@
                             "bluetooth",
                             "digital",
                             "melon",
-                            "wifi"
-                        ],
-                        "type": "string"
+                            "wifi",
+                            "network",
+                            "optical",
+                            "coaxial",
+                            "analog1",
+                            "analog2",
+                            "analog3",
+                            "phono"
+                        ]
                     }
                 },
                 "additionalProperties": false,
@@ -91,6 +105,7 @@
                     "optional": false,
                     "schema": {
                         "title": "MediaSource",
+                        "type": "string",
                         "enum": [
                             "AM",
                             "CD",
@@ -109,9 +124,15 @@
                             "bluetooth",
                             "digital",
                             "melon",
-                            "wifi"
-                        ],
-                        "type": "string"
+                            "wifi",
+                            "network",
+                            "optical",
+                            "coaxial",
+                            "analog1",
+                            "analog2",
+                            "analog3",
+                            "phono"
+                        ]
                     }
                 }
             ]

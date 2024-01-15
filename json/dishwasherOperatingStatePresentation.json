@@ -58,6 +58,21 @@
                         "key": "wrinklePrevent",
                         "value": "{{i18n.attributes.dishwasherJobState.i18n.value.wrinklePrevent.label}}",
                         "type": "active"
+                    },
+                    {
+                        "key": "unableToStartOrResume",
+                        "value": "{{i18n.attributes.dishwasherJobState.i18n.value.unableToStartOrResume.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "unableToCompleteOperation",
+                        "value": "{{i18n.attributes.dishwasherJobState.i18n.value.unableToCompleteOperation.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "commandInvalidInState",
+                        "value": "{{i18n.attributes.dishwasherJobState.i18n.value.commandInvalidInState.label}}",
+                        "type": "active"
                     }
                 ]
             },
@@ -182,6 +197,21 @@
                     {
                         "key": "wrinklePrevent",
                         "value": "{{i18n.attributes.dishwasherJobState.i18n.value.wrinklePrevent.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "unableToStartOrResume",
+                        "value": "{{i18n.attributes.dishwasherJobState.i18n.value.unableToStartOrResume.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "unableToCompleteOperation",
+                        "value": "{{i18n.attributes.dishwasherJobState.i18n.value.unableToCompleteOperation.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "commandInvalidInState",
+                        "value": "{{i18n.attributes.dishwasherJobState.i18n.value.commandInvalidInState.label}}",
                         "type": "active"
                     }
                 ]
@@ -330,6 +360,21 @@
                         {
                             "key": "wrinklePrevent",
                             "value": "{{i18n.attributes.dishwasherJobState.i18n.value.wrinklePrevent.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "unableToStartOrResume",
+                            "value": "{{i18n.attributes.dishwasherJobState.i18n.value.unableToStartOrResume.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "unableToCompleteOperation",
+                            "value": "{{i18n.attributes.dishwasherJobState.i18n.value.unableToCompleteOperation.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "commandInvalidInState",
+                            "value": "{{i18n.attributes.dishwasherJobState.i18n.value.commandInvalidInState.label}}",
                             "type": "active"
                         }
                     ],

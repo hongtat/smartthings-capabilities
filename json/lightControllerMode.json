@@ -1,0 +1,75 @@
+{
+    "id": "lightControllerMode",
+    "version": 1,
+    "status": "proposed",
+    "name": "Light Controller Mode",
+    "ephemeral": false,
+    "attributes": {
+        "lightControllerMode": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "LightControllerMode",
+                        "type": "string",
+                        "enum": [
+                            "rgbw",
+                            "rgb",
+                            "colorTemperature",
+                            "dimmer"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "supportedLightControllerModes": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "title": "LightControllerMode",
+                            "type": "string",
+                            "enum": [
+                                "rgbw",
+                                "rgb",
+                                "colorTemperature",
+                                "dimmer"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setLightControllerMode": {
+            "name": "setLightControllerMode",
+            "arguments": [
+                {
+                    "name": "mode",
+                    "optional": false,
+                    "schema": {
+                        "title": "LightControllerMode",
+                        "type": "string",
+                        "enum": [
+                            "rgbw",
+                            "rgb",
+                            "colorTemperature",
+                            "dimmer"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

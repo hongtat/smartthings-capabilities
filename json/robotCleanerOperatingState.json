@@ -1,0 +1,83 @@
+{
+    "id": "robotCleanerOperatingState",
+    "version": 1,
+    "status": "proposed",
+    "name": "Robot Cleaner Operating State",
+    "ephemeral": false,
+    "attributes": {
+        "operatingState": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "RobotCleanerOperatingState",
+                        "type": "string",
+                        "enum": [
+                            "stopped",
+                            "running",
+                            "paused",
+                            "seekingCharger",
+                            "charging",
+                            "docked",
+                            "unableToStartOrResume",
+                            "unableToCompleteOperation",
+                            "commandInvalidInState",
+                            "failedToFindChargingDock",
+                            "stuck",
+                            "dustBinMissing",
+                            "dustBinFull",
+                            "waterTankEmpty",
+                            "waterTankMissing",
+                            "waterTankLidOpen",
+                            "mopCleaningPadMissing"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "supportedOperatingStates": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "title": "RobotCleanerOperatingState",
+                            "type": "string",
+                            "enum": [
+                                "stopped",
+                                "running",
+                                "paused",
+                                "seekingCharger",
+                                "charging",
+                                "docked",
+                                "unableToStartOrResume",
+                                "unableToCompleteOperation",
+                                "commandInvalidInState",
+                                "failedToFindChargingDock",
+                                "stuck",
+                                "dustBinMissing",
+                                "dustBinFull",
+                                "waterTankEmpty",
+                                "waterTankMissing",
+                                "waterTankLidOpen",
+                                "mopCleaningPadMissing"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": []
+}

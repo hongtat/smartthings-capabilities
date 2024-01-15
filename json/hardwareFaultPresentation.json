@@ -1,0 +1,71 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{hardwareFault.value}}",
+                "alternatives": [
+                    {
+                        "key": "clear",
+                        "value": "{{i18n.attributes.hardwareFault.i18n.value.clear.label}}",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "detected",
+                        "value": "{{i18n.attributes.hardwareFault.i18n.value.detected.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{hardwareFault.value}}",
+                "alternatives": [
+                    {
+                        "key": "clear",
+                        "value": "{{i18n.attributes.hardwareFault.i18n.value.clear.label}}",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "detected",
+                        "value": "{{i18n.attributes.hardwareFault.i18n.value.detected.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "clear",
+                            "value": "{{i18n.attributes.hardwareFault.i18n.value.clear.label}}",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "detected",
+                            "value": "{{i18n.attributes.hardwareFault.i18n.value.detected.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "hardwareFault.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "hardwareFault",
+    "version": 1
+}

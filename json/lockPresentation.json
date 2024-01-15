@@ -23,6 +23,11 @@
                         "key": "unlocked with timeout",
                         "value": "{{i18n.attributes.lock.i18n.value.unlocked with timeout.label}}",
                         "type": "active"
+                    },
+                    {
+                        "key": "not fully locked",
+                        "value": "{{i18n.attributes.lock.i18n.value.not fully locked.label}}",
+                        "type": "active"
                     }
                 ]
             }
@@ -86,6 +91,11 @@
                             "key": "unlocked with timeout",
                             "value": "{{i18n.attributes.lock.i18n.value.unlocked with timeout.label}}",
                             "type": "active"
+                        },
+                        {
+                            "key": "not fully locked",
+                            "value": "{{i18n.attributes.lock.i18n.value.not fully locked.label}}",
+                            "type": "active"
                         }
                     ]
                 }
@@ -117,6 +127,11 @@
                         {
                             "key": "unlocked with timeout",
                             "value": "{{i18n.attributes.lock.i18n.value.unlocked with timeout.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "not fully locked",
+                            "value": "{{i18n.attributes.lock.i18n.value.not fully locked.label}}",
                             "type": "active"
                         }
                     ],

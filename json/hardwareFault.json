@@ -1,20 +1,19 @@
 {
-    "id": "elevatorCall",
+    "id": "hardwareFault",
     "version": 1,
-    "status": "live",
-    "name": "Elevator Call",
+    "status": "proposed",
+    "name": "Hardware Fault",
     "ephemeral": false,
     "attributes": {
-        "callStatus": {
+        "hardwareFault": {
             "schema": {
                 "type": "object",
                 "properties": {
                     "value": {
                         "type": "string",
                         "enum": [
-                            "called",
-                            "standby",
-                            "unknown"
+                            "clear",
+                            "detected"
                         ]
                     }
                 },
@@ -26,10 +25,5 @@
             "enumCommands": []
         }
     },
-    "commands": {
-        "call": {
-            "name": "call",
-            "arguments": []
-        }
-    }
+    "commands": []
 }

@@ -38,6 +38,11 @@
                         "key": "windFree",
                         "value": "{{i18n.attributes.airPurifierFanMode.i18n.value.windFree.label}}",
                         "type": "active"
+                    },
+                    {
+                        "key": "off",
+                        "value": "{{i18n.attributes.airPurifierFanMode.i18n.value.off.label}}",
+                        "type": "inactive"
                     }
                 ]
             }
@@ -86,6 +91,11 @@
                             "key": "windFree",
                             "value": "{{i18n.commands.setAirPurifierFanMode.arguments.airPurifierFanMode.i18n.windFree.label}}",
                             "type": "active"
+                        },
+                        {
+                            "key": "off",
+                            "value": "{{i18n.commands.setAirPurifierFanMode.arguments.airPurifierFanMode.i18n.off.label}}",
+                            "type": "inactive"
                         }
                     ],
                     "argumentType": "string",
@@ -129,6 +139,11 @@
                             "key": "windFree",
                             "value": "{{i18n.attributes.airPurifierFanMode.i18n.value.windFree.label}}",
                             "type": "active"
+                        },
+                        {
+                            "key": "off",
+                            "value": "{{i18n.attributes.airPurifierFanMode.i18n.value.off.label}}",
+                            "type": "inactive"
                         }
                     ]
                 }
@@ -176,6 +191,11 @@
                             "key": "windFree",
                             "value": "{{i18n.attributes.airPurifierFanMode.i18n.value.windFree.label}}",
                             "type": "active"
+                        },
+                        {
+                            "key": "off",
+                            "value": "{{i18n.attributes.airPurifierFanMode.i18n.value.off.label}}",
+                            "type": "inactive"
                         }
                     ],
                     "supportedValues": "supportedAirPurifierFanModes.value",
@@ -225,6 +245,11 @@
                             "key": "windFree",
                             "value": "{{i18n.commands.setAirPurifierFanMode.arguments.airPurifierFanMode.i18n.windFree.label}}",
                             "type": "active"
+                        },
+                        {
+                            "key": "off",
+                            "value": "{{i18n.commands.setAirPurifierFanMode.arguments.airPurifierFanMode.i18n.off.label}}",
+                            "type": "inactive"
                         }
                     ],
                     "supportedValues": "supportedAirPurifierFanModes.value",

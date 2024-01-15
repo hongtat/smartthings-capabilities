@@ -2,7 +2,7 @@
     "dashboard": {
         "states": [
             {
-                "label": "{{colorTemperature.value}} {{colorTemperature.unit}}"
+                "label": "{{percent.value}} {{percent.unit}}"
             }
         ],
         "actions": []
@@ -13,14 +13,13 @@
             "displayType": "slider",
             "slider": {
                 "range": [
-                    1,
-                    30000
+                    0,
+                    100
                 ],
-                "unit": "colorTemperature.unit",
-                "supportedValues": "colorTemperatureRange.value",
-                "command": "setColorTemperature",
+                "unit": "percent.unit",
+                "command": "setPercent",
                 "argumentType": "integer",
-                "value": "colorTemperature.value",
+                "value": "percent.value",
                 "valueType": "integer"
             }
         }
@@ -32,12 +31,11 @@
                 "displayType": "slider",
                 "slider": {
                     "range": [
-                        1,
-                        30000
+                        0,
+                        100
                     ],
-                    "unit": "colorTemperature.unit",
-                    "supportedValues": "colorTemperatureRange.value",
-                    "value": "colorTemperature.value",
+                    "unit": "percent.unit",
+                    "value": "percent.value",
                     "valueType": "integer"
                 }
             }
@@ -48,17 +46,16 @@
                 "displayType": "slider",
                 "slider": {
                     "range": [
-                        1,
-                        30000
+                        0,
+                        100
                     ],
-                    "unit": "colorTemperature.unit",
-                    "supportedValues": "colorTemperatureRange.value",
-                    "command": "setColorTemperature",
+                    "unit": "percent.unit",
+                    "command": "setPercent",
                     "argumentType": "integer"
                 }
             }
         ]
     },
-    "id": "colorTemperature",
+    "id": "fanSpeedPercent",
     "version": 1
 }

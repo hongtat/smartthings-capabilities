@@ -1,7 +1,7 @@
 {
     "id": "currentMeasurement",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Current Measurement",
     "ephemeral": false,
     "attributes": {

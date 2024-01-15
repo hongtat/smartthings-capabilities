@@ -1,7 +1,7 @@
 {
     "id": "demandResponseLoadControl",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Demand Response Load Control",
     "ephemeral": false,
     "attributes": {

@@ -1,0 +1,132 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{windMode.value}}",
+                "alternatives": [
+                    {
+                        "key": "sleepWind",
+                        "value": "{{i18n.attributes.windMode.i18n.value.sleepWind.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "naturalWind",
+                        "value": "{{i18n.attributes.windMode.i18n.value.naturalWind.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "displayType": "toggleSwitch",
+                "toggleSwitch": {
+                    "command": {
+                        "name": "setWindMode",
+                        "on": "naturalWind",
+                        "off": "sleepWind",
+                        "argumentType": "string"
+                    },
+                    "state": {
+                        "value": "windMode.value",
+                        "on": "naturalWind",
+                        "off": "sleepWind",
+                        "valueType": "string"
+                    }
+                }
+            }
+        ]
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.label}}",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "name": "setWindMode",
+                    "alternatives": [
+                        {
+                            "key": "sleepWind",
+                            "value": "{{i18n.commands.setWindMode.arguments.windMode.i18n.sleepWind.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "naturalWind",
+                            "value": "{{i18n.commands.setWindMode.arguments.windMode.i18n.naturalWind.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "argumentType": "string",
+                    "supportedValues": "supportedWindModes.value"
+                },
+                "state": {
+                    "value": "windMode.value",
+                    "valueType": "string",
+                    "alternatives": [
+                        {
+                            "key": "sleepWind",
+                            "value": "{{i18n.attributes.windMode.i18n.value.sleepWind.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "naturalWind",
+                            "value": "{{i18n.attributes.windMode.i18n.value.naturalWind.label}}",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "sleepWind",
+                            "value": "{{i18n.attributes.windMode.i18n.value.sleepWind.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "naturalWind",
+                            "value": "{{i18n.attributes.windMode.i18n.value.naturalWind.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedWindModes.value",
+                    "value": "windMode.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "sleepWind",
+                            "value": "{{i18n.commands.setWindMode.arguments.windMode.i18n.sleepWind.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "naturalWind",
+                            "value": "{{i18n.commands.setWindMode.arguments.windMode.i18n.naturalWind.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedWindModes.value",
+                    "command": "setWindMode",
+                    "argumentType": "string"
+                }
+            }
+        ]
+    },
+    "id": "windMode",
+    "version": 1
+}

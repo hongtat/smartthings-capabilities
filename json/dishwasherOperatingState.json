@@ -1,7 +1,7 @@
 {
     "id": "dishwasherOperatingState",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Dishwasher Operating State",
     "ephemeral": false,
     "attributes": {

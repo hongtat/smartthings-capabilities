@@ -11,11 +11,11 @@
                 "properties": {
                     "value": {
                         "title": "EnableState",
+                        "type": "string",
                         "enum": [
                             "enabled",
                             "disabled"
-                        ],
-                        "type": "string"
+                        ]
                     }
                 },
                 "additionalProperties": false,
@@ -39,8 +39,10 @@
                 "type": "object",
                 "properties": {
                     "value": {
+                        "type": "array",
                         "items": {
                             "title": "DetectedSoundType",
+                            "type": "string",
                             "enum": [
                                 "noSound",
                                 "babyCrying",
@@ -52,10 +54,8 @@
                                 "siren",
                                 "fingerSnapping",
                                 "snoring"
-                            ],
-                            "type": "string"
-                        },
-                        "type": "array"
+                            ]
+                        }
                     }
                 },
                 "additionalProperties": false,
@@ -71,6 +71,7 @@
                 "properties": {
                     "value": {
                         "title": "DetectedSoundType",
+                        "type": "string",
                         "enum": [
                             "noSound",
                             "babyCrying",
@@ -82,8 +83,7 @@
                             "siren",
                             "fingerSnapping",
                             "snoring"
-                        ],
-                        "type": "string"
+                        ]
                     }
                 },
                 "additionalProperties": false,

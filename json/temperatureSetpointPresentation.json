@@ -2,7 +2,7 @@
     "dashboard": {
         "states": [
             {
-                "label": "{{heatingSetpoint.value}} {{heatingSetpoint.unit}}",
+                "label": "{{temperatureSetpoint.value}} {{temperatureSetpoint.unit}}",
                 "alternatives": [
                     {
                         "key": "C",
@@ -30,14 +30,14 @@
             "displayType": "slider",
             "slider": {
                 "range": [
-                    0,
-                    40
+                    -460,
+                    10000
                 ],
-                "unit": "heatingSetpoint.unit",
-                "supportedValues": "heatingSetpointRange.value",
-                "command": "setHeatingSetpoint",
+                "unit": "temperatureSetpoint.unit",
+                "supportedValues": "temperatureSetpointRange.value",
+                "command": "setTemperatureSetpoint",
                 "argumentType": "number",
-                "value": "heatingSetpoint.value",
+                "value": "temperatureSetpoint.value",
                 "valueType": "number"
             }
         }
@@ -48,34 +48,34 @@
                 "label": "{{i18n.label}}",
                 "displayType": "numberField",
                 "numberField": {
-                    "value": "heatingSetpoint.value",
+                    "value": "temperatureSetpoint.value",
                     "valueType": "number",
-                    "unit": "heatingSetpoint.unit",
+                    "unit": "temperatureSetpoint.unit",
                     "range": [
-                        0,
-                        40
+                        -460,
+                        10000
                     ],
-                    "supportedValues": "heatingSetpointRange.value"
+                    "supportedValues": "temperatureSetpointRange.value"
                 }
             }
         ],
         "actions": [
             {
-                "label": "{{i18n.commands.setHeatingSetpoint.label}}",
+                "label": "{{i18n.label}}",
                 "displayType": "numberField",
                 "numberField": {
-                    "command": "setHeatingSetpoint",
+                    "command": "setTemperatureSetpoint",
                     "argumentType": "number",
-                    "unit": "heatingSetpoint.unit",
+                    "unit": "temperatureSetpoint.unit",
                     "range": [
-                        0,
-                        40
+                        -460,
+                        10000
                     ],
-                    "supportedValues": "heatingSetpointRange.value"
+                    "supportedValues": "temperatureSetpointRange.value"
                 }
             }
         ]
     },
-    "id": "thermostatHeatingSetpoint",
+    "id": "temperatureSetpoint",
     "version": 1
 }

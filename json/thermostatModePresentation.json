@@ -193,6 +193,11 @@
                         "key": "southernaway",
                         "value": "{{i18n.attributes.thermostatMode.i18n.value.southernaway.label}}",
                         "type": "active"
+                    },
+                    {
+                        "key": "precooling",
+                        "value": "{{i18n.attributes.thermostatMode.i18n.value.precooling.label}}",
+                        "type": "active"
                     }
                 ]
             }
@@ -396,6 +401,11 @@
                             "key": "southernaway",
                             "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.southernaway.label}}",
                             "type": "active"
+                        },
+                        {
+                            "key": "precooling",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.precooling.label}}",
+                            "type": "active"
                         }
                     ],
                     "argumentType": "string",
@@ -593,6 +603,11 @@
                         {
                             "key": "southernaway",
                             "value": "{{i18n.attributes.thermostatMode.i18n.value.southernaway.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "precooling",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.precooling.label}}",
                             "type": "active"
                         }
                     ]
@@ -795,6 +810,11 @@
                         {
                             "key": "southernaway",
                             "value": "{{i18n.attributes.thermostatMode.i18n.value.southernaway.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "precooling",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.precooling.label}}",
                             "type": "active"
                         }
                     ],
@@ -999,6 +1019,11 @@
                         {
                             "key": "southernaway",
                             "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.southernaway.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "precooling",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.precooling.label}}",
                             "type": "active"
                         }
                     ],

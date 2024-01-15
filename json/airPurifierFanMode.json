@@ -12,6 +12,7 @@
                     "value": {
                         "type": "array",
                         "items": {
+                            "title": "AirPurifierFanMode",
                             "type": "string",
                             "enum": [
                                 "auto",
@@ -20,7 +21,8 @@
                                 "medium",
                                 "high",
                                 "quiet",
-                                "windFree"
+                                "windFree",
+                                "off"
                             ]
                         }
                     }
@@ -44,13 +46,15 @@
                             "medium",
                             "high",
                             "quiet",
-                            "windFree"
+                            "windFree",
+                            "off"
                         ]
                     }
                 },
                 "additionalProperties": false,
                 "required": []
             },
+            "setter": "setAirPurifierFanMode",
             "enumCommands": []
         }
     },
@@ -71,7 +75,8 @@
                             "medium",
                             "high",
                             "quiet",
-                            "windFree"
+                            "windFree",
+                            "off"
                         ]
                     }
                 }

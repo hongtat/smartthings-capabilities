@@ -11,6 +11,7 @@
                 "properties": {
                     "value": {
                         "title": "ActivityType",
+                        "type": "string",
                         "enum": [
                             "noActivity",
                             "falling",
@@ -18,8 +19,7 @@
                             "sitting",
                             "standing",
                             "eating"
-                        ],
-                        "type": "string"
+                        ]
                     }
                 },
                 "additionalProperties": false,

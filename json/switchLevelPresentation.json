@@ -17,6 +17,7 @@
                     100
                 ],
                 "unit": "level.unit",
+                "supportedValues": "levelRange.value",
                 "command": "setLevel",
                 "argumentType": "integer",
                 "value": "level.value",
@@ -35,6 +36,7 @@
                         100
                     ],
                     "unit": "level.unit",
+                    "supportedValues": "levelRange.value",
                     "value": "level.value",
                     "valueType": "integer"
                 }
@@ -50,6 +52,7 @@
                         100
                     ],
                     "unit": "level.unit",
+                    "supportedValues": "levelRange.value",
                     "command": "setLevel",
                     "argumentType": "integer"
                 }

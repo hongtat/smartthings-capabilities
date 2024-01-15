@@ -34,6 +34,7 @@
                     50
                 ],
                 "unit": "temperature.unit",
+                "supportedValues": "temperatureRange.value",
                 "value": "temperature.value",
                 "valueType": "number"
             }
@@ -51,7 +52,8 @@
                     "range": [
                         -20,
                         50
-                    ]
+                    ],
+                    "supportedValues": "temperatureRange.value"
                 }
             }
         ],

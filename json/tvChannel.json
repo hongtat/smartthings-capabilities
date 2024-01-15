@@ -1,7 +1,7 @@
 {
     "id": "tvChannel",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Tv Channel",
     "ephemeral": false,
     "attributes": {

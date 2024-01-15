@@ -34,6 +34,7 @@
                     40
                 ],
                 "unit": "coolingSetpoint.unit",
+                "supportedValues": "coolingSetpointRange.value",
                 "command": "setCoolingSetpoint",
                 "argumentType": "number",
                 "value": "coolingSetpoint.value",
@@ -53,7 +54,8 @@
                     "range": [
                         0,
                         40
-                    ]
+                    ],
+                    "supportedValues": "coolingSetpointRange.value"
                 }
             }
         ],
@@ -68,7 +70,8 @@
                     "range": [
                         0,
                         40
-                    ]
+                    ],
+                    "supportedValues": "coolingSetpointRange.value"
                 }
             }
         ]

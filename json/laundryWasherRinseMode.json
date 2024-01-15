@@ -1,0 +1,78 @@
+{
+    "id": "laundryWasherRinseMode",
+    "version": 1,
+    "status": "proposed",
+    "name": "Laundry Washer Rinse Mode",
+    "ephemeral": false,
+    "attributes": {
+        "rinseMode": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "RinseMode",
+                        "type": "string",
+                        "enum": [
+                            "none",
+                            "normal",
+                            "extra",
+                            "max"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setRinseMode",
+            "enumCommands": []
+        },
+        "supportedRinseModes": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "title": "RinseMode",
+                            "type": "string",
+                            "enum": [
+                                "none",
+                                "normal",
+                                "extra",
+                                "max"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setRinseMode": {
+            "name": "setRinseMode",
+            "arguments": [
+                {
+                    "name": "rinseMode",
+                    "optional": false,
+                    "schema": {
+                        "title": "RinseMode",
+                        "type": "string",
+                        "enum": [
+                            "none",
+                            "normal",
+                            "extra",
+                            "max"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

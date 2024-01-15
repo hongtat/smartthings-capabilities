@@ -1,0 +1,55 @@
+{
+    "id": "temperatureLevel",
+    "version": 1,
+    "status": "proposed",
+    "name": "Temperature Level",
+    "ephemeral": false,
+    "attributes": {
+        "temperatureLevel": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setTemperatureLevel",
+            "enumCommands": []
+        },
+        "supportedTemperatureLevels": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setTemperatureLevel": {
+            "name": "setTemperatureLevel",
+            "arguments": [
+                {
+                    "name": "temperatureLevel",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                }
+            ]
+        }
+    }
+}

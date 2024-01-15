@@ -57,6 +57,40 @@
             },
             "enumCommands": []
         },
+        "turnInfo": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                            "id": {
+                                "type": "string"
+                            },
+                            "turnUrl": {
+                                "type": "string"
+                            },
+                            "userName": {
+                                "type": "string"
+                            },
+                            "passWord": {
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "id",
+                            "turnUrl"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
         "supportedFeatures": {
             "schema": {
                 "type": "object",
@@ -78,6 +112,51 @@
                                 "type": "string"
                             }
                         }
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "deviceIce": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                            "id": {
+                                "type": "string"
+                            },
+                            "ice": {
+                                "type": "object",
+                                "additionalProperties": false,
+                                "properties": {
+                                    "candidate": {
+                                        "type": "string"
+                                    },
+                                    "sdpMid": {
+                                        "type": "string"
+                                    },
+                                    "sdpMLineIndex": {
+                                        "type": "integer"
+                                    }
+                                },
+                                "required": [
+                                    "candidate",
+                                    "sdpMid",
+                                    "sdpMLineIndex"
+                                ]
+                            }
+                        },
+                        "required": [
+                            "id",
+                            "ice"
+                        ]
                     }
                 },
                 "additionalProperties": false,
@@ -133,6 +212,42 @@
                 }
             ]
         },
+        "clientIce": {
+            "name": "clientIce",
+            "arguments": [
+                {
+                    "name": "id",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                },
+                {
+                    "name": "ice",
+                    "optional": false,
+                    "schema": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                            "candidate": {
+                                "type": "string"
+                            },
+                            "sdpMid": {
+                                "type": "string"
+                            },
+                            "sdpMLineIndex": {
+                                "type": "integer"
+                            }
+                        },
+                        "required": [
+                            "candidate",
+                            "sdpMid",
+                            "sdpMLineIndex"
+                        ]
+                    }
+                }
+            ]
+        },
         "sdpOffer": {
             "name": "sdpOffer",
             "arguments": [
@@ -149,11 +264,48 @@
                     "schema": {
                         "type": "string"
                     }
+                },
+                {
+                    "name": "iceServers",
+                    "optional": true,
+                    "schema": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                            "urls": {
+                                "type": "array",
+                                "items": {
+                                    "type": "string"
+                                }
+                            },
+                            "username": {
+                                "type": "string"
+                            },
+                            "password": {
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "urls"
+                        ]
+                    }
                 }
             ]
         },
         "stopTalkback": {
             "name": "stopTalkback",
+            "arguments": [
+                {
+                    "name": "id",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                }
+            ]
+        },
+        "requestTurnInfo": {
+            "name": "requestTurnInfo",
             "arguments": [
                 {
                     "name": "id",

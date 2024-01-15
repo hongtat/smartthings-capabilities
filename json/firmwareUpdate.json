@@ -57,8 +57,22 @@
                         "enum": [
                             "normalOperation",
                             "updateInProgress",
-                            "insufficientStorage"
+                            "insufficientStorage",
+                            "updateRequested"
                         ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
+        "updateAvailable": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "boolean"
                     }
                 },
                 "additionalProperties": false,

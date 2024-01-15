@@ -1,0 +1,55 @@
+{
+    "id": "laundryWasherSpinSpeed",
+    "version": 1,
+    "status": "proposed",
+    "name": "Laundry Washer Spin Speed",
+    "ephemeral": false,
+    "attributes": {
+        "supportedSpinSpeeds": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
+        "spinSpeed": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setSpinSpeed",
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setSpinSpeed": {
+            "name": "setSpinSpeed",
+            "arguments": [
+                {
+                    "name": "spinSpeed",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                }
+            ]
+        }
+    }
+}

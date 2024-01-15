@@ -1,0 +1,159 @@
+{
+    "id": "temperatureSetpoint",
+    "version": 1,
+    "status": "proposed",
+    "name": "Temperature Setpoint",
+    "ephemeral": false,
+    "attributes": {
+        "temperatureSetpoint": {
+            "schema": {
+                "title": "Temperature",
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "TemperatureValue",
+                        "type": "number",
+                        "minimum": -460,
+                        "maximum": 10000
+                    },
+                    "unit": {
+                        "type": "string",
+                        "enum": [
+                            "F",
+                            "C"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value",
+                    "unit"
+                ]
+            },
+            "setter": "setTemperatureSetpoint",
+            "enumCommands": []
+        },
+        "temperatureSetpointRange": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                            "minimum": {
+                                "title": "Temperature",
+                                "type": "object",
+                                "additionalProperties": false,
+                                "properties": {
+                                    "value": {
+                                        "title": "TemperatureValue",
+                                        "type": "number",
+                                        "minimum": -460,
+                                        "maximum": 10000
+                                    },
+                                    "unit": {
+                                        "title": "TemperatureUnit",
+                                        "type": "string",
+                                        "enum": [
+                                            "F",
+                                            "C"
+                                        ]
+                                    }
+                                },
+                                "required": [
+                                    "value",
+                                    "unit"
+                                ]
+                            },
+                            "maximum": {
+                                "title": "Temperature",
+                                "type": "object",
+                                "additionalProperties": false,
+                                "properties": {
+                                    "value": {
+                                        "title": "TemperatureValue",
+                                        "type": "number",
+                                        "minimum": -460,
+                                        "maximum": 10000
+                                    },
+                                    "unit": {
+                                        "title": "TemperatureUnit",
+                                        "type": "string",
+                                        "enum": [
+                                            "F",
+                                            "C"
+                                        ]
+                                    }
+                                },
+                                "required": [
+                                    "value",
+                                    "unit"
+                                ]
+                            },
+                            "step": {
+                                "title": "Temperature",
+                                "type": "object",
+                                "additionalProperties": false,
+                                "properties": {
+                                    "value": {
+                                        "title": "TemperatureValue",
+                                        "type": "number",
+                                        "minimum": -460,
+                                        "maximum": 10000
+                                    },
+                                    "unit": {
+                                        "title": "TemperatureUnit",
+                                        "type": "string",
+                                        "enum": [
+                                            "F",
+                                            "C"
+                                        ]
+                                    }
+                                },
+                                "required": [
+                                    "value",
+                                    "unit"
+                                ]
+                            }
+                        },
+                        "required": [
+                            "minimum",
+                            "maximum"
+                        ]
+                    },
+                    "unit": {
+                        "type": "string",
+                        "enum": [
+                            "F",
+                            "C"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value",
+                    "unit"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setTemperatureSetpoint": {
+            "name": "setTemperatureSetpoint",
+            "arguments": [
+                {
+                    "name": "setpoint",
+                    "optional": false,
+                    "schema": {
+                        "title": "TemperatureValue",
+                        "type": "number",
+                        "minimum": -460,
+                        "maximum": 10000
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -10,18 +10,18 @@
                 "type": "object",
                 "properties": {
                     "value": {
+                        "type": "array",
                         "items": {
                             "title": "MediaPlaybackCommands",
+                            "type": "string",
                             "enum": [
                                 "pause",
                                 "play",
                                 "stop",
                                 "fastForward",
                                 "rewind"
-                            ],
-                            "type": "string"
-                        },
-                        "type": "array"
+                            ]
+                        }
                     }
                 },
                 "additionalProperties": false,
@@ -34,6 +34,7 @@
                 "type": "object",
                 "properties": {
                     "value": {
+                        "type": "string",
                         "enum": [
                             "paused",
                             "playing",
@@ -41,8 +42,7 @@
                             "fast forwarding",
                             "rewinding",
                             "buffering"
-                        ],
-                        "type": "string"
+                        ]
                     }
                 },
                 "additionalProperties": false,
@@ -97,14 +97,14 @@
                     "name": "status",
                     "optional": false,
                     "schema": {
+                        "type": "string",
                         "enum": [
                             "paused",
                             "playing",
                             "stopped",
                             "fast forwarding",
                             "rewinding"
-                        ],
-                        "type": "string"
+                        ]
                     }
                 }
             ]

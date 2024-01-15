@@ -1,7 +1,7 @@
 {
     "id": "dustHealthConcern",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Dust Health Concern",
     "ephemeral": false,
     "attributes": {

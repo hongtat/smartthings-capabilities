@@ -1,7 +1,7 @@
 {
     "id": "activityLightingMode",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Activity Lighting Mode",
     "ephemeral": false,
     "attributes": {

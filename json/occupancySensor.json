@@ -11,11 +11,11 @@
                 "properties": {
                     "value": {
                         "title": "OccupancyState",
+                        "type": "string",
                         "enum": [
                             "occupied",
                             "unoccupied"
-                        ],
-                        "type": "string"
+                        ]
                     }
                 },
                 "additionalProperties": false,
