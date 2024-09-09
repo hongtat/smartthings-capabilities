@@ -39,6 +39,7 @@
                             "open",
                             "opening",
                             "partially open",
+                            "paused",
                             "unknown"
                         ]
                     }

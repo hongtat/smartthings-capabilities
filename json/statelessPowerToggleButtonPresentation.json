@@ -10,7 +10,8 @@
                     "argumentType": "string"
                 }
             }
-        ]
+        ],
+        "panelItems": []
     },
     "detailView": [
         {

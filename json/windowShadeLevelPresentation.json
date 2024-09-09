@@ -12,7 +12,28 @@
                 ]
             }
         ],
-        "actions": []
+        "actions": [],
+        "panelItems": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "slider",
+                "slider": {
+                    "range": [
+                        0,
+                        100
+                    ],
+                    "unit": "shadeLevel.unit",
+                    "command": "setShadeLevel",
+                    "argumentType": "integer",
+                    "value": "shadeLevel.value",
+                    "valueType": "integer",
+                    "availableSizes": [
+                        "4x1",
+                        "4x2"
+                    ]
+                }
+            }
+        ]
     },
     "detailView": [
         {

@@ -1,0 +1,67 @@
+{
+    "id": "chargePointState",
+    "version": 1,
+    "status": "proposed",
+    "name": "Charge Point State",
+    "ephemeral": false,
+    "attributes": {
+        "chargePointState": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "ChargePointState",
+                        "type": "string",
+                        "enum": [
+                            "available",
+                            "preparing",
+                            "charging",
+                            "discharging",
+                            "suspendedEVSE",
+                            "suspendedEV",
+                            "finishing",
+                            "reserved",
+                            "unavailable",
+                            "faulted"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "supportedChargePointStates": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "title": "ChargePointState",
+                            "type": "string",
+                            "enum": [
+                                "available",
+                                "preparing",
+                                "charging",
+                                "discharging",
+                                "suspendedEVSE",
+                                "suspendedEV",
+                                "finishing",
+                                "reserved",
+                                "unavailable",
+                                "faulted"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": []
+}

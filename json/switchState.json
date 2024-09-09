@@ -1,0 +1,29 @@
+{
+    "id": "switchState",
+    "version": 1,
+    "status": "proposed",
+    "name": "Switch State",
+    "ephemeral": false,
+    "attributes": {
+        "switchState": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "on",
+                            "off"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": []
+}

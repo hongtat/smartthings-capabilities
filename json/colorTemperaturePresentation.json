@@ -5,7 +5,8 @@
                 "label": "{{colorTemperature.value}} {{colorTemperature.unit}}"
             }
         ],
-        "actions": []
+        "actions": [],
+        "panelItems": []
     },
     "detailView": [
         {

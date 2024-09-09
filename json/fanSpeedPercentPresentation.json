@@ -5,7 +5,8 @@
                 "label": "{{percent.value}} {{percent.unit}}"
             }
         ],
-        "actions": []
+        "actions": [],
+        "panelItems": []
     },
     "detailView": [
         {

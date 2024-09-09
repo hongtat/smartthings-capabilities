@@ -5,7 +5,8 @@
                 "label": "{{power.value}} {{power.unit}}"
             }
         ],
-        "actions": []
+        "actions": [],
+        "panelItems": []
     },
     "detailView": [
         {

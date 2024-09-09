@@ -42,6 +42,41 @@
             },
             "enumCommands": []
         },
+        "availableFanOscillationModes": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "items": {
+                            "title": "FanOscillationMode",
+                            "type": "string",
+                            "enum": [
+                                "off",
+                                "individual",
+                                "fixed",
+                                "vertical",
+                                "horizontal",
+                                "all",
+                                "indirect",
+                                "direct",
+                                "fixedCenter",
+                                "fixedLeft",
+                                "fixedRight",
+                                "far",
+                                "wide",
+                                "mid",
+                                "spot",
+                                "swing"
+                            ]
+                        },
+                        "type": "array"
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
         "fanOscillationMode": {
             "schema": {
                 "type": "object",

@@ -1,0 +1,13 @@
+{
+    "detailView": [
+        {
+            "label": "{{i18n.attributes.stunUrl.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{stunUrl.value}}"
+            }
+        }
+    ],
+    "id": "webrtc",
+    "version": 1
+}

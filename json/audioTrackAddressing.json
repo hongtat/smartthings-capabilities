@@ -1,7 +1,7 @@
 {
     "id": "audioTrackAddressing",
     "version": 1,
-    "status": "proposed",
+    "status": "deprecated",
     "name": "Audio Track Addressing",
     "ephemeral": false,
     "attributes": [],

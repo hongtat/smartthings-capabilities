@@ -1,7 +1,7 @@
 {
     "id": "keypadInput",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Keypad Input",
     "ephemeral": false,
     "attributes": {

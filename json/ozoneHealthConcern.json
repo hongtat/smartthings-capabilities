@@ -1,0 +1,35 @@
+{
+    "id": "ozoneHealthConcern",
+    "version": 1,
+    "status": "proposed",
+    "name": "Ozone Health Concern",
+    "ephemeral": false,
+    "attributes": {
+        "ozoneHealthConcern": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "AirQualityHealthConcern",
+                        "type": "string",
+                        "enum": [
+                            "unknown",
+                            "good",
+                            "moderate",
+                            "slightlyUnhealthy",
+                            "unhealthy",
+                            "veryUnhealthy",
+                            "hazardous"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": []
+}

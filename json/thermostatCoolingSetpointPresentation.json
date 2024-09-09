@@ -22,7 +22,54 @@
                 ]
             }
         ],
-        "actions": []
+        "actions": [],
+        "panelItems": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "stepper",
+                "stepper": {
+                    "command": {
+                        "name": "setCoolingSetpoint",
+                        "argumentType": "number"
+                    },
+                    "step": 1,
+                    "range": [
+                        0,
+                        40
+                    ],
+                    "supportedValues": "coolingSetpointRange.value",
+                    "state": {
+                        "value": "coolingSetpoint.value",
+                        "valueType": "number",
+                        "label": "{{coolingSetpoint.value}} {{coolingSetpoint.unit}}",
+                        "alternatives": [
+                            {
+                                "key": "C",
+                                "value": "\u00b0C",
+                                "type": "active"
+                            },
+                            {
+                                "key": "K",
+                                "value": "\u00b0K",
+                                "type": "active"
+                            },
+                            {
+                                "key": "F",
+                                "value": "\u00b0F",
+                                "type": "active"
+                            }
+                        ]
+                    },
+                    "availableSizes": [
+                        "2x1",
+                        "3x1",
+                        "4x1",
+                        "1x2",
+                        "2x2"
+                    ]
+                }
+            }
+        ]
     },
     "detailView": [
         {

@@ -54,7 +54,8 @@
                     "command": "unlock"
                 }
             }
-        ]
+        ],
+        "panelItems": []
     },
     "detailView": [
         {

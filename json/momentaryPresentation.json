@@ -12,7 +12,8 @@
                     "command": "push"
                 }
             }
-        ]
+        ],
+        "panelItems": []
     },
     "detailView": [
         {

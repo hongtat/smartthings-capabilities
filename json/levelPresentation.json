@@ -1,0 +1,68 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{level.value}} {{level.unit}}"
+            }
+        ],
+        "actions": [],
+        "panelItems": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.label}}",
+            "displayType": "slider",
+            "slider": {
+                "range": [
+                    0,
+                    100
+                ],
+                "step": 1,
+                "unit": "level.unit",
+                "supportedValues": "levelRange.value",
+                "command": "setLevel",
+                "argumentType": "integer",
+                "value": "level.value",
+                "valueType": "integer"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "slider",
+                "slider": {
+                    "range": [
+                        0,
+                        100
+                    ],
+                    "step": 1,
+                    "unit": "level.unit",
+                    "supportedValues": "levelRange.value",
+                    "value": "level.value",
+                    "valueType": "integer"
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "slider",
+                "slider": {
+                    "range": [
+                        0,
+                        100
+                    ],
+                    "step": 1,
+                    "unit": "level.unit",
+                    "supportedValues": "levelRange.value",
+                    "command": "setLevel",
+                    "argumentType": "integer"
+                }
+            }
+        ]
+    },
+    "id": "level",
+    "version": 1
+}

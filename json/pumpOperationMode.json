@@ -1,0 +1,118 @@
+{
+    "id": "pumpOperationMode",
+    "version": 1,
+    "status": "proposed",
+    "name": "Pump Operation Mode",
+    "ephemeral": false,
+    "attributes": {
+        "operationMode": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "PumpOperationMode",
+                        "type": "string",
+                        "enum": [
+                            "normal",
+                            "minimum",
+                            "maximum",
+                            "localSetting"
+                        ]
+                    },
+                    "data": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "required": [],
+                        "properties": {
+                            "supportedOperationModes": {
+                                "type": "array",
+                                "items": {
+                                    "title": "PumpOperationMode",
+                                    "type": "string",
+                                    "enum": [
+                                        "normal",
+                                        "minimum",
+                                        "maximum",
+                                        "localSetting"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setOperationMode",
+            "enumCommands": []
+        },
+        "supportedOperationModes": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "title": "PumpOperationMode",
+                            "type": "string",
+                            "enum": [
+                                "normal",
+                                "minimum",
+                                "maximum",
+                                "localSetting"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
+        "currentOperationMode": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "PumpOperationMode",
+                        "type": "string",
+                        "enum": [
+                            "normal",
+                            "minimum",
+                            "maximum",
+                            "localSetting"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setOperationMode": {
+            "name": "setOperationMode",
+            "arguments": [
+                {
+                    "name": "operationMode",
+                    "optional": false,
+                    "schema": {
+                        "title": "PumpOperationMode",
+                        "type": "string",
+                        "enum": [
+                            "normal",
+                            "minimum",
+                            "maximum",
+                            "localSetting"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

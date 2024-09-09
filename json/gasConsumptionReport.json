@@ -1,0 +1,49 @@
+{
+    "id": "gasConsumptionReport",
+    "version": 1,
+    "status": "proposed",
+    "name": "Gas Consumption Report",
+    "ephemeral": false,
+    "attributes": {
+        "gasConsumption": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "object",
+                        "properties": {
+                            "deltaUsage": {
+                                "type": "number"
+                            },
+                            "usageSaved": {
+                                "type": "number"
+                            },
+                            "cumulativeUsage": {
+                                "type": "number"
+                            }
+                        },
+                        "required": [
+                            "deltaUsage"
+                        ]
+                    },
+                    "unit": {
+                        "type": "string",
+                        "enum": [
+                            "Wh",
+                            "m^3",
+                            "cf",
+                            "MJ"
+                        ],
+                        "default": "Wh"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": []
+}

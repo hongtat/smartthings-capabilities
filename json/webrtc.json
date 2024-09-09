@@ -110,6 +110,32 @@
                             },
                             "video": {
                                 "type": "string"
+                            },
+                            "turnSource": {
+                                "type": "string",
+                                "enum": [
+                                    "camera",
+                                    "player"
+                                ]
+                            },
+                            "supportTrickleICE": {
+                                "type": "boolean"
+                            },
+                            "portrait": {
+                                "type": "boolean"
+                            },
+                            "width": {
+                                "type": "integer",
+                                "minimum": 240,
+                                "maximum": 4096
+                            },
+                            "height": {
+                                "type": "integer",
+                                "minimum": 240,
+                                "maximum": 4096
+                            },
+                            "dualView": {
+                                "type": "boolean"
                             }
                         }
                     }

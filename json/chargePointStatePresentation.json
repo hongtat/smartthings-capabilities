@@ -1,0 +1,193 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{chargePointState.value}}",
+                "alternatives": [
+                    {
+                        "key": "available",
+                        "value": "{{i18n.attributes.chargePointState.i18n.value.available.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "preparing",
+                        "value": "{{i18n.attributes.chargePointState.i18n.value.preparing.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "charging",
+                        "value": "{{i18n.attributes.chargePointState.i18n.value.charging.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "discharging",
+                        "value": "{{i18n.attributes.chargePointState.i18n.value.discharging.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "suspendedEVSE",
+                        "value": "{{i18n.attributes.chargePointState.i18n.value.suspendedEVSE.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "suspendedEV",
+                        "value": "{{i18n.attributes.chargePointState.i18n.value.suspendedEV.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "finishing",
+                        "value": "{{i18n.attributes.chargePointState.i18n.value.finishing.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "reserved",
+                        "value": "{{i18n.attributes.chargePointState.i18n.value.reserved.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "unavailable",
+                        "value": "{{i18n.attributes.chargePointState.i18n.value.unavailable.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "faulted",
+                        "value": "{{i18n.attributes.chargePointState.i18n.value.faulted.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "panelItems": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{chargePointState.value}}",
+                "alternatives": [
+                    {
+                        "key": "available",
+                        "value": "{{i18n.attributes.chargePointState.i18n.value.available.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "preparing",
+                        "value": "{{i18n.attributes.chargePointState.i18n.value.preparing.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "charging",
+                        "value": "{{i18n.attributes.chargePointState.i18n.value.charging.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "discharging",
+                        "value": "{{i18n.attributes.chargePointState.i18n.value.discharging.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "suspendedEVSE",
+                        "value": "{{i18n.attributes.chargePointState.i18n.value.suspendedEVSE.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "suspendedEV",
+                        "value": "{{i18n.attributes.chargePointState.i18n.value.suspendedEV.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "finishing",
+                        "value": "{{i18n.attributes.chargePointState.i18n.value.finishing.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "reserved",
+                        "value": "{{i18n.attributes.chargePointState.i18n.value.reserved.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "unavailable",
+                        "value": "{{i18n.attributes.chargePointState.i18n.value.unavailable.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "faulted",
+                        "value": "{{i18n.attributes.chargePointState.i18n.value.faulted.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "available",
+                            "value": "{{i18n.attributes.chargePointState.i18n.value.available.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "preparing",
+                            "value": "{{i18n.attributes.chargePointState.i18n.value.preparing.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "charging",
+                            "value": "{{i18n.attributes.chargePointState.i18n.value.charging.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "discharging",
+                            "value": "{{i18n.attributes.chargePointState.i18n.value.discharging.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "suspendedEVSE",
+                            "value": "{{i18n.attributes.chargePointState.i18n.value.suspendedEVSE.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "suspendedEV",
+                            "value": "{{i18n.attributes.chargePointState.i18n.value.suspendedEV.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "finishing",
+                            "value": "{{i18n.attributes.chargePointState.i18n.value.finishing.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "reserved",
+                            "value": "{{i18n.attributes.chargePointState.i18n.value.reserved.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "unavailable",
+                            "value": "{{i18n.attributes.chargePointState.i18n.value.unavailable.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "faulted",
+                            "value": "{{i18n.attributes.chargePointState.i18n.value.faulted.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedChargePointStates.value",
+                    "value": "chargePointState.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "chargePointState",
+    "version": 1
+}

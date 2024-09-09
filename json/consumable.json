@@ -26,30 +26,8 @@
                     "value"
                 ]
             },
-            "setter": "setConsumableStatus",
             "enumCommands": []
         }
     },
-    "commands": {
-        "setConsumableStatus": {
-            "name": "setConsumableStatus",
-            "arguments": [
-                {
-                    "name": "status",
-                    "optional": false,
-                    "schema": {
-                        "title": "ConsumableState",
-                        "type": "string",
-                        "enum": [
-                            "good",
-                            "maintenance_required",
-                            "missing",
-                            "order",
-                            "replace"
-                        ]
-                    }
-                }
-            ]
-        }
-    }
+    "commands": []
 }

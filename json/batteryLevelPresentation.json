@@ -1,0 +1,87 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{battery.value}}",
+                "alternatives": [
+                    {
+                        "key": "normal",
+                        "value": "{{i18n.attributes.battery.i18n.value.normal.label}}",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "warning",
+                        "value": "{{i18n.attributes.battery.i18n.value.warning.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "critical",
+                        "value": "{{i18n.attributes.battery.i18n.value.critical.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "panelItems": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{battery.value}}",
+                "alternatives": [
+                    {
+                        "key": "normal",
+                        "value": "{{i18n.attributes.battery.i18n.value.normal.label}}",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "warning",
+                        "value": "{{i18n.attributes.battery.i18n.value.warning.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "critical",
+                        "value": "{{i18n.attributes.battery.i18n.value.critical.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "normal",
+                            "value": "{{i18n.attributes.battery.i18n.value.normal.label}}",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "warning",
+                            "value": "{{i18n.attributes.battery.i18n.value.warning.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "critical",
+                            "value": "{{i18n.attributes.battery.i18n.value.critical.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "battery.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "batteryLevel",
+    "version": 1
+}

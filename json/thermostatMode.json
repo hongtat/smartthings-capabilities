@@ -13,6 +13,7 @@
                         "title": "ThermostatMode",
                         "type": "string",
                         "enum": [
+                            "antifreezing",
                             "asleep",
                             "auto",
                             "autowitheco",
@@ -52,7 +53,16 @@
                             "rush hour",
                             "rushhour",
                             "schedule",
-                            "southernaway"
+                            "southernaway",
+                            "precooling",
+                            "lukewarm",
+                            "warm",
+                            "hot",
+                            "veryhot",
+                            "ondol",
+                            "bath",
+                            "iterativeReservation",
+                            "24hourReservation"
                         ]
                     },
                     "data": {
@@ -66,6 +76,7 @@
                                     "title": "ThermostatMode",
                                     "type": "string",
                                     "enum": [
+                                        "antifreezing",
                                         "asleep",
                                         "auto",
                                         "autowitheco",
@@ -105,7 +116,16 @@
                                         "rush hour",
                                         "rushhour",
                                         "schedule",
-                                        "southernaway"
+                                        "southernaway",
+                                        "precooling",
+                                        "lukewarm",
+                                        "warm",
+                                        "hot",
+                                        "veryhot",
+                                        "ondol",
+                                        "bath",
+                                        "iterativeReservation",
+                                        "24hourReservation"
                                     ]
                                 }
                             }
@@ -151,6 +171,7 @@
                             "title": "ThermostatMode",
                             "type": "string",
                             "enum": [
+                                "antifreezing",
                                 "asleep",
                                 "auto",
                                 "autowitheco",
@@ -190,7 +211,16 @@
                                 "rush hour",
                                 "rushhour",
                                 "schedule",
-                                "southernaway"
+                                "southernaway",
+                                "precooling",
+                                "lukewarm",
+                                "warm",
+                                "hot",
+                                "veryhot",
+                                "ondol",
+                                "bath",
+                                "iterativeReservation",
+                                "24hourReservation"
                             ]
                         }
                     }
@@ -220,6 +250,7 @@
                         "title": "ThermostatMode",
                         "type": "string",
                         "enum": [
+                            "antifreezing",
                             "asleep",
                             "auto",
                             "autowitheco",
@@ -259,7 +290,16 @@
                             "rush hour",
                             "rushhour",
                             "schedule",
-                            "southernaway"
+                            "southernaway",
+                            "precooling",
+                            "lukewarm",
+                            "warm",
+                            "hot",
+                            "veryhot",
+                            "ondol",
+                            "bath",
+                            "iterativeReservation",
+                            "24hourReservation"
                         ]
                     }
                 }

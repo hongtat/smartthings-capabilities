@@ -31,7 +31,7 @@
                     },
                     {
                         "key": "prewash",
-                        "value": "{{i18n.attributes.dishwasherJobState.i18n.value.wash.label}}",
+                        "value": "{{i18n.attributes.dishwasherJobState.i18n.value.prewash.label}}",
                         "type": "active"
                     },
                     {
@@ -135,7 +135,8 @@
                     }
                 }
             }
-        ]
+        ],
+        "panelItems": []
     },
     "detailView": [
         {

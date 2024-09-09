@@ -1,7 +1,7 @@
 {
     "id": "ocf",
     "version": 1,
-    "status": "proposed",
+    "status": "deprecated",
     "name": "Ocf",
     "ephemeral": false,
     "attributes": {

@@ -100,7 +100,8 @@
                     }
                 }
             }
-        ]
+        ],
+        "panelItems": []
     },
     "detailView": [
         {

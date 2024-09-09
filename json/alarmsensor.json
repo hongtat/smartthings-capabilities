@@ -1,0 +1,72 @@
+{
+    "id": "alarmsensor",
+    "version": 1,
+    "status": "proposed",
+    "name": "AlarmSensor",
+    "ephemeral": false,
+    "attributes": {
+        "supportedAlarmSensorStates": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "title": "AlarmSensorState",
+                            "type": "string",
+                            "enum": [
+                                "off",
+                                "enabled",
+                                "suppressed"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
+        "alarmSensorState": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "AlarmSensorState",
+                        "type": "string",
+                        "enum": [
+                            "off",
+                            "enabled",
+                            "suppressed"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setAlarmSensorState": {
+            "name": "setAlarmSensorState",
+            "arguments": [
+                {
+                    "name": "alarmSensorState",
+                    "optional": false,
+                    "schema": {
+                        "title": "AlarmSensorState",
+                        "type": "string",
+                        "enum": [
+                            "off",
+                            "enabled",
+                            "suppressed"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

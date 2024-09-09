@@ -1,7 +1,7 @@
 {
     "id": "mode",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Mode",
     "ephemeral": false,
     "attributes": {
@@ -22,6 +22,22 @@
             "enumCommands": []
         },
         "supportedModes": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
+        "supportedArguments": {
             "schema": {
                 "type": "object",
                 "properties": {

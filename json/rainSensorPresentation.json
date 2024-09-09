@@ -1,0 +1,72 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{rain.value}}",
+                "alternatives": [
+                    {
+                        "key": "detected",
+                        "value": "{{i18n.attributes.rain.i18n.value.detected.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "undetected",
+                        "value": "{{i18n.attributes.rain.i18n.value.undetected.label}}",
+                        "type": "inactive"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "panelItems": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{rain.value}}",
+                "alternatives": [
+                    {
+                        "key": "detected",
+                        "value": "{{i18n.attributes.rain.i18n.value.detected.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "undetected",
+                        "value": "{{i18n.attributes.rain.i18n.value.undetected.label}}",
+                        "type": "inactive"
+                    }
+                ]
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "detected",
+                            "value": "{{i18n.attributes.rain.i18n.value.detected.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "undetected",
+                            "value": "{{i18n.attributes.rain.i18n.value.undetected.label}}",
+                            "type": "inactive"
+                        }
+                    ],
+                    "value": "rain.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "rainSensor",
+    "version": 1
+}

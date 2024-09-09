@@ -126,7 +126,8 @@
                     }
                 }
             }
-        ]
+        ],
+        "panelItems": []
     },
     "detailView": [
         {

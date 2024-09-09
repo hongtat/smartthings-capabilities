@@ -1,0 +1,66 @@
+{
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "clear",
+                            "value": "{{i18n.attributes.alarm.i18n.value.clear.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "lockFactoryReset",
+                            "value": "{{i18n.attributes.alarm.i18n.value.lockFactoryReset.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "damaged",
+                            "value": "{{i18n.attributes.alarm.i18n.value.damaged.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "forcedOpeningAttempt",
+                            "value": "{{i18n.attributes.alarm.i18n.value.forcedOpeningAttempt.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "unableToLockTheDoor",
+                            "value": "{{i18n.attributes.alarm.i18n.value.unableToLockTheDoor.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "notClosedForALongTime",
+                            "value": "{{i18n.attributes.alarm.i18n.value.notClosedForALongTime.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "highTemperature",
+                            "value": "{{i18n.attributes.alarm.i18n.value.highTemperature.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "attemptsExceeded",
+                            "value": "{{i18n.attributes.alarm.i18n.value.attemptsExceeded.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "physicalImpact",
+                            "value": "{{i18n.attributes.alarm.i18n.value.physicalImpact.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedAlarmValues.value",
+                    "value": "alarm.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "lockAlarm",
+    "version": 1
+}

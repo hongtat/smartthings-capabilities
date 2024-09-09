@@ -5,7 +5,8 @@
                 "label": "{{voltage.value}} {{voltage.unit}}"
             }
         ],
-        "actions": []
+        "actions": [],
+        "panelItems": []
     },
     "detailView": [
         {

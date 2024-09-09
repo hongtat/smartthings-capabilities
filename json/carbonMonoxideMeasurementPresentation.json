@@ -5,7 +5,8 @@
                 "label": "{{carbonMonoxideLevel.value}} {{carbonMonoxideLevel.unit}}"
             }
         ],
-        "actions": []
+        "actions": [],
+        "panelItems": []
     },
     "detailView": [
         {

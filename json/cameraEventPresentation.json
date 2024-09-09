@@ -1,0 +1,283 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{event.value}}",
+                "alternatives": [
+                    {
+                        "key": "package",
+                        "value": "{{i18n.attributes.event.i18n.value.package.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "packageDisappear",
+                        "value": "{{i18n.attributes.event.i18n.value.packageDisappear.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "person",
+                        "value": "{{i18n.attributes.event.i18n.value.person.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "personDisappear",
+                        "value": "{{i18n.attributes.event.i18n.value.personDisappear.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "vehicle",
+                        "value": "{{i18n.attributes.event.i18n.value.vehicle.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "vehicleDisappear",
+                        "value": "{{i18n.attributes.event.i18n.value.vehicleDisappear.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "pet",
+                        "value": "{{i18n.attributes.event.i18n.value.pet.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "petDisappear",
+                        "value": "{{i18n.attributes.event.i18n.value.petDisappear.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "loitering",
+                        "value": "{{i18n.attributes.event.i18n.value.loitering.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "loiteringDisappear",
+                        "value": "{{i18n.attributes.event.i18n.value.loiteringDisappear.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "gestureV",
+                        "value": "{{i18n.attributes.event.i18n.value.gestureV.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "gestureFour",
+                        "value": "{{i18n.attributes.event.i18n.value.gestureFour.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "gestureFive",
+                        "value": "{{i18n.attributes.event.i18n.value.gestureFive.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "gestureGun",
+                        "value": "{{i18n.attributes.event.i18n.value.gestureGun.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "gestureOk",
+                        "value": "{{i18n.attributes.event.i18n.value.gestureOk.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "lensObstruction",
+                        "value": "{{i18n.attributes.event.i18n.value.lensObstruction.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "panelItems": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{event.value}}",
+                "alternatives": [
+                    {
+                        "key": "package",
+                        "value": "{{i18n.attributes.event.i18n.value.package.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "packageDisappear",
+                        "value": "{{i18n.attributes.event.i18n.value.packageDisappear.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "person",
+                        "value": "{{i18n.attributes.event.i18n.value.person.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "personDisappear",
+                        "value": "{{i18n.attributes.event.i18n.value.personDisappear.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "vehicle",
+                        "value": "{{i18n.attributes.event.i18n.value.vehicle.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "vehicleDisappear",
+                        "value": "{{i18n.attributes.event.i18n.value.vehicleDisappear.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "pet",
+                        "value": "{{i18n.attributes.event.i18n.value.pet.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "petDisappear",
+                        "value": "{{i18n.attributes.event.i18n.value.petDisappear.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "loitering",
+                        "value": "{{i18n.attributes.event.i18n.value.loitering.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "loiteringDisappear",
+                        "value": "{{i18n.attributes.event.i18n.value.loiteringDisappear.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "gestureV",
+                        "value": "{{i18n.attributes.event.i18n.value.gestureV.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "gestureFour",
+                        "value": "{{i18n.attributes.event.i18n.value.gestureFour.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "gestureFive",
+                        "value": "{{i18n.attributes.event.i18n.value.gestureFive.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "gestureGun",
+                        "value": "{{i18n.attributes.event.i18n.value.gestureGun.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "gestureOk",
+                        "value": "{{i18n.attributes.event.i18n.value.gestureOk.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "lensObstruction",
+                        "value": "{{i18n.attributes.event.i18n.value.lensObstruction.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "package",
+                            "value": "{{i18n.attributes.event.i18n.value.package.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "packageDisappear",
+                            "value": "{{i18n.attributes.event.i18n.value.packageDisappear.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "person",
+                            "value": "{{i18n.attributes.event.i18n.value.person.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "personDisappear",
+                            "value": "{{i18n.attributes.event.i18n.value.personDisappear.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "vehicle",
+                            "value": "{{i18n.attributes.event.i18n.value.vehicle.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "vehicleDisappear",
+                            "value": "{{i18n.attributes.event.i18n.value.vehicleDisappear.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "pet",
+                            "value": "{{i18n.attributes.event.i18n.value.pet.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "petDisappear",
+                            "value": "{{i18n.attributes.event.i18n.value.petDisappear.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "loitering",
+                            "value": "{{i18n.attributes.event.i18n.value.loitering.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "loiteringDisappear",
+                            "value": "{{i18n.attributes.event.i18n.value.loiteringDisappear.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "gestureV",
+                            "value": "{{i18n.attributes.event.i18n.value.gestureV.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "gestureFour",
+                            "value": "{{i18n.attributes.event.i18n.value.gestureFour.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "gestureFive",
+                            "value": "{{i18n.attributes.event.i18n.value.gestureFive.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "gestureGun",
+                            "value": "{{i18n.attributes.event.i18n.value.gestureGun.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "gestureOk",
+                            "value": "{{i18n.attributes.event.i18n.value.gestureOk.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "lensObstruction",
+                            "value": "{{i18n.attributes.event.i18n.value.lensObstruction.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedEvents.value",
+                    "value": "event.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "cameraEvent",
+    "version": 1
+}

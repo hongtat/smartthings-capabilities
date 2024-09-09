@@ -5,7 +5,8 @@
                 "label": "{{eta.value}}"
             }
         ],
-        "actions": []
+        "actions": [],
+        "panelItems": []
     },
     "detailView": [
         {

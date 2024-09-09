@@ -5,7 +5,8 @@
                 "label": "{{radonLevel.value}} {{radonLevel.unit}}"
             }
         ],
-        "actions": []
+        "actions": [],
+        "panelItems": []
     },
     "detailView": [
         {

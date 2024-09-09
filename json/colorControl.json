@@ -34,7 +34,6 @@
                 "additionalProperties": false,
                 "required": []
             },
-            "setter": "setColor",
             "enumCommands": []
         },
         "hue": {
@@ -62,7 +61,7 @@
                     "name": "color",
                     "optional": false,
                     "schema": {
-                        "title": "COLOR_MAP",
+                        "title": "ColorMap",
                         "type": "object",
                         "additionalProperties": false,
                         "properties": {

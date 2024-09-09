@@ -5,7 +5,8 @@
                 "label": "{{tvocLevel.value}}{{tvocLevel.unit}}"
             }
         ],
-        "actions": []
+        "actions": [],
+        "panelItems": []
     },
     "detailView": [
         {

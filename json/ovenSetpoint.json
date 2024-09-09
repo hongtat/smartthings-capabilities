@@ -1,7 +1,7 @@
 {
     "id": "ovenSetpoint",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Oven Setpoint",
     "ephemeral": false,
     "attributes": {

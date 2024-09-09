@@ -1,0 +1,123 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{spinSpeed.value}}"
+            }
+        ],
+        "actions": [],
+        "panelItems": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.label}}",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "name": "setSpinSpeed",
+                    "alternatives": [
+                        {
+                            "key": "1",
+                            "value": "1",
+                            "type": "active"
+                        },
+                        {
+                            "key": "2",
+                            "value": "2",
+                            "type": "active"
+                        },
+                        {
+                            "key": "3",
+                            "value": "3",
+                            "type": "active"
+                        }
+                    ],
+                    "argumentType": "string",
+                    "supportedValues": "supportedSpinSpeeds.value"
+                },
+                "state": {
+                    "value": "spinSpeed.value",
+                    "valueType": "string",
+                    "alternatives": [
+                        {
+                            "key": "1",
+                            "value": "1",
+                            "type": "active"
+                        },
+                        {
+                            "key": "2",
+                            "value": "2",
+                            "type": "active"
+                        },
+                        {
+                            "key": "3",
+                            "value": "3",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "1",
+                            "value": "1",
+                            "type": "active"
+                        },
+                        {
+                            "key": "2",
+                            "value": "2",
+                            "type": "active"
+                        },
+                        {
+                            "key": "3",
+                            "value": "3",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedSpinSpeeds.value",
+                    "value": "spinSpeed.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "1",
+                            "value": "1",
+                            "type": "active"
+                        },
+                        {
+                            "key": "2",
+                            "value": "2",
+                            "type": "active"
+                        },
+                        {
+                            "key": "3",
+                            "value": "3",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedSpinSpeeds.value",
+                    "command": "setSpinSpeed",
+                    "argumentType": "string"
+                }
+            }
+        ]
+    },
+    "id": "laundryWasherSpinSpeed",
+    "version": 1
+}

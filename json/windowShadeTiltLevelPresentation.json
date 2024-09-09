@@ -1,0 +1,62 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{shadeTiltLevel.value}} {{shadeTiltLevel.unit}}"
+            }
+        ],
+        "actions": [],
+        "panelItems": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.label}}",
+            "displayType": "slider",
+            "slider": {
+                "range": [
+                    0,
+                    100
+                ],
+                "unit": "shadeTiltLevel.unit",
+                "command": "setShadeTiltLevel",
+                "argumentType": "integer",
+                "value": "shadeTiltLevel.value",
+                "valueType": "integer"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "slider",
+                "slider": {
+                    "range": [
+                        0,
+                        100
+                    ],
+                    "unit": "shadeTiltLevel.unit",
+                    "value": "shadeTiltLevel.value",
+                    "valueType": "integer"
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "slider",
+                "slider": {
+                    "range": [
+                        0,
+                        100
+                    ],
+                    "unit": "shadeTiltLevel.unit",
+                    "command": "setShadeTiltLevel",
+                    "argumentType": "integer"
+                }
+            }
+        ]
+    },
+    "id": "windowShadeTiltLevel",
+    "version": 1
+}

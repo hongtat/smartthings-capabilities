@@ -1,0 +1,63 @@
+{
+    "id": "lockAlarm",
+    "version": 1,
+    "status": "proposed",
+    "name": "Lock Alarm",
+    "ephemeral": false,
+    "attributes": {
+        "supportedAlarmValues": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "enum": [
+                                "clear",
+                                "lockFactoryReset",
+                                "damaged",
+                                "forcedOpeningAttempt",
+                                "unableToLockTheDoor",
+                                "notClosedForALongTime",
+                                "highTemperature",
+                                "attemptsExceeded",
+                                "physicalImpact"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
+        "alarm": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "clear",
+                            "lockFactoryReset",
+                            "damaged",
+                            "forcedOpeningAttempt",
+                            "unableToLockTheDoor",
+                            "notClosedForALongTime",
+                            "highTemperature",
+                            "attemptsExceeded",
+                            "physicalImpact"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": []
+}

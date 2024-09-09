@@ -1,0 +1,46 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{ozone.value}} {{ozone.unit}}"
+            }
+        ],
+        "actions": [],
+        "panelItems": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.label}}",
+            "displayType": "slider",
+            "slider": {
+                "range": [
+                    0,
+                    1000000
+                ],
+                "unit": "ozone.unit",
+                "value": "ozone.value",
+                "valueType": "number"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "numberField",
+                "numberField": {
+                    "value": "ozone.value",
+                    "valueType": "number",
+                    "unit": "ozone.unit",
+                    "range": [
+                        0,
+                        1000000
+                    ]
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "ozoneMeasurement",
+    "version": 1
+}

@@ -17,7 +17,10 @@
                     "unit": {
                         "type": "string",
                         "enum": [
-                            "m\/s"
+                            "m\/s",
+                            "km\/h",
+                            "mph",
+                            "knots"
                         ],
                         "default": "m\/s"
                     }

@@ -1,7 +1,7 @@
 {
     "id": "execute",
     "version": 1,
-    "status": "live",
+    "status": "deprecated",
     "name": "Execute",
     "ephemeral": false,
     "attributes": {

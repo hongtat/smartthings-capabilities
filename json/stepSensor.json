@@ -1,7 +1,7 @@
 {
     "id": "stepSensor",
     "version": 1,
-    "status": "proposed",
+    "status": "deprecated",
     "name": "Step Sensor",
     "ephemeral": false,
     "attributes": {

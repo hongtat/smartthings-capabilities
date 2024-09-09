@@ -82,6 +82,11 @@
                     "name": "setThermostatMode",
                     "alternatives": [
                         {
+                            "key": "antifreezing",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.antifreezing.label}}",
+                            "type": "active"
+                        },
+                        {
                             "key": "asleep",
                             "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.asleep.label}}",
                             "type": "active"
@@ -279,6 +284,11 @@
                     "value": "thermostatMode.value",
                     "valueType": "string",
                     "alternatives": [
+                        {
+                            "key": "antifreezing",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.antifreezing.label}}",
+                            "type": "active"
+                        },
                         {
                             "key": "asleep",
                             "value": "{{i18n.attributes.thermostatMode.i18n.value.asleep.label}}",
@@ -683,6 +693,11 @@
                 "list": {
                     "alternatives": [
                         {
+                            "key": "antifreezing",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.antifreezing.label}}",
+                            "type": "active"
+                        },
+                        {
                             "key": "asleep",
                             "value": "{{i18n.attributes.thermostatMode.i18n.value.asleep.label}}",
                             "type": "active"
@@ -912,6 +927,11 @@
                 "displayType": "list",
                 "list": {
                     "alternatives": [
+                        {
+                            "key": "antifreezing",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.antifreezing.label}}",
+                            "type": "active"
+                        },
                         {
                             "key": "asleep",
                             "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.asleep.label}}",

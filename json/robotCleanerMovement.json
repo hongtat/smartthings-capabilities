@@ -1,7 +1,7 @@
 {
     "id": "robotCleanerMovement",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Robot Cleaner Movement",
     "ephemeral": false,
     "attributes": {

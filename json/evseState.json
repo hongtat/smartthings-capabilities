@@ -1,0 +1,93 @@
+{
+    "id": "evseState",
+    "version": 1,
+    "status": "proposed",
+    "name": "Evse State",
+    "ephemeral": false,
+    "attributes": {
+        "supplyState": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "EvSupplyState",
+                        "type": "string",
+                        "enum": [
+                            "disabled",
+                            "chargingEnabled",
+                            "dischargingEnabled",
+                            "disabledError",
+                            "disabledDiagnostics"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "faultState": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "EvseFaultState",
+                        "type": "string",
+                        "enum": [
+                            "noError",
+                            "meterFailure",
+                            "overVoltage",
+                            "underVoltage",
+                            "overCurrent",
+                            "contactWetFailure",
+                            "contactDryFailure",
+                            "groundFault",
+                            "powerLoss",
+                            "powerQuality",
+                            "pilotShortCircuit",
+                            "emergencyStop",
+                            "eVDisconnected",
+                            "wrongPowerSupply",
+                            "liveNeutralSwap",
+                            "overTemperature",
+                            "other"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "state": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "EvseState",
+                        "type": "string",
+                        "enum": [
+                            "notPluggedIn",
+                            "pluggedInNoDemand",
+                            "pluggedInDemand",
+                            "pluggedInCharging",
+                            "pluggedInDischarging",
+                            "sessionEnding",
+                            "fault"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": []
+}

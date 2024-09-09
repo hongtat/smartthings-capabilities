@@ -1,7 +1,7 @@
 {
     "id": "ovenMode",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Oven Mode",
     "ephemeral": false,
     "attributes": {

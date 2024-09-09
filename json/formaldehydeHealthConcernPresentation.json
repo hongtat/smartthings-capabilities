@@ -1,0 +1,147 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{formaldehydeHealthConcern.value}}",
+                "alternatives": [
+                    {
+                        "key": "good",
+                        "value": "{{i18n.attributes.formaldehydeHealthConcern.i18n.value.good.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "moderate",
+                        "value": "{{i18n.attributes.formaldehydeHealthConcern.i18n.value.moderate.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "slightlyUnhealthy",
+                        "value": "{{i18n.attributes.formaldehydeHealthConcern.i18n.value.slightlyUnhealthy.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "unhealthy",
+                        "value": "{{i18n.attributes.formaldehydeHealthConcern.i18n.value.unhealthy.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "veryUnhealthy",
+                        "value": "{{i18n.attributes.formaldehydeHealthConcern.i18n.value.veryUnhealthy.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "hazardous",
+                        "value": "{{i18n.attributes.formaldehydeHealthConcern.i18n.value.hazardous.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "unknown",
+                        "value": "{{i18n.attributes.formaldehydeHealthConcern.i18n.value.unknown.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "panelItems": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{formaldehydeHealthConcern.value}}",
+                "alternatives": [
+                    {
+                        "key": "good",
+                        "value": "{{i18n.attributes.formaldehydeHealthConcern.i18n.value.good.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "moderate",
+                        "value": "{{i18n.attributes.formaldehydeHealthConcern.i18n.value.moderate.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "slightlyUnhealthy",
+                        "value": "{{i18n.attributes.formaldehydeHealthConcern.i18n.value.slightlyUnhealthy.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "unhealthy",
+                        "value": "{{i18n.attributes.formaldehydeHealthConcern.i18n.value.unhealthy.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "veryUnhealthy",
+                        "value": "{{i18n.attributes.formaldehydeHealthConcern.i18n.value.veryUnhealthy.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "hazardous",
+                        "value": "{{i18n.attributes.formaldehydeHealthConcern.i18n.value.hazardous.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "unknown",
+                        "value": "{{i18n.attributes.formaldehydeHealthConcern.i18n.value.unknown.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "good",
+                            "value": "{{i18n.attributes.formaldehydeHealthConcern.i18n.value.good.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "moderate",
+                            "value": "{{i18n.attributes.formaldehydeHealthConcern.i18n.value.moderate.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "slightlyUnhealthy",
+                            "value": "{{i18n.attributes.formaldehydeHealthConcern.i18n.value.slightlyUnhealthy.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "unhealthy",
+                            "value": "{{i18n.attributes.formaldehydeHealthConcern.i18n.value.unhealthy.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "veryUnhealthy",
+                            "value": "{{i18n.attributes.formaldehydeHealthConcern.i18n.value.veryUnhealthy.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "hazardous",
+                            "value": "{{i18n.attributes.formaldehydeHealthConcern.i18n.value.hazardous.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "unknown",
+                            "value": "{{i18n.attributes.formaldehydeHealthConcern.i18n.value.unknown.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "formaldehydeHealthConcern.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "formaldehydeHealthConcern",
+    "version": 1
+}

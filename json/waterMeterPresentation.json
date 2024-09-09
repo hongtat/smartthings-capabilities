@@ -11,7 +11,8 @@
                 "label": "{{lastSevenDays.value}} {{lastSevenDays.unit}}"
             }
         ],
-        "actions": []
+        "actions": [],
+        "panelItems": []
     },
     "detailView": [
         {

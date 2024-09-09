@@ -1,0 +1,105 @@
+{
+    "id": "pumpControlMode",
+    "version": 1,
+    "status": "proposed",
+    "name": "Pump Control Mode",
+    "ephemeral": false,
+    "attributes": {
+        "controlMode": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "PumpControlMode",
+                        "type": "string",
+                        "enum": [
+                            "constantSpeed",
+                            "constantPressure",
+                            "proportionalPressure",
+                            "constantFlow",
+                            "constantTemperature",
+                            "automatic"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "supportedControlModes": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "title": "PumpControlMode",
+                            "type": "string",
+                            "enum": [
+                                "constantSpeed",
+                                "constantPressure",
+                                "proportionalPressure",
+                                "constantFlow",
+                                "constantTemperature",
+                                "automatic"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
+        "currentControlMode": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "PumpControlMode",
+                        "type": "string",
+                        "enum": [
+                            "constantSpeed",
+                            "constantPressure",
+                            "proportionalPressure",
+                            "constantFlow",
+                            "constantTemperature",
+                            "automatic"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setControlMode": {
+            "name": "setControlMode",
+            "arguments": [
+                {
+                    "name": "controlMode",
+                    "optional": false,
+                    "schema": {
+                        "title": "PumpControlMode",
+                        "type": "string",
+                        "enum": [
+                            "constantSpeed",
+                            "constantPressure",
+                            "proportionalPressure",
+                            "constantFlow",
+                            "constantTemperature",
+                            "automatic"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

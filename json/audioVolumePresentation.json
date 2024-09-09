@@ -5,7 +5,85 @@
                 "label": "{{volume.value}}{{volume.unit}}"
             }
         ],
-        "actions": []
+        "actions": [],
+        "panelItems": [
+            {
+                "label": "___PO_CODE_CAPABILITY.SMARTTHINGS.AUDIOVOLUME_DEFAULT_DC_VOL",
+                "displayType": "stepper",
+                "stepper": {
+                    "command": {
+                        "name": "setVolume"
+                    },
+                    "step": 1,
+                    "range": [
+                        0,
+                        100
+                    ],
+                    "state": {
+                        "value": "volume.value"
+                    },
+                    "availableSizes": [
+                        "2x1",
+                        "3x1",
+                        "4x1",
+                        "1x2",
+                        "2x2"
+                    ]
+                }
+            },
+            {
+                "label": "___PO_CODE_CAPABILITY.SMARTTHINGS.AUDIOVOLUME_DEFAULT_DC_VOL",
+                "displayType": "stepper",
+                "stepper": {
+                    "command": {
+                        "increase": "volumeUp",
+                        "decrease": "volumeDown"
+                    },
+                    "step": 1,
+                    "range": [
+                        0,
+                        100
+                    ],
+                    "state": {
+                        "value": "volume.value"
+                    },
+                    "availableSizes": [
+                        "2x1",
+                        "3x1",
+                        "4x1",
+                        "1x2",
+                        "2x2"
+                    ]
+                }
+            },
+            {
+                "label": "___PO_CODE_CAPABILITY.SMARTTHINGS.AUDIOVOLUME_DEFAULT_DC_VOL",
+                "displayType": "stepper",
+                "stepper": {
+                    "command": {
+                        "name": "setVolume",
+                        "argumentType": "integer"
+                    },
+                    "step": 1,
+                    "range": [
+                        0,
+                        100
+                    ],
+                    "state": {
+                        "value": "volume.value",
+                        "valueType": "integer",
+                        "label": "{{volume.value}}{{volume.unit}}"
+                    },
+                    "availableSizes": [
+                        "2x1",
+                        "3x1",
+                        "4x1",
+                        "1x2",
+                        "2x2"
+                    ]
+                }
+            }
+        ]
     },
     "detailView": [
         {

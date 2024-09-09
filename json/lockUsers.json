@@ -1,0 +1,183 @@
+{
+    "id": "lockUsers",
+    "version": 1,
+    "status": "proposed",
+    "name": "Lock Users",
+    "ephemeral": false,
+    "attributes": {
+        "commandResult": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                            "commandName": {
+                                "type": "string",
+                                "enum": [
+                                    "addUser",
+                                    "updateUser",
+                                    "deleteUser",
+                                    "deleteAllUsers"
+                                ]
+                            },
+                            "userIndex": {
+                                "type": "integer"
+                            },
+                            "statusCode": {
+                                "type": "string",
+                                "enum": [
+                                    "success",
+                                    "failure",
+                                    "occupied",
+                                    "invalidCommand",
+                                    "resourceExhausted",
+                                    "busy"
+                                ]
+                            }
+                        },
+                        "required": [
+                            "commandName",
+                            "statusCode"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
+        "totalUsersSupported": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "integer",
+                        "minimum": 0
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "users": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                                "userIndex": {
+                                    "type": "integer",
+                                    "minimum": 1
+                                },
+                                "userType": {
+                                    "title": "LockUserType",
+                                    "type": "string",
+                                    "enum": [
+                                        "adminMember",
+                                        "controlOnlyMember",
+                                        "guest"
+                                    ]
+                                }
+                            },
+                            "required": [
+                                "userIndex",
+                                "userType"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "addUser": {
+            "name": "addUser",
+            "arguments": [
+                {
+                    "name": "userName",
+                    "optional": false,
+                    "schema": {
+                        "type": "string",
+                        "maxLength": 10
+                    }
+                },
+                {
+                    "name": "userType",
+                    "optional": false,
+                    "schema": {
+                        "title": "LockUserType",
+                        "type": "string",
+                        "enum": [
+                            "adminMember",
+                            "controlOnlyMember",
+                            "guest"
+                        ]
+                    }
+                }
+            ]
+        },
+        "deleteAllUsers": {
+            "name": "deleteAllUsers",
+            "arguments": []
+        },
+        "deleteUser": {
+            "name": "deleteUser",
+            "arguments": [
+                {
+                    "name": "userIndex",
+                    "optional": false,
+                    "schema": {
+                        "type": "integer",
+                        "minimum": 1
+                    }
+                }
+            ]
+        },
+        "updateUser": {
+            "name": "updateUser",
+            "arguments": [
+                {
+                    "name": "userIndex",
+                    "optional": false,
+                    "schema": {
+                        "type": "integer",
+                        "minimum": 1
+                    }
+                },
+                {
+                    "name": "userName",
+                    "optional": false,
+                    "schema": {
+                        "type": "string",
+                        "maxLength": 10
+                    }
+                },
+                {
+                    "name": "userType",
+                    "optional": false,
+                    "schema": {
+                        "title": "LockUserType",
+                        "type": "string",
+                        "enum": [
+                            "adminMember",
+                            "controlOnlyMember",
+                            "guest"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

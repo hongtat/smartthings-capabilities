@@ -33,11 +33,17 @@
                         "key": "hazardous",
                         "value": "{{i18n.attributes.veryFineDustHealthConcern.i18n.value.hazardous.label}}",
                         "type": "active"
+                    },
+                    {
+                        "key": "unknown",
+                        "value": "{{i18n.attributes.veryFineDustHealthConcern.i18n.value.unknown.label}}",
+                        "type": "active"
                     }
                 ]
             }
         ],
-        "actions": []
+        "actions": [],
+        "panelItems": []
     },
     "detailView": [
         {
@@ -74,6 +80,11 @@
                     {
                         "key": "hazardous",
                         "value": "{{i18n.attributes.veryFineDustHealthConcern.i18n.value.hazardous.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "unknown",
+                        "value": "{{i18n.attributes.veryFineDustHealthConcern.i18n.value.unknown.label}}",
                         "type": "active"
                     }
                 ]
@@ -116,9 +127,15 @@
                             "key": "hazardous",
                             "value": "{{i18n.attributes.veryFineDustHealthConcern.i18n.value.hazardous.label}}",
                             "type": "active"
+                        },
+                        {
+                            "key": "unknown",
+                            "value": "{{i18n.attributes.veryFineDustHealthConcern.i18n.value.unknown.label}}",
+                            "type": "active"
                         }
                     ],
                     "value": "veryFineDustHealthConcern.value",
+                    "valueType": "string",
                     "multiSelectable": false
                 }
             }

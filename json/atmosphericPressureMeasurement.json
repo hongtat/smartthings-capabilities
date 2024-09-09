@@ -11,13 +11,19 @@
                 "properties": {
                     "value": {
                         "type": "number",
-                        "minimum": 0,
-                        "maximum": 110
+                        "minimum": 0
                     },
                     "unit": {
                         "type": "string",
                         "enum": [
-                            "kPa"
+                            "kPa",
+                            "hPa",
+                            "bar",
+                            "mbar",
+                            "mmHg",
+                            "inHg",
+                            "atm",
+                            "psi"
                         ],
                         "default": "kPa"
                     }

@@ -1,0 +1,29 @@
+{
+    "id": "applianceUtilization",
+    "version": 1,
+    "status": "proposed",
+    "name": "Appliance Utilization",
+    "ephemeral": false,
+    "attributes": {
+        "status": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "inUse",
+                            "notInUse"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": []
+}

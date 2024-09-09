@@ -5,6 +5,43 @@
     "name": "Video Stream",
     "ephemeral": false,
     "attributes": {
+        "supportedFeatures": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "object",
+                        "additionalProperties": true,
+                        "properties": {
+                            "audio": {
+                                "type": "string"
+                            },
+                            "video": {
+                                "type": "string"
+                            },
+                            "portrait": {
+                                "type": "boolean"
+                            },
+                            "width": {
+                                "type": "integer",
+                                "minimum": 240,
+                                "maximum": 4096
+                            },
+                            "height": {
+                                "type": "integer",
+                                "minimum": 240,
+                                "maximum": 4096
+                            }
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
         "stream": {
             "schema": {
                 "type": "object",

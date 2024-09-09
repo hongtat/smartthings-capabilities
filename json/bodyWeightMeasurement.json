@@ -1,7 +1,7 @@
 {
     "id": "bodyWeightMeasurement",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Body Weight Measurement",
     "ephemeral": false,
     "attributes": {

@@ -1,7 +1,7 @@
 {
     "id": "samsungTV",
     "version": 1,
-    "status": "live",
+    "status": "deprecated",
     "name": "Samsung TV",
     "ephemeral": false,
     "attributes": {

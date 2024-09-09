@@ -1,7 +1,7 @@
 {
     "id": "wifiMeshRouter",
     "version": 1,
-    "status": "proposed",
+    "status": "deprecated",
     "name": "Wifi Mesh Router",
     "ephemeral": false,
     "attributes": {

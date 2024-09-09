@@ -1,0 +1,79 @@
+{
+    "id": "cameraEvent",
+    "version": 1,
+    "status": "proposed",
+    "name": "Camera Event",
+    "ephemeral": false,
+    "attributes": {
+        "event": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "CameraEvent",
+                        "type": "string",
+                        "enum": [
+                            "package",
+                            "packageDisappear",
+                            "person",
+                            "personDisappear",
+                            "vehicle",
+                            "vehicleDisappear",
+                            "pet",
+                            "petDisappear",
+                            "loitering",
+                            "loiteringDisappear",
+                            "gestureV",
+                            "gestureFour",
+                            "gestureFive",
+                            "gestureGun",
+                            "gestureOk",
+                            "lensObstruction"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "supportedEvents": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "title": "CameraEvent",
+                            "type": "string",
+                            "enum": [
+                                "package",
+                                "packageDisappear",
+                                "person",
+                                "personDisappear",
+                                "vehicle",
+                                "vehicleDisappear",
+                                "pet",
+                                "petDisappear",
+                                "loitering",
+                                "loiteringDisappear",
+                                "gestureV",
+                                "gestureFour",
+                                "gestureFive",
+                                "gestureGun",
+                                "gestureOk",
+                                "lensObstruction"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": []
+}

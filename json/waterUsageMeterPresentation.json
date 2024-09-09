@@ -1,0 +1,57 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{waterUsageDay.value}} {{waterUsageDay.unit}}"
+            },
+            {
+                "label": "{{waterUsageMonth.value}} {{waterUsageMonth.unit}}"
+            }
+        ],
+        "actions": [],
+        "panelItems": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.attributes.waterUsageDay.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{waterUsageDay.value}}",
+                "unit": "waterUsageDay.unit"
+            }
+        },
+        {
+            "label": "{{i18n.attributes.waterUsageMonth.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{waterUsageMonth.value}}",
+                "unit": "waterUsageMonth.unit"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.attributes.waterUsageDay.label}}",
+                "displayType": "numberField",
+                "numberField": {
+                    "value": "waterUsageDay.value",
+                    "valueType": "number",
+                    "unit": "waterUsageDay.unit"
+                }
+            },
+            {
+                "label": "{{i18n.attributes.waterUsageMonth.label}}",
+                "displayType": "numberField",
+                "numberField": {
+                    "value": "waterUsageMonth.value",
+                    "valueType": "number",
+                    "unit": "waterUsageMonth.unit"
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "waterUsageMeter",
+    "version": 1
+}

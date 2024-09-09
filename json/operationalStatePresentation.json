@@ -1,0 +1,161 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{operationalState.value}}",
+                "alternatives": [
+                    {
+                        "key": "running",
+                        "value": "{{i18n.attributes.operationalState.i18n.value.running.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "stopped",
+                        "value": "{{i18n.attributes.operationalState.i18n.value.stopped.label}}",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "paused",
+                        "value": "{{i18n.attributes.operationalState.i18n.value.paused.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "panelItems": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.label}}",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "alternatives": [
+                        {
+                            "key": "start",
+                            "value": "{{i18n.commands.start.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "stop",
+                            "value": "{{i18n.commands.stop.label}}",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "resume",
+                            "value": "{{i18n.commands.resume.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "pause",
+                            "value": "{{i18n.commands.pause.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedCommands.value"
+                },
+                "state": {
+                    "value": "operationalState.value",
+                    "valueType": "string",
+                    "alternatives": [
+                        {
+                            "key": "running",
+                            "value": "{{i18n.attributes.operationalState.i18n.value.running.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "stopped",
+                            "value": "{{i18n.attributes.operationalState.i18n.value.stopped.label}}",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "paused",
+                            "value": "{{i18n.attributes.operationalState.i18n.value.paused.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "unableToStartOrResume",
+                            "value": "{{i18n.attributes.operationalState.i18n.value.unableToStartOrResume.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "unableToCompleteOperation",
+                            "value": "{{i18n.attributes.operationalState.i18n.value.unableToCompleteOperation.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "commandInvalidInCurrentState",
+                            "value": "{{i18n.attributes.operationalState.i18n.value.commandInvalidInCurrentState.label}}",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "running",
+                            "value": "{{i18n.attributes.operationalState.i18n.value.running.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "stopped",
+                            "value": "{{i18n.attributes.operationalState.i18n.value.stopped.label}}",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "paused",
+                            "value": "{{i18n.attributes.operationalState.i18n.value.paused.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedOperationalStates.value",
+                    "value": "operationalState.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "start",
+                            "value": "{{i18n.commands.start.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "stop",
+                            "value": "{{i18n.commands.stop.label}}",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "resume",
+                            "value": "{{i18n.commands.resume.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "pause",
+                            "value": "{{i18n.commands.pause.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedCommands.value"
+                }
+            }
+        ]
+    },
+    "id": "operationalState",
+    "version": 1
+}

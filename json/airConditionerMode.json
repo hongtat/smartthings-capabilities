@@ -5,15 +5,31 @@
     "name": "Air Conditioner Mode",
     "ephemeral": false,
     "attributes": {
+        "availableAcModes": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
         "supportedAcModes": {
             "schema": {
                 "type": "object",
                 "properties": {
                     "value": {
+                        "type": "array",
                         "items": {
                             "type": "string"
-                        },
-                        "type": "array"
+                        }
                     }
                 },
                 "additionalProperties": false,
@@ -26,9 +42,9 @@
                 "type": "object",
                 "properties": {
                     "value": {
-                        "maxLength": 255,
                         "title": "String",
-                        "type": "string"
+                        "type": "string",
+                        "maxLength": 255
                     }
                 },
                 "additionalProperties": false,
@@ -48,9 +64,9 @@
                     "name": "mode",
                     "optional": false,
                     "schema": {
-                        "maxLength": 255,
                         "title": "String",
-                        "type": "string"
+                        "type": "string",
+                        "maxLength": 255
                     }
                 }
             ]

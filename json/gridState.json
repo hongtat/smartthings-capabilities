@@ -1,0 +1,30 @@
+{
+    "id": "gridState",
+    "version": 1,
+    "status": "proposed",
+    "name": "Grid State",
+    "ephemeral": false,
+    "attributes": {
+        "grid": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "Grid",
+                        "type": "string",
+                        "enum": [
+                            "OnGrid",
+                            "OffGrid"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": []
+}

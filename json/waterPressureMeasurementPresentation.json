@@ -25,7 +25,8 @@
                 "label": "{{pressure.value}} {{pressure.unit}}"
             }
         ],
-        "actions": []
+        "actions": [],
+        "panelItems": []
     },
     "detailView": [
         {

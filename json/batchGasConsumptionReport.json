@@ -1,0 +1,86 @@
+{
+    "id": "batchGasConsumptionReport",
+    "version": 1,
+    "status": "proposed",
+    "name": "Batch Gas Consumption Report",
+    "ephemeral": false,
+    "attributes": {
+        "hourlyGasConsumptions": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                                "deltaUsage": {
+                                    "type": "number"
+                                },
+                                "usageSaved": {
+                                    "type": "number"
+                                },
+                                "start": {
+                                    "title": "Iso8601Date",
+                                    "type": "string",
+                                    "pattern": "^(?:[1-9]\\d{3}-?(?:(?:0[1-9]|1[0-2])-?(?:0[1-9]|1\\d|2[0-8])|(?:0[13-9]|1[0-2])-?(?:29|30)|(?:0[13578]|1[02])-?31)|(?:[1-9]\\d(?:0[48]|[2468][048]|[13579][26])|(?:[2468][048]|[13579][26])00)-?02-?29)T(?:[01]\\d|2[0-3]):?[0-5]\\d:?[0-5]\\d(?:\\.\\d{3})?(?:Z|[+-][01]\\d(?::?[0-5]\\d)?)$"
+                                }
+                            },
+                            "required": [
+                                "start",
+                                "deltaUsage"
+                            ]
+                        }
+                    },
+                    "unit": {
+                        "type": "string",
+                        "enum": [
+                            "Wh",
+                            "m^3",
+                            "cf",
+                            "MJ"
+                        ],
+                        "default": "Wh"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "hourlyUsageViewAvailable": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "boolean"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "todayUsageViewAvailable": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "boolean"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": []
+}

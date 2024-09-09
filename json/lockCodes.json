@@ -88,7 +88,8 @@
                             "unknown",
                             "unlocked",
                             "unlocked with timeout",
-                            "not fully locked"
+                            "not fully locked",
+                            "unlatched"
                         ]
                     },
                     "data": {

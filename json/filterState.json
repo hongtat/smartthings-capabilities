@@ -29,7 +29,31 @@
                 ]
             },
             "enumCommands": []
+        },
+        "supportedFilterCommands": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "enum": [
+                                "resetFilter"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
         }
     },
-    "commands": []
+    "commands": {
+        "resetFilter": {
+            "name": "resetFilter",
+            "arguments": []
+        }
+    }
 }

@@ -1,0 +1,30 @@
+{
+    "id": "batteryLevel",
+    "version": 1,
+    "status": "proposed",
+    "name": "Battery Level",
+    "ephemeral": false,
+    "attributes": {
+        "battery": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "normal",
+                            "warning",
+                            "critical"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": []
+}

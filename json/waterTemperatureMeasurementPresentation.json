@@ -1,0 +1,60 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{temperature.value}} {{temperature.unit}}",
+                "alternatives": [
+                    {
+                        "key": "C",
+                        "value": "\u00b0C",
+                        "type": "active"
+                    },
+                    {
+                        "key": "F",
+                        "value": "\u00b0F",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "panelItems": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.label}}",
+            "displayType": "slider",
+            "slider": {
+                "range": [
+                    -20,
+                    50
+                ],
+                "unit": "temperature.unit",
+                "supportedValues": "temperatureRange.value",
+                "value": "temperature.value",
+                "valueType": "number"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "numberField",
+                "numberField": {
+                    "value": "temperature.value",
+                    "valueType": "number",
+                    "unit": "temperature.unit",
+                    "range": [
+                        -20,
+                        50
+                    ],
+                    "supportedValues": "temperatureRange.value"
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "waterTemperatureMeasurement",
+    "version": 1
+}

@@ -33,11 +33,17 @@
                         "key": "hazardous",
                         "value": "{{i18n.attributes.airQualityHealthConcern.i18n.value.hazardous.label}}",
                         "type": "active"
+                    },
+                    {
+                        "key": "unknown",
+                        "value": "{{i18n.attributes.airQualityHealthConcern.i18n.value.unknown.label}}",
+                        "type": "active"
                     }
                 ]
             }
         ],
-        "actions": []
+        "actions": [],
+        "panelItems": []
     },
     "detailView": [
         {
@@ -74,6 +80,11 @@
                     {
                         "key": "hazardous",
                         "value": "{{i18n.attributes.airQualityHealthConcern.i18n.value.hazardous.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "unknown",
+                        "value": "{{i18n.attributes.airQualityHealthConcern.i18n.value.unknown.label}}",
                         "type": "active"
                     }
                 ]
@@ -115,6 +126,11 @@
                         {
                             "key": "hazardous",
                             "value": "{{i18n.attributes.airQualityHealthConcern.i18n.value.hazardous.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "unknown",
+                            "value": "{{i18n.attributes.airQualityHealthConcern.i18n.value.unknown.label}}",
                             "type": "active"
                         }
                     ],

@@ -1,0 +1,77 @@
+{
+    "id": "fanMode",
+    "version": 1,
+    "status": "proposed",
+    "name": "Fan Mode",
+    "ephemeral": false,
+    "attributes": {
+        "fanMode": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "FanMode",
+                        "type": "string",
+                        "enum": [
+                            "auto",
+                            "low",
+                            "medium",
+                            "high",
+                            "off"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "setter": "setFanMode",
+            "enumCommands": []
+        },
+        "supportedFanModes": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "title": "FanMode",
+                            "type": "string",
+                            "enum": [
+                                "auto",
+                                "low",
+                                "medium",
+                                "high",
+                                "off"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setFanMode": {
+            "name": "setFanMode",
+            "arguments": [
+                {
+                    "name": "fanMode",
+                    "optional": false,
+                    "schema": {
+                        "title": "FanMode",
+                        "type": "string",
+                        "enum": [
+                            "auto",
+                            "low",
+                            "medium",
+                            "high",
+                            "off"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

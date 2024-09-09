@@ -1,7 +1,7 @@
 {
     "id": "tV",
     "version": 1,
-    "status": "live",
+    "status": "deprecated",
     "name": "TV",
     "ephemeral": false,
     "attributes": {

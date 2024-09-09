@@ -1,7 +1,7 @@
 {
     "detailView": [
         {
-            "label": "Refrigeration Temperature",
+            "label": "{{i18n.label}}",
             "displayType": "slider",
             "slider": {
                 "range": [
@@ -20,7 +20,7 @@
         "conditions": [],
         "actions": [
             {
-                "label": "Refrigeration Temperature",
+                "label": "{{i18n.label}}",
                 "displayType": "numberField",
                 "numberField": {
                     "command": "setRefrigerationSetpoint",

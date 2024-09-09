@@ -29,7 +29,8 @@
                     "command": "call"
                 }
             }
-        ]
+        ],
+        "panelItems": []
     },
     "detailView": [
         {

@@ -5,7 +5,8 @@
                 "label": "{{mode.value}}"
             }
         ],
-        "actions": []
+        "actions": [],
+        "panelItems": []
     },
     "detailView": [
         {

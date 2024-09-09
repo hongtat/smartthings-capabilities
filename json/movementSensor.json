@@ -5,6 +5,34 @@
     "name": "Movement Sensor",
     "ephemeral": false,
     "attributes": {
+        "supportedMovements": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "title": "MovementType",
+                            "type": "string",
+                            "enum": [
+                                "inactive",
+                                "approaching",
+                                "movingAway",
+                                "entering",
+                                "leaving",
+                                "enteringLeft",
+                                "enteringRight",
+                                "leavingLeft",
+                                "leavingRight"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
         "movement": {
             "schema": {
                 "type": "object",
@@ -17,7 +45,11 @@
                             "approaching",
                             "movingAway",
                             "entering",
-                            "leaving"
+                            "leaving",
+                            "enteringLeft",
+                            "enteringRight",
+                            "leavingLeft",
+                            "leavingRight"
                         ]
                     }
                 },

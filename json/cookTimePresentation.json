@@ -1,0 +1,65 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{cookTime.value}} {{cookTime.unit}}"
+            }
+        ],
+        "actions": [],
+        "panelItems": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.label}}",
+            "displayType": "numberField",
+            "numberField": {
+                "value": "cookTime.value",
+                "valueType": "integer",
+                "unit": "cookTime.unit",
+                "command": "setCookTime",
+                "argumentType": "integer",
+                "range": [
+                    1,
+                    86400
+                ],
+                "supportedValues": "cookTimeRange.value"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "numberField",
+                "numberField": {
+                    "value": "cookTime.value",
+                    "valueType": "integer",
+                    "unit": "cookTime.unit",
+                    "range": [
+                        1,
+                        86400
+                    ],
+                    "supportedValues": "cookTimeRange.value"
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "numberField",
+                "numberField": {
+                    "command": "setCookTime",
+                    "argumentType": "integer",
+                    "unit": "cookTime.unit",
+                    "range": [
+                        1,
+                        86400
+                    ],
+                    "supportedValues": "cookTimeRange.value"
+                }
+            }
+        ]
+    },
+    "id": "cookTime",
+    "version": 1
+}

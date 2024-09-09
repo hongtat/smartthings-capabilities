@@ -1,0 +1,32 @@
+{
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "dynamicList",
+                "dynamicList": {
+                    "value": "faceRecognizedEvent.value.id",
+                    "valueType": "string",
+                    "supportedValues": {
+                        "value": "userList.value",
+                        "valueMap": {
+                            "key": "{{it.id}}",
+                            "value": "{{it.label}}"
+                        }
+                    },
+                    "alternatives": [
+                        {
+                            "key": "notRegisteredUser",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.FACERECOGNITION_DEFAULT_UNKNOWN",
+                            "type": "active"
+                        }
+                    ],
+                    "multiSelectable": true
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "faceRecognition",
+    "version": 1
+}

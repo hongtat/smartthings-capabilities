@@ -1,0 +1,72 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{status.value}}",
+                "alternatives": [
+                    {
+                        "key": "inUse",
+                        "value": "{{i18n.attributes.status.i18n.value.inUse.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "notInUse",
+                        "value": "{{i18n.attributes.status.i18n.value.notInUse.label}}",
+                        "type": "inactive"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "panelItems": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{status.value}}",
+                "alternatives": [
+                    {
+                        "key": "inUse",
+                        "value": "{{i18n.attributes.status.i18n.value.inUse.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "notInUse",
+                        "value": "{{i18n.attributes.status.i18n.value.notInUse.label}}",
+                        "type": "inactive"
+                    }
+                ]
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "inUse",
+                            "value": "{{i18n.attributes.status.i18n.value.inUse.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "notInUse",
+                            "value": "{{i18n.attributes.status.i18n.value.notInUse.label}}",
+                            "type": "inactive"
+                        }
+                    ],
+                    "value": "status.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "applianceUtilization",
+    "version": 1
+}

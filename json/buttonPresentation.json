@@ -122,7 +122,8 @@
                 ]
             }
         ],
-        "actions": []
+        "actions": [],
+        "panelItems": []
     },
     "detailView": [
         {
@@ -149,7 +150,7 @@
                     {
                         "key": "Ready",
                         "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.BUTTON_DEFAULT_STANDBY",
-                        "type": "active"
+                        "type": "inactive"
                     },
                     {
                         "key": "pushed_2x",

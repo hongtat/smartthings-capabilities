@@ -1,7 +1,7 @@
 {
     "id": "riceCooker",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Rice Cooker",
     "ephemeral": false,
     "attributes": {

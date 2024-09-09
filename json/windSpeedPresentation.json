@@ -5,7 +5,8 @@
                 "label": "{{windspeed.value}} {{windspeed.unit}}"
             }
         ],
-        "actions": []
+        "actions": [],
+        "panelItems": []
     },
     "detailView": [
         {

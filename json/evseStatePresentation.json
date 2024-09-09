@@ -1,0 +1,275 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{state.value}}",
+                "alternatives": [
+                    {
+                        "key": "notPluggedIn",
+                        "value": "{{i18n.attributes.state.i18n.value.notPluggedIn.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "pluggedInNoDemand",
+                        "value": "{{i18n.attributes.state.i18n.value.pluggedInNoDemand.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "pluggedInDemand",
+                        "value": "{{i18n.attributes.state.i18n.value.pluggedInDemand.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "pluggedInCharging",
+                        "value": "{{i18n.attributes.state.i18n.value.pluggedInCharging.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "pluggedInDischarging",
+                        "value": "{{i18n.attributes.state.i18n.value.pluggedInDischarging.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "sessionEnding",
+                        "value": "{{i18n.attributes.state.i18n.value.sessionEnding.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "fault",
+                        "value": "{{i18n.attributes.state.i18n.value.fault.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "panelItems": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.attributes.state.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{state.value}}",
+                "alternatives": [
+                    {
+                        "key": "notPluggedIn",
+                        "value": "{{i18n.attributes.state.i18n.value.notPluggedIn.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "pluggedInNoDemand",
+                        "value": "{{i18n.attributes.state.i18n.value.pluggedInNoDemand.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "pluggedInDemand",
+                        "value": "{{i18n.attributes.state.i18n.value.pluggedInDemand.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "pluggedInCharging",
+                        "value": "{{i18n.attributes.state.i18n.value.pluggedInCharging.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "pluggedInDischarging",
+                        "value": "{{i18n.attributes.state.i18n.value.pluggedInDischarging.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "sessionEnding",
+                        "value": "{{i18n.attributes.state.i18n.value.sessionEnding.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "fault",
+                        "value": "{{i18n.attributes.state.i18n.value.fault.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "{{i18n.attributes.faultState.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{faultState.value}}",
+                "alternatives": [
+                    {
+                        "key": "noError",
+                        "value": "{{i18n.attributes.faultState.i18n.value.noError.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "meterFailure",
+                        "value": "{{i18n.attributes.faultState.i18n.value.meterFailure.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "overVoltage",
+                        "value": "{{i18n.attributes.faultState.i18n.value.overVoltage.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "underVoltage",
+                        "value": "{{i18n.attributes.faultState.i18n.value.underVoltage.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "overCurrent",
+                        "value": "{{i18n.attributes.faultState.i18n.value.overCurrent.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "contactWetFailure",
+                        "value": "{{i18n.attributes.faultState.i18n.value.contactWetFailure.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "contactDryFailure",
+                        "value": "{{i18n.attributes.faultState.i18n.value.contactDryFailure.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "groundFault",
+                        "value": "{{i18n.attributes.faultState.i18n.value.groundFault.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "powerLoss",
+                        "value": "{{i18n.attributes.faultState.i18n.value.powerLoss.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "powerQuality",
+                        "value": "{{i18n.attributes.faultState.i18n.value.powerQuality.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "pilotShortCircuit",
+                        "value": "{{i18n.attributes.faultState.i18n.value.pilotShortCircuit.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "emergencyStop",
+                        "value": "{{i18n.attributes.faultState.i18n.value.emergencyStop.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "eVDisconnected",
+                        "value": "{{i18n.attributes.faultState.i18n.value.eVDisconnected.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "wrongPowerSupply",
+                        "value": "{{i18n.attributes.faultState.i18n.value.wrongPowerSupply.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "liveNeutralSwap",
+                        "value": "{{i18n.attributes.faultState.i18n.value.liveNeutralSwap.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "overTemperature",
+                        "value": "{{i18n.attributes.faultState.i18n.value.overTemperature.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "other",
+                        "value": "{{i18n.attributes.faultState.i18n.value.other.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "{{i18n.attributes.supplyState.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{supplyState.value}}",
+                "alternatives": [
+                    {
+                        "key": "disabled",
+                        "value": "{{i18n.attributes.supplyState.i18n.value.disabled.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "chargingEnabled",
+                        "value": "{{i18n.attributes.supplyState.i18n.value.chargingEnabled.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "dischargingEnabled",
+                        "value": "{{i18n.attributes.supplyState.i18n.value.dischargingEnabled.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "disabledError",
+                        "value": "{{i18n.attributes.supplyState.i18n.value.disabledError.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "disabledDiagnostics",
+                        "value": "{{i18n.attributes.supplyState.i18n.value.disabledDiagnostics.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.attributes.state.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "notPluggedIn",
+                            "value": "{{i18n.attributes.state.i18n.value.notPluggedIn.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "pluggedInNoDemand",
+                            "value": "{{i18n.attributes.state.i18n.value.pluggedInNoDemand.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "pluggedInDemand",
+                            "value": "{{i18n.attributes.state.i18n.value.pluggedInDemand.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "pluggedInCharging",
+                            "value": "{{i18n.attributes.state.i18n.value.pluggedInCharging.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "pluggedInDischarging",
+                            "value": "{{i18n.attributes.state.i18n.value.pluggedInDischarging.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "sessionEnding",
+                            "value": "{{i18n.attributes.state.i18n.value.sessionEnding.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "fault",
+                            "value": "{{i18n.attributes.state.i18n.value.fault.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "state.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "evseState",
+    "version": 1
+}

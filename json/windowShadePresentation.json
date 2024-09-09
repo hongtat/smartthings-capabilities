@@ -80,6 +80,53 @@
                     }
                 }
             }
+        ],
+        "panelItems": [
+            {
+                "label": "{{i18n.commands.open.label}}",
+                "displayType": "pushButton",
+                "pushButton": {
+                    "command": "open",
+                    "iconUrl": "icon:\/\/open",
+                    "availableSizes": [
+                        "1x1",
+                        "2x1",
+                        "3x1",
+                        "4x1",
+                        "2x2"
+                    ]
+                }
+            },
+            {
+                "label": "{{i18n.commands.close.label}}",
+                "displayType": "pushButton",
+                "pushButton": {
+                    "command": "close",
+                    "iconUrl": "icon:\/\/close",
+                    "availableSizes": [
+                        "1x1",
+                        "2x1",
+                        "3x1",
+                        "4x1",
+                        "2x2"
+                    ]
+                }
+            },
+            {
+                "label": "{{i18n.commands.pause.label}}",
+                "displayType": "pushButton",
+                "pushButton": {
+                    "command": "pause",
+                    "iconUrl": "icon:\/\/pause",
+                    "availableSizes": [
+                        "1x1",
+                        "2x1",
+                        "3x1",
+                        "4x1",
+                        "2x2"
+                    ]
+                }
+            }
         ]
     },
     "detailView": [

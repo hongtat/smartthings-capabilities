@@ -7,7 +7,7 @@
                     {
                         "key": "noActivity",
                         "value": "{{i18n.attributes.activity.i18n.value.noActivity.label}}",
-                        "type": "active"
+                        "type": "inactive"
                     },
                     {
                         "key": "falling",
@@ -37,7 +37,8 @@
                 ]
             }
         ],
-        "actions": []
+        "actions": [],
+        "panelItems": []
     },
     "detailView": [
         {
@@ -49,7 +50,7 @@
                     {
                         "key": "noActivity",
                         "value": "{{i18n.attributes.activity.i18n.value.noActivity.label}}",
-                        "type": "active"
+                        "type": "inactive"
                     },
                     {
                         "key": "falling",
@@ -90,7 +91,7 @@
                         {
                             "key": "noActivity",
                             "value": "{{i18n.attributes.activity.i18n.value.noActivity.label}}",
-                            "type": "active"
+                            "type": "inactive"
                         },
                         {
                             "key": "falling",
@@ -119,6 +120,7 @@
                         }
                     ],
                     "value": "activity.value",
+                    "valueType": "string",
                     "multiSelectable": false
                 }
             }

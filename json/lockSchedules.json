@@ -1,0 +1,383 @@
+{
+    "id": "lockSchedules",
+    "version": 1,
+    "status": "proposed",
+    "name": "Lock Schedules",
+    "ephemeral": false,
+    "attributes": {
+        "commandResult": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                            "commandName": {
+                                "type": "string",
+                                "enum": [
+                                    "setWeekDaySchedule",
+                                    "clearWeekDaySchedules",
+                                    "setYearDaySchedule",
+                                    "clearYearDaySchedules"
+                                ]
+                            },
+                            "userIndex": {
+                                "type": "integer",
+                                "minimum": 1
+                            },
+                            "scheduleIndex": {
+                                "type": "integer",
+                                "minimum": 1
+                            },
+                            "statusCode": {
+                                "type": "string",
+                                "enum": [
+                                    "success",
+                                    "failure",
+                                    "invalidCommand",
+                                    "busy"
+                                ]
+                            }
+                        },
+                        "required": [
+                            "commandName",
+                            "statusCode"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
+        "weekDaySchedules": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                                "userIndex": {
+                                    "type": "integer",
+                                    "minimum": 1
+                                },
+                                "schedules": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "object",
+                                        "additionalProperties": false,
+                                        "properties": {
+                                            "scheduleIndex": {
+                                                "type": "integer",
+                                                "minimum": 1
+                                            },
+                                            "weekdays": {
+                                                "type": "array",
+                                                "items": {
+                                                    "title": "DayOfWeek",
+                                                    "type": "string",
+                                                    "enum": [
+                                                        "Sunday",
+                                                        "Monday",
+                                                        "Tuesday",
+                                                        "Wednesday",
+                                                        "Thursday",
+                                                        "Friday",
+                                                        "Saturday"
+                                                    ]
+                                                }
+                                            },
+                                            "startHour": {
+                                                "type": "integer",
+                                                "minimum": 0,
+                                                "maximum": 23
+                                            },
+                                            "startMinute": {
+                                                "type": "integer",
+                                                "minimum": 0,
+                                                "maximum": 59
+                                            },
+                                            "endHour": {
+                                                "type": "integer",
+                                                "minimum": 0,
+                                                "maximum": 23
+                                            },
+                                            "endMinute": {
+                                                "type": "integer",
+                                                "minimum": 0,
+                                                "maximum": 59
+                                            }
+                                        },
+                                        "required": [
+                                            "scheduleIndex",
+                                            "weekdays",
+                                            "startHour",
+                                            "startMinute",
+                                            "endHour",
+                                            "endMinute"
+                                        ]
+                                    }
+                                }
+                            },
+                            "required": [
+                                "userIndex",
+                                "schedules"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
+        "yearDaySchedules": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                                "userIndex": {
+                                    "type": "integer",
+                                    "minimum": 1
+                                },
+                                "schedules": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "object",
+                                        "additionalProperties": false,
+                                        "properties": {
+                                            "scheduleIndex": {
+                                                "type": "integer",
+                                                "minimum": 1
+                                            },
+                                            "localStartTime": {
+                                                "title": "Iso8601Date",
+                                                "type": "string",
+                                                "pattern": "^(?:[1-9]\\d{3}-?(?:(?:0[1-9]|1[0-2])-?(?:0[1-9]|1\\d|2[0-8])|(?:0[13-9]|1[0-2])-?(?:29|30)|(?:0[13578]|1[02])-?31)|(?:[1-9]\\d(?:0[48]|[2468][048]|[13579][26])|(?:[2468][048]|[13579][26])00)-?02-?29)T(?:[01]\\d|2[0-3]):?[0-5]\\d:?[0-5]\\d(?:\\.\\d{3})?(?:Z|[+-][01]\\d(?::?[0-5]\\d)?)$"
+                                            },
+                                            "localEndTime": {
+                                                "title": "Iso8601Date",
+                                                "type": "string",
+                                                "pattern": "^(?:[1-9]\\d{3}-?(?:(?:0[1-9]|1[0-2])-?(?:0[1-9]|1\\d|2[0-8])|(?:0[13-9]|1[0-2])-?(?:29|30)|(?:0[13578]|1[02])-?31)|(?:[1-9]\\d(?:0[48]|[2468][048]|[13579][26])|(?:[2468][048]|[13579][26])00)-?02-?29)T(?:[01]\\d|2[0-3]):?[0-5]\\d:?[0-5]\\d(?:\\.\\d{3})?(?:Z|[+-][01]\\d(?::?[0-5]\\d)?)$"
+                                            }
+                                        },
+                                        "required": [
+                                            "scheduleIndex",
+                                            "localStartTime",
+                                            "localEndTime"
+                                        ]
+                                    }
+                                }
+                            },
+                            "required": [
+                                "userIndex",
+                                "schedules"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
+        "weekDaySchedulesPerUser": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "integer",
+                        "minimum": 0
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "yearDaySchedulesPerUser": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "integer",
+                        "minimum": 0
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "clearWeekDaySchedules": {
+            "name": "clearWeekDaySchedules",
+            "arguments": [
+                {
+                    "name": "userIndex",
+                    "optional": false,
+                    "schema": {
+                        "type": "integer",
+                        "minimum": 1
+                    }
+                },
+                {
+                    "name": "scheduleIndex",
+                    "optional": false,
+                    "schema": {
+                        "type": "integer",
+                        "minimum": 1,
+                        "optional": true
+                    }
+                }
+            ]
+        },
+        "setWeekDaySchedule": {
+            "name": "setWeekDaySchedule",
+            "arguments": [
+                {
+                    "name": "userIndex",
+                    "optional": false,
+                    "schema": {
+                        "type": "integer",
+                        "minimum": 1
+                    }
+                },
+                {
+                    "name": "scheduleIndex",
+                    "optional": false,
+                    "schema": {
+                        "type": "integer",
+                        "minimum": 1,
+                        "optional": true
+                    }
+                },
+                {
+                    "name": "schedule",
+                    "optional": false,
+                    "schema": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                            "weekDays": {
+                                "type": "array",
+                                "items": {
+                                    "title": "DayOfWeek",
+                                    "type": "string",
+                                    "enum": [
+                                        "Sunday",
+                                        "Monday",
+                                        "Tuesday",
+                                        "Wednesday",
+                                        "Thursday",
+                                        "Friday",
+                                        "Saturday"
+                                    ]
+                                }
+                            },
+                            "startHour": {
+                                "type": "integer",
+                                "minimum": 0,
+                                "maximum": 23
+                            },
+                            "startMinute": {
+                                "type": "integer",
+                                "minimum": 0,
+                                "maximum": 59
+                            },
+                            "endHour": {
+                                "type": "integer",
+                                "minimum": 0,
+                                "maximum": 23
+                            },
+                            "endMinute": {
+                                "type": "integer",
+                                "minimum": 0,
+                                "maximum": 59
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        "setYearDaySchedule": {
+            "name": "setYearDaySchedule",
+            "arguments": [
+                {
+                    "name": "userIndex",
+                    "optional": false,
+                    "schema": {
+                        "type": "integer",
+                        "minimum": 1
+                    }
+                },
+                {
+                    "name": "scheduleIndex",
+                    "optional": false,
+                    "schema": {
+                        "type": "integer",
+                        "minimum": 1,
+                        "optional": true
+                    }
+                },
+                {
+                    "name": "schedule",
+                    "optional": false,
+                    "schema": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                            "localStartTime": {
+                                "title": "Iso8601Date",
+                                "type": "string",
+                                "pattern": "^(?:[1-9]\\d{3}-?(?:(?:0[1-9]|1[0-2])-?(?:0[1-9]|1\\d|2[0-8])|(?:0[13-9]|1[0-2])-?(?:29|30)|(?:0[13578]|1[02])-?31)|(?:[1-9]\\d(?:0[48]|[2468][048]|[13579][26])|(?:[2468][048]|[13579][26])00)-?02-?29)T(?:[01]\\d|2[0-3]):?[0-5]\\d:?[0-5]\\d(?:\\.\\d{3})?(?:Z|[+-][01]\\d(?::?[0-5]\\d)?)$"
+                            },
+                            "localEndTime": {
+                                "title": "Iso8601Date",
+                                "type": "string",
+                                "pattern": "^(?:[1-9]\\d{3}-?(?:(?:0[1-9]|1[0-2])-?(?:0[1-9]|1\\d|2[0-8])|(?:0[13-9]|1[0-2])-?(?:29|30)|(?:0[13578]|1[02])-?31)|(?:[1-9]\\d(?:0[48]|[2468][048]|[13579][26])|(?:[2468][048]|[13579][26])00)-?02-?29)T(?:[01]\\d|2[0-3]):?[0-5]\\d:?[0-5]\\d(?:\\.\\d{3})?(?:Z|[+-][01]\\d(?::?[0-5]\\d)?)$"
+                            }
+                        },
+                        "optional": false
+                    }
+                }
+            ]
+        },
+        "clearYearDaySchedules": {
+            "name": "clearYearDaySchedules",
+            "arguments": [
+                {
+                    "name": "userIndex",
+                    "optional": false,
+                    "schema": {
+                        "type": "integer",
+                        "minimum": 1
+                    }
+                },
+                {
+                    "name": "scheduleIndex",
+                    "optional": false,
+                    "schema": {
+                        "type": "integer",
+                        "minimum": 1,
+                        "optional": true
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -10,6 +10,21 @@
                         "type": "active"
                     },
                     {
+                        "key": "aIRinse",
+                        "value": "{{i18n.attributes.washerJobState.i18n.value.aIRinse.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "aISpin",
+                        "value": "{{i18n.attributes.washerJobState.i18n.value.aISpin.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "aIWash",
+                        "value": "{{i18n.attributes.washerJobState.i18n.value.aIWash.label}}",
+                        "type": "active"
+                    },
+                    {
                         "key": "cooling",
                         "value": "{{i18n.attributes.washerJobState.i18n.value.cooling.label}}",
                         "type": "active"
@@ -62,6 +77,11 @@
                     {
                         "key": "wrinklePrevent",
                         "value": "{{i18n.attributes.washerJobState.i18n.value.wrinklePrevent.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "freezeProtection",
+                        "value": "{{i18n.attributes.washerJobState.i18n.value.freezeProtection.label}}",
                         "type": "active"
                     },
                     {
@@ -140,7 +160,8 @@
                     }
                 }
             }
-        ]
+        ],
+        "panelItems": []
     },
     "detailView": [
         {
@@ -152,6 +173,21 @@
                     {
                         "key": "airWash",
                         "value": "{{i18n.attributes.washerJobState.i18n.value.airWash.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "aIRinse",
+                        "value": "{{i18n.attributes.washerJobState.i18n.value.aIRinse.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "aISpin",
+                        "value": "{{i18n.attributes.washerJobState.i18n.value.aISpin.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "aIWash",
+                        "value": "{{i18n.attributes.washerJobState.i18n.value.aIWash.label}}",
                         "type": "active"
                     },
                     {
@@ -207,6 +243,11 @@
                     {
                         "key": "wrinklePrevent",
                         "value": "{{i18n.attributes.washerJobState.i18n.value.wrinklePrevent.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "freezeProtection",
+                        "value": "{{i18n.attributes.washerJobState.i18n.value.freezeProtection.label}}",
                         "type": "active"
                     },
                     {
@@ -323,6 +364,21 @@
                             "type": "active"
                         },
                         {
+                            "key": "aIRinse",
+                            "value": "{{i18n.attributes.washerJobState.i18n.value.aIRinse.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "aISpin",
+                            "value": "{{i18n.attributes.washerJobState.i18n.value.aISpin.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "aIWash",
+                            "value": "{{i18n.attributes.washerJobState.i18n.value.aIWash.label}}",
+                            "type": "active"
+                        },
+                        {
                             "key": "cooling",
                             "value": "{{i18n.attributes.washerJobState.i18n.value.cooling.label}}",
                             "type": "active"
@@ -375,6 +431,11 @@
                         {
                             "key": "wrinklePrevent",
                             "value": "{{i18n.attributes.washerJobState.i18n.value.wrinklePrevent.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "freezeProtection",
+                            "value": "{{i18n.attributes.washerJobState.i18n.value.freezeProtection.label}}",
                             "type": "active"
                         },
                         {

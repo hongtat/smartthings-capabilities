@@ -1,0 +1,116 @@
+{
+    "id": "multipleZonePresence",
+    "version": 1,
+    "status": "proposed",
+    "name": "Multiple Zone Presence",
+    "ephemeral": false,
+    "attributes": {
+        "zoneState": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "title": "zoneState",
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                                "id": {
+                                    "title": "String",
+                                    "type": "string",
+                                    "maxLength": 255
+                                },
+                                "name": {
+                                    "title": "String",
+                                    "type": "string",
+                                    "maxLength": 255
+                                },
+                                "state": {
+                                    "title": "PresenceState",
+                                    "type": "string",
+                                    "enum": [
+                                        "present",
+                                        "not present"
+                                    ]
+                                }
+                            },
+                            "required": [
+                                "id",
+                                "name",
+                                "state"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "deleteZone": {
+            "name": "deleteZone",
+            "arguments": [
+                {
+                    "name": "id",
+                    "optional": false,
+                    "schema": {
+                        "title": "String",
+                        "type": "string",
+                        "maxLength": 255
+                    }
+                }
+            ]
+        },
+        "createZone": {
+            "name": "createZone",
+            "arguments": [
+                {
+                    "name": "name",
+                    "optional": false,
+                    "schema": {
+                        "title": "String",
+                        "type": "string",
+                        "maxLength": 255
+                    }
+                },
+                {
+                    "name": "id",
+                    "optional": true,
+                    "schema": {
+                        "title": "String",
+                        "type": "string",
+                        "maxLength": 255
+                    }
+                }
+            ]
+        },
+        "updateZoneName": {
+            "name": "updateZoneName",
+            "arguments": [
+                {
+                    "name": "id",
+                    "optional": false,
+                    "schema": {
+                        "title": "String",
+                        "type": "string",
+                        "maxLength": 255
+                    }
+                },
+                {
+                    "name": "name",
+                    "optional": false,
+                    "schema": {
+                        "title": "String",
+                        "type": "string",
+                        "maxLength": 255
+                    }
+                }
+            ]
+        }
+    }
+}

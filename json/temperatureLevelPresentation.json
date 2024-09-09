@@ -1,0 +1,123 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{temperatureLevel.value}}"
+            }
+        ],
+        "actions": [],
+        "panelItems": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.label}}",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "name": "setTemperatureLevel",
+                    "alternatives": [
+                        {
+                            "key": "1",
+                            "value": "1",
+                            "type": "active"
+                        },
+                        {
+                            "key": "2",
+                            "value": "2",
+                            "type": "active"
+                        },
+                        {
+                            "key": "3",
+                            "value": "3",
+                            "type": "active"
+                        }
+                    ],
+                    "argumentType": "string",
+                    "supportedValues": "supportedTemperatureLevels.value"
+                },
+                "state": {
+                    "value": "temperatureLevel.value",
+                    "valueType": "string",
+                    "alternatives": [
+                        {
+                            "key": "1",
+                            "value": "1",
+                            "type": "active"
+                        },
+                        {
+                            "key": "2",
+                            "value": "2",
+                            "type": "active"
+                        },
+                        {
+                            "key": "3",
+                            "value": "3",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "1",
+                            "value": "1",
+                            "type": "active"
+                        },
+                        {
+                            "key": "2",
+                            "value": "2",
+                            "type": "active"
+                        },
+                        {
+                            "key": "3",
+                            "value": "3",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedTemperatureLevels.value",
+                    "value": "temperatureLevel.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "1",
+                            "value": "1",
+                            "type": "active"
+                        },
+                        {
+                            "key": "2",
+                            "value": "2",
+                            "type": "active"
+                        },
+                        {
+                            "key": "3",
+                            "value": "3",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedTemperatureLevels.value",
+                    "command": "setTemperatureLevel",
+                    "argumentType": "string"
+                }
+            }
+        ]
+    },
+    "id": "temperatureLevel",
+    "version": 1
+}

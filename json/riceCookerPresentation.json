@@ -73,7 +73,8 @@
                     "command": "stop"
                 }
             }
-        ]
+        ],
+        "panelItems": []
     },
     "detailView": [
         {

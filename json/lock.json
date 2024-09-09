@@ -5,6 +5,31 @@
     "name": "Lock",
     "ephemeral": false,
     "attributes": {
+        "supportedLockValues": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "title": "LockState",
+                            "type": "string",
+                            "enum": [
+                                "locked",
+                                "unknown",
+                                "unlocked",
+                                "unlocked with timeout",
+                                "not fully locked",
+                                "unlatched"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
         "lock": {
             "schema": {
                 "type": "object",
@@ -17,7 +42,8 @@
                             "unknown",
                             "unlocked",
                             "unlocked with timeout",
-                            "not fully locked"
+                            "not fully locked",
+                            "unlatched"
                         ]
                     },
                     "data": {
@@ -34,7 +60,13 @@
                                     "command",
                                     "rfid",
                                     "fingerprint",
-                                    "bluetooth"
+                                    "bluetooth",
+                                    "proprietaryRemote",
+                                    "button",
+                                    "digitalKey",
+                                    "face",
+                                    "vein",
+                                    "otp"
                                 ]
                             },
                             "codeId": {
@@ -42,6 +74,9 @@
                             },
                             "codeName": {
                                 "type": "string"
+                            },
+                            "userIndex": {
+                                "type": "integer"
                             },
                             "timeout": {
                                 "title": "Iso8601Date",
@@ -64,13 +99,42 @@
                 {
                     "command": "unlock",
                     "value": "unlocked"
+                },
+                {
+                    "command": "unlatch",
+                    "value": "unlatched"
                 }
             ]
+        },
+        "supportedLockCommands": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "enum": [
+                                "lock",
+                                "unlock",
+                                "unlatch"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
         }
     },
     "commands": {
         "unlock": {
             "name": "unlock",
+            "arguments": []
+        },
+        "unlatch": {
+            "name": "unlatch",
             "arguments": []
         },
         "lock": {

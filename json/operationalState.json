@@ -1,0 +1,116 @@
+{
+    "id": "operationalState",
+    "version": 1,
+    "status": "proposed",
+    "name": "Operational State",
+    "ephemeral": false,
+    "attributes": {
+        "supportedOperationalStates": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "title": "OperationalState",
+                            "type": "string",
+                            "enum": [
+                                "running",
+                                "stopped",
+                                "paused",
+                                "unableToStartOrResume",
+                                "unableToCompleteOperation",
+                                "commandInvalidInCurrentState"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
+        "supportedCommands": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "title": "OperationalStateCommands",
+                            "type": "string",
+                            "enum": [
+                                "start",
+                                "stop",
+                                "resume",
+                                "pause"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
+        "operationalState": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "OperationalState",
+                        "type": "string",
+                        "enum": [
+                            "running",
+                            "stopped",
+                            "paused",
+                            "unableToStartOrResume",
+                            "unableToCompleteOperation",
+                            "commandInvalidInCurrentState"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": [
+                {
+                    "command": "start",
+                    "value": "running"
+                },
+                {
+                    "command": "stop",
+                    "value": "stopped"
+                },
+                {
+                    "command": "pause",
+                    "value": "paused"
+                },
+                {
+                    "command": "resume",
+                    "value": "running"
+                }
+            ]
+        }
+    },
+    "commands": {
+        "resume": {
+            "name": "resume",
+            "arguments": []
+        },
+        "stop": {
+            "name": "stop",
+            "arguments": []
+        },
+        "start": {
+            "name": "start",
+            "arguments": []
+        },
+        "pause": {
+            "name": "pause",
+            "arguments": []
+        }
+    }
+}

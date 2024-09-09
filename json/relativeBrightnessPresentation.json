@@ -5,7 +5,8 @@
                 "label": "{{brightnessIntensity.value}} {{brightnessIntensity.unit}}"
             }
         ],
-        "actions": []
+        "actions": [],
+        "panelItems": []
     },
     "detailView": [
         {

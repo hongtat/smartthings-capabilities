@@ -1,7 +1,7 @@
 {
     "id": "videoClips",
     "version": 1,
-    "status": "proposed",
+    "status": "deprecated",
     "name": "Video Clips",
     "ephemeral": false,
     "attributes": {

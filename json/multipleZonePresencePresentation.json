@@ -1,0 +1,51 @@
+{
+    "detailView": [
+        {
+            "label": "{{i18n.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{zoneState.value}}",
+                "alternatives": [
+                    {
+                        "key": "present",
+                        "value": "{{i18n.attributes.zoneState.i18n.value.present.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "not present",
+                        "value": "{{i18n.attributes.zoneState.i18n.value.not present.label}}",
+                        "type": "inactive"
+                    }
+                ]
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "present",
+                            "value": "{{i18n.attributes.zoneState.i18n.value.present.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "not present",
+                            "value": "{{i18n.attributes.zoneState.i18n.value.not present.label}}",
+                            "type": "inactive"
+                        }
+                    ],
+                    "value": "zoneState.value",
+                    "valueType": "array",
+                    "multiSelectable": false
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "multipleZonePresence",
+    "version": 1
+}

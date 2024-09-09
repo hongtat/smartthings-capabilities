@@ -1,0 +1,215 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{currentControlMode.value}}",
+                "alternatives": [
+                    {
+                        "key": "constantSpeed",
+                        "value": "{{i18n.attributes.currentControlMode.i18n.value.constantSpeed.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "constantPressure",
+                        "value": "{{i18n.attributes.currentControlMode.i18n.value.constantPressure.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "proportionalPressure",
+                        "value": "{{i18n.attributes.currentControlMode.i18n.value.proportionalPressure.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "constantFlow",
+                        "value": "{{i18n.attributes.currentControlMode.i18n.value.constantFlow.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "constantTemperature",
+                        "value": "{{i18n.attributes.currentControlMode.i18n.value.constantTemperature.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "automatic",
+                        "value": "{{i18n.attributes.currentControlMode.i18n.value.automatic.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "panelItems": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.label}}",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "name": "setControlMode",
+                    "alternatives": [
+                        {
+                            "key": "constantSpeed",
+                            "value": "{{i18n.commands.setControlMode.arguments.controlMode.i18n.constantSpeed.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "constantPressure",
+                            "value": "{{i18n.commands.setControlMode.arguments.controlMode.i18n.constantPressure.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "proportionalPressure",
+                            "value": "{{i18n.commands.setControlMode.arguments.controlMode.i18n.proportionalPressure.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "constantFlow",
+                            "value": "{{i18n.commands.setControlMode.arguments.controlMode.i18n.constantFlow.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "constantTemperature",
+                            "value": "{{i18n.commands.setControlMode.arguments.controlMode.i18n.constantTemperature.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "automatic",
+                            "value": "{{i18n.commands.setControlMode.arguments.controlMode.i18n.automatic.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "argumentType": "string",
+                    "supportedValues": "supportedControlModes.value"
+                },
+                "state": {
+                    "value": "currentControlMode.value",
+                    "valueType": "string",
+                    "alternatives": [
+                        {
+                            "key": "constantSpeed",
+                            "value": "{{i18n.attributes.currentControlMode.i18n.value.constantSpeed.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "constantPressure",
+                            "value": "{{i18n.attributes.currentControlMode.i18n.value.constantPressure.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "proportionalPressure",
+                            "value": "{{i18n.attributes.currentControlMode.i18n.value.proportionalPressure.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "constantFlow",
+                            "value": "{{i18n.attributes.currentControlMode.i18n.value.constantFlow.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "constantTemperature",
+                            "value": "{{i18n.attributes.currentControlMode.i18n.value.constantTemperature.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "automatic",
+                            "value": "{{i18n.attributes.currentControlMode.i18n.value.automatic.label}}",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "constantSpeed",
+                            "value": "{{i18n.attributes.currentControlMode.i18n.value.constantSpeed.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "constantPressure",
+                            "value": "{{i18n.attributes.currentControlMode.i18n.value.constantPressure.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "proportionalPressure",
+                            "value": "{{i18n.attributes.currentControlMode.i18n.value.proportionalPressure.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "constantFlow",
+                            "value": "{{i18n.attributes.currentControlMode.i18n.value.constantFlow.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "constantTemperature",
+                            "value": "{{i18n.attributes.currentControlMode.i18n.value.constantTemperature.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "automatic",
+                            "value": "{{i18n.attributes.currentControlMode.i18n.value.automatic.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedControlModes.value",
+                    "value": "currentControlMode.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "constantSpeed",
+                            "value": "{{i18n.commands.setControlMode.arguments.controlMode.i18n.constantSpeed.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "constantPressure",
+                            "value": "{{i18n.commands.setControlMode.arguments.controlMode.i18n.constantPressure.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "proportionalPressure",
+                            "value": "{{i18n.commands.setControlMode.arguments.controlMode.i18n.proportionalPressure.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "constantFlow",
+                            "value": "{{i18n.commands.setControlMode.arguments.controlMode.i18n.constantFlow.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "constantTemperature",
+                            "value": "{{i18n.commands.setControlMode.arguments.controlMode.i18n.constantTemperature.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "automatic",
+                            "value": "{{i18n.commands.setControlMode.arguments.controlMode.i18n.automatic.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedControlModes.value",
+                    "command": "setControlMode",
+                    "argumentType": "string"
+                }
+            }
+        ]
+    },
+    "id": "pumpControlMode",
+    "version": 1
+}

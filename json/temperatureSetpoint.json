@@ -42,79 +42,22 @@
                         "additionalProperties": false,
                         "properties": {
                             "minimum": {
-                                "title": "Temperature",
-                                "type": "object",
-                                "additionalProperties": false,
-                                "properties": {
-                                    "value": {
-                                        "title": "TemperatureValue",
-                                        "type": "number",
-                                        "minimum": -460,
-                                        "maximum": 10000
-                                    },
-                                    "unit": {
-                                        "title": "TemperatureUnit",
-                                        "type": "string",
-                                        "enum": [
-                                            "F",
-                                            "C"
-                                        ]
-                                    }
-                                },
-                                "required": [
-                                    "value",
-                                    "unit"
-                                ]
+                                "title": "TemperatureValue",
+                                "type": "number",
+                                "minimum": -460,
+                                "maximum": 10000
                             },
                             "maximum": {
-                                "title": "Temperature",
-                                "type": "object",
-                                "additionalProperties": false,
-                                "properties": {
-                                    "value": {
-                                        "title": "TemperatureValue",
-                                        "type": "number",
-                                        "minimum": -460,
-                                        "maximum": 10000
-                                    },
-                                    "unit": {
-                                        "title": "TemperatureUnit",
-                                        "type": "string",
-                                        "enum": [
-                                            "F",
-                                            "C"
-                                        ]
-                                    }
-                                },
-                                "required": [
-                                    "value",
-                                    "unit"
-                                ]
+                                "title": "TemperatureValue",
+                                "type": "number",
+                                "minimum": -460,
+                                "maximum": 10000
                             },
                             "step": {
-                                "title": "Temperature",
-                                "type": "object",
-                                "additionalProperties": false,
-                                "properties": {
-                                    "value": {
-                                        "title": "TemperatureValue",
-                                        "type": "number",
-                                        "minimum": -460,
-                                        "maximum": 10000
-                                    },
-                                    "unit": {
-                                        "title": "TemperatureUnit",
-                                        "type": "string",
-                                        "enum": [
-                                            "F",
-                                            "C"
-                                        ]
-                                    }
-                                },
-                                "required": [
-                                    "value",
-                                    "unit"
-                                ]
+                                "title": "TemperatureValue",
+                                "type": "number",
+                                "minimum": -460,
+                                "maximum": 10000
                             }
                         },
                         "required": [

@@ -1,0 +1,178 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{movement.value}}",
+                "alternatives": [
+                    {
+                        "key": "inactive",
+                        "value": "{{i18n.attributes.movement.i18n.value.inactive.label}}",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "approaching",
+                        "value": "{{i18n.attributes.movement.i18n.value.approaching.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "movingAway",
+                        "value": "{{i18n.attributes.movement.i18n.value.movingAway.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "entering",
+                        "value": "{{i18n.attributes.movement.i18n.value.entering.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "leaving",
+                        "value": "{{i18n.attributes.movement.i18n.value.leaving.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "enteringLeft",
+                        "value": "{{i18n.attributes.movement.i18n.value.enteringLeft.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "enteringRight",
+                        "value": "{{i18n.attributes.movement.i18n.value.enteringRight.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "leavingLeft",
+                        "value": "{{i18n.attributes.movement.i18n.value.leavingLeft.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "leavingRight",
+                        "value": "{{i18n.attributes.movement.i18n.value.leavingRight.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "panelItems": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{movement.value}}",
+                "alternatives": [
+                    {
+                        "key": "inactive",
+                        "value": "{{i18n.attributes.movement.i18n.value.inactive.label}}",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "approaching",
+                        "value": "{{i18n.attributes.movement.i18n.value.approaching.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "movingAway",
+                        "value": "{{i18n.attributes.movement.i18n.value.movingAway.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "entering",
+                        "value": "{{i18n.attributes.movement.i18n.value.entering.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "leaving",
+                        "value": "{{i18n.attributes.movement.i18n.value.leaving.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "enteringLeft",
+                        "value": "{{i18n.attributes.movement.i18n.value.enteringLeft.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "enteringRight",
+                        "value": "{{i18n.attributes.movement.i18n.value.enteringRight.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "leavingLeft",
+                        "value": "{{i18n.attributes.movement.i18n.value.leavingLeft.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "leavingRight",
+                        "value": "{{i18n.attributes.movement.i18n.value.leavingRight.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "inactive",
+                            "value": "{{i18n.attributes.movement.i18n.value.inactive.label}}",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "approaching",
+                            "value": "{{i18n.attributes.movement.i18n.value.approaching.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "movingAway",
+                            "value": "{{i18n.attributes.movement.i18n.value.movingAway.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "entering",
+                            "value": "{{i18n.attributes.movement.i18n.value.entering.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "leaving",
+                            "value": "{{i18n.attributes.movement.i18n.value.leaving.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "enteringLeft",
+                            "value": "{{i18n.attributes.movement.i18n.value.enteringLeft.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "enteringRight",
+                            "value": "{{i18n.attributes.movement.i18n.value.enteringRight.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "leavingLeft",
+                            "value": "{{i18n.attributes.movement.i18n.value.leavingLeft.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "leavingRight",
+                            "value": "{{i18n.attributes.movement.i18n.value.leavingRight.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedMovements.value",
+                    "value": "movement.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "movementSensor",
+    "version": 1
+}

@@ -1,0 +1,73 @@
+{
+    "id": "faceRecognition",
+    "version": 1,
+    "status": "proposed",
+    "name": "Face Recognition",
+    "ephemeral": false,
+    "attributes": {
+        "userList": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "title": "FaceRecognitionUser",
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                                "id": {
+                                    "type": "string"
+                                },
+                                "label": {
+                                    "type": "string"
+                                }
+                            },
+                            "required": [
+                                "id",
+                                "label"
+                            ]
+                        }
+                    }
+                },
+                "sensitive": true,
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "faceRecognizedEvent": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "FaceRecognitionUser",
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                            "id": {
+                                "type": "string"
+                            },
+                            "label": {
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "id",
+                            "label"
+                        ]
+                    }
+                },
+                "sensitive": true,
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": []
+}

@@ -1,0 +1,190 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{fanMode.value}}",
+                "alternatives": [
+                    {
+                        "key": "auto",
+                        "value": "{{i18n.attributes.fanMode.i18n.value.auto.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "low",
+                        "value": "{{i18n.attributes.fanMode.i18n.value.low.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "medium",
+                        "value": "{{i18n.attributes.fanMode.i18n.value.medium.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "high",
+                        "value": "{{i18n.attributes.fanMode.i18n.value.high.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "off",
+                        "value": "{{i18n.attributes.fanMode.i18n.value.off.label}}",
+                        "type": "inactive"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "panelItems": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.label}}",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "name": "setFanMode",
+                    "alternatives": [
+                        {
+                            "key": "auto",
+                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.auto.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "low",
+                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.low.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "medium",
+                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.medium.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "high",
+                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.high.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "off",
+                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.off.label}}",
+                            "type": "inactive"
+                        }
+                    ],
+                    "argumentType": "string",
+                    "supportedValues": "supportedFanModes.value"
+                },
+                "state": {
+                    "value": "fanMode.value",
+                    "valueType": "string",
+                    "alternatives": [
+                        {
+                            "key": "auto",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.auto.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "low",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.low.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "medium",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.medium.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "high",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.high.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "off",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.off.label}}",
+                            "type": "inactive"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "auto",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.auto.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "low",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.low.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "medium",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.medium.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "high",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.high.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "off",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.off.label}}",
+                            "type": "inactive"
+                        }
+                    ],
+                    "supportedValues": "supportedFanModes.value",
+                    "value": "fanMode.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "auto",
+                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.auto.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "low",
+                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.low.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "medium",
+                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.medium.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "high",
+                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.high.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "off",
+                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.off.label}}",
+                            "type": "inactive"
+                        }
+                    ],
+                    "supportedValues": "supportedFanModes.value",
+                    "command": "setFanMode",
+                    "argumentType": "string"
+                }
+            }
+        ]
+    },
+    "id": "fanMode",
+    "version": 1
+}

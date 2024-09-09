@@ -1,0 +1,234 @@
+{
+    "id": "evseChargingSession",
+    "version": 1,
+    "status": "proposed",
+    "name": "Evse Charging Session",
+    "ephemeral": false,
+    "attributes": {
+        "targetEndTime": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "Iso8601Date",
+                        "type": "string",
+                        "pattern": "^(?:[1-9]\\d{3}-?(?:(?:0[1-9]|1[0-2])-?(?:0[1-9]|1\\d|2[0-8])|(?:0[13-9]|1[0-2])-?(?:29|30)|(?:0[13578]|1[02])-?31)|(?:[1-9]\\d(?:0[48]|[2468][048]|[13579][26])|(?:[2468][048]|[13579][26])00)-?02-?29)T(?:[01]\\d|2[0-3]):?[0-5]\\d:?[0-5]\\d(?:\\.\\d{3})?(?:Z|[+-][01]\\d(?::?[0-5]\\d)?)$"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "maxCurrent": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "integer",
+                        "minimum": 0
+                    },
+                    "unit": {
+                        "type": "string",
+                        "enum": [
+                            "mA"
+                        ],
+                        "default": "mA"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "supportedChargingCommands": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "enum": [
+                                "enableCharging",
+                                "disableCharging"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
+        "energyDelivered": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "integer",
+                        "minimum": 0
+                    },
+                    "unit": {
+                        "type": "string",
+                        "enum": [
+                            "mWh"
+                        ],
+                        "default": "mWh"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "sessionTime": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "integer",
+                        "minimum": 0
+                    },
+                    "unit": {
+                        "type": "string",
+                        "enum": [
+                            "s"
+                        ],
+                        "default": "s"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "minCurrent": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "integer",
+                        "minimum": 0
+                    },
+                    "unit": {
+                        "type": "string",
+                        "enum": [
+                            "mA"
+                        ],
+                        "default": "mA"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "chargingState": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "charging",
+                            "stopped",
+                            "disabled"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setMinCurrent": {
+            "name": "setMinCurrent",
+            "arguments": [
+                {
+                    "name": "minCurrent",
+                    "optional": false,
+                    "schema": {
+                        "type": "integer",
+                        "minimum": 0
+                    }
+                }
+            ]
+        },
+        "setTargetEndTime": {
+            "name": "setChargingTime",
+            "arguments": [
+                {
+                    "name": "time",
+                    "optional": false,
+                    "schema": {
+                        "title": "Iso8601Date",
+                        "type": "string",
+                        "pattern": "^(?:[1-9]\\d{3}-?(?:(?:0[1-9]|1[0-2])-?(?:0[1-9]|1\\d|2[0-8])|(?:0[13-9]|1[0-2])-?(?:29|30)|(?:0[13578]|1[02])-?31)|(?:[1-9]\\d(?:0[48]|[2468][048]|[13579][26])|(?:[2468][048]|[13579][26])00)-?02-?29)T(?:[01]\\d|2[0-3]):?[0-5]\\d:?[0-5]\\d(?:\\.\\d{3})?(?:Z|[+-][01]\\d(?::?[0-5]\\d)?)$"
+                    }
+                }
+            ]
+        },
+        "enableCharging": {
+            "name": "enableCharging",
+            "arguments": [
+                {
+                    "name": "time",
+                    "optional": false,
+                    "schema": {
+                        "title": "Iso8601Date",
+                        "type": "string",
+                        "pattern": "^(?:[1-9]\\d{3}-?(?:(?:0[1-9]|1[0-2])-?(?:0[1-9]|1\\d|2[0-8])|(?:0[13-9]|1[0-2])-?(?:29|30)|(?:0[13578]|1[02])-?31)|(?:[1-9]\\d(?:0[48]|[2468][048]|[13579][26])|(?:[2468][048]|[13579][26])00)-?02-?29)T(?:[01]\\d|2[0-3]):?[0-5]\\d:?[0-5]\\d(?:\\.\\d{3})?(?:Z|[+-][01]\\d(?::?[0-5]\\d)?)$"
+                    }
+                },
+                {
+                    "name": "minCurrent",
+                    "optional": false,
+                    "schema": {
+                        "type": "integer",
+                        "minimum": 0
+                    }
+                },
+                {
+                    "name": "maxCurrent",
+                    "optional": false,
+                    "schema": {
+                        "type": "integer",
+                        "minimum": 0
+                    }
+                }
+            ]
+        },
+        "disableCharging": {
+            "name": "disableCharging",
+            "arguments": []
+        },
+        "setMaxCurrent": {
+            "name": "setMaxCurrent",
+            "arguments": [
+                {
+                    "name": "maxCurrent",
+                    "optional": false,
+                    "schema": {
+                        "type": "integer",
+                        "minimum": 0
+                    }
+                }
+            ]
+        }
+    }
+}

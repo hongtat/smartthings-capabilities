@@ -5,7 +5,8 @@
                 "label": "{{soundPressureLevel.value}}{{soundPressureLevel.unit}}"
             }
         ],
-        "actions": []
+        "actions": [],
+        "panelItems": []
     },
     "detailView": [
         {

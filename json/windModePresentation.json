@@ -13,6 +13,11 @@
                         "key": "naturalWind",
                         "value": "{{i18n.attributes.windMode.i18n.value.naturalWind.label}}",
                         "type": "active"
+                    },
+                    {
+                        "key": "noWind",
+                        "value": "{{i18n.attributes.windMode.i18n.value.noWind.label}}",
+                        "type": "inactive"
                     }
                 ]
             }
@@ -35,7 +40,8 @@
                     }
                 }
             }
-        ]
+        ],
+        "panelItems": []
     },
     "detailView": [
         {
@@ -54,6 +60,11 @@
                             "key": "naturalWind",
                             "value": "{{i18n.commands.setWindMode.arguments.windMode.i18n.naturalWind.label}}",
                             "type": "active"
+                        },
+                        {
+                            "key": "noWind",
+                            "value": "{{i18n.commands.setWindMode.arguments.windMode.i18n.noWind.label}}",
+                            "type": "inactive"
                         }
                     ],
                     "argumentType": "string",
@@ -72,6 +83,11 @@
                             "key": "naturalWind",
                             "value": "{{i18n.attributes.windMode.i18n.value.naturalWind.label}}",
                             "type": "active"
+                        },
+                        {
+                            "key": "noWind",
+                            "value": "{{i18n.attributes.windMode.i18n.value.noWind.label}}",
+                            "type": "inactive"
                         }
                     ]
                 }
@@ -94,6 +110,11 @@
                             "key": "naturalWind",
                             "value": "{{i18n.attributes.windMode.i18n.value.naturalWind.label}}",
                             "type": "active"
+                        },
+                        {
+                            "key": "noWind",
+                            "value": "{{i18n.attributes.windMode.i18n.value.noWind.label}}",
+                            "type": "inactive"
                         }
                     ],
                     "supportedValues": "supportedWindModes.value",
@@ -118,6 +139,11 @@
                             "key": "naturalWind",
                             "value": "{{i18n.commands.setWindMode.arguments.windMode.i18n.naturalWind.label}}",
                             "type": "active"
+                        },
+                        {
+                            "key": "noWind",
+                            "value": "{{i18n.commands.setWindMode.arguments.windMode.i18n.noWind.label}}",
+                            "type": "inactive"
                         }
                     ],
                     "supportedValues": "supportedWindModes.value",

@@ -5,7 +5,8 @@
                 "label": "{{current.value}} {{current.unit}}"
             }
         ],
-        "actions": []
+        "actions": [],
+        "panelItems": []
     },
     "detailView": [
         {

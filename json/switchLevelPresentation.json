@@ -5,7 +5,28 @@
                 "label": "{{level.value}} {{level.unit}}"
             }
         ],
-        "actions": []
+        "actions": [],
+        "panelItems": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "slider",
+                "slider": {
+                    "range": [
+                        0,
+                        100
+                    ],
+                    "unit": "level.unit",
+                    "command": "setLevel",
+                    "argumentType": "integer",
+                    "value": "level.value",
+                    "valueType": "integer",
+                    "availableSizes": [
+                        "4x1",
+                        "4x2"
+                    ]
+                }
+            }
+        ]
     },
     "detailView": [
         {

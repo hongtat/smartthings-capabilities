@@ -1,0 +1,165 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{currentOperationMode.value}}",
+                "alternatives": [
+                    {
+                        "key": "normal",
+                        "value": "{{i18n.attributes.currentOperationMode.i18n.value.normal.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "minimum",
+                        "value": "{{i18n.attributes.currentOperationMode.i18n.value.minimum.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "maximum",
+                        "value": "{{i18n.attributes.currentOperationMode.i18n.value.maximum.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "localSetting",
+                        "value": "{{i18n.attributes.currentOperationMode.i18n.value.localSetting.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "panelItems": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.label}}",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "name": "setOperationMode",
+                    "alternatives": [
+                        {
+                            "key": "normal",
+                            "value": "{{i18n.commands.setOperationMode.arguments.operationMode.i18n.normal.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "minimum",
+                            "value": "{{i18n.commands.setOperationMode.arguments.operationMode.i18n.minimum.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "maximum",
+                            "value": "{{i18n.commands.setOperationMode.arguments.operationMode.i18n.maximum.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "localSetting",
+                            "value": "{{i18n.commands.setOperationMode.arguments.operationMode.i18n.localSetting.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "argumentType": "string",
+                    "supportedValues": "supportedOperationModes.value"
+                },
+                "state": {
+                    "value": "currentOperationMode.value",
+                    "valueType": "string",
+                    "alternatives": [
+                        {
+                            "key": "normal",
+                            "value": "{{i18n.attributes.currentOperationMode.i18n.value.normal.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "minimum",
+                            "value": "{{i18n.attributes.currentOperationMode.i18n.value.minimum.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "maximum",
+                            "value": "{{i18n.attributes.currentOperationMode.i18n.value.maximum.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "localSetting",
+                            "value": "{{i18n.attributes.currentOperationMode.i18n.value.localSetting.label}}",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "normal",
+                            "value": "{{i18n.attributes.currentOperationMode.i18n.value.normal.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "minimum",
+                            "value": "{{i18n.attributes.currentOperationMode.i18n.value.minimum.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "maximum",
+                            "value": "{{i18n.attributes.currentOperationMode.i18n.value.maximum.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "localSetting",
+                            "value": "{{i18n.attributes.currentOperationMode.i18n.value.localSetting.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedOperationModes.value",
+                    "value": "currentOperationMode.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "normal",
+                            "value": "{{i18n.commands.setOperationMode.arguments.operationMode.i18n.normal.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "minimum",
+                            "value": "{{i18n.commands.setOperationMode.arguments.operationMode.i18n.minimum.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "maximum",
+                            "value": "{{i18n.commands.setOperationMode.arguments.operationMode.i18n.maximum.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "localSetting",
+                            "value": "{{i18n.commands.setOperationMode.arguments.operationMode.i18n.localSetting.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedOperationModes.value",
+                    "command": "setOperationMode",
+                    "argumentType": "string"
+                }
+            }
+        ]
+    },
+    "id": "pumpOperationMode",
+    "version": 1
+}

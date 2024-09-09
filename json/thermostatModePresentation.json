@@ -5,6 +5,11 @@
                 "label": "{{thermostatMode.value}}",
                 "alternatives": [
                     {
+                        "key": "antifreezing",
+                        "value": "{{i18n.attributes.thermostatMode.i18n.value.antifreezing.label}}",
+                        "type": "active"
+                    },
+                    {
                         "key": "asleep",
                         "value": "{{i18n.attributes.thermostatMode.i18n.value.asleep.label}}",
                         "type": "active"
@@ -160,9 +165,19 @@
                         "type": "active"
                     },
                     {
+                        "key": "on",
+                        "value": "{{i18n.attributes.thermostatMode.i18n.value.on.label}}",
+                        "type": "active"
+                    },
+                    {
                         "key": "off",
                         "value": "{{i18n.attributes.thermostatMode.i18n.value.off.label}}",
                         "type": "inactive"
+                    },
+                    {
+                        "key": "comfort",
+                        "value": "{{i18n.attributes.thermostatMode.i18n.value.comfort.label}}",
+                        "type": "active"
                     },
                     {
                         "key": "out",
@@ -198,11 +213,52 @@
                         "key": "precooling",
                         "value": "{{i18n.attributes.thermostatMode.i18n.value.precooling.label}}",
                         "type": "active"
+                    },
+                    {
+                        "key": "lukewarm",
+                        "value": "{{i18n.attributes.thermostatMode.i18n.value.lukewarm.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "warm",
+                        "value": "{{i18n.attributes.thermostatMode.i18n.value.warm.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "hot",
+                        "value": "{{i18n.attributes.thermostatMode.i18n.value.hot.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "veryhot",
+                        "value": "{{i18n.attributes.thermostatMode.i18n.value.veryhot.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "ondol",
+                        "value": "{{i18n.attributes.thermostatMode.i18n.value.ondol.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "bath",
+                        "value": "{{i18n.attributes.thermostatMode.i18n.value.bath.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "iterativeReservation",
+                        "value": "{{i18n.attributes.thermostatMode.i18n.value.iterativeReservation.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "24hourReservation",
+                        "value": "{{i18n.attributes.thermostatMode.i18n.value.24hourReservation.label}}",
+                        "type": "active"
                     }
                 ]
             }
         ],
-        "actions": []
+        "actions": [],
+        "panelItems": []
     },
     "detailView": [
         {
@@ -212,6 +268,11 @@
                 "command": {
                     "name": "setThermostatMode",
                     "alternatives": [
+                        {
+                            "key": "antifreezing",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.antifreezing.label}}",
+                            "type": "active"
+                        },
                         {
                             "key": "asleep",
                             "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.asleep.label}}",
@@ -368,9 +429,19 @@
                             "type": "active"
                         },
                         {
+                            "key": "on",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.on.label}}",
+                            "type": "active"
+                        },
+                        {
                             "key": "off",
                             "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.off.label}}",
                             "type": "inactive"
+                        },
+                        {
+                            "key": "comfort",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.comfort.label}}",
+                            "type": "active"
                         },
                         {
                             "key": "out",
@@ -406,6 +477,46 @@
                             "key": "precooling",
                             "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.precooling.label}}",
                             "type": "active"
+                        },
+                        {
+                            "key": "lukewarm",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.lukewarm.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "warm",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.warm.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "hot",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.hot.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "veryhot",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.veryhot.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "ondol",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.ondol.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "bath",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.bath.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "iterativeReservation",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.iterativeReservation.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "24hourReservation",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.24hourReservation.label}}",
+                            "type": "active"
                         }
                     ],
                     "argumentType": "string",
@@ -415,6 +526,11 @@
                     "value": "thermostatMode.value",
                     "valueType": "string",
                     "alternatives": [
+                        {
+                            "key": "antifreezing",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.antifreezing.label}}",
+                            "type": "active"
+                        },
                         {
                             "key": "asleep",
                             "value": "{{i18n.attributes.thermostatMode.i18n.value.asleep.label}}",
@@ -571,9 +687,19 @@
                             "type": "active"
                         },
                         {
+                            "key": "on",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.on.label}}",
+                            "type": "active"
+                        },
+                        {
                             "key": "off",
                             "value": "{{i18n.attributes.thermostatMode.i18n.value.off.label}}",
                             "type": "inactive"
+                        },
+                        {
+                            "key": "comfort",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.comfort.label}}",
+                            "type": "active"
                         },
                         {
                             "key": "out",
@@ -608,6 +734,46 @@
                         {
                             "key": "precooling",
                             "value": "{{i18n.attributes.thermostatMode.i18n.value.precooling.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "lukewarm",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.lukewarm.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "warm",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.warm.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "hot",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.hot.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "veryhot",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.veryhot.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "ondol",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.ondol.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "bath",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.bath.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "iterativeReservation",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.iterativeReservation.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "24hourReservation",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.24hourReservation.label}}",
                             "type": "active"
                         }
                     ]
@@ -623,6 +789,11 @@
                 "list": {
                     "alternatives": [
                         {
+                            "key": "antifreezing",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.antifreezing.label}}",
+                            "type": "active"
+                        },
+                        {
                             "key": "asleep",
                             "value": "{{i18n.attributes.thermostatMode.i18n.value.asleep.label}}",
                             "type": "active"
@@ -778,9 +949,19 @@
                             "type": "active"
                         },
                         {
+                            "key": "on",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.on.label}}",
+                            "type": "active"
+                        },
+                        {
                             "key": "off",
                             "value": "{{i18n.attributes.thermostatMode.i18n.value.off.label}}",
                             "type": "inactive"
+                        },
+                        {
+                            "key": "comfort",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.comfort.label}}",
+                            "type": "active"
                         },
                         {
                             "key": "out",
@@ -815,6 +996,46 @@
                         {
                             "key": "precooling",
                             "value": "{{i18n.attributes.thermostatMode.i18n.value.precooling.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "lukewarm",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.lukewarm.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "warm",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.warm.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "hot",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.hot.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "veryhot",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.veryhot.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "ondol",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.ondol.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "bath",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.bath.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "iterativeReservation",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.iterativeReservation.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "24hourReservation",
+                            "value": "{{i18n.attributes.thermostatMode.i18n.value.24hourReservation.label}}",
                             "type": "active"
                         }
                     ],
@@ -832,6 +1053,11 @@
                 "list": {
                     "alternatives": [
                         {
+                            "key": "antifreezing",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.antifreezing.label}}",
+                            "type": "active"
+                        },
+                        {
                             "key": "asleep",
                             "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.asleep.label}}",
                             "type": "active"
@@ -987,9 +1213,19 @@
                             "type": "active"
                         },
                         {
+                            "key": "on",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.on.label}}",
+                            "type": "active"
+                        },
+                        {
                             "key": "off",
                             "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.off.label}}",
                             "type": "inactive"
+                        },
+                        {
+                            "key": "comfort",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.comfort.label}}",
+                            "type": "active"
                         },
                         {
                             "key": "out",
@@ -1024,6 +1260,46 @@
                         {
                             "key": "precooling",
                             "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.precooling.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "lukewarm",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.lukewarm.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "warm",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.warm.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "hot",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.hot.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "veryhot",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.veryhot.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "ondol",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.ondol.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "bath",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.bath.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "iterativeReservation",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.iterativeReservation.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "24hourReservation",
+                            "value": "{{i18n.commands.setThermostatMode.arguments.mode.i18n.24hourReservation.label}}",
                             "type": "active"
                         }
                     ],

@@ -1,0 +1,151 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{chargingState.value}}",
+                "alternatives": [
+                    {
+                        "key": "charging",
+                        "value": "{{i18n.attributes.chargingState.i18n.value.charging.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "stopped",
+                        "value": "{{i18n.attributes.chargingState.i18n.value.stopped.label}}",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "disabled",
+                        "value": "{{i18n.attributes.chargingState.i18n.value.disabled.label}}",
+                        "type": "inactive"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "panelItems": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.attributes.chargingState.label}}",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "alternatives": [
+                        {
+                            "key": "enableCharging",
+                            "value": "{{i18n.commands.enableCharging.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "disableCharging",
+                            "value": "{{i18n.commands.disableCharging.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedChargingCommands.value"
+                },
+                "state": {
+                    "value": "chargingState.value",
+                    "valueType": "string",
+                    "alternatives": [
+                        {
+                            "key": "charging",
+                            "value": "{{i18n.attributes.chargingState.i18n.value.charging.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "stopped",
+                            "value": "{{i18n.attributes.chargingState.i18n.value.stopped.label}}",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "disabled",
+                            "value": "{{i18n.attributes.chargingState.i18n.value.disabled.label}}",
+                            "type": "inactive"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "label": "{{i18n.attributes.targetEndTime.label}}",
+            "displayType": "textField",
+            "textField": {
+                "command": "setTargetEndTime",
+                "argumentType": "string",
+                "value": "targetEndTime.value",
+                "valueType": "string"
+            }
+        },
+        {
+            "label": "{{i18n.attributes.maxCurrent.label}}",
+            "displayType": "numberField",
+            "numberField": {
+                "value": "maxCurrent.value",
+                "valueType": "integer",
+                "unit": "maxCurrent.unit",
+                "command": "setMaxCurrent",
+                "argumentType": "integer"
+            }
+        },
+        {
+            "label": "{{i18n.attributes.minCurrent.label}}",
+            "displayType": "numberField",
+            "numberField": {
+                "value": "minCurrent.value",
+                "valueType": "integer",
+                "unit": "minCurrent.unit",
+                "command": "setMinCurrent",
+                "argumentType": "integer"
+            }
+        },
+        {
+            "label": "{{i18n.attributes.energyDelivered.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{energyDelivered.value}}}{{energyDelivered.unit}}"
+            }
+        },
+        {
+            "label": "{{i18n.attributes.sessionTime.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{sessionTime.value}}{{sessionTime.unit}}"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.attributes.chargingState.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "charging",
+                            "value": "{{i18n.attributes.chargingState.i18n.value.charging.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "stopped",
+                            "value": "{{i18n.attributes.chargingState.i18n.value.stopped.label}}",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "disabled",
+                            "value": "{{i18n.attributes.chargingState.i18n.value.disabled.label}}",
+                            "type": "inactive"
+                        }
+                    ],
+                    "value": "chargingState.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "evseChargingSession",
+    "version": 1
+}
