@@ -44,6 +44,31 @@
             "setter": "setMachineState",
             "enumCommands": []
         },
+        "progress": {
+            "schema": {
+                "title": "IntegerPercent",
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 100
+                    },
+                    "unit": {
+                        "type": "string",
+                        "enum": [
+                            "%"
+                        ],
+                        "default": "%"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
         "supportedMachineStates": {
             "schema": {
                 "type": "object",

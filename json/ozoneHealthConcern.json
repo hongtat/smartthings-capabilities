@@ -1,7 +1,7 @@
 {
     "id": "ozoneHealthConcern",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Ozone Health Concern",
     "ephemeral": false,
     "attributes": {

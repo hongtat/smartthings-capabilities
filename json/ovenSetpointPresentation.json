@@ -5,9 +5,11 @@
             "displayType": "slider",
             "slider": {
                 "range": [
-                    0,
-                    40
+                    35,
+                    285
                 ],
+                "unit": "ovenSetpoint.unit",
+                "supportedValues": "ovenSetpointRange.value",
                 "command": "setOvenSetpoint",
                 "argumentType": "integer",
                 "value": "ovenSetpoint.value",
@@ -24,10 +26,12 @@
                 "numberField": {
                     "command": "setOvenSetpoint",
                     "argumentType": "integer",
+                    "unit": "ovenSetpoint.unit",
                     "range": [
-                        0,
-                        40
-                    ]
+                        35,
+                        285
+                    ],
+                    "supportedValues": "ovenSetpointRange.value"
                 }
             }
         ]

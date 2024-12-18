@@ -1,7 +1,7 @@
 {
     "id": "ozoneMeasurement",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Ozone Measurement",
     "ephemeral": false,
     "attributes": {

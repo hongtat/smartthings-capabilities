@@ -57,7 +57,7 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.commands.setHeatingSetpoint.label}}",
+                "label": "{{i18n.label}}",
                 "displayType": "numberField",
                 "numberField": {
                     "command": "setHeatingSetpoint",

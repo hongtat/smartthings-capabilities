@@ -1,7 +1,7 @@
 {
     "id": "laundryWasherSpinSpeed",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Laundry Washer Spin Speed",
     "ephemeral": false,
     "attributes": {

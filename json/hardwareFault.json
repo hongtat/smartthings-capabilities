@@ -1,7 +1,7 @@
 {
     "id": "hardwareFault",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Hardware Fault",
     "ephemeral": false,
     "attributes": {

@@ -12,7 +12,7 @@
                     {
                         "key": "idle",
                         "value": "{{i18n.attributes.feederOperatingState.i18n.value.idle.label}}",
-                        "type": "inactive"
+                        "type": "active"
                     },
                     {
                         "key": "error",
@@ -58,7 +58,7 @@
                         {
                             "key": "idle",
                             "value": "{{i18n.attributes.feederOperatingState.i18n.value.idle.label}}",
-                            "type": "inactive"
+                            "type": "active"
                         },
                         {
                             "key": "error",
@@ -85,7 +85,7 @@
                         {
                             "key": "idle",
                             "value": "{{i18n.attributes.feederOperatingState.i18n.value.idle.label}}",
-                            "type": "inactive"
+                            "type": "active"
                         },
                         {
                             "key": "error",

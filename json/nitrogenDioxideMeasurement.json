@@ -1,7 +1,7 @@
 {
     "id": "nitrogenDioxideMeasurement",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Nitrogen Dioxide Measurement",
     "ephemeral": false,
     "attributes": {

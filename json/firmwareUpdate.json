@@ -48,6 +48,26 @@
             },
             "enumCommands": []
         },
+        "supportedCommands": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "enum": [
+                                "checkForFirmwareUpdate",
+                                "updateFirmware"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
         "state": {
             "schema": {
                 "type": "object",

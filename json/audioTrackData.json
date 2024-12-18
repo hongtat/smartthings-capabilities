@@ -1,7 +1,7 @@
 {
     "id": "audioTrackData",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Audio Track Data",
     "ephemeral": false,
     "attributes": {

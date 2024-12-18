@@ -1,0 +1,77 @@
+{
+    "id": "containerState",
+    "version": 1,
+    "status": "proposed",
+    "name": "Container State",
+    "ephemeral": false,
+    "attributes": {
+        "containerState": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "ContainerState",
+                        "type": "string",
+                        "enum": [
+                            "empty",
+                            "normal",
+                            "full"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "supportedContainerStates": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "title": "ContainerState",
+                            "type": "string",
+                            "enum": [
+                                "empty",
+                                "normal",
+                                "full"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
+        "content": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "title": "ContainerContent",
+                            "type": "string",
+                            "enum": [
+                                "food",
+                                "water",
+                                "liquid",
+                                "consumable",
+                                "excretions"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": []
+}

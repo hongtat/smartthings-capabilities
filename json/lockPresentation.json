@@ -28,6 +28,11 @@
                         "key": "not fully locked",
                         "value": "{{i18n.attributes.lock.i18n.value.not fully locked.label}}",
                         "type": "active"
+                    },
+                    {
+                        "key": "unlatched",
+                        "value": "{{i18n.attributes.lock.i18n.value.unlatched.label}}",
+                        "type": "active"
                     }
                 ]
             }
@@ -97,6 +102,11 @@
                             "key": "not fully locked",
                             "value": "{{i18n.attributes.lock.i18n.value.not fully locked.label}}",
                             "type": "active"
+                        },
+                        {
+                            "key": "unlatched",
+                            "value": "{{i18n.attributes.lock.i18n.value.unlatched.label}}",
+                            "type": "active"
                         }
                     ]
                 }
@@ -136,6 +146,7 @@
                             "type": "active"
                         }
                     ],
+                    "supportedValues": "supportedLockValues.value",
                     "value": "lock.value",
                     "valueType": "string",
                     "multiSelectable": false
@@ -158,7 +169,8 @@
                             "value": "{{i18n.commands.unlock.label}}",
                             "type": "active"
                         }
-                    ]
+                    ],
+                    "supportedValues": "supportedLockCommands.value"
                 },
                 "emphasis": true
             }

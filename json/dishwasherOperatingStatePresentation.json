@@ -92,7 +92,7 @@
                     {
                         "key": "stop",
                         "value": "{{i18n.attributes.machineState.i18n.value.stop.label}}",
-                        "type": "active"
+                        "type": "inactive"
                     }
                 ]
             },
@@ -238,7 +238,7 @@
                         {
                             "key": "stop",
                             "value": "{{i18n.commands.setMachineState.arguments.state.i18n.stop.label}}",
-                            "type": "active"
+                            "type": "inactive"
                         }
                     ],
                     "argumentType": "string",
@@ -261,7 +261,7 @@
                         {
                             "key": "stop",
                             "value": "{{i18n.attributes.machineState.i18n.value.stop.label}}",
-                            "type": "active"
+                            "type": "inactive"
                         }
                     ]
                 }
@@ -295,7 +295,7 @@
                         {
                             "key": "stop",
                             "value": "{{i18n.attributes.machineState.i18n.value.stop.label}}",
-                            "type": "active"
+                            "type": "inactive"
                         }
                     ],
                     "value": "machineState.value",
@@ -404,7 +404,7 @@
                         {
                             "key": "stop",
                             "value": "{{i18n.commands.setMachineState.arguments.state.i18n.stop.label}}",
-                            "type": "active"
+                            "type": "inactive"
                         }
                     ],
                     "command": "setMachineState",

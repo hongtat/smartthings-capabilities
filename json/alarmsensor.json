@@ -1,8 +1,8 @@
 {
-    "id": "alarmsensor",
+    "id": "alarmSensor",
     "version": 1,
     "status": "proposed",
-    "name": "AlarmSensor",
+    "name": "Alarm Sensor",
     "ephemeral": false,
     "attributes": {
         "supportedAlarmSensorStates": {

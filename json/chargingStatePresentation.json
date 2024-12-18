@@ -1,0 +1,118 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{chargingState.value}}",
+                "alternatives": [
+                    {
+                        "key": "charging",
+                        "value": "{{i18n.attributes.chargingState.i18n.value.charging.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "fullyCharged",
+                        "value": "{{i18n.attributes.chargingState.i18n.value.fullyCharged.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "discharging",
+                        "value": "{{i18n.attributes.chargingState.i18n.value.discharging.label}}",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "stopped",
+                        "value": "{{i18n.attributes.chargingState.i18n.value.stopped.label}}",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "error",
+                        "value": "{{i18n.attributes.chargingState.i18n.value.error.label}}",
+                        "type": "inactive"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "panelItems": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{chargingState.value}}",
+                "alternatives": [
+                    {
+                        "key": "charging",
+                        "value": "{{i18n.attributes.chargingState.i18n.value.charging.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "fullyCharged",
+                        "value": "{{i18n.attributes.chargingState.i18n.value.fullyCharged.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "discharging",
+                        "value": "{{i18n.attributes.chargingState.i18n.value.discharging.label}}",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "stopped",
+                        "value": "{{i18n.attributes.chargingState.i18n.value.stopped.label}}",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "error",
+                        "value": "{{i18n.attributes.chargingState.i18n.value.error.label}}",
+                        "type": "inactive"
+                    }
+                ]
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "charging",
+                            "value": "{{i18n.attributes.chargingState.i18n.value.charging.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "fullyCharged",
+                            "value": "{{i18n.attributes.chargingState.i18n.value.fullyCharged.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "discharging",
+                            "value": "{{i18n.attributes.chargingState.i18n.value.discharging.label}}",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "stopped",
+                            "value": "{{i18n.attributes.chargingState.i18n.value.stopped.label}}",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "error",
+                            "value": "{{i18n.attributes.chargingState.i18n.value.error.label}}",
+                            "type": "inactive"
+                        }
+                    ],
+                    "supportedValues": "supportedChargingStates.value",
+                    "value": "chargingState.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "chargingState",
+    "version": 1
+}

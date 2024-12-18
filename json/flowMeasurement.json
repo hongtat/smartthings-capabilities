@@ -1,11 +1,11 @@
 {
-    "id": "ovenSetpoint",
+    "id": "flowMeasurement",
     "version": 1,
-    "status": "live",
-    "name": "Oven Setpoint",
+    "status": "proposed",
+    "name": "Flow Measurement",
     "ephemeral": false,
     "attributes": {
-        "ovenSetpointRange": {
+        "flowRange": {
             "schema": {
                 "type": "object",
                 "properties": {
@@ -14,21 +14,15 @@
                         "additionalProperties": false,
                         "properties": {
                             "minimum": {
-                                "title": "TemperatureValue",
+                                "title": "FlowValue",
                                 "type": "number",
-                                "minimum": -460,
+                                "minimum": 0,
                                 "maximum": 10000
                             },
                             "maximum": {
-                                "title": "TemperatureValue",
+                                "title": "FlowValue",
                                 "type": "number",
-                                "minimum": -460,
-                                "maximum": 10000
-                            },
-                            "step": {
-                                "title": "TemperatureValue",
-                                "type": "number",
-                                "minimum": -460,
+                                "minimum": 0,
                                 "maximum": 10000
                             }
                         },
@@ -40,9 +34,9 @@
                     "unit": {
                         "type": "string",
                         "enum": [
-                            "F",
-                            "C"
-                        ]
+                            "m^3\/h"
+                        ],
+                        "default": "m^3\/h"
                     }
                 },
                 "additionalProperties": false,
@@ -52,22 +46,20 @@
             },
             "enumCommands": []
         },
-        "ovenSetpoint": {
+        "flow": {
             "schema": {
                 "type": "object",
                 "properties": {
                     "value": {
-                        "title": "TemperatureValue",
                         "type": "number",
-                        "minimum": -460,
-                        "maximum": 10000
+                        "minimum": 0
                     },
                     "unit": {
                         "type": "string",
                         "enum": [
-                            "F",
-                            "C"
-                        ]
+                            "m^3\/h"
+                        ],
+                        "default": "m^3\/h"
                     }
                 },
                 "additionalProperties": false,
@@ -75,25 +67,8 @@
                     "value"
                 ]
             },
-            "setter": "setOvenSetpoint",
             "enumCommands": []
         }
     },
-    "commands": {
-        "setOvenSetpoint": {
-            "name": "setOvenSetpoint",
-            "arguments": [
-                {
-                    "name": "setpoint",
-                    "optional": false,
-                    "schema": {
-                        "title": "TemperatureValue",
-                        "type": "number",
-                        "minimum": -460,
-                        "maximum": 10000
-                    }
-                }
-            ]
-        }
-    }
+    "commands": []
 }

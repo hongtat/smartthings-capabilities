@@ -1,7 +1,7 @@
 {
     "id": "temperatureSetpoint",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Temperature Setpoint",
     "ephemeral": false,
     "attributes": {

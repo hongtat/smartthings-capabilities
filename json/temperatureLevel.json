@@ -1,7 +1,7 @@
 {
     "id": "temperatureLevel",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Temperature Level",
     "ephemeral": false,
     "attributes": {

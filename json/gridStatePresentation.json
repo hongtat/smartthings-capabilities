@@ -1,0 +1,72 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{grid.value}}",
+                "alternatives": [
+                    {
+                        "key": "OnGrid",
+                        "value": "{{i18n.attributes.grid.i18n.value.OnGrid.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "OffGrid",
+                        "value": "{{i18n.attributes.grid.i18n.value.OffGrid.label}}",
+                        "type": "inactive"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "panelItems": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{grid.value}}",
+                "alternatives": [
+                    {
+                        "key": "OnGrid",
+                        "value": "{{i18n.attributes.grid.i18n.value.OnGrid.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "OffGrid",
+                        "value": "{{i18n.attributes.grid.i18n.value.OffGrid.label}}",
+                        "type": "inactive"
+                    }
+                ]
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "OnGrid",
+                            "value": "{{i18n.attributes.grid.i18n.value.OnGrid.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "OffGrid",
+                            "value": "{{i18n.attributes.grid.i18n.value.OffGrid.label}}",
+                            "type": "inactive"
+                        }
+                    ],
+                    "value": "grid.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "gridState",
+    "version": 1
+}

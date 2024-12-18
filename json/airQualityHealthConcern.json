@@ -1,7 +1,7 @@
 {
     "id": "airQualityHealthConcern",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Air Quality Health Concern",
     "ephemeral": false,
     "attributes": {

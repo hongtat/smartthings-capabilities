@@ -1,7 +1,7 @@
 {
     "id": "nitrogenDioxideHealthConcern",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Nitrogen Dioxide Health Concern",
     "ephemeral": false,
     "attributes": {

@@ -1,7 +1,7 @@
 {
     "id": "laundryWasherRinseMode",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Laundry Washer Rinse Mode",
     "ephemeral": false,
     "attributes": {

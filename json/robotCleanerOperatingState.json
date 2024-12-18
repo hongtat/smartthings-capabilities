@@ -1,7 +1,7 @@
 {
     "id": "robotCleanerOperatingState",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Robot Cleaner Operating State",
     "ephemeral": false,
     "attributes": {

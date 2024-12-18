@@ -1,7 +1,7 @@
 {
     "id": "formaldehydeHealthConcern",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Formaldehyde Health Concern",
     "ephemeral": false,
     "attributes": {

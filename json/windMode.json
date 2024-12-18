@@ -1,7 +1,7 @@
 {
     "id": "windMode",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Wind Mode",
     "ephemeral": false,
     "attributes": {

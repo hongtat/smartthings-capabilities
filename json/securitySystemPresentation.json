@@ -47,10 +47,12 @@
                             "value": "{{i18n.commands.disarm.label}}",
                             "type": "active"
                         }
-                    ]
+                    ],
+                    "supportedValues": "supportedSecuritySystemCommands.value"
                 },
                 "state": {
                     "value": "securitySystemStatus.value",
+                    "valueType": "string",
                     "alternatives": [
                         {
                             "key": "armedAway",
@@ -95,7 +97,9 @@
                             "type": "active"
                         }
                     ],
+                    "supportedValues": "supportedSecuritySystemStatuses.value",
                     "value": "securitySystemStatus.value",
+                    "valueType": "string",
                     "multiSelectable": false
                 }
             }
@@ -121,7 +125,8 @@
                             "value": "{{i18n.commands.disarm.label}}",
                             "type": "active"
                         }
-                    ]
+                    ],
+                    "supportedValues": "supportedSecuritySystemCommands.value"
                 }
             }
         ]

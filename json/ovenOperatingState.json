@@ -190,7 +190,10 @@
                             "SlowCook",
                             "Proof",
                             "Dehydrate",
-                            "Others"
+                            "Others",
+                            "StrongSteam",
+                            "Descale",
+                            "Rinse"
                         ]
                     }
                 },

@@ -1,0 +1,71 @@
+{
+    "id": "petActivity",
+    "version": 1,
+    "status": "proposed",
+    "name": "Pet Activity",
+    "ephemeral": false,
+    "attributes": {
+        "supportedPetActivities": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "title": "PetActivity",
+                            "type": "string",
+                            "enum": [
+                                "idle",
+                                "eating",
+                                "pooping",
+                                "sleeping",
+                                "drinkingWater",
+                                "peeing",
+                                "playing",
+                                "resting",
+                                "walking",
+                                "running",
+                                "barking",
+                                "meowing"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
+        "petActivity": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "PetActivity",
+                        "type": "string",
+                        "enum": [
+                            "idle",
+                            "eating",
+                            "pooping",
+                            "sleeping",
+                            "drinkingWater",
+                            "peeing",
+                            "playing",
+                            "resting",
+                            "walking",
+                            "running",
+                            "barking",
+                            "meowing"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": []
+}

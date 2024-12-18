@@ -16,6 +16,22 @@
                 "label": "{{filterLifeRemaining.value}}",
                 "unit": "filterLifeRemaining.unit"
             }
+        },
+        {
+            "label": "{{i18n.commands.resetFilter.label}}",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "alternatives": [
+                        {
+                            "key": "resetFilter",
+                            "value": "{{i18n.commands.resetFilter.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedFilterCommands.value"
+                }
+            }
         }
     ],
     "automation": {

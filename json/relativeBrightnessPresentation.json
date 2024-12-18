@@ -2,7 +2,14 @@
     "dashboard": {
         "states": [
             {
-                "label": "{{brightnessIntensity.value}} {{brightnessIntensity.unit}}"
+                "label": "{{brightnessIntensity.value}} {{brightnessIntensity.unit}}",
+                "alternatives": [
+                    {
+                        "key": "level",
+                        "value": "{{i18n.attributes.brightnessIntensity.i18n.unit.level.label}}",
+                        "type": "active"
+                    }
+                ]
             }
         ],
         "actions": [],
@@ -60,6 +67,11 @@
                         "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RELATIVEBRIGHTNESS_DEFAULT_LABEL_7",
                         "type": "active",
                         "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.RELATIVEBRIGHTNESS_DEFAULT_DESCRIPTION_7"
+                    },
+                    {
+                        "key": "level",
+                        "value": "{{i18n.attributes.brightnessIntensity.i18n.unit.level.label}}",
+                        "type": "active"
                     }
                 ],
                 "value": "brightnessIntensity.value",
@@ -71,15 +83,22 @@
         "conditions": [
             {
                 "label": "{{i18n.label}}",
-                "displayType": "numberField",
-                "numberField": {
-                    "value": "brightnessIntensity.value",
-                    "valueType": "integer",
-                    "unit": "brightnessIntensity.unit",
+                "displayType": "slider",
+                "slider": {
                     "range": [
                         1,
                         7
-                    ]
+                    ],
+                    "unit": "brightnessIntensity.unit",
+                    "alternatives": [
+                        {
+                            "key": "level",
+                            "value": "{{i18n.attributes.brightnessIntensity.i18n.unit.level.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "brightnessIntensity.value",
+                    "valueType": "integer"
                 }
             }
         ],

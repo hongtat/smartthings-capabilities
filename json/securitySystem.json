@@ -74,6 +74,27 @@
             },
             "enumCommands": []
         },
+        "supportedSecuritySystemCommands": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "enum": [
+                                "armAway",
+                                "armStay",
+                                "disarm"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
         "securitySystemStatus": {
             "schema": {
                 "type": "object",
@@ -106,6 +127,27 @@
                     "value": "disarmed"
                 }
             ]
+        },
+        "supportedSecuritySystemStatuses": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "enum": [
+                                "armedAway",
+                                "armedStay",
+                                "disarmed"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
         }
     },
     "commands": {

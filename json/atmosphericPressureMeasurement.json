@@ -1,7 +1,7 @@
 {
     "id": "atmosphericPressureMeasurement",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Atmospheric Pressure Measurement",
     "ephemeral": false,
     "attributes": {

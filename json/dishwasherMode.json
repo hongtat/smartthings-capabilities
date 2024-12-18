@@ -18,7 +18,12 @@
                             "auto",
                             "quick",
                             "rinse",
-                            "dry"
+                            "dry",
+                            "smart",
+                            "daily",
+                            "superClean",
+                            "brightening",
+                            "prewash"
                         ]
                     }
                 },
@@ -28,6 +33,36 @@
                 ]
             },
             "setter": "setDishwasherMode",
+            "enumCommands": []
+        },
+        "supportedDishwasherModes": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "title": "DishwasherMode",
+                            "type": "string",
+                            "enum": [
+                                "eco",
+                                "intense",
+                                "auto",
+                                "quick",
+                                "rinse",
+                                "dry",
+                                "smart",
+                                "daily",
+                                "superClean",
+                                "brightening",
+                                "prewash"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
             "enumCommands": []
         }
     },
@@ -47,7 +82,12 @@
                             "auto",
                             "quick",
                             "rinse",
-                            "dry"
+                            "dry",
+                            "smart",
+                            "daily",
+                            "superClean",
+                            "brightening",
+                            "prewash"
                         ]
                     }
                 }
