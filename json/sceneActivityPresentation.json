@@ -1,0 +1,39 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{activatedScene.value}}"
+            }
+        ],
+        "actions": [],
+        "panelItems": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{activatedScene.value}}"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "dynamicList",
+                "dynamicList": {
+                    "value": "activatedScene.value",
+                    "valueType": "string",
+                    "supportedValues": {
+                        "value": "supportedScenes.value"
+                    },
+                    "multiSelectable": false
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "sceneActivity",
+    "version": 1
+}

@@ -14,8 +14,8 @@
             "displayType": "slider",
             "slider": {
                 "range": [
-                    1,
-                    30000
+                    2200,
+                    6500
                 ],
                 "unit": "colorTemperature.unit",
                 "supportedValues": "colorTemperatureRange.value",
@@ -33,8 +33,8 @@
                 "displayType": "slider",
                 "slider": {
                     "range": [
-                        1,
-                        30000
+                        2200,
+                        6500
                     ],
                     "unit": "colorTemperature.unit",
                     "supportedValues": "colorTemperatureRange.value",
@@ -49,8 +49,8 @@
                 "displayType": "slider",
                 "slider": {
                     "range": [
-                        1,
-                        30000
+                        2200,
+                        6500
                     ],
                     "unit": "colorTemperature.unit",
                     "supportedValues": "colorTemperatureRange.value",

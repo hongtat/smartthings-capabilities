@@ -1,0 +1,13 @@
+{
+    "detailView": [
+        {
+            "label": "{{i18n.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{selectedAreas.value}}"
+            }
+        }
+    ],
+    "id": "serviceArea",
+    "version": 1
+}

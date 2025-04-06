@@ -1,0 +1,326 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{mode.value}}",
+                "alternatives": [
+                    {
+                        "key": "preset1",
+                        "value": "{{i18n.attributes.mode.i18n.value.preset1.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "preset2",
+                        "value": "{{i18n.attributes.mode.i18n.value.preset2.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "zeroG",
+                        "value": "{{i18n.attributes.mode.i18n.value.zeroG.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "flat",
+                        "value": "{{i18n.attributes.mode.i18n.value.flat.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "tv",
+                        "value": "{{i18n.attributes.mode.i18n.value.tv.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "reading",
+                        "value": "{{i18n.attributes.mode.i18n.value.reading.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "antiSnore",
+                        "value": "{{i18n.attributes.mode.i18n.value.antiSnore.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "panelItems": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.label}}",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "name": "setMode",
+                    "alternatives": [
+                        {
+                            "key": "preset1",
+                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.preset1.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "preset2",
+                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.preset2.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "zeroG",
+                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.zeroG.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "flat",
+                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.flat.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "tv",
+                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.tv.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "reading",
+                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.reading.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "antiSnore",
+                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.antiSnore.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "argumentType": "string",
+                    "supportedValues": "supportedModes.value"
+                },
+                "state": {
+                    "value": "mode.value",
+                    "valueType": "string",
+                    "alternatives": [
+                        {
+                            "key": "preset1",
+                            "value": "{{i18n.attributes.mode.i18n.value.preset1.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "preset2",
+                            "value": "{{i18n.attributes.mode.i18n.value.preset2.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "zeroG",
+                            "value": "{{i18n.attributes.mode.i18n.value.zeroG.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "flat",
+                            "value": "{{i18n.attributes.mode.i18n.value.flat.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "tv",
+                            "value": "{{i18n.attributes.mode.i18n.value.tv.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "reading",
+                            "value": "{{i18n.attributes.mode.i18n.value.reading.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "antiSnore",
+                            "value": "{{i18n.attributes.mode.i18n.value.antiSnore.label}}",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "label": "{{i18n.commands.start.label}}",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "name": "start",
+                    "alternatives": [
+                        {
+                            "key": "headUp",
+                            "value": "{{i18n.commands.start.arguments.position.i18n.headUp.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "headDown",
+                            "value": "{{i18n.commands.start.arguments.position.i18n.headDown.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "footUp",
+                            "value": "{{i18n.commands.start.arguments.position.i18n.footUp.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "footDown",
+                            "value": "{{i18n.commands.start.arguments.position.i18n.footDown.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "elevationUp",
+                            "value": "{{i18n.commands.start.arguments.position.i18n.elevationUp.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "elevationDown",
+                            "value": "{{i18n.commands.start.arguments.position.i18n.elevationDown.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "argumentType": "string",
+                    "supportedValues": "supportedMotionPositions.value"
+                }
+            }
+        },
+        {
+            "label": "{{i18n.commands.stop.label}}",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "name": "stop",
+                    "alternatives": [
+                        {
+                            "key": "headUp",
+                            "value": "{{i18n.commands.stop.arguments.position.i18n.headUp.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "headDown",
+                            "value": "{{i18n.commands.stop.arguments.position.i18n.headDown.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "footUp",
+                            "value": "{{i18n.commands.stop.arguments.position.i18n.footUp.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "footDown",
+                            "value": "{{i18n.commands.stop.arguments.position.i18n.footDown.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "elevationUp",
+                            "value": "{{i18n.commands.stop.arguments.position.i18n.elevationUp.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "elevationDown",
+                            "value": "{{i18n.commands.stop.arguments.position.i18n.elevationDown.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "argumentType": "string",
+                    "supportedValues": "supportedMotionPositions.value"
+                }
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "preset1",
+                            "value": "{{i18n.attributes.mode.i18n.value.preset1.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "preset2",
+                            "value": "{{i18n.attributes.mode.i18n.value.preset2.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "zeroG",
+                            "value": "{{i18n.attributes.mode.i18n.value.zeroG.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "flat",
+                            "value": "{{i18n.attributes.mode.i18n.value.flat.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "tv",
+                            "value": "{{i18n.attributes.mode.i18n.value.tv.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "reading",
+                            "value": "{{i18n.attributes.mode.i18n.value.reading.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "antiSnore",
+                            "value": "{{i18n.attributes.mode.i18n.value.antiSnore.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedModes.value",
+                    "value": "mode.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "preset1",
+                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.preset1.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "preset2",
+                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.preset2.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "zeroG",
+                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.zeroG.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "flat",
+                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.flat.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "tv",
+                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.tv.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "reading",
+                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.reading.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "antiSnore",
+                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.antiSnore.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedModes.value",
+                    "command": "setMode",
+                    "argumentType": "string"
+                }
+            }
+        ]
+    },
+    "id": "motionBed",
+    "version": 1
+}

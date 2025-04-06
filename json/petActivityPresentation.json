@@ -1,0 +1,223 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{petActivity.value}}",
+                "alternatives": [
+                    {
+                        "key": "idle",
+                        "value": "{{i18n.attributes.petActivity.i18n.value.idle.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "eating",
+                        "value": "{{i18n.attributes.petActivity.i18n.value.eating.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "pooping",
+                        "value": "{{i18n.attributes.petActivity.i18n.value.pooping.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "sleeping",
+                        "value": "{{i18n.attributes.petActivity.i18n.value.sleeping.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "drinkingWater",
+                        "value": "{{i18n.attributes.petActivity.i18n.value.drinkingWater.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "peeing",
+                        "value": "{{i18n.attributes.petActivity.i18n.value.peeing.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "playing",
+                        "value": "{{i18n.attributes.petActivity.i18n.value.playing.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "resting",
+                        "value": "{{i18n.attributes.petActivity.i18n.value.resting.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "walking",
+                        "value": "{{i18n.attributes.petActivity.i18n.value.walking.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "running",
+                        "value": "{{i18n.attributes.petActivity.i18n.value.running.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "barking",
+                        "value": "{{i18n.attributes.petActivity.i18n.value.barking.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "meowing",
+                        "value": "{{i18n.attributes.petActivity.i18n.value.meowing.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "panelItems": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{petActivity.value}}",
+                "alternatives": [
+                    {
+                        "key": "idle",
+                        "value": "{{i18n.attributes.petActivity.i18n.value.idle.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "eating",
+                        "value": "{{i18n.attributes.petActivity.i18n.value.eating.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "pooping",
+                        "value": "{{i18n.attributes.petActivity.i18n.value.pooping.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "sleeping",
+                        "value": "{{i18n.attributes.petActivity.i18n.value.sleeping.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "drinkingWater",
+                        "value": "{{i18n.attributes.petActivity.i18n.value.drinkingWater.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "peeing",
+                        "value": "{{i18n.attributes.petActivity.i18n.value.peeing.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "playing",
+                        "value": "{{i18n.attributes.petActivity.i18n.value.playing.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "resting",
+                        "value": "{{i18n.attributes.petActivity.i18n.value.resting.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "walking",
+                        "value": "{{i18n.attributes.petActivity.i18n.value.walking.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "running",
+                        "value": "{{i18n.attributes.petActivity.i18n.value.running.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "barking",
+                        "value": "{{i18n.attributes.petActivity.i18n.value.barking.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "meowing",
+                        "value": "{{i18n.attributes.petActivity.i18n.value.meowing.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "idle",
+                            "value": "{{i18n.attributes.petActivity.i18n.value.idle.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "eating",
+                            "value": "{{i18n.attributes.petActivity.i18n.value.eating.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "pooping",
+                            "value": "{{i18n.attributes.petActivity.i18n.value.pooping.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "sleeping",
+                            "value": "{{i18n.attributes.petActivity.i18n.value.sleeping.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "drinkingWater",
+                            "value": "{{i18n.attributes.petActivity.i18n.value.drinkingWater.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "peeing",
+                            "value": "{{i18n.attributes.petActivity.i18n.value.peeing.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "playing",
+                            "value": "{{i18n.attributes.petActivity.i18n.value.playing.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "resting",
+                            "value": "{{i18n.attributes.petActivity.i18n.value.resting.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "walking",
+                            "value": "{{i18n.attributes.petActivity.i18n.value.walking.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "running",
+                            "value": "{{i18n.attributes.petActivity.i18n.value.running.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "barking",
+                            "value": "{{i18n.attributes.petActivity.i18n.value.barking.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "meowing",
+                            "value": "{{i18n.attributes.petActivity.i18n.value.meowing.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedPetActivities.value",
+                    "value": "petActivity.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "petActivity",
+    "version": 1
+}

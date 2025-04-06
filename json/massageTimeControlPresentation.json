@@ -1,0 +1,61 @@
+{
+    "detailView": [
+        {
+            "label": "{{i18n.commands.setTime.label}}",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "name": "setTime",
+                    "alternatives": [
+                        {
+                            "key": "0",
+                            "value": "{{i18n.commands.setTime.arguments.massageTime.i18n.0.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "10",
+                            "value": "{{i18n.commands.setTime.arguments.massageTime.i18n.10.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "20",
+                            "value": "{{i18n.commands.setTime.arguments.massageTime.i18n.20.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "30",
+                            "value": "{{i18n.commands.setTime.arguments.massageTime.i18n.30.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "40",
+                            "value": "{{i18n.commands.setTime.arguments.massageTime.i18n.40.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "50",
+                            "value": "{{i18n.commands.setTime.arguments.massageTime.i18n.50.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "60",
+                            "value": "{{i18n.commands.setTime.arguments.massageTime.i18n.60.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "argumentType": "integer",
+                    "supportedValues": "supportedSetTimes.value"
+                }
+            }
+        },
+        {
+            "label": "{{i18n.attributes.completionTime.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{completionTime.value}}"
+            }
+        }
+    ],
+    "id": "massageTimeControl",
+    "version": 1
+}

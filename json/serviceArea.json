@@ -1,0 +1,75 @@
+{
+    "id": "serviceArea",
+    "version": 1,
+    "status": "proposed",
+    "name": "Service Area",
+    "ephemeral": false,
+    "attributes": {
+        "selectedAreas": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "type": "integer",
+                            "minimum": 0
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "setter": "selectAreas",
+            "enumCommands": []
+        },
+        "supportedAreas": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                                "areaId": {
+                                    "type": "integer",
+                                    "minimum": 0
+                                },
+                                "areaName": {
+                                    "type": "string"
+                                }
+                            },
+                            "required": [
+                                "areaId",
+                                "areaName"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "selectAreas": {
+            "name": "selectAreas",
+            "arguments": [
+                {
+                    "name": "areas",
+                    "optional": false,
+                    "schema": {
+                        "type": "array",
+                        "items": {
+                            "type": "integer",
+                            "minimum": 0
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

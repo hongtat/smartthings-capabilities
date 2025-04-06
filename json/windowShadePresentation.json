@@ -214,8 +214,18 @@
                             "type": "inactive"
                         },
                         {
+                            "key": "closing",
+                            "value": "{{i18n.attributes.windowShade.i18n.value.closing.label}}",
+                            "type": "inactive"
+                        },
+                        {
                             "key": "open",
                             "value": "{{i18n.attributes.windowShade.i18n.value.open.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "opening",
+                            "value": "{{i18n.attributes.windowShade.i18n.value.opening.label}}",
                             "type": "active"
                         },
                         {

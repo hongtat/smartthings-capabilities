@@ -1,0 +1,72 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{massageState.value}}",
+                "alternatives": [
+                    {
+                        "key": "on",
+                        "value": "{{i18n.attributes.massageState.i18n.value.on.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "off",
+                        "value": "{{i18n.attributes.massageState.i18n.value.off.label}}",
+                        "type": "inactive"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "panelItems": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{massageState.value}}",
+                "alternatives": [
+                    {
+                        "key": "on",
+                        "value": "{{i18n.attributes.massageState.i18n.value.on.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "off",
+                        "value": "{{i18n.attributes.massageState.i18n.value.off.label}}",
+                        "type": "inactive"
+                    }
+                ]
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "on",
+                            "value": "{{i18n.attributes.massageState.i18n.value.on.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "off",
+                            "value": "{{i18n.attributes.massageState.i18n.value.off.label}}",
+                            "type": "inactive"
+                        }
+                    ],
+                    "value": "massageState.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "massageOperatingState",
+    "version": 1
+}

@@ -1,0 +1,124 @@
+{
+    "id": "endToEndEncryption",
+    "version": 1,
+    "status": "proposed",
+    "name": "End to End Encryption",
+    "ephemeral": true,
+    "attributes": {
+        "nonce": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "schema": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                                "nonce": {
+                                    "type": "string"
+                                },
+                                "clientId": {
+                                    "title": "String",
+                                    "type": "string",
+                                    "maxLength": 255
+                                }
+                            },
+                            "required": [
+                                "nonce",
+                                "clientId"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "encryptedKek": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "schema": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                                "key": {
+                                    "type": "string"
+                                },
+                                "clientId": {
+                                    "title": "String",
+                                    "type": "string",
+                                    "maxLength": 255
+                                }
+                            },
+                            "required": [
+                                "key",
+                                "clientId"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "generateNonce": {
+            "name": "generateNonce",
+            "arguments": [
+                {
+                    "name": "clientId",
+                    "optional": false,
+                    "schema": {
+                        "title": "String",
+                        "type": "string",
+                        "maxLength": 255
+                    }
+                }
+            ]
+        },
+        "encryptKek": {
+            "name": "encryptKek",
+            "arguments": [
+                {
+                    "name": "nonce",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                },
+                {
+                    "name": "signature",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                },
+                {
+                    "name": "certificate",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                },
+                {
+                    "name": "clientId",
+                    "optional": false,
+                    "schema": {
+                        "title": "String",
+                        "type": "string",
+                        "maxLength": 255
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "id": "massageTimeChange",
+    "version": 1,
+    "status": "proposed",
+    "name": "Massage Time Change",
+    "ephemeral": false,
+    "attributes": [],
+    "commands": {
+        "nextTime": {
+            "name": "nextTime",
+            "arguments": []
+        }
+    }
+}

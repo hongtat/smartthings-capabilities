@@ -1,0 +1,51 @@
+{
+    "detailView": [
+        {
+            "label": "{{i18n.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{lifespan.value}}"
+            }
+        },
+        {
+            "label": "{{i18n.attributes.type.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{type.value}}",
+                "alternatives": [
+                    {
+                        "key": "desiccant",
+                        "value": "{{i18n.attributes.type.i18n.value.desiccant.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "diffuser",
+                        "value": "{{i18n.attributes.type.i18n.value.diffuser.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "filter",
+                        "value": "{{i18n.attributes.type.i18n.value.filter.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "{{i18n.attributes.startDate.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{startDate.value}}"
+            }
+        },
+        {
+            "label": "{{i18n.commands.reset.label}}",
+            "displayType": "pushButton",
+            "pushButton": {
+                "command": "reset"
+            }
+        }
+    ],
+    "id": "consumableLife",
+    "version": 1
+}

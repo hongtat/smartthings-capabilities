@@ -1,0 +1,119 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{massageState.value}}",
+                "alternatives": [
+                    {
+                        "key": "on",
+                        "value": "{{i18n.attributes.massageState.i18n.value.on.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "off",
+                        "value": "{{i18n.attributes.massageState.i18n.value.off.label}}",
+                        "type": "inactive"
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "displayType": "standbyPowerSwitch",
+                "standbyPowerSwitch": {
+                    "command": {
+                        "on": "start",
+                        "off": "stop"
+                    },
+                    "state": {
+                        "value": "massageState.value",
+                        "valueType": "string",
+                        "on": "on",
+                        "off": "off"
+                    }
+                }
+            }
+        ],
+        "panelItems": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.label}}",
+            "displayType": "standbyPowerSwitch",
+            "standbyPowerSwitch": {
+                "command": {
+                    "on": "start",
+                    "off": "stop"
+                },
+                "state": {
+                    "value": "massageState.value",
+                    "valueType": "string",
+                    "on": "on",
+                    "off": "off",
+                    "label": "{{massageState.value}}",
+                    "alternatives": [
+                        {
+                            "key": "on",
+                            "value": "{{i18n.attributes.massageState.i18n.value.on.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "off",
+                            "value": "{{i18n.attributes.massageState.i18n.value.off.label}}",
+                            "type": "inactive"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "on",
+                            "value": "{{i18n.attributes.massageState.i18n.value.on.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "off",
+                            "value": "{{i18n.attributes.massageState.i18n.value.off.label}}",
+                            "type": "inactive"
+                        }
+                    ],
+                    "value": "massageState.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                },
+                "emphasis": true
+            }
+        ],
+        "actions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "start",
+                            "value": "{{i18n.commands.start.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "stop",
+                            "value": "{{i18n.commands.stop.label}}",
+                            "type": "inactive"
+                        }
+                    ]
+                },
+                "emphasis": true
+            }
+        ]
+    },
+    "id": "massageOperating",
+    "version": 1
+}

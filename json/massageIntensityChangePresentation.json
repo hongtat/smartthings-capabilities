@@ -1,0 +1,34 @@
+{
+    "detailView": [
+        {
+            "label": "{{i18n.label}}",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "name": "nextIntensity",
+                    "alternatives": [
+                        {
+                            "key": "head",
+                            "value": "{{i18n.commands.nextIntensity.arguments.position.i18n.head.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "foot",
+                            "value": "{{i18n.commands.nextIntensity.arguments.position.i18n.foot.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "whole",
+                            "value": "{{i18n.commands.nextIntensity.arguments.position.i18n.whole.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "argumentType": "string",
+                    "supportedValues": "supportedPositions.value"
+                }
+            }
+        }
+    ],
+    "id": "massageIntensityChange",
+    "version": 1
+}

@@ -1,0 +1,156 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{robotState.value}}",
+                "alternatives": [
+                    {
+                        "key": "available",
+                        "value": "{{i18n.attributes.robotState.i18n.value.available.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "using",
+                        "value": "{{i18n.attributes.robotState.i18n.value.using.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "error",
+                        "value": "{{i18n.attributes.robotState.i18n.value.error.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "called",
+                        "value": "{{i18n.attributes.robotState.i18n.value.called.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "callFailed",
+                        "value": "{{i18n.attributes.robotState.i18n.value.callFailed.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "panelItems": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.label}}",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "alternatives": [
+                        {
+                            "key": "call",
+                            "value": "{{i18n.commands.call.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "cancel",
+                            "value": "{{i18n.commands.cancel.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedRobotCommands.value"
+                },
+                "state": {
+                    "value": "robotState.value",
+                    "valueType": "string",
+                    "alternatives": [
+                        {
+                            "key": "available",
+                            "value": "{{i18n.attributes.robotState.i18n.value.available.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "using",
+                            "value": "{{i18n.attributes.robotState.i18n.value.using.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "error",
+                            "value": "{{i18n.attributes.robotState.i18n.value.error.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "called",
+                            "value": "{{i18n.attributes.robotState.i18n.value.called.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "callFailed",
+                            "value": "{{i18n.attributes.robotState.i18n.value.callFailed.label}}",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "available",
+                            "value": "{{i18n.attributes.robotState.i18n.value.available.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "using",
+                            "value": "{{i18n.attributes.robotState.i18n.value.using.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "error",
+                            "value": "{{i18n.attributes.robotState.i18n.value.error.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "called",
+                            "value": "{{i18n.attributes.robotState.i18n.value.called.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "callFailed",
+                            "value": "{{i18n.attributes.robotState.i18n.value.callFailed.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedRobotStates.value",
+                    "value": "robotState.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "call",
+                            "value": "{{i18n.commands.call.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "cancel",
+                            "value": "{{i18n.commands.cancel.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedRobotCommands.value"
+                }
+            }
+        ]
+    },
+    "id": "deliveryRobotCall",
+    "version": 1
+}

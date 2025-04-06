@@ -16,14 +16,12 @@
                             "minimum": {
                                 "title": "FlowValue",
                                 "type": "number",
-                                "minimum": 0,
-                                "maximum": 10000
+                                "minimum": 0
                             },
                             "maximum": {
                                 "title": "FlowValue",
                                 "type": "number",
-                                "minimum": 0,
-                                "maximum": 10000
+                                "minimum": 0
                             }
                         },
                         "required": [
@@ -51,6 +49,7 @@
                 "type": "object",
                 "properties": {
                     "value": {
+                        "title": "FlowValue",
                         "type": "number",
                         "minimum": 0
                     },

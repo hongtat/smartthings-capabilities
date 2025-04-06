@@ -1,0 +1,38 @@
+{
+    "id": "massageOperating",
+    "version": 1,
+    "status": "proposed",
+    "name": "Massage Operating",
+    "ephemeral": false,
+    "attributes": {
+        "massageState": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "off",
+                            "on"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "stop": {
+            "name": "stop",
+            "arguments": []
+        },
+        "start": {
+            "name": "start",
+            "arguments": []
+        }
+    }
+}

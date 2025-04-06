@@ -1,21 +1,22 @@
 {
-    "id": "containerState",
+    "id": "deliveryRobotCall",
     "version": 1,
     "status": "proposed",
-    "name": "Container State",
+    "name": "Delivery Robot Call",
     "ephemeral": false,
     "attributes": {
-        "containerState": {
+        "robotState": {
             "schema": {
                 "type": "object",
                 "properties": {
                     "value": {
-                        "title": "ContainerState",
                         "type": "string",
                         "enum": [
-                            "empty",
-                            "normal",
-                            "full"
+                            "available",
+                            "using",
+                            "error",
+                            "called",
+                            "callFailed"
                         ]
                     }
                 },
@@ -26,19 +27,20 @@
             },
             "enumCommands": []
         },
-        "supportedContainerStates": {
+        "supportedRobotStates": {
             "schema": {
                 "type": "object",
                 "properties": {
                     "value": {
                         "type": "array",
                         "items": {
-                            "title": "ContainerState",
                             "type": "string",
                             "enum": [
-                                "empty",
-                                "normal",
-                                "full"
+                                "available",
+                                "using",
+                                "error",
+                                "called",
+                                "callFailed"
                             ]
                         }
                     }
@@ -48,29 +50,35 @@
             },
             "enumCommands": []
         },
-        "content": {
+        "supportedRobotCommands": {
             "schema": {
                 "type": "object",
                 "properties": {
                     "value": {
-                        "title": "ContainerContent",
-                        "type": "string",
-                        "enum": [
-                            "food",
-                            "water",
-                            "liquid",
-                            "consumable",
-                            "excretions"
-                        ]
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "enum": [
+                                "call",
+                                "cancel"
+                            ]
+                        }
                     }
                 },
                 "additionalProperties": false,
-                "required": [
-                    "value"
-                ]
+                "required": []
             },
             "enumCommands": []
         }
     },
-    "commands": []
+    "commands": {
+        "call": {
+            "name": "call",
+            "arguments": []
+        },
+        "cancel": {
+            "name": "cancel",
+            "arguments": []
+        }
+    }
 }

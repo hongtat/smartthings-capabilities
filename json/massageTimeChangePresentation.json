@@ -1,0 +1,25 @@
+{
+    "dashboard": {
+        "states": [],
+        "actions": [
+            {
+                "displayType": "pushButton",
+                "pushButton": {
+                    "command": "nextTime"
+                }
+            }
+        ],
+        "panelItems": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.commands.nextTime.label}}",
+            "displayType": "pushButton",
+            "pushButton": {
+                "command": "nextTime"
+            }
+        }
+    ],
+    "id": "massageTimeChange",
+    "version": 1
+}

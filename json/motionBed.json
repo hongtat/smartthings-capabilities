@@ -1,0 +1,157 @@
+{
+    "id": "motionBed",
+    "version": 1,
+    "status": "proposed",
+    "name": "Motion Bed",
+    "ephemeral": false,
+    "attributes": {
+        "mode": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "preset1",
+                            "preset2",
+                            "zeroG",
+                            "flat",
+                            "tv",
+                            "reading",
+                            "antiSnore",
+                            "noMode"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
+        "supportedMotionPositions": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "enum": [
+                                "headUp",
+                                "headDown",
+                                "footUp",
+                                "footDown",
+                                "elevationUp",
+                                "elevationDown"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
+        "statelessMode": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "boolean"
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
+        "supportedModes": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "enum": [
+                                "preset1",
+                                "preset2",
+                                "zeroG",
+                                "flat",
+                                "tv",
+                                "reading",
+                                "antiSnore"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "stop": {
+            "name": "stop",
+            "arguments": [
+                {
+                    "name": "position",
+                    "optional": false,
+                    "schema": {
+                        "type": "string",
+                        "enum": [
+                            "headUp",
+                            "headDown",
+                            "footUp",
+                            "footDown",
+                            "elevationUp",
+                            "elevationDown"
+                        ]
+                    }
+                }
+            ]
+        },
+        "setMode": {
+            "name": "setMode",
+            "arguments": [
+                {
+                    "name": "mode",
+                    "optional": false,
+                    "schema": {
+                        "type": "string",
+                        "enum": [
+                            "preset1",
+                            "preset2",
+                            "zeroG",
+                            "flat",
+                            "tv",
+                            "reading",
+                            "antiSnore"
+                        ]
+                    }
+                }
+            ]
+        },
+        "start": {
+            "name": "start",
+            "arguments": [
+                {
+                    "name": "position",
+                    "optional": false,
+                    "schema": {
+                        "type": "string",
+                        "enum": [
+                            "headUp",
+                            "headDown",
+                            "footUp",
+                            "footDown",
+                            "elevationUp",
+                            "elevationDown"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

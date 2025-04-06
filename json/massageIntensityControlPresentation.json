@@ -1,0 +1,51 @@
+{
+    "detailView": [
+        {
+            "label": "{{i18n.attributes.intensityHead.label}}",
+            "displayType": "slider",
+            "slider": {
+                "range": [
+                    0,
+                    10
+                ],
+                "supportedValues": "intensityRange.value",
+                "command": "setIntensityHead",
+                "argumentType": "integer",
+                "value": "intensityHead.value",
+                "valueType": "integer"
+            }
+        },
+        {
+            "label": "{{i18n.attributes.intensityFoot.label}}",
+            "displayType": "slider",
+            "slider": {
+                "range": [
+                    0,
+                    10
+                ],
+                "supportedValues": "intensityRange.value",
+                "command": "setIntensityFoot",
+                "argumentType": "integer",
+                "value": "intensityFoot.value",
+                "valueType": "integer"
+            }
+        },
+        {
+            "label": "{{i18n.attributes.intensityWhole.label}}",
+            "displayType": "slider",
+            "slider": {
+                "range": [
+                    0,
+                    10
+                ],
+                "supportedValues": "intensityRange.value",
+                "command": "setIntensityWhole",
+                "argumentType": "integer",
+                "value": "intensityWhole.value",
+                "valueType": "integer"
+            }
+        }
+    ],
+    "id": "massageIntensityControl",
+    "version": 1
+}

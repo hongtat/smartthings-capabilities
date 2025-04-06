@@ -1,0 +1,185 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{lightControllerMode.value}}",
+                "alternatives": [
+                    {
+                        "key": "rgbw",
+                        "value": "{{i18n.attributes.lightControllerMode.i18n.value.rgbw.label}}",
+                        "type": "active",
+                        "description": "{{i18n.attributes.lightControllerMode.i18n.value.rgbw.description}}"
+                    },
+                    {
+                        "key": "rgb",
+                        "value": "{{i18n.attributes.lightControllerMode.i18n.value.rgb.label}}",
+                        "type": "active",
+                        "description": "{{i18n.attributes.lightControllerMode.i18n.value.rgb.description}}"
+                    },
+                    {
+                        "key": "colorTemperature",
+                        "value": "{{i18n.attributes.lightControllerMode.i18n.value.colorTemperature.label}}",
+                        "type": "active",
+                        "description": "{{i18n.attributes.lightControllerMode.i18n.value.colorTemperature.description}}"
+                    },
+                    {
+                        "key": "dimmer",
+                        "value": "{{i18n.attributes.lightControllerMode.i18n.value.dimmer.label}}",
+                        "type": "active",
+                        "description": "{{i18n.attributes.lightControllerMode.i18n.value.dimmer.description}}"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "panelItems": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.label}}",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "name": "setLightControllerMode",
+                    "alternatives": [
+                        {
+                            "key": "rgbw",
+                            "value": "{{i18n.commands.setLightControllerMode.arguments.mode.i18n.rgbw.label}}",
+                            "type": "active",
+                            "description": "{{i18n.attributes.lightControllerMode.i18n.value.rgbw.description}}"
+                        },
+                        {
+                            "key": "rgb",
+                            "value": "{{i18n.commands.setLightControllerMode.arguments.mode.i18n.rgb.label}}",
+                            "type": "active",
+                            "description": "{{i18n.attributes.lightControllerMode.i18n.value.rgb.description}}"
+                        },
+                        {
+                            "key": "colorTemperature",
+                            "value": "{{i18n.commands.setLightControllerMode.arguments.mode.i18n.colorTemperature.label}}",
+                            "type": "active",
+                            "description": "{{i18n.attributes.lightControllerMode.i18n.value.colorTemperature.description}}"
+                        },
+                        {
+                            "key": "dimmer",
+                            "value": "{{i18n.commands.setLightControllerMode.arguments.mode.i18n.dimmer.label}}",
+                            "type": "active",
+                            "description": "{{i18n.attributes.lightControllerMode.i18n.value.dimmer.description}}"
+                        }
+                    ],
+                    "argumentType": "string",
+                    "supportedValues": "supportedLightControllerModes.value"
+                },
+                "state": {
+                    "value": "lightControllerMode.value",
+                    "valueType": "string",
+                    "alternatives": [
+                        {
+                            "key": "rgbw",
+                            "value": "{{i18n.attributes.lightControllerMode.i18n.value.rgbw.label}}",
+                            "type": "active",
+                            "description": "{{i18n.attributes.lightControllerMode.i18n.value.rgbw.description}}"
+                        },
+                        {
+                            "key": "rgb",
+                            "value": "{{i18n.attributes.lightControllerMode.i18n.value.rgb.label}}",
+                            "type": "active",
+                            "description": "{{i18n.attributes.lightControllerMode.i18n.value.rgb.description}}"
+                        },
+                        {
+                            "key": "colorTemperature",
+                            "value": "{{i18n.attributes.lightControllerMode.i18n.value.colorTemperature.label}}",
+                            "type": "active",
+                            "description": "{{i18n.attributes.lightControllerMode.i18n.value.colorTemperature.description}}"
+                        },
+                        {
+                            "key": "dimmer",
+                            "value": "{{i18n.attributes.lightControllerMode.i18n.value.dimmer.label}}",
+                            "type": "active",
+                            "description": "{{i18n.attributes.lightControllerMode.i18n.value.dimmer.description}}"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "rgbw",
+                            "value": "{{i18n.attributes.lightControllerMode.i18n.value.rgbw.label}}",
+                            "type": "active",
+                            "description": "{{i18n.attributes.lightControllerMode.i18n.value.rgbw.description}}"
+                        },
+                        {
+                            "key": "rgb",
+                            "value": "{{i18n.attributes.lightControllerMode.i18n.value.rgb.label}}",
+                            "type": "active",
+                            "description": "{{i18n.attributes.lightControllerMode.i18n.value.rgb.description}}"
+                        },
+                        {
+                            "key": "colorTemperature",
+                            "value": "{{i18n.attributes.lightControllerMode.i18n.value.colorTemperature.label}}",
+                            "type": "active",
+                            "description": "{{i18n.attributes.lightControllerMode.i18n.value.colorTemperature.description}}"
+                        },
+                        {
+                            "key": "dimmer",
+                            "value": "{{i18n.attributes.lightControllerMode.i18n.value.dimmer.label}}",
+                            "type": "active",
+                            "description": "{{i18n.attributes.lightControllerMode.i18n.value.dimmer.description}}"
+                        }
+                    ],
+                    "supportedValues": "supportedLightControllerModes.value",
+                    "value": "lightControllerMode.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "rgbw",
+                            "value": "{{i18n.commands.setLightControllerMode.arguments.mode.i18n.rgbw.label}}",
+                            "type": "active",
+                            "description": "{{i18n.attributes.lightControllerMode.i18n.value.rgbw.description}}"
+                        },
+                        {
+                            "key": "rgb",
+                            "value": "{{i18n.commands.setLightControllerMode.arguments.mode.i18n.rgb.label}}",
+                            "type": "active",
+                            "description": "{{i18n.attributes.lightControllerMode.i18n.value.rgb.description}}"
+                        },
+                        {
+                            "key": "colorTemperature",
+                            "value": "{{i18n.commands.setLightControllerMode.arguments.mode.i18n.colorTemperature.label}}",
+                            "type": "active",
+                            "description": "{{i18n.attributes.lightControllerMode.i18n.value.colorTemperature.description}}"
+                        },
+                        {
+                            "key": "dimmer",
+                            "value": "{{i18n.commands.setLightControllerMode.arguments.mode.i18n.dimmer.label}}",
+                            "type": "active",
+                            "description": "{{i18n.attributes.lightControllerMode.i18n.value.dimmer.description}}"
+                        }
+                    ],
+                    "supportedValues": "supportedLightControllerModes.value",
+                    "command": "setLightControllerMode",
+                    "argumentType": "string"
+                }
+            }
+        ]
+    },
+    "id": "lightControllerMode",
+    "version": 1
+}

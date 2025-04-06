@@ -1,0 +1,122 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{containerState.value}}",
+                "alternatives": [
+                    {
+                        "key": "empty",
+                        "value": "{{i18n.attributes.containerState.i18n.value.empty.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "normal",
+                        "value": "{{i18n.attributes.containerState.i18n.value.normal.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "full",
+                        "value": "{{i18n.attributes.containerState.i18n.value.full.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "panelItems": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.attributes.containerState.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{containerState.value}}",
+                "alternatives": [
+                    {
+                        "key": "empty",
+                        "value": "{{i18n.attributes.containerState.i18n.value.empty.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "normal",
+                        "value": "{{i18n.attributes.containerState.i18n.value.normal.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "full",
+                        "value": "{{i18n.attributes.containerState.i18n.value.full.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "{{i18n.attributes.content.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{content.value}}",
+                "alternatives": [
+                    {
+                        "key": "food",
+                        "value": "{{i18n.attributes.content.i18n.value.food.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "water",
+                        "value": "{{i18n.attributes.content.i18n.value.water.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "liquid",
+                        "value": "{{i18n.attributes.content.i18n.value.liquid.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "consumable",
+                        "value": "{{i18n.attributes.content.i18n.value.consumable.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "excretions",
+                        "value": "{{i18n.attributes.content.i18n.value.excretions.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "empty",
+                            "value": "{{i18n.attributes.containerState.i18n.value.empty.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "normal",
+                            "value": "{{i18n.attributes.containerState.i18n.value.normal.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "full",
+                            "value": "{{i18n.attributes.containerState.i18n.value.full.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedContainerStates.value",
+                    "value": "containerState.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "containerState",
+    "version": 1
+}

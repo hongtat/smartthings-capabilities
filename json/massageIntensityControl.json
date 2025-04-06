@@ -1,0 +1,136 @@
+{
+    "id": "massageIntensityControl",
+    "version": 1,
+    "status": "proposed",
+    "name": "Massage Intensity Control",
+    "ephemeral": false,
+    "attributes": {
+        "intensityFoot": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "integer"
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
+        "supportedPositions": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "enum": [
+                                "head",
+                                "foot",
+                                "whole"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
+        "intensityWhole": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "integer"
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
+        "intensityHead": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "integer"
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
+        "intensityRange": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                            "minimum": {
+                                "type": "integer"
+                            },
+                            "maximum": {
+                                "type": "integer"
+                            },
+                            "step": {
+                                "type": "integer"
+                            }
+                        },
+                        "required": [
+                            "minimum",
+                            "maximum"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setIntensityFoot": {
+            "name": "setIntensityFoot",
+            "arguments": [
+                {
+                    "name": "intensity",
+                    "optional": false,
+                    "schema": {
+                        "type": "integer"
+                    }
+                }
+            ]
+        },
+        "setIntensityWhole": {
+            "name": "setIntensityWhole",
+            "arguments": [
+                {
+                    "name": "intensity",
+                    "optional": false,
+                    "schema": {
+                        "type": "integer"
+                    }
+                }
+            ]
+        },
+        "setIntensityHead": {
+            "name": "setIntensityHead",
+            "arguments": [
+                {
+                    "name": "intensity",
+                    "optional": false,
+                    "schema": {
+                        "type": "integer"
+                    }
+                }
+            ]
+        }
+    }
+}

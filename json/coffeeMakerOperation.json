@@ -1,0 +1,169 @@
+{
+    "id": "coffeeMakerOperation",
+    "version": 1,
+    "status": "proposed",
+    "name": "Coffee Maker Operation",
+    "ephemeral": false,
+    "attributes": {
+        "errorState": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "title": "CoffeeMakerError",
+                            "type": "string",
+                            "enum": [
+                                "noError",
+                                "abnormalCommunication",
+                                "boilerDisconnection",
+                                "ntcAbnormality",
+                                "transmissionSystemAbnormality",
+                                "grindingSystemAbnormality",
+                                "pipelineBlockage",
+                                "coffeeBeansRunOut",
+                                "temperatureIsTooLow",
+                                "temperatureIsTooHigh",
+                                "waterTankShortOfWater",
+                                "valveFaulty",
+                                "brewingDoorOpen",
+                                "wasteWaterTrayError",
+                                "wasteWaterTrayFull",
+                                "coffeeGroundsTankError",
+                                "coffeeGroundsTankFull",
+                                "coffeeSpoutCoverError",
+                                "brewingUnitError",
+                                "brewingBoilerError"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "coffeeMakerOperationStatus": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "CoffeeMakerOperationStatus",
+                        "type": "string",
+                        "enum": [
+                            "initializing",
+                            "ready",
+                            "making",
+                            "complete",
+                            "error"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "supportedCoffeeMakerOperationStatus": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "title": "CoffeeMakerOperationStatus",
+                            "type": "string",
+                            "enum": [
+                                "initializing",
+                                "ready",
+                                "making",
+                                "complete",
+                                "error"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "supportedMenu": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "title": "CoffeeMakerMenu",
+                            "type": "string",
+                            "enum": [
+                                "espresso",
+                                "doubleEspresso",
+                                "americano",
+                                "hotWater",
+                                "latteMacchiato",
+                                "cappuccino",
+                                "coffeeLatte",
+                                "hotMilk",
+                                "classicCoffee",
+                                "cremaCoffee",
+                                "ristretto",
+                                "flatWhite",
+                                "aPotOfCoffee",
+                                "hotMilkFoam",
+                                "cafeaulait",
+                                "demitasse"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "makeCoffee": {
+            "name": "makeCoffee",
+            "arguments": [
+                {
+                    "name": "state",
+                    "optional": false,
+                    "schema": {
+                        "title": "CoffeeMakerMenu",
+                        "type": "string",
+                        "enum": [
+                            "espresso",
+                            "doubleEspresso",
+                            "americano",
+                            "hotWater",
+                            "latteMacchiato",
+                            "cappuccino",
+                            "coffeeLatte",
+                            "hotMilk",
+                            "classicCoffee",
+                            "cremaCoffee",
+                            "ristretto",
+                            "flatWhite",
+                            "aPotOfCoffee",
+                            "hotMilkFoam",
+                            "cafeaulait",
+                            "demitasse"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
